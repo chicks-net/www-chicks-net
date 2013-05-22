@@ -1,0 +1,344 @@
+<HTML>
+	<HEAD>
+		<TITLE>Resume of Christopher William Hicks</title>
+	</head>
+<BODY bgcolor="#FFFFFF">
+	<P>
+
+	<H1> Resume of Christopher William Hicks</H1>
+
+<UL>
+	<LI> <A href="#expertise">Expertise</a>
+	<LI> <A href="#accomplishments">Accomplishments</a>
+	<LI> <A href="#references">References</a>
+	<LI> <A href="#contact">Contact</a>
+</UL>
+<TABLE cellpadding=5>
+<TR valign="top">
+	<TD bgcolor="#8080fe" width=20%>
+		<A name="expertise"></a>
+		<H3> <U>Expertise</U> </H3>
+	</td>
+	<TD> </td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#c0c0fe" width=20%>
+		<H3> UNIX </H3>
+
+		<P><I>I use UNIX to include Linux, BSD and
+			the many commercial UNIX derivatives.</I>
+	</td>
+	<TD>
+		<P> My use and knowledge of UNIX is extensive.  I use
+			Linux every day as my primary desktop environment.
+			My experience includes
+			kernel and other systems-level development,
+			systems administration, application development,
+			and Internet connectivity.  Particularly, my
+			knowledge of security issues is extensive and
+			hands-on.  I have setup, created, and analyzed
+			authentication and encryption systems.
+
+		<P> I've managed and developed on the following
+			<B>UNIX versions:</b>
+			Linux (Fedora Core, Red Hat Linux, Slackware, Mandrake, INSERT and others),
+			Solaris (2.x), AIX, 
+			various BSD's,
+			DG-UX,
+			SunOS,
+			NCR SVR4 UNIX,
+			Unisys SVR4.2,
+			HP-UX,
+			UnixWare,
+			SCO,
+			Xenix (286, 386 and 68k),
+			and TI1500 SVR4.
+
+		<P> I've developed training material and taught
+			<I>UNIX Systems Administration</i>,
+			<I>Introduction to UNIX</i>,
+			and <I>UNIX Shell Scripting</i> classes.
+
+	</td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#c0c0fe" width=20%>
+		<H3> Software Development </H3>
+	</td>
+	<TD>
+		<P> I've been involved as a software architect,
+			coder, integration engineer, QA Manager,
+			and field troubleshooter.
+
+		<P> My knowledge of a variety of industries includes
+			manufacturing, insurance, financial investments,
+			publishing,
+			medical records, weather, student records,
+			human resources, and ticket sales.
+
+		<P> I've developed with the following
+			<B>languages:</b> Extensive Perl C, C++, Java,
+			shell (sh, ksh, bash, and csh), ObjectPAL.
+			Significant JavaScript,
+			BASIC (many including Business BASIC),
+			Assembler (primarily 68k, x86 and sparc),
+			tcl/tk, Pascal, PAL,
+			LISP, and PostScript.
+			Some eLISP, Forth, Python, Assembler (z80 and 65xx).
+
+		<P> I've developed training material for and taught Perl classes
+		from introductory to advanced topics.
+		I've taught Java, JavaScript, and HTML classes.
+	</td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#c0c0fe" width=20%>
+		<H3> Databases </H3>
+	</td>
+	<TD>
+		<P> I have done considerable work in database analysis,
+			design, development, and administration.
+			My work emphasizes normalization, concurrency,
+			and efficiency while excelling at usability.
+
+		<P> My experience includes the following
+			<B>RDMBS's:</b> Primarily <A href="http://www.mysql.com/">MySQL</a>
+			and Oracle (5.0 through 8.x).
+			Some Sybase, PostgreSQL, Interbase, Informix, DB2, and Progress.
+			I've also done extensive work with various desktop
+			database products.
+
+	</td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#c0c0fe" width=20%>
+		<H3> Networks </H3>
+	</td>
+	<TD>
+		<P> As in my other areas of knowledge, my networking
+			knowledge includes a strong mix of theoretical
+			knowledge with practical experience.
+			I have done considerable work with tcp/ip, 
+			DECnet, Novell ipx, and Microsoft NetBEUI.
+			I have worked on Wireless (802.11b/g),
+			WAN's (from dial-up to T3 and satellite)
+			and LAN's (Ethernet and Token Ring).
+
+		<P> I've configured equipment from the following
+			<B>router and networking equipment vendors:</b>
+			Livingston, Cisco, Farallon, 3Com, IBM, Ascend,
+			Novell, Microsoft, Bay, Microcom,
+			DEC, HP, Synoptics.
+
+	</td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#8080fe" width=20%>
+		<A name="accomplishments"></a>
+		<H3> <U>Accomplishments</u> </H3>
+	</td>
+	<TD> </td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#c0c0fe" width=20%>
+		<H3> Software </H3>
+	</td>
+	<TD>
+		<P> I have been the primary software developer on the
+			following software projects:
+		<UL>
+			<LI> <B>National Weather Service Advanced Hydrologic Prediction Services:</b> 
+				I was brought in to manage the servers that were running
+				AHPS for the NWS Eastern Region.  Since then I have completely rewritten the web
+				front end and created a web-based management tool that
+				users in Weather Forecast Offices (WFO's) use to manage
+				the data that appears on the web.  My work is now being used
+				nationally exclusively.  This work included
+				significant amounts of parsing to translate text files
+				into a database, GIS work to dynamically create maps,
+				data analysis work to produce meaningful graphs, using LDAP
+				for authentication, email notification of changes and general
+				web development.  The publicly visible
+				portion of this can be seen starting with the
+				<A href="http://www.crh.noaa.gov/ahps/about.php">Weather.Gov
+				Rivers Tab</a>.  A demo of the configuration interface
+				used by the WFO's is available upon
+				 <A href="mailto:chicks@chicks.net?subject=AHPS%20Conf%20Access%20Request">request</a>.
+			<LI> <B>iReserve:</b> 
+				I am the lead developer on a web
+				service for managing insurance claims.
+				The site provides a web interface,
+				a SOAP interface, and a SQL interface.
+				Native clients utilizing the SOAP
+				interface are in development.
+				The web site produces custom reports
+				in HTML, PDF, and Microsoft Excel
+				instantly.  This was developed
+				on Red Hat and Fedora Core Linux utilizing
+				MySQL 4.0, Apache 2.0, mod_perl 2.0,
+				and Perl 5.8.
+				A demo is available
+				<a href="https://demo.ireserve.info/">online</a>.
+
+			<LI> <B>DAR:</b> 
+				I created
+				a database to support buying and
+				selling of components.
+				I analyzed the input data, designed
+				the database, built the database server,
+				built the user interface, and processed
+				the many initial inputs into the database.
+				The front-end was based on Java and HTML forms.
+				Approximately 40 gigabytes of input
+				data was processed using perl and SQL
+				into 8 gigabytes of data in the
+				relational database.
+				This was developed using Red Hat
+				Commercial Linux 5.0 and mysql 3.21.
+				
+			<LI> <B>Virginia Department of Health:</b>
+				An Oracle database was created to
+				manage children's Medicare records.  
+				The system increased operator efficiency,
+				reduced input errors, and handled
+				communications with the state's
+				purchase order system and Federal
+				reporting requirements.  I managed
+				several programmers and handled
+				Data Base Administration on Oracle 6
+				and 7 as well as UNIX system
+				administration on an NCR UNIX system.
+
+			<LI> <B>Challenger Business Systems:</b> 
+				A serial-based middleware product in
+				MS-Windows and four different versions
+				of UNIX was created.
+				It multiplexed data from
+				multiple electronic parts catalogs
+				to a dealer business system.
+				This required systems-level programming
+				under HP-UX, Xenix, SCO UNIX, and TI1500
+				System V.  The client program included
+				a rather complete terminal emulator.
+		</ul>
+	</td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#c0c0fe" width=20%>
+		<H3> Web Sites </h3>
+		<P>
+		<I>I have also been involved in several Intranets
+		that are not be listed here</I>
+	</td>
+	<TD>
+		<P> I have been the primary developer of these sites:
+		<UL>
+		<LI>	<a href="http://www.ireserve.info/">iReserve</a> - a web service
+			for medical malpractice claims management
+		<LI>	<a href="http://www.dine-net.com/">Dine-net.Com</a> - a web
+			site specializing in restaurant gift certificates, sadly
+			now defunct
+		</ul>
+
+		<P> I have contributed to the following sites:
+
+		<UL>
+		<LI>	<a href="http://www.widomaker.com/">Widomaker</a> - a local ISP
+		<LI>	<a href="http://www.erh.noaa.gov/">National Weather Service</a>
+		<LI>	<a href="http://www.cac-medmal.com/">CAC MedMal</a> - a medical
+			malpractice claims administrator and TPA (third party auditor)
+		</ul>
+	</td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#c0c0fe" width=20%>
+		<H3> Consulting Clients </H3>
+		<P>
+		<I>Only one topic is listed for each client.  Most clients
+		utilized skills from several areas.</I>
+	</td>
+	<TD>
+		<P> <B>UNIX/Linux</B>: <UL>
+			<LI> Case Corporation
+			<LI> Challenger Business Systems, Inc.
+			<LI> University of Richmond
+		</ul>
+
+		<P> <B>Databases</B>: <UL>
+			<LI> Medical College of Virginia
+			<LI> Commonwealth of Virginia Department of Health
+			<LI> Commonwealth of Virginia Department of General Services
+			<LI> Patient Advocate Foundation
+		</ul>
+
+		<P> <B>Training</B>: <UL>
+			<LI> Circuit City
+			<LI> US News & World Report
+			<LI> Performance Support Systems, Inc.
+		</ul>
+
+		<P> <B>Perl development</B>: <UL>
+			<LI> Colonial Williamsburg Foundation
+			<LI> National Weather Service
+			<LI> Claims Management Resources, Inc. (iReserve)
+			<LI> National Dealer Services
+		</ul>
+	</td>
+</tr>
+<TR valign="top">
+	<TD bgcolor="#8080fe" width=20%>
+		<A name="references"></a>
+		<H3> <U>References</u> </H3>
+	</td>
+	<TD>
+		<P> These individuals are experienced with my abilities and
+		methods.  They are willing to answer your questions.
+
+	<UL>
+		<LI> <B>Aaron Marshall</b> (with the
+			<A href="http://www.patientadvocate.org/">Patient Advocate Foundation</a>,
+			+1 757-873-6668,
+			<A href="mailto:aaronm@patientadvocate.org">aaronm@patientadvocate.org</a>)
+			is familiar with my
+			Linux administration, database administration and Perl development skills.
+		
+		<LI> <B>Frank Sweeney</b> (with
+			<A href="http://www.cac-medmal.com/">CAC-MedMal</a>,
+			+1 757-498-6681,
+			<A href="mailto:frank@cac-medmal.com">frank@cac-medmal.com</a>)
+			is familiar with my
+			UNIX administration, database administration and software development skills.
+		
+		<LI> <B>John Lundin</b> (retired from the 
+			<a href="http://www.richmond.edu/">University
+			of Richmond</a>,
+			<A href="mailto:lundin@fini.net">lundin@fini.net</a>)
+			is familiar with my database and Perl programming skills.
+
+	</ul>
+
+	</td>
+</tr>
+
+<TR valign="top">
+	<TD bgcolor="#8080fe" width=20%>
+		<A name="contact"></a>
+		<H3> <U>Contact</u> </H3>
+	</td>
+	<TD>
+		<P> <B>EMail:</b> <A href="mailto:chicks@chicks.net">chicks@chicks.net</a>
+
+		<P> <B>Address:</b> 349 Bridgewater Drive, Newport News, VA 236-3
+
+		<P> <B>Voice Phone:</b> 757-969-5722
+
+		<P> <B>Egotistical Shrine:</b> <A href="http://www.chicks.net/">http://www.chicks.net/</a>
+	</td>
+</tr>
+	
+</table>
+
+	<P> Thank you for taking the time to review my capabilities.
+
+</BODY>
+</html>
