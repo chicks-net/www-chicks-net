@@ -7,3 +7,9 @@ http://www.chicks.net/ web site
 * try dagger
 * retroblogging
 * implement linting of Markdown, etc. in GHA
+
+### Possibilities
+* calendar view
+* calendly
+* geolocation
+* game character links
