@@ -4,7 +4,6 @@ http://www.chicks.net/ web site
 
 ## TODO
 * Duolingo - https://www.duolingo.com/profile/ChristopherH757 doesn't work for me
-* refer Personal Capital/Empower
 * regroup links
 * icons (maybe after hugo)
 * more StackExchange profiles
