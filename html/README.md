@@ -5,9 +5,8 @@ http://www.chicks.net/ web site
 ## TODO
 * Duolingo - https://www.duolingo.com/profile/ChristopherH757 doesn't work for me
 * refer Personal Capital/Empower
-* switch http to https for links
 * regroup links
-* icons
+* icons (maybe after hugo)
 * more StackExchange profiles
 * switch to hugo
 * try dagger
