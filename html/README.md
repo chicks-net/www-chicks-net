@@ -8,7 +8,6 @@ http://www.chicks.net/ web site
 * 👩‍🌾 icons for ilnk farm
 
 ### Possibilities
-* link to BookMooch profile
 * link to fitbit profile
 * more StackExchange profiles
 * regroup links
