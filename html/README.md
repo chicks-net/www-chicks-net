@@ -8,6 +8,7 @@ http://www.chicks.net/ web site
 * 👩‍🌾 icons for ilnk farm
 
 ### Possibilities
+* link to fiverr profile https://www.fiverr.com/chicks_net
 * link to fitbit profile
 * more StackExchange profiles
 * regroup links
