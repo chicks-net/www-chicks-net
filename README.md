@@ -2,6 +2,10 @@
 
 http://www.chicks.net/ web site
 
+## Code of Conduct
+
+Please refer to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn about our expectations for contributors.
+
 ## Thanks
 
 * Hosted by [Flamingo Internet Navigators](https://www.fini.net/).
