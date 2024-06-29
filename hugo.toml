@@ -1,0 +1,5 @@
+baseURL = 'https://www.chicks.net/'
+languageCode = 'en-us'
+title = 'Christopher Hicks Personal Site'
+
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
