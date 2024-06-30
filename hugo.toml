@@ -14,13 +14,23 @@ ShowReadingTime = true
 ShowShareButtons = true
 
 [params.profileMode]
-enabled=true
-title="Christopher Hicks"
-subtitle="home on the web"
+enabled = true
+title = "Christopher Hicks"
+subtitle = "home on the web"
+imageUrl = "/chicks/chicks_wedding01.jpg"
+imageTitle = "Wedding picture of Christopher Hicks by Julie"
 
 [[params.profileMode.buttons]]
-name = "github"
-url = "https://github.com/chicks-net"
+name = "intro"
+url = "/intro"
+
+[[params.profileMode.buttons]]
+name = "posts"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "links"
+url = "/links"
 
 [[params.socialIcons]]
 name = "github"
