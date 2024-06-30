@@ -1,6 +1,6 @@
 baseURL = 'https://www.chicks.net/'
 languageCode = 'en-us'
-title = 'Christopher Hicks Personal Site'
+title = "Christopher Hicks"
 
 #theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 theme = ["github.com/adityatelange/hugo-PaperMod"]
@@ -9,7 +9,34 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
 path = "github.com/adityatelange/hugo-PaperMod"
 
 [params]
-body_classes = "avenir bg-near-white"
+#body_classes = "avenir bg-near-white"
+ShowReadingTime = true
+ShowShareButtons = true
+
+[params.profileMode]
+enabled=true
+title="Christopher Hicks"
+subtitle="home on the web"
+
+[[params.profileMode.buttons]]
+name = "github"
+url = "https://github.com/chicks-net"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/chicks-net"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/chicks2fini"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@ChristopherHicksFINI"
+
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackexchange.com/users/2276315/chicks"
 
 [[params.ananke_socials]]
 name = "github"
