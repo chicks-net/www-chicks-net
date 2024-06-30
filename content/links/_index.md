@@ -2,10 +2,9 @@
 title = 'Christopher Hicks links'
 date = 2024-06-29
 draft = false
-featured_image = '/images/gohugo-default-sample-hero-image.jpg'
 +++
 
-### chicks links
+## chicks' links
 
 * 🖥 coding:
     *   [Code Review Stack Exchange](https://codereview.stackexchange.com/users/89257/chicks).
@@ -47,6 +46,6 @@ featured_image = '/images/gohugo-default-sample-hero-image.jpg'
     *   [Empower Personal Capital](https://empowerreferral.link/chicks)
         provides an excellent personal financial dashboard.
 
-### bragging
+## bragging
 
 [![profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites](https://stackexchange.com/users/flair/2276315.png "profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites")](https://stackexchange.com/users/2276315/chicks)
