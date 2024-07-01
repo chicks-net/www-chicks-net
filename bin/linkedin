@@ -1,0 +1,75 @@
+#!/usr/bin/env perl
+#
+# expects Shares.csv to be in the current directory
+# outputs a bunch of Markdown files in the current directory
+#
+# doesn't do word wrap (but it should)
+# doesn't handle CRLF to LF conversion yet
+# would be nice to check for broken links
+
+use strict;
+use warnings;
+use Data::Dumper;
+use Text::CSV qw( csv );
+use Carp;
+
+our $VERSION = 0.1;
+
+print "Perl - it has been a long time!\n";
+
+my $aoh = csv (in => "Shares.csv", headers => "auto");
+
+#print Dumper($aoh);
+
+foreach my $entry (@$aoh) {
+	# extract fields 
+	my $share_date = $entry->{Date};
+	my $share_link = $entry->{ShareLink};
+	my $share_commentary = $entry->{ShareCommentary};
+	my $commentary_len = length($share_commentary);
+
+	my $share_url = $entry->{SharedUrl};
+	my $media_url = $entry->{MediaUrl};
+	#warn $share_url if length($share_url);
+	#warn $media_url if length($media_url);
+
+	#print "$share_date $commentary_len\n";
+	#
+
+	# pick a filename and open it
+	my $out_filename = $share_date;
+	$out_filename =~ s/ /_/g;
+	$out_filename .= '_linkedin.md';
+	print "creating $out_filename\n";
+
+	my $out_fh;
+	open($out_fh, '>', $out_filename) or croak "failed top open output file '$out_filename':$!";
+
+	# boilerplate
+	print $out_fh "+++\n";
+	print $out_fh "title = 'linked-in $share_date'\n";
+	print $out_fh "date = $share_date\n";
+	print $out_fh "draft = false\n";
+	print $out_fh "description = 'Draft conversion of linked-in share into blog entry'\n";
+	print $out_fh "canonicalURL = '$share_link'\n";
+	print $out_fh "ShowCanonicalLink = true\n";
+	print $out_fh "#cover.image = ''\n";
+	print $out_fh "cover.hidden = true\n";
+	print $out_fh "+++\n";
+	print $out_fh "\n";
+
+	# body of content
+	if (length($share_url)) {
+		print $out_fh "share_url is $share_url\n\n";
+	}
+	if (length($media_url)) {
+		print $out_fh "media_url is $media_url\n\n";
+	}
+	$share_commentary =~ s/["]$//gm;
+	$share_commentary =~ s/^["]//gm;
+	print $out_fh "$share_commentary\n";
+
+
+	close($out_fh) or croak "failed to close output file '$out_filename': $!";
+}
+

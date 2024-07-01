@@ -1,6 +1,6 @@
 +++
 title = 'Christopher Hicks links'
-date = 2024-06-29
+date = 2024-06-30
 draft = false
 +++
 
