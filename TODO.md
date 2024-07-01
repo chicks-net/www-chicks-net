@@ -2,7 +2,6 @@
 
 ## Definite TODOs
 - [ ] try dagger
-- [ ] link to Duolingo - https://www.duolingo.com/profile/ChristopherH757
 
 ## Possible TODOs
 - [ ] link to fitbit profile

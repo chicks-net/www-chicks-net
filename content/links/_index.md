@@ -8,7 +8,7 @@ draft = false
 
 * 🖥 coding:
     *   [Code Review Stack Exchange](https://codereview.stackexchange.com/users/89257/chicks).
-    * :github: [github](https://github.com/chicks-net).
+    *   [github](https://github.com/chicks-net).
 * ☎ electronics:
     *   [hackaday](https://hackaday.io/chicks).
     *   [crowdsupply](https://www.crowdsupply.com/people/chicks).
@@ -25,6 +25,7 @@ draft = false
     *   [Linked-In](https://www.linkedin.com/in/chicks2fini).
     * 📹 [Youtube](https://www.youtube.com/@ChristopherHicksFINI).
     * 🗺 [Google Maps](https://maps.app.goo.gl/UPrMcz6HMuXncp1k7).
+    *   [Duolingo](https://www.duolingo.com/profile/ChristopherH757)
     *   [Meetup](https://www.meetup.com/members/42800462/).
     *   [Yelp](https://chicks-net.yelp.com).
     *   [OfferUp](https://offerup.co/profile/chicks-net).
