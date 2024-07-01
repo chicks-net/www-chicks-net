@@ -20,6 +20,10 @@ comments = false
 author = "Christopher Hicks"
 keywords = ["Blog", "Chicks", "FINI"]
 
+[params.assets]
+# favicon = ""
+theme_color = "#a903fc"
+
 [params.profileMode]
 enabled = true
 title = "Christopher Hicks"
