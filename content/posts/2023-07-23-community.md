@@ -9,7 +9,8 @@ cover.image = "/posts/2023-07-23-community.png"
 cover.hidden = true
 +++
 
-[![youtube screenshot](/posts/2023-07-23-community.png)](https://youtu.be/sgX5-Mm47cg)
+{{< youtube sgX5-Mm47cg >}}
+https://youtu.be/sgX5-Mm47cg
 
 ## Introduction
 Howdy there, Internet People.
