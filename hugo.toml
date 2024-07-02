@@ -1,5 +1,9 @@
 #baseURL = 'https://www.chicks.net/'
 baseURL = '/'
+
+# maybe, see https://discourse.gohugo.io/t/viewing-a-site-without-a-server/35825
+#uglyURLs = true
+#relativeURLs = true
 languageCode = 'en-us'
 title = "Christopher Hicks"
 
