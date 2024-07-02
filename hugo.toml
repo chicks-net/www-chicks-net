@@ -1,4 +1,5 @@
-baseURL = 'https://www.chicks.net/'
+#baseURL = 'https://www.chicks.net/'
+baseURL = '/'
 languageCode = 'en-us'
 title = "Christopher Hicks"
 
