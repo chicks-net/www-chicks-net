@@ -2,6 +2,8 @@
 
 http://www.chicks.net/ web site
 
+There is [a plan](TODO.md).
+
 ## Code of Conduct
 
 Please refer to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn about our expectations for contributors.

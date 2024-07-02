@@ -1,0 +1,114 @@
+baseURL = 'https://www.chicks.net/'
+languageCode = 'en-us'
+title = "Christopher Hicks"
+
+#theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = ["github.com/adityatelange/hugo-PaperMod"]
+
+[[module.imports]]
+path = "github.com/adityatelange/hugo-PaperMod"
+
+[params]
+#body_classes = "avenir bg-near-white"
+schema.publisherType = "Person"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowBreadCrumbs = true
+ShowWordCount = true
+UseHugoToc = true
+comments = false
+author = "Christopher Hicks"
+keywords = ["Blog", "Chicks", "FINI"]
+
+[params.assets]
+# favicon = ""
+theme_color = "#a903fc"
+
+[params.profileMode]
+enabled = true
+title = "Christopher Hicks"
+subtitle = "home on the web"
+imageUrl = "/chicks/chicks_wedding01.jpg"
+imageTitle = "Wedding picture of Christopher Hicks by Julie"
+imageWidth = 716
+imageHeight = 724
+
+[[params.profileMode.buttons]]
+name = "intro"
+url = "/intro"
+
+[[params.profileMode.buttons]]
+name = "posts"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "links"
+url = "/links"
+
+[[menu.main]]
+identifier = "intro"
+name = "Intro"
+url = "/intro"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 20
+
+[[menu.main]]
+identifier = "links"
+name = "Links"
+url = "/links"
+weight = 30
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/archives"
+weight = 80
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/chicks-net"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/chicks2fini"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@ChristopherHicksFINI"
+
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackexchange.com/users/2276315/chicks"
+
+[[params.socialIcons]]
+name = "serverfault"
+url = "https://serverfault.com/users/205542/chicks"
+
+[[params.socialIcons]]
+name = "steam"
+url = "https://steamcommunity.com/profiles/76561198037662755/"
+
+[[params.socialIcons]]
+name = "rebrickable"
+url = "https://rebrickable.com/users/chicks/"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/chicks-net"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/chicks2fini"
+
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://www.youtube.com/@ChristopherHicksFINI"
+
+[[params.ananke_socials]]
+name = "stackoverflow"
+url = "https://stackexchange.com/users/2276315/chicks"
