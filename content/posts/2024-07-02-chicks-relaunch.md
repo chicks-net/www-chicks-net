@@ -13,6 +13,23 @@ Howdy friends!  I'm happy to announce today that I am launching
 a rebuilt https://www.chicks.net/ .  Hopefully you can already
 see the difference.
 
+## It has been a long time.
+
+This is the first redesign in a very long time.  Most of
+[the changes over the last decade](https://github.com/chicks-net/www-chicks-net/commits/main/)
+have been minor.  Going back further gets us before `git` to
+[September 2004 in the wayback machine](https://web.archive.org/web/20040925013615/http://www.chicks.net/)
+and we can see that the old design lasted for 20 years.
+
+Going back even further we can see examples like
+[Dec 1996](https://web.archive.org/web/19981212023729/http://www.chicks.net/)
+where the page was just lists of links to sites that
+my consulting company FINI was hosting.
+
+There are also lots of examples in those years of the site just
+sending back a test page or the default Apache page.  I'm not
+sure why we were so unreliable for that time period.
+
 ## Hugo
 
 The big news is that I've switched the site over to Hugo.  Now
