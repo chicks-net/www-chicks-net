@@ -2,311 +2,311 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Christopher Hicks</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Christopher Hicks</description>
     <generator>Hugo -- 0.128.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 10:53:43 -0700</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chicks.net Site Relaunch</title>
-      <link>//localhost:1313/posts/2024-07-02-chicks-relaunch/</link>
+      <link>/posts/2024-07-02-chicks-relaunch/</link>
       <pubDate>Tue, 02 Jul 2024 10:53:43 -0700</pubDate>
-      <guid>//localhost:1313/posts/2024-07-02-chicks-relaunch/</guid>
+      <guid>/posts/2024-07-02-chicks-relaunch/</guid>
       <description>Explain the relaunch of www.chicks.net</description>
     </item>
     <item>
       <title>Tech Pro Grandpa Outwitted by Toddler</title>
-      <link>//localhost:1313/posts/2024-06-13_170126_linkedin/</link>
+      <link>/posts/2024-06-13_170126_linkedin/</link>
       <pubDate>Thu, 13 Jun 2024 17:01:26 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-06-13_170126_linkedin/</guid>
+      <guid>/posts/2024-06-13_170126_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Canadian Petition That Games Must Remain Functional At EOL</title>
-      <link>//localhost:1313/posts/2024-05-10_203019_linkedin/</link>
+      <link>/posts/2024-05-10_203019_linkedin/</link>
       <pubDate>Fri, 10 May 2024 20:30:19 +0000</pubDate>
-      <guid>//localhost:1313/posts/2024-05-10_203019_linkedin/</guid>
+      <guid>/posts/2024-05-10_203019_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>You could be the Director of Infastructure at Tubi.</title>
-      <link>//localhost:1313/posts/2023-12-01_234022_linkedin/</link>
+      <link>/posts/2023-12-01_234022_linkedin/</link>
       <pubDate>Fri, 01 Dec 2023 23:40:22 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-12-01_234022_linkedin/</guid>
+      <guid>/posts/2023-12-01_234022_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>The Banality of Genius</title>
-      <link>//localhost:1313/posts/2023-10-16_012927_linkedin/</link>
+      <link>/posts/2023-10-16_012927_linkedin/</link>
       <pubDate>Mon, 16 Oct 2023 01:29:27 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-10-16_012927_linkedin/</guid>
+      <guid>/posts/2023-10-16_012927_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>I&#39;m the new Observability Lead at Tubi</title>
-      <link>//localhost:1313/posts/2023-09-02_174832_linkedin/</link>
+      <link>/posts/2023-09-02_174832_linkedin/</link>
       <pubDate>Sat, 02 Sep 2023 17:48:32 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-09-02_174832_linkedin/</guid>
+      <guid>/posts/2023-09-02_174832_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Chicks on Community</title>
-      <link>//localhost:1313/posts/2023-07-23-community/</link>
+      <link>/posts/2023-07-23-community/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-07-23-community/</guid>
+      <guid>/posts/2023-07-23-community/</guid>
       <description>Youtube video of chicks talking about how companies are treating the open source community</description>
     </item>
     <item>
       <title>Tubi is competing with subscription services</title>
-      <link>//localhost:1313/posts/2023-07-21_002632_linkedin/</link>
+      <link>/posts/2023-07-21_002632_linkedin/</link>
       <pubDate>Fri, 21 Jul 2023 00:26:32 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-07-21_002632_linkedin/</guid>
+      <guid>/posts/2023-07-21_002632_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Pismo Beach: First Visit</title>
-      <link>//localhost:1313/posts/2023-07-09-pismo/</link>
+      <link>/posts/2023-07-09-pismo/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-07-09-pismo/</guid>
+      <guid>/posts/2023-07-09-pismo/</guid>
       <description>Youtube video of our first visit to Pismo Beach</description>
     </item>
     <item>
       <title>Creator of Clippy</title>
-      <link>//localhost:1313/posts/2023-06-11_153643_linkedin/</link>
+      <link>/posts/2023-06-11_153643_linkedin/</link>
       <pubDate>Sun, 11 Jun 2023 15:36:43 +0000</pubDate>
-      <guid>//localhost:1313/posts/2023-06-11_153643_linkedin/</guid>
+      <guid>/posts/2023-06-11_153643_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>&#34;LinkedIn is better on the app&#34; is the subject of the email.</title>
-      <link>//localhost:1313/posts/2022-04-22_145604_linkedin/</link>
+      <link>/posts/2022-04-22_145604_linkedin/</link>
       <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
-      <guid>//localhost:1313/posts/2022-04-22_145604_linkedin/</guid>
+      <guid>/posts/2022-04-22_145604_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Great coverage for McD Tech Labs</title>
-      <link>//localhost:1313/posts/2020-11-30_164846_linkedin/</link>
+      <link>/posts/2020-11-30_164846_linkedin/</link>
       <pubDate>Mon, 30 Nov 2020 16:48:46 +0000</pubDate>
-      <guid>//localhost:1313/posts/2020-11-30_164846_linkedin/</guid>
+      <guid>/posts/2020-11-30_164846_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Try Personal Capital.</title>
-      <link>//localhost:1313/posts/2018-10-24_151530_linkedin/</link>
+      <link>/posts/2018-10-24_151530_linkedin/</link>
       <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
-      <guid>//localhost:1313/posts/2018-10-24_151530_linkedin/</guid>
+      <guid>/posts/2018-10-24_151530_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Cake Board is a LEGO-friendly breadboard</title>
-      <link>//localhost:1313/posts/2014-09-22_161741_linkedin/</link>
+      <link>/posts/2014-09-22_161741_linkedin/</link>
       <pubDate>Mon, 22 Sep 2014 16:17:41 +0000</pubDate>
-      <guid>//localhost:1313/posts/2014-09-22_161741_linkedin/</guid>
+      <guid>/posts/2014-09-22_161741_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Defunct linked-in 2013-11-11</title>
-      <link>//localhost:1313/posts/2013-11-11_150002_linkedin/</link>
+      <link>/posts/2013-11-11_150002_linkedin/</link>
       <pubDate>Mon, 11 Nov 2013 15:00:02 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-11-11_150002_linkedin/</guid>
+      <guid>/posts/2013-11-11_150002_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>VCs Should Give Honest Feedback &amp; Why They Often Don’t</title>
-      <link>//localhost:1313/posts/2013-09-27_150304_linkedin/</link>
+      <link>/posts/2013-09-27_150304_linkedin/</link>
       <pubDate>Fri, 27 Sep 2013 15:03:04 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-09-27_150304_linkedin/</guid>
+      <guid>/posts/2013-09-27_150304_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Amazon CEO Jeff Bezos Had His Top Execs Read These Three Books</title>
-      <link>//localhost:1313/posts/2013-09-26_120357_linkedin/</link>
+      <link>/posts/2013-09-26_120357_linkedin/</link>
       <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-09-26_120357_linkedin/</guid>
+      <guid>/posts/2013-09-26_120357_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Miley Cyrus’ Best Career Move. Ever.</title>
-      <link>//localhost:1313/posts/2013-09-04_165700_linkedin/</link>
+      <link>/posts/2013-09-04_165700_linkedin/</link>
       <pubDate>Wed, 04 Sep 2013 16:57:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-09-04_165700_linkedin/</guid>
+      <guid>/posts/2013-09-04_165700_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Defunct linked-in 2013-08-08 19:29:37</title>
-      <link>//localhost:1313/posts/2013-08-08_192937_linkedin/</link>
+      <link>/posts/2013-08-08_192937_linkedin/</link>
       <pubDate>Thu, 08 Aug 2013 19:29:37 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-08-08_192937_linkedin/</guid>
+      <guid>/posts/2013-08-08_192937_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>In Tough Times, Abandon Your Employees</title>
-      <link>//localhost:1313/posts/2013-08-08_192557_linkedin/</link>
+      <link>/posts/2013-08-08_192557_linkedin/</link>
       <pubDate>Thu, 08 Aug 2013 19:25:57 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-08-08_192557_linkedin/</guid>
+      <guid>/posts/2013-08-08_192557_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Change Your Habits with a Good Checklist</title>
-      <link>//localhost:1313/posts/2013-08-07_174452_linkedin/</link>
+      <link>/posts/2013-08-07_174452_linkedin/</link>
       <pubDate>Wed, 07 Aug 2013 17:44:52 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-08-07_174452_linkedin/</guid>
+      <guid>/posts/2013-08-07_174452_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Stop the Presses: A New Media Baron Appears</title>
-      <link>//localhost:1313/posts/2013-08-06_174115_linkedin/</link>
+      <link>/posts/2013-08-06_174115_linkedin/</link>
       <pubDate>Tue, 06 Aug 2013 17:41:15 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-08-06_174115_linkedin/</guid>
+      <guid>/posts/2013-08-06_174115_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>When a Favorite Company Breaks Your Heart</title>
-      <link>//localhost:1313/posts/2013-07-29_141022_linkedin/</link>
+      <link>/posts/2013-07-29_141022_linkedin/</link>
       <pubDate>Mon, 29 Jul 2013 14:10:22 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-07-29_141022_linkedin/</guid>
+      <guid>/posts/2013-07-29_141022_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Fly To The Top – The 30:30:30:10 Rule</title>
-      <link>//localhost:1313/posts/2013-07-19_132319_linkedin/</link>
+      <link>/posts/2013-07-19_132319_linkedin/</link>
       <pubDate>Fri, 19 Jul 2013 13:23:19 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-07-19_132319_linkedin/</guid>
+      <guid>/posts/2013-07-19_132319_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>board games in Santa Monica</title>
-      <link>//localhost:1313/posts/2013-07-16_020302_linkedin/</link>
+      <link>/posts/2013-07-16_020302_linkedin/</link>
       <pubDate>Tue, 16 Jul 2013 02:03:02 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-07-16_020302_linkedin/</guid>
+      <guid>/posts/2013-07-16_020302_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>What if you learned about personal branding from the greats?</title>
-      <link>//localhost:1313/posts/2013-05-30_142230_linkedin/</link>
+      <link>/posts/2013-05-30_142230_linkedin/</link>
       <pubDate>Thu, 30 May 2013 14:22:30 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-05-30_142230_linkedin/</guid>
+      <guid>/posts/2013-05-30_142230_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Your Most Important Career Decision</title>
-      <link>//localhost:1313/posts/2013-04-23_132922_linkedin/</link>
+      <link>/posts/2013-04-23_132922_linkedin/</link>
       <pubDate>Tue, 23 Apr 2013 13:29:22 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-04-23_132922_linkedin/</guid>
+      <guid>/posts/2013-04-23_132922_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Arduinio Hackathon at OpenX Pasadena announcement</title>
-      <link>//localhost:1313/posts/2013-04-17_124949_linkedin/</link>
+      <link>/posts/2013-04-17_124949_linkedin/</link>
       <pubDate>Wed, 17 Apr 2013 12:49:49 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-04-17_124949_linkedin/</guid>
+      <guid>/posts/2013-04-17_124949_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>OpenX Arduino Hackathon 2013</title>
-      <link>//localhost:1313/posts/2013-04-16_134253_linkedin/</link>
+      <link>/posts/2013-04-16_134253_linkedin/</link>
       <pubDate>Tue, 16 Apr 2013 13:42:53 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-04-16_134253_linkedin/</guid>
+      <guid>/posts/2013-04-16_134253_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Linked-in endorsements are a handy easy button.</title>
-      <link>//localhost:1313/posts/2013-03-27_114616_linkedin/</link>
+      <link>/posts/2013-03-27_114616_linkedin/</link>
       <pubDate>Wed, 27 Mar 2013 11:46:16 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-03-27_114616_linkedin/</guid>
+      <guid>/posts/2013-03-27_114616_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>11 Simple Concepts to Become a Better Leader</title>
-      <link>//localhost:1313/posts/2013-02-24_081714_linkedin/</link>
+      <link>/posts/2013-02-24_081714_linkedin/</link>
       <pubDate>Sun, 24 Feb 2013 08:17:14 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-02-24_081714_linkedin/</guid>
+      <guid>/posts/2013-02-24_081714_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>defunct wow!</title>
-      <link>//localhost:1313/posts/2013-02-12_173436_linkedin/</link>
+      <link>/posts/2013-02-12_173436_linkedin/</link>
       <pubDate>Tue, 12 Feb 2013 17:34:36 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-02-12_173436_linkedin/</guid>
+      <guid>/posts/2013-02-12_173436_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Landing a job at one particular company</title>
-      <link>//localhost:1313/posts/2013-02-08_125441_linkedin/</link>
+      <link>/posts/2013-02-08_125441_linkedin/</link>
       <pubDate>Fri, 08 Feb 2013 12:54:41 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-02-08_125441_linkedin/</guid>
+      <guid>/posts/2013-02-08_125441_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Arduino-Controlled RGB Lamp</title>
-      <link>//localhost:1313/posts/2013-01-20_033747_linkedin/</link>
+      <link>/posts/2013-01-20_033747_linkedin/</link>
       <pubDate>Sun, 20 Jan 2013 03:37:47 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-01-20_033747_linkedin/</guid>
+      <guid>/posts/2013-01-20_033747_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>defunct linked-in 2013-01-18 15:27:44</title>
-      <link>//localhost:1313/posts/2013-01-18_152744_linkedin/</link>
+      <link>/posts/2013-01-18_152744_linkedin/</link>
       <pubDate>Fri, 18 Jan 2013 15:27:44 +0000</pubDate>
-      <guid>//localhost:1313/posts/2013-01-18_152744_linkedin/</guid>
+      <guid>/posts/2013-01-18_152744_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>A month to yourself</title>
-      <link>//localhost:1313/posts/2012-10-17_152225_linkedin/</link>
+      <link>/posts/2012-10-17_152225_linkedin/</link>
       <pubDate>Wed, 17 Oct 2012 15:22:25 +0000</pubDate>
-      <guid>//localhost:1313/posts/2012-10-17_152225_linkedin/</guid>
+      <guid>/posts/2012-10-17_152225_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Why does spam get archived in hours?</title>
-      <link>//localhost:1313/posts/2012-07-17_123539_linkedin/</link>
+      <link>/posts/2012-07-17_123539_linkedin/</link>
       <pubDate>Tue, 17 Jul 2012 12:35:39 +0000</pubDate>
-      <guid>//localhost:1313/posts/2012-07-17_123539_linkedin/</guid>
+      <guid>/posts/2012-07-17_123539_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Defunct job post</title>
-      <link>//localhost:1313/posts/2012-05-14_221659_linkedin/</link>
+      <link>/posts/2012-05-14_221659_linkedin/</link>
       <pubDate>Mon, 14 May 2012 22:16:59 +0000</pubDate>
-      <guid>//localhost:1313/posts/2012-05-14_221659_linkedin/</guid>
+      <guid>/posts/2012-05-14_221659_linkedin/</guid>
       <description>Defunct job post from linked-in share</description>
     </item>
     <item>
       <title>LibreOffice is superior</title>
-      <link>//localhost:1313/posts/2012-04-20_153644_linkedin/</link>
+      <link>/posts/2012-04-20_153644_linkedin/</link>
       <pubDate>Fri, 20 Apr 2012 15:36:44 +0000</pubDate>
-      <guid>//localhost:1313/posts/2012-04-20_153644_linkedin/</guid>
+      <guid>/posts/2012-04-20_153644_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>OpenX is profitable.</title>
-      <link>//localhost:1313/posts/2012-02-13_161627_linkedin/</link>
+      <link>/posts/2012-02-13_161627_linkedin/</link>
       <pubDate>Mon, 13 Feb 2012 16:16:27 +0000</pubDate>
-      <guid>//localhost:1313/posts/2012-02-13_161627_linkedin/</guid>
+      <guid>/posts/2012-02-13_161627_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Commentary on unknown article</title>
-      <link>//localhost:1313/posts/2011-12-07_120515_linkedin/</link>
+      <link>/posts/2011-12-07_120515_linkedin/</link>
       <pubDate>Wed, 07 Dec 2011 12:05:15 +0000</pubDate>
-      <guid>//localhost:1313/posts/2011-12-07_120515_linkedin/</guid>
+      <guid>/posts/2011-12-07_120515_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>OpenX opened new data center in &lt;60 days</title>
-      <link>//localhost:1313/posts/2011-10-15_121940_linkedin/</link>
+      <link>/posts/2011-10-15_121940_linkedin/</link>
       <pubDate>Sat, 15 Oct 2011 12:19:40 +0000</pubDate>
-      <guid>//localhost:1313/posts/2011-10-15_121940_linkedin/</guid>
+      <guid>/posts/2011-10-15_121940_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>nice couchbase ops training in SF</title>
-      <link>//localhost:1313/posts/2011-07-29_004350_linkedin/</link>
+      <link>/posts/2011-07-29_004350_linkedin/</link>
       <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
-      <guid>//localhost:1313/posts/2011-07-29_004350_linkedin/</guid>
+      <guid>/posts/2011-07-29_004350_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
   </channel>
