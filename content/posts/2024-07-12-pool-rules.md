@@ -1,7 +1,7 @@
 +++
 title = 'Pool Rules'
 date = 2024-07-12
-draft = true
+draft = false
 description = 'A comparison of pool rules regularly used in the US.'
 # cover.image = ''
 cover.hidden = true
