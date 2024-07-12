@@ -56,7 +56,7 @@ playing typical bar pool, but it shows up in other games like
 9 ball.  Having ball in hand and not being locked in the kitchen
 limits how long defensive battles can slog on for.
 
-![APA player on a bar pool table](2024-07-12-pool-rules.jpg)
+![APA player on a bar pool table](/posts/2024-07-12-pool-rules.jpg)
 
 (image from https://live.staticflickr.com/7286/16562522470_b96eed0f0f_b.jpg
 under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/).)
