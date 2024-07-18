@@ -6,6 +6,7 @@
 - [ ] implement linting of Markdown, etc. in GHA
 
 ## Possible TODOs
+- [ ] get a new favicon, fix justfile for favicon generation
 - [ ] try dagger
 - [ ] link to fitbit profile
 - [ ] more StackExchange profiles
