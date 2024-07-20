@@ -1,25 +1,35 @@
 # www.chicks.net TODO list
 
 ## Definite TODOs
-- [ ] retroblogging blog entry
-- [ ] retroblogging google+ content
-- [ ] implement linting of Markdown, etc. in GHA
+- [ ] :desktop_computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
+- [ ] :pencil: blog entry on "retroblogging"
+- [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
+
+## Probable TODOs
+- [ ] :pencil: blog entry on calendaring
+- [ ] :pencil: blog entry on just
+- [ ] :pencil: blog entry on shell programming (bash, zsh) best practices
+- [ ] :pencil: blog entry on places we like in Pismo
+- [ ] :pencil: blog entry on Markdown linting and grammer checking
+- [ ] :pencil: blog entry on getting a tech job
 
 ## Possible TODOs
 - [ ] get a new favicon, fix justfile for favicon generation
-- [ ] try dagger
-- [ ] link to fitbit profile
-- [ ] more StackExchange profiles
-- [ ] regroup links
-- [ ] bricklink when it is working again
-- [ ] calendly
+- [ ] :pencil: blog entry on 3D rendering LEGO in Blender
+- [ ] :pencil: blog entry on cataloging books
+- [ ] :desktop_computer: try dagger
+- [ ] :link: link to fitbit profile
+- [ ] :link: more StackExchange profiles
+- [ ] :link: regroup links
+- [ ] :link: bricklink when it is working again
+- [ ] :link: calendly
 
 ## Unlikely TOODs
 - [ ] use github issues instead of a text file for tracking site todo items
-- [ ] link to Amazon profile
-- [ ] calendar view
-- [ ] geolocation
-- [ ] game character links
+- [ ] :link: link to Amazon profile
+- [ ] :tear_off_calendar: calendar view
+- [ ] :world_map: geolocation
+- [ ] :link: game character links
 
 ## Impossible TOODs
-- [ ] retroblogging bloglines content - I couldn't even find it in the WayBack machine.
+- [ ] :desktop_computer: retroblogging bloglines content - I couldn't even find it in the WayBack machine.
