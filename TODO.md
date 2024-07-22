@@ -6,7 +6,9 @@
 - [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
 
 ## Probable TODOs
+- [ ] :pencil: blog entry on git branch naming for racial sensitivity
 - [ ] :pencil: blog entry on calendaring
+- [ ] :pencil: blog entry on usernames
 - [ ] :pencil: blog entry on just
 - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices
 - [ ] :pencil: blog entry on places we like in Pismo
@@ -15,8 +17,10 @@
 
 ## Possible TODOs
 - [ ] get a new favicon, fix justfile for favicon generation
+- [ ] :pencil: blog entry on Hubspace string lights review
 - [ ] :pencil: blog entry on 3D rendering LEGO in Blender
 - [ ] :pencil: blog entry on cataloging books
+- [ ] :pencil: blog entry on chicks doesn't sleep
 - [ ] :desktop_computer: try dagger
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
