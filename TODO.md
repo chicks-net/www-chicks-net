@@ -10,6 +10,7 @@
 - [ ] :pencil: blog entry on calendaring
 - [ ] :pencil: blog entry on usernames
 - [ ] :pencil: blog entry on just
+- [ ] :pencil: blog entry on tmux
 - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices
 - [ ] :pencil: blog entry on places we like in Pismo
 - [ ] :pencil: blog entry on Markdown linting and grammer checking
@@ -31,7 +32,7 @@
 ## Unlikely TOODs
 - [ ] use github issues instead of a text file for tracking site todo items
 - [ ] :link: link to Amazon profile
-- [ ] :tear_off_calendar: calendar view
+- [ ] 📆 calendar view
 - [ ] :world_map: geolocation
 - [ ] :link: game character links
 
