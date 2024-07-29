@@ -25,7 +25,6 @@
 - [ ] :desktop_computer: try dagger
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
-- [ ] :link: regroup links
 - [ ] :link: bricklink when it is working again
 - [ ] :link: calendly
 
