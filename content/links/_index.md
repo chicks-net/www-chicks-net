@@ -14,6 +14,7 @@ draft = false
     *   [stackoverflow](https://stackoverflow.com/users/2002471/chicks).
     *   [Perl Monks](https://perlmonks.org/index.pl?node_id=160784).
 * ☎ other tech:
+    *   [roadmap.sh](https://roadmap.sh/u/chicks).
     *   [hackaday](https://hackaday.io/chicks).
     *   [crowdsupply](https://www.crowdsupply.com/people/chicks).
     *   [serverfault](https://serverfault.com/users/205542/chicks).
@@ -51,3 +52,5 @@ draft = false
 ## bragging
 
 [![profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites](https://stackexchange.com/users/flair/2276315.png "profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites")](https://stackexchange.com/users/2276315/chicks)
+
+[![roadmap.sh](https://roadmap.sh/card/wide/66a937d5e886d0166c641c4e?variant=dark&roadmaps=devops%2Caws%2Crust%2Csoftware-architect)](https://roadmap.sh)
