@@ -21,3 +21,11 @@ Please refer to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn about our expe
 * Thanks to github for hosting the repo.
 * Thanks to neovim for showing that `vi` still has a worthy place in tech, 50 years after `vi`s invention.
 * Thanks to the [hugo](https://gohugo.io/) community for the tools and themes that made this possible.
+
+## Development Cycle
+
+1. Start a new branch with `git co -b $branch_name`.
+1. Make some new content with `hugo new`.
+1. Push to github with `just pr`.
+1. Merge the PR on github.
+1. Get back to where we started with `just sync`.
