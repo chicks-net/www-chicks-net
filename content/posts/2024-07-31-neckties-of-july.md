@@ -1,5 +1,5 @@
 +++
-title = '2024 07 31 Neckties of July'
+title = 'Neckties of July 2024'
 date = 2024-07-31T11:06:18-07:00
 draft = false
 description = 'See the neckties I wore for July 2024.'
