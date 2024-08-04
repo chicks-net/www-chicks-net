@@ -5,6 +5,6 @@ draft = true
 # description = ''
 # canonicalURL = ''
 # ShowCanonicalLink = true
-# cover.image = ''
+# cover.image = '/posts/'
 cover.hidden = true
 +++
