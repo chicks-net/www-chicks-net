@@ -6,6 +6,7 @@
 - [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
 
 ## Probable TODOs
+- [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity
 - [ ] :pencil: blog entry on calendaring
 - [ ] :pencil: blog entry on usernames
