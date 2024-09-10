@@ -37,7 +37,7 @@ pr:
 # merge PR and return to starting point
 [group('Process')]
 merge:
-  gh merge -s
+  gh pr merge -s
   just sync
 
 #test:
