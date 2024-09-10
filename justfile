@@ -32,7 +32,7 @@ pr:
   hugo
   git stp
   git pushup
-  gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in `justfile`."
+  gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}} (Automated in 'justfile'.)"
 
 # merge PR and return to starting point
 [group('Process')]
@@ -42,7 +42,7 @@ merge:
 
 #test:
 #  just on_a_branch
-#  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in `justfile`."
+#  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
 
 # error if not on a git branch
 [no-cd, group('sanity check')]
