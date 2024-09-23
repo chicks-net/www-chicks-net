@@ -1,16 +1,20 @@
 # www.chicks.net TODO list
 
+Some "blog entries" may turn into youtube videos, but
+all youtube videos become blog entries.
+
 ## Definite TODOs
+- [ ] :pencil: blog entry on just ([progressing](https://github.com/chicks-net/presentation-notes/tree/main/just-intro))
 - [ ] :desktop_computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
 - [ ] :pencil: blog entry on "retroblogging"
 - [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
 
 ## Probable TODOs
 - [ ] :baseball: play with hugo shortcodes (github, steam, ??)
+- [ ] get a new favicon, fix justfile for favicon generation
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity
 - [ ] :pencil: blog entry on calendaring
 - [ ] :pencil: blog entry on usernames
-- [ ] :pencil: blog entry on just
 - [ ] :pencil: blog entry on tmux
 - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices
 - [ ] :pencil: blog entry on places we like in Pismo
@@ -18,7 +22,6 @@
 - [ ] :pencil: blog entry on getting a tech job
 
 ## Possible TODOs
-- [ ] get a new favicon, fix justfile for favicon generation
 - [ ] :pencil: blog entry on Hubspace string lights review
 - [ ] :pencil: blog entry on 3D rendering LEGO in Blender
 - [ ] :pencil: blog entry on cataloging books
