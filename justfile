@@ -65,15 +65,3 @@ gps_rm image:
 # from ancient html/Makefile
 #favicon.ico: img/favicon.pnm
 #	ppmtowinicon -output favicon.ico favicon.pnm 
-
-# say hello chicks
-[group('example')]
-hello_chicks:
-	#!/usr/bin/env perl
-	print "hello chicks\n";
-
-# say howdy internet people
-[group('example')]
-howdy_net:
-	#!/usr/bin/env lua
-	print("howdy internet people");
