@@ -4,7 +4,6 @@ Some "blog entries" may turn into youtube videos, but
 all youtube videos become blog entries.
 
 ## Definite TODOs
-- [ ] :pencil: blog entry on just ([progressing](https://github.com/chicks-net/presentation-notes/tree/main/just-intro))
 - [ ] :desktop_computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
 - [ ] :pencil: blog entry on "retroblogging"
 - [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
