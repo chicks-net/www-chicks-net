@@ -1,5 +1,5 @@
 +++
-title = 'Using Just to Speed Development'
+title = 'Using just to speed development'
 date = 2024-09-29T15:39:41-07:00
 draft = false
 description = 'Just is a make-like tool and this video is an introduction.'
@@ -10,6 +10,8 @@ cover.hidden = true
 +++
 
 {{< youtube m7ZCnGnYyvs >}}
+
+## My reaction to getting this posted
 
 I'm so happy and relieved to have my first technical video on youtube.
 
@@ -30,3 +32,24 @@ in the spirit of full disclosure.
 It took about 20-30 hours over a month to pull this togther.  My colleagues at Tubi
 have been fully supportive of me taking the time to do this and I hope this will be a
 useful tutorial for my team and others.
+
+## Sharing on Linked-in
+
+[post on linked-in](https://www.linkedin.com/feed/update/urn:li:share:7246610119600324608/)
+
+I'm happy to share my first technical video on youtube. I've been using this cool command line tool
+called "just" for the last few months and this is my way to introduce folks to it. I was surprised
+to find that I was only the second youtube video about this tool. If you've got a few minutes,
+please check it out.
+
+## Casey posted on twitter
+
+Casey Rodarmor, the author of `just` posted a link on his twitter feed:
+
+> Very nice! Just tweeted out the video: https://x.com/rodarmor/status/1840856340450943480
+
+and he also noted
+
+> The name of `just` used to be `j`, so searchability used to be even worse in the past 😂
+
+which is hilarious and frightening at the same time.
