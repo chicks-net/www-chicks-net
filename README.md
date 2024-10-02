@@ -1,5 +1,6 @@
 # www-chicks-net
 
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fwww.chicks.net%2F)
 [![GitHub branches](https://badgen.net/github/branches/chicks-net/www-chicks-net)](https://github.com/chicks-net/www-chicks-net/)
 [![GitHub commits](https://badgen.net/github/commits/chicks-net/www-chicks-net)](https://GitHub.com/chicks-net/www-chicks-net/commit/)
 [![GitHub latest commit](https://badgen.net/github/last-commit/chicks-net/www-chicks-net)](https://GitHub.com/chicks-net/www-chicks-net/commit/)
