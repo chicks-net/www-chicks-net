@@ -29,6 +29,7 @@ draft = false
     * 📹 [Youtube](https://www.youtube.com/@ChristopherHicksFINI).
     * 🗺 [Google Maps](https://maps.app.goo.gl/UPrMcz6HMuXncp1k7).
     *   [Duolingo](https://www.duolingo.com/profile/ChristopherH757)
+    *   [Pinterest](https://www.pinterest.com/chicksnet/)
     *   [Meetup](https://www.meetup.com/members/42800462/).
     *   [Yelp](https://chicks-net.yelp.com).
     *   [OfferUp](https://offerup.co/profile/chicks-net).
