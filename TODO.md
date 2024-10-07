@@ -4,6 +4,7 @@ Some "blog entries" may turn into youtube videos, but
 all youtube videos become blog entries.
 
 ## Definite TODOs
+- [ ] get non-SSL site to redirect to the SSL site
 - [ ] :desktop_computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
 - [ ] :pencil: blog entry on "retroblogging"
 - [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
