@@ -10,6 +10,7 @@ all youtube videos become blog entries.
 - [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
 
 ## Probable TODOs
+- [ ] :desktop_computer: configure webhook for updates
 - [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] get a new favicon, fix justfile for favicon generation
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity
@@ -24,7 +25,7 @@ all youtube videos become blog entries.
 ## Possible TODOs
 - [ ] :pencil: blog entry on Hubspace string lights review
 - [ ] :pencil: blog entry on 3D rendering LEGO in Blender
-- [ ] :pencil: blog entry on cataloging books
+- [ ] :pencil: blog entry on cataloging books with LibraryThing
 - [ ] :pencil: blog entry on chicks doesn't sleep
 - [ ] :desktop_computer: try dagger
 - [ ] :link: link to fitbit profile
