@@ -23,17 +23,18 @@ all youtube videos become blog entries.
 - [ ] :pencil: blog entry on getting a tech job
 
 ## Possible TODOs
+- [ ] :pencil: blog entry on nushell
 - [ ] :pencil: blog entry on Hubspace string lights review
 - [ ] :pencil: blog entry on 3D rendering LEGO in Blender
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
 - [ ] :pencil: blog entry on chicks doesn't sleep
-- [ ] :desktop_computer: try dagger
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again
 - [ ] :link: calendly
 
 ## Unlikely TOODs
+- [ ] :desktop_computer: try dagger
 - [ ] use github issues instead of a text file for tracking site todo items
 - [ ] :link: link to Amazon profile
 - [ ] 📆 calendar view
