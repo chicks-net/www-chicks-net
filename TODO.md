@@ -23,7 +23,7 @@ all youtube videos become blog entries.
 - [ ] :pencil: blog entry on getting a tech job
 
 ## Possible TODOs
-- [ ] :pencil: blog entry on nushell
+- [ ] :pencil: blog entry on nushell [my nuggets](https://gist.github.com/chicks-net/7fa2425f6afb14261f39352605019209)
 - [ ] :pencil: blog entry on Hubspace string lights review
 - [ ] :pencil: blog entry on 3D rendering LEGO in Blender
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
