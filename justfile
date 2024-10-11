@@ -10,58 +10,60 @@ last_commit_message := `git log -1 --pretty=%B | grep '.'`
 # default works without naming it
 [group('example')]
 whatever:
-  just --list
+    just --list
 
 # goofing off
 [group('example')]
 cause:
-  @echo haha on {{host}} running {{os()}}
-  @echo "invocation_dir={{invocation_directory()}}"
-  git stp
+    @echo haha on {{ host }} running {{ os() }}
+    @echo "invocation_dir={{ invocation_directory() }}"
+    git stp
 
 # escape from branch, back to starting point
 [group('Process')]
 sync:
-  git checkout main
-  git pull
+    git checkout main
+    git pull
 
 # PR create
 [group('Process')]
 pr: on_a_branch
-  hugo
-  git stp
-  git pushup
-  gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}} (Automated in 'justfile'.)"
+    hugo
+    git stp
+    git pushup
+    gh pr create --title "{{ last_commit_message }}" --body "{{ last_commit_message }} (Automated in 'justfile'.)"
 
 # merge PR and return to starting point
 [group('Process')]
 merge:
-  gh pr merge -s
-  just sync
+    gh pr merge -s
+    just sync
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
-
 # TODO: sanity check for making sure there are commits on the branch
 
 # error if not on a git branch
-[no-cd, group('sanity check')]
+[group('sanity check')]
+[no-cd]
 on_a_branch:
-  #!/bin/bash
+    #!/bin/bash
 
-  # thanks to https://stackoverflow.com/a/12142066/2002471
+    # thanks to https://stackoverflow.com/a/12142066/2002471
 
-  if [[ $(git rev-parse --abbrev-ref HEAD) == "main" ]]; then
-    echo "You are on branch {{release_branch}} (the release branch) so you are not ready to start a PR."
-    exit 100
-  fi
+    if [[ $(git rev-parse --abbrev-ref HEAD) == "main" ]]; then
+      echo "You are on branch {{ release_branch }} (the release branch) so you are not ready to start a PR."
+      exit 100
+    fi
 
 # Thanks to https://apple.stackexchange.com/a/422206/210526
+
 # remove GPS information from an image
-[no-cd, group('Utility')]
+[group('Utility')]
+[no-cd]
 gps_rm image:
-  exiftool -overwrite_original -gps:all= {{image}}
+    exiftool -overwrite_original -gps:all= {{ image }}
 
 # from ancient html/Makefile
 #favicon.ico: img/favicon.pnm
-#	ppmtowinicon -output favicon.ico favicon.pnm 
+#	ppmtowinicon -output favicon.ico favicon.pnm
