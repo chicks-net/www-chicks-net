@@ -67,3 +67,16 @@ gps_rm image:
 # from ancient html/Makefile
 #favicon.ico: img/favicon.pnm
 #	ppmtowinicon -output favicon.ico favicon.pnm
+
+# print UTC date/time
+[group('Utility')]
+[no-cd]
+@utcdate:
+	TZ=UTC date
+
+# test network speed
+[group('Utility')]
+[no-cd]
+[macos]
+speedtest:
+	networkQuality
