@@ -54,4 +54,6 @@ draft = false
 
 [![profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites](https://stackexchange.com/users/flair/2276315.png "profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites")](https://stackexchange.com/users/2276315/chicks)
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
+
 [![roadmap.sh](https://roadmap.sh/card/wide/66a937d5e886d0166c641c4e?variant=dark&roadmaps=devops%2Caws%2Crust%2Csoftware-architect)](https://roadmap.sh/u/chicks)
