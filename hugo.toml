@@ -7,7 +7,6 @@ baseURL = '/'
 languageCode = 'en-us'
 title = "Christopher Hicks"
 
-#theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 [[module.imports]]
@@ -101,19 +100,3 @@ url = "https://steamcommunity.com/profiles/76561198037662755/"
 [[params.socialIcons]]
 name = "rebrickable"
 url = "https://rebrickable.com/users/chicks/"
-
-[[params.ananke_socials]]
-name = "github"
-url = "https://github.com/chicks-net"
-
-[[params.ananke_socials]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/chicks2fini"
-
-[[params.ananke_socials]]
-name = "youtube"
-url = "https://www.youtube.com/@ChristopherHicksFINI"
-
-[[params.ananke_socials]]
-name = "stackoverflow"
-url = "https://stackexchange.com/users/2276315/chicks"
