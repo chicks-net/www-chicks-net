@@ -39,6 +39,16 @@ merge:
     gh pr merge -s
     just sync
 
+# clean out references to old hugo modules
+[group('Process')]
+hugo_mod_tidy:
+    hugo mod tidy
+
+# update hugo modules
+[group('Process')]
+hugo_mod_update:
+    hugo mod get -u
+
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
 # TODO: sanity check for making sure there are commits on the branch
