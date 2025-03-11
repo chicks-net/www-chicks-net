@@ -2,9 +2,7 @@
 title = 'Review of Microservices Pros and Cons'
 date = 2025-03-10
 draft = false
-description = 'Review of article Microservices: Pros and Cons'
-# canonicalURL = ''
-# ShowCanonicalLink = true
+description = 'Review of Microservices: Pros and Cons article from Ovid'
 # cover.image = '/posts/'
 cover.hidden = true
 +++
@@ -34,7 +32,7 @@ wasn't terribly biased.
 Someone has actually written a balanced article on a controversial technical topic.
 It is truly unexpected in this business after all of these years.
 
-## Ovid!
+## Oh, Ovid!
 
 I didn't know who Curtis Poe was.  That made it easier for me to fall into the presumption of bias.
 
@@ -121,7 +119,7 @@ pain is not real and recurring.
 
 All platforms start this way.  You have a bespoke system assembled with hope, duct tape, and 
 undocumented config files.  New developers repeatedly undergo multi-day initiations into the
-system.  It doesn't have to end this way.  Docs can be improved.  Interfaces can get simplified.
+system.  __It doesn't have to end this way.__  Docs can be improved.  Interfaces can get simplified.
 Sane defaults can get chosen.
 
 Over time the multi-day initiations may turn into an hour-long call.  Maybe the platform is so cool
@@ -140,8 +138,10 @@ This idea came to be known as [Comway's law](https://en.wikipedia.org/wiki/Conwa
 > constrained to produce designs which are copies of the communication structures
 > of these organizations.
 
-Microservices make it easier for this to become true for your organization.  A service may
-become too complex over time.  This service is probably important to the business and will have
+Microservices make it easier for this to become true for your organization.
+
+A service may become too complex over time.
+This service is probably important to the business and will have
 more engineers assigned to it over this time.  Eventually this becomes too difficult to manage
 at a technical level or organizational level.  Regardless of cause, microservices provides a good
 model for dealing with it.  The team may be split into subteams that focus on different parts.
@@ -152,11 +152,20 @@ Ownership evolves and each subteam is left with a more managable cognitive load.
 
 I asked myself whether there was any value to post this 16 months after the original article.
 The question of whether to migrate to microservices seems to be an ongoing concern for many teams.
-So highlighting Curtis' excellent advice and adding my own perspective might help
-your team make this design choice.
+So highlighting Curtis' excellent advice and adding my own perspective will hopefully help
+your team make this major design choice.
 
 ## Conclusion
 
 Microservices are an established tool to handle the evolving complexity of your software.
 Considering the benefits and challenges is critical to determining whether it is the right
 move for your code and team.
+
+If you're on a steady growth curve, microservices are going to be hard to live without eventually.
+So it becomes more of a choice of how best to time the pain of a refactor.
+
+There are no easy answers, but hopefully you can now make a better informed choice.
+
+## PostScript™
+
+I am happy and amazed that [Ovid liked my review](https://github.com/chicks-net/www-chicks-net/pull/32#issuecomment-2712859793)!
