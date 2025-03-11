@@ -30,8 +30,8 @@ skipping a technology that could work great for you.
 
 So it was with great surprise that I found
 [this article by Curtis Poe](https://curtispoe.org/articles/microservices-pros-and-cons.html)
-so amazing.  Someone has actually written a balanced article on a
-controversial technical topic.
+wasn't terribly biased.
+Someone has actually written a balanced article on a controversial technical topic.
 It is truly unexpected in this business after all of these years.
 
 ## Ovid!
@@ -47,26 +47,27 @@ I had not realized that Curtis also worked at
 [the BBC and booking.com](https://www.linkedin.com/in/curtispoe/),
 but it is great to see that he has had a long career contributing
 to some brands that we have all heard of.
-It is also amazing and cool the Curtis served as Director
+It is also amazing and cool that Curtis served as Director
 for [The Perl Foundation](https://www.perlfoundation.org/)
 for twelve years.
 
 If I'd known that Curtis Poe was Ovid, I would not have had such low
 expectations for their writing.  Sorry for being a curmudgeonly techie,
-but I think that's enough preamble.
+but happily I think that's enough preamble.
 
 ## Review of Microservices Pros and Cons
 
 If you haven't yet, you really should go read
-["Microservices Pros and Cons" by Curtis Poe](https://curtispoe.org/articles/microservices-pros-and-cons.html).
+["Microservices Pros and Cons" by Curtis Poe](https://curtispoe.org/articles/microservices-pros-and-cons.html)
+now for the rest of this to make much sense.
 
 I was amazed that I found myself agreeing with almost everything that was said
 in the article.  Here are some quick points that map to his outline:
 
-Opening
+__Opening__
 * He wrecked an interview over microservices.  I've wrecked interviews over logs.  It felt like an odd opening while also feeling familiar.
 
-Benefits
+__Benefits__
 * Scalability is key.  It is a big conceptual change to accept that you don't just have one process on one machine.
 * "Learning" is all about managing how much information we can keep in our heads at once.  So true.
 * Gradual migration is the easiest way to modernize a complex system, but it may be impractical without institutional knowledge.
@@ -76,7 +77,7 @@ Benefits
 * "Partial Failures" is another way to say graceful degradation.  Expect and plan for failure.
 * The Dark Secret of using weird languages in containers is that it makes them easier to live with.
 
-Drawbacks
+__Drawbacks__
 * Infrastructure is needed.  Pick your platform and see how far it will get you.
 * Monitoring is usually forgotten until it is needed.  Hopefully your platform gives it to you for "free".
 * Overhead is absolutely one of the prices we pay for operating in the cloud.
@@ -95,18 +96,18 @@ foreign keys or other forms of corruption.  The systems I'm thinking of were bui
 had performance adequate for web apps.  Most of my experience at this level was during my days of
 solely being a consultant.
 
-For the last 15 years in day job contexts, AWS dominates.  In the cloud, enabling MySQL or PostgreSQL
-is like flipping a switch.  AWS RDS is happy to give you any recent version of either database at a wide 
-variety of scales and price ranges.  Automatic backups and replication are just more choices in web dialogs.
+For the last fifteen years, in day job contexts, AWS dominates.  In the cloud, enabling MySQL or PostgreSQL
+is like flipping a light switch.  AWS RDS is happy to give you any recent version of either database at a wide 
+variety of scales and price ranges.  Automatic backups and replication are just a few more clicks.
 Many services have their own RDS of whatever flavor and the choice
 doesn't have much effect on the operation of the overall system.
 
 Curtis suggests that all of these small databases are problematic for licensing
-reasons for folks using Oracle.
+reasons for folks using Oracle™.
 Luckily I haven't run into Oracle since I consulted for government agencies 20+ years ago.
 (I've got some old Oracle books, if anyone is interested.)
 In the California tech scene Oracle is not considered as an option.
-Unless you own stock, I'm not sure what would compel anyone to use it anymore.
+Unless you own stock, I'm not sure what would compel anyone to use Oracle anymore.
 
 Ultimately, while I agree that moving to microservices can exacerbate data problems,
 it is also another chance to get it right.  Hopefully it doesn't get punted
@@ -131,7 +132,7 @@ to a better platform.  These aren't easy things, but you should try it if you ca
 
 ## Organizational Structure
 
-Maybe this is my personal ax to grind, but I felt the main thought that was missing from
+Maybe this is just my personal ax to grind, but I felt the main thought that was missing from
 Curtis' article was how organization structure often leads to similar software designs.
 This idea came to be known as [Comway's law](https://en.wikipedia.org/wiki/Conway%27s_law):
 
@@ -140,11 +141,12 @@ This idea came to be known as [Comway's law](https://en.wikipedia.org/wiki/Conwa
 > of these organizations.
 
 Microservices make it easier for this to become true for your organization.  A service may
-become too complex over time.  This service could be important to the business and have
+become too complex over time.  This service is probably important to the business and will have
 more engineers assigned to it over this time.  Eventually this becomes too difficult to manage
 at a technical level or organizational level.  Regardless of cause, microservices provides a good
 model for dealing with it.  The team may be split into subteams that focus on different parts.
 Those parts will soon become their own services and the old "monolith" service can be retired.
+Ownership evolves and each subteam is left with a more managable cognitive load.
 
 ## Time delay
 
