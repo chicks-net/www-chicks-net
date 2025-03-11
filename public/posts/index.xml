@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Christopher Hicks</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review of Microservices Pros and Cons</title>
+      <link>/posts/2025-03-10-review-microservices/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/2025-03-10-review-microservices/</guid>
+      <description>Review of article Microservices: Pros and Cons</description>
+    </item>
     <item>
       <title>Tubi Streamed Superbowl 2025</title>
       <link>/posts/2025-02-25-tubi-streamed-superbowl/</link>
