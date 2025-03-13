@@ -9,13 +9,16 @@
 
 [![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
 
-https://www.chicks.net/ web site
+https://www.chicks.net/ web site is built and maintained with [Hugo](https://gohugo.io/)!
 
-There is [a plan](TODO.md).
+There is [a plan](TODO.md) -- that is moving at a glacial yet humane speed.
 
 ## Code of Conduct
 
-Please refer to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn about our expectations for contributors.
+Please refer to the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn about our expectations for contributors.
+I would guess the chances of collaboration on this repo are so small as to me unmeasurable,
+but this is a trivial compliance thing to check off and I'm trying to get all of my repos closer
+to best practices.
 
 ## Thanks
 
@@ -24,7 +27,18 @@ Please refer to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn about our expe
 * Thanks to neovim for showing that `vi` still has a worthy place in tech, 50 years after `vi`s invention.
 * Thanks to the [hugo](https://gohugo.io/) community for the tools and themes that made this possible.
 
-## Development Cycle
+## Just is awesome
+
+Check out the [`justfile`](https://github.com/chicks-net/www-chicks-net/blob/main/justfile)
+for all of the ways to remember less and do more.
+Watching [my youtube video on just](https://youtu.be/m7ZCnGnYyvs?si=QNvUZJiGo20FVdnD) would be a great way
+to see what I'm trying to do here.
+Between [just](https://just.systems/man/en/) and [GitHub CLI](https://cli.github.com/) you
+can get a way to manage the full development cycle from the command line.
+
+The resulting development cycle is as toil-free as I can imagine making it:
+
+### Development Cycle
 
 1. Start a new branch with `just branch $branch_name` or `just post $title_slug`.
 1. If making a post, edit the template built by `just post`.  Otherwise, make some change.
