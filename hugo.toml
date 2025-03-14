@@ -17,8 +17,11 @@ path = "github.com/adityatelange/hugo-PaperMod"
 schema.publisherType = "Person"
 ShowReadingTime = true
 ShowShareButtons = true
+# it would be nice to add bluesky to this list
+ShareButtons = ["linkedin","reddit","facebook","whatsapp","telegram","ycombinator"]
 ShowBreadCrumbs = true
 ShowWordCount = true
+#ShowCodeCopyButtons = true
 UseHugoToc = true
 comments = false
 author = "Christopher Hicks"
