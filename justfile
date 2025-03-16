@@ -31,6 +31,7 @@ cause:
 sync:
     git checkout main
     git pull
+    git stp
 
 # PR create
 [group('Process')]
@@ -70,6 +71,11 @@ hugo_mod_tidy:
 [group('Process')]
 hugo_mod_update:
     hugo mod get -u
+
+# view PR in web browser
+[group('Process')]
+prweb: on_a_branch
+    gh pr view --web
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
