@@ -16,7 +16,7 @@ There is [a plan](TODO.md) -- that is moving at a glacial yet humane speed.
 ## Code of Conduct
 
 Please refer to the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn about our expectations for contributors.
-I would guess the chances of collaboration on this repo are so small as to me unmeasurable,
+I would guess the chances of collaboration on this repo are so small as to be unmeasurable,
 but this is a trivial compliance thing to check off and I'm trying to get all of my repos closer
 to best practices.
 

@@ -132,7 +132,7 @@ to a better platform.  These aren't easy things, but you should try it if you ca
 
 Maybe this is just my personal ax to grind, but I felt the main thought that was missing from
 Curtis' article was how organization structure often leads to similar software designs.
-This idea came to be known as [Comway's law](https://en.wikipedia.org/wiki/Conway%27s_law):
+This idea came to be known as [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law):
 
 > [O]rganizations which design systems (in the broad sense used here) are
 > constrained to produce designs which are copies of the communication structures
