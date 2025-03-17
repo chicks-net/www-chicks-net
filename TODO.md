@@ -10,7 +10,6 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
 
 ## Probable TODOs
-- [ ] add tags to posts
 - [ ] :desktop_computer: configure webhook for updates
 - [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] get a new favicon, fix justfile for favicon generation, [add to papermod](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#adding-custom-favicons)
