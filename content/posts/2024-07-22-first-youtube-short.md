@@ -7,6 +7,7 @@ canonicalURL = 'https://youtube.com/shorts/Vyn-ayBwmrw'
 ShowCanonicalLink = true
 # cover.image = ''
 cover.hidden = true
+tags = ["youtube"]
 +++
 
 So, we drop in to

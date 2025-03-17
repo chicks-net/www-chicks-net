@@ -7,6 +7,7 @@ canonicalURL = 'https://www.linkedin.com/posts/chicks2fini_tubi-superbowl-activi
 ShowCanonicalLink = true
 # cover.image = '/posts/'
 cover.hidden = true
+tags = ["tubi"]
 +++
 
 It was an honor to be part of the excellent team at #Tubi! I saw amazing efforts
