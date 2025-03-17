@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Youtube on Christopher Hicks</title>
+    <link>/tags/youtube/</link>
+    <description>Recent content in Youtube on Christopher Hicks</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Sep 2024 15:39:41 -0700</lastBuildDate>
+    <atom:link href="/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using just to speed development</title>
+      <link>/posts/2024-09-29-using-just-to-speed-development/</link>
+      <pubDate>Sun, 29 Sep 2024 15:39:41 -0700</pubDate>
+      <guid>/posts/2024-09-29-using-just-to-speed-development/</guid>
+      <description>Just is a make-like tool and this video is an introduction.</description>
+    </item>
+    <item>
+      <title>Our First Youtube Short: Baby shark at bakery</title>
+      <link>/posts/2024-07-22-first-youtube-short/</link>
+      <pubDate>Mon, 22 Jul 2024 14:11:14 -0700</pubDate>
+      <guid>/posts/2024-07-22-first-youtube-short/</guid>
+      <description>You never know when or where you will run into baby shark.  It is like a ghost that pops up at the weirdest occasion.</description>
+    </item>
+    <item>
+      <title>Chicks on Community</title>
+      <link>/posts/2023-07-23-community/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/posts/2023-07-23-community/</guid>
+      <description>Youtube video of chicks talking about how companies are treating the open source community</description>
+    </item>
+    <item>
+      <title>Pismo Beach: First Visit</title>
+      <link>/posts/2023-07-09-pismo/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/posts/2023-07-09-pismo/</guid>
+      <description>Youtube video of our first visit to Pismo Beach</description>
+    </item>
+  </channel>
+</rss>
