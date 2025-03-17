@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/cloud/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/review/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/2025-03-10-review-microservices/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tubi/</loc>
+    <lastmod>2025-02-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/posts/2025-02-25-tubi-streamed-superbowl/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/free-software/</loc>
+    <lastmod>2024-09-29T15:39:41-07:00</lastmod>
+  </url><url>
     <loc>/posts/2024-09-29-using-just-to-speed-development/</loc>
+    <lastmod>2024-09-29T15:39:41-07:00</lastmod>
+  </url><url>
+    <loc>/tags/youtube/</loc>
     <lastmod>2024-09-29T15:39:41-07:00</lastmod>
   </url><url>
     <loc>/posts/2024-09-09-onion-back-in-print/</loc>
@@ -22,6 +40,9 @@
   </url><url>
     <loc>/posts/2024-07-22-first-youtube-short/</loc>
     <lastmod>2024-07-22T14:11:14-07:00</lastmod>
+  </url><url>
+    <loc>/tags/billiards/</loc>
+    <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/2024-07-12-pool-rules/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
@@ -58,6 +79,9 @@
   </url><url>
     <loc>/posts/2023-07-21_002632_linkedin/</loc>
     <lastmod>2023-07-21T00:26:32+00:00</lastmod>
+  </url><url>
+    <loc>/tags/ca-central-coast/</loc>
+    <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/2023-07-09-pismo/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
@@ -167,7 +191,5 @@
     <loc>/archives/</loc>
   </url><url>
     <loc>/categories/</loc>
-  </url><url>
-    <loc>/tags/</loc>
   </url>
 </urlset>
