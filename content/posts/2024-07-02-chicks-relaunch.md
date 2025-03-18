@@ -3,10 +3,8 @@ title = 'Chicks.net Site Relaunch'
 date = 2024-07-02T10:53:43-07:00
 draft = false
 description = 'Explain the relaunch of www.chicks.net'
-# canonicalURL = ''
-# ShowCanonicalLink = true
-# cover.image = ''
 cover.hidden = true
+tags = ["branding","hugo"]
 +++
 
 Howdy friends!  I'm happy to announce today that I am launching
