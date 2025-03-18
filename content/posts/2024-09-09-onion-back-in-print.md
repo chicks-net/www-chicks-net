@@ -4,6 +4,7 @@ date = 2024-09-09T11:43:56-07:00
 draft = false
 description = "Europe's finest news source covers America's finest news source."
 cover.hidden = true
+tags = ["the-economist", "humor"]
 +++
 
 I am so pleased to see that my favorite news weekly

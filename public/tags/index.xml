@@ -44,6 +44,41 @@
       <description></description>
     </item>
     <item>
+      <title>Humor</title>
+      <link>/tags/humor/</link>
+      <pubDate>Mon, 09 Sep 2024 11:43:56 -0700</pubDate>
+      <guid>/tags/humor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The-Economist</title>
+      <link>/tags/the-economist/</link>
+      <pubDate>Mon, 09 Sep 2024 11:43:56 -0700</pubDate>
+      <guid>/tags/the-economist/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Art</title>
+      <link>/tags/art/</link>
+      <pubDate>Wed, 31 Jul 2024 11:06:18 -0700</pubDate>
+      <guid>/tags/art/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>San-Francisco</title>
+      <link>/tags/san-francisco/</link>
+      <pubDate>Wed, 31 Jul 2024 11:06:18 -0700</pubDate>
+      <guid>/tags/san-francisco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>/tags/travel/</link>
+      <pubDate>Wed, 31 Jul 2024 11:06:18 -0700</pubDate>
+      <guid>/tags/travel/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Billiards</title>
       <link>/tags/billiards/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
@@ -51,10 +86,213 @@
       <description></description>
     </item>
     <item>
+      <title>Branding</title>
+      <link>/tags/branding/</link>
+      <pubDate>Tue, 02 Jul 2024 10:53:43 -0700</pubDate>
+      <guid>/tags/branding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Tue, 02 Jul 2024 10:53:43 -0700</pubDate>
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>/tags/family/</link>
+      <pubDate>Thu, 13 Jun 2024 17:01:26 +0000</pubDate>
+      <guid>/tags/family/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keyboard</title>
+      <link>/tags/keyboard/</link>
+      <pubDate>Thu, 13 Jun 2024 17:01:26 +0000</pubDate>
+      <guid>/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaming</title>
+      <link>/tags/gaming/</link>
+      <pubDate>Fri, 10 May 2024 20:30:19 +0000</pubDate>
+      <guid>/tags/gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creativity</title>
+      <link>/tags/creativity/</link>
+      <pubDate>Mon, 16 Oct 2023 01:29:27 +0000</pubDate>
+      <guid>/tags/creativity/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Ca-Central-Coast</title>
       <link>/tags/ca-central-coast/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
       <guid>/tags/ca-central-coast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History</title>
+      <link>/tags/history/</link>
+      <pubDate>Sun, 11 Jun 2023 15:36:43 +0000</pubDate>
+      <guid>/tags/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft</title>
+      <link>/tags/microsoft/</link>
+      <pubDate>Sun, 11 Jun 2023 15:36:43 +0000</pubDate>
+      <guid>/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linked-In</title>
+      <link>/tags/linked-in/</link>
+      <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
+      <guid>/tags/linked-in/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>/tags/mobile/</link>
+      <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
+      <guid>/tags/mobile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mcdtechlab</title>
+      <link>/tags/mcdtechlab/</link>
+      <pubDate>Mon, 30 Nov 2020 16:48:46 +0000</pubDate>
+      <guid>/tags/mcdtechlab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wired</title>
+      <link>/tags/wired/</link>
+      <pubDate>Mon, 30 Nov 2020 16:48:46 +0000</pubDate>
+      <guid>/tags/wired/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finance</title>
+      <link>/tags/finance/</link>
+      <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
+      <guid>/tags/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refer</title>
+      <link>/tags/refer/</link>
+      <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
+      <guid>/tags/refer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lego</title>
+      <link>/tags/lego/</link>
+      <pubDate>Mon, 22 Sep 2014 16:17:41 +0000</pubDate>
+      <guid>/tags/lego/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dead-Link</title>
+      <link>/tags/dead-link/</link>
+      <pubDate>Mon, 11 Nov 2013 15:00:02 +0000</pubDate>
+      <guid>/tags/dead-link/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>/tags/business/</link>
+      <pubDate>Fri, 27 Sep 2013 15:03:04 +0000</pubDate>
+      <guid>/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon</title>
+      <link>/tags/amazon/</link>
+      <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
+      <guid>/tags/amazon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>/tags/book/</link>
+      <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
+      <guid>/tags/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Habits</title>
+      <link>/tags/habits/</link>
+      <pubDate>Wed, 07 Aug 2013 17:44:52 +0000</pubDate>
+      <guid>/tags/habits/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Organization</title>
+      <link>/tags/organization/</link>
+      <pubDate>Wed, 07 Aug 2013 17:44:52 +0000</pubDate>
+      <guid>/tags/organization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtu</title>
+      <link>/tags/virtu/</link>
+      <pubDate>Tue, 16 Jul 2013 02:03:02 +0000</pubDate>
+      <guid>/tags/virtu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recruitment</title>
+      <link>/tags/recruitment/</link>
+      <pubDate>Tue, 23 Apr 2013 13:29:22 +0000</pubDate>
+      <guid>/tags/recruitment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arduino</title>
+      <link>/tags/arduino/</link>
+      <pubDate>Wed, 17 Apr 2013 12:49:49 +0000</pubDate>
+      <guid>/tags/arduino/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openx</title>
+      <link>/tags/openx/</link>
+      <pubDate>Wed, 17 Apr 2013 12:49:49 +0000</pubDate>
+      <guid>/tags/openx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dead=link</title>
+      <link>/tags/deadlink/</link>
+      <pubDate>Wed, 07 Dec 2011 12:05:15 +0000</pubDate>
+      <guid>/tags/deadlink/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Center</title>
+      <link>/tags/data-center/</link>
+      <pubDate>Sat, 15 Oct 2011 12:19:40 +0000</pubDate>
+      <guid>/tags/data-center/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>/tags/database/</link>
+      <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
+      <guid>/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Training</title>
+      <link>/tags/training/</link>
+      <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
+      <guid>/tags/training/</guid>
       <description></description>
     </item>
   </channel>

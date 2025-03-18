@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Arduino on Christopher Hicks</title>
+    <link>/tags/arduino/</link>
+    <description>Recent content in Arduino on Christopher Hicks</description>
+    <generator>Hugo -- 0.138.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Apr 2013 12:49:49 +0000</lastBuildDate>
+    <atom:link href="/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arduinio Hackathon at OpenX Pasadena announcement</title>
+      <link>/posts/2013-04-17_124949_linkedin/</link>
+      <pubDate>Wed, 17 Apr 2013 12:49:49 +0000</pubDate>
+      <guid>/posts/2013-04-17_124949_linkedin/</guid>
+      <description>Conversion of linked-in share into blog entry</description>
+    </item>
+    <item>
+      <title>OpenX Arduino Hackathon 2013</title>
+      <link>/posts/2013-04-16_134253_linkedin/</link>
+      <pubDate>Tue, 16 Apr 2013 13:42:53 +0000</pubDate>
+      <guid>/posts/2013-04-16_134253_linkedin/</guid>
+      <description>Conversion of linked-in share into blog entry</description>
+    </item>
+    <item>
+      <title>Arduino-Controlled RGB Lamp</title>
+      <link>/posts/2013-01-20_033747_linkedin/</link>
+      <pubDate>Sun, 20 Jan 2013 03:37:47 +0000</pubDate>
+      <guid>/posts/2013-01-20_033747_linkedin/</guid>
+      <description>Conversion of linked-in share into blog entry</description>
+    </item>
+  </channel>
+</rss>
