@@ -77,6 +77,11 @@ hugo_mod_update:
 prweb: on_a_branch
     gh pr view --web
 
+# run hugo from the top of the repo
+[group('Process')]
+hugo:
+    hugo
+
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
 # TODO: sanity check for making sure there are commits on the branch
