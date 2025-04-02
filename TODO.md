@@ -14,19 +14,20 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] get a new favicon, fix justfile for favicon generation, [add to papermod](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#adding-custom-favicons)
 - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
-- [ ] :pencil: blog entry on crypptocurrency being a Potemkin village
+- [ ] :pencil: blog entry on backing into parking spaces
 - [ ] :pencil: blog entry on crypptocurrency being a Potemkin village
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
 - [ ] :pencil: blog entry on calendaring
 - [ ] :pencil: blog entry on usernames
-- [ ] :pencil: blog entry on tmux
 - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
+- [ ] :pencil: blog entry on scheduled send in Slack
 
 ## Possible TODOs
 - [ ] use github issues instead of a text file for tracking site TODO items
 - [ ] enable github pages for this repo as a backup way to see the site
 - [ ] :pencil: blog entry on nushell [my nuggets](https://gist.github.com/chicks-net/7fa2425f6afb14261f39352605019209)
+- [ ] :pencil: blog entry on tmux
 - [ ] :pencil: blog entry on Markdown linting and grammer checking
 - [ ] :pencil: blog entry on getting a tech job
 - [ ] :pencil: blog entry on Hubspace string lights review
