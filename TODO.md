@@ -7,21 +7,22 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] get non-SSL site to redirect to the SSL site
 - [ ] :desktop_computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
 - [ ] :pencil: blog entry on "retroblogging"
-- [ ] :desktop_computer: implement linting of Markdown, etc. in GHA
+- [ ] :desktop_computer: implement linting of Markdown in GHA like [this PR](https://github.com/fini-net/www-fini-net/pull/8)
 
 ## Probable TODOs
 - [ ] :desktop_computer: configure webhook for updates
+- [ ] :desktop_computer: track redirects in `.fini/??.toml`
 - [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] get a new favicon, fix justfile for favicon generation, [add to papermod](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#adding-custom-favicons)
 - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
-- [ ] :pencil: blog entry on backing into parking spaces
+- [ ] :pencil: blog entry on backing into parking spaces (Outlined)
 - [ ] :pencil: blog entry on crypptocurrency being a Potemkin village
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
 - [ ] :pencil: blog entry on calendaring
 - [ ] :pencil: blog entry on usernames
 - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
-- [ ] :pencil: blog entry on scheduled send in Slack
+- [ ] :pencil: blog entry on scheduled send in Slack (DRAFTing)
 
 ## Possible TODOs
 - [ ] use github issues instead of a text file for tracking site TODO items
@@ -34,6 +35,7 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :pencil: blog entry on 3D rendering LEGO in Blender
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
 - [ ] :pencil: blog entry on chicks doesn't sleep (should wait until certain people retire)
+- [ ] :pencil: blog entry on East vs West
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again
