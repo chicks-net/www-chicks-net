@@ -36,7 +36,7 @@ sync:
 # PR create
 [group('Process')]
 pr: on_a_branch
-    hugo
+    just hugo
     git stp
     git pushup
     gh pr create --title "{{ last_commit_message }}" --body "{{ last_commit_message }} (Automated in 'justfile'.)"
@@ -80,7 +80,7 @@ prweb: on_a_branch
 # run hugo from the top of the repo
 [group('Process')]
 hugo:
-    hugo
+    TZ=America/Los_Angeles hugo
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
