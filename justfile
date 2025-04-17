@@ -80,7 +80,19 @@ prweb: on_a_branch
 # run hugo from the top of the repo
 [group('Process')]
 hugo:
+    #!/usr/bin/env bash
+    [[ -e public.prev ]] && exit 5
+    echo no prev directory
+
+    set -euxo pipefail # strict mode
+
+    mv public public.prev
+
     TZ=America/Los_Angeles hugo
+
+    git stp
+
+    rm -rf public.prev
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
