@@ -14,7 +14,7 @@ list:
 
 # display date with reversed background
 [group('example')]
-test:
+color-test:
     #!/usr/bin/env bash
     NOW=`just utcdate`
     echo "NOW={{ INVERT }}$NOW{{ BG_WHITE }}"
@@ -36,10 +36,14 @@ sync:
 # PR create
 [group('Process')]
 pr: on_a_branch
+    #!/usr/bin/env bash
+    set -euxo pipefail # strict mode
+
     just hugo
     git stp
     git pushup
-    gh pr create --title "{{ last_commit_message }}" --body "{{ last_commit_message }} (Automated in 'justfile'.)"
+    gh pr create --title "{{ last_commit_message }}" --body "Done:\n* {{ last_commit_message }}\n\n(Automated in \`justfile\`.)"
+    gh pr checks --watch
 
 # merge PR and return to starting point
 [group('Process')]
