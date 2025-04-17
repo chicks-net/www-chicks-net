@@ -42,7 +42,19 @@ pr: on_a_branch
     just hugo
     git stp
     git pushup
-    gh pr create --title "{{ last_commit_message }}" --body "Done:\n* {{ last_commit_message }}\n\n(Automated in \`justfile\`.)"
+
+    bodyfile=$(mktemp /tmp/justfile.XXXXXX)
+
+    echo "## Done:" >> $bodyfile
+    echo "" >> $bodyfile
+    echo "- {{ last_commit_message }}" >> $bodyfile
+    echo "" >> $bodyfile
+    echo "" >> $bodyfile
+    echo "(Automated in \`justfile\`.)" >> $bodyfile
+    #cat "$bodyfile"
+
+    gh pr create --title "{{ last_commit_message }}" --body-file "$bodyfile"
+    rm "$bodyfile"
     gh pr checks --watch
 
 # merge PR and return to starting point
