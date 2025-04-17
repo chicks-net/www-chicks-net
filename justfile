@@ -53,7 +53,7 @@ pr: on_a_branch
     echo "(Automated in \`justfile\`.)" >> $bodyfile
     #cat "$bodyfile"
 
-    gh pr create --title "{{ last_commit_message }}" --body "$bodyfile"
+    gh pr create --title "{{ last_commit_message }}" --body-file "$bodyfile"
     rm "$bodyfile"
     gh pr checks --watch
 
