@@ -110,6 +110,12 @@ hugo:
 
     rm -rf public.prev
 
+# run hugo server
+[group('Process')]
+server:
+    #!/usr/bin/env bash
+    TZ=America/Los_Angeles hugo server
+
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
 # TODO: sanity check for making sure there are commits on the branch
