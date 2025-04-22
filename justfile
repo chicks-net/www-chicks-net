@@ -55,6 +55,7 @@ pr: on_a_branch
 
     gh pr create --title "{{ last_commit_message }}" --body-file "$bodyfile"
     rm "$bodyfile"
+    sleep 10
     gh pr checks --watch
 
 # merge PR and return to starting point
@@ -109,6 +110,12 @@ hugo:
     git stp
 
     rm -rf public.prev
+
+# run hugo server
+[group('Process')]
+server:
+    #!/usr/bin/env bash
+    TZ=America/Los_Angeles hugo server
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
