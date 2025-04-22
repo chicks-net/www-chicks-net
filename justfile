@@ -55,6 +55,7 @@ pr: on_a_branch
 
     gh pr create --title "{{ last_commit_message }}" --body-file "$bodyfile"
     rm "$bodyfile"
+    sleep 10
     gh pr checks --watch
 
 # merge PR and return to starting point
