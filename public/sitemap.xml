@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/cloud/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+    <loc>/tags/free-software/</loc>
+    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
+  </url><url>
+    <loc>/posts/2025-04-25-lee-hall-graffitied-coal-cars/</loc>
+    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
+  </url><url>
+    <loc>/tags/youtube/</loc>
+    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
+  </url><url>
+    <loc>/tags/cloud/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/review/</loc>
@@ -14,22 +26,13 @@
     <loc>/posts/2025-03-10-review-microservices/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/tubi/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/2025-02-25-tubi-streamed-superbowl/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/free-software/</loc>
-    <lastmod>2024-09-29T15:39:41-07:00</lastmod>
-  </url><url>
     <loc>/posts/2024-09-29-using-just-to-speed-development/</loc>
-    <lastmod>2024-09-29T15:39:41-07:00</lastmod>
-  </url><url>
-    <loc>/tags/youtube/</loc>
     <lastmod>2024-09-29T15:39:41-07:00</lastmod>
   </url><url>
     <loc>/tags/humor/</loc>
