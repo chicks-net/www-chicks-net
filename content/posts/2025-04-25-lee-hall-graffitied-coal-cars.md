@@ -8,7 +8,7 @@ ShowCanonicalLink = true
 # TODO: could be a good one for a cover image
 # cover.image = '/posts/'
 cover.hidden = true
-tags = ["youtube", "free-software"]
+tags = ["youtube", "trains", "va-lee-hall", "art"]
 +++
 
 {{< youtube KG1Hc07khDI >}}
