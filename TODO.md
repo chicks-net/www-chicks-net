@@ -20,7 +20,7 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
 - [ ] :pencil: blog entry on calendaring
 - [ ] :pencil: blog entry on usernames
-- [ ] :pencil: blog entry on shell programming (bash, zsh) best practices
+- [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
 - [ ] :pencil: blog entry on scheduled send in Slack (DRAFTing)
 
@@ -35,7 +35,11 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :pencil: blog entry on 3D rendering LEGO in Blender
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
 - [ ] :pencil: blog entry on chicks doesn't sleep (should wait until certain people retire)
-- [ ] :pencil: blog entry on East vs West
+- [ ] :pencil: blog entry on East vs West (Outline started)
+- [ ] :pencil: blog entry on riding in a Waymo
+- [ ] :pencil: blog entry on the characters in Duolingo
+- [ ] :pencil: blog entry on the value of playlists
+- [ ] :pencil: blog entry on news organizations that I support
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again
