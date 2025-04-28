@@ -43,6 +43,8 @@ pr: on_a_branch
     git stp
     git pushup
 
+    set +x # leave tracing off...
+
     bodyfile=$(mktemp /tmp/justfile.XXXXXX)
 
     echo "## Done:" >> $bodyfile
@@ -51,10 +53,18 @@ pr: on_a_branch
     echo "" >> $bodyfile
     echo "" >> $bodyfile
     echo "(Automated in \`justfile\`.)" >> $bodyfile
-    #cat "$bodyfile"
+
+    echo ''
+    cat "$bodyfile"
+    echo ''
 
     gh pr create --title "{{ last_commit_message }}" --body-file "$bodyfile"
     rm "$bodyfile"
+
+    if [[ ! -e ".github/workflows" ]]; then
+        echo there are no workflows in this repo so there are no PR checks to watch
+        exit 0
+    fi
     sleep 10
     gh pr checks --watch
 
