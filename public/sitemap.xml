@@ -2,16 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/cloud/</loc>
+    <lastmod>2025-05-02T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>/tags/habits/</loc>
+    <lastmod>2025-05-02T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>/tags/organization/</loc>
+    <lastmod>2025-05-02T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-05-02T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>/posts/2025-05-02-scheduled-send-is-your-friend/</loc>
+    <lastmod>2025-05-02T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>/tags/slack/</loc>
+    <lastmod>2025-05-02T08:00:00-07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-05-02T08:00:00-07:00</lastmod>
+  </url><url>
     <loc>/tags/art/</loc>
     <lastmod>2025-04-25T08:29:13-04:00</lastmod>
   </url><url>
     <loc>/posts/2025-04-25-lee-hall-graffitied-coal-cars/</loc>
-    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-04-25T08:29:13-04:00</lastmod>
   </url><url>
     <loc>/tags/trains/</loc>
@@ -22,9 +37,6 @@
   </url><url>
     <loc>/tags/youtube/</loc>
     <lastmod>2025-04-25T08:29:13-04:00</lastmod>
-  </url><url>
-    <loc>/tags/cloud/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/review/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
@@ -201,12 +213,6 @@
     <lastmod>2013-08-08T19:25:57+00:00</lastmod>
   </url><url>
     <loc>/posts/2013-08-07_174452_linkedin/</loc>
-    <lastmod>2013-08-07T17:44:52+00:00</lastmod>
-  </url><url>
-    <loc>/tags/habits/</loc>
-    <lastmod>2013-08-07T17:44:52+00:00</lastmod>
-  </url><url>
-    <loc>/tags/organization/</loc>
     <lastmod>2013-08-07T17:44:52+00:00</lastmod>
   </url><url>
     <loc>/posts/2013-08-06_174115_linkedin/</loc>
