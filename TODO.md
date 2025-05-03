@@ -8,6 +8,7 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :desktop_computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
 - [ ] :pencil: blog entry on "retroblogging"
 - [ ] :desktop_computer: implement linting of Markdown in GHA like [this PR](https://github.com/fini-net/www-fini-net/pull/8)
+- [ ] :desktop_computer: implement [edit links for posts](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#edit-link-for-posts)
 
 ## Probable TODOs
 - [ ] :desktop_computer: configure webhook for updates
@@ -22,7 +23,6 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :pencil: blog entry on usernames
 - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
-- [ ] :pencil: blog entry on scheduled send in Slack (DRAFTing)
 
 ## Possible TODOs
 - [ ] use github issues instead of a text file for tracking site TODO items
@@ -40,6 +40,7 @@ Draft blog entries live in my "Creative Writing" folder in Google Drive.
 - [ ] :pencil: blog entry on the characters in Duolingo
 - [ ] :pencil: blog entry on the value of playlists
 - [ ] :pencil: blog entry on news organizations that I support
+- [ ] :pencil: blog entry on how to wrap cables with Velcro
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again
