@@ -2,6 +2,7 @@
 
 Some "blog entries" may turn into youtube videos, but all youtube videos should become blog entries.
 Draft blog entries live in my "Creative Writing" folder in Google Drive.
+
 ## Definite TODOs
 - [ ] get non-SSL site to redirect to the SSL site
 - [ ] :desktop_computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
