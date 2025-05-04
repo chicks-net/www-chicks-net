@@ -6,16 +6,16 @@ youtube videos should become blog entries.  Draft blog entries live in my
 "Creative Writing" folder in Google Drive.
 
 ## Definite TODOs
-- [ ] :laptop: implement [edit links for posts](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#edit-link-for-posts)
-- [ ] :laptop: implement linting of Markdown in GHA like [this PR](https://github.com/fini-net/www-fini-net/pull/8)
-- [ ] :laptop: get non-SSL site to redirect to the SSL site
-- [ ] :laptop: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
+- [ ] :computer: implement [edit links for posts](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#edit-link-for-posts)
+- [ ] :computer: implement linting of Markdown in GHA like [this PR](https://github.com/fini-net/www-fini-net/pull/8)
+- [ ] :computer: get non-SSL site to redirect to the SSL site
+- [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
 - [ ] :pencil: blog entry on "retroblogging" (blocked by previous entry)
 
 ## Probable TODOs
-- [ ] :laptop: get a new favicon, fix justfile for favicon generation, [add to papermod](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#adding-custom-favicons)
-- [ ] :laptop: track redirects in `.fini/??.toml`
-- [ ] :laptop: configure webhook for updates
+- [ ] :computer: get a new favicon, fix justfile for favicon generation, [add to papermod](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#adding-custom-favicons)
+- [ ] :computer: track redirects in `.fini/??.toml`
+- [ ] :computer: configure webhook for updates
 - [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
 - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
@@ -48,13 +48,13 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :link: calendly
 
 ## Unlikely TODOs
-- [ ] :laptop: try dagger
+- [ ] :computer: try dagger
 - [ ] :link: link to Amazon profile
 - [ ] 📆 calendar view
 - [ ] :world_map: geolocation
 - [ ] :link: game character links
-- [ ] :laptop: enable github pages for this repo as a backup way to see the site (I tried with FINI and the URLs don't work out well.)
+- [ ] :computer: enable github pages for this repo as a backup way to see the site (I tried with FINI and the URLs don't work out well.)
 
 ## Impossible TODOs
-- [ ] :laptop: retroblogging bloglines content - I couldn't even find it in the WayBack machine.
+- [ ] :computer: retroblogging bloglines content - I couldn't even find it in the WayBack machine.
 - [ ] :pencil: blog entry on chicks long email announcing departure from OpenX (I can't find it!)
