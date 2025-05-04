@@ -6,6 +6,7 @@ description = 'A comparison of pool rules regularly used in the US.'
 # cover.image = ''
 cover.hidden = true
 tags = ["billiards"]
+ShowToc = true
 +++
 
 I have the opportunity to play pool with some folks that I've
