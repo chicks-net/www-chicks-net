@@ -62,7 +62,7 @@ pr: on_a_branch
     rm "$bodyfile"
 
     if [[ ! -e ".github/workflows" ]]; then
-        echo there are no workflows in this repo so there are no PR checks to watch
+        echo "{{BLUE}}there are no workflows in this repo so there are no PR checks to watch{{NORMAL}}"
         exit 0
     fi
     sleep 10
@@ -126,6 +126,7 @@ hugo:
 server:
     #!/usr/bin/env bash
     TZ=America/Los_Angeles hugo server
+    just hugo # cleanup after server!
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
