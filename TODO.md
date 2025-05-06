@@ -6,7 +6,6 @@ youtube videos should become blog entries.  Draft blog entries live in my
 "Creative Writing" folder in Google Drive.
 
 ## Definite TODOs
-- [ ] :computer: implement [edit links for posts](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#edit-link-for-posts)
 - [ ] :computer: implement linting of Markdown in GHA like [this PR](https://github.com/fini-net/www-fini-net/pull/8)
 - [ ] :computer: get non-SSL site to redirect to the SSL site
 - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
@@ -19,9 +18,9 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
 - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
-- [ ] :pencil: blog entry on crypptocurrency being a Potemkin village
+- [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
-- [ ] :pencil: blog entry on calendaring
+- [ ] :pencil: blog entry on calendaring (Outlined)
 - [ ] :pencil: blog entry on usernames
 - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
@@ -42,6 +41,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on the value of playlists
 - [ ] :pencil: blog entry on news organizations that I support
 - [ ] :pencil: blog entry on how to wrap cables with Velcro
+- [ ] :pencil: blog entry on books abou the crazy computer business
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again

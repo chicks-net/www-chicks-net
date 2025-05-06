@@ -40,6 +40,11 @@ imageTitle = "Wedding picture of Christopher Hicks by Julie"
 imageWidth = 716
 imageHeight = 724
 
+[params.editPost]
+URL = "https://github.com/chicks-net/www-chicks-net/tree/main/content"
+Text = "Suggest Changes" # edit text
+appendFilePath = true # to append file path to Edit link
+
 [[params.profileMode.buttons]]
 name = "intro"
 url = "/intro"
