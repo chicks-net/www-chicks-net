@@ -7,4 +7,7 @@ draft = true
 # ShowCanonicalLink = true
 # cover.image = '/posts/'
 cover.hidden = true
+# keywords = ["", "", ""]
+# tags = ["", "", "", ""]
+# ShowToc = true
 +++
