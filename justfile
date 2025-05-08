@@ -109,7 +109,7 @@ prweb: on_a_branch
 hugo:
     #!/usr/bin/env bash
     [[ -e public.prev ]] && exit 5
-    echo no prev directory
+    echo "{{GREEN}}no prev directory, so safe to rebuild with hugo...{{NORMAL}}"
 
     set -euxo pipefail # strict mode
 
@@ -141,7 +141,7 @@ on_a_branch:
     # thanks to https://stackoverflow.com/a/12142066/2002471
 
     if [[ $(git rev-parse --abbrev-ref HEAD) == "main" ]]; then
-      echo "You are on branch {{ release_branch }} (the release branch) so you are not ready to start a PR."
+      echo "{{RED}}You are on branch '{{ release_branch }}' (the release branch) so you are not ready to start a PR.{{NORMAL}}"
       exit 100
     fi
 
