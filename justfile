@@ -71,7 +71,7 @@ pr: on_a_branch
 # merge PR and return to starting point
 [group('Process')]
 merge:
-    gh pr merge -s
+    gh pr merge -s -d
     just sync
 
 # start a new post
