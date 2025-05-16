@@ -6,8 +6,15 @@
     <description>Recent content in Business on Christopher Hicks</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Sep 2013 15:03:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis backslides into open source community</title>
+      <link>/posts/2025-05-16-redis-backslides-into-open-source/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/2025-05-16-redis-backslides-into-open-source/</guid>
+      <description>But will the community slide back into redis?</description>
+    </item>
     <item>
       <title>VCs Should Give Honest Feedback &amp; Why They Often Don’t</title>
       <link>/posts/2013-09-27_150304_linkedin/</link>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Redis backslides into open source community | Christopher Hicks</title>
+<meta name="keywords" content="community, open-source, redis, valkey">
+<meta name="description" content="But will the community slide back into redis?">
+<meta name="author" content="Christopher Hicks">
+<link rel="canonical" href="/posts/2025-05-16-redis-backslides-into-open-source/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#a903fc">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/2025-05-16-redis-backslides-into-open-source/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="/posts/2025-05-16-redis-backslides-into-open-source/">
+  <meta property="og:site_name" content="Christopher Hicks">
+  <meta property="og:title" content="Redis backslides into open source community">
+  <meta property="og:description" content="But will the community slide back into redis?">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-16T00:00:00+00:00">
+    <meta property="article:tag" content="Free-Software">
+    <meta property="article:tag" content="Cloud">
+    <meta property="article:tag" content="Business">
+    <meta property="article:tag" content="Database">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Redis backslides into open source community">
+<meta name="twitter:description" content="But will the community slide back into redis?">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Redis backslides into open source community",
+      "item": "/posts/2025-05-16-redis-backslides-into-open-source/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Redis backslides into open source community",
+  "name": "Redis backslides into open source community",
+  "description": "But will the community slide back into redis?",
+  "keywords": [
+    "community", "open-source", "redis", "valkey"
+  ],
+  "articleBody": "Disclaimer I am not a significant member of the Redis community. I have not used Redis on a regular basis. I’ve discussed Redis more in interviews than during regular work. My few work encounters with Redis have been using Elasticache. These facts would discourage me and should discourage you from having me as your next redis admin.\nDespite all of that — I have been part of the free software and open source communities for many years. With all of the tumult around licensing with prominent open source companies in recent years I am well positioned to talk about companies and their relationships to their communities.\nTo some folks in the tech business my lack of a financial stake in this fight will make it easier to believe I know what I’m talking about.\nRedis wants acceptance When Salvatore Sanfilippo posted announcing Redis’s return to open source my initial reaction was yay, this is good for open source. It is hard not to agree with sentiments like\nYet, returning back to an open source license is the basis for such efforts to be coherent with the Redis project, to be accepted by the user base, and to contribute to a human collective effort that is larger than any single company.\nBravo. These are great reasons to share your code with the world. I am glad that Redis chose to do this. We agree that it is in their best interest and the best interests of developers and users.\nThe next day he goes on to add:\nTrivially: if you need to do vector similarity searches, you need to use Redis; if instead your company has a no-AGPL policy, you need to use ValKey, and so forth.\nSalvatore: you’ve skipped a major consideration. Maybe you should also stay away from Redis if you are concerned about arbitrary and capricious changes to the license in the future. It is a major trust question and I have not seen this addressed directly.\nThe Community is unimpressed An article from The New Stack has some great quotes:\nTrollope also admitted that he and the rest of the company didn’t fully engage with the open source community. Sanfilippo may now have the credibility in the community to do that, he believes, but at the time, the company remained mostly silent, “and that was a mistake,” Trollope said.\nCool, cool, maybe they’re figuring out how nasty to the community they’ve been. But no, oh no…. The very next paragraphs in The New Stack article are:\nRedis does not believe that the Valkey fork has made much of a dent in the overall Redis community.\n“We have 98% of the people that actually contributed to Redis open source work for Redis. The people that are on the foundation of Valkey really were more of the fringe contributors, with the one exception of Madelyn [Olson], who is a good contributor,” Trollope said — and immediately walked that back. “That sounds more pejorative than I needed to be. We respect those people. We love that they’re doing that. We would like them to be contributors on Redis again.”\nWait, what!?!!? Really? How did you come up with 98% there? Where did you show your homework? Did you imagine noone could go and look at github?\nThis won’t take long….\nCompare the github communities Let’s see how valkey is doing: 2024 is showing 200+ committers for most periods. That’s a lot of folks actively participating on an ongoing and steady basis. The Valkey community is demonstrating a good ability to retain developers and for those developers to regularly contribute. Valkey’s recent history is also much more similar to the most active times in the project in the 2010-2022 timeframe.\nLet’s see how good old Redis is doing: The 2024 period for Redis looks pretty thin. Some periods reach above 100, but none above 200. Redis claims to have 500-1000 employees on linked-in so 100 folks could easily be entirely paid employees. This also fits with the claim that most of the developers are on the company payroll.\nI’m not even very impressed with how Redis is doing at getting their own developers to commit to the project. Linked-in says they have “1269 associated members” and 388 are in Engineering. So 100 committers out of 388 total engineers is 26% participation. What were 75% of engineering doing for large swaths of 2023 and 2024? How many side projects are there?\nTrollope’s figure of 98% should be closer to 50%. It is not hard to see that they kept around half of the contributors. Maybe a slew will come back because of the name recognition. Time will tell. But the history is easy to see: most of the community went elsewhere.\nDestroying the community was the goal The Redis CEO boldly states:\nThis achieved our goal—AWS and Google now maintain their own fork\nSo, as long as AWS and Google are off in their own world, Redis can feel better about things. Splitting the community is good in their minds. Losing the contributions of developers who aren’t paid by Redis is a tiny sacrifice, not worth worrying about.\nThat’s a bold path to take, and it shows active disdain for the participation of the open source developers.\nRebuilding bridges is tough From Analytics India magazine’s festively titled “Redis Doesn’t Want Developers to Hate it Anymore” article:\nThe community’s skepticism is proving hard to shake. “This is a ‘fool me twice’ situation,” wrote one user on Hacker News. The return to AGPLv3 has not silenced criticism either. “Once you’ve migrated to a fork, there’s no business case to migrate back,” a developer said.\nArch Linux is giving up on Redis permanently and sticking with valkey. Cloud provider OVHcloud is committed to Valkey and open source. Others will follow these excellent examples.\nConclusion So you’ve got a prominent technology company (Redis) that is weakly attempting to regain the trust of their open source community. They’re not really apologizing for burning this same community in the recent past. The company is also not honest with itself or us about how much of their community walked away because of their capricious behavior. There’s unlikely to be any peace treaty with the forks when the business leader is obviously happier without them.\nSo, you’ve got a clear choice. You can choose the developer community that has always been committed to open source and also be part of a community that has never sold out. Or you can join the community with the folks that are happy to be part of the open source community when it seems convenient for their business.\nFor those of us on the outside, it seems like an easy choice, but walking away from any technology is a difficult question and only you understand which factors are most important to you. I do hope you’ll use whatever power and influence you have to encourage more adoption of Valkey and send less money to folks like Redis.\n",
+  "wordCount" : "1163",
+  "inLanguage": "en",
+  "datePublished": "2025-05-16T00:00:00Z",
+  "dateModified": "2025-05-16T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Christopher Hicks"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/2025-05-16-redis-backslides-into-open-source/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Christopher Hicks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Christopher Hicks (Alt + H)">Christopher Hicks</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/intro" title="Intro">
+                    <span>Intro</span>
+                </a>
+            </li>
+            <li>
+                <a href="/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="/links" title="Links">
+                    <span>Links</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="/">Home</a>&nbsp;»&nbsp;<a href="/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Redis backslides into open source community
+    </h1>
+    <div class="post-description">
+      But will the community slide back into redis?
+    </div>
+    <div class="post-meta"><span title='2025-05-16 00:00:00 +0000 UTC'>May 16, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;1163 words&nbsp;·&nbsp;Christopher Hicks&nbsp;|&nbsp;<a href="https://github.com/chicks-net/www-chicks-net/tree/main/content/posts/2025-05-16-redis-backslides-into-open-source.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#disclaimer">Disclaimer</a></li>
+    <li><a href="#redis-wants-acceptance">Redis wants acceptance</a></li>
+    <li><a href="#the-community-is-unimpressed">The Community is unimpressed</a></li>
+    <li><a href="#compare-the-github-communities">Compare the github communities</a></li>
+    <li><a href="#destroying-the-community-was-the-goal">Destroying the community was the goal</a></li>
+    <li><a href="#rebuilding-bridges-is-tough">Rebuilding bridges is tough</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="disclaimer">Disclaimer<a hidden class="anchor" aria-hidden="true" href="#disclaimer">#</a></h2>
+<p>I am not a significant member of the Redis community.  I have not used Redis on
+a regular basis.  I’ve discussed Redis more in interviews than during regular
+work.  My few work encounters with Redis have been using Elasticache.  These
+facts would discourage me and should discourage you from having me as your next
+redis admin.</p>
+<p>Despite all of that — I have been part of the free software and open source
+communities for many years.  With all of the <a href="https://youtu.be/sgX5-Mm47cg?si=tt8Yj33s9JOU1JvS">tumult around
+licensing</a> with prominent
+open source companies in recent years I am well positioned to talk about
+companies and their relationships to their communities.</p>
+<p>To some folks in the tech business my lack of a financial stake in this fight
+will make it easier to believe I know what I’m talking about.</p>
+<h2 id="redis-wants-acceptance">Redis wants acceptance<a hidden class="anchor" aria-hidden="true" href="#redis-wants-acceptance">#</a></h2>
+<p>When <a href="https://antirez.com/news/151">Salvatore Sanfilippo posted</a> announcing
+Redis’s return to open source my initial reaction was yay, this is good for
+open source.  It is hard not to agree with sentiments like</p>
+<blockquote>
+<p>Yet, returning back to an open source license is the basis for such efforts
+to be coherent with the Redis project, to be accepted by the user base, and
+to contribute to a human collective effort that is larger than any single
+company.</p>
+</blockquote>
+<p>Bravo.  These are great reasons to share your code with the world.  I am glad
+that Redis chose to do this.  We agree that it is in their best interest and
+the best interests of developers and users.</p>
+<p>The next day <a href="https://antirez.com/news/152">he goes on to add</a>:</p>
+<blockquote>
+<p>Trivially: if you need to do vector similarity searches, you need to use
+Redis; if instead your company has a no-AGPL policy, you need to use ValKey,
+and so forth.</p>
+</blockquote>
+<p>Salvatore: you’ve skipped a major consideration.  <strong>Maybe you should also stay
+away from Redis if you are concerned about arbitrary and capricious changes to
+the license in the future.</strong>  It is a major trust question and I have not seen
+this addressed directly.</p>
+<h2 id="the-community-is-unimpressed">The Community is unimpressed<a hidden class="anchor" aria-hidden="true" href="#the-community-is-unimpressed">#</a></h2>
+<p>An article from <a href="https://thenewstack.io/redis-is-open-source-again/">The New
+Stack</a> has some great
+quotes:</p>
+<blockquote>
+<p>Trollope also admitted that he and the rest of the company didn’t fully
+engage with the open source community. Sanfilippo may now have the
+credibility in the community to do that, he believes, but at the time, the
+company remained mostly silent, “and that was a mistake,” Trollope said.</p>
+</blockquote>
+<p>Cool, cool, maybe they’re figuring out how nasty to the community they’ve been.
+But no, oh no…. The very next paragraphs in The New Stack article are:</p>
+<blockquote>
+<p>Redis does not believe that the Valkey fork has made much of a dent in the
+overall Redis community.</p>
+<p>“We have 98% of the people that actually contributed to Redis open source
+work for Redis. The people that are on the foundation of Valkey really were
+more of the fringe contributors, with the one exception of Madelyn [Olson],
+who is a good contributor,” Trollope said — and immediately walked that back.
+“That sounds more pejorative than I needed to be. We respect those people. We
+love that they’re doing that. We would like them to be contributors on Redis
+again.”</p>
+</blockquote>
+<p>Wait, what!?!!?  Really?  How did you come up with 98% there?  Where did you
+show your homework?  Did you imagine noone could go and look at github?</p>
+<p>This won’t take long….</p>
+<h2 id="compare-the-github-communities">Compare the github communities<a hidden class="anchor" aria-hidden="true" href="#compare-the-github-communities">#</a></h2>
+<p>Let’s see how valkey is doing:
+<img alt="Vakley committers graph" loading="lazy" src="data:image/png;base64,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"></p>
+<p>2024 is showing 200+ committers for most periods.  That’s a lot of folks
+actively participating on an ongoing and steady basis.  The Valkey community is
+demonstrating a good ability to retain developers and for those developers to
+regularly contribute.  Valkey’s recent history is also much more similar to the
+most active times in the project in the 2010-2022 timeframe.</p>
+<p>Let’s see how good old Redis is doing:
+<img alt="Redis committers graph" loading="lazy" src="data:image/png;base64,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"></p>
+<p>The 2024 period for Redis looks pretty thin.  Some periods reach above 100, but
+none above 200.  Redis claims to have 500-1000 employees on linked-in so 100
+folks could easily be entirely paid employees.  This also fits with the claim
+that most of the developers are on the company payroll.</p>
+<p>I’m not even very impressed with how Redis is doing at getting their own
+developers to commit to the project.  Linked-in says they have “1269 associated
+members” and 388 are in Engineering.  So 100 committers out of 388 total
+engineers is 26% participation.  What were 75% of engineering doing for large
+swaths of 2023 and 2024?  How many side projects are there?</p>
+<p>Trollope’s figure of 98% should be closer to 50%.  It is not hard to see that
+they kept around half of the contributors.  Maybe a slew will come back because
+of the name recognition.  Time will tell.  But the history is easy to see: most
+of the community went elsewhere.</p>
+<h2 id="destroying-the-community-was-the-goal">Destroying the community was the goal<a hidden class="anchor" aria-hidden="true" href="#destroying-the-community-was-the-goal">#</a></h2>
+<p>The Redis <a href="https://redis.io/blog/agplv3/">CEO boldly states</a>:</p>
+<blockquote>
+<p>This achieved our goal—AWS and Google now maintain their own fork</p>
+</blockquote>
+<p>So, as long as AWS and Google are off in their own world, Redis can feel better
+about things.  Splitting the community is good in their minds.  Losing the
+contributions of developers who aren’t paid by Redis is a tiny sacrifice, not
+worth worrying about.</p>
+<p>That’s a bold path to take, and it shows active disdain for the participation
+of the open source developers.</p>
+<h2 id="rebuilding-bridges-is-tough">Rebuilding bridges is tough<a hidden class="anchor" aria-hidden="true" href="#rebuilding-bridges-is-tough">#</a></h2>
+<p>From <a href="https://analyticsindiamag.com/ai-features/redis-doesnt-want-developers-to-hate-it-anymore/">Analytics India magazine&rsquo;s festively titled &ldquo;Redis Doesn’t Want
+Developers to Hate it Anymore&rdquo;
+article</a>:</p>
+<blockquote>
+<p>The community’s skepticism is proving hard to shake. “This is a ‘fool me
+twice’ situation,” wrote one user on Hacker News. The return to AGPLv3 has
+not silenced criticism either. “Once you’ve migrated to a fork, there’s no
+business case to migrate back,” a developer said.</p>
+</blockquote>
+<p>Arch Linux is <a href="https://archlinux.org/news/valkey-to-replace-redis-in-the-extra-repository/">giving up on Redis permanently and sticking with
+valkey</a>.
+Cloud provider <a href="https://blog.ovhcloud.com/valkey-open-source-commitment/">OVHcloud is committed to Valkey and open
+source</a>.
+Others will follow these excellent examples.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>So you’ve got a prominent technology company (Redis) that is weakly attempting
+to regain the trust of their open source community.  They’re not really
+apologizing for burning this same community in the recent past.  The company is
+also not honest with itself or us about how much of their community walked away
+because of their capricious behavior.  There’s unlikely to be any peace treaty
+with the forks when the business leader is obviously happier without them.</p>
+<p>So, you’ve got a clear choice.  You can choose the developer community that has
+always been committed to open source and also be part of a community that has
+never sold out.  Or you can join the community with the folks that are happy to
+be part of the open source community when it seems convenient for their
+business.</p>
+<p>For those of us on the outside, it seems like an easy choice, but walking away
+from any technology is a difficult question and only you understand which
+factors are most important to you.  I do hope you’ll use whatever power and
+influence you have to encourage more adoption of
+<a href="https://github.com/valkey-io/valkey">Valkey</a> and send less money to folks like
+Redis.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/free-software/">Free-Software</a></li>
+      <li><a href="/tags/cloud/">Cloud</a></li>
+      <li><a href="/tags/business/">Business</a></li>
+      <li><a href="/tags/database/">Database</a></li>
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Redis backslides into open source community on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2f2025-05-16-redis-backslides-into-open-source%2f&amp;title=Redis%20backslides%20into%20open%20source%20community&amp;summary=Redis%20backslides%20into%20open%20source%20community&amp;source=%2fposts%2f2025-05-16-redis-backslides-into-open-source%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Redis backslides into open source community on reddit"
+            href="https://reddit.com/submit?url=%2fposts%2f2025-05-16-redis-backslides-into-open-source%2f&title=Redis%20backslides%20into%20open%20source%20community">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Redis backslides into open source community on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=%2fposts%2f2025-05-16-redis-backslides-into-open-source%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Redis backslides into open source community on whatsapp"
+            href="https://api.whatsapp.com/send?text=Redis%20backslides%20into%20open%20source%20community%20-%20%2fposts%2f2025-05-16-redis-backslides-into-open-source%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Redis backslides into open source community on telegram"
+            href="https://telegram.me/share/url?text=Redis%20backslides%20into%20open%20source%20community&amp;url=%2fposts%2f2025-05-16-redis-backslides-into-open-source%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Redis backslides into open source community on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Redis%20backslides%20into%20open%20source%20community&u=%2fposts%2f2025-05-16-redis-backslides-into-open-source%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="/">Christopher Hicks</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
