@@ -6,13 +6,34 @@
     <description>Recent content in Tags on Christopher Hicks</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 May 2025 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business</title>
+      <link>/tags/business/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/business/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cloud</title>
       <link>/tags/cloud/</link>
-      <pubDate>Fri, 02 May 2025 08:00:00 -0700</pubDate>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
       <guid>/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>/tags/database/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free-Software</title>
+      <link>/tags/free-software/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/free-software/</guid>
       <description></description>
     </item>
     <item>
@@ -76,13 +97,6 @@
       <link>/tags/tubi/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       <guid>/tags/tubi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Free-Software</title>
-      <link>/tags/free-software/</link>
-      <pubDate>Sun, 29 Sep 2024 15:39:41 -0700</pubDate>
-      <guid>/tags/free-software/</guid>
       <description></description>
     </item>
     <item>
@@ -240,13 +254,6 @@
       <description></description>
     </item>
     <item>
-      <title>Business</title>
-      <link>/tags/business/</link>
-      <pubDate>Fri, 27 Sep 2013 15:03:04 +0000</pubDate>
-      <guid>/tags/business/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Amazon</title>
       <link>/tags/amazon/</link>
       <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
@@ -293,13 +300,6 @@
       <link>/tags/data-center/</link>
       <pubDate>Sat, 15 Oct 2011 12:19:40 +0000</pubDate>
       <guid>/tags/data-center/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Database</title>
-      <link>/tags/database/</link>
-      <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
-      <guid>/tags/database/</guid>
       <description></description>
     </item>
     <item>

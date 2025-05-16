@@ -6,8 +6,15 @@
     <description>Recent content in Free-Software on Christopher Hicks</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 15:39:41 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis backslides into open source community</title>
+      <link>/posts/2025-05-16-redis-backslides-into-open-source/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/2025-05-16-redis-backslides-into-open-source/</guid>
+      <description>But will the community slide back into redis?</description>
+    </item>
     <item>
       <title>Using just to speed development</title>
       <link>/posts/2024-09-29-using-just-to-speed-development/</link>
