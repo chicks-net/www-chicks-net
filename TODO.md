@@ -12,10 +12,8 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on "retroblogging" (blocked by previous entry)
 
 ## Probable TODOs
-- [ ] :computer: get a new favicon, fix justfile for favicon generation, [add to papermod](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#adding-custom-favicons)
-- [ ] :computer: track redirects in `.fini/??.toml`
+- [ ] :computer: track config in `.fini/??.toml`
 - [ ] :computer: configure webhook for updates
-- [ ] :baseball: play with hugo shortcodes (github, steam, ??)
 - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
 - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
 - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
