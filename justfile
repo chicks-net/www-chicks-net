@@ -90,12 +90,12 @@ branch branchname: main_branch
     git co -b "chicks/$NOW-{{ branchname }}"
 
 # clean out references to old hugo modules
-[group('Process')]
+[group('Hugo')]
 hugo_mod_tidy:
     hugo mod tidy
 
 # update hugo modules
-[group('Process')]
+[group('Hugo')]
 hugo_mod_update:
     hugo mod get -u
 
@@ -105,7 +105,7 @@ prweb: on_a_branch
     gh pr view --web
 
 # run hugo from the top of the repo
-[group('Process')]
+[group('Hugo')]
 hugo:
     #!/usr/bin/env bash
     [[ -e public.prev ]] && exit 5
@@ -122,11 +122,17 @@ hugo:
     rm -rf public.prev
 
 # run hugo server
-[group('Process')]
+[group('Hugo')]
 server:
     #!/usr/bin/env bash
     TZ=America/Los_Angeles hugo server
     just hugo # cleanup after server!
+
+# open browser to hugo site
+[group('Hugo')]
+see-server:
+    open http://localhost:1313/
+    just server
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
@@ -159,6 +165,25 @@ main_branch:
     fi
 
 # Thanks to https://apple.stackexchange.com/a/422206/210526
+
+# extract hashtags from article
+[group('Utility')]
+hashtags filename:
+    #!/usr/bin/env bash
+    set -euo pipefail # strict mode
+    tomlfile=$(mktemp /tmp/justfile.XXXXXX)
+    hashtagfile=$(mktemp /tmp/justfile.XXXXXX)
+    #echo $tomlfile
+    grep -e '^\(tags\|keywords\)' "{{ filename }}" > $tomlfile
+    #cat $tomlfile
+
+    toml get -r "$tomlfile" 'tags' | sed -e 's/]$//' -e 's/^\[//' -e 's/["]//g' -e 's/,/\n/g' | sed -e 's/^/#/g' > "$hashtagfile"
+    toml get -r "$tomlfile" 'keywords' | sed -e 's/]$//' -e 's/^\[//' -e 's/["]//g' -e 's/,/\n/g' | sed -e 's/^/#/g' >> "$hashtagfile"
+
+    echo "{{BLUE}}hashtags for {{ filename }}:{{NORMAL}}"
+    echo $(cat "$hashtagfile")
+
+    rm "$tomlfile" "$hashtagfile"
 
 # remove GPS information from an image
 [group('Utility')]
