@@ -136,3 +136,9 @@ considering doing more non-technical blog-style posts like [Neckties of July
 I’m glad my pace of writing is picking up.
 
 Thanks for reading this far.  I appreciate the time and I’m open to your feedback.
+
+### Meta 2
+
+This article was also
+[posted on my linked-in](https://www.linkedin.com/posts/chicks2fini_scheduled-send-in-slack-activity-7325142243353231362-aGd3)
+profile.
