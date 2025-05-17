@@ -191,6 +191,7 @@ hashtags filename:
 gps_rm image:
     exiftool -overwrite_original -gps:all= {{ image }}
 
+# TODO: convert into just, but we didn't need it for the last favicon generated
 # from ancient html/Makefile
 #favicon.ico: img/favicon.pnm
 #	ppmtowinicon -output favicon.ico favicon.pnm
