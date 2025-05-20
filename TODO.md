@@ -14,8 +14,9 @@ youtube videos should become blog entries.  Draft blog entries live in my
 ## Probable TODOs
 - [ ] :computer: track config in `.fini/??.toml`
 - [ ] :computer: configure webhook for updates
-- [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
+- [ ] :pencil: blog entry on gamification in google maps (DRAFTing, maybe June)
 - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
+- [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
 - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
 - [ ] :pencil: blog entry on calendaring (Outlined)
