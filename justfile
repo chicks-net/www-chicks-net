@@ -108,8 +108,12 @@ prweb: on_a_branch
 [group('Hugo')]
 hugo:
     #!/usr/bin/env bash
-    [[ -e public.prev ]] && exit 5
-    echo "{{GREEN}}no prev directory, so safe to rebuild with hugo...{{NORMAL}}"
+    PREV_DIR="public.prev"
+    if [[ -e "$PREV_DIR" ]]; then
+        echo "{{RED}}The $PREV_DIR directory exists.  Is there a bug on a previous hugo run?{{NORMAL}}"
+        exit 5
+    fi
+    echo "{{GREEN}}no $PREV_DIR directory, so safe to rebuild with hugo...{{NORMAL}}"
 
     set -euxo pipefail # strict mode
 
