@@ -5,7 +5,7 @@ draft = false
 description = 'Converted from twiki - v1.2'
 cover.hidden = true
 author = "Christopher Hicks"
-tags = ['edge-reports','linux','free-software']
+tags = ['fini-edge-reports','linux','free-software']
 +++
 
 Are you frustrated by your computer? Whether you're a first time user or
