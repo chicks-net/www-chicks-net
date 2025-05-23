@@ -379,5 +379,19 @@
       <guid>/posts/2011-07-29_004350_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
+    <item>
+      <title>Microsoft Is A Monopoly</title>
+      <link>/posts/1999-11-15-monopoly-report/</link>
+      <pubDate>Mon, 15 Nov 1999 00:00:00 +0000</pubDate>
+      <guid>/posts/1999-11-15-monopoly-report/</guid>
+      <description>Converted from twiki - v1.2</description>
+    </item>
+    <item>
+      <title>Linux... changing the face of computing.</title>
+      <link>/posts/1999-06-06-linux-edge-report/</link>
+      <pubDate>Sun, 06 Jun 1999 00:00:00 +0000</pubDate>
+      <guid>/posts/1999-06-06-linux-edge-report/</guid>
+      <description>Converted from twiki - v1.2</description>
+    </item>
   </channel>
 </rss>
