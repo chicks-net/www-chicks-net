@@ -309,5 +309,19 @@
       <guid>/tags/training/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Edge-Reports</title>
+      <link>/tags/edge-reports/</link>
+      <pubDate>Mon, 15 Nov 1999 00:00:00 +0000</pubDate>
+      <guid>/tags/edge-reports/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Sun, 06 Jun 1999 00:00:00 +0000</pubDate>
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
