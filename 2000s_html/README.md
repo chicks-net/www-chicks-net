@@ -1,3 +1,3 @@
 # www-chicks-net
 
-old http://www.chicks.net/ web site
+old [www.chicks.net](http://www.chicks.net/) web site from the 2000s

@@ -6,12 +6,9 @@ description = "Youtube video of chicks talking about how companies are treating 
 canonicalURL = "https://youtu.be/sgX5-Mm47cg"
 ShowCanonicalLink = true
 cover.image = "/posts/2023-07-23-community.png"
-cover.hidden = true
+cover.hidden = false
 tags = ["youtube", "free-software"]
 +++
-
-{{< youtube sgX5-Mm47cg >}}
-https://youtu.be/sgX5-Mm47cg
 
 ## Introduction
 
@@ -141,3 +138,6 @@ need to change course, de-escalate, and rebuild trust.  But I’m not holding my
 breath or anything.
 
 It’s just a thought.  I hope you have a good day.
+
+## Watch it...
+{{< youtube sgX5-Mm47cg >}}
