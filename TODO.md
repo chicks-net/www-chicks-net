@@ -25,7 +25,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
 
 ## Possible TODOs
-- [ ] use github issues instead of a text file for tracking site TODO items
+- [ ] :computer: try https://github.com/open-telemetry/weaver for tag compliance
 - [ ] :pencil: blog entry on nushell [my nuggets](https://gist.github.com/chicks-net/7fa2425f6afb14261f39352605019209)
 - [ ] :pencil: blog entry on tmux
 - [ ] :pencil: blog entry on Markdown linting and grammer checking
@@ -40,11 +40,13 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on the value of playlists
 - [ ] :pencil: blog entry on news organizations that I support
 - [ ] :pencil: blog entry on how to wrap cables with Velcro
-- [ ] :pencil: blog entry on books abou the crazy computer business
+- [ ] :pencil: blog entry on books about the crazy computer business
+- [ ] :pencil: blog entry on the Williamsburg Pottery Factory
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again
 - [ ] :link: calendly
+- [ ] use github issues instead of a text file for tracking site TODO items
 
 ## Unlikely TODOs
 - [ ] :computer: try dagger
