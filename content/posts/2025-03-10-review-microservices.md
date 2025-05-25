@@ -34,7 +34,7 @@ wasn't terribly biased.
 Someone has actually written a balanced article on a controversial technical topic.
 It is truly unexpected in this business after all of these years.
 
-## Oh, Ovid! 
+## Oh, Ovid!i
 
 I didn't know who Curtis Poe was.  That made it easier for me to fall into the presumption of bias.
 
