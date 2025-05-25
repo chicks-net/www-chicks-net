@@ -19,6 +19,6 @@ inescapable!  Lol.
 
 ## Meta
 
-* Shot on my Samsung Galaxy S24+ phone.
-* Uploaded straight to youtube and google maps without any editing.
-* Edited with good old `vim` although I did try Zettlr recently.
+- Shot on my Samsung Galaxy S24+ phone.
+- Uploaded straight to youtube and google maps without any editing.
+- Edited with good old `vim` although I did try Zettlr recently.

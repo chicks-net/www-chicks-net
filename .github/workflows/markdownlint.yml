@@ -16,3 +16,5 @@ jobs:
         globs: |
           **/*.md
           !**/TODO.md
+          !public/**/*.md
+          !static/**/*.md
