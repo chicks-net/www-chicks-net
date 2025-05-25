@@ -10,15 +10,15 @@ draft = false
 
 ## Github
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chicks-net&theme=github)
+![profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chicks-net&theme=github)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chicks-net&theme=github)
+![repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chicks-net&theme=github)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chicks-net&theme=github)
+![most committed language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chicks-net&theme=github)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chicks-net&theme=github)
+![user stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chicks-net&theme=github)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chicks-net&theme=github)
+![productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chicks-net&theme=github)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 

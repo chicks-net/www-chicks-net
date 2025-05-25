@@ -6,7 +6,6 @@ youtube videos should become blog entries.  Draft blog entries live in my
 "Creative Writing" folder in Google Drive.
 
 ## Definite TODOs
-- [ ] :computer: implement linting of Markdown in GHA like [this PR](https://github.com/fini-net/www-fini-net/pull/8)
 - [ ] :computer: get non-SSL site to redirect to the SSL site
 - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
 - [ ] :pencil: blog entry on "retroblogging" (blocked by previous entry)
