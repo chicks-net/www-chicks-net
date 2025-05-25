@@ -35,7 +35,7 @@ particularly proud of overdressing for was the
 [Empire Strips Back](https://theempirestripsback.com/) -
 "A Star Wars Burlesque Parody"!  The whole thing was so very well done.
 The costumes were incredible.  The sets were awesome.  Of course, the dancing
-was mesmerizing.  The crowd at the 
+was mesmerizing.  The crowd at the
 [Great Star Theater](https://www.greatstartheater.org/)
 was happy to be there and totally positive.  The question of plot has come up
 in several conversations.  I can testify that there is minimal plot and the

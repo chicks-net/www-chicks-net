@@ -47,7 +47,7 @@ please check it out.
 
 Casey Rodarmor, the author of `just` posted a link on his twitter feed:
 
-> Very nice! Just tweeted out the video: https://x.com/rodarmor/status/1840856340450943480
+> Very nice! Just tweeted out the video: [tweet](https://x.com/rodarmor/status/1840856340450943480)
 
 and he also noted
 
