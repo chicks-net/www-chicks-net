@@ -7,7 +7,7 @@ canonicalURL = "https://youtu.be/sgX5-Mm47cg"
 ShowCanonicalLink = true
 cover.image = "/posts/2023-07-23-community.png"
 cover.hidden = false
-tags = ["youtube", "free-software"]
+tags = ["youtube", "free-software", "redhat"]
 +++
 
 ## Introduction
