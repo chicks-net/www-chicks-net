@@ -43,7 +43,8 @@ can win.
 So if bar pool is too unforgiving and slop pool is too
 loosey-goosey, is there a good balance?  Yes!  I present to you:
 the APA 8-ball rules.  You can find these rules
-[online in various forms](https://www.unlv.edu/sites/default/files/page_files/27/CampusRec_BilliardsRules.pdf), but here is my summary:
+[online in various forms](https://www.unlv.edu/sites/default/files/page_files/27/CampusRec_BilliardsRules.pdf),
+but here is my summary:
 
 - You lag for the break.  You don't have to follow this religiously, but it doesn't hurt to practice.
 - While the table is open, you can hit any ball first.  Once you are solids or stripes, you have to hit one of your balls first.
@@ -60,7 +61,7 @@ limits how long defensive battles can slog on for.
 
 ![APA player on a bar pool table](/posts/2024-07-12-pool-rules.jpg)
 
-(image from https://live.staticflickr.com/7286/16562522470_b96eed0f0f_b.jpg
+(image from [https://live.staticflickr.com/7286/16562522470_b96eed0f0f_b.jpg)(https://live.staticflickr.com/7286/16562522470_b96eed0f0f_b.jpg)
 under [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/).)
 
 Whether you're interested in playing league pool or not, these rules

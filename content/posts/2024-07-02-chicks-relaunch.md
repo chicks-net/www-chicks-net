@@ -8,10 +8,10 @@ tags = ["branding","hugo"]
 +++
 
 Howdy friends!  I'm happy to announce today that I am launching
-a rebuilt https://www.chicks.net/ .  Hopefully you can already
-see the difference.
+a rebuilt [https://www.chicks.net/](https://www.chicks.net/) .
+Hopefully you can already see the difference.
 
-## It has been a long time.
+## It has been a long time
 
 This is the first redesign in a very long time.  Most of
 [the changes over the last decade](https://github.com/chicks-net/www-chicks-net/commits/main/)

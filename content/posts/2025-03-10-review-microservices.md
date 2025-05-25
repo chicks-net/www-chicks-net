@@ -34,7 +34,7 @@ wasn't terribly biased.
 Someone has actually written a balanced article on a controversial technical topic.
 It is truly unexpected in this business after all of these years.
 
-## Oh, Ovid!
+## Oh, Ovid! 
 
 I didn't know who Curtis Poe was.  That made it easier for me to fall into the presumption of bias.
 
@@ -65,20 +65,20 @@ I was amazed that I found myself agreeing with almost everything that was said
 in the article.  Here are some quick points that map to his outline:
 
 - __Opening__
-    - He wrecked an interview over microservices.  I've wrecked interviews over logs.  It felt like an odd opening while also feeling familiar.
+  - He wrecked an interview over microservices.  I've wrecked interviews over logs.  It felt like an odd opening while also feeling familiar.
 - __Benefits__
-    - Scalability is key.  It is a big conceptual change to accept that you don't just have one process on one machine.
-    - "Learning" is all about managing how much information we can keep in our heads at once.  So true.
-    - Gradual migration is the easiest way to modernize a complex system, but it may be impractical without institutional knowledge.
-    - Data formats are central.  Show me your data structures and I can guess your code.
-    - Async is necessary for surviving in the cloud and scaling affordably.  Use async wherever possible.
-    - I have seen "New Business Products" evolve out of healthy microservices environments.
-    - "Partial Failures" is another way to say graceful degradation.  Expect and plan for failure.
-    - The Dark Secret of using weird languages in containers is that it makes them easier to live with.
+  - Scalability is key.  It is a big conceptual change to accept that you don't just have one process on one machine.
+  - "Learning" is all about managing how much information we can keep in our heads at once.  So true.
+  - Gradual migration is the easiest way to modernize a complex system, but it may be impractical without institutional knowledge.
+  - Data formats are central.  Show me your data structures and I can guess your code.
+  - Async is necessary for surviving in the cloud and scaling affordably.  Use async wherever possible.
+  - I have seen "New Business Products" evolve out of healthy microservices environments.
+  - "Partial Failures" is another way to say graceful degradation.  Expect and plan for failure.
+  - The Dark Secret of using weird languages in containers is that it makes them easier to live with.
 - __Drawbacks__
-    - Infrastructure is needed.  Pick your platform and see how far it will get you.
-    - Monitoring is usually forgotten until it is needed.  Hopefully your platform gives it to you for "free".
-    - Overhead is absolutely one of the prices we pay for operating in the cloud.
+  - Infrastructure is needed.  Pick your platform and see how far it will get you.
+  - Monitoring is usually forgotten until it is needed.  Hopefully your platform gives it to you for "free".
+  - Overhead is absolutely one of the prices we pay for operating in the cloud.
 
 Those were easy to cover because it was all so agreeable and reasonable to what I've experienced.
 
