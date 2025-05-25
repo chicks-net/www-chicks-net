@@ -41,7 +41,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on news organizations that I support
 - [ ] :pencil: blog entry on how to wrap cables with Velcro
 - [ ] :pencil: blog entry on books about the crazy computer business
-- [ ] :pencil: blog entry on the Williamsburg Pottery Factory
+- [ ] :pencil: blog entry on the Williamsburg Pottery Factory (WPF)
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again
