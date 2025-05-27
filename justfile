@@ -65,6 +65,8 @@ pr: on_a_branch
         echo "{{BLUE}}there are no workflows in this repo so there are no PR checks to watch{{NORMAL}}"
         exit 0
     fi
+
+    echo "{{BLUE}}sleeping for 10s because github is lazy with their API{{NORMAL}}"
     sleep 10
     gh pr checks --watch
 
