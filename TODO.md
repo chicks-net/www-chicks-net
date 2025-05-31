@@ -7,14 +7,18 @@ youtube videos should become blog entries.  Draft blog entries live in my
 
 ## Definite TODOs
 - June
+  - [ ] :pencil: blog entry on Charities that I respect (DRAFTing, ready soon)
   - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
-  - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
 - July
+  - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
   - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
 - August
   - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
 - September
+  - [ ] :pencil: blog entry on the value of playlists
+  - [ ] :pencil: video/blog on my evolved `just`-based workflow
 - October
+  - [ ] :pencil: blog entry on news organizations that I support
 - November
   - [ ] :pencil: blog entry on calendaring (Outlined)
 - December
@@ -24,18 +28,17 @@ youtube videos should become blog entries.  Draft blog entries live in my
   - [ ] :computer: get non-SSL site to redirect to the SSL site
   - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
   - [ ] :pencil: blog entry on "retroblogging" (blocked by previous entry)
+  - [ ] :computer: track config in `.fini/??.toml` (DRAFTing)
+  - [ ] :computer: configure webhook for updates
 
 ## Probable TODOs
-- [ ] :computer: track config in `.fini/??.toml`
-- [ ] :computer: configure webhook for updates
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
 - [ ] :pencil: blog entry on East vs West (Outline started)
-- [ ] :pencil: blog entry on the value of playlists
 - [ ] :pencil: blog entry on riding in a Waymo
-- [ ] :pencil: blog entry on news organizations that I support
 - [ ] :pencil: blog entry on how to wrap cables with Velcro
+- [ ] :pencil: blog entry on the Williamsburg Pottery Factory (WPF)
 - [ ] :pencil: retroblog https://steamcommunity.com/sharedfiles/filedetails/?id=396162375 (PvZ game guide)
 - [ ] :pencil: retroblog google maps reviews
 - [ ] :pencil: retroblog StackExchange posts
@@ -51,8 +54,10 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on chicks doesn't sleep (should wait until certain people retire)
 - [ ] :pencil: blog entry on the characters in Duolingo
 - [ ] :pencil: blog entry on books about the crazy computer business
-- [ ] :pencil: blog entry on the Williamsburg Pottery Factory (WPF)
 - [ ] :pencil: blog entry on unanswered questions
+- [ ] :pencil: blog entry on review of in-terminal web browsers
+- [ ] :pencil: blog entry on immoral origins of copyright laws
+- [ ] :pencil: blog entry on labels and tags (AWS, TZ tape, Obs, etc.)
 - [ ] :link: link to fitbit profile
 - [ ] :link: more StackExchange profiles
 - [ ] :link: bricklink when it is working again
