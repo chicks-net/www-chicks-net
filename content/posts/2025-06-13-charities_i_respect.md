@@ -6,7 +6,7 @@ draft = false
 # cover.image = '/posts/'
 cover.hidden = true
 keywords = ["charity", "ngo", "donation"]
-tags = ["history", "creativity", "trains"]  
+tags = ["history", "creativity", "trains"]
 ShowToc = true
 +++
 
@@ -28,39 +28,39 @@ them and contribute.
 
 ## Human Rights
 
-* Southern Poverty Law Center (SPLC)  
-  * [http://www.splcenter.org](http://www.splcenter.org)   
-  * [https://www.charitynavigator.org/ein/630598743](https://www.charitynavigator.org/ein/630598743)
-    scores 99  
-  * They’ve had a few controversies in recent years, but they continue to
-    contribute by identifying hate groups and engaging in the courts.  
-* Amnesty International  
-  * [https://www.amnestyusa.org/](https://www.amnestyusa.org/)   
-  * [https://www.charitynavigator.org/ein/520851555](https://www.charitynavigator.org/ein/520851555)
+- Southern Poverty Law Center (SPLC)
+  - [http://www.splcenter.org](http://www.splcenter.org)
+  - [https://www.charitynavigator.org/ein/630598743](https://www.charitynavigator.org/ein/630598743)
+    scores 99
+  - They’ve had a few controversies in recent years, but they continue to
+    contribute by identifying hate groups and engaging in the courts.
+- Amnesty International
+  - [https://www.amnestyusa.org/](https://www.amnestyusa.org/)
+  - [https://www.charitynavigator.org/ein/520851555](https://www.charitynavigator.org/ein/520851555)
     scores 96
 
 ## Ukraine
 
-* United24  
-  * [https://u24.gov.ua/](https://u24.gov.ua/)   
-  * The official donation arm for the Ukrainian government, but they are not
+- United24
+  - [https://u24.gov.ua/](https://u24.gov.ua/)
+  - The official donation arm for the Ukrainian government, but they are not
     registered as an IRS charity so Charity Navigator is not interested in
     including them in their ratings.  It also means that you can’t take it off
-    of your taxes.  
-* Nova Ukraine   
-  * [https://novaukraine.org/](https://novaukraine.org/)   
-  * [https://www.charitynavigator.org/ein/465335435](https://www.charitynavigator.org/ein/465335435)
+    of your taxes.
+- Nova Ukraine
+  - [https://novaukraine.org/](https://novaukraine.org/)
+  - [https://www.charitynavigator.org/ein/465335435](https://www.charitynavigator.org/ein/465335435)
     scores 100 \- their best score for a Ukraine charity
 
 ## Technology
 
-* Electronic Frontier Foundation (EFF)  
-  * [https://www.eff.org](https://www.eff.org)   
-  * [https://www.charitynavigator.org/ein/043091431](https://www.charitynavigator.org/ein/043091431)
-    scores 100  
-* The Linux Foundation  
-  * [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)   
-  * [https://www.charitynavigator.org/ein/460503801](https://www.charitynavigator.org/ein/460503801)
+- Electronic Frontier Foundation (EFF)
+  - [https://www.eff.org](https://www.eff.org)
+  - [https://www.charitynavigator.org/ein/043091431](https://www.charitynavigator.org/ein/043091431)
+    scores 100
+- The Linux Foundation
+  - [https://www.linuxfoundation.org/](https://www.linuxfoundation.org/)
+  - [https://www.charitynavigator.org/ein/460503801](https://www.charitynavigator.org/ein/460503801)
     does not get a rating since it is a 501c6 instead of a 501c3 organization.
 
 ## Trains
@@ -69,23 +69,23 @@ There are an amazing number of train-related NGOs.  I’m going to list a few
 that I’ve encountered and loved, but I’m sure you can find some in your
 neighborhood as well.
 
-* Niles Canyon Railway and The Pacific Locomotive Association, Inc.  
-  * [https://www.ncry.org/](https://www.ncry.org/)  
-  * [https://www.charitynavigator.org/ein/946130878](https://www.charitynavigator.org/ein/946130878)
-    scores 96%  
-* Pacific Railroad Society  
-  * [https://www.pacificrailroadsociety.org/](https://www.pacificrailroadsociety.org/)  
-  * [https://www.charitynavigator.org/ein/956077591](https://www.charitynavigator.org/ein/956077591)
-    \- not rated  
-* Golden State Model Railroad Museum  
-  * [https://www.gsmrm.org/](https://www.gsmrm.org/)  
-  * [https://www.charitynavigator.org/ein/680066066](https://www.charitynavigator.org/ein/680066066)
+- Niles Canyon Railway and The Pacific Locomotive Association, Inc.
+  - [https://www.ncry.org/](https://www.ncry.org/)
+  - [https://www.charitynavigator.org/ein/946130878](https://www.charitynavigator.org/ein/946130878)
+    scores 96%
+- Pacific Railroad Society
+  - [https://www.pacificrailroadsociety.org/](https://www.pacificrailroadsociety.org/)
+  - [https://www.charitynavigator.org/ein/956077591](https://www.charitynavigator.org/ein/956077591)
+    \- not rated
+- Golden State Model Railroad Museum
+  - [https://www.gsmrm.org/](https://www.gsmrm.org/)
+  - [https://www.charitynavigator.org/ein/680066066](https://www.charitynavigator.org/ein/680066066)
     \- not rated
 
 ## Games
 
-* Board Games Arena  
-  * [https://en.boardgamearena.com/](https://en.boardgamearena.com/) 
+- Board Games Arena
+  - [https://en.boardgamearena.com/](https://en.boardgamearena.com/)
 
 ## Charity Desert
 
@@ -99,4 +99,4 @@ please reach out.
 ## Conclusion
 
 I hope this will give you some ideas of good places to donate on a regular
-basis to encourage the world to be as good as it can be.  
+basis to encourage the world to be as good as it can be.
