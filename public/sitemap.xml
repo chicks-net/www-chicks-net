@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/2025-06-13-charities_i_respect/</loc>
+    <lastmod>2025-06-13T07:40:44-04:00</lastmod>
+  </url><url>
+    <loc>/tags/creativity/</loc>
+    <lastmod>2025-06-13T07:40:44-04:00</lastmod>
+  </url><url>
+    <loc>/tags/history/</loc>
+    <lastmod>2025-06-13T07:40:44-04:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-06-13T07:40:44-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-06-13T07:40:44-04:00</lastmod>
+  </url><url>
+    <loc>/tags/trains/</loc>
+    <lastmod>2025-06-13T07:40:44-04:00</lastmod>
+  </url><url>
     <loc>/tags/business/</loc>
     <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,13 +32,7 @@
     <loc>/tags/free-software/</loc>
     <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/posts/2025-05-16-redis-backslides-into-open-source/</loc>
-    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/links/</loc>
@@ -42,9 +54,6 @@
     <lastmod>2025-04-25T08:29:13-04:00</lastmod>
   </url><url>
     <loc>/posts/2025-04-25-lee-hall-graffitied-coal-cars/</loc>
-    <lastmod>2025-04-25T08:29:13-04:00</lastmod>
-  </url><url>
-    <loc>/tags/trains/</loc>
     <lastmod>2025-04-25T08:29:13-04:00</lastmod>
   </url><url>
     <loc>/tags/va-lee-hall/</loc>
@@ -131,9 +140,6 @@
     <loc>/posts/2023-12-01_234022_linkedin/</loc>
     <lastmod>2023-12-01T23:40:22+00:00</lastmod>
   </url><url>
-    <loc>/tags/creativity/</loc>
-    <lastmod>2023-10-16T01:29:27+00:00</lastmod>
-  </url><url>
     <loc>/posts/2023-10-16_012927_linkedin/</loc>
     <lastmod>2023-10-16T01:29:27+00:00</lastmod>
   </url><url>
@@ -156,9 +162,6 @@
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/posts/2023-06-11_153643_linkedin/</loc>
-    <lastmod>2023-06-11T15:36:43+00:00</lastmod>
-  </url><url>
-    <loc>/tags/history/</loc>
     <lastmod>2023-06-11T15:36:43+00:00</lastmod>
   </url><url>
     <loc>/tags/microsoft/</loc>
