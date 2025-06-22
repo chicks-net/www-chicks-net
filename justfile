@@ -1,5 +1,9 @@
 # www-chicks-net justfile
 
+import? '.just/utility.just'
+import? '.just/example.just'
+import? '.just/hugo.just'
+
 # some useful variables
 host := `uname -n`
 release_branch := "main"
@@ -11,20 +15,6 @@ last_commit_message := `git log -1 --pretty=%B | grep '.'`
 [group('example')]
 list:
     just --list
-
-# display date with reversed background
-[group('example')]
-color-test:
-    #!/usr/bin/env bash
-    NOW=`just utcdate`
-    echo "NOW={{ INVERT }}$NOW{{ BG_WHITE }}"
-
-# goofing off
-[group('example')]
-cause:
-    @echo haha on {{ host }} running {{ os() }}
-    @echo "invocation_dir={{ invocation_directory() }}"
-    git stp
 
 # escape from branch, back to starting point
 [group('Process')]
@@ -91,54 +81,10 @@ branch branchname: main_branch
     NOW=`just utcdate`
     git co -b "chicks/$NOW-{{ branchname }}"
 
-# clean out references to old hugo modules
-[group('Hugo')]
-hugo_mod_tidy:
-    hugo mod tidy
-
-# update hugo modules
-[group('Hugo')]
-hugo_mod_update:
-    hugo mod get -u
-
 # view PR in web browser
 [group('Process')]
 prweb: on_a_branch
     gh pr view --web
-
-# run hugo from the top of the repo
-[group('Hugo')]
-hugo:
-    #!/usr/bin/env bash
-    PREV_DIR="public.prev"
-    if [[ -e "$PREV_DIR" ]]; then
-        echo "{{RED}}The $PREV_DIR directory exists.  Is there a bug on a previous hugo run?{{NORMAL}}"
-        exit 5
-    fi
-    echo "{{GREEN}}no $PREV_DIR directory, so safe to rebuild with hugo...{{NORMAL}}"
-
-    set -euxo pipefail # strict mode
-
-    mv public public.prev
-
-    TZ=America/Los_Angeles hugo
-
-    git stp
-
-    rm -rf public.prev
-
-# run hugo server
-[group('Hugo')]
-server:
-    #!/usr/bin/env bash
-    TZ=America/Los_Angeles hugo server
-    just hugo # cleanup after server!
-
-# open browser to hugo site
-[group('Hugo')]
-see-server:
-    open http://localhost:1313/
-    just server
 
 #test: on_a_branch
 #  echo gh pr create --title "{{last_commit_message}}" --body "{{last_commit_message}}\nAutomated in 'justfile'."
@@ -172,51 +118,8 @@ main_branch:
 
 # Thanks to https://apple.stackexchange.com/a/422206/210526
 
-# extract hashtags from article
-[group('Utility')]
-hashtags filename:
-    #!/usr/bin/env bash
-    set -euo pipefail # strict mode
-    tomlfile=$(mktemp /tmp/justfile.XXXXXX)
-    hashtagfile=$(mktemp /tmp/justfile.XXXXXX)
-    #echo $tomlfile
-    grep -e '^\(tags\|keywords\)' "{{ filename }}" > $tomlfile
-    #cat $tomlfile
-
-    toml get -r "$tomlfile" 'tags' | sed -e 's/]$//' -e 's/^\[//' -e 's/["]//g' -e 's/,/\n/g' | sed -e 's/^/#/g' > "$hashtagfile"
-    toml get -r "$tomlfile" 'keywords' | sed -e 's/]$//' -e 's/^\[//' -e 's/["]//g' -e 's/,/\n/g' | sed -e 's/^/#/g' >> "$hashtagfile"
-
-    echo "{{BLUE}}hashtags for {{ filename }}:{{NORMAL}}"
-    echo $(cat "$hashtagfile")
-
-    rm "$tomlfile" "$hashtagfile"
-
-# remove GPS information from an image
-[group('Utility')]
-[no-cd]
-gps_rm image:
-    exiftool -overwrite_original -gps:all= {{ image }}
-
-# TODO: convert into just, but we didn't need it for the last favicon generated
-# from ancient html/Makefile
-#favicon.ico: img/favicon.pnm
-#	ppmtowinicon -output favicon.ico favicon.pnm
-
-# print UTC date/time
-[group('Utility')]
-[no-cd]
-@utcdatetime:
-	TZ=UTC date
-
 # print UTC date in ISO format
 [group('Utility')]
 [no-cd]
 @utcdate:
 	TZ=UTC date +"%Y-%m-%d"
-
-# test network speed
-[group('Utility')]
-[no-cd]
-[macos]
-speedtest:
-	networkQuality
