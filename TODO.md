@@ -6,8 +6,8 @@ youtube videos should become blog entries.  Draft blog entries live in my
 "Creative Writing" folder in Google Drive.
 
 ## Definite TODOs
+
 - June
-  - [ ] :pencil: blog entry on Charities that I respect (DRAFTing, ready soon)
   - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
 - July
   - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
@@ -32,6 +32,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
   - [ ] :computer: configure webhook for updates
 
 ## Probable TODOs
+
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
 - [ ] :pencil: blog entry on places we like in Pismo (Outlined)
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
@@ -39,12 +40,13 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on riding in a Waymo
 - [ ] :pencil: blog entry on how to wrap cables with Velcro
 - [ ] :pencil: blog entry on the Williamsburg Pottery Factory (WPF)
-- [ ] :pencil: retroblog https://steamcommunity.com/sharedfiles/filedetails/?id=396162375 (PvZ game guide)
+- [ ] :pencil: retroblog [PvZ game guide](https://steamcommunity.com/sharedfiles/filedetails/?id=396162375)
 - [ ] :pencil: retroblog google maps reviews
 - [ ] :pencil: retroblog StackExchange posts
 
 ## Possible TODOs
-- [ ] :computer: try https://github.com/open-telemetry/weaver for tag compliance
+
+- [ ] :computer: try [weaver](https://github.com/open-telemetry/weaver) for tag compliance
 - [ ] :pencil: blog entry on nushell [my nuggets](https://gist.github.com/chicks-net/7fa2425f6afb14261f39352605019209)
 - [ ] :pencil: blog entry on tmux
 - [ ] :pencil: blog entry on Markdown linting and grammer checking
@@ -65,6 +67,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] use github issues instead of a text file for tracking site TODO items
 
 ## Unlikely TODOs
+
 - [ ] :computer: try dagger
 - [ ] :link: link to Amazon profile
 - [ ] 📆 calendar view
@@ -74,5 +77,6 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: retroblog mysql mailing list posts (hard to find so far)
 
 ## Impossible TODOs
+
 - [ ] :computer: retroblogging bloglines content - I couldn't even find it in the WayBack machine.
 - [ ] :pencil: blog entry on chicks long email announcing departure from OpenX (I can't find it!)

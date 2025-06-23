@@ -15,7 +15,6 @@ jobs:
       with:
         globs: |
           **/*.md
-          !**/TODO.md
           !.github/**/*.md
           !public/**/*.md
           !static/**/*.md
