@@ -7,13 +7,11 @@ youtube videos should become blog entries.  Draft blog entries live in my
 
 ## Definite TODOs
 
-- June
-  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
 - July
+  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
+- August
   - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
   - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
-- August
-  - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
 - September
   - [ ] :pencil: blog entry on the value of playlists
   - [ ] :pencil: video/blog on my evolved `just`-based workflow
@@ -24,6 +22,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - December
   - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
 - Someday
+  - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
   - [ ] :pencil: blog entry on usernames
   - [ ] :computer: get non-SSL site to redirect to the SSL site
   - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
