@@ -14,7 +14,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
   - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
 - September
   - [ ] :pencil: blog entry on the value of playlists
-  - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in `just-quick`)
+  - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
 - October
   - [ ] :pencil: blog entry on news organizations that I support
 - November
