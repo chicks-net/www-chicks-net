@@ -12,13 +12,11 @@ draft = false
 
 ![profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chicks-net&theme=github)
 
-![repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chicks-net&theme=github)
+[![Star History Chart](https://api.star-history.com/svg?repos=chicks-net/megamap,chicks-net/fbdata-forensics,chicks-net/smokeping-config,chicks-net/chicks-home&type=Date)](https://www.star-history.com/#chicks-net/megamap&chicks-net/fbdata-forensics&chicks-net/smokeping-config&chicks-net/chicks-home&Date)
 
-![most committed language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chicks-net&theme=github)
+![repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chicks-net&theme=github) ![most committed language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chicks-net&theme=github)
 
-![user stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chicks-net&theme=github)
-
-![productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chicks-net&theme=github)
+![user stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=chicks-net&theme=github) ![productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chicks-net&theme=github)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 
