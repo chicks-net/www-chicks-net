@@ -58,7 +58,7 @@ pr: on_a_branch
 
     echo "{{BLUE}}sleeping for 10s because github is lazy with their API{{NORMAL}}"
     sleep 10
-    gh pr checks --watch
+    gh pr checks --watch -i 4
 
 # merge PR and return to starting point
 [group('Process')]
