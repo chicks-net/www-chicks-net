@@ -11,17 +11,18 @@ youtube videos should become blog entries.  Draft blog entries live in my
   - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
 - August
   - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
-  - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
+  - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example)
 - September
   - [ ] :pencil: blog entry on the value of playlists
   - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
 - October
-  - [ ] :pencil: blog entry on news organizations that I support
+  - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
 - November
   - [ ] :pencil: blog entry on calendaring (Outlined)
 - December
   - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
 - Someday
+  - [ ] :pencil: blog entry on news organizations that I support
   - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
   - [ ] :pencil: blog entry on usernames
   - [ ] :computer: get non-SSL site to redirect to the SSL site
@@ -46,6 +47,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 ## Possible TODOs
 
 - [ ] :computer: try [weaver](https://github.com/open-telemetry/weaver) for tag compliance
+- [ ] :pencil: blog entry on webhook journey
 - [ ] :pencil: blog entry on nushell [my nuggets](https://gist.github.com/chicks-net/7fa2425f6afb14261f39352605019209)
 - [ ] :pencil: blog entry on tmux
 - [ ] :pencil: blog entry on Markdown linting and grammer checking
