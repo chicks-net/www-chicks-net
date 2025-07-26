@@ -1,4 +1,4 @@
-name: checkov
+name: Checkov
 
 # Controls when the workflow will run
 on:
@@ -10,6 +10,9 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+# global permissions
+permissions: read-all
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
