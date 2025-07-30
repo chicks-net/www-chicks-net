@@ -1,9 +1,14 @@
 name: Auto Assign
+
 on:
   issues:
     types: [opened]
   pull_request:
     types: [opened]
+
+# global permissions
+permissions: read-all
+
 jobs:
   run:
     runs-on: ubuntu-latest
