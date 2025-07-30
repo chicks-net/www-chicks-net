@@ -1,4 +1,4 @@
-me: Auto Assign
+name: Auto Assign
 on:
   issues:
     types: [opened]
