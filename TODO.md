@@ -7,16 +7,15 @@ youtube videos should become blog entries.  Draft blog entries live in my
 
 ## Definite TODOs
 
-- July
-  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
 - August
-  - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
+  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
   - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example)
 - September
-  - [ ] :pencil: blog entry on the value of playlists
+  - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
   - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
 - October
   - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
+  - [ ] :pencil: blog entry on the value of playlists
 - November
   - [ ] :pencil: blog entry on calendaring (Outlined)
 - December
@@ -42,7 +41,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on the Williamsburg Pottery Factory (WPF)
 - [ ] :pencil: retroblog [PvZ game guide](https://steamcommunity.com/sharedfiles/filedetails/?id=396162375)
 - [ ] :pencil: retroblog google maps reviews
-- [ ] :pencil: retroblog StackExchange posts
+- [ ] :pencil: retroblog StackExchange posts (note [post on licensing](https://meta.stackexchange.com/q/344491/275180))
 
 ## Possible TODOs
 
