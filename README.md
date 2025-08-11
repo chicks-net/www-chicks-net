@@ -47,6 +47,8 @@ The resulting development cycle is as toil-free as I can imagine making it:
 
 ### Development Cycle
 
+![dev-process animation](https://github.com/fini-net/template-repo/raw/main/docs/dev-process.gif)
+
 1. Start a new branch with `just branch $branch_name` or `just post $title_slug`.
 1. If making a post, edit the template built by `just post`.  Otherwise, make
    some change.
