@@ -22,6 +22,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - December
   - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
 - Someday
+  - [ ] :pencil: youtube short of "man in finance...trust fund" being good with spreadsheets
   - [ ] :pencil: blog entry on news organizations that I support
   - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
   - [ ] :pencil: blog entry on usernames
