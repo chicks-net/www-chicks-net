@@ -37,7 +37,7 @@ if you'd like see some pictures and video of John enjoying life.
 
 I edited [The Life of John Schreiber](https://tinyurl.com/JohnSchreiber)
 in iMovie on a MacBook Air (M2 2022).  The family contributed around 400
-photos which turned out to be closer to 250 after deduping and various 
+photos which turned out to be closer to 250 after deduping and various
 other objections.  I also relied heavily on Handbrake for converting
 videos into a format that iMovie will accept and MacOS Preview made the
 basic photo editing a breeze.
