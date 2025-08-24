@@ -11,12 +11,14 @@ tags = ["family", "ca-san-francisco", "youtube"]
 # ShowToc = true
 +++
 
+## Post on linked-in
+
 [John Schreiber](https://www.linkedin.com/in/jschreiber/) passed on July 29th, 2025.
 
 Remembrances will be held tomorrow, Saturday 23rd of August at
 [Darcie Kent Estate Winery](https://maps.app.goo.gl/RYTGZ6T6mMRQU5xt8)
 and
-[Pete's Brass Rail and Car Wash](https://maps.app.goo.gl/CnWAoFhwQSxjJXE89). 
+[Pete's Brass Rail and Car Wash](https://maps.app.goo.gl/CnWAoFhwQSxjJXE89).
 
 Please also check out
 [https://tinyurl.com/JohnSchreiber](https://tinyurl.com/JohnSchreiber)
@@ -24,14 +26,14 @@ if you'd like see some pictures and video of John enjoying life.
 
 ![Announcement image for John Schreiber rememberances.](/posts/2025-08-24-john-schreiber-has-passed.jpg)
 
-# Comments
+## Comments
 
 [Steve Schiro](https://www.linkedin.com/in/steve-schiro-666505/) commented on linked-in:
 
 > RIP John. Love to all… may peace and tranquility be in your hearts and all his
 > family, loved ones and all who knew him during this difficult time. God bless ❤️🙏🏼
 
-# Meta
+## Meta
 
 I edited [The Life of John Schreiber](https://tinyurl.com/JohnSchreiber)
 in iMovie on a MacBook Air (M2 2022).  The family contributed around 400
