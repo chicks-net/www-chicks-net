@@ -5,8 +5,8 @@ draft = false
 description = 'My third short starring my wife'
 canonicalURL = 'https://youtube.com/shorts/_ekEcwVptRM?si=lni11M3RfTFz61sQ'
 ShowCanonicalLink = true
-# cover.image = '/posts/'
-cover.hidden = true
+cover.image = '/posts/2025-06-25-lorakeets-at-busch-gardens.jpg'
+cover.hidden = false
 keywords = ["birds", "lorakeets", "busch-gardens", "bird-feeding"]
 tags = ["youtube", "va-williamsburg", "art"]
 # ShowToc = true
