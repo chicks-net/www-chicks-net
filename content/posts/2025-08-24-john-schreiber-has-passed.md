@@ -26,6 +26,8 @@ if you'd like see some pictures and video of John enjoying life.
 
 ![Announcement image for John Schreiber rememberances.](/posts/2025-08-24-john-schreiber-has-passed.jpg)
 
+{{< youtube feV_RehdbpU >}}
+
 ## Comments
 
 [Steve Schiro](https://www.linkedin.com/in/steve-schiro-666505/) commented on linked-in:
