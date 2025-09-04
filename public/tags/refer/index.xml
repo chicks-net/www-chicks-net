@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Refer on Christopher Hicks</title>
-    <link>/tags/refer/</link>
+    <link>https://www.chicks.net/tags/refer/</link>
     <description>Recent content in Refer on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Oct 2018 15:15:30 +0000</lastBuildDate>
-    <atom:link href="/tags/refer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/refer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Try Personal Capital.</title>
-      <link>/posts/2018-10-24_151530_linkedin/</link>
+      <link>https://www.chicks.net/posts/2018-10-24_151530_linkedin/</link>
       <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
-      <guid>/posts/2018-10-24_151530_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2018-10-24_151530_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
   </channel>

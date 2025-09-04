@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Christopher Hicks on the web on Christopher Hicks</title>
-    <link>/</link>
+    <link>https://www.chicks.net/</link>
     <description>Recent content in Christopher Hicks on the web on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Rust Had to Save Python From Itself: The uv Revolution</title>
-      <link>/posts/2025-09-04-uv-is-awesome/</link>
+      <link>https://www.chicks.net/posts/2025-09-04-uv-is-awesome/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-09-04-uv-is-awesome/</guid>
+      <guid>https://www.chicks.net/posts/2025-09-04-uv-is-awesome/</guid>
       <description>Rust saves the bacon for python packaging and formatting.</description>
     </item>
     <item>
       <title>John Schreiber passed on July 29th, 2025</title>
-      <link>/posts/2025-08-24-john-schreiber-has-passed/</link>
+      <link>https://www.chicks.net/posts/2025-08-24-john-schreiber-has-passed/</link>
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-08-24-john-schreiber-has-passed/</guid>
+      <guid>https://www.chicks.net/posts/2025-08-24-john-schreiber-has-passed/</guid>
       <description>Rembrances were held on Saturday 30 July 2025.</description>
     </item>
     <item>
       <title>Lorakeets at Busch Gardens Williamsburg</title>
-      <link>/posts/2025-06-25-lorakeets-at-busch-gardens/</link>
+      <link>https://www.chicks.net/posts/2025-06-25-lorakeets-at-busch-gardens/</link>
       <pubDate>Wed, 25 Jun 2025 12:00:00 -0400</pubDate>
-      <guid>/posts/2025-06-25-lorakeets-at-busch-gardens/</guid>
+      <guid>https://www.chicks.net/posts/2025-06-25-lorakeets-at-busch-gardens/</guid>
       <description>My third short starring my wife</description>
     </item>
     <item>
       <title>Charities that I Respect</title>
-      <link>/posts/2025-06-13-charities_i_respect/</link>
+      <link>https://www.chicks.net/posts/2025-06-13-charities_i_respect/</link>
       <pubDate>Fri, 13 Jun 2025 07:40:44 -0400</pubDate>
-      <guid>/posts/2025-06-13-charities_i_respect/</guid>
+      <guid>https://www.chicks.net/posts/2025-06-13-charities_i_respect/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Like many, I’ve usually kept my charitable giving private — and I’ve respected
 that choice in others.  But recently, a few people have asked where they might
@@ -50,86 +50,86 @@ them and contribute.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Redis backslides into open source community</title>
-      <link>/posts/2025-05-16-redis-backslides-into-open-source/</link>
+      <link>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-05-16-redis-backslides-into-open-source/</guid>
+      <guid>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</guid>
       <description>But will the community slide back into redis?</description>
     </item>
     <item>
       <title>Scheduled Send in Slack</title>
-      <link>/posts/2025-05-02-scheduled-send-is-your-friend/</link>
+      <link>https://www.chicks.net/posts/2025-05-02-scheduled-send-is-your-friend/</link>
       <pubDate>Fri, 02 May 2025 08:00:00 -0700</pubDate>
-      <guid>/posts/2025-05-02-scheduled-send-is-your-friend/</guid>
+      <guid>https://www.chicks.net/posts/2025-05-02-scheduled-send-is-your-friend/</guid>
       <description>What would motivate us to take advantage of this feature?</description>
     </item>
     <item>
       <title>Lee Hall VA graffitied coal cars</title>
-      <link>/posts/2025-04-25-lee-hall-graffitied-coal-cars/</link>
+      <link>https://www.chicks.net/posts/2025-04-25-lee-hall-graffitied-coal-cars/</link>
       <pubDate>Fri, 25 Apr 2025 08:29:13 -0400</pubDate>
-      <guid>/posts/2025-04-25-lee-hall-graffitied-coal-cars/</guid>
+      <guid>https://www.chicks.net/posts/2025-04-25-lee-hall-graffitied-coal-cars/</guid>
       <description>Watch the tail end of a long train of empty graffitied coal cars.</description>
     </item>
     <item>
       <title>Review of Microservices Pros and Cons</title>
-      <link>/posts/2025-03-10-review-microservices/</link>
+      <link>https://www.chicks.net/posts/2025-03-10-review-microservices/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-03-10-review-microservices/</guid>
+      <guid>https://www.chicks.net/posts/2025-03-10-review-microservices/</guid>
       <description>Review of Microservices: Pros and Cons article from Ovid</description>
     </item>
     <item>
       <title>Tubi Streamed Superbowl 2025</title>
-      <link>/posts/2025-02-25-tubi-streamed-superbowl/</link>
+      <link>https://www.chicks.net/posts/2025-02-25-tubi-streamed-superbowl/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-02-25-tubi-streamed-superbowl/</guid>
+      <guid>https://www.chicks.net/posts/2025-02-25-tubi-streamed-superbowl/</guid>
       <description>Tubi streaming the 2025 Superbowl was a huge success!</description>
     </item>
     <item>
       <title>Using just to speed development</title>
-      <link>/posts/2024-09-29-using-just-to-speed-development/</link>
+      <link>https://www.chicks.net/posts/2024-09-29-using-just-to-speed-development/</link>
       <pubDate>Sun, 29 Sep 2024 15:39:41 -0700</pubDate>
-      <guid>/posts/2024-09-29-using-just-to-speed-development/</guid>
+      <guid>https://www.chicks.net/posts/2024-09-29-using-just-to-speed-development/</guid>
       <description>Just is a make-like tool and this video is an introduction.</description>
     </item>
     <item>
       <title>The Onion is back in print!</title>
-      <link>/posts/2024-09-09-onion-back-in-print/</link>
+      <link>https://www.chicks.net/posts/2024-09-09-onion-back-in-print/</link>
       <pubDate>Mon, 09 Sep 2024 11:43:56 -0700</pubDate>
-      <guid>/posts/2024-09-09-onion-back-in-print/</guid>
+      <guid>https://www.chicks.net/posts/2024-09-09-onion-back-in-print/</guid>
       <description>Europe&amp;#39;s finest news source covers America&amp;#39;s finest news source.</description>
     </item>
     <item>
       <title>Neckties of July 2024</title>
-      <link>/posts/2024-07-31-neckties-of-july/</link>
+      <link>https://www.chicks.net/posts/2024-07-31-neckties-of-july/</link>
       <pubDate>Wed, 31 Jul 2024 11:06:18 -0700</pubDate>
-      <guid>/posts/2024-07-31-neckties-of-july/</guid>
+      <guid>https://www.chicks.net/posts/2024-07-31-neckties-of-july/</guid>
       <description>See the neckties I wore for July 2024.</description>
     </item>
     <item>
       <title>Our First Youtube Short: Baby shark at bakery</title>
-      <link>/posts/2024-07-22-first-youtube-short/</link>
+      <link>https://www.chicks.net/posts/2024-07-22-first-youtube-short/</link>
       <pubDate>Mon, 22 Jul 2024 14:11:14 -0700</pubDate>
-      <guid>/posts/2024-07-22-first-youtube-short/</guid>
+      <guid>https://www.chicks.net/posts/2024-07-22-first-youtube-short/</guid>
       <description>You never know when or where you will run into baby shark.  It is like a ghost that pops up at the weirdest occasion.</description>
     </item>
     <item>
       <title>Pool Rules</title>
-      <link>/posts/2024-07-12-pool-rules/</link>
+      <link>https://www.chicks.net/posts/2024-07-12-pool-rules/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>/posts/2024-07-12-pool-rules/</guid>
+      <guid>https://www.chicks.net/posts/2024-07-12-pool-rules/</guid>
       <description>A comparison of pool rules regularly used in the US.</description>
     </item>
     <item>
       <title>Chicks.net Site Relaunch</title>
-      <link>/posts/2024-07-02-chicks-relaunch/</link>
+      <link>https://www.chicks.net/posts/2024-07-02-chicks-relaunch/</link>
       <pubDate>Tue, 02 Jul 2024 10:53:43 -0700</pubDate>
-      <guid>/posts/2024-07-02-chicks-relaunch/</guid>
+      <guid>https://www.chicks.net/posts/2024-07-02-chicks-relaunch/</guid>
       <description>Explain the relaunch of www.chicks.net</description>
     </item>
     <item>
       <title>Christopher&#39;s page of bragging</title>
-      <link>/links/brag/</link>
+      <link>https://www.chicks.net/links/brag/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>/links/brag/</guid>
+      <guid>https://www.chicks.net/links/brag/</guid>
       <description>&lt;h2 id=&#34;stackexchange&#34;&gt;StackExchange&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://stackexchange.com/users/2276315/chicks&#34;&gt;&lt;img alt=&#34;profile for chicks on Stack Exchange, a network of free, community-driven Q&amp;amp;A sites&#34; loading=&#34;lazy&#34; src=&#34;https://stackexchange.com/users/flair/2276315.png&#34; title=&#34;profile for chicks on Stack Exchange, a network of free, community-driven Q&amp;amp;A sites&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;
@@ -145,310 +145,310 @@ them and contribute.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tech Pro Grandpa Outwitted by Toddler</title>
-      <link>/posts/2024-06-13_170126_linkedin/</link>
+      <link>https://www.chicks.net/posts/2024-06-13_170126_linkedin/</link>
       <pubDate>Thu, 13 Jun 2024 17:01:26 +0000</pubDate>
-      <guid>/posts/2024-06-13_170126_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2024-06-13_170126_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Canadian Petition That Games Must Remain Functional At EOL</title>
-      <link>/posts/2024-05-10_203019_linkedin/</link>
+      <link>https://www.chicks.net/posts/2024-05-10_203019_linkedin/</link>
       <pubDate>Fri, 10 May 2024 20:30:19 +0000</pubDate>
-      <guid>/posts/2024-05-10_203019_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2024-05-10_203019_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>You could be the Director of Infastructure at Tubi.</title>
-      <link>/posts/2023-12-01_234022_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-12-01_234022_linkedin/</link>
       <pubDate>Fri, 01 Dec 2023 23:40:22 +0000</pubDate>
-      <guid>/posts/2023-12-01_234022_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-12-01_234022_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>The Banality of Genius</title>
-      <link>/posts/2023-10-16_012927_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-10-16_012927_linkedin/</link>
       <pubDate>Mon, 16 Oct 2023 01:29:27 +0000</pubDate>
-      <guid>/posts/2023-10-16_012927_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-10-16_012927_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>I&#39;m the new Observability Lead at Tubi</title>
-      <link>/posts/2023-09-02_174832_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-09-02_174832_linkedin/</link>
       <pubDate>Sat, 02 Sep 2023 17:48:32 +0000</pubDate>
-      <guid>/posts/2023-09-02_174832_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-09-02_174832_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Chicks on Community</title>
-      <link>/posts/2023-07-23-community/</link>
+      <link>https://www.chicks.net/posts/2023-07-23-community/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/posts/2023-07-23-community/</guid>
+      <guid>https://www.chicks.net/posts/2023-07-23-community/</guid>
       <description>Youtube video of chicks talking about how companies are treating the open source community</description>
     </item>
     <item>
       <title>Tubi is competing with subscription services</title>
-      <link>/posts/2023-07-21_002632_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-07-21_002632_linkedin/</link>
       <pubDate>Fri, 21 Jul 2023 00:26:32 +0000</pubDate>
-      <guid>/posts/2023-07-21_002632_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-07-21_002632_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Pismo Beach: First Visit</title>
-      <link>/posts/2023-07-09-pismo/</link>
+      <link>https://www.chicks.net/posts/2023-07-09-pismo/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/posts/2023-07-09-pismo/</guid>
+      <guid>https://www.chicks.net/posts/2023-07-09-pismo/</guid>
       <description>Youtube video of our first visit to Pismo Beach</description>
     </item>
     <item>
       <title>Creator of Clippy</title>
-      <link>/posts/2023-06-11_153643_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-06-11_153643_linkedin/</link>
       <pubDate>Sun, 11 Jun 2023 15:36:43 +0000</pubDate>
-      <guid>/posts/2023-06-11_153643_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-06-11_153643_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>&#34;LinkedIn is better on the app&#34; is the subject of the email.</title>
-      <link>/posts/2022-04-22_145604_linkedin/</link>
+      <link>https://www.chicks.net/posts/2022-04-22_145604_linkedin/</link>
       <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
-      <guid>/posts/2022-04-22_145604_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2022-04-22_145604_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Great coverage for McD Tech Labs</title>
-      <link>/posts/2020-11-30_164846_linkedin/</link>
+      <link>https://www.chicks.net/posts/2020-11-30_164846_linkedin/</link>
       <pubDate>Mon, 30 Nov 2020 16:48:46 +0000</pubDate>
-      <guid>/posts/2020-11-30_164846_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2020-11-30_164846_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Try Personal Capital.</title>
-      <link>/posts/2018-10-24_151530_linkedin/</link>
+      <link>https://www.chicks.net/posts/2018-10-24_151530_linkedin/</link>
       <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
-      <guid>/posts/2018-10-24_151530_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2018-10-24_151530_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Cake Board is a LEGO-friendly breadboard</title>
-      <link>/posts/2014-09-22_161741_linkedin/</link>
+      <link>https://www.chicks.net/posts/2014-09-22_161741_linkedin/</link>
       <pubDate>Mon, 22 Sep 2014 16:17:41 +0000</pubDate>
-      <guid>/posts/2014-09-22_161741_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2014-09-22_161741_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Defunct linked-in 2013-11-11</title>
-      <link>/posts/2013-11-11_150002_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-11-11_150002_linkedin/</link>
       <pubDate>Mon, 11 Nov 2013 15:00:02 +0000</pubDate>
-      <guid>/posts/2013-11-11_150002_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-11-11_150002_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>VCs Should Give Honest Feedback &amp; Why They Often Don’t</title>
-      <link>/posts/2013-09-27_150304_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-09-27_150304_linkedin/</link>
       <pubDate>Fri, 27 Sep 2013 15:03:04 +0000</pubDate>
-      <guid>/posts/2013-09-27_150304_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-09-27_150304_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Amazon CEO Jeff Bezos Had His Top Execs Read These Three Books</title>
-      <link>/posts/2013-09-26_120357_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-09-26_120357_linkedin/</link>
       <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
-      <guid>/posts/2013-09-26_120357_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-09-26_120357_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Miley Cyrus’ Best Career Move. Ever.</title>
-      <link>/posts/2013-09-04_165700_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-09-04_165700_linkedin/</link>
       <pubDate>Wed, 04 Sep 2013 16:57:00 +0000</pubDate>
-      <guid>/posts/2013-09-04_165700_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-09-04_165700_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Defunct linked-in 2013-08-08 19:29:37</title>
-      <link>/posts/2013-08-08_192937_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-08-08_192937_linkedin/</link>
       <pubDate>Thu, 08 Aug 2013 19:29:37 +0000</pubDate>
-      <guid>/posts/2013-08-08_192937_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-08-08_192937_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>In Tough Times, Abandon Your Employees</title>
-      <link>/posts/2013-08-08_192557_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-08-08_192557_linkedin/</link>
       <pubDate>Thu, 08 Aug 2013 19:25:57 +0000</pubDate>
-      <guid>/posts/2013-08-08_192557_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-08-08_192557_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Change Your Habits with a Good Checklist</title>
-      <link>/posts/2013-08-07_174452_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-08-07_174452_linkedin/</link>
       <pubDate>Wed, 07 Aug 2013 17:44:52 +0000</pubDate>
-      <guid>/posts/2013-08-07_174452_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-08-07_174452_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Stop the Presses: A New Media Baron Appears</title>
-      <link>/posts/2013-08-06_174115_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-08-06_174115_linkedin/</link>
       <pubDate>Tue, 06 Aug 2013 17:41:15 +0000</pubDate>
-      <guid>/posts/2013-08-06_174115_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-08-06_174115_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>When a Favorite Company Breaks Your Heart</title>
-      <link>/posts/2013-07-29_141022_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-07-29_141022_linkedin/</link>
       <pubDate>Mon, 29 Jul 2013 14:10:22 +0000</pubDate>
-      <guid>/posts/2013-07-29_141022_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-07-29_141022_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Fly To The Top – The 30:30:30:10 Rule</title>
-      <link>/posts/2013-07-19_132319_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-07-19_132319_linkedin/</link>
       <pubDate>Fri, 19 Jul 2013 13:23:19 +0000</pubDate>
-      <guid>/posts/2013-07-19_132319_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-07-19_132319_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>board games in Santa Monica</title>
-      <link>/posts/2013-07-16_020302_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-07-16_020302_linkedin/</link>
       <pubDate>Tue, 16 Jul 2013 02:03:02 +0000</pubDate>
-      <guid>/posts/2013-07-16_020302_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-07-16_020302_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>What if you learned about personal branding from the greats?</title>
-      <link>/posts/2013-05-30_142230_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-05-30_142230_linkedin/</link>
       <pubDate>Thu, 30 May 2013 14:22:30 +0000</pubDate>
-      <guid>/posts/2013-05-30_142230_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-05-30_142230_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Your Most Important Career Decision</title>
-      <link>/posts/2013-04-23_132922_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-04-23_132922_linkedin/</link>
       <pubDate>Tue, 23 Apr 2013 13:29:22 +0000</pubDate>
-      <guid>/posts/2013-04-23_132922_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-04-23_132922_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Arduinio Hackathon at OpenX Pasadena announcement</title>
-      <link>/posts/2013-04-17_124949_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-04-17_124949_linkedin/</link>
       <pubDate>Wed, 17 Apr 2013 12:49:49 +0000</pubDate>
-      <guid>/posts/2013-04-17_124949_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-04-17_124949_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>OpenX Arduino Hackathon 2013</title>
-      <link>/posts/2013-04-16_134253_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-04-16_134253_linkedin/</link>
       <pubDate>Tue, 16 Apr 2013 13:42:53 +0000</pubDate>
-      <guid>/posts/2013-04-16_134253_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-04-16_134253_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Linked-in endorsements are a handy easy button.</title>
-      <link>/posts/2013-03-27_114616_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-03-27_114616_linkedin/</link>
       <pubDate>Wed, 27 Mar 2013 11:46:16 +0000</pubDate>
-      <guid>/posts/2013-03-27_114616_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-03-27_114616_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>11 Simple Concepts to Become a Better Leader</title>
-      <link>/posts/2013-02-24_081714_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-02-24_081714_linkedin/</link>
       <pubDate>Sun, 24 Feb 2013 08:17:14 +0000</pubDate>
-      <guid>/posts/2013-02-24_081714_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-02-24_081714_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>defunct wow!</title>
-      <link>/posts/2013-02-12_173436_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-02-12_173436_linkedin/</link>
       <pubDate>Tue, 12 Feb 2013 17:34:36 +0000</pubDate>
-      <guid>/posts/2013-02-12_173436_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-02-12_173436_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Landing a job at one particular company</title>
-      <link>/posts/2013-02-08_125441_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-02-08_125441_linkedin/</link>
       <pubDate>Fri, 08 Feb 2013 12:54:41 +0000</pubDate>
-      <guid>/posts/2013-02-08_125441_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-02-08_125441_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Arduino-Controlled RGB Lamp</title>
-      <link>/posts/2013-01-20_033747_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-01-20_033747_linkedin/</link>
       <pubDate>Sun, 20 Jan 2013 03:37:47 +0000</pubDate>
-      <guid>/posts/2013-01-20_033747_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-01-20_033747_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>defunct linked-in 2013-01-18 15:27:44</title>
-      <link>/posts/2013-01-18_152744_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-01-18_152744_linkedin/</link>
       <pubDate>Fri, 18 Jan 2013 15:27:44 +0000</pubDate>
-      <guid>/posts/2013-01-18_152744_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-01-18_152744_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>A month to yourself</title>
-      <link>/posts/2012-10-17_152225_linkedin/</link>
+      <link>https://www.chicks.net/posts/2012-10-17_152225_linkedin/</link>
       <pubDate>Wed, 17 Oct 2012 15:22:25 +0000</pubDate>
-      <guid>/posts/2012-10-17_152225_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2012-10-17_152225_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Why does spam get archived in hours?</title>
-      <link>/posts/2012-07-17_123539_linkedin/</link>
+      <link>https://www.chicks.net/posts/2012-07-17_123539_linkedin/</link>
       <pubDate>Tue, 17 Jul 2012 12:35:39 +0000</pubDate>
-      <guid>/posts/2012-07-17_123539_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2012-07-17_123539_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Defunct job post</title>
-      <link>/posts/2012-05-14_221659_linkedin/</link>
+      <link>https://www.chicks.net/posts/2012-05-14_221659_linkedin/</link>
       <pubDate>Mon, 14 May 2012 22:16:59 +0000</pubDate>
-      <guid>/posts/2012-05-14_221659_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2012-05-14_221659_linkedin/</guid>
       <description>Defunct job post from linked-in share</description>
     </item>
     <item>
       <title>LibreOffice is superior</title>
-      <link>/posts/2012-04-20_153644_linkedin/</link>
+      <link>https://www.chicks.net/posts/2012-04-20_153644_linkedin/</link>
       <pubDate>Fri, 20 Apr 2012 15:36:44 +0000</pubDate>
-      <guid>/posts/2012-04-20_153644_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2012-04-20_153644_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>OpenX is profitable.</title>
-      <link>/posts/2012-02-13_161627_linkedin/</link>
+      <link>https://www.chicks.net/posts/2012-02-13_161627_linkedin/</link>
       <pubDate>Mon, 13 Feb 2012 16:16:27 +0000</pubDate>
-      <guid>/posts/2012-02-13_161627_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2012-02-13_161627_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Commentary on unknown article</title>
-      <link>/posts/2011-12-07_120515_linkedin/</link>
+      <link>https://www.chicks.net/posts/2011-12-07_120515_linkedin/</link>
       <pubDate>Wed, 07 Dec 2011 12:05:15 +0000</pubDate>
-      <guid>/posts/2011-12-07_120515_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2011-12-07_120515_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>OpenX opened new data center in &lt;60 days</title>
-      <link>/posts/2011-10-15_121940_linkedin/</link>
+      <link>https://www.chicks.net/posts/2011-10-15_121940_linkedin/</link>
       <pubDate>Sat, 15 Oct 2011 12:19:40 +0000</pubDate>
-      <guid>/posts/2011-10-15_121940_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2011-10-15_121940_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Nice Couchbase ops training in SF</title>
-      <link>/posts/2011-07-29_004350_linkedin/</link>
+      <link>https://www.chicks.net/posts/2011-07-29_004350_linkedin/</link>
       <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
-      <guid>/posts/2011-07-29_004350_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2011-07-29_004350_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Microsoft Is A Monopoly</title>
-      <link>/posts/1999-11-15-monopoly-report/</link>
+      <link>https://www.chicks.net/posts/1999-11-15-monopoly-report/</link>
       <pubDate>Mon, 15 Nov 1999 00:00:00 +0000</pubDate>
-      <guid>/posts/1999-11-15-monopoly-report/</guid>
+      <guid>https://www.chicks.net/posts/1999-11-15-monopoly-report/</guid>
       <description>Converted from twiki - v1.2</description>
     </item>
     <item>
       <title>Linux... changing the face of computing.</title>
-      <link>/posts/1999-06-06-linux-edge-report/</link>
+      <link>https://www.chicks.net/posts/1999-06-06-linux-edge-report/</link>
       <pubDate>Sun, 06 Jun 1999 00:00:00 +0000</pubDate>
-      <guid>/posts/1999-06-06-linux-edge-report/</guid>
+      <guid>https://www.chicks.net/posts/1999-06-06-linux-edge-report/</guid>
       <description>Converted from twiki - v1.2</description>
     </item>
   </channel>

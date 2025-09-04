@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linked-In on Christopher Hicks</title>
-    <link>/tags/linked-in/</link>
+    <link>https://www.chicks.net/tags/linked-in/</link>
     <description>Recent content in Linked-In on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Apr 2022 14:56:04 +0000</lastBuildDate>
-    <atom:link href="/tags/linked-in/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/linked-in/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#34;LinkedIn is better on the app&#34; is the subject of the email.</title>
-      <link>/posts/2022-04-22_145604_linkedin/</link>
+      <link>https://www.chicks.net/posts/2022-04-22_145604_linkedin/</link>
       <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
-      <guid>/posts/2022-04-22_145604_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2022-04-22_145604_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Linked-in endorsements are a handy easy button.</title>
-      <link>/posts/2013-03-27_114616_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-03-27_114616_linkedin/</link>
       <pubDate>Wed, 27 Mar 2013 11:46:16 +0000</pubDate>
-      <guid>/posts/2013-03-27_114616_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-03-27_114616_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Why does spam get archived in hours?</title>
-      <link>/posts/2012-07-17_123539_linkedin/</link>
+      <link>https://www.chicks.net/posts/2012-07-17_123539_linkedin/</link>
       <pubDate>Tue, 17 Jul 2012 12:35:39 +0000</pubDate>
-      <guid>/posts/2012-07-17_123539_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2012-07-17_123539_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
   </channel>

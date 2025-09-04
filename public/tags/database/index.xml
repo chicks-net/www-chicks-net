@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Database on Christopher Hicks</title>
-    <link>/tags/database/</link>
+    <link>https://www.chicks.net/tags/database/</link>
     <description>Recent content in Database on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/database/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redis backslides into open source community</title>
-      <link>/posts/2025-05-16-redis-backslides-into-open-source/</link>
+      <link>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-05-16-redis-backslides-into-open-source/</guid>
+      <guid>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</guid>
       <description>But will the community slide back into redis?</description>
     </item>
     <item>
       <title>Nice Couchbase ops training in SF</title>
-      <link>/posts/2011-07-29_004350_linkedin/</link>
+      <link>https://www.chicks.net/posts/2011-07-29_004350_linkedin/</link>
       <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
-      <guid>/posts/2011-07-29_004350_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2011-07-29_004350_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
   </channel>
