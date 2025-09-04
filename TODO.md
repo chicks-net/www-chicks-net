@@ -7,20 +7,19 @@ youtube videos should become blog entries.  Draft blog entries live in my
 
 ## Definite TODOs
 
-- August
-  - [ ] :pencil: Using uv to manage python projects
-  - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example)
 - September
-  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
-  - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
-  - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
+  - [x] :pencil: Using uv to manage python projects (#106 and #107)
+  - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example)
 - October
-  - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
-  - [ ] :pencil: blog entry on the value of playlists
+  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
+  - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
 - November
-  - [ ] :pencil: blog entry on calendaring (Outlined)
+  - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
+  - [ ] :pencil: blog entry on the value of playlists
 - December
+  - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
   - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
+  - [ ] :pencil: blog entry on calendaring (Outlined)
 - Someday
   - [ ] :pencil: youtube short of "man in finance...trust fund" being good with spreadsheets
   - [ ] :pencil: blog entry on news organizations that I support
