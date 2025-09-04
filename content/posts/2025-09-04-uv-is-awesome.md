@@ -4,8 +4,8 @@ date = 2025-09-04
 draft = false
 description = 'Rust saves the bacon for python packaging and formatting.'
 cover.hidden = true
-# keywords = ["", "", ""]
-# tags = ["", "", "", ""]
+keywords = ["Python", "Rust", "DevTools", "SoftwareEngineering"]
+tags = ["free-software", "release-engineering", "programming"]
 ShowToc = true
 +++
 

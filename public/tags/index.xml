@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free-Software</title>
+      <link>/tags/free-software/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/free-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release-Engineering</title>
+      <link>/tags/release-engineering/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/release-engineering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ca-San-Francisco</title>
       <link>/tags/ca-san-francisco/</link>
@@ -83,13 +104,6 @@
       <link>/tags/database/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
       <guid>/tags/database/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Free-Software</title>
-      <link>/tags/free-software/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/free-software/</guid>
       <description></description>
     </item>
     <item>

@@ -6,8 +6,15 @@
     <description>Recent content in Free-Software on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Rust Had to Save Python From Itself: The uv Revolution</title>
+      <link>/posts/2025-09-04-uv-is-awesome/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/2025-09-04-uv-is-awesome/</guid>
+      <description>Rust saves the bacon for python packaging and formatting.</description>
+    </item>
     <item>
       <title>Redis backslides into open source community</title>
       <link>/posts/2025-05-16-redis-backslides-into-open-source/</link>
