@@ -8,7 +8,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 ## Definite TODOs
 
 - September
-  - [x] :pencil: Using uv to manage python projects -- #106 and #107
+  - [x] :pencil: Using uv to manage python projects -- https://github.com/chicks-net/www-chicks-net/pull/106 and https://github.com/chicks-net/www-chicks-net/pull/107
   - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example)
 - October
   - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
