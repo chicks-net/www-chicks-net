@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Virtu on Christopher Hicks</title>
-    <link>/tags/virtu/</link>
+    <link>https://www.chicks.net/tags/virtu/</link>
     <description>Recent content in Virtu on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Jul 2013 02:03:02 +0000</lastBuildDate>
-    <atom:link href="/tags/virtu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/virtu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>board games in Santa Monica</title>
-      <link>/posts/2013-07-16_020302_linkedin/</link>
+      <link>https://www.chicks.net/posts/2013-07-16_020302_linkedin/</link>
       <pubDate>Tue, 16 Jul 2013 02:03:02 +0000</pubDate>
-      <guid>/posts/2013-07-16_020302_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2013-07-16_020302_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
   </channel>

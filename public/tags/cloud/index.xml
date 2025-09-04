@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cloud on Christopher Hicks</title>
-    <link>/tags/cloud/</link>
+    <link>https://www.chicks.net/tags/cloud/</link>
     <description>Recent content in Cloud on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Redis backslides into open source community</title>
-      <link>/posts/2025-05-16-redis-backslides-into-open-source/</link>
+      <link>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-05-16-redis-backslides-into-open-source/</guid>
+      <guid>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</guid>
       <description>But will the community slide back into redis?</description>
     </item>
     <item>
       <title>Scheduled Send in Slack</title>
-      <link>/posts/2025-05-02-scheduled-send-is-your-friend/</link>
+      <link>https://www.chicks.net/posts/2025-05-02-scheduled-send-is-your-friend/</link>
       <pubDate>Fri, 02 May 2025 08:00:00 -0700</pubDate>
-      <guid>/posts/2025-05-02-scheduled-send-is-your-friend/</guid>
+      <guid>https://www.chicks.net/posts/2025-05-02-scheduled-send-is-your-friend/</guid>
       <description>What would motivate us to take advantage of this feature?</description>
     </item>
     <item>
       <title>Review of Microservices Pros and Cons</title>
-      <link>/posts/2025-03-10-review-microservices/</link>
+      <link>https://www.chicks.net/posts/2025-03-10-review-microservices/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-03-10-review-microservices/</guid>
+      <guid>https://www.chicks.net/posts/2025-03-10-review-microservices/</guid>
       <description>Review of Microservices: Pros and Cons article from Ovid</description>
     </item>
   </channel>

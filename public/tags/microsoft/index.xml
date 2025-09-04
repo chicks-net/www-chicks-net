@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Microsoft on Christopher Hicks</title>
-    <link>/tags/microsoft/</link>
+    <link>https://www.chicks.net/tags/microsoft/</link>
     <description>Recent content in Microsoft on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 11 Jun 2023 15:36:43 +0000</lastBuildDate>
-    <atom:link href="/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creator of Clippy</title>
-      <link>/posts/2023-06-11_153643_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-06-11_153643_linkedin/</link>
       <pubDate>Sun, 11 Jun 2023 15:36:43 +0000</pubDate>
-      <guid>/posts/2023-06-11_153643_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-06-11_153643_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>&#34;LinkedIn is better on the app&#34; is the subject of the email.</title>
-      <link>/posts/2022-04-22_145604_linkedin/</link>
+      <link>https://www.chicks.net/posts/2022-04-22_145604_linkedin/</link>
       <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
-      <guid>/posts/2022-04-22_145604_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2022-04-22_145604_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
   </channel>

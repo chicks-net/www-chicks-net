@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Free-Software on Christopher Hicks</title>
-    <link>/tags/free-software/</link>
+    <link>https://www.chicks.net/tags/free-software/</link>
     <description>Recent content in Free-Software on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Rust Had to Save Python From Itself: The uv Revolution</title>
-      <link>/posts/2025-09-04-uv-is-awesome/</link>
+      <link>https://www.chicks.net/posts/2025-09-04-uv-is-awesome/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-09-04-uv-is-awesome/</guid>
+      <guid>https://www.chicks.net/posts/2025-09-04-uv-is-awesome/</guid>
       <description>Rust saves the bacon for python packaging and formatting.</description>
     </item>
     <item>
       <title>Redis backslides into open source community</title>
-      <link>/posts/2025-05-16-redis-backslides-into-open-source/</link>
+      <link>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-05-16-redis-backslides-into-open-source/</guid>
+      <guid>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</guid>
       <description>But will the community slide back into redis?</description>
     </item>
     <item>
       <title>Using just to speed development</title>
-      <link>/posts/2024-09-29-using-just-to-speed-development/</link>
+      <link>https://www.chicks.net/posts/2024-09-29-using-just-to-speed-development/</link>
       <pubDate>Sun, 29 Sep 2024 15:39:41 -0700</pubDate>
-      <guid>/posts/2024-09-29-using-just-to-speed-development/</guid>
+      <guid>https://www.chicks.net/posts/2024-09-29-using-just-to-speed-development/</guid>
       <description>Just is a make-like tool and this video is an introduction.</description>
     </item>
     <item>
       <title>Chicks on Community</title>
-      <link>/posts/2023-07-23-community/</link>
+      <link>https://www.chicks.net/posts/2023-07-23-community/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/posts/2023-07-23-community/</guid>
+      <guid>https://www.chicks.net/posts/2023-07-23-community/</guid>
       <description>Youtube video of chicks talking about how companies are treating the open source community</description>
     </item>
     <item>
       <title>LibreOffice is superior</title>
-      <link>/posts/2012-04-20_153644_linkedin/</link>
+      <link>https://www.chicks.net/posts/2012-04-20_153644_linkedin/</link>
       <pubDate>Fri, 20 Apr 2012 15:36:44 +0000</pubDate>
-      <guid>/posts/2012-04-20_153644_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2012-04-20_153644_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Microsoft Is A Monopoly</title>
-      <link>/posts/1999-11-15-monopoly-report/</link>
+      <link>https://www.chicks.net/posts/1999-11-15-monopoly-report/</link>
       <pubDate>Mon, 15 Nov 1999 00:00:00 +0000</pubDate>
-      <guid>/posts/1999-11-15-monopoly-report/</guid>
+      <guid>https://www.chicks.net/posts/1999-11-15-monopoly-report/</guid>
       <description>Converted from twiki - v1.2</description>
     </item>
     <item>
       <title>Linux... changing the face of computing.</title>
-      <link>/posts/1999-06-06-linux-edge-report/</link>
+      <link>https://www.chicks.net/posts/1999-06-06-linux-edge-report/</link>
       <pubDate>Sun, 06 Jun 1999 00:00:00 +0000</pubDate>
-      <guid>/posts/1999-06-06-linux-edge-report/</guid>
+      <guid>https://www.chicks.net/posts/1999-06-06-linux-edge-report/</guid>
       <description>Converted from twiki - v1.2</description>
     </item>
   </channel>

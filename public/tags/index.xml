@@ -2,353 +2,353 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Christopher Hicks</title>
-    <link>/tags/</link>
+    <link>https://www.chicks.net/tags/</link>
     <description>Recent content in Tags on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Free-Software</title>
-      <link>/tags/free-software/</link>
+      <link>https://www.chicks.net/tags/free-software/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/free-software/</guid>
+      <guid>https://www.chicks.net/tags/free-software/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>/tags/programming/</link>
+      <link>https://www.chicks.net/tags/programming/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/programming/</guid>
+      <guid>https://www.chicks.net/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Release-Engineering</title>
-      <link>/tags/release-engineering/</link>
+      <link>https://www.chicks.net/tags/release-engineering/</link>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/release-engineering/</guid>
+      <guid>https://www.chicks.net/tags/release-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Ca-San-Francisco</title>
-      <link>/tags/ca-san-francisco/</link>
+      <link>https://www.chicks.net/tags/ca-san-francisco/</link>
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/ca-san-francisco/</guid>
+      <guid>https://www.chicks.net/tags/ca-san-francisco/</guid>
       <description></description>
     </item>
     <item>
       <title>Family</title>
-      <link>/tags/family/</link>
+      <link>https://www.chicks.net/tags/family/</link>
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/family/</guid>
+      <guid>https://www.chicks.net/tags/family/</guid>
       <description></description>
     </item>
     <item>
       <title>Youtube</title>
-      <link>/tags/youtube/</link>
+      <link>https://www.chicks.net/tags/youtube/</link>
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/youtube/</guid>
+      <guid>https://www.chicks.net/tags/youtube/</guid>
       <description></description>
     </item>
     <item>
       <title>Art</title>
-      <link>/tags/art/</link>
+      <link>https://www.chicks.net/tags/art/</link>
       <pubDate>Wed, 25 Jun 2025 12:00:00 -0400</pubDate>
-      <guid>/tags/art/</guid>
+      <guid>https://www.chicks.net/tags/art/</guid>
       <description></description>
     </item>
     <item>
       <title>Va-Williamsburg</title>
-      <link>/tags/va-williamsburg/</link>
+      <link>https://www.chicks.net/tags/va-williamsburg/</link>
       <pubDate>Wed, 25 Jun 2025 12:00:00 -0400</pubDate>
-      <guid>/tags/va-williamsburg/</guid>
+      <guid>https://www.chicks.net/tags/va-williamsburg/</guid>
       <description></description>
     </item>
     <item>
       <title>Creativity</title>
-      <link>/tags/creativity/</link>
+      <link>https://www.chicks.net/tags/creativity/</link>
       <pubDate>Fri, 13 Jun 2025 07:40:44 -0400</pubDate>
-      <guid>/tags/creativity/</guid>
+      <guid>https://www.chicks.net/tags/creativity/</guid>
       <description></description>
     </item>
     <item>
       <title>History</title>
-      <link>/tags/history/</link>
+      <link>https://www.chicks.net/tags/history/</link>
       <pubDate>Fri, 13 Jun 2025 07:40:44 -0400</pubDate>
-      <guid>/tags/history/</guid>
+      <guid>https://www.chicks.net/tags/history/</guid>
       <description></description>
     </item>
     <item>
       <title>Trains</title>
-      <link>/tags/trains/</link>
+      <link>https://www.chicks.net/tags/trains/</link>
       <pubDate>Fri, 13 Jun 2025 07:40:44 -0400</pubDate>
-      <guid>/tags/trains/</guid>
+      <guid>https://www.chicks.net/tags/trains/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
-      <link>/tags/business/</link>
+      <link>https://www.chicks.net/tags/business/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/business/</guid>
+      <guid>https://www.chicks.net/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>/tags/cloud/</link>
+      <link>https://www.chicks.net/tags/cloud/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/cloud/</guid>
+      <guid>https://www.chicks.net/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Database</title>
-      <link>/tags/database/</link>
+      <link>https://www.chicks.net/tags/database/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/database/</guid>
+      <guid>https://www.chicks.net/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>Habits</title>
-      <link>/tags/habits/</link>
+      <link>https://www.chicks.net/tags/habits/</link>
       <pubDate>Fri, 02 May 2025 08:00:00 -0700</pubDate>
-      <guid>/tags/habits/</guid>
+      <guid>https://www.chicks.net/tags/habits/</guid>
       <description></description>
     </item>
     <item>
       <title>Organization</title>
-      <link>/tags/organization/</link>
+      <link>https://www.chicks.net/tags/organization/</link>
       <pubDate>Fri, 02 May 2025 08:00:00 -0700</pubDate>
-      <guid>/tags/organization/</guid>
+      <guid>https://www.chicks.net/tags/organization/</guid>
       <description></description>
     </item>
     <item>
       <title>Slack</title>
-      <link>/tags/slack/</link>
+      <link>https://www.chicks.net/tags/slack/</link>
       <pubDate>Fri, 02 May 2025 08:00:00 -0700</pubDate>
-      <guid>/tags/slack/</guid>
+      <guid>https://www.chicks.net/tags/slack/</guid>
       <description></description>
     </item>
     <item>
       <title>Va-Lee-Hall</title>
-      <link>/tags/va-lee-hall/</link>
+      <link>https://www.chicks.net/tags/va-lee-hall/</link>
       <pubDate>Fri, 25 Apr 2025 08:29:13 -0400</pubDate>
-      <guid>/tags/va-lee-hall/</guid>
+      <guid>https://www.chicks.net/tags/va-lee-hall/</guid>
       <description></description>
     </item>
     <item>
       <title>Review</title>
-      <link>/tags/review/</link>
+      <link>https://www.chicks.net/tags/review/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/review/</guid>
+      <guid>https://www.chicks.net/tags/review/</guid>
       <description></description>
     </item>
     <item>
       <title>Tubi</title>
-      <link>/tags/tubi/</link>
+      <link>https://www.chicks.net/tags/tubi/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/tubi/</guid>
+      <guid>https://www.chicks.net/tags/tubi/</guid>
       <description></description>
     </item>
     <item>
       <title>Humor</title>
-      <link>/tags/humor/</link>
+      <link>https://www.chicks.net/tags/humor/</link>
       <pubDate>Mon, 09 Sep 2024 11:43:56 -0700</pubDate>
-      <guid>/tags/humor/</guid>
+      <guid>https://www.chicks.net/tags/humor/</guid>
       <description></description>
     </item>
     <item>
       <title>The-Economist</title>
-      <link>/tags/the-economist/</link>
+      <link>https://www.chicks.net/tags/the-economist/</link>
       <pubDate>Mon, 09 Sep 2024 11:43:56 -0700</pubDate>
-      <guid>/tags/the-economist/</guid>
+      <guid>https://www.chicks.net/tags/the-economist/</guid>
       <description></description>
     </item>
     <item>
       <title>Travel</title>
-      <link>/tags/travel/</link>
+      <link>https://www.chicks.net/tags/travel/</link>
       <pubDate>Wed, 31 Jul 2024 11:06:18 -0700</pubDate>
-      <guid>/tags/travel/</guid>
+      <guid>https://www.chicks.net/tags/travel/</guid>
       <description></description>
     </item>
     <item>
       <title>Billiards</title>
-      <link>/tags/billiards/</link>
+      <link>https://www.chicks.net/tags/billiards/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>/tags/billiards/</guid>
+      <guid>https://www.chicks.net/tags/billiards/</guid>
       <description></description>
     </item>
     <item>
       <title>Branding</title>
-      <link>/tags/branding/</link>
+      <link>https://www.chicks.net/tags/branding/</link>
       <pubDate>Tue, 02 Jul 2024 10:53:43 -0700</pubDate>
-      <guid>/tags/branding/</guid>
+      <guid>https://www.chicks.net/tags/branding/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <link>https://www.chicks.net/tags/hugo/</link>
       <pubDate>Tue, 02 Jul 2024 10:53:43 -0700</pubDate>
-      <guid>/tags/hugo/</guid>
+      <guid>https://www.chicks.net/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Keyboard</title>
-      <link>/tags/keyboard/</link>
+      <link>https://www.chicks.net/tags/keyboard/</link>
       <pubDate>Thu, 13 Jun 2024 17:01:26 +0000</pubDate>
-      <guid>/tags/keyboard/</guid>
+      <guid>https://www.chicks.net/tags/keyboard/</guid>
       <description></description>
     </item>
     <item>
       <title>Gaming</title>
-      <link>/tags/gaming/</link>
+      <link>https://www.chicks.net/tags/gaming/</link>
       <pubDate>Fri, 10 May 2024 20:30:19 +0000</pubDate>
-      <guid>/tags/gaming/</guid>
+      <guid>https://www.chicks.net/tags/gaming/</guid>
       <description></description>
     </item>
     <item>
       <title>Redhat</title>
-      <link>/tags/redhat/</link>
+      <link>https://www.chicks.net/tags/redhat/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/redhat/</guid>
+      <guid>https://www.chicks.net/tags/redhat/</guid>
       <description></description>
     </item>
     <item>
       <title>Ca-Central-Coast</title>
-      <link>/tags/ca-central-coast/</link>
+      <link>https://www.chicks.net/tags/ca-central-coast/</link>
       <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/tags/ca-central-coast/</guid>
+      <guid>https://www.chicks.net/tags/ca-central-coast/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft</title>
-      <link>/tags/microsoft/</link>
+      <link>https://www.chicks.net/tags/microsoft/</link>
       <pubDate>Sun, 11 Jun 2023 15:36:43 +0000</pubDate>
-      <guid>/tags/microsoft/</guid>
+      <guid>https://www.chicks.net/tags/microsoft/</guid>
       <description></description>
     </item>
     <item>
       <title>Linked-In</title>
-      <link>/tags/linked-in/</link>
+      <link>https://www.chicks.net/tags/linked-in/</link>
       <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
-      <guid>/tags/linked-in/</guid>
+      <guid>https://www.chicks.net/tags/linked-in/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile</title>
-      <link>/tags/mobile/</link>
+      <link>https://www.chicks.net/tags/mobile/</link>
       <pubDate>Fri, 22 Apr 2022 14:56:04 +0000</pubDate>
-      <guid>/tags/mobile/</guid>
+      <guid>https://www.chicks.net/tags/mobile/</guid>
       <description></description>
     </item>
     <item>
       <title>Mcdtechlab</title>
-      <link>/tags/mcdtechlab/</link>
+      <link>https://www.chicks.net/tags/mcdtechlab/</link>
       <pubDate>Mon, 30 Nov 2020 16:48:46 +0000</pubDate>
-      <guid>/tags/mcdtechlab/</guid>
+      <guid>https://www.chicks.net/tags/mcdtechlab/</guid>
       <description></description>
     </item>
     <item>
       <title>Wired</title>
-      <link>/tags/wired/</link>
+      <link>https://www.chicks.net/tags/wired/</link>
       <pubDate>Mon, 30 Nov 2020 16:48:46 +0000</pubDate>
-      <guid>/tags/wired/</guid>
+      <guid>https://www.chicks.net/tags/wired/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>/tags/finance/</link>
+      <link>https://www.chicks.net/tags/finance/</link>
       <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
-      <guid>/tags/finance/</guid>
+      <guid>https://www.chicks.net/tags/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Refer</title>
-      <link>/tags/refer/</link>
+      <link>https://www.chicks.net/tags/refer/</link>
       <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
-      <guid>/tags/refer/</guid>
+      <guid>https://www.chicks.net/tags/refer/</guid>
       <description></description>
     </item>
     <item>
       <title>Lego</title>
-      <link>/tags/lego/</link>
+      <link>https://www.chicks.net/tags/lego/</link>
       <pubDate>Mon, 22 Sep 2014 16:17:41 +0000</pubDate>
-      <guid>/tags/lego/</guid>
+      <guid>https://www.chicks.net/tags/lego/</guid>
       <description></description>
     </item>
     <item>
       <title>Dead-Link</title>
-      <link>/tags/dead-link/</link>
+      <link>https://www.chicks.net/tags/dead-link/</link>
       <pubDate>Mon, 11 Nov 2013 15:00:02 +0000</pubDate>
-      <guid>/tags/dead-link/</guid>
+      <guid>https://www.chicks.net/tags/dead-link/</guid>
       <description></description>
     </item>
     <item>
       <title>Amazon</title>
-      <link>/tags/amazon/</link>
+      <link>https://www.chicks.net/tags/amazon/</link>
       <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
-      <guid>/tags/amazon/</guid>
+      <guid>https://www.chicks.net/tags/amazon/</guid>
       <description></description>
     </item>
     <item>
       <title>Book</title>
-      <link>/tags/book/</link>
+      <link>https://www.chicks.net/tags/book/</link>
       <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
-      <guid>/tags/book/</guid>
+      <guid>https://www.chicks.net/tags/book/</guid>
       <description></description>
     </item>
     <item>
       <title>Virtu</title>
-      <link>/tags/virtu/</link>
+      <link>https://www.chicks.net/tags/virtu/</link>
       <pubDate>Tue, 16 Jul 2013 02:03:02 +0000</pubDate>
-      <guid>/tags/virtu/</guid>
+      <guid>https://www.chicks.net/tags/virtu/</guid>
       <description></description>
     </item>
     <item>
       <title>Recruitment</title>
-      <link>/tags/recruitment/</link>
+      <link>https://www.chicks.net/tags/recruitment/</link>
       <pubDate>Tue, 23 Apr 2013 13:29:22 +0000</pubDate>
-      <guid>/tags/recruitment/</guid>
+      <guid>https://www.chicks.net/tags/recruitment/</guid>
       <description></description>
     </item>
     <item>
       <title>Arduino</title>
-      <link>/tags/arduino/</link>
+      <link>https://www.chicks.net/tags/arduino/</link>
       <pubDate>Wed, 17 Apr 2013 12:49:49 +0000</pubDate>
-      <guid>/tags/arduino/</guid>
+      <guid>https://www.chicks.net/tags/arduino/</guid>
       <description></description>
     </item>
     <item>
       <title>Openx</title>
-      <link>/tags/openx/</link>
+      <link>https://www.chicks.net/tags/openx/</link>
       <pubDate>Wed, 17 Apr 2013 12:49:49 +0000</pubDate>
-      <guid>/tags/openx/</guid>
+      <guid>https://www.chicks.net/tags/openx/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Center</title>
-      <link>/tags/data-center/</link>
+      <link>https://www.chicks.net/tags/data-center/</link>
       <pubDate>Sat, 15 Oct 2011 12:19:40 +0000</pubDate>
-      <guid>/tags/data-center/</guid>
+      <guid>https://www.chicks.net/tags/data-center/</guid>
       <description></description>
     </item>
     <item>
       <title>Training</title>
-      <link>/tags/training/</link>
+      <link>https://www.chicks.net/tags/training/</link>
       <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
-      <guid>/tags/training/</guid>
+      <guid>https://www.chicks.net/tags/training/</guid>
       <description></description>
     </item>
     <item>
       <title>Fini-Edge-Reports</title>
-      <link>/tags/fini-edge-reports/</link>
+      <link>https://www.chicks.net/tags/fini-edge-reports/</link>
       <pubDate>Mon, 15 Nov 1999 00:00:00 +0000</pubDate>
-      <guid>/tags/fini-edge-reports/</guid>
+      <guid>https://www.chicks.net/tags/fini-edge-reports/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>/tags/linux/</link>
+      <link>https://www.chicks.net/tags/linux/</link>
       <pubDate>Sun, 06 Jun 1999 00:00:00 +0000</pubDate>
-      <guid>/tags/linux/</guid>
+      <guid>https://www.chicks.net/tags/linux/</guid>
       <description></description>
     </item>
   </channel>

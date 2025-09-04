@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tubi on Christopher Hicks</title>
-    <link>/tags/tubi/</link>
+    <link>https://www.chicks.net/tags/tubi/</link>
     <description>Recent content in Tubi on Christopher Hicks</description>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/tubi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.chicks.net/tags/tubi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tubi Streamed Superbowl 2025</title>
-      <link>/posts/2025-02-25-tubi-streamed-superbowl/</link>
+      <link>https://www.chicks.net/posts/2025-02-25-tubi-streamed-superbowl/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>/posts/2025-02-25-tubi-streamed-superbowl/</guid>
+      <guid>https://www.chicks.net/posts/2025-02-25-tubi-streamed-superbowl/</guid>
       <description>Tubi streaming the 2025 Superbowl was a huge success!</description>
     </item>
     <item>
       <title>Neckties of July 2024</title>
-      <link>/posts/2024-07-31-neckties-of-july/</link>
+      <link>https://www.chicks.net/posts/2024-07-31-neckties-of-july/</link>
       <pubDate>Wed, 31 Jul 2024 11:06:18 -0700</pubDate>
-      <guid>/posts/2024-07-31-neckties-of-july/</guid>
+      <guid>https://www.chicks.net/posts/2024-07-31-neckties-of-july/</guid>
       <description>See the neckties I wore for July 2024.</description>
     </item>
     <item>
       <title>You could be the Director of Infastructure at Tubi.</title>
-      <link>/posts/2023-12-01_234022_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-12-01_234022_linkedin/</link>
       <pubDate>Fri, 01 Dec 2023 23:40:22 +0000</pubDate>
-      <guid>/posts/2023-12-01_234022_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-12-01_234022_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>I&#39;m the new Observability Lead at Tubi</title>
-      <link>/posts/2023-09-02_174832_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-09-02_174832_linkedin/</link>
       <pubDate>Sat, 02 Sep 2023 17:48:32 +0000</pubDate>
-      <guid>/posts/2023-09-02_174832_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-09-02_174832_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
       <title>Tubi is competing with subscription services</title>
-      <link>/posts/2023-07-21_002632_linkedin/</link>
+      <link>https://www.chicks.net/posts/2023-07-21_002632_linkedin/</link>
       <pubDate>Fri, 21 Jul 2023 00:26:32 +0000</pubDate>
-      <guid>/posts/2023-07-21_002632_linkedin/</guid>
+      <guid>https://www.chicks.net/posts/2023-07-21_002632_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
     </item>
   </channel>
