@@ -14,6 +14,8 @@ draft = false
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chicks-net/megamap,chicks-net/fbdata-forensics,chicks-net/smokeping-config,chicks-net/chicks-home&type=Date)](https://www.star-history.com/#chicks-net/megamap&chicks-net/fbdata-forensics&chicks-net/smokeping-config&chicks-net/chicks-home&Date)
 
+[![Star History Chart](https://api.star-history.com/svg?repos=chicks-net/chicks-home,fini-net/template-repo,fini-net/fini-coredns-example,fini-net/fini-infra&type=Date)](https://www.star-history.com/#chicks-net/chicks-home&fini-net/template-repo&fini-net/fini-coredns-example&fini-net/fini-infra&Date)
+
 ![repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chicks-net&theme=github)
 
 ![most committed language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=chicks-net&theme=github)
