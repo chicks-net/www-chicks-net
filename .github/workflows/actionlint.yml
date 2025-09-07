@@ -1,4 +1,4 @@
-name: Gitleaks
+name: Lint GitHub Actions workflows
 
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -11,16 +11,16 @@ on:
   workflow_dispatch:
 
 # global permissions
-permissions: read-all
+permissions: {}
 
 jobs:
-  scan:
-    name: gitleaks
+  actionlint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
+      - name: Check workflow files
+        uses: docker://rhysd/actionlint:latest
         with:
-          fetch-depth: 0
-      - uses: gitleaks/gitleaks-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          args: -color
