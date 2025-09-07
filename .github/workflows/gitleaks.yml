@@ -11,12 +11,14 @@ on:
   workflow_dispatch:
 
 # global permissions
-permissions: read-all
+permissions: {}
 
 jobs:
   scan:
     name: gitleaks
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
         with:
