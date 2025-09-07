@@ -1,0 +1,15 @@
+# .fini/hosting.toml
+[general]
+root = public 
+
+[sites]
+
+[sites.github-pages]
+enabled = false
+
+[sites.fini]
+enabled = true
+hostname = "www.chicks.net"
+
+# ssl-redir will be true eventually (TODO)
+ssl-redir = false
