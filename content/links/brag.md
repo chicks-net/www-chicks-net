@@ -24,7 +24,7 @@ draft = false
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 
-## Github chicks-net
+## Github fini-net
 
 [![Star History Chart](https://api.star-history.com/svg?repos=fini-net/fini-coredns-example,fini-net/template-repo,fini-net/fini-infra&type=Date)](https://www.star-history.com/#fini-net/fini-coredns-example&fini-net/template-repo&fini-net/fini-infra&Date)
 
