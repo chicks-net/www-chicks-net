@@ -13,31 +13,31 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - October
   - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
   - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
+  - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
+  - [ ] :pencil: youtube short of "man in finance...trust fund" being good with spreadsheets
 - November
   - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
   - [ ] :pencil: blog entry on the value of playlists
+  - [ ] :computer: get non-SSL site to redirect to the SSL site
 - December
   - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
   - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
   - [ ] :pencil: blog entry on calendaring (Outlined)
+  - [ ] :computer: track config in `.fini/??.toml` (DRAFTing)
 - Someday
-  - [ ] :pencil: youtube short of "man in finance...trust fund" being good with spreadsheets
   - [ ] :pencil: blog entry on news organizations that I support
   - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
   - [ ] :pencil: blog entry on usernames
-  - [ ] :computer: get non-SSL site to redirect to the SSL site
-  - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
-  - [ ] :pencil: blog entry on "retroblogging" (blocked by previous entry)
-  - [ ] :computer: track config in `.fini/??.toml` (DRAFTing)
+  - [ ] :pencil: blog entry on "retroblogging" {blocked by  [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)}
   - [ ] :computer: configure webhook for updates
 
 ## Probable TODOs
 
 - [ ] :pencil: blog entry on git branch naming for racial sensitivity (Blocked by an interview.)
-- [ ] :pencil: blog entry on places we like in Pismo (Outlined)
+- [ ] :pencil: video/blog entry on places we like in Pismo (Outlined)
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
 - [ ] :pencil: blog entry on East vs West (Outline started)
-- [ ] :pencil: blog entry on riding in a Waymo
+- [ ] :pencil: video/blog entry on riding in a Waymo
 - [ ] :pencil: blog entry on how to wrap cables with Velcro
 - [ ] :pencil: blog entry on the Williamsburg Pottery Factory (WPF)
 - [ ] :pencil: retroblog [PvZ game guide](https://steamcommunity.com/sharedfiles/filedetails/?id=396162375)
