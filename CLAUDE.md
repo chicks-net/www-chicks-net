@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## About This Project
 
-This is a Hugo-based static site for https://www.chicks.net built with the PaperMod theme. The site contains blog posts, links, and personal content for Christopher Hicks.
+This is a Hugo-based static site for <https://www.chicks.net> built with the PaperMod theme. The site contains blog posts, links, and personal content for Christopher Hicks.
 
 ## Common Development Tasks
 
 ### Building and Development
 
 - **Build site**: `just hugo` - Builds the site, manages backup directories, and runs git stp
-- **Development server**: `just server` - Runs Hugo development server at http://localhost:1313
+- **Development server**: `just server` - Runs Hugo development server at <http://localhost:1313>
 - **Open dev server**: `just see-server` - Opens browser and starts server
 - **Hugo module maintenance**: `just hugo_mod_tidy` and `just hugo_mod_update`
 
@@ -38,7 +38,7 @@ The project uses a streamlined git workflow with just commands:
 ## Architecture
 
 - **Hugo static site generator** with PaperMod theme imported as Go module
-- **Content organization**: 
+- **Content organization**:
   - `content/posts/` - Blog posts (many imported from LinkedIn)
   - `content/links/` - Links and bragging page
   - `content/intro/` - Introduction content
@@ -55,4 +55,5 @@ The project uses a streamlined git workflow with just commands:
 
 ## Branch Naming
 
-All branches follow the pattern `chicks/<timestamp>-<description>` or `chicks/post/<timestamp>-<description>` for posts.
+All branches follow the pattern `chicks/<timestamp>-<description>` or
+`chicks/post/<timestamp>-<description>` for posts.
