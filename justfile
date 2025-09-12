@@ -59,6 +59,23 @@ pr: on_a_branch
     echo "{{BLUE}}sleeping for 10s because github is lazy with their API{{NORMAL}}"
     sleep 10
     gh pr checks --watch -i 4
+    
+    echo "{{BLUE}}checking for copilot suggestions...{{NORMAL}}"
+    # Check for copilot suggestions in PR diff
+    if gh pr diff | grep -q "@copilot\|copilot\|suggestion" 2>/dev/null; then
+        echo "{{GREEN}}✓ Copilot suggestions found in PR diff{{NORMAL}}"
+    fi
+    
+    # Check for copilot bot reviews
+    pr_number=$(gh pr view --json number -q '.number')
+    reviews=$(gh api "repos/:owner/:repo/pulls/$pr_number/reviews" --jq '[.[] | select(.user.login == "github-copilot[bot]" or (.body | test("copilot|suggestion"; "i")))] | length' 2>/dev/null || echo "0")
+    
+    if [[ "$reviews" -gt 0 ]]; then
+        echo "{{GREEN}}✓ Copilot has $reviews review suggestion(s) on this PR{{NORMAL}}"
+        echo "{{BLUE}}View them with: gh pr view --web{{NORMAL}}"
+    elif ! gh pr diff | grep -q "@copilot\|copilot\|suggestion" 2>/dev/null; then
+        echo "{{YELLOW}}No copilot suggestions detected on this PR{{NORMAL}}"
+    fi
 
 # merge PR and return to starting point
 [group('Process')]
