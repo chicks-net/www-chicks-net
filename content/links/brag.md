@@ -26,6 +26,8 @@ draft = false
 
 ## Github fini-net
 
+All of this section is broken for now.  I will keep looking for alternatives.
+
 [![Star History Chart](https://api.star-history.com/svg?repos=fini-net/fini-coredns-example,fini-net/template-repo,fini-net/fini-infra&type=Date)](https://www.star-history.com/#fini-net/fini-coredns-example&fini-net/template-repo&fini-net/fini-infra&Date)
 
 ![repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=fini-net&theme=github)
