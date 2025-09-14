@@ -53,3 +53,5 @@ draft = false
       in ride credits
   - 🏛 [Empower Personal Capital](https://empowerreferral.link/chicks)
       provides an excellent personal financial dashboard.
+  - 🎼 [Spotify](https://www.spotify.com/referral/0039888df8f37d028eaf247ddef53c5c2a066d7e03fb05cdb89e5a)
+      will give you 3 months of Premium for free.
