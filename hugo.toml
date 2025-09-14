@@ -26,6 +26,8 @@ UseHugoToc = true
 comments = false
 author = "Christopher Hicks"
 keywords = ["Blog", "Chicks", "FINI"]
+images = ["/chicks/chicks_wedding01.jpg"]
+description = "Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community."
 
 [params.assets]
 # favicon = ""
