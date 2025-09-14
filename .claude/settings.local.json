@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.chicks.net)"
+      "WebFetch(domain:www.chicks.net)",
+      "Bash(gh pr view:*)",
+      "Bash(git log:*)",
+      "WebFetch(domain:developers.facebook.com)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []
