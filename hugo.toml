@@ -78,6 +78,12 @@ url = "/links"
 weight = 30
 
 [[menu.main]]
+identifier = "reference"
+name = "Reference"
+url = "/reference"
+weight = 50
+
+[[menu.main]]
 identifier = "archive"
 name = "Archive"
 url = "/archives"

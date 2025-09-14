@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pyrex Reference on Christopher Hicks</title>
+    <link>https://www.chicks.net/reference/cookware/pyrex/</link>
+    <description>Recent content in Pyrex Reference on Christopher Hicks</description>
+    <image>
+      <title>Christopher Hicks</title>
+      <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
+      <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://www.chicks.net/reference/cookware/pyrex/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
