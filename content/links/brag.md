@@ -34,6 +34,10 @@ All of this section is broken for now.  I will keep looking for alternatives.
 
 ![user stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=fini-net&theme=github)
 
+## Holopin
+
+[![An image of @chicksnet's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/chicksnet)](https://holopin.io/@chicksnet)
+
 ## Roadmap.sh
 
 [![roadmap.sh](https://roadmap.sh/card/wide/66a937d5e886d0166c641c4e?variant=dark&roadmaps=devops%2Csoftware-architect%2Cengineering-manager%2Crust)](https://roadmap.sh)
