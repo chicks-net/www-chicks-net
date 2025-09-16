@@ -9,11 +9,10 @@ youtube videos should become blog entries.  Draft blog entries live in my
 
 - September
   - [x] :pencil: Using uv to manage python projects -- <https://github.com/chicks-net/www-chicks-net/pull/106> and <https://github.com/chicks-net/www-chicks-net/pull/107>
-  - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example)
+  - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example) (DRAFTing, ready soon)
 - October
   - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
   - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
-  - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
   - [ ] :pencil: youtube short of "man in finance...trust fund" being good with spreadsheets
 - November
   - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
@@ -25,7 +24,9 @@ youtube videos should become blog entries.  Draft blog entries live in my
   - [ ] :pencil: blog entry on calendaring (Outlined)
   - [ ] :computer: track config in `.fini/??.toml` (DRAFTing)
 - Someday
+  - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
   - [ ] :pencil: blog entry on news organizations that I support
+  - [ ] :pencil: blog entry on the AI hype cycle (mention <https://www.economist.com/business/2025/09/08/faith-in-god-like-large-language-models-is-waning>)
   - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
   - [ ] :pencil: blog entry on usernames
   - [ ] :pencil: blog entry on "retroblogging" {blocked by  [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)}
