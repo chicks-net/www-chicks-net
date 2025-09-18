@@ -11,19 +11,26 @@
     </image>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Free-Software</title>
       <link>https://www.chicks.net/tags/free-software/</link>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/tags/free-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://www.chicks.net/tags/linux/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
       <link>https://www.chicks.net/tags/programming/</link>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/tags/programming/</guid>
       <description></description>
     </item>
@@ -347,13 +354,6 @@
       <link>https://www.chicks.net/tags/fini-edge-reports/</link>
       <pubDate>Mon, 15 Nov 1999 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/tags/fini-edge-reports/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://www.chicks.net/tags/linux/</link>
-      <pubDate>Sun, 06 Jun 1999 00:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/linux/</guid>
       <description></description>
     </item>
   </channel>
