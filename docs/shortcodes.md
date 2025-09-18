@@ -38,6 +38,7 @@ Displays a GitHub repository preview card similar to Slack's social preview. Aut
 #### Example Output
 
 The shortcode generates a card with:
+
 - Repository icon and title (linked to GitHub)
 - Description
 - Language with color indicator
@@ -47,6 +48,7 @@ The shortcode generates a card with:
 #### Styling
 
 The shortcode includes embedded CSS that uses Hugo PaperMod theme variables:
+
 - `--border`: Border colors
 - `--theme`: Background colors
 - `--primary`: Link colors
