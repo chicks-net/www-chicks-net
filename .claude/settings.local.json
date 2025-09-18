@@ -5,7 +5,9 @@
       "Bash(gh pr view:*)",
       "Bash(git log:*)",
       "WebFetch(domain:developers.facebook.com)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(markdownlint-cli2:*)"
     ],
     "deny": [],
     "ask": []
