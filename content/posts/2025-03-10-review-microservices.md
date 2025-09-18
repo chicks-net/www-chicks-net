@@ -5,7 +5,8 @@ draft = false
 description = 'Review of Microservices: Pros and Cons article from Ovid'
 # cover.image = '/posts/'
 cover.hidden = true
-tags = ["cloud", "review"]
+keywords = ["architecture"]
+tags = ["cloud", "review", "programming", "perl", "database"]
 ShowToc = true
 +++
 

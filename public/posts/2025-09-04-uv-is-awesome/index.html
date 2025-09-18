@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>How Rust Had to Save Python From Itself: The uv Revolution | Christopher Hicks</title>
-<meta name="keywords" content="Python, Rust, DevTools, SoftwareEngineering">
+<meta name="keywords" content="Python, Packaging, DevTools, SoftwareEngineering">
 <meta name="description" content="Rust saves the bacon for python packaging and formatting.">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/posts/2025-09-04-uv-is-awesome/">
@@ -67,6 +67,7 @@
     <meta property="article:tag" content="Free-Software">
     <meta property="article:tag" content="Release-Engineering">
     <meta property="article:tag" content="Programming">
+    <meta property="article:tag" content="Rust">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
@@ -102,7 +103,7 @@
   "name": "How Rust Had to Save Python From Itself: The uv Revolution",
   "description": "Rust saves the bacon for python packaging and formatting.",
   "keywords": [
-    "Python", "Rust", "DevTools", "SoftwareEngineering"
+    "Python", "Packaging", "DevTools", "SoftwareEngineering"
   ],
   "articleBody": "Well, well, well. Here we are in 2025 and Python packaging has finally been fixed. Not by the Python community, mind you - they had their shot for about 20 years. No, it took the Rust folks to come in and show us how it’s done.\nThe Long, Painful History Let me paint you a picture. Back when I was starting out, we had distutils. That was it. Then came setuptools, which was supposed to fix everything. Then pip showed up to handle installation. Then virtualenv because global package installs were a nightmare. Then pipenv to combine pip and virtualenv. Then poetry because pipenv wasn’t quite right. Then pip-tools for deterministic builds. Then conda for scientific computing. Then…\nYou get the idea. Each tool solved one specific problem while creating three new ones. The Python community spent decades bikeshedding over package formats, dependency resolution algorithms, and lock file formats while the rest of the world just wanted to install packages without breaking their system. Some tools even managed to break the ancient Unix standard of shebang lines - you know, that #!/usr/bin/env python thing that’s been working since the dawn of time.\nThe Delusion Here’s the thing that drives me nuts: the Python community kept insisting they could solve this from within. “We just need better standards!” they’d cry. “PEP 517 will fix everything!” Narrator: it didn’t. “PEP 621 is the answer!” Still waiting on that revolution.\nMeanwhile, every other modern language figured this out ages ago. Cargo for Rust. Go modules. npm (despite its flaws) for JavaScript. Even Perl got CPAN right decades ago! But Python? Python kept spawning new tools that partially solved the problem while maintaining backward compatibility with decades of technical debt.\nEnter uv: Rust to the Rescue Then along comes Astral with uv, written in Rust, and suddenly everything just… works. It’s fast. Like, stupidly fast. It handles virtual environments transparently. It resolves dependencies without making you wait for your coffee to brew. It installs packages so quickly you wonder if it actually did anything.\nThe best part? They didn’t try to be compatible with every broken decision the Python packaging ecosystem made over the past two decades. They looked at what actually needed to be solved and built a tool that solves those problems.\nThe Irony The delicious irony here is that it took a systems programming language to fix a scripting language’s package management. Rust’s obsession with memory safety and performance optimization turns out to be exactly what Python’s packaging ecosystem needed. Who could have predicted that?\nIt’s like watching someone struggle to open a jar for 20 years, refusing help from anyone, only to have their neighbor walk over with the right tool and pop it open in two seconds.\nWhat This Means For those of us who’ve been dealing with Python packaging hell since the easy_install days, uv feels like a miracle. One tool that does everything, does it fast, and doesn’t break when you look at it sideways. Release engineers everywhere can finally sleep soundly knowing their builds won’t randomly break because of dependency resolution conflicts or virtual environment corruption.\nThe Python community should probably feel a little embarrassed about this. Twenty years of “we can fix this ourselves” only to be shown up by a tool written in a different language entirely. But hey, at least we finally have something that works.\nSo here’s to the Rust community for doing what the Python community couldn’t: fixing Python packaging. Sometimes you need an outsider’s perspective to see the forest for the trees. Or in this case, to see the solution through all the PEPs.\nNow if you’ll excuse me, I need to go update all my projects to use uv. It only takes about 30 seconds per project, which is another miracle in itself. The best part? My colleagues independently discovered uv around the same time I did - that’s how you know a tool is genuinely solving real problems when multiple people stumble across it organically.\nMy post on linked-in coming soon ",
   "wordCount" : "673",
@@ -314,6 +315,7 @@ when multiple people stumble across it organically.</p>
       <li><a href="https://www.chicks.net/tags/free-software/">Free-Software</a></li>
       <li><a href="https://www.chicks.net/tags/release-engineering/">Release-Engineering</a></li>
       <li><a href="https://www.chicks.net/tags/programming/">Programming</a></li>
+      <li><a href="https://www.chicks.net/tags/rust/">Rust</a></li>
     </ul>
 
 <ul class="share-buttons">

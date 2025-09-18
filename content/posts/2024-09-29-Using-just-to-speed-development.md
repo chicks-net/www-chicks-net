@@ -7,7 +7,7 @@ canonicalURL = 'https://youtu.be/m7ZCnGnYyvs?si=QNvUZJiGo20FVdnD'
 ShowCanonicalLink = true
 # cover.image = '/posts/'
 cover.hidden = true
-tags = ["youtube", "free-software"]
+tags = ["youtube", "free-software", "programming"]
 +++
 
 {{< youtube m7ZCnGnYyvs >}}
