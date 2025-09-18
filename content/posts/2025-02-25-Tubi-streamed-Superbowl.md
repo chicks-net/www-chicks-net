@@ -5,7 +5,6 @@ draft = false
 description = 'Tubi streaming the 2025 Superbowl was a huge success!'
 canonicalURL = 'https://www.linkedin.com/posts/chicks2fini_tubi-superbowl-activity-7294829490050842624-jLRt'
 ShowCanonicalLink = true
-# cover.image = '/posts/'
 cover.hidden = true
 tags = ["tubi"]
 keywords = ["superbowl"]
