@@ -11,8 +11,27 @@
     </image>
     <generator>Hugo -- 0.149.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software defined radio</title>
+      <link>https://www.chicks.net/reference/radio/software_defined-radio/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/reference/radio/software_defined-radio/</guid>
+      <description>&lt;p&gt;Software defined radio (SDR) allows elements of the radio to
+be computer controlled that once were solely the domain of analag
+components.  This opens up a world of possibilities and
+flexibility.&lt;/p&gt;
+&lt;h2 id=&#34;key-links&#34;&gt;Key links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rtl-sdr.com/rtl-sdr-quick-start-guide/&#34;&gt;RTL-SDR Quick Start Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rtl-sdr.com/V4/&#34;&gt;RTL-SDR V4 User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/f4exb/sdrangel&#34;&gt;sdrangle on github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/flightaware/dump1090&#34;&gt;flightaware&amp;rsquo;s fork of dump1090&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ham.stackexchange.com/q/173/5222&#34;&gt;Decoding AIS with dongles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blinry.org/50-things-with-sdr/&#34;&gt;50 things you can do with SDR&lt;/a&gt; is a great article.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>DNSControl &#43; CoreDNS Container Example - Announcement</title>
       <link>https://www.chicks.net/posts/2025-09-12-coredns-example-annoucement/</link>
