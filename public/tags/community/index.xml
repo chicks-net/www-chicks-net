@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Community on Christopher Hicks</title>
+    <link>https://www.chicks.net/tags/community/</link>
+    <description>Recent content in Community on Christopher Hicks</description>
+    <image>
+      <title>Christopher Hicks</title>
+      <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
+      <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jul 2012 12:35:39 +0000</lastBuildDate>
+    <atom:link href="https://www.chicks.net/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why does spam get archived in hours?</title>
+      <link>https://www.chicks.net/posts/2012-07-17_123539_linkedin/</link>
+      <pubDate>Tue, 17 Jul 2012 12:35:39 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2012-07-17_123539_linkedin/</guid>
+      <description>Conversion of linked-in share into blog entry</description>
+    </item>
+  </channel>
+</rss>
