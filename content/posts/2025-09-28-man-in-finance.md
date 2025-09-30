@@ -50,3 +50,13 @@ The whole project was great fun and I'm looking forward to working more with
 these tools soon.
 
 [See it on linked-in.](https://www.linkedin.com/posts/chicks2fini_ive-used-ai-to-put-together-my-first-music-activity-7378486764660965376-PvES?utm_source=share&utm_medium=member_desktop&rcm=ACoAAANM42UBeRnJ7AwUnM22SEnxPP-5lvVGyBE)
+
+## Rebrickable Workbench
+
+I also [shared this on my Rebrickable Workbench](https://rebrickable.com/users/chicks/workbench/33158/).
+
+This is my latest LEGO-related creation.  I didn't post it on my
+as-yet-to-launch LEGO channel since I'm really considering this more of
+experimental art than definitely something i'd like to be part of my LEGO
+channel.  I had fun making it and maybe we'll encourage a few people to learn
+about spreadsheets.
