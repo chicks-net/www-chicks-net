@@ -60,3 +60,9 @@ as-yet-to-launch LEGO channel since I'm really considering this more of
 experimental art than definitely something i'd like to be part of my LEGO
 channel.  I had fun making it and maybe we'll encourage a few people to learn
 about spreadsheets.
+
+## Facebook Post
+
+I also [posted on Facebook](https://www.facebook.com/cwhicks/posts/pfbid0ytLCPuw5vqkuG9JWXqJwVS67YCGw1fRGJocqH7yBvkPYCrC5KmmyWUeFZSJ8Xnp1l):
+
+Some popcorn for the Facebook masses...
