@@ -4,7 +4,7 @@ date = 2024-07-02T10:53:43-07:00
 draft = false
 description = 'Explain the relaunch of www.chicks.net'
 cover.hidden = true
-tags = ["branding","hugo","github"]
+tags = ["branding","hugo","github","programming"]
 +++
 
 Howdy friends!  I'm happy to announce today that I am launching
