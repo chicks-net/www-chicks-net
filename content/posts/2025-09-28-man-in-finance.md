@@ -19,6 +19,19 @@ tags = ["lego", "youtube", "art"]
 I had fun putting this together with Galaxy.AI.  It is amazing to me how easy
 it was to get a result that I'm very satisfied with.
 
+### Galaxy.AI
+
+One of the reasons I went into so much detail about Galaxy.AI in my
+[linked-in post about this](#linked-in-post) is that they were offering
+a months worth of credits for writing a review.  I didn't have to pull
+any punches, so I was happy to share how's it been working for me.
+
+They also responded to my support ticket for the free credits really
+quickly.  This encourages me to try to engage with them about some of
+the rough spots I've encountered.  Of course I'm figuring that most of
+my problems are still user error, but tech support may be able to show
+me the way.
+
 ## Spreadsheets
 
 I wanted to emphasize the spreadsheet angle from the beginning, but then the
