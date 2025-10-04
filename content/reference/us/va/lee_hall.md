@@ -7,7 +7,7 @@ draft = false
 [Lee Hall](https://en.wikipedia.org/wiki/Lee_Hall,_Virginia)
 is an
 [unincorporated](https://en.wikipedia.org/wiki/Unincorporated_area)
-town in 
+town in
 [Newport News, VA](https://en.wikipedia.org/wiki/Newport_News,_Virginia).
 
 ## Mansion
