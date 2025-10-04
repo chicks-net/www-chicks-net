@@ -33,6 +33,11 @@ description = "Christopher Hicks - home on the web. Blog posts, links, and perso
 # favicon = ""
 theme_color = "#a903fc"
 
+[params.label]
+text = "Chicks.Net"
+icon = "/favicon-32x32.png"
+iconHeight = 32
+
 [params.profileMode]
 enabled = true
 title = "Christopher Hicks"
