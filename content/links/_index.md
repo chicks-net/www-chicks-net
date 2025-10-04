@@ -41,7 +41,7 @@ draft = false
   - ❓ [Quora](https://www.quora.com/profile/Christopher-Hicks-3).
 - 🎲 games:
   - 🎮 [Steam](https://steamcommunity.com/profiles/76561198037662755/).
-  - 📱 [Google Play Games](https://games.app.goo.gl/51ctZ7VqN2N6EJJBA).
+  - 📱 [Google Play Games](https://play.google.com/profile/chicksnet).
   - 🎮 [Arqade](https://gaming.stackexchange.com/users/100715/chicks).
   - 🎲 [Board Games Arena](https://boardgamearena.com/player?id=89400494).
 - 😄 fun:
