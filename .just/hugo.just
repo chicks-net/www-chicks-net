@@ -12,12 +12,17 @@ hugo_mod_update:
 
 # run hugo from the top of the repo
 [group('Hugo')]
-hugo:
+hugo force='':
     #!/usr/bin/env bash
     PREV_DIR="public.prev"
     if [[ -e "$PREV_DIR" ]]; then
         echo "{{RED}}The $PREV_DIR directory exists.  Is there a bug on a previous hugo run?{{NORMAL}}"
-        exit 5
+        if [[ -n "{{force}}" ]]; then
+            echo "{{BLUE}}But we can recreate it and hope for the best!{{NORMAL}}"
+            rm -rf "$PREV_DIR"
+        else
+            exit 5
+        fi
     fi
     echo "{{GREEN}}no $PREV_DIR directory, so safe to rebuild with hugo...{{NORMAL}}"
 
