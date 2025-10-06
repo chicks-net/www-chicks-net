@@ -9,10 +9,8 @@ cover.image = '/posts/2025-09-28-man-in-finance.jpg'
 cover.hidden = false
 keywords = ["finance", "musicvideo"]
 tags = ["lego", "youtube", "art"]
-# ShowToc = true
+ShowToc = true
 +++
-
-{{< youtube ed7Adkoe_NM >}}
 
 ## Artificial Intelligence
 
@@ -31,6 +29,10 @@ quickly.  This encourages me to try to engage with them about some of
 the rough spots I've encountered.  Of course I'm figuring that most of
 my problems are still user error, but tech support may be able to show
 me the way.
+
+## The video on youtube
+
+{{< youtube ed7Adkoe_NM >}}
 
 ## Spreadsheets
 
