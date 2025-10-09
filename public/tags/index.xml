@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 16:21:42 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database</title>
+      <link>https://www.chicks.net/tags/database/</link>
+      <pubDate>Wed, 08 Oct 2025 16:21:42 -0700</pubDate>
+      <guid>https://www.chicks.net/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://www.chicks.net/tags/programming/</link>
+      <pubDate>Wed, 08 Oct 2025 16:21:42 -0700</pubDate>
+      <guid>https://www.chicks.net/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recruitment</title>
+      <link>https://www.chicks.net/tags/recruitment/</link>
+      <pubDate>Wed, 08 Oct 2025 16:21:42 -0700</pubDate>
+      <guid>https://www.chicks.net/tags/recruitment/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Art</title>
       <link>https://www.chicks.net/tags/art/</link>
@@ -46,13 +67,6 @@
       <link>https://www.chicks.net/tags/linux/</link>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://www.chicks.net/tags/programming/</link>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/programming/</guid>
       <description></description>
     </item>
     <item>
@@ -123,13 +137,6 @@
       <link>https://www.chicks.net/tags/cloud/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/tags/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Database</title>
-      <link>https://www.chicks.net/tags/database/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/database/</guid>
       <description></description>
     </item>
     <item>
@@ -340,13 +347,6 @@
       <link>https://www.chicks.net/tags/virtu/</link>
       <pubDate>Tue, 16 Jul 2013 02:03:02 +0000</pubDate>
       <guid>https://www.chicks.net/tags/virtu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recruitment</title>
-      <link>https://www.chicks.net/tags/recruitment/</link>
-      <pubDate>Tue, 23 Apr 2013 13:29:22 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/recruitment/</guid>
       <description></description>
     </item>
     <item>
