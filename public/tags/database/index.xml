@@ -11,8 +11,23 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 16:21:42 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vocal Media is hiring for a Data Warehouse Engineer</title>
+      <link>https://www.chicks.net/posts/2025-10-08-vocal-data-engineer-opening/</link>
+      <pubDate>Wed, 08 Oct 2025 16:21:42 -0700</pubDate>
+      <guid>https://www.chicks.net/posts/2025-10-08-vocal-data-engineer-opening/</guid>
+      <description>&lt;p&gt;Is anyone in my network looking for work these days?&lt;/p&gt;
+&lt;p&gt;One of our family members works at &lt;a href=&#34;https://vocal-media.io/&#34;&gt;Vocal Media&lt;/a&gt;.
+They&amp;rsquo;ve been very happy with their role, so I hope this &lt;a href=&#34;https://jobs.lever.co/get-vocal-pbc/24b07caf-cc0a-429f-a90d-f5e92583752d&#34;&gt;Senior Software Engineer
+role&lt;/a&gt;
+could be worth your time to check out. It sounds focused on the data warehouse
+from the job description. So you don&amp;rsquo;t have to worry about me competing with
+you.&lt;/p&gt;
+&lt;p&gt;Feel free to comment on this post or DM me if you&amp;rsquo;re actively looking for
+something now.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Redis backslides into open source community</title>
       <link>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</link>
