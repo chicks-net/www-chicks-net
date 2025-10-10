@@ -5,6 +5,7 @@ draft = false
 description = 'See the neckties I wore for July 2024.'
 cover.image = '/posts/2024-07-31-neckties-of-july.jpg'
 cover.hidden = false
+cover.alt = 'Neckties hanging on my office door.'
 tags = ["tubi", "travel","ca-san-francisco", "art", "eating"]
 +++
 

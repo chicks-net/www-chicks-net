@@ -5,8 +5,10 @@ draft = false
 description = 'My third short starring my wife'
 canonicalURL = 'https://youtube.com/shorts/_ekEcwVptRM?si=lni11M3RfTFz61sQ'
 ShowCanonicalLink = true
+#cover_
 cover.image = '/posts/2025-06-25-lorakeets-at-busch-gardens.jpg'
 cover.hidden = false
+cover.alt = 'Feeding 5 Lorakeets at Busch Gardens Williamsburg.  They are sitting on a tubular metal fence rail and we are feeding them from cups purchased from Busch Gardens.'
 keywords = ["birds", "lorakeets", "busch-gardens", "bird-feeding"]
 tags = ["youtube", "va-williamsburg", "art"]
 # ShowToc = true
