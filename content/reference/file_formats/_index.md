@@ -1,6 +1,6 @@
 +++
 title = 'File Formats'
-date = 2025-09-21
+date = 2025-10-21
 draft = false
 +++
 
