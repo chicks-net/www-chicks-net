@@ -1,8 +1,8 @@
----
-title: "SankeyMATIC File Format"
-date: 2025-10-21
-draft: false
----
++++
+title = "SankeyMATIC File Format"
+date = 2025-10-21
+draft = false
++++
 
 ## What is SankeyMATIC?
 
