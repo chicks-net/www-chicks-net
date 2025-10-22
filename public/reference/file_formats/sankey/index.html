@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>SankeyMATIC File Format | Christopher Hicks</title>
+<meta name="keywords" content="">
+<meta name="description" content="What is SankeyMATIC?
+SankeyMATIC is a web-based tool that creates Sankey diagrams—visual representations
+showing flows and proportional relationships between sources and targets. Think of
+it like a visual flow chart where the thickness of each connection represents the
+magnitude of what&rsquo;s flowing through it.
+Basic Syntax
+The format is dead simple: Source [Number] Target
+Here&rsquo;s a real example:
+Income [100] Checking Account
+That line creates a flow from &ldquo;Income&rdquo; to &ldquo;Checking Account&rdquo; with a value of 100.">
+<meta name="author" content="Christopher Hicks">
+<link rel="canonical" href="https://www.chicks.net/reference/file_formats/sankey/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.chicks.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.chicks.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#a903fc">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.chicks.net/reference/file_formats/sankey/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://www.chicks.net/reference/file_formats/sankey/">
+<meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
+  <meta property="og:site_name" content="Christopher Hicks">
+  <meta property="og:title" content="SankeyMATIC File Format">
+  <meta property="og:description" content="What is SankeyMATIC? SankeyMATIC is a web-based tool that creates Sankey diagrams—visual representations showing flows and proportional relationships between sources and targets. Think of it like a visual flow chart where the thickness of each connection represents the magnitude of what’s flowing through it.
+Basic Syntax The format is dead simple: Source [Number] Target
+Here’s a real example:
+Income [100] Checking Account That line creates a flow from “Income” to “Checking Account” with a value of 100.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="reference">
+    <meta property="article:published_time" content="2025-10-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-21T00:00:00+00:00">
+      <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+      <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+<meta name="twitter:title" content="SankeyMATIC File Format">
+<meta name="twitter:description" content="What is SankeyMATIC?
+SankeyMATIC is a web-based tool that creates Sankey diagrams—visual representations
+showing flows and proportional relationships between sources and targets. Think of
+it like a visual flow chart where the thickness of each connection represents the
+magnitude of what&rsquo;s flowing through it.
+Basic Syntax
+The format is dead simple: Source [Number] Target
+Here&rsquo;s a real example:
+Income [100] Checking Account
+That line creates a flow from &ldquo;Income&rdquo; to &ldquo;Checking Account&rdquo; with a value of 100.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Handy Reference Material",
+      "item": "https://www.chicks.net/reference/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "File Formats",
+      "item": "https://www.chicks.net/reference/file_formats/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "SankeyMATIC File Format",
+      "item": "https://www.chicks.net/reference/file_formats/sankey/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SankeyMATIC File Format",
+  "name": "SankeyMATIC File Format",
+  "description": "What is SankeyMATIC? SankeyMATIC is a web-based tool that creates Sankey diagrams—visual representations showing flows and proportional relationships between sources and targets. Think of it like a visual flow chart where the thickness of each connection represents the magnitude of what\u0026rsquo;s flowing through it.\nBasic Syntax The format is dead simple: Source [Number] Target\nHere\u0026rsquo;s a real example:\nIncome [100] Checking Account That line creates a flow from \u0026ldquo;Income\u0026rdquo; to \u0026ldquo;Checking Account\u0026rdquo; with a value of 100.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "What is SankeyMATIC? SankeyMATIC is a web-based tool that creates Sankey diagrams—visual representations showing flows and proportional relationships between sources and targets. Think of it like a visual flow chart where the thickness of each connection represents the magnitude of what’s flowing through it.\nBasic Syntax The format is dead simple: Source [Number] Target\nHere’s a real example:\nIncome [100] Checking Account That line creates a flow from “Income” to “Checking Account” with a value of 100.\nFile Format Rules One flow per line in the Inputs field Node names are case-sensitive (so ‘Revenue’ and ‘revenue’ are different nodes) Use the same node name across multiple lines to create multiple flows in/out Click “Preview” after entering your data to generate the diagram Node names can be nearly anything, including emoji (but can’t look like amounts [123] or colors #abc) Blank lines and lines starting with // are ignored (great for comments and organizing your data) Quick Example A [8] C B [4] C This creates two flows into node C—one from A with value 8, and one from B with value 4.\nWorking with Spreadsheet Data Got your data organized in columns? Here’s the deal. If you’ve got three columns (From, To, Amount), you can use a formula to rearrange them into SankeyMATIC format.\nIn Excel or Google Sheets, use either:\n=A2 \u0026 \" [\" \u0026 C2 \u0026 \"] \" \u0026 B2 or the more verbose:\n=CONCATENATE(A2, \" [\", C2, \"] \", B2) Copy the resulting values and paste them straight into SankeyMATIC’s Inputs field.\nAdvanced Syntax Amount Formats Amounts can be integers or decimals: [17] or [209247.2712]. Don’t use commas or unit indicators—just the raw numbers.\nCalculated Flows Sometimes you don’t know the exact amount, or you want SankeyMATIC to figure it out for you:\n[*] — consumes all excess from the source node [?] — provides whatever’s missing to the target node These work just like regular flows and can have colors and opacity too.\nComments Start any line with // to make it a comment:\n// Revenue sources Income [5000] Checking Bonus [1000] Checking // Expenses Checking [2000] Rent Checking [500] Food Working with Colors Node Colors You can assign colors to individual nodes using node declarations that start with a colon:\n:NodeName #ColorCode For example:\n:Revenue #006600 :Expenses #CC0000 Colors use standard hex format: #rgb or #rrggbb (like #3cf or #009A00). Case doesn’t matter.\nFlow Colors Add a color right to the end of any flow line:\nSource [Amount] Target #ColorCode Real example:\nIncome [5000] Checking #00CC00 Color Inheritance Here’s where it gets interesting. You can tell nodes to pass their color along to their flows:\n:NodeName #ColorCode \u003e\u003e // flows FROM this node inherit its color :NodeName #ColorCode \u003c\u003c // flows TO this node inherit its color :NodeName #ColorCode \u003c\u003c \u003e\u003e // flows both ways inherit its color Example:\n:Revenue #00AA00 \u003e\u003e Revenue [5000] Checking Revenue [1000] Savings Both flows from Revenue will be green.\nOpacity Control Make flows more or less transparent by adding a decimal after the color (0.0 to 0.9999):\nIncome [5000] Checking #00CC00.8 Higher numbers = more opaque (brighter), lower numbers = more transparent. Default flow opacity is 0.45, which is why flows look lighter than nodes.\nColor Themes SankeyMATIC comes with four built-in themes you can pick from:\nCategories — 10 colors Tableau10 — 10 colors (based on Tableau’s palette) Dark — 8 colors Varied — 12 colors These are based on D3.js color scales and you can rotate them to start from any color in the sequence.\nColor Precedence When there’s a conflict, here’s the order SankeyMATIC uses:\nFor flows:\nExplicit flow color (what you specified on the flow line) Source node inheritance (\u003e\u003e) Target node inheritance (\u003c\u003c) Default setting For nodes:\nExplicit definition (:NodeName #Color) Default theme assignment Customization Options Diagram Dimensions You can adjust width and height to match your data—go tall, wide, or square depending on what looks best for your particular flow.\nNode Spacing This one’s important. Around 50% spacing typically works well. Too little and your diagram looks crowded. Too much and your flows get so thin you can’t tell the differences anymore.\nFeatures Automatic node layout (it figures out where to put everything) Proportional flow thickness (bigger numbers = thicker flows) Multiple customization options for labels, units, and colors Export capabilities Advanced scaling options Imbalance detection (it’ll warn you if things don’t add up) Tips from Experience Node spacing makes or breaks your diagram’s readability. Start with 50% and tweak from there based on how complex your data is. The goal is making it easy to compare flow magnitudes at a glance.\nMore Information For the complete manual with all the bells and whistles, check out:\nSankeyMATIC manual — Main documentation Syntax reference — Detailed syntax guide Colors reference — Color system documentation ",
+  "wordCount" : "800",
+  "inLanguage": "en",
+  "image": "https://www.chicks.net/chicks/chicks_wedding01.jpg","datePublished": "2025-10-21T00:00:00Z",
+  "dateModified": "2025-10-21T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Christopher Hicks"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.chicks.net/reference/file_formats/sankey/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Christopher Hicks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.chicks.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
+                <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
+                    height="32">Chicks.Net</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.chicks.net/intro" title="Intro">
+                    <span>Intro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/links" title="Links">
+                    <span>Links</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/reference" title="Reference">
+                    <span>Reference</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/reference/">Handy Reference Material</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/reference/file_formats/">File Formats</a></div>
+    <h1 class="post-title entry-hint-parent">
+      SankeyMATIC File Format
+    </h1>
+    <div class="post-meta"><span title='2025-10-21 00:00:00 +0000 UTC'>October 21, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;800 words&nbsp;·&nbsp;Christopher Hicks&nbsp;|&nbsp;<a href="https://github.com/chicks-net/www-chicks-net/tree/main/content/reference/file_formats/sankey.md" rel="noopener noreferrer edit" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="what-is-sankeymatic">What is SankeyMATIC?<a hidden class="anchor" aria-hidden="true" href="#what-is-sankeymatic">#</a></h2>
+<p>SankeyMATIC is a web-based tool that creates Sankey diagrams—visual representations
+showing flows and proportional relationships between sources and targets. Think of
+it like a visual flow chart where the thickness of each connection represents the
+magnitude of what&rsquo;s flowing through it.</p>
+<h2 id="basic-syntax">Basic Syntax<a hidden class="anchor" aria-hidden="true" href="#basic-syntax">#</a></h2>
+<p>The format is dead simple: <code>Source [Number] Target</code></p>
+<p>Here&rsquo;s a real example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [100] Checking Account
+</span></span></code></pre></div><p>That line creates a flow from &ldquo;Income&rdquo; to &ldquo;Checking Account&rdquo; with a value of 100.</p>
+<h2 id="file-format-rules">File Format Rules<a hidden class="anchor" aria-hidden="true" href="#file-format-rules">#</a></h2>
+<ul>
+<li>One flow per line in the Inputs field</li>
+<li>Node names are case-sensitive (so &lsquo;Revenue&rsquo; and &lsquo;revenue&rsquo; are different nodes)</li>
+<li>Use the same node name across multiple lines to create multiple flows in/out</li>
+<li>Click &ldquo;Preview&rdquo; after entering your data to generate the diagram</li>
+<li>Node names can be nearly anything, including emoji (but can&rsquo;t look like amounts <code>[123]</code> or colors <code>#abc</code>)</li>
+<li>Blank lines and lines starting with <code>//</code> are ignored (great for comments and organizing your data)</li>
+</ul>
+<h2 id="quick-example">Quick Example<a hidden class="anchor" aria-hidden="true" href="#quick-example">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>A [8] C
+</span></span><span style="display:flex;"><span>B [4] C
+</span></span></code></pre></div><p>This creates two flows into node C—one from A with value 8, and one from B with value 4.</p>
+<h2 id="working-with-spreadsheet-data">Working with Spreadsheet Data<a hidden class="anchor" aria-hidden="true" href="#working-with-spreadsheet-data">#</a></h2>
+<p>Got your data organized in columns? Here&rsquo;s the deal. If you&rsquo;ve got three columns
+(From, To, Amount), you can use a formula to rearrange them into SankeyMATIC format.</p>
+<p>In Excel or Google Sheets, use either:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>=A2 &amp; &#34; [&#34; &amp; C2 &amp; &#34;] &#34; &amp; B2
+</span></span></code></pre></div><p>or the more verbose:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>=CONCATENATE(A2, &#34; [&#34;, C2, &#34;] &#34;, B2)
+</span></span></code></pre></div><p>Copy the resulting values and paste them straight into SankeyMATIC&rsquo;s Inputs field.</p>
+<h2 id="advanced-syntax">Advanced Syntax<a hidden class="anchor" aria-hidden="true" href="#advanced-syntax">#</a></h2>
+<h3 id="amount-formats">Amount Formats<a hidden class="anchor" aria-hidden="true" href="#amount-formats">#</a></h3>
+<p>Amounts can be integers or decimals: <code>[17]</code> or <code>[209247.2712]</code>. Don&rsquo;t use commas
+or unit indicators—just the raw numbers.</p>
+<h3 id="calculated-flows">Calculated Flows<a hidden class="anchor" aria-hidden="true" href="#calculated-flows">#</a></h3>
+<p>Sometimes you don&rsquo;t know the exact amount, or you want SankeyMATIC to figure it out
+for you:</p>
+<ul>
+<li><code>[*]</code> — consumes all excess from the source node</li>
+<li><code>[?]</code> — provides whatever&rsquo;s missing to the target node</li>
+</ul>
+<p>These work just like regular flows and can have colors and opacity too.</p>
+<h3 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h3>
+<p>Start any line with <code>//</code> to make it a comment:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>// Revenue sources
+</span></span><span style="display:flex;"><span>Income [5000] Checking
+</span></span><span style="display:flex;"><span>Bonus [1000] Checking
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>// Expenses
+</span></span><span style="display:flex;"><span>Checking [2000] Rent
+</span></span><span style="display:flex;"><span>Checking [500] Food
+</span></span></code></pre></div><h2 id="working-with-colors">Working with Colors<a hidden class="anchor" aria-hidden="true" href="#working-with-colors">#</a></h2>
+<h3 id="node-colors">Node Colors<a hidden class="anchor" aria-hidden="true" href="#node-colors">#</a></h3>
+<p>You can assign colors to individual nodes using node declarations that start with a colon:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:NodeName #ColorCode
+</span></span></code></pre></div><p>For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:Revenue #006600
+</span></span><span style="display:flex;"><span>:Expenses #CC0000
+</span></span></code></pre></div><p>Colors use standard hex format: <code>#rgb</code> or <code>#rrggbb</code> (like <code>#3cf</code> or <code>#009A00</code>).
+Case doesn&rsquo;t matter.</p>
+<h3 id="flow-colors">Flow Colors<a hidden class="anchor" aria-hidden="true" href="#flow-colors">#</a></h3>
+<p>Add a color right to the end of any flow line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Source [Amount] Target #ColorCode
+</span></span></code></pre></div><p>Real example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [5000] Checking #00CC00
+</span></span></code></pre></div><h3 id="color-inheritance">Color Inheritance<a hidden class="anchor" aria-hidden="true" href="#color-inheritance">#</a></h3>
+<p>Here&rsquo;s where it gets interesting. You can tell nodes to pass their color along to
+their flows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:NodeName #ColorCode &gt;&gt;     // flows FROM this node inherit its color
+</span></span><span style="display:flex;"><span>:NodeName #ColorCode &lt;&lt;     // flows TO this node inherit its color
+</span></span><span style="display:flex;"><span>:NodeName #ColorCode &lt;&lt; &gt;&gt;  // flows both ways inherit its color
+</span></span></code></pre></div><p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:Revenue #00AA00 &gt;&gt;
+</span></span><span style="display:flex;"><span>Revenue [5000] Checking
+</span></span><span style="display:flex;"><span>Revenue [1000] Savings
+</span></span></code></pre></div><p>Both flows from Revenue will be green.</p>
+<h3 id="opacity-control">Opacity Control<a hidden class="anchor" aria-hidden="true" href="#opacity-control">#</a></h3>
+<p>Make flows more or less transparent by adding a decimal after the color (0.0 to 0.9999):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [5000] Checking #00CC00.8
+</span></span></code></pre></div><p>Higher numbers = more opaque (brighter), lower numbers = more transparent. Default
+flow opacity is 0.45, which is why flows look lighter than nodes.</p>
+<h3 id="color-themes">Color Themes<a hidden class="anchor" aria-hidden="true" href="#color-themes">#</a></h3>
+<p>SankeyMATIC comes with four built-in themes you can pick from:</p>
+<ul>
+<li><strong>Categories</strong> — 10 colors</li>
+<li><strong>Tableau10</strong> — 10 colors (based on Tableau&rsquo;s palette)</li>
+<li><strong>Dark</strong> — 8 colors</li>
+<li><strong>Varied</strong> — 12 colors</li>
+</ul>
+<p>These are based on D3.js color scales and you can rotate them to start from any
+color in the sequence.</p>
+<h3 id="color-precedence">Color Precedence<a hidden class="anchor" aria-hidden="true" href="#color-precedence">#</a></h3>
+<p>When there&rsquo;s a conflict, here&rsquo;s the order SankeyMATIC uses:</p>
+<p>For flows:</p>
+<ol>
+<li>Explicit flow color (what you specified on the flow line)</li>
+<li>Source node inheritance (<code>&gt;&gt;</code>)</li>
+<li>Target node inheritance (<code>&lt;&lt;</code>)</li>
+<li>Default setting</li>
+</ol>
+<p>For nodes:</p>
+<ol>
+<li>Explicit definition (<code>:NodeName #Color</code>)</li>
+<li>Default theme assignment</li>
+</ol>
+<h2 id="customization-options">Customization Options<a hidden class="anchor" aria-hidden="true" href="#customization-options">#</a></h2>
+<h3 id="diagram-dimensions">Diagram Dimensions<a hidden class="anchor" aria-hidden="true" href="#diagram-dimensions">#</a></h3>
+<p>You can adjust width and height to match your data—go tall, wide, or square depending
+on what looks best for your particular flow.</p>
+<h3 id="node-spacing">Node Spacing<a hidden class="anchor" aria-hidden="true" href="#node-spacing">#</a></h3>
+<p>This one&rsquo;s important. Around 50% spacing typically works well. Too little and your
+diagram looks crowded. Too much and your flows get so thin you can&rsquo;t tell the
+differences anymore.</p>
+<h2 id="features">Features<a hidden class="anchor" aria-hidden="true" href="#features">#</a></h2>
+<ul>
+<li>Automatic node layout (it figures out where to put everything)</li>
+<li>Proportional flow thickness (bigger numbers = thicker flows)</li>
+<li>Multiple customization options for labels, units, and colors</li>
+<li>Export capabilities</li>
+<li>Advanced scaling options</li>
+<li>Imbalance detection (it&rsquo;ll warn you if things don&rsquo;t add up)</li>
+</ul>
+<h2 id="tips-from-experience">Tips from Experience<a hidden class="anchor" aria-hidden="true" href="#tips-from-experience">#</a></h2>
+<p>Node spacing makes or breaks your diagram&rsquo;s readability. Start with 50% and tweak
+from there based on how complex your data is. The goal is making it easy to compare
+flow magnitudes at a glance.</p>
+<h2 id="more-information">More Information<a hidden class="anchor" aria-hidden="true" href="#more-information">#</a></h2>
+<p>For the complete manual with all the bells and whistles, check out:</p>
+<ul>
+<li><a href="https://sankeymatic.com/manual/">SankeyMATIC manual</a> — Main documentation</li>
+<li><a href="https://sankeymatic.com/manual/syntax.html">Syntax reference</a> — Detailed syntax guide</li>
+<li><a href="https://sankeymatic.com/manual/colors.html">Colors reference</a> — Color system documentation</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SankeyMATIC File Format on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fsankey%2f&amp;title=SankeyMATIC%20File%20Format&amp;summary=SankeyMATIC%20File%20Format&amp;source=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fsankey%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SankeyMATIC File Format on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fsankey%2f&title=SankeyMATIC%20File%20Format">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SankeyMATIC File Format on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fsankey%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SankeyMATIC File Format on whatsapp"
+            href="https://api.whatsapp.com/send?text=SankeyMATIC%20File%20Format%20-%20https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fsankey%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SankeyMATIC File Format on telegram"
+            href="https://telegram.me/share/url?text=SankeyMATIC%20File%20Format&amp;url=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fsankey%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share SankeyMATIC File Format on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=SankeyMATIC%20File%20Format&u=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fsankey%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://www.chicks.net/">Christopher Hicks</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
