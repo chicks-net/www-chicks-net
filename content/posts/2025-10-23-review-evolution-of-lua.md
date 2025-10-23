@@ -42,7 +42,7 @@ choices were made?  How did it work out years later?
 It is fascinating that integers proved to be so challenging and revolutionary
 for a programming language in recent memory.  I'm so impressed and grateful
 at how the authors have walked us all through this journey with a healthy
-dose of the concern and confusion they experienced along they way.
+dose of the concern and confusion they experienced along the way.
 
 I had never heard of generational garbage collection before.  Now I have a
 better understanding of it and I'm glad that it is working out well for Lua.
