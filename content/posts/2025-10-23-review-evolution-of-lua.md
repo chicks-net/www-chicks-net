@@ -106,6 +106,6 @@ software movement continues to deliver.
 
 Full review: <https://www.chicks.net/posts/2025-10-23-review-evolution-of-lua/>
 
-```
+```text
 #Lua #ProgrammingLanguages #SoftwareDevelopment #OpenSource #FreeSoftware #GameDev #TechHistory #LanguageDesign #ComputerScience #WoW #Programming #SoftwareEngineering #TechCommunity
 ```
