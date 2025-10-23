@@ -92,22 +92,22 @@ I will post this on linked-in on Monday:
 
 > Just published a review of "The evolution of Lua, continued" - a fascinating
 > look at 15 years of programming language development!
-> 
+>
 > What struck me most: Even adding integers to a language in the 2020's involves
 > difficult tradeoffs. The authors walk us through their journey with refreshing
 > honesty about the challenges, confusion, and tough decisions along the way.
-> 
+>
 > From generational garbage collection to the complexities of the LuaJIT fork,
 > this paper offers rare insight into what it's really like to maintain a
 > programming language over decades. Plus, fond memories of Lua powering World of
 > Warcraft addons!
-> 
+>
 > In a world of RubyGems drama and corporate licensing switches, it's heartening
 > to see a community that's surviving and thriving after decades. The free
 > software movement continues to deliver.
-> 
+>
 > Full review: <https://www.chicks.net/posts/2025-10-23-review-evolution-of-lua/>
-> 
+>
 > ```text
 > #Lua #ProgrammingLanguages #SoftwareDevelopment #OpenSource #FreeSoftware #GameDev #TechHistory #LanguageDesign #ComputerScience #WoW #Programming #SoftwareEngineering #TechCommunity
 > ```
