@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 20:44:52 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Glowing review of &#34;Evolution of Lua, continued&#34;</title>
+      <link>https://www.chicks.net/posts/2025-10-23-review-evolution-of-lua/</link>
+      <pubDate>Wed, 22 Oct 2025 20:44:52 -0700</pubDate>
+      <guid>https://www.chicks.net/posts/2025-10-23-review-evolution-of-lua/</guid>
+      <description>An excellent retrospective on programming language evolution</description>
+    </item>
     <item>
       <title>SankeyMATIC File Format</title>
       <link>https://www.chicks.net/reference/file_formats/sankey/</link>
