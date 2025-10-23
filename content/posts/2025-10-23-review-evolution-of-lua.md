@@ -26,11 +26,11 @@ notes to see when a feature was introduced or a bug was fixed.  Our day to day
 needs don't often benefit from a longer term perspective.
 
 Now and then it is nice to step back and see how ideas work out and morph
-to lead to the "final product" we are working with today.  The choices of a 
+to lead to the "final product" we are working with today.  The choices of a
 programming language designer are something most programmers have considered
 in some way.  Our tastes in languages - what we would use for our next project
 and why - are a way of expressing opinions about what we'd like to see more of
-from the designers and implementers of the langauges.
+from the designers and implementers of the languages.
 
 [The evolution of Lua, continued](https://www.lua.org/doc/cola.pdf)
 lets us get beyond our imaginations of what it must be like to hear how the
@@ -69,7 +69,7 @@ can have amazingly great or incredibly dismal consequences.  Whether you
 agree with the Lua dev's choices, it is nice to learn what their
 experience of going through the process was like.
 
-## Conclustion
+## Conclusion
 
 With the [RubyGems drama](https://lwn.net/Articles/1040778/) and bewildering
 lawfare in the Wordpress community in our recent memories, it is heartwarming
@@ -83,9 +83,9 @@ software continues to come out every day.
 
 I didn't finish anything that I
 [meant to finish this month](https://github.com/chicks-net/www-chicks-net/blob/main/TODO.md).
-I am happy to be writing more actively and consistenly than in years past.
+I am happy to be writing more actively and consistently than in years past.
 The schedule was a nice idea, but I'm not too invested in it.
 
 ## Linked-in post
 
-TODO: it should go live on Monday. 
+TODO: it should go live on Monday.
