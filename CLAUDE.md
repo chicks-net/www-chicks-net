@@ -33,6 +33,7 @@ The project uses a streamlined git workflow with just commands:
 
 - **Markdown linting**: Uses `markdownlint-cli2` with configuration in `.markdownlint.yml`
 - **Git workflow**: All branches are timestamped and prefixed with `chicks/`
+  because that is the only user actively contributing to the project.
 - **Content structure**: Posts go in `content/posts/`, use ISO date prefixes
 
 ## Architecture
@@ -44,6 +45,8 @@ The project uses a streamlined git workflow with just commands:
   - `content/intro/` - Introduction content
 - **Just-based automation** with modular justfiles in `.just/` directory
 - **Git-centric workflow** with GitHub CLI integration for PRs
+- Generated HTML is in the `public/` directory and it is kept in
+  sync with any content changes.
 
 ## Key Files
 
