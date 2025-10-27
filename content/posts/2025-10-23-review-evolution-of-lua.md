@@ -88,7 +88,7 @@ The schedule was a nice idea, but I'm not too invested in it.
 
 ## Linked-in post
 
-I [posted this on linked-in](https://www.linkedin.com/posts/chicks2fini_glowing-review-of-evolution-of-lua-continued-activity-7388590319472316416-So2w?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAANM42UBeRnJ7AwUnM22SEnxPP-5lvVGyBE)
+I [posted this on linked-in](https://www.linkedin.com/posts/chicks2fini_glowing-review-of-evolution-of-lua-continued-activity-7388590319472316416-So2w)
 on the Monday after it
 [went live on www.chicks.net](https://github.com/chicks-net/www-chicks-net/pull/163):
 
