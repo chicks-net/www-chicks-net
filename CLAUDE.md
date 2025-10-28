@@ -46,7 +46,8 @@ The project uses a streamlined git workflow with just commands:
 - **Just-based automation** with modular justfiles in `.just/` directory
 - **Git-centric workflow** with GitHub CLI integration for PRs
 - Generated HTML is in the `public/` directory and it is kept in
-  sync with any content changes.
+  sync with any content changes.  This is needed for the current deployment
+  strategy.
 
 ## Key Files
 
