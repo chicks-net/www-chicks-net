@@ -25,3 +25,8 @@ four sizes with their distinctive angled handles and pour spouts.
 
 These resources are invaluable for identifying patterns, understanding
 production periods, and determining authenticity of vintage Pyrex pieces.
+
+## Historical Artifacts
+
+[This Pyrex Scientific catalog](https://exhibitdb.cmog.org/opacimages/Images/Pyrex/Rakow_1000132877.pdf)
+from 1938 will take you back to a radically different world, less than one hundred years ago.
