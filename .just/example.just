@@ -1,5 +1,8 @@
 # www-chicks-net justfile
 
+# some useful variables
+host := `uname -n`
+
 # display date with reversed background
 [group('example')]
 color-test:
