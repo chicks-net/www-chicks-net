@@ -1,2 +1,4 @@
 # treat HTML as docs so it doesn't contribute to the total
 *.html  linguist-documentation
+
+*.md	linguist-detectable
