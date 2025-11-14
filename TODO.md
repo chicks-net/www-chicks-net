@@ -7,21 +7,20 @@ youtube videos should become blog entries.  Draft blog entries live in my
 
 ## Definite TODOs
 
-- October
-  - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example) (DRAFTing, ready soon)
-  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
 - November
-  - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
+  - [ ] :pencil: video/blog on [fini-coredns-example](https://github.com/fini-net/fini-coredns-example) (DRAFTing, ready soon)
   - [ ] :pencil: blog entry on gamification in google maps (DRAFTing)
-  - [ ] :pencil: blog entry on the value of playlists
   - [ ] :computer: get non-SSL site to redirect to the SSL site
 - December
+  - [ ] :pencil: video/blog on my evolved `just`-based workflow (Outlining in [`just-quick`](https://github.com/chicks-net/presentation-notes/tree/main/just-quick).)
   - [ ] :pencil: blog entry on cryptocurrency being a Potemkin village (DRAFTing)
-  - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
-  - [ ] :pencil: blog entry on calendaring (Outlined)
+  - [ ] :pencil: blog entry on the value of playlists
   - [ ] :computer: track config in `.fini/??.toml` (DRAFTing)
 - Someday
   - [ ] :computer: retroblogging [google+ content](https://github.com/chicks-net/google-plus-posts-dumper)
+  - [ ] :pencil: blog entry on habits and streaks (DRAFTing, ready soon)
+  - [ ] :pencil: blog entry on backing into parking spaces (Outlined)
+  - [ ] :pencil: blog entry on calendaring (Outlined)
   - [ ] :pencil: blog entry on news organizations that I support
   - [ ] :pencil: blog entry on the AI hype cycle (mention <https://www.economist.com/business/2025/09/08/faith-in-god-like-large-language-models-is-waning>)
   - [ ] :pencil: blog entry on shell programming (bash, zsh) best practices (DRAFTing)
@@ -37,6 +36,7 @@ youtube videos should become blog entries.  Draft blog entries live in my
 - [ ] :pencil: blog entry on cataloging books with LibraryThing
 - [ ] :pencil: blog entry on East vs West (Outline started)
 - [ ] :pencil: video/blog entry on riding in a Waymo
+- [ ] :pencil: video/blog entry on UTC (for the win!)
 - [ ] :pencil: blog entry on how to wrap cables with Velcro
 - [ ] :pencil: blog entry on the Williamsburg Pottery Factory (WPF)
 - [ ] :pencil: retroblog [PvZ game guide](https://steamcommunity.com/sharedfiles/filedetails/?id=396162375)
