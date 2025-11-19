@@ -5,6 +5,7 @@ import? '.just/example.just'
 import? '.just/hugo.just'
 import? '.just/gh-process.just'
 import? '.just/pr-hook.just'
+import? '.just/shellcheck.just'
 
 # list recipes (default works without naming it)
 [group('example')]
