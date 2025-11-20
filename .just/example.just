@@ -7,7 +7,7 @@ host := `uname -n`
 [group('example')]
 color-test:
     #!/usr/bin/env bash
-    NOW=`just utcdate`
+    NOW=$(just utcdate)
     echo "NOW={{ INVERT }}$NOW{{ BG_WHITE }}"
 
 # goofing off

@@ -8,14 +8,16 @@ hashtags filename:
     tomlfile=$(mktemp /tmp/justfile.XXXXXX)
     hashtagfile=$(mktemp /tmp/justfile.XXXXXX)
     #echo $tomlfile
-    grep -e '^\(tags\|keywords\)' "{{ filename }}" > $tomlfile
+    grep -e '^\(tags\|keywords\)' "{{ filename }}" > "$tomlfile"
     #cat $tomlfile
 
+    set +e # one of the tomls could fail
     toml get -r "$tomlfile" 'tags' | sed -e 's/]$//' -e 's/^\[//' -e 's/["]//g' -e 's/,/\n/g' | sed -e 's/^/#/g' > "$hashtagfile"
     toml get -r "$tomlfile" 'keywords' | sed -e 's/]$//' -e 's/^\[//' -e 's/["]//g' -e 's/,/\n/g' | sed -e 's/^/#/g' >> "$hashtagfile"
+    set -e # back to strict
 
     echo "{{BLUE}}hashtags for {{ filename }}:{{NORMAL}}"
-    echo $(cat "$hashtagfile")
+    tr '\n' ' ' < "$hashtagfile" | sed -e 's/ $/\n/'
 
     rm "$tomlfile" "$hashtagfile"
 
@@ -34,7 +36,7 @@ gps_rm image:
 [group('Utility')]
 [no-cd]
 @utcdatetime:
-	TZ=UTC date
+    TZ=UTC date
 
 # test network speed
 [group('Utility')]
