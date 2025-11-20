@@ -17,6 +17,8 @@ hugo force='':
     PREV_DIR="public.prev"
     if [[ -e "$PREV_DIR" ]]; then
         echo "{{RED}}The $PREV_DIR directory exists.  Is there a bug on a previous hugo run?{{NORMAL}}"
+        # force variable is replaced by just which confused shellcheck
+        # shellcheck disable=SC2157
         if [[ -n "{{force}}" ]]; then
             echo "{{BLUE}}But we can recreate it and hope for the best!{{NORMAL}}"
             rm -rf "$PREV_DIR"

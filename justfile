@@ -16,6 +16,6 @@ list:
 [group('Process')]
 post branchname: _main_branch
     #!/usr/bin/env bash
-    NOW=`just utcdate`
+    NOW=$(just utcdate)
     git co -b "chicks/post/$NOW-{{ branchname }}"
     hugo new content "content/posts/$NOW-{{ branchname }}.md"
