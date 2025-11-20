@@ -24,15 +24,14 @@ draft = false
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 
-## Github fini-net
+![contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=chicks-net&theme=github-compact)
 
-All of this section is broken for now.  I will keep looking for alternatives.
+## Github fini-net
 
 [![Star History Chart](https://api.star-history.com/svg?repos=fini-net/fini-coredns-example,fini-net/template-repo,fini-net/fini-infra&type=Date)](https://www.star-history.com/#fini-net/fini-coredns-example&fini-net/template-repo&fini-net/fini-infra&Date)
 
-![repos per language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=fini-net&theme=github)
-
-![user stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=fini-net&theme=github)
+I've looked for other org-level widgets, but there's not nearly as much great
+stuff as there is for individual profiles.
 
 ## Holopin
 
