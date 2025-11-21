@@ -5,8 +5,8 @@ draft = false
 description = 'DEI Initiatives and American Values: A Foundation Built on Founding Principles'
 # cover.image = '/posts/'
 cover.hidden = true
-keywords = ["dei", “american-values”,”politics”]
-tags = ["history", "news", “government”]
+keywords = ["dei", "american-values", "politics"]
+tags = ["history", "news", "government"]
 ShowToc = true
 +++
 
