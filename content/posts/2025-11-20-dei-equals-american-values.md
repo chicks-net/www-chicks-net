@@ -6,7 +6,7 @@ description = 'DEI Initiatives and American Values: A Foundation Built on Foundi
 # cover.image = '/posts/'
 cover.hidden = true
 keywords = ["dei", "american-values", "politics"]
-tags = ["history", "news", "government"]
+tags = ["history", "news", "government", "fini-edge-reports", "business", "education"]
 ShowToc = true
 +++
 
