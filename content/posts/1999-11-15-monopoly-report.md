@@ -5,7 +5,7 @@ draft = false
 description = 'Converted from twiki - v1.2'
 cover.hidden = true
 author = "Christopher Hicks"
-tags = ["fini-edge-reports","free-software"]
+tags = ["fini-edge-reports","free-software","government"]
 +++
 
 Microsoft may be a Monopoly, but being a commercial software vendor is
