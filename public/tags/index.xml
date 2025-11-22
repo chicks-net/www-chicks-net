@@ -14,6 +14,27 @@
     <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Business</title>
+      <link>https://www.chicks.net/tags/business/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://www.chicks.net/tags/education/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fini-Edge-Reports</title>
+      <link>https://www.chicks.net/tags/fini-edge-reports/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/fini-edge-reports/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Government</title>
       <link>https://www.chicks.net/tags/government/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
@@ -151,13 +172,6 @@
       <link>https://www.chicks.net/tags/trains/</link>
       <pubDate>Fri, 13 Jun 2025 07:40:44 -0400</pubDate>
       <guid>https://www.chicks.net/tags/trains/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Business</title>
-      <link>https://www.chicks.net/tags/business/</link>
-      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/business/</guid>
       <description></description>
     </item>
     <item>
@@ -403,13 +417,6 @@
       <link>https://www.chicks.net/tags/training/</link>
       <pubDate>Fri, 29 Jul 2011 00:43:50 +0000</pubDate>
       <guid>https://www.chicks.net/tags/training/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fini-Edge-Reports</title>
-      <link>https://www.chicks.net/tags/fini-edge-reports/</link>
-      <pubDate>Mon, 15 Nov 1999 00:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/fini-edge-reports/</guid>
       <description></description>
     </item>
   </channel>
