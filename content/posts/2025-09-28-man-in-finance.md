@@ -8,7 +8,7 @@ ShowCanonicalLink = true
 cover.image = '/posts/2025-09-28-man-in-finance.jpg'
 cover.hidden = false
 keywords = ["finance", "musicvideo"]
-tags = ["lego", "youtube", "art"]
+tags = ["lego", "youtube", "art", "education"]
 ShowToc = true
 +++
 
