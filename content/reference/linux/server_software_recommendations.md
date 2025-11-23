@@ -20,7 +20,7 @@ draft = false
 | Bug tracking | Github Issues              | Github Issues                      |
 | Continuous Integration | _nothing_        | [Concourse](https://concourse-ci.org/) |
 | DNS updates  | _nothing_                  | [NicTool](https://www.nictool.com/) ([discussion](https://softwarerecs.stackexchange.com/questions/24776/open-source-dns-management))|
-| Monitoring, Status  | Hund                | [Hund](https://hund.io) |
+| Monitoring, Status  | [Hund](https://hund.io) | [Hund](https://hund.io)      |
 
 
 ## Daemons
