@@ -22,7 +22,6 @@ draft = false
 | DNS updates  | _nothing_                  | [NicTool](https://www.nictool.com/) ([discussion](https://softwarerecs.stackexchange.com/questions/24776/open-source-dns-management))|
 | Monitoring, Status  | [Hund](https://hund.io) | [Hund](https://hund.io)      |
 
-
 ## Daemons
 
 This section used to exist and may come back someday.
