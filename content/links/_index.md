@@ -5,11 +5,11 @@ draft = false
 +++
 
 - 🖥 coding:
-  - 🛞 [Github](https://github.com/chicks-net).
-  - ⭐ [StackoVerflow](https://stackoverflow.com/users/2002471/chicks).
-  - 🔍 [Black Duck Open Hub](https://openhub.net/accounts/chicks) - not sure about the value here yet.  (It used to be [called ohloh.net](https://www.reddit.com/r/opensource/comments/2aqq0v/ohlohs_name_changing_to_black_duck_open_hub/).)
-  - 🐪 [Perl Monks](https://perlmonks.org/index.pl?node_id=160784).
+  - 🛞 [Github](https://github.com/chicks-net) has been my primary focus.
   - 🥼 [GitLab](https://gitlab.com/chicks-net) for a few repos.
+  - ⭐ [StackOverflow](https://stackoverflow.com/users/2002471/chicks).
+  - 🐪 [Perl Monks](https://perlmonks.org/index.pl?node_id=160784).
+  - 🔍 [Black Duck Open Hub](https://openhub.net/accounts/chicks) - not sure about the value here yet.  (It used to be [called ohloh.net](https://www.reddit.com/r/opensource/comments/2aqq0v/ohlohs_name_changing_to_black_duck_open_hub/).)
 - 💻 tech best pratices:
   - 🛡️ [OpenSSF Best Practices](https://www.bestpractices.dev/en/users/35911).
   - 📊 [Code Review Stack Exchange](https://codereview.stackexchange.com/users/89257/chicks).
