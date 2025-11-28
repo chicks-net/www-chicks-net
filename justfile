@@ -21,7 +21,7 @@ post branchname: _main_branch
     hugo new content "content/posts/$NOW-{{ branchname }}.md"
 
 # verify metadata with CUE
-[group('Verify')]
+[group('Compliance')]
 cue_verify:
     cue vet docs/cue/meta.cue .fini/meta.toml
     @echo "{{GREEN}}cue verify passed{{NORMAL}}"
