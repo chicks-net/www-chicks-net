@@ -19,3 +19,9 @@ post branchname: _main_branch
     NOW=$(just utcdate)
     git co -b "chicks/post/$NOW-{{ branchname }}"
     hugo new content "content/posts/$NOW-{{ branchname }}.md"
+
+# verify metadata with CUE
+[group('Verify')]
+cue_verify:
+    cue vet docs/cue/meta.cue .fini/meta.toml
+    @echo "{{GREEN}}cue verify passed{{NORMAL}}"
