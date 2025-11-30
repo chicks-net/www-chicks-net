@@ -10,6 +10,8 @@ draft = false
 
 ## Github chicks-net
 
+![contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=chicks-net&theme=github-compact)
+
 ![profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chicks-net&theme=github)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chicks-net/megamap,chicks-net/fbdata-forensics,chicks-net/smokeping-config,chicks-net/chicks-home&type=Date)](https://www.star-history.com/#chicks-net/megamap&chicks-net/fbdata-forensics&chicks-net/smokeping-config&chicks-net/chicks-home&Date)
@@ -24,14 +26,11 @@ draft = false
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 
-![contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=chicks-net&theme=github-compact)
-
 ## Github fini-net
 
 [![Star History Chart](https://api.star-history.com/svg?repos=fini-net/fini-coredns-example,fini-net/template-repo,fini-net/fini-infra&type=Date)](https://www.star-history.com/#fini-net/fini-coredns-example&fini-net/template-repo&fini-net/fini-infra&Date)
 
-I've looked for other org-level widgets, but there's not nearly as much great
-stuff as there is for individual profiles.
+![fini-net overview from metrics.lecoq.io](https://metrics.lecoq.io/fini-net?template=classic&languages=1&followup=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&config.timezone=America%2FLos_Angeles)
 
 ## Holopin
 
