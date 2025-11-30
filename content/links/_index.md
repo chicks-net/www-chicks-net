@@ -31,6 +31,7 @@ draft = false
   - 📌 [Pinterest](https://www.pinterest.com/chicksnet/)
   - 👥 [Meetup](https://www.meetup.com/members/42800462/).
   - ⭐ [Yelp](https://chicks-net.yelp.com).
+  - 🍏 [Trustpilot](https://www.trustpilot.com/users/588a75750000ff000a70d2f5)
 - 🛒 marketplace:
   - 📱 [OfferUp](https://offerup.co/profile/chicks-net).
   - 💼 [Fiverr](https://www.fiverr.com/chicks_net).
