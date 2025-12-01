@@ -6,6 +6,7 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:just.systems)",
       "Bash(gh pr view:*)",
       "Bash(gh pr diff:*)",
       "Bash(git log:*)",
