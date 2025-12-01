@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Just Command Runner Best Practices</title>
+      <link>https://www.chicks.net/reference/file_formats/just/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/reference/file_formats/just/</guid>
+      <description>&lt;h2 id=&#34;what-is-just&#34;&gt;What is Just?&lt;/h2&gt;
+&lt;p&gt;Just is a handy way to save and run project-specific commands. Think of it as &lt;code&gt;make&lt;/code&gt; but without the headaches—no &lt;code&gt;.PHONY&lt;/code&gt; recipes needed, actual cross-platform support, and error messages that don&amp;rsquo;t make you want to throw your keyboard.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been using just for a while now on this site, and it&amp;rsquo;s become indispensable for managing Hugo builds, git workflows, and various automation tasks. The learning curve is minimal if you&amp;rsquo;ve ever touched make, but the payoff is substantial.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Server Software Recommendations</title>
       <link>https://www.chicks.net/reference/linux/server_software_recommendations/</link>
