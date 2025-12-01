@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Just Command Runner Best Practices | Christopher Hicks</title>
+<meta name="keywords" content="">
+<meta name="description" content="What is Just?
+Just is a handy way to save and run project-specific commands. Think of it as make but without the headaches—no .PHONY recipes needed, actual cross-platform support, and error messages that don&rsquo;t make you want to throw your keyboard.
+I&rsquo;ve been using just for a while now on this site, and it&rsquo;s become indispensable for managing Hugo builds, git workflows, and various automation tasks. The learning curve is minimal if you&rsquo;ve ever touched make, but the payoff is substantial.">
+<meta name="author" content="Christopher Hicks">
+<link rel="canonical" href="https://www.chicks.net/reference/file_formats/just/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.chicks.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.chicks.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#a903fc">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.chicks.net/reference/file_formats/just/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://www.chicks.net/reference/file_formats/just/">
+<meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
+  <meta property="og:site_name" content="Christopher Hicks">
+  <meta property="og:title" content="Just Command Runner Best Practices">
+  <meta property="og:description" content="What is Just? Just is a handy way to save and run project-specific commands. Think of it as make but without the headaches—no .PHONY recipes needed, actual cross-platform support, and error messages that don’t make you want to throw your keyboard.
+I’ve been using just for a while now on this site, and it’s become indispensable for managing Hugo builds, git workflows, and various automation tasks. The learning curve is minimal if you’ve ever touched make, but the payoff is substantial.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="reference">
+    <meta property="article:published_time" content="2025-11-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-30T00:00:00+00:00">
+      <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+      <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+<meta name="twitter:title" content="Just Command Runner Best Practices">
+<meta name="twitter:description" content="What is Just?
+Just is a handy way to save and run project-specific commands. Think of it as make but without the headaches—no .PHONY recipes needed, actual cross-platform support, and error messages that don&rsquo;t make you want to throw your keyboard.
+I&rsquo;ve been using just for a while now on this site, and it&rsquo;s become indispensable for managing Hugo builds, git workflows, and various automation tasks. The learning curve is minimal if you&rsquo;ve ever touched make, but the payoff is substantial.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Handy Reference Material",
+      "item": "https://www.chicks.net/reference/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "File Formats",
+      "item": "https://www.chicks.net/reference/file_formats/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Just Command Runner Best Practices",
+      "item": "https://www.chicks.net/reference/file_formats/just/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Just Command Runner Best Practices",
+  "name": "Just Command Runner Best Practices",
+  "description": "What is Just? Just is a handy way to save and run project-specific commands. Think of it as make but without the headaches—no .PHONY recipes needed, actual cross-platform support, and error messages that don\u0026rsquo;t make you want to throw your keyboard.\nI\u0026rsquo;ve been using just for a while now on this site, and it\u0026rsquo;s become indispensable for managing Hugo builds, git workflows, and various automation tasks. The learning curve is minimal if you\u0026rsquo;ve ever touched make, but the payoff is substantial.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "What is Just? Just is a handy way to save and run project-specific commands. Think of it as make but without the headaches—no .PHONY recipes needed, actual cross-platform support, and error messages that don’t make you want to throw your keyboard.\nI’ve been using just for a while now on this site, and it’s become indispensable for managing Hugo builds, git workflows, and various automation tasks. The learning curve is minimal if you’ve ever touched make, but the payoff is substantial.\nWhy Not Make? Make was designed for building software from source files. Just is designed for running commands. That subtle distinction matters:\nJust works the same on Linux, macOS, and Windows without extra dependencies Error messages tell you what’s actually wrong with your justfile Unknown recipes and circular dependencies get caught before anything runs You don’t need to mark everything as .PHONY Basic Syntax Commands live in a justfile with make-inspired syntax. The basic pattern:\n# comment describing what this does recipe-name: command to run another command Run it with just recipe-name from anywhere in your project.\nRecipe Fundamentals Comments Matter Always put a comment above each recipe. These show up in just --list output, which is how people (including future you) discover what’s available:\n# build the Hugo site hugo: TZ=America/Los_Angeles hugo Parameters Recipes accept command-line arguments:\n# create a new blog post post branchname: hugo new content \"content/posts/{{branchname}}.md\" Call it: just post my-great-idea\nParameters can have defaults:\n# build with optional force flag hugo force='': #!/usr/bin/env bash if [[ -n \"{{force}}\" ]]; then echo \"Forcing rebuild...\" fi Dependencies Recipes can depend on other recipes:\n# create PR after running checks pr: _has_commits \u0026\u0026 pr_checks gh pr create --title \"Update\" --body \"...\" The \u0026\u0026 syntax means both dependencies must succeed before pr runs.\nMulti-line Recipes For anything non-trivial, use a shebang:\n# complex bash logic process: #!/usr/bin/env bash set -euo pipefail # strict mode for file in *.txt; do echo \"Processing $file\" done This is way more readable than trying to chain commands with \u0026\u0026 or semicolons.\nRecipe Attributes Attributes modify how recipes behave. Stack them above the recipe:\n[group('Process')] [no-cd] _on_a_branch: #!/bin/bash if [[ $(git rev-parse --abbrev-ref HEAD) == \"main\" ]]; then exit 100 fi Essential Attributes [group('NAME')] — Organize recipes into logical groups for just --list:\n[group('Hugo')] server: hugo server [private] — Hide recipes from listings. Useful for helpers:\n[private] _internal_helper: echo \"Not shown in just --list\" Or just prefix with underscore—same effect:\n# this is also private _another_helper: echo \"Also hidden\" [no-cd] — Don’t change to justfile’s directory before running. Essential for recipes that operate on the current working directory:\n[no-cd] _has_commits: git cherry -v main HEAD [confirm] — Require confirmation before running:\n[confirm] deploy: git push production main Override with just --yes deploy.\nPlatform-Specific Attributes Run recipes only on certain operating systems:\n[macos] install-deps: brew install hugo [linux] install-deps: apt-get install hugo Available: [linux], [macos], [unix], [windows]\nOther Useful Attributes [parallel] — Run dependencies in parallel instead of sequentially.\n[doc('description')] — Set documentation separately from comments.\n[working-directory('path')] — Change working directory for this recipe.\n[positional-arguments] — Enable positional argument handling.\nVariables Set variables at the top of your justfile:\nrelease_branch := \"main\" sync: git checkout \"{{ release_branch }}\" git pull Use {{variable}} to reference them in recipes.\nOrganizing Justfiles Start Simple One justfile per project. Don’t over-engineer from day one.\nScale with Imports When your justfile gets unwieldy, split it into logical modules:\nimport? '.just/hugo.just' import? '.just/gh-process.just' import? '.just/utility.just' The ? makes imports optional—useful if you’re sharing justfiles across projects where some modules might not exist.\nModule Structure I keep specialized functionality in .just/ directory:\njustfile # main orchestration .just/ hugo.just # Hugo-specific commands gh-process.just # Git/GitHub workflow pr-hook.just # PR automation utility.just # Helper functions Each module focuses on one domain. The root justfile stays clean.\nThe Default Recipe Make the first recipe in your justfile show help:\n# list recipes (default works without naming it) list: just --list Now just with no arguments shows what’s available.\nPatterns I’ve Found Useful Timestamped Branches # start a new branch branch branchname: _main_branch #!/usr/bin/env bash NOW=$(just utcdate) git checkout -b \"$USER/$NOW-{{ branchname }}\" # print UTC date in ISO format [no-cd] @utcdate: TZ=UTC date +\"%Y-%m-%d\" Every branch gets an ISO date prefix automatically. Useful for tracking when work started.\nSanity Checks Private recipes that error out if preconditions aren’t met:\n# error if not on a git branch [no-cd] _on_a_branch: #!/bin/bash if [[ $(git rev-parse --abbrev-ref HEAD) == \"main\" ]]; then echo \"You are on the main branch, not a feature branch\" exit 100 fi Use as dependencies: pr: _on_a_branch\nPR Workflow # create PR pr: _has_commits \u0026\u0026 pr_checks #!/usr/bin/env bash set -euo pipefail # run optional pre-pr hook if [[ -e \".just/pr-hook.just\" ]]; then just _pr-hook fi git push -u origin HEAD # generate PR body from commits FIRST_COMMIT=$(git log --format=%s -1) gh pr create --title \"$FIRST_COMMIT\" --body \"...\" This pattern handles the entire PR creation flow with sanity checks.\nEnvironment-Specific Setup # run hugo server server: #!/usr/bin/env bash TZ=America/Los_Angeles hugo server just hugo # cleanup after server! Set timezone consistently for Hugo’s date handling.\nBest Practices Formatting Use 4 spaces for indentation Run just --unstable --fmt to auto-format your justfile Add .editorconfig entry for justfiles Shell Selection Default is sh which means POSIX syntax. For bash-specific features, use shebang recipes:\nprocess: #!/usr/bin/env bash # now you can use bash arrays, etc. Error Handling In bash recipes, use strict mode:\n#!/usr/bin/env bash set -euo pipefail This catches errors early instead of letting commands fail silently.\nQuote Arguments Always quote recipe parameters:\npost branchname: hugo new \"content/posts/{{ branchname }}.md\" Prevents issues with spaces or special characters.\nBuilt-in Functions Over Shell Commands Just has built-in functions that work consistently across platforms. Prefer these over shelling out when possible. Check the official manual for the complete list.\nDon’t Hardcode Values Use parameters or variables instead:\n# bad deploy: ssh server1 \"systemctl restart app\" # good deploy server: ssh {{ server }} \"systemctl restart app\" Comment Everything Future you (and your teammates) will thank you:\n# merge PR and return to main branch merge: _on_a_branch \u0026\u0026 sync gh pr merge -s -d Color Output Just provides built-in ANSI color constants (v1.37.0+) that work out of the box—no need to define them yourself:\n# example recipe using built-in constants build: echo \"{{GREEN}}Building...{{NORMAL}}\" echo \"{{BLUE}}Processing files...{{NORMAL}}\" echo \"{{RED}}Error occurred!{{NORMAL}}\" Available color constants:\nForeground colors: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE\nBackground colors: BG_BLACK, BG_RED, BG_GREEN, BG_YELLOW, BG_BLUE, BG_MAGENTA, BG_CYAN, BG_WHITE\nText attributes: NORMAL (reset), BOLD, ITALIC, UNDERLINE, INVERT, HIDE, STRIKETHROUGH\nUtility: CLEAR (clears screen)\nThese are just ANSI escape sequences under the hood, so they work wherever your terminal supports color. Use NORMAL to reset formatting back to defaults.\nBuilt-in Constants Beyond colors, just provides other useful constants (v1.27.0+):\nString constants:\nHEX or HEXLOWER — \"0123456789abcdef\" HEXUPPER — \"0123456789ABCDEF\" Path constants (v1.41.0+):\nPATH_SEP — \"/\" on Unix, \"\\\" on Windows PATH_VAR_SEP — \":\" on Unix, \";\" on Windows Useful for writing cross-platform recipes:\n# works on both Unix and Windows build-path: echo \"{{justfile_directory()}}{{PATH_SEP}}build\" Testing and Debugging Dry Run See what would execute without running it:\njust --dry-run recipe-name List Recipes Show all available recipes:\njust --list Group them for better organization with [group('name')] attributes.\nEvaluate Variables Check variable values:\njust --evaluate Verbose Output See every command before it runs:\njust --verbose recipe-name Version Management If you’re using just across multiple projects or in a team, consider pinning the version. I’ve found that just’s backwards compatibility is solid, but explicit versions prevent surprises.\nOptions:\nmise (formerly rtx) asdf Specify in your project’s README Common Gotchas Shellcheck Warnings Shellcheck doesn’t understand just’s template syntax. Disable warnings for template variables:\nprocess force='': #!/usr/bin/env bash # force variable is replaced by just # shellcheck disable=SC2157 if [[ -n \"{{force}}\" ]]; then echo \"Forcing...\" fi Tab vs Spaces Just works with tabs or spaces, as long as you use them consistently in the same file.\nWorking Directory By default, just changes to the justfile’s directory before running recipes. Use [no-cd] if you need to stay in the invocation directory.\nReal Example from This Site Here’s how I use just for Hugo site management:\nimport? '.just/hugo.just' import? '.just/gh-process.just' # list recipes (default) list: just --list # start a new post [group('Process')] post branchname: _main_branch #!/usr/bin/env bash NOW=$(just utcdate) git co -b \"chicks/post/$NOW-{{ branchname }}\" hugo new content \"content/posts/$NOW-{{ branchname }}.md\" The imported modules handle Hugo builds, git workflows, and PR creation. The root justfile stays focused on high-level orchestration.\nMore Information The official manual is comprehensive and well-written:\nJust Programmer’s Manual — Complete documentation GitHub repository — Source code and issue tracker Attributes reference — All recipe attributes Just has transformed how I manage project automation. It’s one of those tools that gets out of your way and just works. Start simple, add complexity as needed, and you’ll wonder how you managed without it.\nSources:\nJust Programmer’s Manual GitHub - casey/just: 🤖 Just a command runner Attributes - Just Programmer’s Manual Constants - Just Programmer’s Manual Shared Tooling for Diverse Systems with just · Field Notes ",
+  "wordCount" : "1512",
+  "inLanguage": "en",
+  "image": "https://www.chicks.net/chicks/chicks_wedding01.jpg","datePublished": "2025-11-30T00:00:00Z",
+  "dateModified": "2025-11-30T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Christopher Hicks"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.chicks.net/reference/file_formats/just/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Christopher Hicks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.chicks.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
+                <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
+                    height="32">Chicks.Net</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.chicks.net/intro" title="Intro">
+                    <span>Intro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/links" title="Links">
+                    <span>Links</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/reference" title="Reference">
+                    <span>Reference</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/reference/">Handy Reference Material</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/reference/file_formats/">File Formats</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Just Command Runner Best Practices
+    </h1>
+    <div class="post-meta"><span title='2025-11-30 00:00:00 +0000 UTC'>November 30, 2025</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1512 words&nbsp;·&nbsp;Christopher Hicks&nbsp;|&nbsp;<a href="https://github.com/chicks-net/www-chicks-net/tree/main/content/reference/file_formats/just.md" rel="noopener noreferrer edit" target="_blank">Suggest Changes</a>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="what-is-just">What is Just?<a hidden class="anchor" aria-hidden="true" href="#what-is-just">#</a></h2>
+<p>Just is a handy way to save and run project-specific commands. Think of it as <code>make</code> but without the headaches—no <code>.PHONY</code> recipes needed, actual cross-platform support, and error messages that don&rsquo;t make you want to throw your keyboard.</p>
+<p>I&rsquo;ve been using just for a while now on this site, and it&rsquo;s become indispensable for managing Hugo builds, git workflows, and various automation tasks. The learning curve is minimal if you&rsquo;ve ever touched make, but the payoff is substantial.</p>
+<h2 id="why-not-make">Why Not Make?<a hidden class="anchor" aria-hidden="true" href="#why-not-make">#</a></h2>
+<p>Make was designed for building software from source files. Just is designed for running commands. That subtle distinction matters:</p>
+<ul>
+<li>Just works the same on Linux, macOS, and Windows without extra dependencies</li>
+<li>Error messages tell you what&rsquo;s actually wrong with your justfile</li>
+<li>Unknown recipes and circular dependencies get caught before anything runs</li>
+<li>You don&rsquo;t need to mark everything as <code>.PHONY</code></li>
+</ul>
+<h2 id="basic-syntax">Basic Syntax<a hidden class="anchor" aria-hidden="true" href="#basic-syntax">#</a></h2>
+<p>Commands live in a <code>justfile</code> with make-inspired syntax. The basic pattern:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># comment describing what this does
+recipe-name:
+    command to run
+    another command
+</code></pre><p>Run it with <code>just recipe-name</code> from anywhere in your project.</p>
+<h2 id="recipe-fundamentals">Recipe Fundamentals<a hidden class="anchor" aria-hidden="true" href="#recipe-fundamentals">#</a></h2>
+<h3 id="comments-matter">Comments Matter<a hidden class="anchor" aria-hidden="true" href="#comments-matter">#</a></h3>
+<p>Always put a comment above each recipe. These show up in <code>just --list</code> output, which is how people (including future you) discover what&rsquo;s available:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># build the Hugo site
+hugo:
+    TZ=America/Los_Angeles hugo
+</code></pre><h3 id="parameters">Parameters<a hidden class="anchor" aria-hidden="true" href="#parameters">#</a></h3>
+<p>Recipes accept command-line arguments:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># create a new blog post
+post branchname:
+    hugo new content &#34;content/posts/{{branchname}}.md&#34;
+</code></pre><p>Call it: <code>just post my-great-idea</code></p>
+<p>Parameters can have defaults:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># build with optional force flag
+hugo force=&#39;&#39;:
+    #!/usr/bin/env bash
+    if [[ -n &#34;{{force}}&#34; ]]; then
+        echo &#34;Forcing rebuild...&#34;
+    fi
+</code></pre><h3 id="dependencies">Dependencies<a hidden class="anchor" aria-hidden="true" href="#dependencies">#</a></h3>
+<p>Recipes can depend on other recipes:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># create PR after running checks
+pr: _has_commits &amp;&amp; pr_checks
+    gh pr create --title &#34;Update&#34; --body &#34;...&#34;
+</code></pre><p>The <code>&amp;&amp;</code> syntax means both dependencies must succeed before <code>pr</code> runs.</p>
+<h3 id="multi-line-recipes">Multi-line Recipes<a hidden class="anchor" aria-hidden="true" href="#multi-line-recipes">#</a></h3>
+<p>For anything non-trivial, use a shebang:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># complex bash logic
+process:
+    #!/usr/bin/env bash
+    set -euo pipefail # strict mode
+
+    for file in *.txt; do
+        echo &#34;Processing $file&#34;
+    done
+</code></pre><p>This is way more readable than trying to chain commands with <code>&amp;&amp;</code> or semicolons.</p>
+<h2 id="recipe-attributes">Recipe Attributes<a hidden class="anchor" aria-hidden="true" href="#recipe-attributes">#</a></h2>
+<p>Attributes modify how recipes behave. Stack them above the recipe:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">[group(&#39;Process&#39;)]
+[no-cd]
+_on_a_branch:
+    #!/bin/bash
+    if [[ $(git rev-parse --abbrev-ref HEAD) == &#34;main&#34; ]]; then
+        exit 100
+    fi
+</code></pre><h3 id="essential-attributes">Essential Attributes<a hidden class="anchor" aria-hidden="true" href="#essential-attributes">#</a></h3>
+<p><strong><code>[group('NAME')]</code></strong> — Organize recipes into logical groups for <code>just --list</code>:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">[group(&#39;Hugo&#39;)]
+server:
+    hugo server
+</code></pre><p><strong><code>[private]</code></strong> — Hide recipes from listings. Useful for helpers:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">[private]
+_internal_helper:
+    echo &#34;Not shown in just --list&#34;
+</code></pre><p>Or just prefix with underscore—same effect:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># this is also private
+_another_helper:
+    echo &#34;Also hidden&#34;
+</code></pre><p><strong><code>[no-cd]</code></strong> — Don&rsquo;t change to justfile&rsquo;s directory before running. Essential for recipes that operate on the current working directory:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">[no-cd]
+_has_commits:
+    git cherry -v main HEAD
+</code></pre><p><strong><code>[confirm]</code></strong> — Require confirmation before running:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">[confirm]
+deploy:
+    git push production main
+</code></pre><p>Override with <code>just --yes deploy</code>.</p>
+<h3 id="platform-specific-attributes">Platform-Specific Attributes<a hidden class="anchor" aria-hidden="true" href="#platform-specific-attributes">#</a></h3>
+<p>Run recipes only on certain operating systems:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">[macos]
+install-deps:
+    brew install hugo
+
+[linux]
+install-deps:
+    apt-get install hugo
+</code></pre><p>Available: <code>[linux]</code>, <code>[macos]</code>, <code>[unix]</code>, <code>[windows]</code></p>
+<h3 id="other-useful-attributes">Other Useful Attributes<a hidden class="anchor" aria-hidden="true" href="#other-useful-attributes">#</a></h3>
+<p><strong><code>[parallel]</code></strong> — Run dependencies in parallel instead of sequentially.</p>
+<p><strong><code>[doc('description')]</code></strong> — Set documentation separately from comments.</p>
+<p><strong><code>[working-directory('path')]</code></strong> — Change working directory for this recipe.</p>
+<p><strong><code>[positional-arguments]</code></strong> — Enable positional argument handling.</p>
+<h2 id="variables">Variables<a hidden class="anchor" aria-hidden="true" href="#variables">#</a></h2>
+<p>Set variables at the top of your justfile:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">release_branch := &#34;main&#34;
+
+sync:
+    git checkout &#34;{{ release_branch }}&#34;
+    git pull
+</code></pre><p>Use <code>{{variable}}</code> to reference them in recipes.</p>
+<h2 id="organizing-justfiles">Organizing Justfiles<a hidden class="anchor" aria-hidden="true" href="#organizing-justfiles">#</a></h2>
+<h3 id="start-simple">Start Simple<a hidden class="anchor" aria-hidden="true" href="#start-simple">#</a></h3>
+<p>One justfile per project. Don&rsquo;t over-engineer from day one.</p>
+<h3 id="scale-with-imports">Scale with Imports<a hidden class="anchor" aria-hidden="true" href="#scale-with-imports">#</a></h3>
+<p>When your justfile gets unwieldy, split it into logical modules:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">import? &#39;.just/hugo.just&#39;
+import? &#39;.just/gh-process.just&#39;
+import? &#39;.just/utility.just&#39;
+</code></pre><p>The <code>?</code> makes imports optional—useful if you&rsquo;re sharing justfiles across projects where some modules might not exist.</p>
+<h3 id="module-structure">Module Structure<a hidden class="anchor" aria-hidden="true" href="#module-structure">#</a></h3>
+<p>I keep specialized functionality in <code>.just/</code> directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>justfile                    # main orchestration
+</span></span><span style="display:flex;"><span>.just/
+</span></span><span style="display:flex;"><span>  hugo.just                 # Hugo-specific commands
+</span></span><span style="display:flex;"><span>  gh-process.just          # Git/GitHub workflow
+</span></span><span style="display:flex;"><span>  pr-hook.just             # PR automation
+</span></span><span style="display:flex;"><span>  utility.just             # Helper functions
+</span></span></code></pre></div><p>Each module focuses on one domain. The root justfile stays clean.</p>
+<h3 id="the-default-recipe">The Default Recipe<a hidden class="anchor" aria-hidden="true" href="#the-default-recipe">#</a></h3>
+<p>Make the first recipe in your justfile show help:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># list recipes (default works without naming it)
+list:
+    just --list
+</code></pre><p>Now <code>just</code> with no arguments shows what&rsquo;s available.</p>
+<h2 id="patterns-ive-found-useful">Patterns I&rsquo;ve Found Useful<a hidden class="anchor" aria-hidden="true" href="#patterns-ive-found-useful">#</a></h2>
+<h3 id="timestamped-branches">Timestamped Branches<a hidden class="anchor" aria-hidden="true" href="#timestamped-branches">#</a></h3>
+<pre tabindex="0"><code class="language-just" data-lang="just"># start a new branch
+branch branchname: _main_branch
+    #!/usr/bin/env bash
+    NOW=$(just utcdate)
+    git checkout -b &#34;$USER/$NOW-{{ branchname }}&#34;
+
+# print UTC date in ISO format
+[no-cd]
+@utcdate:
+    TZ=UTC date +&#34;%Y-%m-%d&#34;
+</code></pre><p>Every branch gets an ISO date prefix automatically. Useful for tracking when work started.</p>
+<h3 id="sanity-checks">Sanity Checks<a hidden class="anchor" aria-hidden="true" href="#sanity-checks">#</a></h3>
+<p>Private recipes that error out if preconditions aren&rsquo;t met:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># error if not on a git branch
+[no-cd]
+_on_a_branch:
+    #!/bin/bash
+    if [[ $(git rev-parse --abbrev-ref HEAD) == &#34;main&#34; ]]; then
+        echo &#34;You are on the main branch, not a feature branch&#34;
+        exit 100
+    fi
+</code></pre><p>Use as dependencies: <code>pr: _on_a_branch</code></p>
+<h3 id="pr-workflow">PR Workflow<a hidden class="anchor" aria-hidden="true" href="#pr-workflow">#</a></h3>
+<pre tabindex="0"><code class="language-just" data-lang="just"># create PR
+pr: _has_commits &amp;&amp; pr_checks
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    # run optional pre-pr hook
+    if [[ -e &#34;.just/pr-hook.just&#34; ]]; then
+        just _pr-hook
+    fi
+
+    git push -u origin HEAD
+
+    # generate PR body from commits
+    FIRST_COMMIT=$(git log --format=%s -1)
+    gh pr create --title &#34;$FIRST_COMMIT&#34; --body &#34;...&#34;
+</code></pre><p>This pattern handles the entire PR creation flow with sanity checks.</p>
+<h3 id="environment-specific-setup">Environment-Specific Setup<a hidden class="anchor" aria-hidden="true" href="#environment-specific-setup">#</a></h3>
+<pre tabindex="0"><code class="language-just" data-lang="just"># run hugo server
+server:
+    #!/usr/bin/env bash
+    TZ=America/Los_Angeles hugo server
+    just hugo # cleanup after server!
+</code></pre><p>Set timezone consistently for Hugo&rsquo;s date handling.</p>
+<h2 id="best-practices">Best Practices<a hidden class="anchor" aria-hidden="true" href="#best-practices">#</a></h2>
+<h3 id="formatting">Formatting<a hidden class="anchor" aria-hidden="true" href="#formatting">#</a></h3>
+<ul>
+<li>Use 4 spaces for indentation</li>
+<li>Run <code>just --unstable --fmt</code> to auto-format your justfile</li>
+<li>Add <code>.editorconfig</code> entry for justfiles</li>
+</ul>
+<h3 id="shell-selection">Shell Selection<a hidden class="anchor" aria-hidden="true" href="#shell-selection">#</a></h3>
+<p>Default is <code>sh</code> which means POSIX syntax. For bash-specific features, use shebang recipes:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">process:
+    #!/usr/bin/env bash
+    # now you can use bash arrays, etc.
+</code></pre><h3 id="error-handling">Error Handling<a hidden class="anchor" aria-hidden="true" href="#error-handling">#</a></h3>
+<p>In bash recipes, use strict mode:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>set -euo pipefail
+</span></span></code></pre></div><p>This catches errors early instead of letting commands fail silently.</p>
+<h3 id="quote-arguments">Quote Arguments<a hidden class="anchor" aria-hidden="true" href="#quote-arguments">#</a></h3>
+<p>Always quote recipe parameters:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">post branchname:
+    hugo new &#34;content/posts/{{ branchname }}.md&#34;
+</code></pre><p>Prevents issues with spaces or special characters.</p>
+<h3 id="built-in-functions-over-shell-commands">Built-in Functions Over Shell Commands<a hidden class="anchor" aria-hidden="true" href="#built-in-functions-over-shell-commands">#</a></h3>
+<p>Just has built-in functions that work consistently across platforms. Prefer these over shelling out when possible. Check the <a href="https://just.systems/man/en/">official manual</a> for the complete list.</p>
+<h3 id="dont-hardcode-values">Don&rsquo;t Hardcode Values<a hidden class="anchor" aria-hidden="true" href="#dont-hardcode-values">#</a></h3>
+<p>Use parameters or variables instead:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># bad
+deploy:
+    ssh server1 &#34;systemctl restart app&#34;
+
+# good
+deploy server:
+    ssh {{ server }} &#34;systemctl restart app&#34;
+</code></pre><h3 id="comment-everything">Comment Everything<a hidden class="anchor" aria-hidden="true" href="#comment-everything">#</a></h3>
+<p>Future you (and your teammates) will thank you:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># merge PR and return to main branch
+merge: _on_a_branch &amp;&amp; sync
+    gh pr merge -s -d
+</code></pre><h2 id="color-output">Color Output<a hidden class="anchor" aria-hidden="true" href="#color-output">#</a></h2>
+<p>Just provides built-in ANSI color constants (v1.37.0+) that work out of the box—no need to define them yourself:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># example recipe using built-in constants
+build:
+    echo &#34;{{GREEN}}Building...{{NORMAL}}&#34;
+    echo &#34;{{BLUE}}Processing files...{{NORMAL}}&#34;
+    echo &#34;{{RED}}Error occurred!{{NORMAL}}&#34;
+</code></pre><p>Available color constants:</p>
+<p><strong>Foreground colors:</strong> <code>BLACK</code>, <code>RED</code>, <code>GREEN</code>, <code>YELLOW</code>, <code>BLUE</code>, <code>MAGENTA</code>, <code>CYAN</code>, <code>WHITE</code></p>
+<p><strong>Background colors:</strong> <code>BG_BLACK</code>, <code>BG_RED</code>, <code>BG_GREEN</code>, <code>BG_YELLOW</code>, <code>BG_BLUE</code>, <code>BG_MAGENTA</code>, <code>BG_CYAN</code>, <code>BG_WHITE</code></p>
+<p><strong>Text attributes:</strong> <code>NORMAL</code> (reset), <code>BOLD</code>, <code>ITALIC</code>, <code>UNDERLINE</code>, <code>INVERT</code>, <code>HIDE</code>, <code>STRIKETHROUGH</code></p>
+<p><strong>Utility:</strong> <code>CLEAR</code> (clears screen)</p>
+<p>These are just ANSI escape sequences under the hood, so they work wherever your terminal supports color. Use <code>NORMAL</code> to reset formatting back to defaults.</p>
+<h2 id="built-in-constants">Built-in Constants<a hidden class="anchor" aria-hidden="true" href="#built-in-constants">#</a></h2>
+<p>Beyond colors, just provides other useful constants (v1.27.0+):</p>
+<p><strong>String constants:</strong></p>
+<ul>
+<li><code>HEX</code> or <code>HEXLOWER</code> — <code>&quot;0123456789abcdef&quot;</code></li>
+<li><code>HEXUPPER</code> — <code>&quot;0123456789ABCDEF&quot;</code></li>
+</ul>
+<p><strong>Path constants (v1.41.0+):</strong></p>
+<ul>
+<li><code>PATH_SEP</code> — <code>&quot;/&quot;</code> on Unix, <code>&quot;\&quot;</code> on Windows</li>
+<li><code>PATH_VAR_SEP</code> — <code>&quot;:&quot;</code> on Unix, <code>&quot;;&quot;</code> on Windows</li>
+</ul>
+<p>Useful for writing cross-platform recipes:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just"># works on both Unix and Windows
+build-path:
+    echo &#34;{{justfile_directory()}}{{PATH_SEP}}build&#34;
+</code></pre><h2 id="testing-and-debugging">Testing and Debugging<a hidden class="anchor" aria-hidden="true" href="#testing-and-debugging">#</a></h2>
+<h3 id="dry-run">Dry Run<a hidden class="anchor" aria-hidden="true" href="#dry-run">#</a></h3>
+<p>See what would execute without running it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --dry-run recipe-name
+</span></span></code></pre></div><h3 id="list-recipes">List Recipes<a hidden class="anchor" aria-hidden="true" href="#list-recipes">#</a></h3>
+<p>Show all available recipes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --list
+</span></span></code></pre></div><p>Group them for better organization with <code>[group('name')]</code> attributes.</p>
+<h3 id="evaluate-variables">Evaluate Variables<a hidden class="anchor" aria-hidden="true" href="#evaluate-variables">#</a></h3>
+<p>Check variable values:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --evaluate
+</span></span></code></pre></div><h3 id="verbose-output">Verbose Output<a hidden class="anchor" aria-hidden="true" href="#verbose-output">#</a></h3>
+<p>See every command before it runs:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --verbose recipe-name
+</span></span></code></pre></div><h2 id="version-management">Version Management<a hidden class="anchor" aria-hidden="true" href="#version-management">#</a></h2>
+<p>If you&rsquo;re using just across multiple projects or in a team, consider pinning the version. I&rsquo;ve found that just&rsquo;s backwards compatibility is solid, but explicit versions prevent surprises.</p>
+<p>Options:</p>
+<ul>
+<li>mise (formerly rtx)</li>
+<li>asdf</li>
+<li>Specify in your project&rsquo;s README</li>
+</ul>
+<h2 id="common-gotchas">Common Gotchas<a hidden class="anchor" aria-hidden="true" href="#common-gotchas">#</a></h2>
+<h3 id="shellcheck-warnings">Shellcheck Warnings<a hidden class="anchor" aria-hidden="true" href="#shellcheck-warnings">#</a></h3>
+<p>Shellcheck doesn&rsquo;t understand just&rsquo;s template syntax. Disable warnings for template variables:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">process force=&#39;&#39;:
+    #!/usr/bin/env bash
+    # force variable is replaced by just
+    # shellcheck disable=SC2157
+    if [[ -n &#34;{{force}}&#34; ]]; then
+        echo &#34;Forcing...&#34;
+    fi
+</code></pre><h3 id="tab-vs-spaces">Tab vs Spaces<a hidden class="anchor" aria-hidden="true" href="#tab-vs-spaces">#</a></h3>
+<p>Just works with tabs or spaces, as long as you use them consistently in the same file.</p>
+<h3 id="working-directory">Working Directory<a hidden class="anchor" aria-hidden="true" href="#working-directory">#</a></h3>
+<p>By default, just changes to the justfile&rsquo;s directory before running recipes. Use <code>[no-cd]</code> if you need to stay in the invocation directory.</p>
+<h2 id="real-example-from-this-site">Real Example from This Site<a hidden class="anchor" aria-hidden="true" href="#real-example-from-this-site">#</a></h2>
+<p>Here&rsquo;s how I use just for Hugo site management:</p>
+<pre tabindex="0"><code class="language-just" data-lang="just">import? &#39;.just/hugo.just&#39;
+import? &#39;.just/gh-process.just&#39;
+
+# list recipes (default)
+list:
+    just --list
+
+# start a new post
+[group(&#39;Process&#39;)]
+post branchname: _main_branch
+    #!/usr/bin/env bash
+    NOW=$(just utcdate)
+    git co -b &#34;chicks/post/$NOW-{{ branchname }}&#34;
+    hugo new content &#34;content/posts/$NOW-{{ branchname }}.md&#34;
+</code></pre><p>The imported modules handle Hugo builds, git workflows, and PR creation. The root justfile stays focused on high-level orchestration.</p>
+<h2 id="more-information">More Information<a hidden class="anchor" aria-hidden="true" href="#more-information">#</a></h2>
+<p>The official manual is comprehensive and well-written:</p>
+<ul>
+<li><a href="https://just.systems/man/en/">Just Programmer&rsquo;s Manual</a> — Complete documentation</li>
+<li><a href="https://github.com/casey/just">GitHub repository</a> — Source code and issue tracker</li>
+<li><a href="https://just.systems/man/en/attributes.html">Attributes reference</a> — All recipe attributes</li>
+</ul>
+<p>Just has transformed how I manage project automation. It&rsquo;s one of those tools that gets out of your way and just works. Start simple, add complexity as needed, and you&rsquo;ll wonder how you managed without it.</p>
+<p>Sources:</p>
+<ul>
+<li><a href="https://just.systems/man/en/">Just Programmer&rsquo;s Manual</a></li>
+<li><a href="https://github.com/casey/just">GitHub - casey/just: 🤖 Just a command runner</a></li>
+<li><a href="https://just.systems/man/en/attributes.html">Attributes - Just Programmer&rsquo;s Manual</a></li>
+<li><a href="https://just.systems/man/en/constants.html">Constants - Just Programmer&rsquo;s Manual</a></li>
+<li><a href="https://www.stuartellis.name/articles/just-task-runner/">Shared Tooling for Diverse Systems with just · Field Notes</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Just Command Runner Best Practices on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fjust%2f&amp;title=Just%20Command%20Runner%20Best%20Practices&amp;summary=Just%20Command%20Runner%20Best%20Practices&amp;source=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fjust%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Just Command Runner Best Practices on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fjust%2f&title=Just%20Command%20Runner%20Best%20Practices">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Just Command Runner Best Practices on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fjust%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Just Command Runner Best Practices on whatsapp"
+            href="https://api.whatsapp.com/send?text=Just%20Command%20Runner%20Best%20Practices%20-%20https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fjust%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Just Command Runner Best Practices on telegram"
+            href="https://telegram.me/share/url?text=Just%20Command%20Runner%20Best%20Practices&amp;url=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fjust%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Just Command Runner Best Practices on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Just%20Command%20Runner%20Best%20Practices&u=https%3a%2f%2fwww.chicks.net%2freference%2ffile_formats%2fjust%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://www.chicks.net/">Christopher Hicks</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
