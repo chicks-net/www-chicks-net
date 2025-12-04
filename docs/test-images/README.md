@@ -1,6 +1,6 @@
 # Test Images for GPS Check Workflow
 
-This directory contains test images for validating the `.github/workflows/image-check.yml` workflow.
+This directory contains test images for validating the `.github/workflows/image-check.yml` workflow and the `just gps_check` recipe.
 
 ## Test Cases
 
@@ -13,7 +13,9 @@ This image contains GPS coordinates (San Francisco: 37.7749°N, 122.4194°W). Th
 To verify GPS data:
 
 ```bash
-exiftool -gps:all test-images/test-with-gps.jpg
+exiftool -gps:all docs/test-images/test-with-gps.jpg
+# Or use the just recipe:
+just gps_check docs/test-images/test-with-gps.jpg
 ```
 
 ### 2. Image without GPS data (should pass)
@@ -25,7 +27,9 @@ This is a clean image with no GPS metadata. The workflow should pass for this im
 To verify no GPS data:
 
 ```bash
-exiftool -gps:all test-images/test-no-gps.jpg
+exiftool -gps:all docs/test-images/test-no-gps.jpg
+# Or use the just recipe:
+just gps_check docs/test-images/test-no-gps.jpg
 ```
 
 ### 3. Filename with spaces (edge case)
@@ -36,17 +40,33 @@ This image has spaces in its filename to test proper handling of filenames with 
 
 ## Running Tests Locally
 
-To test the GPS check logic locally:
+To test the GPS check logic locally using the `just gps_check` recipe:
+
+```bash
+# Test the image with GPS (should detect GPS and fail)
+just gps_check docs/test-images/test-with-gps.jpg
+
+# Test the clean image (should pass)
+just gps_check docs/test-images/test-no-gps.jpg
+
+# Test spaces in filename (should pass)
+just gps_check "docs/test-images/test image with spaces.jpg"
+
+# Check all images in the repository
+just gps_check
+```
+
+Or using exiftool directly:
 
 ```bash
 # Test the image with GPS (should detect GPS)
-exiftool -gps:all test-images/test-with-gps.jpg | grep "GPS"
+exiftool -gps:all docs/test-images/test-with-gps.jpg | grep "GPS"
 
 # Test the clean image (should return nothing)
-exiftool -gps:all test-images/test-no-gps.jpg | grep "GPS" || echo "No GPS data"
+exiftool -gps:all docs/test-images/test-no-gps.jpg | grep "GPS" || echo "No GPS data"
 
 # Test spaces in filename
-exiftool -gps:all "test-images/test image with spaces.jpg"
+exiftool -gps:all "docs/test-images/test image with spaces.jpg"
 ```
 
 ## Removing GPS Data
@@ -54,7 +74,7 @@ exiftool -gps:all "test-images/test image with spaces.jpg"
 If you need to strip GPS data from an image, use the just command:
 
 ```bash
-just gps_rm test-images/test-with-gps.jpg
+just gps_rm docs/test-images/test-with-gps.jpg
 ```
 
 ## Creating Your Own Test Images
