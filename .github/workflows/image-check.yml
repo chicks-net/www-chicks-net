@@ -1,0 +1,57 @@
+---
+name: Image Check
+on:
+  pull_request:
+
+# global permissions
+permissions: {}
+
+jobs:
+  check-gps-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install just
+        uses: extractions/setup-just@v2
+
+      - name: Install exiftool
+        run: sudo apt-get install -y libimage-exiftool-perl
+
+      - name: Check for GPS data in new/changed images
+        run: |
+          # Find new or modified image files in this PR
+          images=$(git diff --name-only --diff-filter=AM origin/main | grep -E '\.(jpg|jpeg|png|gif|webp|JPG|JPEG|PNG|GIF|WEBP)$' || true)
+
+          if [ -z "$images" ]; then
+            echo "No new or modified images found"
+            exit 0
+          fi
+
+          echo "Checking new/modified images for GPS data:"
+          echo "$images"
+          echo ""
+
+          # Check each new/modified image using just gps_check
+          has_gps=0
+          while IFS= read -r img; do
+            if [ -f "$img" ]; then
+              if ! just gps_check "$img"; then
+                has_gps=1
+              fi
+            fi
+          done <<< "$images"
+
+          if [ $has_gps -eq 1 ]; then
+            echo ""
+            echo "ERROR: GPS data found in one or more images!"
+            echo "Please run 'just gps_rm <image>' to remove GPS metadata before publishing."
+            exit 1
+          fi
+
+          echo ""
+          echo "All new/modified images are clean of GPS data"
