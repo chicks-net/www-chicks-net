@@ -16,6 +16,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install just
+        uses: extractions/setup-just@v2
+
       - name: Install exiftool
         run: sudo apt-get install -y libimage-exiftool-perl
 
@@ -29,22 +32,16 @@ jobs:
             exit 0
           fi
 
-          echo "Checking images for GPS data:"
+          echo "Checking new/modified images for GPS data:"
           echo "$images"
           echo ""
 
+          # Check each new/modified image using just gps_check
           has_gps=0
           while IFS= read -r img; do
             if [ -f "$img" ]; then
-              # Use same syntax as just gps_rm for consistency: -gps:all=
-              gps_data=$(exiftool -gps:all "$img" 2>/dev/null | grep "GPS" || true)
-              if [ -n "$gps_data" ]; then
-                echo "⚠️  GPS data found in $img:"
-                echo "$gps_data"
-                echo ""
+              if ! just gps_check "$img"; then
                 has_gps=1
-              else
-                echo "✓ $img has no GPS data"
               fi
             fi
           done <<< "$images"
@@ -57,4 +54,4 @@ jobs:
           fi
 
           echo ""
-          echo "All images are clean of GPS data"
+          echo "All new/modified images are clean of GPS data"
