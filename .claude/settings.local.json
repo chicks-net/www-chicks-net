@@ -9,13 +9,19 @@
       "WebFetch(domain:just.systems)",
       "Bash(gh pr view:*)",
       "Bash(gh pr diff:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
       "Bash(git log:*)",
       "WebSearch",
       "Bash(markdownlint-cli2:*)",
-      "Bash(identify:*)",
       "Bash(curl -s -I https://www.chicks.net/chicks/chicks_wedding01.jpg)",
+      "Bash(just cue_verify:*)",
+      "Bash(just gps_check:*)",
       "Bash(just hugo)",
-      "Bash(just cue_verify:*)"
+      "Bash(exiftool:*)",
+      "Bash(identify:*)",
+      "Bash(convert:*)"
     ],
     "deny": [],
     "ask": []
