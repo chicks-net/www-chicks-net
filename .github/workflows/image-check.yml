@@ -22,7 +22,7 @@ jobs:
       - name: Check for GPS data in new/changed images
         run: |
           # Find new or modified image files in this PR
-          images=$(git diff --name-only --diff-filter=AM origin/main | grep -E '\.(jpg|jpeg|png|gif|JPG|JPEG|PNG|GIF)$' || true)
+          images=$(git diff --name-only --diff-filter=AM origin/main | grep -E '\.(jpg|jpeg|png|gif|webp|JPG|JPEG|PNG|GIF|WEBP)$' || true)
 
           if [ -z "$images" ]; then
             echo "No new or modified images found"
@@ -34,9 +34,10 @@ jobs:
           echo ""
 
           has_gps=0
-          for img in $images; do
+          while IFS= read -r img; do
             if [ -f "$img" ]; then
-              gps_data=$(exiftool -GPS* "$img" 2>/dev/null | grep -v "GPS.*:" || true)
+              # Use same syntax as just gps_rm for consistency: -gps:all=
+              gps_data=$(exiftool -gps:all "$img" 2>/dev/null | grep "GPS" || true)
               if [ -n "$gps_data" ]; then
                 echo "⚠️  GPS data found in $img:"
                 echo "$gps_data"
@@ -46,7 +47,7 @@ jobs:
                 echo "✓ $img has no GPS data"
               fi
             fi
-          done
+          done <<< "$images"
 
           if [ $has_gps -eq 1 ]; then
             echo ""

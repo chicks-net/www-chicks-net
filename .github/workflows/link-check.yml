@@ -1,0 +1,36 @@
+---
+name: Link Check
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # weekly on Sundays
+  workflow_dispatch:
+
+# global permissions
+permissions: {}
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build site
+        run: hugo
+        env:
+          TZ: America/Los_Angeles
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress './public/**/*.html'
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
