@@ -1,0 +1,6 @@
+{{- /* Custom head extensions for the site */ -}}
+
+{{- /* Load emoji copy functionality on emoji reference page */ -}}
+{{- if or (eq .RelPermalink "/reference/emoji/") (hasPrefix .RelPermalink "/reference/emoji/") -}}
+<script src="/js/emoji-copy.js"></script>
+{{- end -}}
