@@ -6,6 +6,7 @@ baseURL = 'https://www.chicks.net/'
 #relativeURLs = true
 languageCode = 'en-us'
 title = "Christopher Hicks"
+enableEmoji = true
 
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 
