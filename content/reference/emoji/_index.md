@@ -6,6 +6,18 @@ draft = false
 
 A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub, Slack, and other platforms that support emoji codes.
 
+## Quick Demo
+
+Here are some emoji rendered by Hugo:
+
+- Wave: :wave: (`:wave:`)
+- Heart: :heart: (`:heart:`)
+- Rocket: :rocket: (`:rocket:`)
+- Thumbs up: :+1: (`:+1:`)
+- Fire: :fire: (`:fire:`)
+- Smile: :smile: (`:smile:`)
+- Check mark: :white_check_mark: (`:white_check_mark:`)
+
 ## Smileys & Emotion
 
 ### Face Smiling
@@ -1846,27 +1858,37 @@ Note: Country flags are represented by regional indicator symbols. Here are some
 
 ## GitHub Custom Emoji
 
-GitHub has additional custom emoji that work on their platform:
+GitHub has additional custom emoji that work on their platform. **Note:** These custom emoji are GitHub-specific and are **not supported** by Hugo's `enableEmoji` feature. They will only render on GitHub.com and in GitHub-flavored markdown processors.
 
-| Emoji | Shortcode | Description |
-| ----- | --------- | ----------- |
-| :octocat: | `:octocat:` | GitHub mascot |
-| :shipit: | `:shipit:` | Ship it squirrel |
-| :electron: | `:electron:` | Electron logo |
-| :basecamp: | `:basecamp:` | Basecamp logo |
-| :basecampy: | `:basecampy:` | Basecamp mascot |
-| :neckbeard: | `:neckbeard:` | Neckbeard |
-| :godmode: | `:godmode:` | God mode |
-| :suspect: | `:suspect:` | Suspect |
-| :trollface: | `:trollface:` | Troll face |
-| :feelsgood: | `:feelsgood:` | Feels good |
-| :finnadie: | `:finnadie:` | Finna die |
-| :goberserk: | `:goberserk:` | Go berserk |
-| :hurtrealbad: | `:hurtrealbad:` | Hurt real bad |
-| :rage1: | `:rage1:` | Rage 1 |
-| :rage2: | `:rage2:` | Rage 2 |
-| :rage3: | `:rage3:` | Rage 3 |
-| :rage4: | `:rage4:` | Rage 4 |
+| Shortcode | Description | Platform |
+| --------- | ----------- | -------- |
+| `:octocat:` | GitHub mascot | GitHub only |
+| `:shipit:` | Ship it squirrel | GitHub only |
+| `:electron:` | Electron logo | GitHub only |
+| `:basecamp:` | Basecamp logo | GitHub only |
+| `:basecampy:` | Basecamp mascot | GitHub only |
+| `:neckbeard:` | Neckbeard | GitHub only |
+| `:godmode:` | God mode | GitHub only |
+| `:suspect:` | Suspect | GitHub only |
+| `:trollface:` | Troll face | GitHub only |
+| `:feelsgood:` | Feels good | GitHub only |
+| `:finnadie:` | Finna die | GitHub only |
+| `:goberserk:` | Go berserk | GitHub only |
+| `:hurtrealbad:` | Hurt real bad | GitHub only |
+| `:rage1:` | Rage 1 | GitHub only |
+| `:rage2:` | Rage 2 | GitHub only |
+| `:rage3:` | Rage 3 | GitHub only |
+| `:rage4:` | Rage 4 | GitHub only |
+
+## Hugo Configuration
+
+To enable emoji rendering in Hugo, add this to your `hugo.toml`:
+
+```toml
+enableEmoji = true
+```
+
+Once enabled, Hugo will convert emoji shortcodes to Unicode emoji. For example, `:wave:` becomes 👋. All standard Unicode emoji listed in this reference (excluding GitHub Custom Emoji above) will work with Hugo's emoji rendering.
 
 ## Usage Tips
 
