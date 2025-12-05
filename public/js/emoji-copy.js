@@ -21,10 +21,13 @@ document.addEventListener('DOMContentLoaded', function() {
             cells.forEach(cell => {
                 const text = cell.textContent.trim();
 
-                // Match shortcode pattern
-                const shortcodeMatch = text.match(/^:[\w+-]+:$/);
+                // Match shortcode pattern - more permissive to catch all variants
+                const shortcodeMatch = text.match(/^:[a-zA-Z0-9_+-]+:$/);
 
                 if (shortcodeMatch) {
+                    // Store the original shortcode in a data attribute for reliable access
+                    cell.dataset.shortcode = text;
+
                     // Make the cell clickable with proper accessibility
                     cell.style.cursor = 'pointer';
                     cell.style.userSelect = 'none';
@@ -45,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
                     // Copy function
                     const copyToClipboard = function() {
-                        const shortcode = this.textContent.trim().replace('✓ Copied!', '').trim();
+                        // Use the stored shortcode from data attribute for reliable access
+                        const shortcode = this.dataset.shortcode;
 
                         // Copy to clipboard
                         navigator.clipboard.writeText(shortcode).then(() => {
