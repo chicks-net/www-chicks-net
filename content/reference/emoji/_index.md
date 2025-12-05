@@ -1858,27 +1858,25 @@ Note: Country flags are represented by regional indicator symbols. Here are some
 
 ## GitHub Custom Emoji
 
-GitHub has additional custom emoji that work on their platform. **Note:** These custom emoji are GitHub-specific and are **not supported** by Hugo's `enableEmoji` feature. They will only render on GitHub.com and in GitHub-flavored markdown processors.
+GitHub has additional custom emoji that work on their platform. **Note:** These custom emoji are GitHub-specific and are **not supported** by Hugo's `enableEmoji` feature. However, we can display them using direct image references from GitHub's CDN.
 
-| Shortcode | Description | Platform |
-| --------- | ----------- | -------- |
-| `:octocat:` | GitHub mascot | GitHub only |
-| `:shipit:` | Ship it squirrel | GitHub only |
-| `:electron:` | Electron logo | GitHub only |
-| `:basecamp:` | Basecamp logo | GitHub only |
-| `:basecampy:` | Basecamp mascot | GitHub only |
-| `:neckbeard:` | Neckbeard | GitHub only |
-| `:godmode:` | God mode | GitHub only |
-| `:suspect:` | Suspect | GitHub only |
-| `:trollface:` | Troll face | GitHub only |
-| `:feelsgood:` | Feels good | GitHub only |
-| `:finnadie:` | Finna die | GitHub only |
-| `:goberserk:` | Go berserk | GitHub only |
-| `:hurtrealbad:` | Hurt real bad | GitHub only |
-| `:rage1:` | Rage 1 | GitHub only |
-| `:rage2:` | Rage 2 | GitHub only |
-| `:rage3:` | Rage 3 | GitHub only |
-| `:rage4:` | Rage 4 | GitHub only |
+| Image | Shortcode | Description |
+| ----- | --------- | ----------- |
+| ![octocat](https://github.githubassets.com/images/icons/emoji/octocat.png?v8) | `:octocat:` | GitHub mascot |
+| ![shipit](https://github.githubassets.com/images/icons/emoji/shipit.png?v8) | `:shipit:` | Ship it squirrel |
+| ![electron](https://github.githubassets.com/images/icons/emoji/electron.png?v8) | `:electron:` | Electron logo |
+| ![basecamp](https://github.githubassets.com/images/icons/emoji/basecamp.png?v8) | `:basecamp:` | Basecamp logo |
+| ![basecampy](https://github.githubassets.com/images/icons/emoji/basecampy.png?v8) | `:basecampy:` | Basecamp mascot |
+| ![neckbeard](https://github.githubassets.com/images/icons/emoji/neckbeard.png?v8) | `:neckbeard:` | Neckbeard |
+| ![godmode](https://github.githubassets.com/images/icons/emoji/godmode.png?v8) | `:godmode:` | God mode |
+| ![suspect](https://github.githubassets.com/images/icons/emoji/suspect.png?v8) | `:suspect:` | Suspect |
+| ![trollface](https://github.githubassets.com/images/icons/emoji/trollface.png?v8) | `:trollface:` | Troll face |
+| ![feelsgood](https://github.githubassets.com/images/icons/emoji/feelsgood.png?v8) | `:feelsgood:` | Feels good |
+| ![finnadie](https://github.githubassets.com/images/icons/emoji/finnadie.png?v8) | `:finnadie:` | Finna die |
+| ![goberserk](https://github.githubassets.com/images/icons/emoji/goberserk.png?v8) | `:goberserk:` | Go berserk |
+| ![hurtrealbad](https://github.githubassets.com/images/icons/emoji/hurtrealbad.png?v8) | `:hurtrealbad:` | Hurt real bad |
+
+These images are loaded from GitHub's CDN at `github.githubassets.com`. While the shortcodes won't work in Hugo content, you can use the markdown image syntax shown above to display them.
 
 ## Hugo Configuration
 
