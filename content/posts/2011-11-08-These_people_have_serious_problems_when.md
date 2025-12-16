@@ -1,8 +1,7 @@
 +++
-title = "These people have serious problems when they can't even let somebody pay ..."
+title = "They can't even let somebody pay for the Santa out of his own pocket"
 date = "2011-11-08T18:34:09Z"
 draft = false
-# description = "These people have serious problems when they can't even let somebody pay for the Santa out of his own pocket without making it into an ethics issue."
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/11DcBJyy9X5"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -13,7 +12,8 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-These people have serious problems when they can't even let somebody pay for the Santa out of his own pocket without making it into an ethics issue.
+These people have serious problems when they can't even let somebody pay for
+the Santa out of his own pocket without making it into an ethics issue.
 
 ## Links
 
@@ -22,4 +22,3 @@ These people have serious problems when they can't even let somebody pay for the
 **Shared with:** Public
 
 **+1'd by:** Liz Quilty
-

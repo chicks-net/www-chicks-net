@@ -1,5 +1,5 @@
 +++
-title = "Dinah's Fried Chicken Address: 4106 San Fernando R..."
+title = "Dinah's Fried Chicken Address: 4106 San Fernando Rd"
 date = "2013-06-02T02:38:46Z"
 draft = false
 # description = "Dinah's Fried Chicken Address: 4106 San Fernando Rd"
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "eating", "ca-los-angeles"]
 # ShowToc = false
 +++
 
@@ -21,4 +21,3 @@ Dinah's Fried Chicken
 Address: 4106 San Fernando Rd
 
 **Shared with:** Public
-

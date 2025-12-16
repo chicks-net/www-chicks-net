@@ -9,15 +9,16 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "linux"]
 # ShowToc = false
 +++
 
-I just started trying this out, but it appears to be a cheap and easy if not free way to get Drive working in Linux.  I installed it in Linux and Windows without any trouble.
+I just started trying this out, but it appears to be a cheap and easy if not
+free way to get Drive working in Linux.  I installed it in Linux and Windows
+without any trouble.
 
 ## Links
 
 - [Insync Referral](https://www.insynchq.com/r/111778145755005312026)
 
 **Shared with:** Public
-

@@ -1,5 +1,5 @@
 +++
-title = "Where are the Windows Supercomputers? Linux is squeezing out proprietary cra..."
+title = "Where are the Windows Supercomputers?"
 date = "2016-11-15T22:36:25Z"
 draft = false
 # description = "Where are the Windows Supercomputers?  Linux is squeezing out proprietary crap from the mobile and super-computing ends of the spectrum."
@@ -20,4 +20,3 @@ Where are the Windows Supercomputers?  Linux is squeezing out proprietary crap f
 - [Almost all the world's fastest supercomputers run Linux | ZDNet](http://goo.gl/news/Tb5W2)
 
 **Shared with:** Public
-

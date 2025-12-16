@@ -20,4 +20,3 @@ Why don't we bring this practice to America?
 - [Funeral Strippers? Taiwan Showgirls Strip For The Dead](http://www.huffingtonpost.com/2012/10/10/funeral-strippers-taiwan-showgirls-strip_n_1956234.html)
 
 **Shared with:** Public
-

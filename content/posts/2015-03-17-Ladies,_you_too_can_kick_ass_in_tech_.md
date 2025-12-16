@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "recruitment"]
 # ShowToc = false
 +++
 
@@ -22,4 +22,3 @@ Ladies, you too can kick ass in tech.
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

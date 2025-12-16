@@ -20,4 +20,3 @@ Progress comes in little steps.
 - [California Court Rules Essure Plaintiffs Can Move Forward With Litigation | Ennis & Ennis, P.A. Attorneys At Law](http://www.ennislaw.com/blog/california-court-rules-essure-plaintiffs-can-move-forward-litigation/)
 
 **Shared with:** Public
-

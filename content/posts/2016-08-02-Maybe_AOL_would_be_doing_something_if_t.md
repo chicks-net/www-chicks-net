@@ -13,7 +13,8 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-Maybe AOL would be doing something if their CEO wasn't wasting his time at swanky state dinners.  But then again, probably not.  #singapore
+Maybe AOL would be doing something if their CEO wasn't wasting his time at
+swanky state dinners.  But then again, probably not.  #singapore
 
 ## Links
 
@@ -21,4 +22,3 @@ Maybe AOL would be doing something if their CEO wasn't wasting his time at swank
 - [Complete guest list for the State Dinner in honor of Prime Minister Lee Hsien Loong of Singapore](http://wpo.st/1h9q1)
 
 **Shared with:** Public
-

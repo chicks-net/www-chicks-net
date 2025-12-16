@@ -20,4 +20,3 @@ Informative without requiring registration.  :)
 - [MMD-0025-2014 - ITW Infection of ELF .IptabLex & .IptabLes China #DDoS bots malware](http://blog.malwaremustdie.org/2014/06/mmd-0025-2014-itw-infection-of-elf.html)
 
 **Shared with:** Public
-

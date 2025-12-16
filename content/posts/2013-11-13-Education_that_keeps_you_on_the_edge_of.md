@@ -20,4 +20,3 @@ Education that keeps you on the edge of your seat.  I love Mehdi.
 [Watch Video](http://www.youtube.com/attribution_link?a=SkONkkL9vW0DggmHN0A_VA&u=/watch?v%3DdcrY59nGxBg%26feature%3Dshare)
 
 **Shared with:** Public
-

@@ -17,7 +17,9 @@ tags = ["gaming", "google-plus", "linux"]
 
 ---
 
-Unlocked Tux by playing TF2 in LinuxMOMO's Cafe
+Unlocked Tux by playing TF2 in Linux
+
+MOMO's Cafe
 Address: 11801 Canon Boulevard
 
 **Shared with:** Public
@@ -28,13 +30,6 @@ Address: 11801 Canon Boulevard
 
 **Christopher Hicks** - 2013-02-28T19:15:24Z
 
-:-OThe cafe didn't exist in foursquare so I create a place for them.
+:-O The cafe didn't exist in foursquare so I create a place for them.
 
 ---
-
-**Christopher Hicks** - 2013-02-28T19:15:24Z
-
-:-OThe cafe didn't exist in foursquare so I create a place for them.
-
----
-

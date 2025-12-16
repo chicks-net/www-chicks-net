@@ -1,5 +1,5 @@
 +++
-title = "It is such an oddity to see any rain in LA, then I get off the train and ther..."
+title = "It is such an oddity to see any rain in LA"
 date = "2013-02-10T14:44:33Z"
 draft = false
 # description = "It is such an oddity to see any rain in LA, then I get off the train and there is this vivid rainbow.  We're waiting for the train to clear the statio"
@@ -9,11 +9,14 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-los-angeles"]
 # ShowToc = false
 +++
 
-It is such an oddity to see any rain in LA, then I get off the train and there is this vivid rainbow.  We're waiting for the train to clear the station and random people are coming up to me and saying, "hey, do you see the rainbow!"  And then!  And then I see it is actually a double rainbow.  Hazah!
+It is such an oddity to see any rain in LA, then I get off the train and there
+is this vivid rainbow.  We're waiting for the train to clear the station and
+random people are coming up to me and saying, "hey, do you see the rainbow!"
+ And then!  And then I see it is actually a double rainbow.  Hazah!
 
 ## Images
 
@@ -28,4 +31,3 @@ It is such an oddity to see any rain in LA, then I get off the train and there i
 **Shared with:** Public
 
 **+1'd by:** Rhonda Collie, Paul Fernandez
-

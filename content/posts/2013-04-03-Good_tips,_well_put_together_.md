@@ -1,5 +1,5 @@
 +++
-title = "Good tips, well put together."
+title = "Good time management tips, well put together."
 date = "2013-04-03T13:31:04Z"
 draft = false
 # description = "Good tips, well put together."
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "organization"]
 # ShowToc = false
 +++
 
@@ -30,10 +30,3 @@ Good tips, well put together.
 That was the best time management guide I've ever seen.  Full of meat yet short and sweet!
 
 ---
-
-**Paul Fernandez** - 2013-04-03T15:25:16Z
-
-That was the best time management guide I've ever seen.  Full of meat yet short and sweet!
-
----
-

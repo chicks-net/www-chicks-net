@@ -13,7 +13,8 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-I'm avoiding Yosemite for now but I may end up relegating #MacOS to be my games OS if this BS continues.
+I'm avoiding Yosemite for now but I may end up relegating #MacOS to be my games
+OS if this BS continues.
 
 ## Links
 
@@ -29,25 +30,37 @@ I'm avoiding Yosemite for now but I may end up relegating #MacOS to be my games 
 
 **Paul Fernandez** - 2015-01-04T22:43:38Z
 
-Not sure if you noticed, but this is written by a Geoff Wozniak, not The Woz.  Nonetheless,  this article was spot on with my feelings on the matter.But OSX for games...I tried to sell myself on that fiction once.  Windows is a necessary evil for the time being.
+Not sure if you noticed, but this is written by a Geoff Wozniak, not The Woz.
+Nonetheless,  this article was spot on with my feelings on the matter.But OSX
+for games...I tried to sell myself on that fiction once.  Windows is a
+necessary evil for the time being.
 
 ---
 
 **Paul Fernandez** - 2015-01-04T22:43:38Z
 
-Not sure if you noticed, but this is written by a Geoff Wozniak, not The Woz.  Nonetheless,  this article was spot on with my feelings on the matter.But OSX for games...I tried to sell myself on that fiction once.  Windows is a necessary evil for the time being.
+Not sure if you noticed, but this is written by a Geoff Wozniak, not The Woz.
+Nonetheless,  this article was spot on with my feelings on the matter.But OSX
+for games...I tried to sell myself on that fiction once.  Windows is a
+necessary evil for the time being.
 
 ---
 
 **Wing Wong** - 2015-01-05T04:17:22Z
 
-Still using Yosemite. I agree with several points regarding certain unpredictability and bugs/"features" in the latest releases. I have a dislike for hfs+ and the case sensitive or not non-sense. However, while things in the command line space can most likely be happier with a Linux environment, the desktop/gui side is less of a struggle for me.Avoiding dependence hell is also a nice thing for a desktop.But yeah, yosemite was a huge pita to upgrade to. :( the dir merge sucked.
+Still using Yosemite. I agree with several points regarding certain
+unpredictability and bugs/"features" in the latest releases. I have a dislike
+for hfs+ and the case sensitive or not non-sense. However, while things in the
+command line space can most likely be happier with a Linux environment, the
+desktop/gui side is less of a struggle for me.Avoiding dependence hell is also
+a nice thing for a desktop.But yeah, yosemite was a huge pita to upgrade to. :(
+the dir merge sucked.
 
 ---
 
 **Christopher Hicks** - 2015-01-06T19:42:50Z
 
-wow http://www.marco.org/
+wow <http://www.marco.org/>
 
 ---
 
@@ -56,4 +69,3 @@ wow http://www.marco.org/
 The echo chamber of the internet at work. :(
 
 ---
-

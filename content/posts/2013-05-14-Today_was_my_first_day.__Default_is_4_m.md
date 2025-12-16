@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-los-angeles"]
 # ShowToc = false
 +++
 
@@ -17,10 +17,11 @@ tags = ["google-plus"]
 
 ---
 
-Today was my first day.  Default is 4 monitors!Virtu Financial
+Today was my first day.  Default is 4 monitors!
+
+Virtu Financial
 Address: 1540 2nd St # 3
 
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

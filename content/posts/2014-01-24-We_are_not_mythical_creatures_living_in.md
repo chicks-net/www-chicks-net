@@ -1,8 +1,7 @@
 +++
-title = "We are not mythical creatures living in a niche ghost town. We are real peop..."
+title = "We are not mythical creatures living in a niche ghost town. We are real people..."
 date = "2014-01-24T16:12:25Z"
 draft = false
-# description = "We are not mythical creatures living in a niche ghost town.  We are real people interacting on a huge variety of topics.  We have great tools and we'r"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/gZtrDFuVJnB"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -13,7 +12,9 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-We are not mythical creatures living in a niche ghost town.  We are real people interacting on a huge variety of topics.  We have great tools and we're searchable.
+We are not mythical creatures living in a niche ghost town.  We are real people
+interacting on a huge variety of topics.  We have great tools and we're
+searchable.
 
 ## Links
 
@@ -22,4 +23,3 @@ We are not mythical creatures living in a niche ghost town.  We are real people
 **Shared with:** Public
 
 **+1'd by:** Wing Wong, Paul Fernandez
-

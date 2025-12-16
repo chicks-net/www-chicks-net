@@ -1,5 +1,5 @@
 +++
-title = "I'm glad to see large scale studies of computer hardware such as this. N..."
+title = "I'm glad to see large scale studies of computer hardware such as this."
 date = "2013-11-12T21:13:48Z"
 draft = false
 # description = "I'm glad to see large scale studies of computer hardware such as this.  Now let's do this for SSD's."
@@ -28,13 +28,6 @@ I'm glad to see large scale studies of computer hardware such as this.  Now let
 
 **Christopher Hicks** - 2013-11-12T23:41:04Z
 
-Maybe this is not new actually: http://research.google.com/archive/disk_failures.pdf (thanks Jason)
+Maybe this is not new actually: <http://research.google.com/archive/disk_failures.pdf> (thanks Jason)
 
 ---
-
-**Christopher Hicks** - 2013-11-12T23:41:04Z
-
-Maybe this is not new actually: http://research.google.com/archive/disk_failures.pdf (thanks Jason)
-
----
-

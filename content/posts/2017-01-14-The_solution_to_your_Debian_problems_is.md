@@ -42,4 +42,3 @@ I've seen the same thing happen on things other than package installations. ipv6
 ipv6 was causing puppet to kill bind on the hadoop clusters 3 years ago.  This was why we put out the kernel mod that sorta clobbered AWS dual-homing...
 
 ---
-

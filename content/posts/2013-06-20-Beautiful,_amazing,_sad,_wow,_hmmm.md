@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "community"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ Beautiful, amazing, sad, wow, hmmm
 - [Internet Census 2012](http://internetcensus2012.bitbucket.org/paper.html)
 
 **Shared with:** Public
-

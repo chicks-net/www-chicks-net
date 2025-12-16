@@ -1,5 +1,5 @@
 +++
-title = "When your phone calls are news that could be a sign your campaign is over. H..."
+title = "When your phone calls are news that could be a sign your campaign is over."
 date = "2012-09-28T16:57:51Z"
 draft = false
 # description = "When your phone calls are news that could be a sign your campaign is over.  How sad.    Look, Mitt can use a phone and a calendar, clap, clap for Mitt"
@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "government"]
 # ShowToc = false
 +++
 
-When your phone calls are news that could be a sign your campaign is over.  How sad.  
+When your phone calls are news that could be a sign your campaign is over.  How
+sad.  
 
 Look, Mitt can use a phone and a calendar, clap, clap for Mitt.
 
@@ -22,4 +23,3 @@ Look, Mitt can use a phone and a calendar, clap, clap for Mitt.
 - [Mitt Romney to speak with Israeli PM Benjamin Netanyahu](http://www.newsday.com/news/nation/mitt-romney-to-speak-with-israeli-pm-benjamin-netanyahu-1.4051460)
 
 **Shared with:** Public
-

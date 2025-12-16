@@ -56,4 +56,3 @@ Lovely Vasquez Rocks: shooting site for Star Trek and many other things
 ![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3t7fnhpe.jpg)
 
 **Shared with:** Public
-

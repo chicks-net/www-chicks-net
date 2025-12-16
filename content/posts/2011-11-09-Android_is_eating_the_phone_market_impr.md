@@ -1,5 +1,5 @@
 +++
-title = "Android is eating the phone market impressively fast. Maybe open is better t..."
+title = "Android is eating the phone market impressively fast."
 date = "2011-11-09T14:01:58Z"
 draft = false
 # description = "Android is eating the phone market impressively fast.  Maybe open is better than closed. Who could have guessed?"
@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "mobile", "free-software"]
 # ShowToc = false
 +++
 
-Android is eating the phone market impressively fast.  Maybe open is better than closed. Who could have guessed?
+Android is eating the phone market impressively fast.  Maybe open is better
+than closed. Who could have guessed?
 
 ## Links
 
@@ -25,13 +26,7 @@ Android is eating the phone market impressively fast.  Maybe open is better than
 
 **Christopher Hicks** - 2011-11-21T16:06:25Z
 
-+Heart Spring interesting.  I haven't seen any Mac or Android malware in the wild, but I will keep a keener eye out for it now.
++Heart Spring interesting.  I haven't seen any Mac or Android malware in the
+wild, but I will keep a keener eye out for it now.
 
 ---
-
-**Christopher Hicks** - 2011-11-21T16:06:25Z
-
-+Heart Spring interesting.  I haven't seen any Mac or Android malware in the wild, but I will keep a keener eye out for it now.
-
----
-

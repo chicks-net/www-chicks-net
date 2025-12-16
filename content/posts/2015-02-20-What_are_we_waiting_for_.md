@@ -20,4 +20,3 @@ What are we waiting for?
 - [Throwback Thursday: The science of bottomless pits](https://medium.com/starts-with-a-bang/throwback-thursday-the-science-of-bottomless-pits-29ed2192a14b)
 
 **Shared with:** Public
-

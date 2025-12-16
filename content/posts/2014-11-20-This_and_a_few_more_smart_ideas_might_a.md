@@ -22,4 +22,3 @@ This and a few more smart ideas might actually get me to play as the spy.
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

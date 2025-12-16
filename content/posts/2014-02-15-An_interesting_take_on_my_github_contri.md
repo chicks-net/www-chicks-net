@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus", "programming"]
+tags = ["google-plus", "programming", "dead-link"]
 # ShowToc = false
 +++
 
@@ -27,13 +27,7 @@ An interesting take on my github contributions.
 
 **Paul Fernandez** - 2014-02-17T06:31:04Z
 
-That is so neat!  Shared that with a friend of mine.Can't wait to have my own!
-
----
-
-**Paul Fernandez** - 2014-02-17T06:31:04Z
-
-That is so neat!  Shared that with a friend of mine.Can't wait to have my own!
+That is so neat!  Shared that with a friend of mine. Can't wait to have my own!
 
 ---
 
@@ -42,4 +36,3 @@ That is so neat!  Shared that with a friend of mine.Can't wait to have my own!
 Get coding!
 
 ---
-

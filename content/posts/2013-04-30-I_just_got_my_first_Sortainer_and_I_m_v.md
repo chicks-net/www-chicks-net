@@ -1,5 +1,5 @@
 +++
-title = "I just got my first Sortainer and I'm very pleased. Now that I've wa..."
+title = "I just got my first Sortainer and I'm very pleased."
 date = "2013-04-30T07:22:54Z"
 draft = false
 # description = "I just got my first Sortainer and I'm very pleased.  Now that I've watched this video I've learned even more tricks it will do.  I haven't gotten any"
@@ -13,7 +13,9 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-I just got my first Sortainer and I'm very pleased.  Now that I've watched this video I've learned even more tricks it will do.  I haven't gotten any tools from Festool yet, but they come highly recommended as well.
+I just got my first Sortainer and I'm very pleased.  Now that I've watched this
+video I've learned even more tricks it will do.  I haven't gotten any tools
+from Festool yet, but they come highly recommended as well.
 
 ## Video
 
@@ -31,12 +33,6 @@ That guy had to spend tube amp money to get a wall of Festool containers.
 
 ---
 
-**Christopher Hicks** - 2013-05-01T06:20:34Z
-
-That guy had to spend tube amp money to get a wall of Festool containers.
-
----
-
 **Paul Fernandez** - 2013-05-01T16:25:45Z
 
 Whoa!  Did you say tube-amp money?!  Now you've got my attention! :D
@@ -45,7 +41,7 @@ Whoa!  Did you say tube-amp money?!  Now you've got my attention! :D
 
 **Christopher Hicks** - 2013-05-01T16:31:17Z
 
-Each of the containers behind that guy cost $75-$200.  So if you say they average $100 a piece he has >$10,000 of Festool containers for the BACK-DROP.
+Each of the containers behind that guy cost $75-$200.  So if you say they
+average $100 a piece he has >$10,000 of Festool containers for the BACK-DROP.
 
 ---
-

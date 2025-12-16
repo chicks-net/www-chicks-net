@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "organization"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ checklists++
 - [Change Your Habits with a Good Checklist | LinkedIn](http://www.linkedin.com/today/post/article/20130806173515-28893870-change-your-habits-with-a-good-checklist)
 
 **Shared with:** Public
-

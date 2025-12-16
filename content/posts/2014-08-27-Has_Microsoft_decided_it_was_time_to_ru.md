@@ -1,5 +1,5 @@
 +++
-title = "Has Microsoft decided it was time to run a bunch of anti-Linux articles or so..."
+title = "Has Microsoft decided it was time to run a bunch of anti-Linux articles?"
 date = "2014-08-28T03:59:11Z"
 draft = false
 # description = "Has Microsoft decided it was time to run a bunch of anti-Linux articles or something?  I work and play on Linux every day.  I haven't booted into Wind"
@@ -13,7 +13,9 @@ tags = ["google-plus", "linux"]
 # ShowToc = false
 +++
 
-Has Microsoft decided it was time to run a bunch of anti-Linux articles or something?  I work and play on Linux every day.  I haven't booted into Windows in at least a year.  I do also use MacOS, but Linux is my primary desktop.
+Has Microsoft decided it was time to run a bunch of anti-Linux articles or
+something?  I work and play on Linux every day.  I haven't booted into Windows
+in at least a year.  I do also use MacOS, but Linux is my primary desktop.
 
 ## Links
 
@@ -31,15 +33,9 @@ Oh, I forgot to mention the "killer app": it just works.  Uptimes of months are
 
 ---
 
-**Christopher Hicks** - 2014-08-28T04:02:21Z
-
-Oh, I forgot to mention the "killer app": it just works.  Uptimes of months are normal.
-
----
-
 **Scott Francis** - 2014-08-28T04:16:53Z
 
-eh, it's Dvorak - he's made a living writing flamebait pieces and trolling on behalf of Microsoft for like 20 years now.
+eh, it's Dvorak - he's made a living writing flamebait pieces and trolling on
+behalf of Microsoft for like 20 years now.
 
 ---
-

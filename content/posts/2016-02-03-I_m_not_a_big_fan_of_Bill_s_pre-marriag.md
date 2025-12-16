@@ -1,5 +1,5 @@
 +++
-title = "I'm not a big fan of Bill's pre-marriage legacy, but at least we can ..."
+title = "At least we can agree that Dick Feynman was mega-awesome."
 date = "2016-02-03T16:44:42Z"
 draft = false
 # description = "I'm not a big fan of Bill's pre-marriage legacy, but at least we can agree that Dick Feynman was mega-awesome."
@@ -13,11 +13,11 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-I'm not a big fan of Bill's pre-marriage legacy, but at least we can agree that Dick Feynman was mega-awesome.
+I'm not a big fan of Bill's pre-marriage legacy, but
+at least we can agree that Dick Feynman was mega-awesome.
 
 ## Links
 
-- [Share on LinkedIn](https://www.linkedin.com/pulse/best-teacher-i-never-had-bill-gates?trk=eml-b2_content_ecosystem_digest-hero-14-null&midToken=AQHm2xass5jq6w&fromEmail=fromEmail&ut=0_8Y0KQIQzVT41)
+- ["The Best Teacher I Never Had" by Bill Gates on LinkedIn](https://www.linkedin.com/pulse/best-teacher-i-never-had-bill-gates?trk=eml-b2_content_ecosystem_digest-hero-14-null&midToken=AQHm2xass5jq6w&fromEmail=fromEmail&ut=0_8Y0KQIQzVT41)
 
 **Shared with:** Public
-

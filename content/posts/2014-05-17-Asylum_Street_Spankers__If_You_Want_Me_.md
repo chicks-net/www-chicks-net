@@ -1,8 +1,7 @@
 +++
-title = "Asylum Street Spankers: If You Want Me To Love You:"
+title = "Asylum Street Spankers: If You Want Me To Love You"
 date = "2014-05-18T05:03:34Z"
 draft = false
-# description = "Asylum Street Spankers: If You Want Me To Love You: http://youtu.be/8fqZDivnfrM"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/SiYtdk41b9y"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -13,7 +12,7 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-Asylum Street Spankers: If You Want Me To Love You: http://youtu.be/8fqZDivnfrM
+Asylum Street Spankers: If You Want Me To Love You: <http://youtu.be/8fqZDivnfrM>
 
 ## Video
 
@@ -26,4 +25,3 @@ Asylum Street Spankers: If You Want Me To Love You: http://youtu.be/8fqZDivnfrM
 **Shared with:** Public
 
 **+1'd by:** Tony Edwards
-

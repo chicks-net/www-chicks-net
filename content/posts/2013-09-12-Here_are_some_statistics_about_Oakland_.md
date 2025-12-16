@@ -1,15 +1,14 @@
 +++
-title = "Here are some statistics about Oakland you might like to know. :)"
+title = "Here are some statistics about Oakland you might like to know."
 date = "2013-09-12T21:11:36Z"
 draft = false
-# description = "Here are some statistics about Oakland you might like to know.  :)"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/K2ES3qMKFNE"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-san-francisco"]
 # ShowToc = false
 +++
 
@@ -22,4 +21,3 @@ Here are some statistics about Oakland you might like to know.  :)
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

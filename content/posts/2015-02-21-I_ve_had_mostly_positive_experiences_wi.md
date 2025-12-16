@@ -1,5 +1,5 @@
 +++
-title = "I've had mostly positive experiences with"
+title = "I've had mostly positive experiences with t-mobile."
 date = "2015-02-21T17:44:21Z"
 draft = false
 # description = "I've had mostly positive experiences with #t-mobile but they definitely need to train their support technicians better from the sounds of this."
@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "mobile"]
 # ShowToc = false
 +++
 
-I've had mostly positive experiences with #t-mobile but they definitely need to train their support technicians better from the sounds of this.
+I've had mostly positive experiences with #t-mobile but they definitely need to
+train their support technicians better from the sounds of this.
 
 ## Links
 
@@ -21,4 +22,3 @@ I've had mostly positive experiences with #t-mobile but they definitely need to 
 - [Un-truthful Carrier: Ten Lies T-Mobile Told Me About My Data Plan - Jeff Reifman](http://jeffreifman.com/2015/02/21/un-truthful-carrier-ten-lies-t-mobile-told-data-plan/)
 
 **Shared with:** Public
-

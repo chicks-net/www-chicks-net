@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus", "humor"]
+tags = ["google-plus", "humor", "free-software"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ Glory in the science while you download the data from github.
 - [A Complete Catalog Of Every Time Someone Cursed Or Bled Out In A Quentin Tarantino Movie](http://fivethirtyeight.com/features/complete-catalog-curses-deaths-quentin-tarantino-films/)
 
 **Shared with:** Public
-

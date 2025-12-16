@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "business"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ Seems obvious but I don't know many CEO's who get this.
 - [7 Qualities Of A Truly Loyal Employee | LinkedIn](http://www.linkedin.com/today/post/article/20130723160110-658789-7-qualities-of-a-truly-loyal-employee)
 
 **Shared with:** Public
-

@@ -1,5 +1,5 @@
 +++
-title = "Another awesome product idea that got off the ground thanks to a Kickstarter ..."
+title = "Another awesome product idea that got off the ground thanks to a Kickstarter"
 date = "2013-11-20T12:36:10Z"
 draft = false
 # description = "Another awesome product idea that got off the ground thanks to a Kickstarter campaign.  This will be handy."
@@ -22,4 +22,3 @@ Another awesome product idea that got off the ground thanks to a Kickstarter cam
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

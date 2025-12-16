@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "creativity"]
 # ShowToc = false
 +++
 
-It is great to see The Princess Bride enchanting new generations and that the cast is still alive and kicking.  #theprincessbride
+It is great to see The Princess Bride enchanting new generations and that the
+cast is still alive and kicking.  #theprincessbride
 
 ## Links
 
@@ -23,4 +24,3 @@ It is great to see The Princess Bride enchanting new generations and that the ca
 **Shared with:** Public
 
 **+1'd by:** Wing Wong
-

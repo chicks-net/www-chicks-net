@@ -1,8 +1,7 @@
 +++
-title = "Thank goodness we have the open source community to keep Apple and Microsoft ..."
+title = "Thank goodness we have the open source community to keep Apple and Microsoft on their toes."
 date = "2014-01-17T16:39:17Z"
 draft = false
-# description = "Thank goodness we have the open source community to keep Apple and Microsoft on their toes.  Imagine how slack it would be otherwise."
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/fUCrPcymuuC"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -13,7 +12,8 @@ tags = ["free-software", "google-plus", "linux"]
 # ShowToc = false
 +++
 
-Thank goodness we have the open source community to keep Apple and Microsoft on their toes.  Imagine how slack it would be otherwise.
+Thank goodness we have the open source community to keep Apple and Microsoft on
+their toes.  Imagine how slack it would be otherwise.
 
 ## Links
 
@@ -22,4 +22,3 @@ Thank goodness we have the open source community to keep Apple and Microsoft on 
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez, K. Travis Walsh
-

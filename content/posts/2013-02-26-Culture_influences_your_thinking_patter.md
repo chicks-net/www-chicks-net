@@ -20,4 +20,3 @@ Culture influences your thinking patterns.
 - [Why Americans Are the Weirdest People in the World](http://www.psmag.com/magazines/pacific-standard-cover-story/joe-henrich-weird-ultimatum-game-shaking-up-psychology-economics-53135/)
 
 **Shared with:** Public
-

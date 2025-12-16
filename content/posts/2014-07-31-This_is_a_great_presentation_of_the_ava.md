@@ -1,5 +1,5 @@
 +++
-title = "This is a great presentation of the available instance types for Amazon Web S..."
+title = "This is a great presentation of the available instance types for AWS."
 date = "2014-07-31T20:57:38Z"
 draft = false
 # description = "This is a great presentation of the available instance types for Amazon Web Services.  (Why didn't Amazon make it?)"
@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["cloud", "google-plus"]
+tags = ["cloud", "google-plus", "amazon"]
 # ShowToc = false
 +++
 
-This is a great presentation of the available instance types for Amazon Web Services.  (Why didn't Amazon make it?)
+This is a great presentation of the available instance types for Amazon Web
+Services.  (Why didn't Amazon make it?)
 
 ## Links
 
@@ -22,4 +23,3 @@ This is a great presentation of the available instance types for Amazon Web Serv
 **Shared with:** Public
 
 **+1'd by:** Scott Francis
-

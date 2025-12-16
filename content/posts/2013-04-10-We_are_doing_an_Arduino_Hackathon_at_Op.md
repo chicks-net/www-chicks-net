@@ -1,5 +1,5 @@
 +++
-title = "We are doing an Arduino Hackathon at OpenX Pasadena on Fri 26 April. Please ..."
+title = "We are doing an Arduino Hackathon at OpenX Pasadena on Fri 26 April."
 date = "2013-04-10T23:36:46Z"
 draft = false
 # description = "We are doing an Arduino Hackathon at OpenX Pasadena on Fri 26 April.  Please register via meetup."
@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "arduino"]
 # ShowToc = false
 +++
 
-We are doing an Arduino Hackathon at OpenX Pasadena on Fri 26 April.  Please register via meetup.
+We are doing an Arduino Hackathon at OpenX Pasadena on Fri 26 April.  Please
+register via meetup.
 
 ## Links
 
@@ -22,4 +23,3 @@ We are doing an Arduino Hackathon at OpenX Pasadena on Fri 26 April.  Please re
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

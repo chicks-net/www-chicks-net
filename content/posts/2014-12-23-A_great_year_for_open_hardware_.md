@@ -22,4 +22,3 @@ A great year for open hardware.
 **Shared with:** Public
 
 **+1'd by:** Patrick Buckley, Drew Fustini (pdp7), Caskey Dickson, Wing Wong
-

@@ -20,4 +20,3 @@ Do you have any suggestions for user-friendly DNS management?
 - [open source DNS management](http://softwarerecs.stackexchange.com/q/24776/16331?sgp=2)
 
 **Shared with:** Public
-

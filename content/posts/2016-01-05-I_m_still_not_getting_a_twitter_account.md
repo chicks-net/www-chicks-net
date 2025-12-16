@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "community"]
 # ShowToc = false
 +++
 
@@ -28,13 +28,6 @@ I'm still not getting a twitter account!
 
 **Christopher Hicks** - 2016-03-19T01:31:39Z
 
-http://venturebeat.com/2016/03/18/twitter-ceo-jack-dorsey-the-140-character-limit-is-staying/ apparently it was all a lie, oh my!
+<http://venturebeat.com/2016/03/18/twitter-ceo-jack-dorsey-the-140-character-limit-is-staying/> apparently it was all a lie, oh my!
 
 ---
-
-**Christopher Hicks** - 2016-03-19T01:31:39Z
-
-http://venturebeat.com/2016/03/18/twitter-ceo-jack-dorsey-the-140-character-limit-is-staying/ apparently it was all a lie, oh my!
-
----
-

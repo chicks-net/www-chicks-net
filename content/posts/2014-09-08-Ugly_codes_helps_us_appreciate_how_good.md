@@ -22,4 +22,3 @@ Ugly codes helps us appreciate how good code can be.
 **Shared with:** Public
 
 **+1'd by:** Wing Wong
-

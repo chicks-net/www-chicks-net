@@ -22,4 +22,3 @@ The Boy Scouts of America puts branding in front of making smarter kids.  Hmmm.
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

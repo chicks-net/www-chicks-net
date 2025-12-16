@@ -13,11 +13,13 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-Hey Florida, don't forget to burn the copies of 1984 and your scientific journals while you're at it.  With enough extra effort you can catch up with Texas in CO2 emissions.  #ignorance_is_bliss
+Hey Florida, don't forget to burn the copies of 1984 and your scientific
+journals while you're at it.  With enough extra effort you can catch up with
+Texas in CO2 emissions.  #ignorance_is_bliss
 
 ## Links
 
-- [#ignorance_is_bliss](https://plus.google.com/s/%23ignorance_is_bliss/posts)
+- [#ignorance_is_bliss on google+](https://plus.google.com/s/%23ignorance_is_bliss/posts)
 - [Florida Quietly Bans the Words ‘Climate Change’ in Environmental Protection Docs](http://thebea.st/1MlDbfB)
 
 **Shared with:** Public
@@ -31,10 +33,3 @@ Hey Florida, don't forget to burn the copies of 1984 and your scientific journa
 Unfortunately, we all live in the same freaking bio-system. :( This is a strong strong argument for planetary colonization.
 
 ---
-
-**Wing Wong** - 2015-03-10T02:23:24Z
-
-Unfortunately, we all live in the same freaking bio-system. :( This is a strong strong argument for planetary colonization.
-
----
-

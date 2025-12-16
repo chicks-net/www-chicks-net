@@ -13,7 +13,9 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-Check out Frank Gehry's model for the new Facebook building.  https://www.facebook.com/notes/facebook-menlo-park/unveiling-our-campus-expansion/408653002515369  Why isn't your lawn on the roof?   #architecture
+Check out Frank Gehry's model for the new Facebook building.
+<https://www.facebook.com/notes/facebook-menlo-park/unveiling-our-campus-expansion/408653002515369>
+Why isn't your lawn on the roof?   #architecture
 
 ## Images
 
@@ -33,4 +35,3 @@ Check out Frank Gehry's model for the new Facebook building.  https://www.faceb
 - [#architecture](https://plus.google.com/s/%23architecture/posts)
 
 **Shared with:** Public
-

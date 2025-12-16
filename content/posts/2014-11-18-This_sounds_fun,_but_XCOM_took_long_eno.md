@@ -22,4 +22,3 @@ This sounds fun, but XCOM took long enough already.
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez, Wing Wong
-

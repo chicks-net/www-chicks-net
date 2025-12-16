@@ -15,11 +15,13 @@ tags = ["google-plus"]
 
 Californians have a year left of tax free Amazon.  Enjoy.
 
-**Originally shared by Violet Blue**
+## Originally shared by Violet Blue
 
-This is a really surprising development. 
-
-(I'm following this story pretty closely: http://www.zdnet.com/blog/violetblue/amazon-drops-california-in-growing-e-commerce-affiliate-tax-law-war/485 )
+> This is a really surprising development.
+>
+> (I'm following this story pretty closely:
+> <http://www.zdnet.com/blog/violetblue/amazon-drops-california-in-growing-e-commerce-affiliate-tax-law-war/485>
+> )
 
 ## Links
 
@@ -27,4 +29,3 @@ This is a really surprising development.
 - [Amazon.com cuts California sales tax deal in stunning turnabout - San Jose Mercury News](http://www.mercurynews.com/california-budget/ci_18849537)
 
 **Shared with:** Public
-

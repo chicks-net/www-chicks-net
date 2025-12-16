@@ -15,7 +15,7 @@ tags = ["google-plus"]
 
 Vatra Inc
 
-http://goo.gl/maps/luJXU
+<http://goo.gl/maps/luJXU>
 
 ## Links
 
@@ -25,4 +25,3 @@ http://goo.gl/maps/luJXU
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

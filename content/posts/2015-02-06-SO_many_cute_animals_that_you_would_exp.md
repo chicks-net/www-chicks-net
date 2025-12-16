@@ -17,10 +17,9 @@ SO many cute animals that you would expect to eat each other!  good job  #googl
 
 ## Links
 
-- [#google](https://plus.google.com/s/%23google/posts)
+- [#google on google+](https://plus.google.com/s/%23google/posts)
 - [Video: Check out Google’s best TV commercial yet for Android](http://bgr.com/2015/02/06/google-android-cute-animals-tv-ad/)
 
 **Shared with:** Public
 
 **+1'd by:** Wing Wong
-

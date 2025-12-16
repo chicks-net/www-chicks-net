@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "gaming"]
 # ShowToc = false
 +++
 
@@ -30,10 +30,3 @@ There are just so many layers of awesome here it is mind blowing.
 I want to play this again with you... Goodl laughs!
 
 ---
-
-**Gwendolyne Kelly** - 2013-09-24T20:01:53Z
-
-I want to play this again with you... Goodl laughs!
-
----
-

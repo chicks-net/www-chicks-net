@@ -22,4 +22,3 @@ Casual day in the Bay Area.
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez, Half Moon Bay Meetings
-

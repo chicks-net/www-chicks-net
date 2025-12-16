@@ -13,7 +13,9 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-I'm so glad to see that the Internet can work around stupid corporations and that the crowd can pull together $12k to reward this guy for his efforts and brass balls.
+I'm so glad to see that the Internet can work around stupid corporations and
+that the crowd can pull together $12k to reward this guy for his efforts and
+brass balls.
 
 ## Links
 
@@ -22,4 +24,3 @@ I'm so glad to see that the Internet can work around stupid corporations and tha
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

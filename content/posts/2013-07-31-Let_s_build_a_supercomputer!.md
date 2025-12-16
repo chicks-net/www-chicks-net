@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "free-software"]
 # ShowToc = false
 +++
 
@@ -22,4 +22,3 @@ Let's build a supercomputer!
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

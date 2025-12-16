@@ -1,5 +1,5 @@
 +++
-title = "Why do we need phone manufacturers when we can make our own phones for less w..."
+title = "Why do we need phone manufacturers?"
 date = "2014-04-27T15:26:09Z"
 draft = false
 # description = "Why do we need phone manufacturers when we can make our own phones for less with off-the-shelf parts?"
@@ -30,10 +30,3 @@ Why do we need phone manufacturers when we can make our own phones for less with
 Sweet.
 
 ---
-
-**Wing Wong** - 2014-04-27T20:03:15Z
-
-Sweet.
-
----
-

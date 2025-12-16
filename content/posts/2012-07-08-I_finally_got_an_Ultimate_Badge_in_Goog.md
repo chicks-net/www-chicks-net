@@ -2,7 +2,6 @@
 title = "I finally got an Ultimate Badge in Google News. :)"
 date = "2012-07-08T17:08:02Z"
 draft = false
-# description = "I finally got an Ultimate Badge in Google News.  :)"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/gvYbgBxuhrW"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -22,4 +21,3 @@ I finally got an Ultimate Badge in Google News.  :)
 **Shared with:** Public
 
 **+1'd by:** Todd Stein
-

@@ -1,5 +1,5 @@
 +++
-title = "PHP, Java, and .NET are more prone to"
+title = "PHP, Java, and .NET are more prone to security problems."
 date = "2015-12-04T20:38:08Z"
 draft = false
 # description = "PHP, Java, and .NET are more prone to #security problems than JavaScript or the other major script languages.  Can we ban them from the civilized Inte"
@@ -13,7 +13,8 @@ tags = ["google-plus", "programming"]
 # ShowToc = false
 +++
 
-PHP, Java, and .NET are more prone to #security problems than JavaScript or the other major script languages.  Can we ban them from the civilized Internet?
+PHP, Java, and .NET are more prone to #security problems than JavaScript or the
+other major scripting languages.  Can we ban them from the civilized Internet?
 
 ## Links
 
@@ -23,4 +24,3 @@ PHP, Java, and .NET are more prone to #security problems than JavaScript or the 
 **Shared with:** Public
 
 **+1'd by:** Melissa McDowell, Wing Wong
-

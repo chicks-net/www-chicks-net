@@ -1,5 +1,5 @@
 +++
-title = "Open source architecture is apparently all about building real buildings, not..."
+title = "Open source architecture is apparently all about building real buildings"
 date = "2016-05-31T12:42:03Z"
 draft = false
 # description = "Open source architecture is apparently all about building real buildings, not designing your latest twitter clone."
@@ -13,7 +13,8 @@ tags = ["free-software", "google-plus"]
 # ShowToc = false
 +++
 
-Open source architecture is apparently all about building real buildings, not designing your latest twitter clone.
+Open source architecture is apparently all about building real buildings, not
+designing your latest twitter clone.
 
 ## Links
 
@@ -22,4 +23,3 @@ Open source architecture is apparently all about building real buildings, not de
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

@@ -1,5 +1,5 @@
 +++
-title = "@ +"
+title = "Cloudflare: thanks for keeping up the good fight"
 date = "2017-01-11T15:35:24Z"
 draft = false
 # description = "@+Cloudflare: Thanks for keeping up the good fight."
@@ -9,15 +9,14 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "cloud"]
 # ShowToc = false
 +++
 
-@+Cloudflare: Thanks for keeping up the good fight.
+`@+Cloudflare`: Thanks for keeping up the good fight.
 
 ## Links
 
 - [Cloudflare’s Transparency Report for Second Half 2016 and an Additional Disclosure for 2013](https://blog.cloudflare.com/cloudflares-transparency-report-for-second-half-2016-and-an-additional-disclosure-for-2013-2/)
 
 **Shared with:** Public, Cloudflare
-

@@ -30,10 +30,3 @@ Cartographer Porn
 Ouch, #28 hurts!
 
 ---
-
-**Paul Fernandez** - 2013-02-25T15:37:40Z
-
-Ouch, #28 hurts!
-
----
-

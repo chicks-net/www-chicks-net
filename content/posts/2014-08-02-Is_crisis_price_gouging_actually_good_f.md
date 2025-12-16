@@ -20,4 +20,3 @@ Is crisis price gouging actually good for you?
 - [Toledo can’t drink its water. There’s an economics lesson there.](http://wapo.st/1tH5Dnh)
 
 **Shared with:** Public
-

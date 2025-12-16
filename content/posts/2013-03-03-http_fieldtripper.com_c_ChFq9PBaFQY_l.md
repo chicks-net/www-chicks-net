@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Lee Hall on Field Tripper"
 date = "2013-03-03T22:04:28Z"
 draft = false
 # description = "http://fieldtripper.com/c/ChFq9PBaFQY/lee-hall  I thought you might find this interesting, too.  It's your world, explore it.: http://fieldtripper.com"
@@ -9,15 +9,13 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "va-lee-hall"]
 # ShowToc = false
 +++
 
-http://fieldtripper.com/c/ChFq9PBaFQY/lee-hall
+<http://fieldtripper.com/c/ChFq9PBaFQY/lee-hall>
 
 I thought you might find this interesting, too.
-
-It's your world, explore it.: http://fieldtripper.com
 
 ## Links
 
@@ -28,4 +26,3 @@ It's your world, explore it.: http://fieldtripper.com
 **Shared with:** Public
 
 **+1'd by:** Rhonda Collie
-

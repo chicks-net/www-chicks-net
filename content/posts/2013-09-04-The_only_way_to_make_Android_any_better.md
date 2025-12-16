@@ -22,4 +22,3 @@ The only way to make Android any better was to add chocolate.
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

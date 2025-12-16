@@ -1,5 +1,5 @@
 +++
-title = "The Muppets plus Lindsey Stirling is more awesome than I can possibly find wo..."
+title = "The Muppets plus Lindsey Stirling is more awesome than I can possibly find words worthy."
 date = "2015-05-12T15:15:52Z"
 draft = false
 # description = "The Muppets plus Lindsey Stirling is more awesome than I can possibly find words worthy to describe."
@@ -20,4 +20,3 @@ The Muppets plus Lindsey Stirling is more awesome than I can possibly find words
 [Watch Video](https://www.youtube.com/attribution_link?a=y67c50Nr_Ik&u=/watch?v%3Dcv8msHbqaFE%26feature%3Dshare)
 
 **Shared with:** Public
-

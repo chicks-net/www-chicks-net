@@ -9,13 +9,13 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-san-francisco"]
 # ShowToc = false
 +++
 
 Check out some of the gorgeous graffiti in Southeast Oakland.
 
-For more, checkout out http://oaklandgraffiti.com/
+For more, checkout out <http://oaklandgraffiti.com/>
 
 ## Images
 
@@ -112,4 +112,3 @@ For more, checkout out http://oaklandgraffiti.com/
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

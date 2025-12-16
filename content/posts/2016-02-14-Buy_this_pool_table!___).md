@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "billiards"]
 # ShowToc = false
 +++
 
@@ -27,13 +27,11 @@ Buy this pool table!  :)
 
 **Paul Fernandez** - 2016-02-16T06:37:01Z
 
-Not THE pool table!  Why?!Acceptable replacements for the pool table:A pool table lined with hemp instead of feltSome sort of indoor trampolineEnormous Lovesack bean bagSome amazing combination of the above
+Not THE pool table!  Why?! Acceptable replacements for the pool table:
+
+- A pool table lined with hemp instead of felt
+- Some sort of indoor trampoline
+- Enormous Lovesack bean bag
+- Some amazing combination of the above
 
 ---
-
-**Paul Fernandez** - 2016-02-16T06:37:01Z
-
-Not THE pool table!  Why?!Acceptable replacements for the pool table:A pool table lined with hemp instead of feltSome sort of indoor trampolineEnormous Lovesack bean bagSome amazing combination of the above
-
----
-

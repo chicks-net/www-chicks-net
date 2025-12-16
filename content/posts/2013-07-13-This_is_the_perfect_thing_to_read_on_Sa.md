@@ -1,8 +1,7 @@
 +++
-title = "This is the perfect thing to read on Saturday morning. My whole weekend will..."
+title = "This is the perfect thing to read on Saturday morning."
 date = "2013-07-13T16:49:23Z"
 draft = false
-# description = "This is the perfect thing to read on Saturday morning.  My whole weekend will be better now.  Call me when there are hacker-friendly skype servers.  D"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/59kGS5LfcNn"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -13,7 +12,9 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-This is the perfect thing to read on Saturday morning.  My whole weekend will be better now.  Call me when there are hacker-friendly skype servers.  Don't ban me bro!  :)
+This is the perfect thing to read on Saturday morning.  My whole weekend will
+be better now.  Call me when there are hacker-friendly skype servers.  Don't
+ban me bro!  :)
 
 ## Links
 
@@ -22,4 +23,3 @@ This is the perfect thing to read on Saturday morning.  My whole weekend will b
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

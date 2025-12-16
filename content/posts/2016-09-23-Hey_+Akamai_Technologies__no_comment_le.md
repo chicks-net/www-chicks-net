@@ -1,5 +1,5 @@
 +++
-title = "Hey +"
+title = "Akamai leaves us guessing"
 date = "2016-09-23T19:06:26Z"
 draft = false
 # description = "Hey +Akamai Technologies: no comment leaves everyone to jump to their own conclusions.  My conclusion is that you have lost your integrity.  Since I v"
@@ -9,11 +9,14 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "cloud"]
 # ShowToc = false
 +++
 
-Hey +Akamai Technologies: no comment leaves everyone to jump to their own conclusions.  My conclusion is that you have lost your integrity.  Since I value my integrity and my vendor's reliability in trying times I won't be recommending your services to anyone any longer.
+Hey +Akamai Technologies: no comment leaves everyone to jump to their own
+conclusions.  My conclusion is that you have lost your integrity.  Since I
+value my integrity and my vendor's reliability in trying times I won't be
+recommending your services to anyone any longer.
 
 ## Links
 
@@ -49,4 +52,3 @@ Kreb's: 100% classy.Akamai: less so.
 True true.
 
 ---
-

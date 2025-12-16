@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "travel", "ca-san-francisco"]
 # ShowToc = false
 +++
 
@@ -55,15 +55,11 @@ Great shots, Chicks!
 
 ---
 
-**Paul Fernandez** - 2014-12-13T17:09:36Z
-
-Great shots, Chicks!
-
----
-
 **Theresa Sawyer** - 2014-12-13T22:04:21Z
 
-Very nice. I love looking at the construction in SF, and use to take a lotof freeway construction pics when I was a photography student at Mills.Creating art is wonderful...enjoy!!
+Very nice. I love looking at the construction in SF, and use to take a lotof
+freeway construction pics when I was a photography student at Mills.Creating
+art is wonderful...enjoy!!
 
 ---
 
@@ -72,4 +68,3 @@ Very nice. I love looking at the construction in SF, and use to take a lotof fre
 Where's my "like" button?
 
 ---
-

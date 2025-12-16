@@ -1,5 +1,5 @@
 +++
-title = "Now your Windows gaming experience sucks less, and -- are you ready for it --..."
+title = "Now your Windows gaming experience sucks less, thanks to Linux."
 date = "2017-01-04T19:40:49Z"
 draft = false
 # description = "Now your Windows gaming experience sucks less, and -- are you ready for it -- it is because of Linux gamers.  Bru-hahahahaha!"
@@ -13,11 +13,11 @@ tags = ["gaming", "google-plus", "linux"]
 # ShowToc = false
 +++
 
-Now your Windows gaming experience sucks less, and -- are you ready for it -- it is because of Linux gamers.  Bru-hahahahaha!
+Now your Windows gaming experience sucks less, and -- are you ready for it --
+it is because of Linux gamers.  Bru-hahahahaha!
 
 ## Links
 
 - [Here’s How Valve Got Microsoft to Take PC Gaming Seriously](http://gadgets.ndtv.com/games/news/steam-s-linux-and-opengl-efforts-forced-microsoft-to-take-pc-gaming-seriously-former-valve-employee-1645085)
 
 **Shared with:** Public
-

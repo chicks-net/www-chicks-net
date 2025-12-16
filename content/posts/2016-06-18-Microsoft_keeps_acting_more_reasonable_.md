@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["gaming", "google-plus", "microsoft"]
+tags = ["gaming", "google-plus", "microsoft", "linux"]
 # ShowToc = false
 +++
 
-Microsoft keeps acting more reasonable.  How about having the  #Steam  client preinstalled in Windows?
+Microsoft keeps acting more reasonable.  How about having the  #Steam  client
+preinstalled in Windows?
 
 (I'm happy playing all of the Steam games I get on Linux and Mac.)
 
@@ -23,4 +24,3 @@ Microsoft keeps acting more reasonable.  How about having the  #Steam  client p
 - [Phil Spencer Says Microsoft Returning to Steam - LaptopNinja](https://laptopninja.io/phil-spencer-says-microsoft-returning-to-steam/)
 
 **Shared with:** Public
-

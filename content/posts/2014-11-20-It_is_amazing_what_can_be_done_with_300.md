@@ -20,4 +20,3 @@ It is amazing what can be done with 300 neurons.
 - [A Worm's Mind In A Lego Body](http://www.i-programmer.info/news/105-artificial-intelligence/7985-a-worms-mind-in-a-lego-body.html)
 
 **Shared with:** Public
-

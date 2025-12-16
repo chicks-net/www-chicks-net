@@ -20,4 +20,3 @@ All of that and Perl and Larry Wall.  Thank you!
 - [Linux-y things I am thankful for](http://www.networkworld.com/article/3143583/linux/linux-y-things-i-am-thankful-for.html)
 
 **Shared with:** Public
-

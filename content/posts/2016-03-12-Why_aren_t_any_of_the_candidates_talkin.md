@@ -1,5 +1,5 @@
 +++
-title = "Why aren't any of the candidates talking about important issues like kill..."
+title = "Why aren't any of the candidates talking about important issues like killing DST?"
 date = "2016-03-12T18:50:35Z"
 draft = false
 # description = "Why aren't any of the candidates talking about important issues like killing DST?"
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "government"]
 # ShowToc = false
 +++
 
@@ -22,4 +22,3 @@ Why aren't any of the candidates talking about important issues like killing DST
 **Shared with:** Public
 
 **+1'd by:** Wolf, Paul Fernandez, Wing Wong
-

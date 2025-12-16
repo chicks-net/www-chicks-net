@@ -17,7 +17,6 @@ tags = ["google-plus"]
 
 ## Links
 
-- [Share on LinkedIn](https://www.linkedin.com/pulse/why-smart-people-act-so-stupid-dr-travis-bradberry?trk=eml-b2_content_ecosystem_digest-recommended_articles-85-null&midToken=AQHm2xass5jq6w&fromEmail=fromEmail&ut=0r2jtffO5lnD01)
+- ["8 Ways Smart People Act Stupid" by Travis Bradberry on LinkedIn](https://www.linkedin.com/pulse/why-smart-people-act-so-stupid-dr-travis-bradberry?trk=eml-b2_content_ecosystem_digest-recommended_articles-85-null&midToken=AQHm2xass5jq6w&fromEmail=fromEmail&ut=0r2jtffO5lnD01)
 
 **Shared with:** Public
-

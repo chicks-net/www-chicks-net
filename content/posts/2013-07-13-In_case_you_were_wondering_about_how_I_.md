@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "eating"]
 # ShowToc = false
 +++
 
@@ -39,7 +39,8 @@ I thought it was all of the flan and chocolate croissants! :D
 
 **Christopher Hicks** - 2013-07-16T01:30:39Z
 
-I suspect the combination is greater than the sum of its parts. :-P  Time for more science!
+I suspect the combination is greater than the sum of its parts. :-P  Time for
+more science!
 
 ---
 
@@ -51,13 +52,16 @@ Wonder if there's an argument for me starting up again?!
 
 **Christopher Hicks** - 2013-07-17T01:21:41Z
 
-Yes.  I think there's an argument for asking the government to educate people about the benefits and safest forms of consumption as a way to improve the health of Americans overall.  :)
+Yes.  I think there's an argument for asking the government to educate people
+about the benefits and safest forms of consumption as a way to improve the
+health of Americans overall.  :)
 
 ---
 
 **Paul Fernandez** - 2013-07-17T04:41:57Z
 
-In my opinion, a chocolate croissant is most safely consumed with coffee, but maybe further testing will prove me wrong ;)
+In my opinion, a chocolate croissant is most safely consumed with coffee, but
+maybe further testing will prove me wrong ;)
 
 ---
 
@@ -66,4 +70,3 @@ In my opinion, a chocolate croissant is most safely consumed with coffee, but ma
 I loved coffee, but hot chocolate is great with a chocolate croissant too.
 
 ---
-

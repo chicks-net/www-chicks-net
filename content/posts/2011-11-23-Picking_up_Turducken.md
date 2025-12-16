@@ -1,5 +1,5 @@
 +++
-title = "Picking up Turducken"
+title = "Picking up Turducken form Hog Wild Smokehouse"
 date = "2011-11-23T16:49:53Z"
 draft = false
 # description = "Picking up TurduckenHog Wild Smokehouse Address: 8864 Richmond Road West"
@@ -17,8 +17,7 @@ tags = ["google-plus"]
 
 ---
 
-Picking up TurduckenHog Wild Smokehouse
-Address: 8864 Richmond Road West
+Picking up Turducken
 
 **Shared with:** Public
 
@@ -32,15 +31,8 @@ For real? You had turducken?
 
 ---
 
-**Gwendolyne Kelly** - 2011-11-30T01:33:25Z
-
-For real? You had turducken?
-
----
-
 **Christopher Hicks** - 2011-11-30T15:34:04Z
 
 Yes.  I'm working on writing a review.
 
 ---
-

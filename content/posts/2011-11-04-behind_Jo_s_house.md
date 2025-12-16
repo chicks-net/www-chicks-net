@@ -1,8 +1,7 @@
 +++
-title = "behind Jo's house"
+title = "Behind Jo's house"
 date = "2011-11-04T17:25:50Z"
 draft = false
-# description = "behind Jo's house"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/a11opi1RPss"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -52,4 +51,3 @@ behind Jo's house
 ![Image](../Photos/Photos%20from%20posts/pretty/1734qzicglvia.jpg)
 
 **Shared with:** Public
-

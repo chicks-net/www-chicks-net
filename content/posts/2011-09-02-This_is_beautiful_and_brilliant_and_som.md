@@ -9,15 +9,15 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "lego"]
 # ShowToc = false
 +++
 
-This is beautiful and brilliant and something you can participate in.  Help fill those gaps in the modern world revealing the universe's inner LEGO!
+This is beautiful and brilliant and something you can participate in.  Help
+fill those gaps in the modern world revealing the universe's inner LEGO!
 
 ## Links
 
 - [Jan Vormann’s Best Lego Installations](http://thereifixedit.failblog.org/2011/08/03/white-trash-repairs-jan-vormanns-best-lego-installations/)
 
 **Shared with:** Public
-

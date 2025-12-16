@@ -1,5 +1,5 @@
 +++
-title = "I'm guessing Rupert is going to end up with TribCo, but at least there&#3..."
+title = "I'm guessing Rupert is going to end up with TribCo..."
 date = "2013-06-01T14:14:39Z"
 draft = false
 # description = "I'm guessing Rupert is going to end up with TribCo, but at least there's a chance that it won't."
@@ -22,4 +22,3 @@ I'm guessing Rupert is going to end up with TribCo, but at least there's a chanc
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

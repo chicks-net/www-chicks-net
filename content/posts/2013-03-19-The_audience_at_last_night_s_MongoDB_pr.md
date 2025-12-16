@@ -1,5 +1,5 @@
 +++
-title = "The audience at last night's MongoDB presentation at Q. Jorge, the prese..."
+title = "The audience at last night's MongoDB presentation at Q."
 date = "2013-03-19T11:55:43Z"
 draft = false
 # description = "The audience at last night's MongoDB presentation at Q.  Jorge, the presenter, is on the left."
@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "training", "ca-los-angeles"]
 # ShowToc = false
 +++
 
-The audience at last night's MongoDB presentation at Q.  Jorge, the presenter, is on the left.
+The audience at last night's MongoDB presentation at Q.  Jorge, the presenter,
+is on the left.
 
 ## Images
 
@@ -26,4 +27,3 @@ The audience at last night's MongoDB presentation at Q.  Jorge, the presenter, 
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez, Scott Francis
-

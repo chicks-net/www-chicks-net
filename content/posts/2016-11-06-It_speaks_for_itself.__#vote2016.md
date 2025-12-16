@@ -1,5 +1,5 @@
 +++
-title = "It speaks for itself."
+title = "It speaks for itself. Vote2016"
 date = "2016-11-06T13:50:21Z"
 draft = false
 # description = "It speaks for itself.  #vote2016"
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "government"]
 # ShowToc = false
 +++
 
@@ -21,4 +21,3 @@ It speaks for itself.  #vote2016
 - [Jon Stewart uses tweet exchange with Trump to encourage voting - CNET](https://www.cnet.com/news/jon-stewart-uses-twitter-exchange-with-trump-to-encourage-voters/#ftag=COS-05-10aaa1c)
 
 **Shared with:** Public
-

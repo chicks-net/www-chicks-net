@@ -1,5 +1,5 @@
 +++
-title = "It works well for me."
+title = "Wunderlist works well for me."
 date = "2013-10-01T03:42:27Z"
 draft = false
 # description = "It works well for me."
@@ -20,4 +20,3 @@ It works well for me.
 - [http://6wunderkinder.com/wunderlist](http://6wunderkinder.com/wunderlist)
 
 **Shared with:** Public
-

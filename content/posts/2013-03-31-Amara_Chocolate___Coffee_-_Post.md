@@ -1,5 +1,5 @@
 +++
-title = "Amara Chocolate & Coffee Address: 55 South Raymond..."
+title = "Amara Chocolate & Coffee"
 date = "2013-03-31T21:55:29Z"
 draft = false
 # description = "Amara Chocolate & Coffee Address: 55 South Raymond Avenue"
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "eating", "ca-pasadena"]
 # ShowToc = false
 +++
 
@@ -21,4 +21,3 @@ Amara Chocolate & Coffee
 Address: 55 South Raymond Avenue
 
 **Shared with:** Public
-

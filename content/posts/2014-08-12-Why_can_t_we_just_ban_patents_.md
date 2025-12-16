@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "creativity"]
 # ShowToc = false
 +++
 
@@ -22,4 +22,3 @@ Why can't we just ban patents?
 **Shared with:** Public
 
 **+1'd by:** Caskey Dickson
-

@@ -20,4 +20,3 @@ Jimmy Wales nails it: maybe it is time for the police to take our tax dollars an
 - [PM's online porn plan 'ridiculous'](http://www.bbc.co.uk/news/uk-23558865)
 
 **Shared with:** Public
-

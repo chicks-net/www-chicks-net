@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "lego"]
 # ShowToc = false
 +++
 
@@ -17,7 +17,6 @@ There are some absolutely beautiful creations in here.
 
 ## Video
 
-[Watch Video](http://www.vimeo.com/9581676)
+[Watch Video](http://www.vimeo.com/9581676) "AFOL: A Blocumentary"
 
 **Shared with:** Public
-

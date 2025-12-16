@@ -15,13 +15,13 @@ tags = ["google-plus"]
 
 Every home should have an ISS detector.  How about one for your car?
 
-**Originally shared by Diego Porqueras (Deezmaker)**
+## Originally shared by Diego Porqueras (Deezmaker)
 
-Our friends got a kickstarter launched! Please pass on! We have an ISS above running and displayed at our shop if anyone want to see it....
+Our friends got a kickstarter launched! Please pass on! We have an ISS above
+running and displayed at our shop if anyone want to see it....
 
 ## Links
 
 - [ISS Above HD+ with Wearable Bluetooth Low Energy LEDs by Liam Kennedy — Kickstarter](https://www.kickstarter.com/projects/1385270522/iss-above-hd-with-wearable-bluetooth-low-energy-le)
 
 **Shared with:** Public
-

@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["gaming", "google-plus"]
+tags = ["gaming", "google-plus", "creativity"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ Here is my first game guide on Steam.
 - [Steam Community :: Guide :: Plants vs Zombies: All Achievements Guide](http://steamcommunity.com/sharedfiles/filedetails/?id=396162375)
 
 **Shared with:** Public
-

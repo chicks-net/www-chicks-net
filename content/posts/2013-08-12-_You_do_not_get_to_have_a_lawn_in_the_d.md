@@ -1,8 +1,7 @@
 +++
-title = "\"You do not get to have a lawn in the desert, any more than you get to h..."
+title = "A backyard nuclear reactor for your own amusement"
 date = "2013-08-13T01:54:54Z"
 draft = false
-# description = "\"You do not get to have a lawn in the desert, any more than you get to have a backyard nuclear reactor for your own amusement.\"  rofl    I'm good with"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/3PRGZcUf6wo"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -13,7 +12,8 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-"You do not get to have a lawn in the desert, any more than you get to have a backyard nuclear reactor for your own amusement."  rofl  
+"You do not get to have a lawn in the desert, any more than you get to have a
+backyard nuclear reactor for your own amusement."  rofl  
 
 I'm good with backyard nuclear reactors actually, but the rest of his argument makes sense.
 
@@ -34,10 +34,3 @@ I found this from fark.
 That dude hates grass! :)
 
 ---
-
-**Paul Fernandez** - 2013-08-13T05:09:41Z
-
-That dude hates grass! :)
-
----
-

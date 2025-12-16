@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "government"]
 # ShowToc = false
 +++
 
@@ -21,4 +21,3 @@ Why pivot when you are so awesome?  #nevertrump
 - [VIDEO: one-on-one interview with Donald Trump](http://www.news8000.com/news/video-oneonone-interview-with-donald-trump/41229272)
 
 **Shared with:** Public
-

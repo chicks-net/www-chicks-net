@@ -1,5 +1,5 @@
 +++
-title = "Dismantle the copyright tyranny soon please. Corporations are ignoring and d..."
+title = "Dismantle the copyright tyranny soon please."
 date = "2016-04-10T13:40:10Z"
 draft = false
 # description = "Dismantle the copyright tyranny soon please.  Corporations are ignoring and destroying Fair Use.  Copyright was never intended to be absolute or to pr"
@@ -9,11 +9,14 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "creativity", "government"]
 # ShowToc = false
 +++
 
-Dismantle the copyright tyranny soon please.  Corporations are ignoring and destroying Fair Use.  Copyright was never intended to be absolute or to prevent the public from satire yet there's no big pockets to go to court to prevent the ever-expanding reach of copyright.
+Dismantle the copyright tyranny soon please.  Corporations are ignoring and
+destroying Fair Use.  Copyright was never intended to be absolute or to prevent
+the public from satire yet there's no big pockets to go to court to prevent the
+ever-expanding reach of copyright.
 
 ## Links
 
@@ -22,4 +25,3 @@ Dismantle the copyright tyranny soon please.  Corporations are ignoring and des
 **Shared with:** Public
 
 **+1'd by:** Wing Wong
-

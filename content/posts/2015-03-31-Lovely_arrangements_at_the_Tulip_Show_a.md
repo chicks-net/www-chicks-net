@@ -44,4 +44,3 @@ Lovely arrangements at the Tulip Show at Mountain View this last weekend.
 ![Image](../Photos/Photos%20from%20posts/Tulip%20Show%20at%20Mountain%20View/1alc5les8429u.jpg)
 
 **Shared with:** Public
-

@@ -1,5 +1,5 @@
 +++
-title = "good job google"
+title = "good job google (April Fools)"
 date = "2012-04-01T05:15:27Z"
 draft = false
 # description = "good job google"
@@ -17,7 +17,6 @@ good job google
 
 ## Video
 
-[Watch Video](http://www.youtube.com/watch?v=Y_UmWdcTrrc)
+[Watch Video](http://www.youtube.com/watch?v=Y_UmWdcTrrc) "The YouTube Collection: The Magic of YouTube in Your Hands"
 
 **Shared with:** Public
-

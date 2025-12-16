@@ -1,19 +1,19 @@
 +++
-title = "Maybe Apple will realize the advantages of being open rather than having Big ..."
+title = "Maybe Apple will realize the advantages of being open ..."
 date = "2013-08-03T17:21:15Z"
 draft = false
-# description = "Maybe Apple will realize the advantages of being open rather than having Big Brother up their a$$.  #sour_apples"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/KRGWZr3ALph"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "business", "government"]
 # ShowToc = false
 +++
 
-Maybe Apple will realize the advantages of being open rather than having Big Brother up their a$$.  #sour_apples
+Maybe Apple will realize the advantages of being open rather than having Big
+Brother up their a$$.  #sour_apples
 
 ## Links
 
@@ -23,4 +23,3 @@ Maybe Apple will realize the advantages of being open rather than having Big Bro
 **Shared with:** Public
 
 **+1'd by:** Brandy Butler
-

@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "arduino"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ Great  #Arduino  documentary.
 [Watch Video](http://www.vimeo.com/18539129)
 
 **Shared with:** Public
-

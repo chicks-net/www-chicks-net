@@ -1,5 +1,5 @@
 +++
-title = "Citibank Address: 5053 York Boulevard..."
+title = "Citibank Address: 5053 York Boulevard"
 date = "2013-06-01T05:48:47Z"
 draft = false
 # description = "Citibank Address: 5053 York Boulevard"
@@ -21,4 +21,3 @@ Citibank
 Address: 5053 York Boulevard
 
 **Shared with:** Public
-

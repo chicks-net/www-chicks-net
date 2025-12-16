@@ -1,5 +1,5 @@
 +++
-title = "The only reason I bought these games it that they were available for"
+title = "The only reason I bought these games is that they were available for Linux."
 date = "2016-01-29T16:03:40Z"
 draft = false
 # description = "The only reason I bought these games it that they were available for #Linux.  Thanks Gary Newman."
@@ -13,11 +13,11 @@ tags = ["gaming", "google-plus", "linux"]
 # ShowToc = false
 +++
 
-The only reason I bought these games it that they were available for #Linux.  Thanks Gary Newman.
+The only reason I bought these games is that they were available for #Linux.  Thanks Gary Newman.
 
 ## Links
 
-- [#Linux](https://plus.google.com/s/%23Linux/posts)
+- [#Linux on google+](https://plus.google.com/s/%23Linux/posts)
 - [Gary's Mod and Rust Creator Regrets Having Supported Linux](http://news.softpedia.com/news/gary-s-mod-and-rust-creator-regrets-supporting-linux-499603.shtml)
 
 **Shared with:** Public, Christopher Hicks
@@ -49,4 +49,3 @@ The only reason I bought these games it that they were available for #Linux.  T
 I sympathize with both sides but I wanted my main message to stay positive.
 
 ---
-

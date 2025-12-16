@@ -17,10 +17,11 @@ tags = ["google-plus"]
 
 ---
 
-I've replaced my Verizon phone finally!  Time to celebrate!!Shore Hotel
+I've replaced my Verizon phone finally!  Time to celebrate!!
+
+Shore Hotel
 Address: 1515 Ocean Avenue
 
 **Shared with:** Public
 
 **+1'd by:** Steve Waite
-

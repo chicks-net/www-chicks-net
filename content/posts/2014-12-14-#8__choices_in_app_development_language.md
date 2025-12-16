@@ -1,5 +1,5 @@
 +++
-title = "#8: choices in app development languages and platforms."
+title = "An eighth reason to buy an Android phone over an iPhone"
 date = "2014-12-14T09:00:26Z"
 draft = false
 # description = "#8: choices in app development languages and platforms."
@@ -9,15 +9,14 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus", "programming"]
+tags = ["google-plus", "programming", "mobile"]
 # ShowToc = false
 +++
 
-#8: choices in app development languages and platforms.
+\#8: choices in app development languages and platforms.
 
 ## Links
 
 - [7 Reasons Why You Should Buy An Android Phone Over An iPhone](http://www.businessinsider.com/should-you-buy-an-android-phone-2014-12)
 
 **Shared with:** Public
-

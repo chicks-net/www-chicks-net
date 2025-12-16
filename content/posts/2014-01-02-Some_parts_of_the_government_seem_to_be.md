@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "government"]
 # ShowToc = false
 +++
 
@@ -22,4 +22,3 @@ Some parts of the government seem to be wiser about rolling out a website.
 **Shared with:** Public
 
 **+1'd by:** Michelle Wirth
-

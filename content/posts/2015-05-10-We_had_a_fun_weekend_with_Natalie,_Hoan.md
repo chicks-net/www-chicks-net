@@ -1,5 +1,5 @@
 +++
-title = "We had a fun weekend with Natalie, Hoan + crew. A short trip to get grocerie..."
+title = "A fun weekend with Natalie, Hoan + crew. A lovely and stimulating tour of Mission Santa Barbara."
 date = "2015-05-11T03:22:34Z"
 draft = false
 # description = "We had a fun weekend with Natalie, Hoan + crew.  A short trip to get groceries led to a lovely and stimulating tour of Mission Santa Barbara."
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "travel"]
 # ShowToc = false
 +++
 
@@ -46,4 +46,3 @@ We had a fun weekend with Natalie, Hoan + crew.  A short trip to get groceries 
 **Shared with:** Public
 
 **+1'd by:** Christopher Hicks, Paul Fernandez, Wing Wong
-

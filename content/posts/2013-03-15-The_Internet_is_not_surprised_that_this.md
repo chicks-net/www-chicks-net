@@ -1,5 +1,5 @@
 +++
-title = "The Internet is not surprised that this video is fake, but I am impressed tha..."
+title = "I am impressed that the Washington Post is now debunking viral videos."
 date = "2013-03-15T12:20:57Z"
 draft = false
 # description = "The Internet is not surprised that this video is fake, but I am impressed that the Washington Post is now debunking viral videos."
@@ -13,7 +13,8 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-The Internet is not surprised that this video is fake, but I am impressed that the Washington Post is now debunking viral videos.
+The Internet is not surprised that this video is fake, but I am impressed that
+the Washington Post is now debunking viral videos.
 
 ## Links
 
@@ -22,4 +23,3 @@ The Internet is not surprised that this video is fake, but I am impressed that t
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

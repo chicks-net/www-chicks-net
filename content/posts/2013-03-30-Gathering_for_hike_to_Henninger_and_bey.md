@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-los-angeles"]
 # ShowToc = false
 +++
 
@@ -17,10 +17,10 @@ tags = ["google-plus"]
 
 ---
 
-Gathering for hike to Henninger and beyond!L A County Eaton Canyon Nature
+Gathering for hike to Henninger and beyond!
+L A County Eaton Canyon Nature
 Address: 1750 N Altadena Dr
 
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

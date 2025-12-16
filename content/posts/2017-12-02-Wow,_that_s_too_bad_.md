@@ -20,4 +20,3 @@ Wow, that's too bad.
 - [Linux Journal Ceases Publication | Linux Journal](http://www.linuxjournal.com/content/linux-journal-ceases-publication)
 
 **Shared with:** Public
-

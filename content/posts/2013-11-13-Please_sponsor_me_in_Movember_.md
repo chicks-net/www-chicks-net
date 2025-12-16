@@ -20,4 +20,3 @@ Please sponsor me in Movember.
 - [Christopher Hicks's Mo Space](http://MOBRO.CO/CHICKS420)
 
 **Shared with:** Public
-

@@ -1,5 +1,5 @@
 +++
-title = "Yahoo manages to make a travesty out of a tragedy. Does anybody respect the ..."
+title = "Yahoo manages to make a travesty out of a tragedy."
 date = "2013-08-18T15:09:57Z"
 draft = false
 # description = "Yahoo manages to make a travesty out of a tragedy.  Does anybody respect the wishes of the dead anymore?  That used to be the way it was, right?"
@@ -13,7 +13,8 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-Yahoo manages to make a travesty out of a tragedy.  Does anybody respect the wishes of the dead anymore?  That used to be the way it was, right?
+Yahoo manages to make a travesty out of a tragedy.  Does anybody respect the
+wishes of the dead anymore?  That used to be the way it was, right?
 
 ## Links
 
@@ -22,4 +23,3 @@ Yahoo manages to make a travesty out of a tragedy.  Does anybody respect the wi
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

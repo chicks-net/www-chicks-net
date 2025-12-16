@@ -20,4 +20,3 @@ This looks fun.
 - [Cute Androids From a 3-D Printer](http://gadgetwise.blogs.nytimes.com/2012/10/11/cute-androids-from-a-3-d-printer/)
 
 **Shared with:** Public
-

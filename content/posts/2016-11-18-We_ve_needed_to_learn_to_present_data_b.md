@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "dead-link"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ We've needed to learn to present data better for a long time.
 - [BrightTALK](https://www.brighttalk.com/webcast/11375/191075?utm_campaign=Google&utm_source=brighttalk-sharing&utm_medium=web)
 
 **Shared with:** Public
-

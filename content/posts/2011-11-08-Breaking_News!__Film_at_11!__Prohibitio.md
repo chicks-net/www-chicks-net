@@ -13,11 +13,18 @@ tags = ["google-plus", "humor"]
 # ShowToc = false
 +++
 
-Breaking News!  Film at 11!  Prohibitionists are irrational zealots on a mission who have no interest in science, effectiveness, treatment, or reality.  Oh, wait, that's not surprising or news.  Plus they have no clue about history either, since they forget that The Prohibition increased corruption and distrust in government so strongly that we have never recovered from the effects.  So, for you readers and thinkers here's more fodder to throw at the idiots protecting our precious snowflakes.  I hope it helps eventually.
+Breaking News!  Film at 11!  Prohibitionists are irrational zealots on a
+mission who have no interest in science, effectiveness, treatment, or reality.
+Oh, wait, that's not surprising or news.  Plus they have no clue about history
+either, since they forget that The Prohibition increased corruption and
+distrust in government so strongly that we have never recovered from the
+effects.  So, for you readers and thinkers here's more fodder to throw at the
+idiots protecting our precious snowflakes.  I hope it helps eventually.
 
-**Originally shared by C K**
+## Originally shared by C K
 
-By "no effect on kids" it means that legalizing medical marijuana does not increase the number of minors who recreationally use marijuana
+> By "no effect on kids" it means that legalizing medical marijuana does not
+> increase the number of minors who recreationally use marijuana
 
 ## Links
 
@@ -32,10 +39,3 @@ By "no effect on kids" it means that legalizing medical marijuana does not incre
 This also got me wondering: given that it seems that so much moral legislation ends up undermining morals more ultimately, is that true for most moral legislation or just prohibitions?
 
 ---
-
-**Christopher Hicks** - 2011-11-08T18:20:46Z
-
-This also got me wondering: given that it seems that so much moral legislation ends up undermining morals more ultimately, is that true for most moral legislation or just prohibitions?
-
----
-

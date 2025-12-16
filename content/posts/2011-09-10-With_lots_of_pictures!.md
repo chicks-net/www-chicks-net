@@ -9,15 +9,15 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "lego"]
 # ShowToc = false
 +++
 
 With lots of pictures!
 
-**Originally shared by Guido van Rossum**
+## Originally shared by Guido van Rossum
 
-Awesome Lego models of cranes etc.: http://www.genuinemodels.com/
+> Awesome Lego models of cranes etc.: <http://www.genuinemodels.com/>
 
 ## Links
 
@@ -27,4 +27,3 @@ Awesome Lego models of cranes etc.: http://www.genuinemodels.com/
 **Shared with:** Public
 
 **+1'd by:** John McWade
-

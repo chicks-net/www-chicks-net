@@ -17,7 +17,9 @@ tags = ["google-plus"]
 
 ---
 
-The best cheap hotel in Silicon Valley.  Great design.  The sink is amazing.  Plus there is access to a very nice trail right in the hotel parking lot.  I found it through a last minute booking on Delta.com.Hotel Zico - Mountain View
+The best cheap hotel in Silicon Valley.  Great design.  The sink is amazing.
+Plus there is access to a very nice trail right in the hotel parking lot.  I
+found it through a last minute booking on Delta.com.Hotel Zico - Mountain View
 Address: 200 East El Camino Real
 
 ## Links
@@ -32,13 +34,6 @@ Address: 200 East El Camino Real
 
 **Christopher Hicks** - 2013-04-16T03:33:35Z
 
-http://www.stevenscreektrail.org/Resources/Maps/ for trail maps.
+<http://www.stevenscreektrail.org/Resources/Maps/> for trail maps.
 
 ---
-
-**Christopher Hicks** - 2013-04-16T03:33:35Z
-
-http://www.stevenscreektrail.org/Resources/Maps/ for trail maps.
-
----
-

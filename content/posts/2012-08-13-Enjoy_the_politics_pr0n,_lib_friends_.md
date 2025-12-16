@@ -20,4 +20,3 @@ Enjoy the politics pr0n, lib friends.
 - [If Romney's Polling Woes Continue, Look for Big Money to Flow to State Races Instead](http://www.huffingtonpost.com/colin-delany/romney-polling-woes-continue_b_1765626.html)
 
 **Shared with:** Public
-

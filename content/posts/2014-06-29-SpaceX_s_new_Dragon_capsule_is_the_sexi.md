@@ -22,4 +22,3 @@ SpaceX's new Dragon capsule is the sexiest spaceship yet!
 **Shared with:** Public
 
 **+1'd by:** Caskey Dickson
-

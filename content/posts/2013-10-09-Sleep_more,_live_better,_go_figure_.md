@@ -20,4 +20,3 @@ Sleep more, live better, go figure.
 - [How much can an extra hour's sleep change you?](http://www.bbc.co.uk/news/magazine-24444634)
 
 **Shared with:** Public
-

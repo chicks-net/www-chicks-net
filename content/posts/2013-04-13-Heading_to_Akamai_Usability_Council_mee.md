@@ -9,16 +9,13 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-los-angeles"]
 # ShowToc = false
 +++
 
 **Location:** Los Angeles International Airport Address: 1 World Way
 
----
-
-Heading to Akamai Usability Council meetingLos Angeles International Airport
-Address: 1 World Way
+Heading to Akamai Usability Council meeting
 
 **Shared with:** Public
 
@@ -31,10 +28,3 @@ Address: 1 World Way
 Safe flight to you, sir!
 
 ---
-
-**Paul Fernandez** - 2013-04-14T05:15:28Z
-
-Safe flight to you, sir!
-
----
-

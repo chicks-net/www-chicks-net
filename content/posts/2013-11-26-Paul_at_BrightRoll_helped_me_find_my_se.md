@@ -30,10 +30,3 @@ Paul at BrightRoll helped me find my secret card!
 OMG I haven't seen you in so long Uncle Paul! You've gone mountain man!
 
 ---
-
-**Jacqueline Alvarez** - 2013-11-28T13:40:16Z
-
-OMG I haven't seen you in so long Uncle Paul! You've gone mountain man!
-
----
-

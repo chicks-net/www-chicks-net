@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "eating", "ca-los-angeles"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ It was a bit chilly in Santa Monica, but our dinner at Fig was incredible.
 ![Image](../Photos/Photos%20from%20posts/5-26-12/17nvve40qhwaa.jpg)
 
 **Shared with:** Public
-

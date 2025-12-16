@@ -1,5 +1,5 @@
 +++
-title = "The Perl hate is getting old, but at least some folks are talking sense. We ..."
+title = "The Perl hate is getting old, but at least some folks are talking sense."
 date = "2015-01-22T20:49:28Z"
 draft = false
 # description = "The Perl hate is getting old, but at least some folks are talking sense.  We need it to deflect stuff like http://outspeaking.com/words-of-technology/"
@@ -13,7 +13,9 @@ tags = ["google-plus", "perl", "programming"]
 # ShowToc = false
 +++
 
-The Perl hate is getting old, but at least some folks are talking sense.  We need it to deflect stuff like http://outspeaking.com/words-of-technology/why-perl-didnt-win.html
+The Perl hate is getting old, but at least some folks are talking sense.  We
+need it to deflect stuff
+like <http://outspeaking.com/words-of-technology/why-perl-didnt-win.html>
 
 ## Links
 
@@ -21,4 +23,3 @@ The Perl hate is getting old, but at least some folks are talking sense.  We ne
 - [Perl Already Won ~ Perl Is My Cocaine](http://programming.tudorconstantin.com/2015/01/perl-already-won.html)
 
 **Shared with:** Public
-

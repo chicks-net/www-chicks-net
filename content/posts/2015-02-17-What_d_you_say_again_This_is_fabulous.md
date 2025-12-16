@@ -1,5 +1,5 @@
 +++
-title = "What'd you say again? This is fabulous evidence for the impact of ..."
+title = "New map shows America's quietest places"
 date = "2015-02-17T21:37:29Z"
 draft = false
 # description = "What'd you say again?  This is fabulous evidence for the impact of humans and clearly shows how empty the western US is.  It also shows how good of a"
@@ -15,11 +15,12 @@ tags = ["google-plus"]
 
 What'd you say again?
 
-This is fabulous evidence for the impact of humans and clearly shows how empty the western US is.  It also shows how good of a job the west coast states have done in keeping their wide open spaces despite vast populations.
+This is fabulous evidence for the impact of humans and clearly shows how empty
+the western US is.  It also shows how good of a job the west coast states have
+done in keeping their wide open spaces despite vast populations.
 
 ## Links
 
 - [New map shows America's quietest places](http://news.sciencemag.org/environment/2015/02/new-map-shows-americas-quietest-places)
 
 **Shared with:** Public
-

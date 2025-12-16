@@ -1,5 +1,5 @@
 +++
-title = "I'm glad to see more people catching on to this idea. BrightRoll imposed..."
+title = "No meetings block in the afternoons."
 date = "2014-01-28T18:35:32Z"
 draft = false
 # description = "I'm glad to see more people catching on to this idea.  BrightRoll imposed a no meetings in the afternoon rule recently which has been working out grea"
@@ -9,11 +9,14 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "organization", "business"]
 # ShowToc = false
 +++
 
-I'm glad to see more people catching on to this idea.  BrightRoll imposed a no meetings in the afternoon rule recently which has been working out great for me.  Knowing I have a big block of time to work every day is a boon.  Stacking meetings at the end of the day is another way to get the same result.
+I'm glad to see more people catching on to this idea.  BrightRoll imposed a no
+meetings in the afternoon rule recently which has been working out great for
+me.  Knowing I have a big block of time to work every day is a boon.  Stacking
+meetings at the end of the day is another way to get the same result.
 
 ## Links
 
@@ -30,10 +33,3 @@ I'm glad to see more people catching on to this idea.  BrightRoll imposed a no 
 I explicitly looked for a remote-oriented company to bias against meetings.
 
 ---
-
-**Ted Timmons** - 2014-01-29T01:20:49Z
-
-I explicitly looked for a remote-oriented company to bias against meetings.
-
----
-

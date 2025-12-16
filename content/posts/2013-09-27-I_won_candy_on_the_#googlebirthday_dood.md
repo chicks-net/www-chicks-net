@@ -1,5 +1,5 @@
 +++
-title = "I won candy on the"
+title = "I won candy on the Google Birthday Doodle"
 date = "2013-09-27T14:07:38Z"
 draft = false
 # description = "I won candy on the #googlebirthday doodle! Score: 101"
@@ -23,4 +23,3 @@ I won candy on the #googlebirthday doodle! Score: 101
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

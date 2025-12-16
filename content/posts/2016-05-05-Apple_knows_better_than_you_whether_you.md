@@ -20,4 +20,3 @@ Apple knows better than you whether you need those pesky music files.
 - [Apple Stole My Music. No, Seriously.](https://blog.vellumatlanta.com/2016/05/04/apple-stole-my-music-no-seriously/)
 
 **Shared with:** Public
-

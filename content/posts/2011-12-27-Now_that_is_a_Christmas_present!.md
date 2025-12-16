@@ -20,4 +20,3 @@ Now that is a Christmas present!
 - [Colombian city gets giant, outdoor escalator](http://news.yahoo.com/colombian-city-gets-giant-outdoor-escalator-003300654.html)
 
 **Shared with:** Public
-

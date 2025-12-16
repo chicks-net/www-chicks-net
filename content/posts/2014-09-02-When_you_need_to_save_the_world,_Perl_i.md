@@ -22,4 +22,3 @@ When you need to save the world, Perl is there.
 **Shared with:** Public
 
 **+1'd by:** Jerry Landry
-

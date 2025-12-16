@@ -1,5 +1,5 @@
 +++
-title = "Welcome lunch"
+title = "Welcome lunch in Pasadena."
 date = "2013-04-09T19:13:30Z"
 draft = false
 # description = "Welcome lunchAbricott Address: 238 South Lake Avenue"
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "eating", "ca-pasadena"]
 # ShowToc = false
 +++
 
@@ -17,20 +17,13 @@ tags = ["google-plus"]
 
 ---
 
-Welcome lunchAbricott
-Address: 238 South Lake Avenue
+Welcome lunch
 
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
 
 ## Comments
-
-**Paul Fernandez** - 2013-04-10T03:45:28Z
-
-Jan mentioned that you had a few new SREs.  Three, was it?
-
----
 
 **Paul Fernandez** - 2013-04-10T03:45:28Z
 
@@ -55,4 +48,3 @@ It's about time :)
 3 new guys in the last month.
 
 ---
-

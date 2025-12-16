@@ -1,5 +1,5 @@
 +++
-title = "\"We cannot accept that rivers in India show higher concentrations of act..."
+title = "We cannot accept that rivers in India show higher concentrations of active antibiotic than the blood of someone undergoing treatment."
 date = "2015-01-19T20:31:23Z"
 draft = false
 # description = "\"We cannot accept that rivers in India show higher concentrations of active antibiotic than the blood of someone undergoing treatment.\"  Wow! (via sla"
@@ -13,8 +13,9 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-"We cannot accept that rivers in India show higher concentrations of active antibiotic than the blood of someone undergoing treatment."  Wow!
-(via slashdot)
+"We cannot accept that rivers in India show higher concentrations of active
+antibiotic than the blood of someone undergoing treatment."  Wow!  (via
+slashdot)
 
 ## Links
 
@@ -23,4 +24,3 @@ tags = ["google-plus"]
 **Shared with:** Public
 
 **+1'd by:** Betty Hicks, Wing Wong
-

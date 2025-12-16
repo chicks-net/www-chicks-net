@@ -1,5 +1,5 @@
 +++
-title = "Shows some interesting metrics for how drivers are earning and spending their..."
+title = "Some interesting metrics for what drivers are earning on Uber's platform."
 date = "2015-10-12T20:13:34Z"
 draft = false
 # description = "Shows some interesting metrics for how drivers are earning and spending their time as Uber's platform evolves."
@@ -13,11 +13,11 @@ tags = ["business", "google-plus"]
 # ShowToc = false
 +++
 
-Shows some interesting metrics for how drivers are earning and spending their time as Uber's platform evolves.
+Shows some interesting metrics for what drivers are earning and spending their
+time as Uber's platform evolves.
 
 ## Links
 
 - [4 Septembers of uberX in NYC](http://newsroom.uber.com/2015/10/4-septembers-of-uberx-in-nyc/#.VhwUOKHbH0s.google_plusone_share)
 
 **Shared with:** Public
-

@@ -1,5 +1,5 @@
 +++
-title = "pretty good really"
+title = "wunderlist is pretty good really"
 date = "2013-11-01T12:50:21Z"
 draft = false
 # description = "pretty good really"
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "organization"]
 # ShowToc = false
 +++
 
@@ -22,4 +22,3 @@ pretty good really
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

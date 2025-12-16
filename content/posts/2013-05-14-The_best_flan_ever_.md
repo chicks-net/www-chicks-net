@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "eating"]
 # ShowToc = false
 +++
 
@@ -17,7 +17,9 @@ tags = ["google-plus"]
 
 ---
 
-The best flan ever.Mercado
+The best flan ever.
+
+Mercado
 Address: 1416 4th St
 
 **Shared with:** Public, James Hartshorn
@@ -25,12 +27,6 @@ Address: 1416 4th St
 **+1'd by:** Dawn Anderson, Paul Fernandez
 
 ## Comments
-
-**Paul Fernandez** - 2013-05-15T18:14:21Z
-
-I will not submit to your opinion without trying some myself!
-
----
 
 **Paul Fernandez** - 2013-05-15T18:14:21Z
 
@@ -46,13 +42,16 @@ If you do that in the next few weeks i'll join you!
 
 **Christopher Hicks** - 2013-05-16T12:00:40Z
 
-I walked past there on the way to FedEx last night.  I almost got more flan, but I showed restraint.  Screw restraint.
+I walked past there on the way to FedEx last night.  I almost got more flan,
+but I showed restraint.  Screw restraint.
 
 ---
 
 **Christopher Hicks** - 2013-05-24T13:23:24Z
 
-+James Hartshorn and I had another fine dinner at Mercado last night.  "If all flan tasted this good I would eat flan more often."  I propose sending all the people that make weak flan to the Mercado so they realize what the idea is.  :)
++James Hartshorn and I had another fine dinner at Mercado last night.  "If all
+flan tasted this good I would eat flan more often."  I propose sending all the
+people that make weak flan to the Mercado so they realize what the idea is.  :)
 
 ---
 
@@ -61,4 +60,3 @@ I walked past there on the way to FedEx last night.  I almost got more flan, bu
 I must have this magical flan!
 
 ---
-

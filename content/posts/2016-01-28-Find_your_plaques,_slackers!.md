@@ -22,4 +22,3 @@ Find your plaques, slackers!
 **Shared with:** Public
 
 **+1'd by:** Wing Wong
-

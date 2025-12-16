@@ -1,5 +1,5 @@
 +++
-title = "A nice interview with my VP of Engineering."
+title = "A nice interview with Christian McCarrick, my VP of Engineering at Telmate."
 date = "2016-07-13T15:36:18Z"
 draft = false
 # description = "A nice interview with my VP of Engineering."
@@ -13,11 +13,10 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-A nice interview with my VP of Engineering.
+A nice interview with Christian McCarrick, my VP of Engineering at Telmate.
 
 ## Links
 
 - [CTO Corner #5: The Power of Technology in Creating Human Connection — CTO Corner](https://medium.com/cto-corner/cto-corner-5-the-power-of-technology-in-creating-human-connection-8c98c42afc8e#.b9bfegecp)
 
 **Shared with:** Public
-

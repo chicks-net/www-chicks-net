@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus", "lego"]
+tags = ["google-plus", "lego", "amazon"]
 # ShowToc = false
 +++
 
@@ -22,4 +22,3 @@ LEGOs can do anything.
 **Shared with:** Public
 
 **+1'd by:** Jerry Landry, Paul Fernandez
-

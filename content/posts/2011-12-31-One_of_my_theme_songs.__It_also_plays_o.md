@@ -1,5 +1,5 @@
 +++
-title = "One of my theme songs. It also plays over the credits of Everything Is Il..."
+title = "One of my theme songs. Start Wearing Purple!"
 date = "2012-01-01T00:51:16Z"
 draft = false
 # description = "One of my theme songs.  It also plays over the credits of Everything Is Illuminated ."
@@ -20,4 +20,3 @@ One of my theme songs.  It also plays over the credits of Everything Is Illumina
 - [Gogol Bordello - Start Wearing Purple! on Metacafe](http://www.metacafe.com/watch/1441614/gogol_bordello_start_wearing_purple/)
 
 **Shared with:** Public
-

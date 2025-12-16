@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "government", "humor"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ The problem here is that Limbaugh enjoys having his pants on fire.
 - [Limbaugh: Lack of major hurricanes disproves climate change](http://www.politifact.com/punditfact/statements/2016/oct/07/rush-limbaugh/rush-limbaugh-wrong-lack-hurricanes-diminishes-cli/)
 
 **Shared with:** Public
-

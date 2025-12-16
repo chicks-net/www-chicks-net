@@ -20,4 +20,3 @@ This is a great design even if a bit pricey.
 - [Small form factor hardware comes pre-loaded with Linux Mint | ExtremeTech](http://www.extremetech.com/computing/131176-hardware-comes-pre-loaded-with-linux-mint)
 
 **Shared with:** Public
-

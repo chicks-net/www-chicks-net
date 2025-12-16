@@ -1,5 +1,5 @@
 +++
-title = "If you want your answers to today's key science questions spend more time..."
+title = "If you want your answers to today's key science questions spend more time watching cartoons."
 date = "2015-03-05T14:54:35Z"
 draft = false
 # description = "If you want your answers to today's key science questions spend more time watching cartoons."
@@ -20,4 +20,3 @@ If you want your answers to today's key science questions spend more time watchi
 - [Homer Simpson predicted the Higgs boson theory 14 years in advance – Science author claims](http://www.benchmarkreporter.com/homer-simpson-predicted-the-higgs-boson-theory-14-years-in-advance-science-author-claims/1074/)
 
 **Shared with:** Public
-

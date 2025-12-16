@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["cloud", "google-plus"]
+tags = ["cloud", "google-plus", "amazon"]
 # ShowToc = false
 +++
 
@@ -20,4 +20,3 @@ Or just run the other way.
 - [AWS Tips I Wish I'd Known Before I Started - W(e)blinks](https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
 
 **Shared with:** Public
-

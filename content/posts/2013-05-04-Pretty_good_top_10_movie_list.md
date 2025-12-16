@@ -17,7 +17,9 @@ tags = ["google-plus"]
 
 ---
 
-Pretty good top 10 movie listMarmion Way, Los Angeles, California
+Pretty good top 10 movie list
+
+Marmion Way, Los Angeles, California
 
 ## Images
 
@@ -31,13 +33,7 @@ Pretty good top 10 movie listMarmion Way, Los Angeles, California
 
 **Paul Fernandez** - 2013-05-04T16:16:27Z
 
-I am glad to see Frost/Nixon is on that list!  I must've watched that half a dozen times.
+I am glad to see Frost/Nixon is on that list!  I must've watched that half a
+dozen times.
 
 ---
-
-**Paul Fernandez** - 2013-05-04T16:16:27Z
-
-I am glad to see Frost/Nixon is on that list!  I must've watched that half a dozen times.
-
----
-

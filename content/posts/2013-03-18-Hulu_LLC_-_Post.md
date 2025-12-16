@@ -1,5 +1,5 @@
 +++
-title = "Hulu LLC Address: 12312 West Olympic Boulevard, Lo..."
+title = "Hulu LLC 12312 West Olympic Boulevard"
 date = "2013-03-18T19:21:32Z"
 draft = false
 # description = "Hulu LLC Address: 12312 West Olympic Boulevard, Los Angeles, CA, United States"
@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "us-los-angeles"]
 # ShowToc = false
 +++
 
@@ -23,4 +23,3 @@ Address: 12312 West Olympic Boulevard, Los Angeles, CA, United States
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

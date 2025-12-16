@@ -1,5 +1,5 @@
 +++
-title = "AWS continues to lead the industry in demonstrating that selling snake oil wi..."
+title = "AWS continues to lead the industry in selling snake oil"
 date = "2016-11-20T00:39:21Z"
 draft = false
 # description = "AWS continues to lead the industry in demonstrating that selling snake oil with conferences and tech lofts is the way to make big bucks."
@@ -13,11 +13,11 @@ tags = ["cloud", "google-plus"]
 # ShowToc = false
 +++
 
-AWS continues to lead the industry in demonstrating that selling snake oil with conferences and tech lofts is the way to make big bucks.
+AWS continues to lead the industry in demonstrating that selling snake oil with
+conferences and tech lofts is the way to make big bucks.
 
 ## Links
 
 - [Google Cloud is 50% cheaper than AWS](https://thehftguy.wordpress.com/2016/11/18/google-cloud-is-50-cheaper-than-aws/)
 
 **Shared with:** Public
-

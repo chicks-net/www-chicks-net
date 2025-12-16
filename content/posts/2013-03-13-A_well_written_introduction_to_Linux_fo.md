@@ -22,4 +22,3 @@ A well written introduction to Linux for small business.
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-

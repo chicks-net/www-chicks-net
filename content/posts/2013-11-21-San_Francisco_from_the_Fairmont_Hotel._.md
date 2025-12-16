@@ -9,11 +9,13 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-san-francisco"]
 # ShowToc = false
 +++
 
-San Francisco from the Fairmont Hotel.  The view of the Coit Tower was also excellent.  The whole day before this had been rainy and dreary so it was stunning that the sun came out so quickly.
+San Francisco from the Fairmont Hotel.  The view of the Coit Tower was also
+excellent.  The whole day before this had been rainy and dreary so it was
+stunning that the sun came out so quickly.
 
 ## Images
 
@@ -24,12 +26,6 @@ San Francisco from the Fairmont Hotel.  The view of the Coit Tower was also exc
 **+1'd by:** Paul Fernandez
 
 ## Comments
-
-**Paul Fernandez** - 2013-11-21T21:11:11Z
-
-That's a FANTASTIC shot!  I wish I could +5 it! :D
-
----
 
 **Paul Fernandez** - 2013-11-21T21:11:11Z
 
@@ -66,4 +62,3 @@ Whaaaa?!  That makes it even more impressive! :)I'm shocked you're not rocking 
 My t-mobile phone is the +Nexus 4 which is fabulous.  But I might get a Nexus 5 for Christmas.  Hopefully Verizon will relax their locking policies soon so I can get the Nexus Experience on my S4.
 
 ---
-

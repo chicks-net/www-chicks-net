@@ -13,12 +13,14 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-It is funny that this happens a week before http://bleedingedgedoc.com/ is released.  Thanks to everyone who advocated for this.
+Washington Post headline: **Sales of Essure birth control implant to be halted by Bayer; U.S. last to sell controversial device**
+
+It is funny that this happens a week before <http://bleedingedgedoc.com/> is
+released.  Thanks to everyone who advocated for this.
 
 ## Links
 
 - [http://bleedingedgedoc.com/](http://bleedingedgedoc.com/)
-- [washingtonpost](https://wapo.st/2mtZzzw?tid=ss_gp&utm_term=.464d23d342e3)
+- [Washington Post article](https://wapo.st/2mtZzzw?tid=ss_gp&utm_term=.464d23d342e3) Sales of Essure birth control implant to be halted by Bayer; U.S. last to sell controversial device
 
 **Shared with:** Public
-

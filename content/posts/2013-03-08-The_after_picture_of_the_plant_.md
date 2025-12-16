@@ -1,5 +1,5 @@
 +++
-title = "The after picture of the plant."
+title = "The after picture of the Jan's plant."
 date = "2013-03-09T00:29:56Z"
 draft = false
 # description = "The after picture of the plant."
@@ -26,4 +26,3 @@ The after picture of the plant.
 **Shared with:** Public
 
 **+1'd by:** Todd Stein, Paul Fernandez
-

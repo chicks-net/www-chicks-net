@@ -28,10 +28,3 @@ Apparently the USC news crew is a tad sassy!  I like it.
 I want the 3 minutes that it took me to read that back.
 
 ---
-
-**Paul Fernandez** - 2013-04-02T23:31:14Z
-
-I want the 3 minutes that it took me to read that back.
-
----
-

@@ -13,7 +13,10 @@ tags = ["google-plus"]
 # ShowToc = false
 +++
 
-I was there for a meetup but the only folks I found were Natalie and Hoan.  We had a nice time hanging out and catching up.  The "dye" ended up being unpleasant to breath so we ended up being the cleanest people there.  We did the whole 5k, but we skipped some of the dye stops.
+I was there for a meetup but the only folks I found were Natalie and Hoan.  We
+had a nice time hanging out and catching up.  The "dye" ended up being
+unpleasant to breath so we ended up being the cleanest people there.  We did
+the whole 5k, but we skipped some of the dye stops.
 
 ## Images
 
@@ -44,10 +47,3 @@ I was there for a meetup but the only folks I found were Natalie and Hoan.  We 
 Now with video
 
 ---
-
-**Christopher Hicks** - 2013-03-10T05:08:27Z
-
-Now with video
-
----
-

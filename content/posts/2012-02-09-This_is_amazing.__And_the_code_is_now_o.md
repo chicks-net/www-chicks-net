@@ -13,7 +13,8 @@ tags = ["free-software", "google-plus"]
 # ShowToc = false
 +++
 
-This is amazing.  And the code is now open sourced http://code.google.com/p/sixthsense/  Has anyone played with this?
+This is amazing.  And the code is now open sourced
+<http://code.google.com/p/sixthsense/>  Has anyone played with this?
 
 ## Video
 
@@ -24,4 +25,3 @@ This is amazing.  And the code is now open sourced http://code.google.com/p/sixt
 - [http://code.google.com/p/sixthsense/](http://code.google.com/p/sixthsense/)
 
 **Shared with:** Public
-

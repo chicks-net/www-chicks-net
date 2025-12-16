@@ -1,5 +1,5 @@
 +++
-title = "After the recent spat of Linux is the Devil articles it is shocking to see so..."
+title = "After the recent spat of Linux is the Devil articles it is shocking to see something that gets it right."
 date = "2014-09-11T16:49:07Z"
 draft = false
 # description = "After the recent spat of Linux is the Devil articles it is shocking to see something that gets it right."
@@ -13,11 +13,11 @@ tags = ["google-plus", "linux"]
 # ShowToc = false
 +++
 
-After the recent spat of Linux is the Devil articles it is shocking to see something that gets it right.
+After the recent spat of Linux is the Devil articles it is shocking to see
+something that gets it right.
 
 ## Links
 
 - [Top Linux Myths Dispelled  - Datamation](http://www.datamation.com/open-source/top-linux-myths-dispelled-1.html)
 
 **Shared with:** Public
-

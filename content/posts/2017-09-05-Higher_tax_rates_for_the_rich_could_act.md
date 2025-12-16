@@ -1,5 +1,5 @@
 +++
-title = "Higher tax rates for the rich could actually make the world a better place. ..."
+title = "Higher tax rates for the rich could actually make the world a better place."
 date = "2017-09-05T13:00:12Z"
 draft = false
 # description = "Higher tax rates for the rich could actually make the world a better place.  See the charts to prove it..."
@@ -9,11 +9,12 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "government"]
 # ShowToc = false
 +++
 
-Higher tax rates for the rich could actually make the world a better place.  See the charts to prove it...
+Higher tax rates for the rich could actually make the world a better place.
+See the charts to prove it...
 
 ## Links
 
@@ -34,4 +35,3 @@ Awesome graphs!
 Awesome graphs!
 
 ---
-

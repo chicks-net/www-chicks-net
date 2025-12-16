@@ -9,7 +9,7 @@ ShowCanonicalLink = true
 cover.hidden = true
 # author = "Christopher Hicks"
 # keywords = ["google-plus", "archive"]
-tags = ["google-plus"]
+tags = ["google-plus", "ca-san-francisco"]
 # ShowToc = false
 +++
 
@@ -36,4 +36,3 @@ Oakland is under-rated.
 **Shared with:** Public
 
 **+1'd by:** Scott Francis
-

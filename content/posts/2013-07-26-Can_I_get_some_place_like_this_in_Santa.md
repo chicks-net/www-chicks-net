@@ -2,7 +2,6 @@
 title = "Can I get some place like this in Santa Monica?"
 date = "2013-07-26T13:24:32Z"
 draft = false
-# description = "Can I get some place like this in Santa Monica?"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/UQWzUF8h356"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -22,4 +21,3 @@ Can I get some place like this in Santa Monica?
 **Shared with:** Public
 
 **+1'd by:** Paul Fernandez
-
