@@ -21,6 +21,21 @@
       <description>Conversion of linked-in share into blog entry</description>
     </item>
     <item>
+      <title>So, linked-in is using cfengine and svn this year, right now, in 2014. Consi...</title>
+      <link>https://www.chicks.net/posts/2014-07-06-so_linked-in_is_using_cfengine_and_svn/</link>
+      <pubDate>Sun, 06 Jul 2014 14:19:20 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-07-06-so_linked-in_is_using_cfengine_and_svn/</guid>
+      <description>&lt;p&gt;So, linked-in is using &lt;code&gt;cfengine&lt;/code&gt; and &lt;code&gt;svn&lt;/code&gt; this year, right now, in 2014.
+Consider that &lt;code&gt;git&lt;/code&gt; has been release quality for nine years this December.   If
+they replaced &lt;code&gt;svn&lt;/code&gt; with &lt;code&gt;git&lt;/code&gt;, which is a no brainer, then maybe they could
+appreciate how painful &lt;code&gt;cfengine&lt;/code&gt; is.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/articles/virtual-panel-cfg-mgmt-tools-real-world&#34;&gt;Virtual Panel: Configuration Management Tools in the Real World&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Linked-in endorsements are a handy easy button.</title>
       <link>https://www.chicks.net/posts/2013-03-27_114616_linkedin/</link>
       <pubDate>Wed, 27 Mar 2013 11:46:16 +0000</pubDate>
