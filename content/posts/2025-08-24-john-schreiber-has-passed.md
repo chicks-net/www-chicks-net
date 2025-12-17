@@ -2,7 +2,7 @@
 title = 'John Schreiber passed on July 29th, 2025'
 date = 2025-08-22
 draft = false
-description = 'Rembrances were held on Saturday 30 July 2025.'
+description = 'Rembrances were held on Saturday 23 August 2025.'
 canonicalURL = 'https://www.linkedin.com/posts/chicks2fini_john-schreiber-passed-on-july-29th-2025-activity-7364745118475587584-Atng?utm_source=share&utm_medium=member_desktop&rcm=ACoAAANM42UBeRnJ7AwUnM22SEnxPP-5lvVGyBE'
 ShowCanonicalLink = true
 cover.hidden = true
