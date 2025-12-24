@@ -42,7 +42,7 @@ I dunno... looking at the graphs on the page, PHP has more commits than Perl
 and significantly less anger. :) Just saying.
 
 Though looking at the max of commits and min of anger, looks like Ruby wins
-that trophy. 
+that trophy.
 
 This isn't to say any of the two languages I noted are better or worse in any
 way, just a commentary on the graphs. :)

@@ -85,18 +85,18 @@ Lots of good information in one place.
 >    on this quite a bit. Here is a short list of what can be collected
 >    repeatedly and what cannot:
 >
-> - Embassy Expansion Bonus: Can only be collected once (post only one)
+>     - Embassy Expansion Bonus: Can only be collected once (post only one)
 >
-> (EDIT: There seems to be a bug and certain bonuses can be recollected while
-> other times they can not. Further testing will be done to validate this
-> behavior.)
+>     (EDIT: There seems to be a bug and certain bonuses can be recollected while
+>     other times they can not. Further testing will be done to validate this
+>     behavior.)
 >
-> - Trade/Culture/War: Each can be collected once (post one of each)
-> - Assisting with Goods: One click per person (post the one you need the most)
-> - Assisting with Wonders: 30 per day regardless of who asks for it (post them all)
-> - (Note: unless is a multi-part wonder, in which case you can help in every phase, even if you have already helped 30 people!)
-> - Collecting Gifts: Unlimited, but repeat gifts will not be collected (post them all)
-> - Achievement Bonuses: Unlimited (post them all)
+>     - Trade/Culture/War: Each can be collected once (post one of each)
+>     - Assisting with Goods: One click per person (post the one you need the most)
+>     - Assisting with Wonders: 30 per day regardless of who asks for it (post them all)
+>     - (Note: unless is a multi-part wonder, in which case you can help in every phase, even if you have already helped 30 people!)
+>     - Collecting Gifts: Unlimited, but repeat gifts will not be collected (post them all)
+>     - Achievement Bonuses: Unlimited (post them all)
 >
 > 6. NO MORE GOODS POP-UPS!: (This one courtesy of +Chris Nichols ! Thanks!) I
 >    know some of you have experienced this already. You go to collect your
