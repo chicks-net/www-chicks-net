@@ -17,31 +17,31 @@ We had a fun weekend with Natalie, Hoan + crew.  A short trip to get groceries 
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84ibk5b0y.jpg)
+![Image](/posts/2015-05-10-1ape84ibk5b0y.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84glelmle.jpg)
+![Image](/posts/2015-05-10-1ape84glelmle.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84i2bqdmq.jpg)
+![Image](/posts/2015-05-10-1ape84i2bqdmq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84gqoz142.jpg)
+![Image](/posts/2015-05-10-1ape84gqoz142.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84h915pki.jpg)
+![Image](/posts/2015-05-10-1ape84h915pki.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84ggjibxe.jpg)
+![Image](/posts/2015-05-10-1ape84ggjibxe.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84i0rr64y.jpg)
+![Image](/posts/2015-05-10-1ape84i0rr64y.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84gpsxltu.jpg)
+![Image](/posts/2015-05-10-1ape84gpsxltu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84hc0pgc2.jpg)
+![Image](/posts/2015-05-10-1ape84hc0pgc2.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84h35t8yq.jpg)
+![Image](/posts/2015-05-10-1ape84h35t8yq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84h6hsic2.jpg)
+![Image](/posts/2015-05-10-1ape84h6hsic2.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84hl23tsy.jpg)
+![Image](/posts/2015-05-10-1ape84hl23tsy.jpg)
 
-![Image](../Photos/Photos%20from%20posts/El%20Capitan%202015/1ape84go7fev6.jpg)
+![Image](/posts/2015-05-10-1ape84go7fev6.jpg)
 
 **Shared with:** Public
 

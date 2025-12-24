@@ -16,38 +16,38 @@ behind Jo's house
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whyj1p0cl8y.jpg)
+![Image](/posts/2011-11-04-16whyj1p0cl8y.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16wi09zmogmpu.jpg)
+![Image](/posts/2011-11-04-16wi09zmogmpu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whylbycxio2.jpg)
+![Image](/posts/2011-11-04-16whylbycxio2.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16wi0bcqcy0ki.jpg)
+![Image](/posts/2011-11-04-16wi0bcqcy0ki.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whylwcz5zlu.jpg)
+![Image](/posts/2011-11-04-16whylwcz5zlu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whymr2ulcsi.jpg)
+![Image](/posts/2011-11-04-16whymr2ulcsi.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whyqldcmbgi.jpg)
+![Image](/posts/2011-11-04-16whyqldcmbgi.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whyno1bhhxu.jpg)
+![Image](/posts/2011-11-04-16whyno1bhhxu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whypa5npieq.jpg)
+![Image](/posts/2011-11-04-16whypa5npieq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whz1rjouupu.jpg)
+![Image](/posts/2011-11-04-16whz1rjouupu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whyugduhcqq.jpg)
+![Image](/posts/2011-11-04-16whyugduhcqq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whyt21kykbm.jpg)
+![Image](/posts/2011-11-04-16whyt21kykbm.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whywlsmrr1u.jpg)
+![Image](/posts/2011-11-04-16whywlsmrr1u.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whz1dserr1u.jpg)
+![Image](/posts/2011-11-04-16whz1dserr1u.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whyxwbma7aa.jpg)
+![Image](/posts/2011-11-04-16whyxwbma7aa.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/16whyzb2mdsf6.jpg)
+![Image](/posts/2011-11-04-16whyzb2mdsf6.jpg)
 
-![Image](../Photos/Photos%20from%20posts/pretty/1734qzicglvia.jpg)
+![Image](/posts/2011-11-04-1734qzicglvia.jpg)
 
 **Shared with:** Public

@@ -59,6 +59,6 @@ Via +Annie Jennings.  This is sweet on so many levels.  ~~waaaa!~~
 
 ## Images
 
-![Image](https://lh5.googleusercontent.com/-NJeEr81r3Qg/TmuOZmRPieI/AAAAAAAAqME/ppJ7R1JhXkA/w288-h288/Picture%2B9_8.png)
+![Image](/posts/2011-09-10-Picture%2B9_8.png)
 
 **Shared with:** Public

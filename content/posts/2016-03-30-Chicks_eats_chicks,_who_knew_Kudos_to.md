@@ -2,7 +2,6 @@
 title = "Chicks eats chicks, who knew?"
 date = "2016-03-30T14:46:52Z"
 draft = false
-# description = "Chicks eats chicks, who knew?  Kudos to +Theresa Schreiber, our divine Princess of Amazing Cookies."
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/B1i8HD3ARZe"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -15,11 +14,12 @@ tags = ["google-plus", "eating"]
 
 Chicks eats chicks, who knew?
 
-Kudos to +Theresa Schreiber, our divine Princess of Amazing Cookies.
+Kudos to +[Theresa Schreiber](https://plus.google.com/100436374775449706710),
+our divine Princess of Amazing Cookies.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/3-30-16/1bmbtx6krbn9u.jpg)
+![Image](/posts/2016-03-30-1bmbtx6krbn9u.jpg)
 
 **Shared with:** Public, Theresa Sawyer
 

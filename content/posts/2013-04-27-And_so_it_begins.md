@@ -2,7 +2,6 @@
 title = "And so it begins"
 date = "2013-04-27T23:30:34Z"
 draft = false
-# description = "And so it beginsE Bastanchury Rd, Fullerton, California"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/ECckXme2YUF"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -15,11 +14,12 @@ tags = ["google-plus"]
 
 **Location:** E Bastanchury Rd, Fullerton, California
 
-And so it begins
+And so it begins [E Bastanchury Rd, Fullerton,
+California](https://www.google.com/maps/search/?api=1&query=33.894071,%20-117.88374)
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/4-27-13/18lyuetvhhg9e.jpg)
+![Image](/posts/2013-04-27-18lyuetvhhg9e.jpg)
 
 ## Links
 
@@ -37,13 +37,17 @@ We still haven't cracked the plastic on Power Grid, but playing Munchkin, Cards
 Against Humanity, and Arkham Horror all in one evening is not too shabby.  I
 ended up napping through the last hour of Arkham, but they say they beat it.
  The only thing that was suspicious was that the game was all packed up when I
-awoke.  ;)  Thanks to +Todd Stein +Paul Fernandez and +Scott Johnson for an
-awesome Saturday.
+awoke.  ;)  Thanks to + [Todd
+Stein](https://plus.google.com/116599377175135138184) + [Paul
+Fernandez](https://plus.google.com/100492069177285351949) and + [Scott
+Johnson](https://plus.google.com/106527897953363999449) for an awesome
+Saturday.
 
 ---
 
 **Christopher Hicks** - 2013-04-28T09:48:52Z
 
-<http://ecx.images-amazon.com/images/I/C1bW5kBB7-S.pdf> for the Arkham Horror rules.
+<http://ecx.images-amazon.com/images/I/C1bW5kBB7-S.pdf> for the Arkham Horror
+rules.
 
 ---

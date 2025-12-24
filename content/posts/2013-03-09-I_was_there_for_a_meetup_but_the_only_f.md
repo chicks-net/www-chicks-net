@@ -20,27 +20,33 @@ the whole 5k, but we skipped some of the dye stops.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvr02kprxe.jpg)
+![Image](/posts/2013-03-09-18gzvr02kprxe.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqz4car82.jpg)
+![Image](/posts/2013-03-09-18gzvqz4car82.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqzpan8nm.jpg)
+![Image](/posts/2013-03-09-18gzvqzpan8nm.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqygv2m6q.jpg)
+![Image](/posts/2013-03-09-18gzvqygv2m6q.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqzlt9cxu.jpg)
+![Image](/posts/2013-03-09-18gzvqzlt9cxu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqyk0s5aq.jpg)
+![Image](/posts/2013-03-09-18gzvqyk0s5aq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqze4i0hu.jpg)
+![Image](/posts/2013-03-09-18gzvqze4i0hu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqz0w53le.jpg)
+![Image](/posts/2013-03-09-18gzvqz0w53le.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Run%20Or%20Dye%20-%209%20March%202013/18gzvqzhzqw7m.jpg)
+![Image](/posts/2013-03-09-18gzvqzhzqw7m.jpg)
 
 **Shared with:** Public
 
 ## Comments
+
+**Christopher Hicks** - 2013-03-10T05:08:27Z
+
+Now with video
+
+---
 
 **Christopher Hicks** - 2013-03-10T05:08:27Z
 

@@ -22,7 +22,7 @@ I'm a noob again too since I learned several things from this.  Enjoy.
 
 ## Images
 
-![Image](https://lh6.googleusercontent.com/-AS2rB1iABUY/Thdh5gQkX1I/AAAAAAAAAZk/PTD45GT5ufk/w288-h288/google-plus-cheat-sheet.jpg)
+![Image](/posts/2011-09-02-google-plus-cheat-sheet.jpg)
 
 **Shared with:** Public
 

@@ -17,6 +17,6 @@ Rain and a rainbow in Pasadena the evening before a Blue Moon.  Wow.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/8-30-12/17xmeju15yl36.jpg)
+![Image](/posts/2012-08-30-17xmeju15yl36.jpg)
 
 **Shared with:** Public

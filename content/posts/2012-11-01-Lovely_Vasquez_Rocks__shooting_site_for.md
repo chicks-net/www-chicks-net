@@ -17,42 +17,42 @@ Lovely Vasquez Rocks: shooting site for Star Trek and many other things
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3ui6c0yq.jpg)
+![Image](/posts/2012-11-01-183zw3ui6c0yq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3tsew7n6.jpg)
+![Image](/posts/2012-11-01-183zw3tsew7n6.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3t56jt9u.jpg)
+![Image](/posts/2012-11-01-183zw3t56jt9u.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3tt64b4y.jpg)
+![Image](/posts/2012-11-01-183zw3tt64b4y.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3t981j3m.jpg)
+![Image](/posts/2012-11-01-183zw3t981j3m.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3tlvm2zm.jpg)
+![Image](/posts/2012-11-01-183zw3tlvm2zm.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3t0tors2.jpg)
+![Image](/posts/2012-11-01-183zw3t0tors2.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3tjaxp2q.jpg)
+![Image](/posts/2012-11-01-183zw3tjaxp2q.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3t6nvk02.jpg)
+![Image](/posts/2012-11-01-183zw3t6nvk02.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3up2l1j6.jpg)
+![Image](/posts/2012-11-01-183zw3up2l1j6.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3uelio8i.jpg)
+![Image](/posts/2012-11-01-183zw3uelio8i.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3sz5ec6q.jpg)
+![Image](/posts/2012-11-01-183zw3sz5ec6q.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3tfzm4cy.jpg)
+![Image](/posts/2012-11-01-183zw3tfzm4cy.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3tsd8j42.jpg)
+![Image](/posts/2012-11-01-183zw3tsd8j42.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3u1q70pe.jpg)
+![Image](/posts/2012-11-01-183zw3u1q70pe.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3u9ekqmq.jpg)
+![Image](/posts/2012-11-01-183zw3u9ekqmq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3t2sp0tu.jpg)
+![Image](/posts/2012-11-01-183zw3t2sp0tu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3u582qrm.jpg)
+![Image](/posts/2012-11-01-183zw3u582qrm.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Vasquez%20Rocks/183zw3t7fnhpe.jpg)
+![Image](/posts/2012-11-01-183zw3t7fnhpe.jpg)
 
 **Shared with:** Public

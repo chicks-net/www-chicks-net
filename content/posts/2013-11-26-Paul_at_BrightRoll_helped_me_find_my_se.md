@@ -17,7 +17,7 @@ Paul at BrightRoll helped me find my secret card!
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/11-26-13/197lfp0lmc44y.jpg)
+![Image](/posts/2013-11-26-197lfp0lmc44y.jpg)
 
 **Shared with:** Public
 

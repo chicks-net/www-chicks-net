@@ -2,7 +2,6 @@
 title = "Pretty good top 10 movie list"
 date = "2013-05-04T14:57:19Z"
 draft = false
-# description = "Pretty good top 10 movie listMarmion Way, Los Angeles, California"
 canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/RYSjkPLHDih"
 ShowCanonicalLink = true
 # cover.image = "/posts/"
@@ -17,13 +16,11 @@ tags = ["google-plus"]
 
 ---
 
-Pretty good top 10 movie list
-
-Marmion Way, Los Angeles, California
+Pretty good top 10 movie list [Marmion Way, Los Angeles, California](https://www.google.com/maps/search/?api=1&query=34.113989,%20-118.18402999999998)
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/5-4-13/18mn4aoflc8le)
+![Image](/posts/2013-05-04-18mn4aoflc8le)
 
 **Shared with:** Public
 

@@ -19,7 +19,7 @@ stunning that the sun came out so quickly.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/2013-11-21/1971bnlol8nwi.jpg)
+![Image](/posts/2013-11-21-1971bnlol8nwi.jpg)
 
 **Shared with:** Public, Nexus 4
 
@@ -47,18 +47,24 @@ Which camera are you using, again?  Samsung, right?
 
 **Christopher Hicks** - 2013-11-22T02:41:41Z
 
-That was taken with my Samsung S4 phone.  I haven't been playing with the NX1000 since I've been in Oakland.
+That was taken with my Samsung S4 phone.  I haven't been playing with the
+NX1000 since I've been in Oakland.
 
 ---
 
 **Paul Fernandez** - 2013-11-22T02:44:26Z
 
-Whaaaa?!  That makes it even more impressive! :)I'm shocked you're not rocking a Nexus 5 phone.
+Whaaaa?!  That makes it even more impressive! :)
+
+I'm shocked you're not rocking a Nexus 5 phone.
 
 ---
 
 **Christopher Hicks** - 2013-11-22T14:20:18Z
 
-My t-mobile phone is the +Nexus 4 which is fabulous.  But I might get a Nexus 5 for Christmas.  Hopefully Verizon will relax their locking policies soon so I can get the Nexus Experience on my S4.
+My t-mobile phone is the + [Nexus
+4](https://plus.google.com/100197618630018170541) which is fabulous.  But I
+might get a Nexus 5 for Christmas.  Hopefully Verizon will relax their locking
+policies soon so I can get the Nexus Experience on my S4.
 
 ---

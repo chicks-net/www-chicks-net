@@ -37,4 +37,6 @@ running. Make the most of today.
 
 ## Images
 
+![Image](/posts/2011-11-21-photo.jpg)
+
 **Shared with:** Public

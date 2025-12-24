@@ -17,21 +17,21 @@ Oakland is under-rated.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/1911mic8671rm.jpg)
+![Image](/posts/2013-09-23-1911mic8671rm.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/1911m5456bk82.jpeg)
+![Image](/posts/2013-09-23-1911m5456bk82.jpeg)
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/1911midpr91v6.jpg)
+![Image](/posts/2013-09-23-1911midpr91v6.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/19soova8oheqa.jpg)
+![Image](/posts/2013-09-23-19soova8oheqa.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/19soov8ohb5zm.jpg)
+![Image](/posts/2013-09-23-19soov8ohb5zm.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/19soov9ra1caq.jpg)
+![Image](/posts/2013-09-23-19soov9ra1caq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/1aa9r2t57v4yq.jpg)
+![Image](/posts/2013-09-23-1aa9r2t57v4yq.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Oakland%20ftw/1aa9rashwksde.jpg)
+![Image](/posts/2013-09-23-1aa9rashwksde.jpg)
 
 **Shared with:** Public
 

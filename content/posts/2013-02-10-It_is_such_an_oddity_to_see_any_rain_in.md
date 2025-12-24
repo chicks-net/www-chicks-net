@@ -20,13 +20,13 @@ random people are coming up to me and saying, "hey, do you see the rainbow!"
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/Highland%20Park%20Double%20Rainbow%2010%20Feb%202013/18e7t4pf9akxu.jpg)
+![Image](/posts/2013-02-10-18e7t4pf9akxu.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Highland%20Park%20Double%20Rainbow%2010%20Feb%202013/18e7t4ql05zg2.jpg)
+![Image](/posts/2013-02-10-18e7t4ql05zg2.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Highland%20Park%20Double%20Rainbow%2010%20Feb%202013/18e7t4qe3t036.jpg)
+![Image](/posts/2013-02-10-18e7t4qe3t036.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Highland%20Park%20Double%20Rainbow%2010%20Feb%202013/18e7t4q1upj5e.jpg)
+![Image](/posts/2013-02-10-18e7t4q1upj5e.jpg)
 
 **Shared with:** Public
 

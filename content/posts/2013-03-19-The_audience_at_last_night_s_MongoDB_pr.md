@@ -18,11 +18,11 @@ is on the left.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/chicks%20around%20the%20world/18embr2cyq2aq.JPG)
+![Image](/posts/2013-03-19-18embr2cyq2aq.JPG)
 
-![Image](../Photos/Photos%20from%20posts/chicks%20around%20the%20world/18gerkfpxgt9u.jpg)
+![Image](/posts/2013-03-19-18gerkfpxgt9u.jpg)
 
-![Image](../Photos/Photos%20from%20posts/chicks%20around%20the%20world/18hykq3u787eq.jpeg)
+![Image](/posts/2013-03-19-18hykq3u787eq.jpeg)
 
 **Shared with:** Public
 

@@ -14,16 +14,17 @@ tags = ["google-plus", "perl", "programming"]
 +++
 
 Perl is the least frustrating language in the universe.  Here's the science.
- Now why don't people spend more time with languages that make them happier?
+Now why don't people spend more time with languages that make them happier?
 
 ## Originally shared by ThisIsWhyICode
 
 Anger in GitHub Commit Messages
-Source: <http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/>
+Source: <http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/> [Anger in GitHub Commit Messages
+Source: http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/ #VimL](https://lh6.googleusercontent.com/-XnbOOkWYMBE/UzWHcIFs57I/AAAAAAAACyc/p-PIhF6Wp38/w800-h600/commit-messages-anger-percentage.png)
 
 ## Images
 
-![Image](https://lh6.googleusercontent.com/-XnbOOkWYMBE/UzWHcIFs57I/AAAAAAAACyc/p-PIhF6Wp38/w800-h600/commit-messages-anger-percentage.png)
+![Image](/posts/2015-02-06-commit-messages-anger-percentage.png)
 
 ## Links
 
@@ -38,28 +39,23 @@ Source: <http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit
 **Wing Wong** - 2015-02-07T21:00:04Z
 
 I dunno... looking at the graphs on the page, PHP has more commits than Perl
-and significantly less anger. :) Just saying.Though looking at the max of
-commits and min of anger, looks like Ruby wins that trophy. This isn't to say
-any of the two languages I noted are better or worse in any way, just a
-commentary on the graphs. :)Side note, what's VIML? It seems to take the crown
-in most commits and least anger.
+and significantly less anger. :) Just saying.
 
----
+Though looking at the max of commits and min of anger, looks like Ruby wins
+that trophy. 
 
-**Wing Wong** - 2015-02-07T21:00:04Z
+This isn't to say any of the two languages I noted are better or worse in any
+way, just a commentary on the graphs. :)
 
-I dunno... looking at the graphs on the page, PHP has more commits than Perl
-and significantly less anger. :) Just saying.Though looking at the max of
-commits and min of anger, looks like Ruby wins that trophy. This isn't to say
-any of the two languages I noted are better or worse in any way, just a
-commentary on the graphs. :)Side note, what's VIML? It seems to take the crown
-in most commits and least anger.
+Side note, what's VIML? It seems to take the crown in most commits and least
+anger.
 
 ---
 
 **Christopher Hicks** - 2015-02-09T00:50:55Z
 
-I was curious about VIML too.  It appears to be, much to my surprise, vim's scripting language.
+I was curious about VIML too.  It appears to be, much to my surprise, vim's
+scripting language.
 
 ---
 

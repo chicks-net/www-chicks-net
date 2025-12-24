@@ -17,6 +17,6 @@ It was a bit chilly in Santa Monica, but our dinner at Fig was incredible.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/5-26-12/17nvve40qhwaa.jpg)
+![Image](/posts/2012-05-26-17nvve40qhwaa.jpg)
 
 **Shared with:** Public

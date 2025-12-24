@@ -17,7 +17,7 @@ Casual day in the Bay Area.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/2015-01-18/1ady8uodxeeoi.jpg)
+![Image](/posts/2015-01-18-1ady8uodxeeoi.jpg)
 
 **Shared with:** Public
 

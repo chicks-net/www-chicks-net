@@ -31,7 +31,7 @@ In 2013, Europeans rated Germany most trustworthy but also least compassionate
 
 ## Images
 
-![Image](https://lh3.googleusercontent.com/-sndW20HBDTw/VPPEnIu3n7I/AAAAAAACDFc/kJ9GVf4G5H0/w1190-h548/783-18807210ba0782624cf78fadabaa10c1.png)
+![Image](/posts/2015-03-02-783-18807210ba0782624cf78fadabaa10c1.png)
 
 ## Links
 

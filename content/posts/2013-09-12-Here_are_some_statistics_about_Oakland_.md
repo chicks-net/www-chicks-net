@@ -16,7 +16,7 @@ Here are some statistics about Oakland you might like to know.  :)
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/2013-09-12/18zypz3bl35v6.jpg)
+![Image](/posts/2013-09-12-18zypz3bl35v6.jpg)
 
 **Shared with:** Public
 

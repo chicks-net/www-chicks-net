@@ -17,11 +17,11 @@ My new desk is pretty cool.
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/Virtu/18nriclptiy7m.jpg)
+![Image](/posts/2013-05-15-18nriclptiy7m.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Virtu/18nricn569h82.jpg)
+![Image](/posts/2013-05-15-18nricn569h82.jpg)
 
-![Image](../Photos/Photos%20from%20posts/Virtu/18nurwzdfm602.jpg)
+![Image](/posts/2013-05-15-18nurwzdfm602.jpg)
 
 ## Links
 
@@ -35,7 +35,17 @@ My new desk is pretty cool.
 
 **Paul Fernandez** - 2013-05-15T18:13:23Z
 
-That is SO badass! Where are you working, exactly?  Geographically, I mean.
+That is SO badass!
+
+Where are you working, exactly?  Geographically, I mean.
+
+---
+
+**Paul Fernandez** - 2013-05-15T18:13:23Z
+
+That is SO badass!
+
+Where are you working, exactly?  Geographically, I mean.
 
 ---
 
@@ -54,8 +64,9 @@ hotel, cross zero streets, and arrive at the office.  Bru-hahahaha!
 
 **Paul Fernandez** - 2013-05-15T18:30:07Z
 
-What?!  That's not allowed! Have you already turned in the keys for your
-apartment?
+What?!  That's not allowed!
+
+Have you already turned in the keys for your apartment?
 
 ---
 
@@ -74,11 +85,13 @@ Still no solid farewell date?  I want to make sure I don't miss the party :)
 **Christopher Hicks** - 2013-05-15T18:57:53Z
 
 We did minigolf.   This Saturday anyone can join me for the pricey train
-ride:  <http://www.meetup.com/Outdoor-Singles/events/118858872/> The next
-weekend is a maker weekend at the cabin up in Arnold.  I'm trying to arrange a
-potluck for Sun 2 Jun.  Natalie may plan something too.I don't know how long I
-will be in the US after that.  My passport is complete and we're working on my
-work permit now.
+ride:  <http://www.meetup.com/Outdoor-Singles/events/118858872/>
+
+The next weekend is a maker weekend at the cabin up in Arnold.  I'm trying to
+arrange a potluck for Sun 2 Jun.  Natalie may plan something too.
+
+I don't know how long I will be in the US after that.  My passport is complete
+and we're working on my work permit now.
 
 ---
 

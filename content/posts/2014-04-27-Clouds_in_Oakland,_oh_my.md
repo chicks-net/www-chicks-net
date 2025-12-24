@@ -17,9 +17,9 @@ Clouds in Oakland, oh my!
 
 ## Images
 
-![Image](../Photos/Photos%20from%20posts/2014-04-27/19mz9yxzeyroy.jpg)
+![Image](/posts/2014-04-27-19mz9yxzeyroy.jpg)
 
-![Image](../Photos/Photos%20from%20posts/2014-04-27/19mz9yxti657m.jpg)
+![Image](/posts/2014-04-27-19mz9yxti657m.jpg)
 
 **Shared with:** Public
 
