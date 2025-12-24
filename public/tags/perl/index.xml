@@ -9,7 +9,7 @@
       <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
       <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
     </image>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.153.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/perl/index.xml" rel="self" type="application/rss+xml" />
@@ -38,12 +38,13 @@
       <pubDate>Fri, 06 Feb 2015 23:56:04 +0000</pubDate>
       <guid>https://www.chicks.net/posts/2015-02-06-perl_is_the_least_frustrating_language_/</guid>
       <description>&lt;p&gt;Perl is the least frustrating language in the universe.  Here&amp;rsquo;s the science.
- Now why don&amp;rsquo;t people spend more time with languages that make them happier?&lt;/p&gt;
+Now why don&amp;rsquo;t people spend more time with languages that make them happier?&lt;/p&gt;
 &lt;h2 id=&#34;originally-shared-by-thisiswhyicode&#34;&gt;Originally shared by ThisIsWhyICode&lt;/h2&gt;
 &lt;p&gt;Anger in GitHub Commit Messages
-Source: &lt;a href=&#34;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&#34;&gt;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&lt;/a&gt;&lt;/p&gt;
+Source: &lt;a href=&#34;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&#34;&gt;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&lt;/a&gt; &lt;a href=&#34;https://lh6.googleusercontent.com/-XnbOOkWYMBE/UzWHcIFs57I/AAAAAAAACyc/p-PIhF6Wp38/w800-h600/commit-messages-anger-percentage.png&#34;&gt;Anger in GitHub Commit Messages
+Source: http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/ #VimL&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
-&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-XnbOOkWYMBE/UzWHcIFs57I/AAAAAAAACyc/p-PIhF6Wp38/w800-h600/commit-messages-anger-percentage.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2015-02-06-commit-messages-anger-percentage.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&#34;&gt;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&lt;/a&gt;&lt;/li&gt;
@@ -53,11 +54,7 @@ Source: &lt;a href=&#34;http://geeksta.net/geeklog/exploring-expressions-emotion
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2015-02-07T21:00:04Z&lt;/p&gt;
 &lt;p&gt;I dunno&amp;hellip; looking at the graphs on the page, PHP has more commits than Perl
-and significantly less anger. :) Just saying.Though looking at the max of
-commits and min of anger, looks like Ruby wins that trophy. This isn&amp;rsquo;t to say
-any of the two languages I noted are better or worse in any way, just a
-commentary on the graphs. :)Side note, what&amp;rsquo;s VIML? It seems to take the crown
-in most commits and least anger.&lt;/p&gt;</description>
+and significantly less anger. :) Just saying.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Perl hate is getting old, but at least some folks are talking sense.</title>
