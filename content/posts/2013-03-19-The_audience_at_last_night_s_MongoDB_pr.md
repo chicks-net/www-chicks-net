@@ -1,0 +1,29 @@
++++
+title = "The audience at last night's MongoDB presentation at Q."
+date = "2013-03-19T11:55:43Z"
+draft = false
+# description = "The audience at last night's MongoDB presentation at Q.  Jorge, the presenter, is on the left."
+canonicalURL = "https://plus.google.com/+ChristopherHicksFINI/posts/SuZNsyCvQks"
+ShowCanonicalLink = true
+# cover.image = "/posts/"
+cover.hidden = true
+# author = "Christopher Hicks"
+# keywords = ["google-plus", "archive"]
+tags = ["google-plus", "training", "ca-los-angeles"]
+# ShowToc = false
++++
+
+The audience at last night's MongoDB presentation at Q.  Jorge, the presenter,
+is on the left.
+
+## Images
+
+![Image](/posts/2013-03-19-18embr2cyq2aq.JPG)
+
+![Image](/posts/2013-03-19-18gerkfpxgt9u.jpg)
+
+![Image](/posts/2013-03-19-18hykq3u787eq.jpeg)
+
+**Shared with:** Public
+
+**+1'd by:** Paul Fernandez, Scott Francis

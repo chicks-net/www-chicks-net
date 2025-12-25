@@ -9,7 +9,7 @@
       <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
       <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
     </image>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.153.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
@@ -33,6 +33,132 @@
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/posts/2025-03-10-review-microservices/</guid>
       <description>Review of Microservices: Pros and Cons article from Ovid</description>
+    </item>
+    <item>
+      <title>Cloudflare: thanks for keeping up the good fight</title>
+      <link>https://www.chicks.net/posts/2017-01-11-@&#43;cloudflare__thanks_for_keeping_up_the/</link>
+      <pubDate>Wed, 11 Jan 2017 15:35:24 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2017-01-11-@&#43;cloudflare__thanks_for_keeping_up_the/</guid>
+      <description>&lt;p&gt;&lt;code&gt;@+Cloudflare&lt;/code&gt;: Thanks for keeping up the good fight.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/cloudflares-transparency-report-for-second-half-2016-and-an-additional-disclosure-for-2013-2/&#34;&gt;Cloudflare’s Transparency Report for Second Half 2016 and an Additional Disclosure for 2013&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public, Cloudflare&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Amazon today announced a new product called simply Product</title>
+      <link>https://www.chicks.net/posts/2016-11-29-amazon_today_announced_a_new_product_ca/</link>
+      <pubDate>Wed, 30 Nov 2016 02:06:06 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2016-11-29-amazon_today_announced_a_new_product_ca/</guid>
+      <description>&lt;p&gt;Amazon today announced a new product called simply Product that will provide a
+consistent API for them to create new products at the whim of product managers
+without requiring any technical assistance or consistency with the laws of
+physics.  With just a few clicks the dollars start pouring in.  The fees for
+this can only be discussed under nondisclosure after you give them copies of
+recent banks statements, but don&amp;rsquo;t let that bother you.  It didn&amp;rsquo;t concern the
+computer press which faithfully reprinted their press release for Product as a
+real article lauding Amazon as the geniuses behind the cloud.  [click]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS continues to lead the industry in selling snake oil</title>
+      <link>https://www.chicks.net/posts/2016-11-19-aws_continues_to_lead_the_industry_in_d/</link>
+      <pubDate>Sun, 20 Nov 2016 00:39:21 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2016-11-19-aws_continues_to_lead_the_industry_in_d/</guid>
+      <description>&lt;p&gt;AWS continues to lead the industry in demonstrating that selling snake oil with
+conferences and tech lofts is the way to make big bucks.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thehftguy.wordpress.com/2016/11/18/google-cloud-is-50-cheaper-than-aws/&#34;&gt;Google Cloud is 50% cheaper than AWS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Akamai leaves us guessing</title>
+      <link>https://www.chicks.net/posts/2016-09-23-hey_&#43;akamai_technologies__no_comment_le/</link>
+      <pubDate>Fri, 23 Sep 2016 19:06:26 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2016-09-23-hey_&#43;akamai_technologies__no_comment_le/</guid>
+      <description>&lt;p&gt;Hey +Akamai Technologies: no comment leaves everyone to jump to their own
+conclusions.  My conclusion is that you have lost your integrity.  Since I
+value my integrity and my vendor&amp;rsquo;s reliability in trying times I won&amp;rsquo;t be
+recommending your services to anyone any longer.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.businessinsider.com/akamai-brian-krebs-ddos-attack-2016-9?op=1&#34;&gt;Akamai kicked journalist Brian Krebs&amp;rsquo; site off its servers after he was hit by a &amp;lsquo;record&amp;rsquo; cyberattack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/briankrebs/status/779111614226239488&#34;&gt;briankrebs on Twitter: &amp;ldquo;Before everyone beats up on Akamai/Prolexic too much, they were providing me service pro bono. So, as I said, I don&amp;rsquo;t fault them at all.&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public, Akamai Technologies&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>distributed.net has been down for a week.</title>
+      <link>https://www.chicks.net/posts/2015-07-16-http_distributed.net_has_been_down_fo/</link>
+      <pubDate>Thu, 16 Jul 2015 20:22:11 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-07-16-http_distributed.net_has_been_down_fo/</guid>
+      <description>&lt;p&gt;distributed.net has been down for a week.  :-(  I hope they can put the pieces back together soon.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://distributed.net&#34;&gt;distributed.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blogs.distributed.net/2015/07/10/04/28/bovine/?utm_campaign=shareaholic&amp;amp;utm_medium=google_plus&amp;amp;utm_source=socialnetwork&#34;&gt;: staff blogs – 2015 – July – 10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>These guys moved to real hardware, it cost them half as much as AWS, and it w...</title>
+      <link>https://www.chicks.net/posts/2015-03-16-these_guys_moved_to_real_hardware_it_c/</link>
+      <pubDate>Mon, 16 Mar 2015 17:07:30 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-03-16-these_guys_moved_to_real_hardware_it_c/</guid>
+      <description>&lt;p&gt;These guys moved to real hardware, it cost them half as much as AWS, and it was
+better in almost every way.  Why is the cloud so popular?  Is it time for
+Netflix to publish another AWS love story?&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://highscalability.com/blog/2015/3/16/how-and-why-swiftype-moved-from-ec2-to-real-hardware.html&#34;&gt;How and Why Swiftype Moved from EC2 to Real Hardware - High Scalability -&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=9212467&#34;&gt;https://news.ycombinator.com/item?id=9212467&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Christopher Hicks&lt;/strong&gt; - 2015-03-16T18:55:38Z&lt;/p&gt;
+&lt;p&gt;good comments in &lt;a href=&#34;https://news.ycombinator.com/item?id=9212467&#34;&gt;https://news.ycombinator.com/item?id=9212467&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Peter Hamilton&lt;/strong&gt; - 2015-03-17T02:33:36Z&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OGR-28 is plugging along.</title>
+      <link>https://www.chicks.net/posts/2015-02-28-ogr-28_is_plugging_along_/</link>
+      <pubDate>Sun, 01 Mar 2015 05:30:11 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-02-28-ogr-28_is_plugging_along_/</guid>
+      <description>&lt;p&gt;OGR-28 is plugging along.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blogs.distributed.net/2015/02/27/18/14/mikereed/&#34;&gt;: staff blogs – 2015 – February – 27&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Or just run the other way.</title>
+      <link>https://www.chicks.net/posts/2015-01-13-or_just_run_the_other_way_/</link>
+      <pubDate>Wed, 14 Jan 2015 01:14:18 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-01-13-or_just_run_the_other_way_/</guid>
+      <description>&lt;p&gt;Or just run the other way.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/&#34;&gt;AWS Tips I Wish I&amp;rsquo;d Known Before I Started - W(e)blinks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>This is a great presentation of the available instance types for AWS.</title>
+      <link>https://www.chicks.net/posts/2014-07-31-this_is_a_great_presentation_of_the_ava/</link>
+      <pubDate>Thu, 31 Jul 2014 20:57:38 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-07-31-this_is_a_great_presentation_of_the_ava/</guid>
+      <description>&lt;p&gt;This is a great presentation of the available instance types for Amazon Web
+Services.  (Why didn&amp;rsquo;t Amazon make it?)&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ec2instances.info/&#34;&gt;Amazon EC2 Instance Comparison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Scott Francis&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

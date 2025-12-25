@@ -9,7 +9,7 @@
       <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
       <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
     </image>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.153.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Oct 2025 20:44:52 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/programming/index.xml" rel="self" type="application/rss+xml" />
@@ -69,6 +69,231 @@ something now.&lt;/p&gt;</description>
       <pubDate>Tue, 02 Jul 2024 10:53:43 -0700</pubDate>
       <guid>https://www.chicks.net/posts/2024-07-02-chicks-relaunch/</guid>
       <description>Explain the relaunch of www.chicks.net</description>
+    </item>
+    <item>
+      <title>PHP, Java, and .NET are more prone to security problems.</title>
+      <link>https://www.chicks.net/posts/2015-12-04-php_java_and_.net_are_more_prone_to/</link>
+      <pubDate>Fri, 04 Dec 2015 20:38:08 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-12-04-php_java_and_.net_are_more_prone_to/</guid>
+      <description>&lt;p&gt;PHP, Java, and .NET are more prone to #security problems than JavaScript or the
+other major scripting languages.  Can we ban them from the civilized Internet?&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://plus.google.com/s/%23security/posts&#34;&gt;#security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://news.softpedia.com/news/top-programming-languages-that-generate-software-vulnerabilities-497101.shtml&#34;&gt;Top Programming Languages That Generate Software Vulnerabilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Melissa McDowell, Wing Wong&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Have you ever been annoyed that GitHub doesn&#39;t put the right Content-type on raw files?</title>
+      <link>https://www.chicks.net/posts/2015-02-18-have_you_ever_been_annoyed_that_&#43;github/</link>
+      <pubDate>Thu, 19 Feb 2015 02:05:14 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-02-18-have_you_ever_been_annoyed_that_&#43;github/</guid>
+      <description>&lt;p&gt;Have you ever been annoyed that +GitHub doesn&amp;rsquo;t put the right Content-type on
+raw files?  Somebody else has solved this for you now.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rawgit.com/&#34;&gt;RawGit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public, GitHub&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Perl is the least frustrating language in the universe. Here&#39;s the scien...</title>
+      <link>https://www.chicks.net/posts/2015-02-06-perl_is_the_least_frustrating_language_/</link>
+      <pubDate>Fri, 06 Feb 2015 23:56:04 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-02-06-perl_is_the_least_frustrating_language_/</guid>
+      <description>&lt;p&gt;Perl is the least frustrating language in the universe.  Here&amp;rsquo;s the science.
+Now why don&amp;rsquo;t people spend more time with languages that make them happier?&lt;/p&gt;
+&lt;h2 id=&#34;originally-shared-by-thisiswhyicode&#34;&gt;Originally shared by ThisIsWhyICode&lt;/h2&gt;
+&lt;p&gt;Anger in GitHub Commit Messages
+Source: &lt;a href=&#34;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&#34;&gt;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&lt;/a&gt; &lt;a href=&#34;https://lh6.googleusercontent.com/-XnbOOkWYMBE/UzWHcIFs57I/AAAAAAAACyc/p-PIhF6Wp38/w800-h600/commit-messages-anger-percentage.png&#34;&gt;Anger in GitHub Commit Messages
+Source: http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/ #VimL&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2015-02-06-commit-messages-anger-percentage.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&#34;&gt;http://geeksta.net/geeklog/exploring-expressions-emotions-github-commit-messages/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2015-02-07T21:00:04Z&lt;/p&gt;
+&lt;p&gt;I dunno&amp;hellip; looking at the graphs on the page, PHP has more commits than Perl
+and significantly less anger. :) Just saying.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Perl hate is getting old, but at least some folks are talking sense.</title>
+      <link>https://www.chicks.net/posts/2015-01-22-the_perl_hate_is_getting_old_but_at_le/</link>
+      <pubDate>Thu, 22 Jan 2015 20:49:28 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-01-22-the_perl_hate_is_getting_old_but_at_le/</guid>
+      <description>&lt;p&gt;The Perl hate is getting old, but at least some folks are talking sense.  We
+need it to deflect stuff
+like &lt;a href=&#34;http://outspeaking.com/words-of-technology/why-perl-didnt-win.html&#34;&gt;http://outspeaking.com/words-of-technology/why-perl-didnt-win.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://outspeaking.com/words-of-technology/why-perl-didnt-win.html&#34;&gt;http://outspeaking.com/words-of-technology/why-perl-didnt-win.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://programming.tudorconstantin.com/2015/01/perl-already-won.html&#34;&gt;Perl Already Won ~ Perl Is My Cocaine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An eighth reason to buy an Android phone over an iPhone</title>
+      <link>https://www.chicks.net/posts/2014-12-14-8_choices_in_app_development_language/</link>
+      <pubDate>Sun, 14 Dec 2014 09:00:26 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-12-14-8_choices_in_app_development_language/</guid>
+      <description>&lt;p&gt;#8: choices in app development languages and platforms.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.businessinsider.com/should-you-buy-an-android-phone-2014-12&#34;&gt;7 Reasons Why You Should Buy An Android Phone Over An iPhone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>We now have a Perl-based modern configuration management system.</title>
+      <link>https://www.chicks.net/posts/2014-11-14-we_now_have_a_perl-based_modern_configu/</link>
+      <pubDate>Sat, 15 Nov 2014 05:17:36 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-11-14-we_now_have_a_perl-based_modern_configu/</guid>
+      <description>&lt;p&gt;We now have a Perl-based modern configuration management system.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.rexify.org/&#34;&gt;(R)?ex - A simple framework to simplify system administration and datacenter automation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2014-11-16T01:04:59Z&lt;/p&gt;
+&lt;p&gt;Isn&amp;rsquo;t rex the name of a mainframe command line pipe tool?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Christopher Hicks&lt;/strong&gt; - 2014-11-16T03:58:13Z&lt;/p&gt;
+&lt;p&gt;Actually that was rexx and it also ran in OS/2, but what can you do?  There are
+so many confusing names in the computer business.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ugly codes helps us appreciate how good code can be.</title>
+      <link>https://www.chicks.net/posts/2014-09-08-ugly_codes_helps_us_appreciate_how_good/</link>
+      <pubDate>Mon, 08 Sep 2014 16:18:34 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-09-08-ugly_codes_helps_us_appreciate_how_good/</guid>
+      <description>&lt;p&gt;Ugly codes helps us appreciate how good code can be.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.theparisreview.org/blog/2014/09/05/the-beauty-of-code/&#34;&gt;Paris Review – The Beauty of Code, Vikram Chandra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So, linked-in is using cfengine and svn this year, right now, in 2014. Consi...</title>
+      <link>https://www.chicks.net/posts/2014-07-06-so_linked-in_is_using_cfengine_and_svn/</link>
+      <pubDate>Sun, 06 Jul 2014 14:19:20 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-07-06-so_linked-in_is_using_cfengine_and_svn/</guid>
+      <description>&lt;p&gt;So, linked-in is using &lt;code&gt;cfengine&lt;/code&gt; and &lt;code&gt;svn&lt;/code&gt; this year, right now, in 2014.
+Consider that &lt;code&gt;git&lt;/code&gt; has been release quality for nine years this December.   If
+they replaced &lt;code&gt;svn&lt;/code&gt; with &lt;code&gt;git&lt;/code&gt;, which is a no brainer, then maybe they could
+appreciate how painful &lt;code&gt;cfengine&lt;/code&gt; is.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoq.com/articles/virtual-panel-cfg-mgmt-tools-real-world&#34;&gt;Virtual Panel: Configuration Management Tools in the Real World&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An interesting take on my github contributions.</title>
+      <link>https://www.chicks.net/posts/2014-02-15-an_interesting_take_on_my_github_contri/</link>
+      <pubDate>Sat, 15 Feb 2014 17:44:34 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-02-15-an_interesting_take_on_my_github_contri/</guid>
+      <description>&lt;p&gt;An interesting take on my github contributions.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://osrc.dfm.io/chicks-net&#34;&gt;Christopher Hicks&amp;rsquo;s Open Source Report Card&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Paul Fernandez&lt;/strong&gt; - 2014-02-17T06:31:04Z&lt;/p&gt;
+&lt;p&gt;That is so neat!  Shared that with a friend of mine. Can&amp;rsquo;t wait to have my own!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Christopher Hicks&lt;/strong&gt; - 2014-02-18T04:49:28Z&lt;/p&gt;
+&lt;p&gt;Get coding!&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Writing software is hard sometimes.</title>
+      <link>https://www.chicks.net/posts/2013-11-30-writing_software_is_hard_sometimes_/</link>
+      <pubDate>Sat, 30 Nov 2013 15:23:06 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-11-30-writing_software_is_hard_sometimes_/</guid>
+      <description>&lt;p&gt;Writing software is hard sometimes.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.itworld.com/it-management/384409/dear-ad-industry-youre-liar-and-cheat&#34;&gt;Dear Internet advertising industry: It&amp;rsquo;s over between us&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Executive summary: Perl is awesome, Java sucks, and there are also some other languages.</title>
+      <link>https://www.chicks.net/posts/2013-07-16-executive_summary__perl_is_awesome_jav/</link>
+      <pubDate>Wed, 17 Jul 2013 01:12:12 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-07-16-executive_summary__perl_is_awesome_jav/</guid>
+      <description>&lt;p&gt;Executive summary: Perl is awesome, Java sucks, and there are also some other
+programming languages.   This certainly fits with my experiences.  They&amp;rsquo;ve been
+a bit more scientific and pedantic.  Enjoy.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://raid6.com.au/~onlyjob/posts/arena/&#34;&gt;Perl, Python, Ruby, PHP, C, C++, Lua, tcl, javascript and Java comparison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public, Paul Fernandez&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Brandy Butler, tony d, Paul Fernandez&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Paul Fernandez&lt;/strong&gt; - 2013-07-17T04:39:28Z&lt;/p&gt;
+&lt;p&gt;As a Perl lover, this is great.  As a skeptic, I wonder if this is all on the
+level.  He seems to have pro-Perl/anti-Java bias&amp;hellip;Chicks, did you write this?
+:)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So you&#39;re telling me I could have created Toy Story on my Commodore 64 in 1984?</title>
+      <link>https://www.chicks.net/posts/2013-05-16-so_you_re_telling_me_i_could_have_creat/</link>
+      <pubDate>Thu, 16 May 2013 13:51:05 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-05-16-so_you_re_telling_me_i_could_have_creat/</guid>
+      <description>&lt;p&gt;So you&amp;rsquo;re telling me I could have created Toy Story on my +Commodore 64 in
+1984?  Now I feel even more like a slacker.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tech.slashdot.org/story/13/05/15/1913222/interactive-raycaster-for-the-commodore-64-under-256-bytes&#34;&gt;Interactive Raycaster For the Commodore 64 Under 256 Bytes - Slashdot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public, Commodore 64&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&#34;Lessons Learned Developing Software for Space Vehicles&#34; should ben...</title>
+      <link>https://www.chicks.net/posts/2013-03-25-_lessons_learned_developing_software_fo/</link>
+      <pubDate>Mon, 25 Mar 2013 11:59:37 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-03-25-_lessons_learned_developing_software_fo/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Lessons Learned Developing Software for Space Vehicles&amp;rdquo; should benefit all
+software developers.  I like this summary of the talk.  Apparently he dissed
+emacs and some of the LWN readers are miffy about it.  vim ftw!&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://lwn.net/Articles/540368/&#34;&gt;ELC: SpaceX lessons learned [LWN.net]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So open source world, regarding that $2B value I&#39;ve received</title>
+      <link>https://www.chicks.net/posts/2011-10-04-so_open_source_world_regarding_that_2/</link>
+      <pubDate>Tue, 04 Oct 2011 21:26:23 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2011-10-04-so_open_source_world_regarding_that_2/</guid>
+      <description>&lt;p&gt;So open source world, regarding that $2B value I&amp;rsquo;ve received, well now I&amp;rsquo;ve paid back $1.  Cool?&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chicks-net&#34;&gt;chicks-net&amp;rsquo;s profile on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; John McWade&lt;/p&gt;
+&lt;h2 id=&#34;update-2025-12-16&#34;&gt;Update 2025-12-16&lt;/h2&gt;
+&lt;p&gt;I feel I have given a few dollars since then and I have a few more to give.&lt;/p&gt;
+&lt;p&gt;It is strange and neat to be looking back on this after 14 years, during a year
+where I have ramped up my rate and quality of contributions to the free
+software and open source communities.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

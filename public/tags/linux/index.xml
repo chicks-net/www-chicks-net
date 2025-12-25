@@ -9,7 +9,7 @@
       <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
       <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
     </image>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.153.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -19,6 +19,472 @@
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/posts/2025-09-12-coredns-example-annoucement/</guid>
       <description>Project announcement on the official dnscontrol mailing list.</description>
+    </item>
+    <item>
+      <title>Steam preferences set to Linux</title>
+      <link>https://www.chicks.net/posts/2017-12-08-i_wish_i_had_known_this_earlier_but_i_/</link>
+      <pubDate>Sat, 09 Dec 2017 03:09:06 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2017-12-08-i_wish_i_had_known_this_earlier_but_i_/</guid>
+      <description>&lt;p&gt;I wish I had known this earlier, but I finally set my default in my preferences
+to wanting Linux.  It does&amp;rsquo;t seem to limit my ability to see Windows-only games
+in the store or discovery queues.  See
+&lt;a href=&#34;https://gaming.stackexchange.com/a/311702/100715&#34;&gt;https://gaming.stackexchange.com/a/311702/100715&lt;/a&gt; to learn how to set your
+preferences.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gaming.stackexchange.com/a/311702/100715&#34;&gt;https://gaming.stackexchange.com/a/311702/100715&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.vg247.com/2017/12/08/steam-now-lets-developers-know-how-many-users-want-their-game-on-mac-and-linux/&#34;&gt;Steam now lets developers know how many users want their game on Mac and Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; John Sharpe&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wow, that&#39;s too bad.</title>
+      <link>https://www.chicks.net/posts/2017-12-02-wow_that_s_too_bad_/</link>
+      <pubDate>Sat, 02 Dec 2017 19:47:50 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2017-12-02-wow_that_s_too_bad_/</guid>
+      <description>&lt;p&gt;Wow, that&amp;rsquo;s too bad.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linuxjournal.com/content/linux-journal-ceases-publication&#34;&gt;Linux Journal Ceases Publication | Linux Journal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The solution to your Debian problems is to completely disable ipv6. This is ...</title>
+      <link>https://www.chicks.net/posts/2017-01-14-the_solution_to_your_debian_problems_is/</link>
+      <pubDate>Sun, 15 Jan 2017 03:22:03 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2017-01-14-the_solution_to_your_debian_problems_is/</guid>
+      <description>&lt;p&gt;The solution to your Debian problems is to completely disable ipv6.  This is not the awesome I was looking for.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.techrepublic.com/article/how-to-fix-the-slow-apt-get-update-issue-on-linux-machines/&#34;&gt;How to fix the slow apt-get update issue on Linux machines - TechRepublic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; David Swift, Wing Wong&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2017-01-17T22:50:53Z&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve seen the same thing happen on things other than package installations. ipv6 slows down ALOT for various things.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2017-01-17T22:50:53Z&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Now your Windows gaming experience sucks less, thanks to Linux.</title>
+      <link>https://www.chicks.net/posts/2017-01-04-now_your_windows_gaming_experience_suck/</link>
+      <pubDate>Wed, 04 Jan 2017 19:40:49 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2017-01-04-now_your_windows_gaming_experience_suck/</guid>
+      <description>&lt;p&gt;Now your Windows gaming experience sucks less, and &amp;ndash; are you ready for it &amp;ndash;
+it is because of Linux gamers.  Bru-hahahahaha!&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gadgets.ndtv.com/games/news/steam-s-linux-and-opengl-efforts-forced-microsoft-to-take-pc-gaming-seriously-former-valve-employee-1645085&#34;&gt;Here’s How Valve Got Microsoft to Take PC Gaming Seriously&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>All of that and Perl and Larry Wall. Thank you!</title>
+      <link>https://www.chicks.net/posts/2016-11-22-all_of_that_and_perl_and_larry_wall.__t/</link>
+      <pubDate>Tue, 22 Nov 2016 15:23:55 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2016-11-22-all_of_that_and_perl_and_larry_wall.__t/</guid>
+      <description>&lt;p&gt;All of that and Perl and Larry Wall.  Thank you!&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.networkworld.com/article/3143583/linux/linux-y-things-i-am-thankful-for.html&#34;&gt;Linux-y things I am thankful for&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Where are the Windows Supercomputers?</title>
+      <link>https://www.chicks.net/posts/2016-11-15-where_are_the_windows_supercomputers___/</link>
+      <pubDate>Tue, 15 Nov 2016 22:36:25 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2016-11-15-where_are_the_windows_supercomputers___/</guid>
+      <description>&lt;p&gt;Where are the Windows Supercomputers?  Linux is squeezing out proprietary crap from the mobile and super-computing ends of the spectrum.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://goo.gl/news/Tb5W2&#34;&gt;Almost all the world&amp;rsquo;s fastest supercomputers run Linux | ZDNet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Microsoft keeps acting more reasonable. How about having the</title>
+      <link>https://www.chicks.net/posts/2016-06-18-microsoft_keeps_acting_more_reasonable_/</link>
+      <pubDate>Sat, 18 Jun 2016 22:34:46 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2016-06-18-microsoft_keeps_acting_more_reasonable_/</guid>
+      <description>&lt;p&gt;Microsoft keeps acting more reasonable.  How about having the  #Steam  client
+preinstalled in Windows?&lt;/p&gt;
+&lt;p&gt;(I&amp;rsquo;m happy playing all of the Steam games I get on Linux and Mac.)&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://plus.google.com/s/%23Steam/posts&#34;&gt;#Steam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://laptopninja.io/phil-spencer-says-microsoft-returning-to-steam/&#34;&gt;Phil Spencer Says Microsoft Returning to Steam - LaptopNinja&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The only reason I bought these games is that they were available for Linux.</title>
+      <link>https://www.chicks.net/posts/2016-01-29-the_only_reason_i_bought_these_games_it/</link>
+      <pubDate>Fri, 29 Jan 2016 16:03:40 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2016-01-29-the_only_reason_i_bought_these_games_it/</guid>
+      <description>&lt;p&gt;The only reason I bought these games is that they were available for #Linux.  Thanks Gary Newman.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://plus.google.com/s/%23Linux/posts&#34;&gt;#Linux on google+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://news.softpedia.com/news/gary-s-mod-and-rust-creator-regrets-supporting-linux-499603.shtml&#34;&gt;Gary&amp;rsquo;s Mod and Rust Creator Regrets Having Supported Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public, Christopher Hicks&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2016-01-29T21:07:38Z&lt;/p&gt;
+&lt;p&gt;&amp;hellip; I&amp;rsquo;m mixed on this. On one hand, I can see his point: had he known it was going to be so much more work, he wouldnt&amp;rsquo; have done it in the first place.  But on the other hand, if you&amp;rsquo;re going to choose to support an additional platform&amp;hellip; then support it all the way.I played Rust and it&amp;rsquo;s one of the few games where I thought, &amp;ldquo;nice open ended game!&amp;rdquo; but seriously, Linux does get the short end of things when it comes to GPU support, game engine support, and testing coverage.I would counter the whole 1% platform argument with this: you are trying to break into segments of the market. Just because you flipped the sign to &amp;ldquo;open&amp;rdquo; for Linux, doesn&amp;rsquo;t mean people will suddenly jump on board&amp;hellip; especially since it costs real money and it&amp;rsquo;s a gamble. (Anyone remember Loki Games?) It&amp;rsquo;s the job of the platform/engine/developer to strike out and market to the people to pull in more users.This &amp;ldquo;well, they didn&amp;rsquo;t all come and jump on the band wagon, so why bother spending resources to test it&amp;rdquo; line of thinking is why it isn&amp;rsquo;t successful. arg Sorry, SO much frustration when it comes to Linux and gaming that goes back to the &amp;rsquo;90s. Yeah, I bought Rust as well. It was seriously the only reason why I joined Steam. (Thank goodness for those Kickstarters that released their games on multiple platforms through Steam, otherwise, it would have been a complete waste).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sexy laptop with no proprietary drivers or software, if it gets funded...</title>
+      <link>https://www.chicks.net/posts/2014-11-19-sexy_laptop_with_no_proprietary_drivers/</link>
+      <pubDate>Wed, 19 Nov 2014 21:21:15 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-11-19-sexy_laptop_with_no_proprietary_drivers/</guid>
+      <description>&lt;p&gt;Sexy laptop with no proprietary drivers or software, if it gets funded&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pcworld.com/article/2849795/purism-librem-15-linux-laptop-blends-high-end-hardware-with-totally-free-software.html&#34;&gt;Chris Hoffman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public, Linux Mint&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2014-11-20T04:17:26Z&lt;/p&gt;
+&lt;p&gt;It&amp;hellip; it looks like a macbook air with the trackpad off to the side a bit. And
+a full qwerty keyboard squished in place. What&amp;rsquo;s the pricepoint?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Christopher Hicks&lt;/strong&gt; - 2014-11-20T04:42:29Z&lt;/p&gt;
+&lt;p&gt;$2000 +- $200 is their MSRP and if you get in on the campaign you can have it
+for $1550 +- $150.  It definitely looks like a MacBook but without proprietary
+bits inside. :-)  And it might even be cheaper than a MacBook Pro.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>This guy talks about Linux distributions for 13 paragraphs without mentioning package formats.</title>
+      <link>https://www.chicks.net/posts/2014-09-15-this_guy_talks_about_linux_distribution/</link>
+      <pubDate>Mon, 15 Sep 2014 15:19:31 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-09-15-this_guy_talks_about_linux_distribution/</guid>
+      <description>&lt;p&gt;This guy talks about Linux distributions for 13 paragraphs without mentioning
+package formats or using your desktop to develop for the server.  He&amp;rsquo;s trying
+to push for splitting server and desktop distros without mentioning CoreOS.
+Could this be why folks accuse him of not using Linux?   Maybe he talked to
+some actual Linux users, but ignored what they said and wrote what he felt like
+writing.  Maybe he thinks Linux is controlled by some big corp and that this
+whining will get things done.  Maybe they&amp;rsquo;re so desperate to print Linux
+articles it doesn&amp;rsquo;t matter if they&amp;rsquo;re clearly written by somebody who uses some
+other OS to get their work done.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>After the recent spat of Linux is the Devil articles it is shocking to see something that gets it right.</title>
+      <link>https://www.chicks.net/posts/2014-09-11-after_the_recent_spat_of_linux_is_the_d/</link>
+      <pubDate>Thu, 11 Sep 2014 16:49:07 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-09-11-after_the_recent_spat_of_linux_is_the_d/</guid>
+      <description>&lt;p&gt;After the recent spat of Linux is the Devil articles it is shocking to see
+something that gets it right.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.datamation.com/open-source/top-linux-myths-dispelled-1.html&#34;&gt;Top Linux Myths Dispelled  - Datamation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Informative without requiring registration. :)</title>
+      <link>https://www.chicks.net/posts/2014-09-04-informative_without_requiring_registrat/</link>
+      <pubDate>Thu, 04 Sep 2014 21:23:41 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-09-04-informative_without_requiring_registrat/</guid>
+      <description>&lt;p&gt;Informative without requiring registration.  :)&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.malwaremustdie.org/2014/06/mmd-0025-2014-itw-infection-of-elf.html&#34;&gt;MMD-0025-2014 - ITW Infection of ELF .IptabLex &amp;amp; .IptabLes China #DDoS bots malware&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Has Microsoft decided it was time to run a bunch of anti-Linux articles?</title>
+      <link>https://www.chicks.net/posts/2014-08-27-has_microsoft_decided_it_was_time_to_ru/</link>
+      <pubDate>Thu, 28 Aug 2014 03:59:11 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-08-27-has_microsoft_decided_it_was_time_to_ru/</guid>
+      <description>&lt;p&gt;Has Microsoft decided it was time to run a bunch of anti-Linux articles or
+something?  I work and play on Linux every day.  I haven&amp;rsquo;t booted into Windows
+in at least a year.  I do also use MacOS, but Linux is my primary desktop.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2465125,00.asp&#34;&gt;Linux Has Run Out of Time&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Caskey Dickson&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Christopher Hicks&lt;/strong&gt; - 2014-08-28T04:02:21Z&lt;/p&gt;
+&lt;p&gt;Oh, I forgot to mention the &amp;ldquo;killer app&amp;rdquo;: it just works.  Uptimes of months are normal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The author of this article likes to poke at the glitches in the Linux desktop.</title>
+      <link>https://www.chicks.net/posts/2014-08-22-the_author_of_this_article_likes_to_pok/</link>
+      <pubDate>Fri, 22 Aug 2014 18:12:55 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-08-22-the_author_of_this_article_likes_to_pok/</guid>
+      <description>&lt;p&gt;The author of this article likes to poke at the glitches in the Linux desktop.
+None of that sounds any worse than Windows.  With a Linux desktop I don&amp;rsquo;t have
+to fear it slowing to a crawl under the load of malware you accumulate simply
+by installing &amp;ldquo;free&amp;rdquo; software or browsing the &amp;ldquo;free&amp;rdquo; Internet.  With a Linux
+desktop I&amp;rsquo;m confidant that 99% of the drivers I need are already included and
+require no downloads or installs or extra work for me.  If I want to install
+Windows 7 on a Windows 8 laptop how many hours will it take to get all of the
+drivers downloaded and installed?  How many reboots will it take?  How many
+calls to support or the help desk will it take?  Does Matt&amp;rsquo;s straw man feel the
+brisk breeze blowing him down the way?  The reliability and flexibility of the
+Linux desktop are unequaled.  Even when canonical goes in some lame direction,
+the community forks and good things keep happening.  How did the community
+alternatives to Windows 7 fare?  Oh, they&amp;rsquo;re impossible because they don&amp;rsquo;t
+accept the value of openness or competition?  I know I can keep running a Linux
+desktop forever and I can pay somebody to write patches if I desire.  Someday
+Windows will follow OS/2, geos, and AmigaOS to the dust bins of history.  No
+corporation can do that to Linux.  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why do we need phone manufacturers?</title>
+      <link>https://www.chicks.net/posts/2014-04-27-why_do_we_need_phone_manufacturers_when/</link>
+      <pubDate>Sun, 27 Apr 2014 15:26:09 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-04-27-why_do_we_need_phone_manufacturers_when/</guid>
+      <description>&lt;p&gt;Why do we need phone manufacturers when we can make our own phones for less with off-the-shelf parts?&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.theinquirer.net/inquirer/news/2341680/linux-engineer-builds-raspberry-pi-piphone-for-usd158&#34;&gt;Linux engineer builds Raspberry Pi-based Piphone for $158&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Wing Wong&lt;/strong&gt; - 2014-04-27T20:03:15Z&lt;/p&gt;
+&lt;p&gt;Sweet.&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>I understand that hardware and software are different, but I think the making...</title>
+      <link>https://www.chicks.net/posts/2014-02-04-i_understand_that_hardware_and_software/</link>
+      <pubDate>Tue, 04 Feb 2014 15:51:02 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-02-04-i_understand_that_hardware_and_software/</guid>
+      <description>&lt;p&gt;I understand that hardware and software are different, but I think the making
+the analogy of open hardware to Linux is fair.  This author can&amp;rsquo;t get past
+that.  He comes up with lots of &amp;ldquo;buts&amp;rdquo; and his many buts have inspired some
+&amp;ldquo;buts&amp;rdquo; in response.&lt;/p&gt;
+&lt;p&gt;BUT: the expense of change is highly variable depending on where you are in the
+release cycle.  If you want to change software just before a release it is much
+more expensive and traumatic than making a change during the development part
+of the cycle.  This is also true in hardware development.  Changing a connector
+during the design would be just as cheap and painless as in the software world.
+ Changing it close to release or while the part is ramping up production would
+and should be expensive, just like with code.   Code will require retesting and
+repackaging which could push the release date and future development cycles
+back.  Nothing is free, the analogy is working.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thank goodness we have the open source community to keep Apple and Microsoft on their toes.</title>
+      <link>https://www.chicks.net/posts/2014-01-17-thank_goodness_we_have_the_open_source_/</link>
+      <pubDate>Fri, 17 Jan 2014 16:39:17 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-01-17-thank_goodness_we_have_the_open_source_/</guid>
+      <description>&lt;p&gt;Thank goodness we have the open source community to keep Apple and Microsoft on
+their toes.  Imagine how slack it would be otherwise.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.techrepublic.com/blog/linux-and-open-source/linux-the-clear-choice-for-security/&#34;&gt;Linux: The clear choice for security&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez, K. Travis Walsh&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I find this analogy of religion to UNIX history much more revealing than the ...</title>
+      <link>https://www.chicks.net/posts/2013-12-30-i_find_this_analogy_of_religion_to_unix/</link>
+      <pubDate>Mon, 30 Dec 2013 14:30:02 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-12-30-i_find_this_analogy_of_religion_to_unix/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Pinewood Crescent, Yorktown, Virginia&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I find this analogy of religion to UNIX history much more revealing than the
+classic car brands analogy.  Someday I will explain whether Microsoft is like
+Buddhism or Islam.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.antipope.org/charlie/blog-static/2013/12/metaphor-for-the-day.html&#34;&gt;Over-Extended Metaphor for the day - Charlie&amp;rsquo;s Diary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Joe Burby&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So, do you want to cry about phantom floppy drives messages or fight viruses ...</title>
+      <link>https://www.chicks.net/posts/2013-11-24-so_do_you_want_to_cry_about_phantom_fl/</link>
+      <pubDate>Sun, 24 Nov 2013 15:31:33 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-11-24-so_do_you_want_to_cry_about_phantom_fl/</guid>
+      <description>&lt;p&gt;So, do you want to cry about phantom floppy drives messages or fight viruses
+and malware?  I&amp;rsquo;m not going to pretend that the Linux desktop is free of bugs
+or that every Windows app has an great equivalent in Linux.  But installing
+Linux is often easier than installing Windows on the same hardware.  Linux
+includes nearly all of the device drivers you will ever need.  And I don&amp;rsquo;t have
+to fear the inevitable Windows spiral of death from malware, viruses, and
+bloat.  So, do you want to cry about phantom floppy drives messages or fight
+viruses and malware for the rest of your life?   Hmmmm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>This would make life so much simpler if it happened.</title>
+      <link>https://www.chicks.net/posts/2013-10-21-this_would_make_life_so_much_simpler_if/</link>
+      <pubDate>Mon, 21 Oct 2013 15:24:19 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-10-21-this_would_make_life_so_much_simpler_if/</guid>
+      <description>&lt;p&gt;This would make life so much simpler if it happened.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.infoworld.com/t/networking/your-next-network-operating-system-linux-228846&#34;&gt;Your next network operating system is Linux | Networking - InfoWorld&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I just started trying this out, but it appears to be a cheap and easy if not ...</title>
+      <link>https://www.chicks.net/posts/2013-08-24-i_just_started_trying_this_out_but_it_/</link>
+      <pubDate>Sat, 24 Aug 2013 17:04:36 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-08-24-i_just_started_trying_this_out_but_it_/</guid>
+      <description>&lt;p&gt;I just started trying this out, but it appears to be a cheap and easy if not
+free way to get Drive working in Linux.  I installed it in Linux and Windows
+without any trouble.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.insynchq.com/r/111778145755005312026&#34;&gt;Insync Referral&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux is finally winning on the desktop</title>
+      <link>https://www.chicks.net/posts/2013-07-18-linux_is_finally_winning_on_the_desktop/</link>
+      <pubDate>Thu, 18 Jul 2013 13:57:37 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-07-18-linux_is_finally_winning_on_the_desktop/</guid>
+      <description>&lt;p&gt;Linux is finally winning on the desktop, but it wouldn&amp;rsquo;t have happened this
+soon without the DoJ slowing down the monopoly.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.businessinsider.com/windows-monopoly-is-getting-destroyed-2013-7&#34;&gt;In Case You Don&amp;rsquo;t Appreciate How Fast The &amp;lsquo;Windows Monopoly&amp;rsquo; Is Getting Destroyed&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ask google for native drive client for Linux</title>
+      <link>https://www.chicks.net/posts/2013-07-02-please_do_it/</link>
+      <pubDate>Tue, 02 Jul 2013 19:09:34 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-07-02-please_do_it/</guid>
+      <description>&lt;p&gt;Please do it!&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.makeuseof.com/tag/join-thousands-of-linux-users-asking-google-for-native-drive-client-updates/&#34;&gt;Join Thousands Of Linux Users Asking Google For Native Drive Client [Updates]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A well written introduction to Linux for small business.</title>
+      <link>https://www.chicks.net/posts/2013-03-13-a_well_written_introduction_to_linux_fo/</link>
+      <pubDate>Thu, 14 Mar 2013 03:42:57 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-03-13-a_well_written_introduction_to_linux_fo/</guid>
+      <description>&lt;p&gt;A well written introduction to Linux for small business.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pcworld.com/article/2030066/the-ultimate-linux-starter-kit-for-small-business.html&#34;&gt;The ultimate Linux starter kit for small business&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>You can make real money selling games for Linux.</title>
+      <link>https://www.chicks.net/posts/2013-02-28-you_can_make_real_money_selling_games_f/</link>
+      <pubDate>Fri, 01 Mar 2013 02:35:59 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-02-28-you_can_make_real_money_selling_games_f/</guid>
+      <description>&lt;p&gt;You can make real money selling games for Linux.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gamasutra.com/blogs/LarsDoucet/20130228/187569/Defenders_Quest__Our_Steam_Linux_Sale_Results.php&#34;&gt;Gamasutra: Lars Doucet&amp;rsquo;s Blog - Defender&amp;rsquo;s Quest - Our Steam Linux Sale Results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unlocked Tux by playing TF2 in Linux</title>
+      <link>https://www.chicks.net/posts/2013-02-28-unlocked_tux_by_playing_tf2_in_linux/</link>
+      <pubDate>Thu, 28 Feb 2013 17:09:14 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-02-28-unlocked_tux_by_playing_tf2_in_linux/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; MOMO&amp;rsquo;s Cafe Address: 11801 Canon Boulevard&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Unlocked Tux by playing TF2 in Linux&lt;/p&gt;
+&lt;p&gt;MOMO&amp;rsquo;s Cafe
+Address: 11801 Canon Boulevard&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Christopher Hicks&lt;/strong&gt; - 2013-02-28T19:15:24Z&lt;/p&gt;
+&lt;p&gt;:-O The cafe didn&amp;rsquo;t exist in foursquare so I create a place for them.&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Windows users don&#39;t have as much money to spend on books and games</title>
+      <link>https://www.chicks.net/posts/2012-10-21-i_can_understand_that_windows_users_don/</link>
+      <pubDate>Sun, 21 Oct 2012 11:21:29 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2012-10-21-i_can_understand_that_windows_users_don/</guid>
+      <description>&lt;p&gt;I can understand that Windows users don&amp;rsquo;t have as much money to spend on books
+and games since they have to pay so much for their OS and apps.  Just the
+savings on anti-virus, firewall, and malware cleaners is enough to give Linux
+and Mac users a few hundred spare dollars per year to spend on fun or practical
+things.  I predict that all of this makes us happier and more productive people
+as well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows users are more selfish than MacOS or Linux users.</title>
+      <link>https://www.chicks.net/posts/2012-08-08-windows_users_are_more_selfish_than_mac/</link>
+      <pubDate>Wed, 08 Aug 2012 15:00:38 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2012-08-08-windows_users_are_more_selfish_than_mac/</guid>
+      <description>&lt;p&gt;Windows users are more selfish than MacOS or Linux users.  So help make the
+world a kinder place by helping your friends switch from Windows.  Thank you.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tuaw.com/2012/08/06/humble-music-bundle-shows-charity-disparity-among-mac-linux-and/&#34;&gt;Humble Music Bundle shows charity disparity among Mac, Linux and Windows users&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>This is a great design even if a bit pricey.</title>
+      <link>https://www.chicks.net/posts/2012-06-19-this_is_a_great_design_even_if_a_bit_pr/</link>
+      <pubDate>Tue, 19 Jun 2012 13:14:04 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2012-06-19-this_is_a_great_design_even_if_a_bit_pr/</guid>
+      <description>&lt;p&gt;This is a great design even if a bit pricey.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.extremetech.com/computing/131176-hardware-comes-pre-loaded-with-linux-mint&#34;&gt;Small form factor hardware comes pre-loaded with Linux Mint | ExtremeTech&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Good production values and a useful message for folks who aren&#39;t familiar...</title>
+      <link>https://www.chicks.net/posts/2012-04-21-good_production_values_and_a_useful_mes/</link>
+      <pubDate>Sat, 21 Apr 2012 23:23:14 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2012-04-21-good_production_values_and_a_useful_mes/</guid>
+      <description>&lt;p&gt;Good production values and a useful message for folks who aren&amp;rsquo;t familiar with
+the pervasiveness or methodology of Linux.&lt;/p&gt;
+&lt;h2 id=&#34;originally-shared-by-the-linux-foundation&#34;&gt;Originally shared by The Linux Foundation&lt;/h2&gt;
+&lt;p&gt;Support Linux by sharing this video! Together we can educate the masses on how
+the largest collaborative development project in this history of computing is
+built.While Linux is running our phones, friend requests, tweets, financial
+trades, ATMs and more, most of us don&amp;rsquo;t know how it&amp;rsquo;s actually built. This
+short video takes you inside the process by which the largest collaborative
+development project in the history of computing is organized. Based on the
+annual report &amp;ldquo;Who Writes Linux,&amp;rdquo; this is a powerful and inspiring story of how
+Linux has become a community-driven phenomenon. More information about Linux
+and The Linux Foundation can be found at &lt;a href=&#34;http://www.linuxfoundation.org&#34;&gt;http://www.linuxfoundation.org&lt;/a&gt; and
+&lt;a href=&#34;http://www.linux.com&#34;&gt;http://www.linux.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So I&#39;ve ended up playing with Windows7 (gaming platform) more than intended</title>
+      <link>https://www.chicks.net/posts/2011-11-06-so_i_ve_ended_up_playing_with_windows7_/</link>
+      <pubDate>Sun, 06 Nov 2011 14:24:59 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2011-11-06-so_i_ve_ended_up_playing_with_windows7_/</guid>
+      <description>&lt;p&gt;So I&amp;rsquo;ve ended up playing with Windows7 (gaming platform) more than intended on
+my new Linux laptop.  :)  It seems that Microsoft &amp;ndash; while touting desktop
+gadgets as a great feature &amp;ndash; has killed their dynamic directory of gadgets and
+they just have a static page now.  So updates are not propagating.  Plus you
+have to go to the developers site for updates, but the links everybody has in
+their gadgets broke too so you have to bring up the browser and site by hand.
+So it seems Microsoft is still the land of half-assed half measures for
+half-wits.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux... changing the face of computing.</title>

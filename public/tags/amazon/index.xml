@@ -9,16 +9,75 @@
       <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
       <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
     </image>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.153.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Sep 2013 12:03:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2015 17:07:30 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/amazon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>These guys moved to real hardware, it cost them half as much as AWS, and it w...</title>
+      <link>https://www.chicks.net/posts/2015-03-16-these_guys_moved_to_real_hardware_it_c/</link>
+      <pubDate>Mon, 16 Mar 2015 17:07:30 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-03-16-these_guys_moved_to_real_hardware_it_c/</guid>
+      <description>&lt;p&gt;These guys moved to real hardware, it cost them half as much as AWS, and it was
+better in almost every way.  Why is the cloud so popular?  Is it time for
+Netflix to publish another AWS love story?&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://highscalability.com/blog/2015/3/16/how-and-why-swiftype-moved-from-ec2-to-real-hardware.html&#34;&gt;How and Why Swiftype Moved from EC2 to Real Hardware - High Scalability -&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=9212467&#34;&gt;https://news.ycombinator.com/item?id=9212467&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Christopher Hicks&lt;/strong&gt; - 2015-03-16T18:55:38Z&lt;/p&gt;
+&lt;p&gt;good comments in &lt;a href=&#34;https://news.ycombinator.com/item?id=9212467&#34;&gt;https://news.ycombinator.com/item?id=9212467&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Peter Hamilton&lt;/strong&gt; - 2015-03-17T02:33:36Z&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Or just run the other way.</title>
+      <link>https://www.chicks.net/posts/2015-01-13-or_just_run_the_other_way_/</link>
+      <pubDate>Wed, 14 Jan 2015 01:14:18 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2015-01-13-or_just_run_the_other_way_/</guid>
+      <description>&lt;p&gt;Or just run the other way.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/&#34;&gt;AWS Tips I Wish I&amp;rsquo;d Known Before I Started - W(e)blinks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>This is a great presentation of the available instance types for AWS.</title>
+      <link>https://www.chicks.net/posts/2014-07-31-this_is_a_great_presentation_of_the_ava/</link>
+      <pubDate>Thu, 31 Jul 2014 20:57:38 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2014-07-31-this_is_a_great_presentation_of_the_ava/</guid>
+      <description>&lt;p&gt;This is a great presentation of the available instance types for Amazon Web
+Services.  (Why didn&amp;rsquo;t Amazon make it?)&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ec2instances.info/&#34;&gt;Amazon EC2 Instance Comparison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Scott Francis&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Amazon CEO Jeff Bezos Had His Top Execs Read These Three Books</title>
       <link>https://www.chicks.net/posts/2013-09-26_120357_linkedin/</link>
       <pubDate>Thu, 26 Sep 2013 12:03:57 +0000</pubDate>
       <guid>https://www.chicks.net/posts/2013-09-26_120357_linkedin/</guid>
       <description>Conversion of linked-in share into blog entry</description>
+    </item>
+    <item>
+      <title>LEGOs can do anything.</title>
+      <link>https://www.chicks.net/posts/2013-09-24-legos_can_do_anything_/</link>
+      <pubDate>Tue, 24 Sep 2013 18:08:49 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2013-09-24-legos_can_do_anything_/</guid>
+      <description>&lt;p&gt;LEGOs can do anything.&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://allthingsd.com/20130906/how-a-man-in-austria-used-legos-to-hack-amazons-kindle-e-book-security/?mod=googleplus&#34;&gt;How a Man in Austria Used Legos to Hack Amazon’s Kindle E-Book Security&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Jerry Landry, Paul Fernandez&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
