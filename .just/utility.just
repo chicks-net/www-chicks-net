@@ -117,16 +117,27 @@ finder_dupes remove="":
 
     # Find files matching pattern " N.ext" where N is a number
     # This matches Mac Finder's duplicate naming: "file 2.txt", "image 3.jpg", etc.
+    # We verify the original file exists to avoid false positives
     while IFS= read -r -d '' file; do
-        basename=$(basename "$file")
+        fname=$(basename "$file")
         # Check if filename matches pattern: ends with " N.extension"
-        if [[ "$basename" =~ \ [0-9]+\.[^.]+$ ]]; then
-            echo "{{YELLOW}}Found: $file{{NORMAL}}"
-            ((found++))
+        # Capture groups: (1) basename without " N.ext", (2) extension
+        if [[ "$fname" =~ ^(.*)\ [0-9]+\.([^.]+)$ ]]; then
+            base="${BASH_REMATCH[1]}"
+            ext="${BASH_REMATCH[2]}"
+            dir=$(dirname "$file")
+            original_file="${dir}/${base}.${ext}"
 
-            if [[ "{{ remove }}" == "yes" ]] || [[ "{{ remove }}" == "true" ]]; then
-                echo "{{RED}}  Removing...{{NORMAL}}"
-                rm "$file"
+            # Only report if original file exists (confirms it's a Finder duplicate)
+            if [[ -f "$original_file" ]]; then
+                echo "{{YELLOW}}Found: $file{{NORMAL}}"
+                echo "{{GREEN}}  (original: $original_file){{NORMAL}}"
+                ((found++))
+
+                if [[ "{{ remove }}" == "yes" ]] || [[ "{{ remove }}" == "true" ]]; then
+                    echo "{{RED}}  Removing...{{NORMAL}}"
+                    rm "$file"
+                fi
             fi
         fi
     done < <(find . -type f ! -path "*/public/*" ! -path "*/.git/*" ! -path "*/node_modules/*" ! -path "*/public.prev/*" -print0)
