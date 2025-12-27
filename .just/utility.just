@@ -108,6 +108,7 @@ speedtest:
 
 # find Mac Finder duplicate files (with space and number before extension)
 [group('Utility')]
+[macos]
 finder_dupes remove="":
     #!/usr/bin/env bash
     set -euo pipefail # strict mode
