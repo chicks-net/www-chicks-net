@@ -105,3 +105,52 @@ gps_check image="":
 [macos]
 speedtest:
 	networkQuality
+
+# find Mac Finder duplicate files (with space and number before extension)
+[group('Utility')]
+[macos]
+finder_dupes remove="":
+    #!/usr/bin/env bash
+    set -euo pipefail # strict mode
+
+    found=0
+
+    # Find files matching pattern " N.ext" where N is a number
+    # This matches Mac Finder's duplicate naming: "file 2.txt", "image 3.jpg", etc.
+    # We verify the original file exists to avoid false positives
+    while IFS= read -r -d '' file; do
+        fname=$(basename "$file")
+        # Check if filename matches pattern: ends with " N.extension"
+        # Capture groups: (1) basename without " N.ext", (2) extension
+        if [[ "$fname" =~ ^(.*)\ [0-9]+\.([^.]+)$ ]]; then
+            base="${BASH_REMATCH[1]}"
+            ext="${BASH_REMATCH[2]}"
+            dir=$(dirname "$file")
+            original_file="${dir}/${base}.${ext}"
+
+            # Only report if original file exists (confirms it's a Finder duplicate)
+            if [[ -f "$original_file" ]]; then
+                echo "{{YELLOW}}Found: $file{{NORMAL}}"
+                echo "{{GREEN}}  (original: $original_file){{NORMAL}}"
+                ((found++))
+
+                if [[ "{{ remove }}" == "yes" ]] || [[ "{{ remove }}" == "true" ]]; then
+                    echo "{{RED}}  Removing...{{NORMAL}}"
+                    rm "$file"
+                fi
+            fi
+        fi
+    done < <(find . -type f ! -path "*/public/*" ! -path "*/.git/*" ! -path "*/node_modules/*" ! -path "*/public.prev/*" -print0)
+
+    if [[ $found -eq 0 ]]; then
+        echo "{{GREEN}}✓ No Finder duplicate files found{{NORMAL}}"
+    else
+        echo ""
+        echo "{{MAGENTA}}Found $found Finder duplicate file(s){{NORMAL}}"
+
+        if [[ "{{ remove }}" != "yes" ]] && [[ "{{ remove }}" != "true" ]]; then
+            echo "{{BLUE}}Run 'just finder_dupes yes' to remove them{{NORMAL}}"
+        else
+            echo "{{GREEN}}✓ Removed $found file(s){{NORMAL}}"
+        fi
+    fi
