@@ -25,7 +25,8 @@
       "Bash(just cue_verify:*)",
       "Bash(just gps_check:*)",
       "Bash(just hugo)",
-      "Bash(brew search:*)"
+      "Bash(brew search:*)",
+      "Bash(just finder_dupes:*)"
     ],
     "deny": [],
     "ask": []
