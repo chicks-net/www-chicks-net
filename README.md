@@ -12,7 +12,8 @@
 The [https://www.chicks.net/](https://www.chicks.net) web site is built and
 maintained with [Hugo](https://gohugo.io/)!
 
-There is [a plan](TODO.md) -- that is moving at a glacial yet humane speed.
+There is [a plan](https://github.com/chicks-net/www-chicks-net/issues) -- that
+is moving at a glacial yet humane speed.
 
 ## Code of Conduct
 

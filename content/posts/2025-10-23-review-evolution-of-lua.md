@@ -82,7 +82,7 @@ software continues to come out every day.
 ## Meta
 
 I didn't finish anything that I
-[meant to finish this month](https://github.com/chicks-net/www-chicks-net/blob/main/TODO.md).
+[meant to finish this month](https://github.com/chicks-net/www-chicks-net/issues).
 I am happy to be writing more actively and consistently than in years past.
 The schedule was a nice idea, but I'm not too invested in it.
 

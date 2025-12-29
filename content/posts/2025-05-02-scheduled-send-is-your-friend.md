@@ -121,7 +121,7 @@ ideas for ways to be more effective and respectful in your work life.
 
 This month I was hoping to post an article I’m working on about Gamification in
 Google Maps, but it has not come together yet.  You can always see the [current
-list of ideas](https://github.com/chicks-net/www-chicks-net/blob/main/TODO.md)
+list of ideas](https://github.com/chicks-net/www-chicks-net/issues)
 and their likelihood.  It could still come together before next month.
 
 My goal is to get one thing posted every month, but last year I only posted in
