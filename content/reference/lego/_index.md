@@ -1,6 +1,6 @@
 +++
 title = 'LEGO'
-date = 2025-10-21
+date = 2025-12-31
 draft = false
 +++
 
