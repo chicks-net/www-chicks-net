@@ -210,9 +210,16 @@ _6%_ **_Get to a streak of 15 in Endless Vasebreaker_** You must complete all
 levels of the Vasebreaker mode to unlock the Endless Mode. Take your time.
 Think before playing and breaking vases. Start with the rightmost possible in
 order to anticipate the progression of zombies. As you clear the rightmost
-column fill it with the left-firing peashooters. The zombie that goes boom will
-wipe out your guns so clear out two rows before placing your right-side guns if
-you can.
+column fill it with the reverse repeaters. The Jack in the Box zombie will wipe
+out your reverse-repeaters so clear out the right 2 columns of vases before
+placing your reverse-repeaters if you can.
+
+In November 2025 I
+[answered a question on Arqade.SE](https://gaming.stackexchange.com/a/415874/100715)
+about this achievement which clarified the guidance and includes a video
+showing someone accomplishing this in the game:
+
+{{< youtube OFW3obaWFxQ >}}
 
 ### Better Off Dead
 
