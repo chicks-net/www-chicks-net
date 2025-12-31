@@ -13,5 +13,5 @@ Keyboard shortcut references for
 
 - [BrickLink_Studio_Mac_Shortcuts.pdf](BrickLink_Studio_Mac_Shortcuts.pdf) -
   Complete keyboard reference for macOS
-- [BrickLink_Studio_Windows_Shortcuts.pdf](BrickLink_Studio_Windows_Shortcuts.pdf)
-  - Complete keyboard reference for Windows
+- [BrickLink_Studio_Windows_Shortcuts.pdf](BrickLink_Studio_Windows_Shortcuts.pdf) -
+  Complete keyboard reference for Windows
