@@ -42,7 +42,7 @@ Thanks to Célestine Alys for a [fabulous French achievements
 guide](<http://steamcommunity.com/sharedfiles/filedetails/?id=358581364>) which
 was the only complete collection of PvZ achievements I could find.
 
-### SPUDOW!
+### SPUDOW
 
 [![Image](https://images.steamusercontent.com/ugc/34112262289178526/2377178FF207D38442473CC676E9B7A4236686A7/)](<https://images.steamusercontent.com/ugc/34112262289178526/2377178FF207D38442473CC676E9B7A4236686A7/>)_75%_
 **_Blow up a zombie using a potato mine_** Success is very simple, you just
@@ -115,13 +115,10 @@ _15%_ _**Beat all 20 mini games**_ The mini-games are unlocked at some point in
 the adventure mode and then as you succeed in those mini-games you unlock the
 rest. Some suggestions for some of the harder mini-games are:
 
-  * **Last Stand** \-- As suggested by [another game guide](<http://steamcommunity.com/sharedfiles/filedetails/?id=124147156>) you can do this with a first row of Tall-nuts followed by a row of Torchwoods backed by at least a row of Repeaters. The Magnet-Shrooms are not needed if you have two rows of Repeaters as seen in [this youtube video](<https://www.youtube.com/watch?v=L_gMP6YaMx8>).
-
-  * **Bobsled Bonanza** \-- [Wikia](<https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fplantsvszombies.wikia.com%2Fwiki%2FBobsled_Bonanza%2FStrategies>) has a few suggestions. I like #8 - The Starfruit method.
-
-  * **ZomBotany 2** \-- [Wikia](<https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fplantsvszombies.wikia.com%2Fwiki%2FZomBotany_2%2FStrategies>) again
-
-  * **Pogo Party** \-- [recently discussed on Arqade](<https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fgaming.stackexchange.com%2Fquestions%2F229065%2Fhow-do-i-beat-the-pogo-party-minigame>)
+- **Last Stand** \-- As suggested by [another game guide](<http://steamcommunity.com/sharedfiles/filedetails/?id=124147156>) you can do this with a first row of Tall-nuts followed by a row of Torchwoods backed by at least a row of Repeaters. The Magnet-Shrooms are not needed if you have two rows of Repeaters as seen in [this youtube video](<https://www.youtube.com/watch?v=L_gMP6YaMx8>).
+- **Bobsled Bonanza** \-- [Wikia](<https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fplantsvszombies.wikia.com%2Fwiki%2FBobsled_Bonanza%2FStrategies>) has a few suggestions. I like #8 - The Starfruit method.
+- **ZomBotany 2** \-- [Wikia](<https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fplantsvszombies.wikia.com%2Fwiki%2FZomBotany_2%2FStrategies>) again
+- **Pogo Party** \-- [recently discussed on Arqade](<https://steamcommunity.com/linkfilter/?u=http%3A%2F%2Fgaming.stackexchange.com%2Fquestions%2F229065%2Fhow-do-i-beat-the-pogo-party-minigame>)
 
 There is a _bug_ where it may not give you the achievement after you have
 beaten all 20 mini-games. I was able to work around this on MacOS by creating a
@@ -235,7 +232,7 @@ think carefully before you play because you have the time.
 
 ### Conversion metadata
 
-```
+```yaml
 ---
 game_id: 3590
 game_title: 'Plants vs. Zombies: Game of the Year'
