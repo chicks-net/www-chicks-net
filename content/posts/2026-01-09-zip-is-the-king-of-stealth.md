@@ -7,7 +7,7 @@ description = 'You are using it everyday without realizing it.'
 cover.hidden = true
 keywords = ["zip","sqlite","stealth"]
 tags = ["free-software", "database", "programming"]
-# ShowToc = true
+ShowToc = true
 +++
 
 ## Zip Files are Everywhere
