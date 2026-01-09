@@ -46,8 +46,8 @@ format is the most widely used format for that application.
 
 ### Development & Application Files
 
-- **Java archives**: [`.jar`](https://en.wikipedia.org/wiki/JAR_(file_format%29), `.war`, `.ear`
-- **Android packages**: [`.apk`](https://en.wikipedia.org/wiki/Apk_(file_format%29#Package_contents)
+- **Java archives**: [`.jar`](https://en.wikipedia.org/wiki/JAR_%28file_format%29), `.war`, `.ear`
+- **Android packages**: [`.apk`](https://en.wikipedia.org/wiki/Apk_%28file_format%29#Package_contents)
 - **Browser extensions**: [`.xpi`](https://en.wikipedia.org/wiki/List_of_file_formats#Native_executable) (Firefox), [`.crx`](https://en.wikipedia.org/wiki/List_of_archive_formats#Software_packaging_and_distribution) (Chrome - after header), [.maff](https://en.wikipedia.org/wiki/Mozilla_Archive_Format)
 - **Python wheels**: [`.whl`](https://peps.python.org/pep-0427/)
 - **Sublime Text packages**: [`.sublime-package`](https://www.sublimetext.com/docs/packages.html)
