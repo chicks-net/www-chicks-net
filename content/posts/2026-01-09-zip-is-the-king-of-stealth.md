@@ -56,13 +56,12 @@ format is the most widely used format for that application.
 
 - **Sketch**: [`.sketch`](https://developer.sketch.com/file-format/) (Mac design tool)
 - **OpenRaster**: [`.ora`](https://en.wikipedia.org/wiki/OpenRaster) (GIMP, Krita)
-- **Adobe InDesign packages**: `.indd` (when packaged)
+- **Adobe InDesign packages**: `.indd` (basic indd files are not Zips, but they are Zips when packaged)
 - **KMZ**: [`.kmz`](https://developers.google.com/kml/documentation/kmzarchives) (Google Earth - compressed KML)
 
 ### 3D & Manufacturing
 
 - **3D Manufacturing Format**: [`.3mf`](https://en.wikipedia.org/wiki/3D_Manufacturing_Format)
-- **STL containers**: Some `.stl` variants
 - **MakerBot**: [.thing](https://support.makerbot.com/s/article/File-Types)
 
 ### Label & Specialty Formats
