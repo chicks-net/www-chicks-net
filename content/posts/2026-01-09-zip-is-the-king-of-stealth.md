@@ -151,6 +151,10 @@ Beyond `.tar.gz`, it underlies:
 - **Package formats**: `.deb` (Debian packages contain tar archives)
 - **Backups**: Time Machine uses tar variants
 - The go-to for preserving Unix permissions/metadata
+- Sadly not great for programmers since you have to read the entire file up to
+  the part you want.  Zip encrypts each file and has an index so you can seek
+  to the right spot, and skip gobs of wasted IOPS.  And so fewer programming
+  languages have built-in support for it.
 
 ### RIFF (Resource Interchange File Format)
 
