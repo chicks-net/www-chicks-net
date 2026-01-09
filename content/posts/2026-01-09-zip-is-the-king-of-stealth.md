@@ -6,7 +6,7 @@ description = 'You are using it everyday without realizing it.'
 # cover.image = '/posts/'
 cover.hidden = true
 keywords = ["zip","sqlite","stealth"]
-tags = ["free-software", "database", "programming"]  
+tags = ["free-software", "database", "programming"]
 # ShowToc = true
 +++
 
@@ -39,36 +39,36 @@ format is the most widely used format for that application.
 
 ### Office & Document Formats
 
-- **Microsoft Office XML**: [`.docx`](https://en.wikipedia.org/wiki/Office_Open_XML), [`.xlsx`](https://en.wikipedia.org/wiki/Office_Open_XML), [`.pptx`](https://en.wikipedia.org/wiki/Office_Open_XML), `.vsdx` (Visio)  
-- **OpenDocument**: [`.odt`](https://en.wikipedia.org/wiki/OpenDocument), `.ods`, [`.odp`](https://en.wikipedia.org/wiki/OpenDocument), [`.odg`](https://en.wikipedia.org/wiki/OpenDocument) (LibreOffice/OpenOffice)  
-- **Apple iWork**: `.pages`, `.numbers`, `.key` (Keynote)  
+- **Microsoft Office XML**: [`.docx`](https://en.wikipedia.org/wiki/Office_Open_XML), [`.xlsx`](https://en.wikipedia.org/wiki/Office_Open_XML), [`.pptx`](https://en.wikipedia.org/wiki/Office_Open_XML), `.vsdx` (Visio)
+- **OpenDocument**: [`.odt`](https://en.wikipedia.org/wiki/OpenDocument), `.ods`, [`.odp`](https://en.wikipedia.org/wiki/OpenDocument), [`.odg`](https://en.wikipedia.org/wiki/OpenDocument) (LibreOffice/OpenOffice)
+- **Apple iWork**: `.pages`, `.numbers`, `.key` (Keynote)
 - **EPUB ebooks**: [`.epub`](https://en.wikipedia.org/wiki/EPUB)
 
 ### Development & Application Files
 
-- **Java archives**: [`.jar`](https://en.wikipedia.org/wiki/JAR_\(file_format\)), `.war`, `.ear`  
-- **Android packages**: [`.apk`](https://en.wikipedia.org/wiki/Apk_\(file_format\)#Package_contents)  
-- **Browser extensions**: [`.xpi`](https://en.wikipedia.org/wiki/List_of_file_formats#Native_executable) (Firefox), [`.crx`](https://en.wikipedia.org/wiki/List_of_archive_formats#Software_packaging_and_distribution) (Chrome \- after header), [.maff](https://en.wikipedia.org/wiki/Mozilla_Archive_Format)  
-- **Python wheels**: [`.whl`](https://peps.python.org/pep-0427/)  
+- **Java archives**: [`.jar`](https://en.wikipedia.org/wiki/JAR_(file_format%29), `.war`, `.ear`
+- **Android packages**: [`.apk`](https://en.wikipedia.org/wiki/Apk_(file_format%29#Package_contents)
+- **Browser extensions**: [`.xpi`](https://en.wikipedia.org/wiki/List_of_file_formats#Native_executable) (Firefox), [`.crx`](https://en.wikipedia.org/wiki/List_of_archive_formats#Software_packaging_and_distribution) (Chrome - after header), [.maff](https://en.wikipedia.org/wiki/Mozilla_Archive_Format)
+- **Python wheels**: [`.whl`](https://peps.python.org/pep-0427/)
 - **Sublime Text packages**: [`.sublime-package`](https://www.sublimetext.com/docs/packages.html)
 
 ### Design & Graphics
 
-- **Sketch**: [`.sketch`](https://developer.sketch.com/file-format/) (Mac design tool)  
-- **OpenRaster**: [`.ora`](https://en.wikipedia.org/wiki/OpenRaster) (GIMP, Krita)  
-- **Adobe InDesign packages**: `.indd` (when packaged)  
-- **KMZ**: [`.kmz`](https://developers.google.com/kml/documentation/kmzarchives) (Google Earth \- compressed KML)
+- **Sketch**: [`.sketch`](https://developer.sketch.com/file-format/) (Mac design tool)
+- **OpenRaster**: [`.ora`](https://en.wikipedia.org/wiki/OpenRaster) (GIMP, Krita)
+- **Adobe InDesign packages**: `.indd` (when packaged)
+- **KMZ**: [`.kmz`](https://developers.google.com/kml/documentation/kmzarchives) (Google Earth - compressed KML)
 
 ### 3D & Manufacturing
 
-- **3D Manufacturing Format**: [`.3mf`](https://en.wikipedia.org/wiki/3D_Manufacturing_Format)  
-- **STL containers**: Some `.stl` variants  
+- **3D Manufacturing Format**: [`.3mf`](https://en.wikipedia.org/wiki/3D_Manufacturing_Format)
+- **STL containers**: Some `.stl` variants
 - **MakerBot**: [.thing](https://support.makerbot.com/s/article/File-Types)
 
 ### Label & Specialty Formats
 
-- **Brother label files**: [`.lbx`](https://github.com/Alecto3-D/brother-p-touch-editor-format), `.pte` (P-touch Editor)  
-- **Mozilla Archive Format**: [.maff](https://en.wikipedia.org/wiki/Mozilla_Archive_Format)  
+- **Brother label files**: [`.lbx`](https://github.com/Alecto3-D/brother-p-touch-editor-format), `.pte` (P-touch Editor)
+- **Mozilla Archive Format**: [.maff](https://en.wikipedia.org/wiki/Mozilla_Archive_Format)
 - **OpenDocument templates**: [`.ott`](https://en.wikipedia.org/wiki/OpenDocument), [`.ots`](https://en.wikipedia.org/wiki/OpenDocument), [`.otp`](https://en.wikipedia.org/wiki/OpenDocument)
 
 The long-tail of zip-based formats probably has hundreds of examples.
@@ -92,8 +92,8 @@ SQLite is often embedded to provide the storage layer.  Again, it is a huge win
 to avoid reinventing the wheel.  Examples of applications you are already using
 that are using SQLite internally:
 
-- **Browser data**: Chrome/Firefox history, cookies, bookmarks  
-- **Apple**: iMessage database, Photos library metadata, iOS backups  
+- **Browser data**: Chrome/Firefox history, cookies, bookmarks
+- **Apple**: iMessage database, Photos library metadata, iOS backups
 - **Application data**: Skype, Adobe Lightroom catalogs, many mobile apps
 
 This also means that you can use SQLite-compatible tools to hack around in the
@@ -104,28 +104,28 @@ Naturally there are a slew of database products built on this foundation.
 
 #### Proprietary Products Built on SQLite
 
-- [**SQLCipher**](https://www.zetetic.net/sqlcipher/) \- Adds 256-bit AES encryption to SQLite. Has both open-source and commercial editions. Used by many commercial apps requiring encrypted local storage.  
-- [**Couchbase Lite**](https://www.couchbase.com/products/lite/) \- Mobile/embedded NoSQL database that uses SQLite for storage underneath its document model. Syncs with Couchbase Server.  
-- [**ActorDB**](https://www.actordb.com/) \- Commercial distributed SQL database that uses SQLite as the storage engine on each node with actor-model distribution on top.  
-- **Oracle Berkeley DB** \- Oracle's embedded database has SQL API support built on SQLite components (though Berkeley DB itself predates this).
+- [**SQLCipher**](https://www.zetetic.net/sqlcipher/) - Adds 256-bit AES encryption to SQLite. Has both open-source and commercial editions. Used by many commercial apps requiring encrypted local storage.
+- [**Couchbase Lite**](https://www.couchbase.com/products/lite/) - Mobile/embedded NoSQL database that uses SQLite for storage underneath its document model. Syncs with Couchbase Server.
+- [**ActorDB**](https://www.actordb.com/) - Commercial distributed SQL database that uses SQLite as the storage engine on each node with actor-model distribution on top.
+- **Oracle Berkeley DB** - Oracle's embedded database has SQL API support built on SQLite components (though Berkeley DB itself predates this).
 
 #### Distributed/Replicated SQLite
 
-- [**Litestream**](https://litestream.io/) \- Streaming replication to S3/Azure/GCS. Makes SQLite viable for production by continuously backing up to object storage.  
-- [**LiteFS**](https://fly.io/docs/litefs/) \- Distributed filesystem for SQLite by Fly.io. Provides FUSE-based replication across nodes.  
-- [**rqlite**](https://rqlite.io/) \- Distributed relational database using Raft consensus. SQLite on every node with automatic replication.  
-- [**dqlite**](https://dqlite.io/) \- Canonical's distributed SQLite built on Raft. Used in LXD and other infrastructure projects.  
-- [**Turso**](https://turso.tech/) \- libSQL-based (SQLite fork) edge database with global replication. Commercial service built on SQLite foundation.
+- [**Litestream**](https://litestream.io/) - Streaming replication to S3/Azure/GCS. Makes SQLite viable for production by continuously backing up to object storage.
+- [**LiteFS**](https://fly.io/docs/litefs/) - Distributed filesystem for SQLite by Fly.io. Provides FUSE-based replication across nodes.
+- [**rqlite**](https://rqlite.io/) - Distributed relational database using Raft consensus. SQLite on every node with automatic replication.
+- [**dqlite**](https://dqlite.io/) - Canonical's distributed SQLite built on Raft. Used in LXD and other infrastructure projects.
+- [**Turso**](https://turso.tech/) - libSQL-based (SQLite fork) edge database with global replication. Commercial service built on SQLite foundation.
 
 #### Enhanced SQLite Variants
 
-- [**libSQL**](https://github.com/tursodatabase/libsql) \- Open-source SQLite fork by Turso/ChiselStrike. Adds features like WASM functions, encryption, virtual WAL interfaces.  
-- [**SQLite Cloud**](https://sqlitecloud.io/) \- Commercial distributed SQLite service with client-server architecture.  
-- [**cr-sqlite**](https://github.com/vlcn-io/cr-sqlite) \- CRDTs for SQLite, enabling multi-writer replication and local-first applications.
+- [**libSQL**](https://github.com/tursodatabase/libsql) - Open-source SQLite fork by Turso/ChiselStrike. Adds features like WASM functions, encryption, virtual WAL interfaces.
+- [**SQLite Cloud**](https://sqlitecloud.io/) - Commercial distributed SQLite service with client-server architecture.
+- [**cr-sqlite**](https://github.com/vlcn-io/cr-sqlite) - CRDTs for SQLite, enabling multi-writer replication and local-first applications.
 
 #### Application Frameworks
 
-- [**Datasette**](https://datasette.io/) \- Publishes SQLite databases as interactive websites/APIs. Great for data journalism and exploration.
+- [**Datasette**](https://datasette.io/) - Publishes SQLite databases as interactive websites/APIs. Great for data journalism and exploration.
 
 The distributed variants (rqlite, dqlite, LiteFS) are particularly interesting
 for production use on Linux servers where you want SQLite's simplicity with
@@ -135,10 +135,10 @@ multi-node reliability.
 
 Scientific computing's [universal container](https://en.wikipedia.org/wiki/Hierarchical_Data_Format):
 
-- **MATLAB**: `.mat` files (version 7.3+)  
-- **Neuroimaging**: Various brain imaging formats  
-- **Climate/geospatial**: NetCDF-4  
-- Python's PyTables, various scientific data stores  
+- **MATLAB**: `.mat` files (version 7.3+)
+- **Neuroimaging**: Various brain imaging formats
+- **Climate/geospatial**: NetCDF-4
+- Python's PyTables, various scientific data stores
 - Tools: `h5dump`, HDFView
 
 Not that stealthy and pretty niche, but worth a mention. It would be cool to
@@ -148,18 +148,18 @@ see this spread beyond its current niche.
 
 Beyond `.tar.gz`, it underlies:
 
-- **Container images**: Docker/OCI layers  
-- **Package formats**: `.deb` (Debian packages contain tar archives)  
-- **Backups**: Time Machine uses tar variants  
+- **Container images**: Docker/OCI layers
+- **Package formats**: `.deb` (Debian packages contain tar archives)
+- **Backups**: Time Machine uses tar variants
 - The go-to for preserving Unix permissions/metadata
 
 ### RIFF (Resource Interchange File Format)
 
 Microsoft's chunk-based format:
 
-- **Audio**: `.wav`  
-- **Video**: `.avi`  
-- **Images**: `.webp`  
+- **Audio**: `.wav`
+- **Video**: `.avi`
+- **Images**: `.webp`
 - **MIDI**: Some variants
 
 ## Conclusion
