@@ -4,7 +4,7 @@ date = 2025-12-31
 draft = false
 +++
 
-References relating to LEGO bricks and software.
+🧱 References relating to LEGO bricks and software.
 
 ## BrickLink Studio
 
