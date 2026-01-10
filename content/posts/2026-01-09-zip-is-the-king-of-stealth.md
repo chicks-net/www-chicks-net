@@ -3,8 +3,8 @@ title = 'Zip is the King of Stealth File Formats'
 date = 2026-01-08T22:25:35-08:00
 draft = false
 description = 'You are using it everyday without realizing it.'
-# cover.image = '/posts/'
-cover.hidden = true
+cover.image = '/posts/2026-01-09-zip-is-the-king-of-stealth.jpg'
+cover.hidden = false
 keywords = ["zip","sqlite","stealth"]
 tags = ["free-software", "database", "programming"]
 ShowToc = true
@@ -174,3 +174,7 @@ to beat if your goal is world domination.
 Let me know if I’ve missed any gems in the stealth file format landscape.  You
 could even file a github issue or pull request if you see a gap that you’re
 sure should be filled.
+
+## Meta
+
+- Cover image was generated with the Nano Banana Pro model using Galaxy.AI.
