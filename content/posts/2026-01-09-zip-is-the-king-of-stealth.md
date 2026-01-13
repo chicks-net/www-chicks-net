@@ -178,3 +178,4 @@ sure should be filled.
 ## Meta
 
 - Cover image was generated with the Nano Banana Pro model using Galaxy.AI.
+- Cross-posted on [linked-in](https://www.linkedin.com/feed/update/urn:li:activity:7416531954935836672/).
