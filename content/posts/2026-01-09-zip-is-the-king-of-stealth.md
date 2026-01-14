@@ -51,6 +51,7 @@ format is the most widely used format for that application.
 - **Browser extensions**: [`.xpi`](https://en.wikipedia.org/wiki/List_of_file_formats#Native_executable) (Firefox), [`.crx`](https://en.wikipedia.org/wiki/List_of_archive_formats#Software_packaging_and_distribution) (Chrome - after header), [.maff](https://en.wikipedia.org/wiki/Mozilla_Archive_Format)
 - **Python wheels**: [`.whl`](https://peps.python.org/pep-0427/)
 - **Sublime Text packages**: [`.sublime-package`](https://www.sublimetext.com/docs/packages.html)
+- **PyTorch packages**: [`.pt`](https://docs.pytorch.org/docs/stable/package.html#see-what-is-inside-a-package)
 
 ### Design & Graphics
 
