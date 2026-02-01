@@ -6,7 +6,7 @@ description = 'There’s more to parking than we learned to get our licenses.'
 cover.image = '/posts/2026-02-01-backing-into-parking-spaces.png'
 cover.hidden = false
 keywords = ["parking", "philosophy"]
-tags = ["creativity", "habits"]  
+tags = ["creativity", "habits"]
 ShowToc = true
 +++
 
@@ -41,7 +41,7 @@ well into everyone’s day-to-day lives.  Other industries and regulators have
 discovered that ["reverse parking" saves
 lives](https://www.geotab.com/blog/reverse-parking/).  “AAA advises drivers to
 back into parking spots or pull-through, and not fully rely on rear-view or
-traffic alert technology…”  Yep, every parking lot, every day of our lives.  
+traffic alert technology…”  Yep, every parking lot, every day of our lives.
 
 ## A pop, the fear and a fizzle {#a-pop,-the-fear-and-a-fizzle}
 
@@ -87,7 +87,7 @@ OR, stop being lazy and start backing in when you park.
 ## Meta
 
 - Github issue [www-chicks-net#208](https://github.com/chicks-net/www-chicks-net/issues/208)
-  has my reserach and links to a bunch of stuff I left out of this article.
+  has my research and links to a bunch of stuff I left out of this article.
 - I will cross-post this on linked-in.
 
 <!-- markdownlint-disable MD053 -->
