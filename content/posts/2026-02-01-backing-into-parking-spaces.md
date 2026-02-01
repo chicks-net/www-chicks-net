@@ -86,7 +86,7 @@ OR, stop being lazy and start backing in when you park.
 
 ## Meta
 
-- Github issue [www-chicks-net#28](https://github.com/chicks-net/www-chicks-net/issues/208)
+- Github issue [www-chicks-net#208](https://github.com/chicks-net/www-chicks-net/issues/208)
   has my reserach and links to a bunch of stuff I left out of this article.
 - I will cross-post this on linked-in.
 
