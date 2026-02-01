@@ -245,7 +245,7 @@ magnitude of what&rsquo;s flowing through it.</p>
 <h2 id="basic-syntax">Basic Syntax<a hidden class="anchor" aria-hidden="true" href="#basic-syntax">#</a></h2>
 <p>The format is dead simple: <code>Source [Number] Target</code></p>
 <p>Here&rsquo;s a real example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [100] Checking Account
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [100] Checking Account
 </span></span></code></pre></div><p>That line creates a flow from &ldquo;Income&rdquo; to &ldquo;Checking Account&rdquo; with a value of 100.</p>
 <h2 id="file-format-rules">File Format Rules<a hidden class="anchor" aria-hidden="true" href="#file-format-rules">#</a></h2>
 <ul>
@@ -257,16 +257,16 @@ magnitude of what&rsquo;s flowing through it.</p>
 <li>Blank lines and lines starting with <code>//</code> are ignored (great for comments and organizing your data)</li>
 </ul>
 <h2 id="quick-example">Quick Example<a hidden class="anchor" aria-hidden="true" href="#quick-example">#</a></h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>A [8] C
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>A [8] C
 </span></span><span style="display:flex;"><span>B [4] C
 </span></span></code></pre></div><p>This creates two flows into node C—one from A with value 8, and one from B with value 4.</p>
 <h2 id="working-with-spreadsheet-data">Working with Spreadsheet Data<a hidden class="anchor" aria-hidden="true" href="#working-with-spreadsheet-data">#</a></h2>
 <p>Got your data organized in columns? Here&rsquo;s the deal. If you&rsquo;ve got three columns
 (From, To, Amount), you can use a formula to rearrange them into SankeyMATIC format.</p>
 <p>In Excel or Google Sheets, use either:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>=A2 &amp; &#34; [&#34; &amp; C2 &amp; &#34;] &#34; &amp; B2
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>=A2 &amp; &#34; [&#34; &amp; C2 &amp; &#34;] &#34; &amp; B2
 </span></span></code></pre></div><p>or the more verbose:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>=CONCATENATE(A2, &#34; [&#34;, C2, &#34;] &#34;, B2)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>=CONCATENATE(A2, &#34; [&#34;, C2, &#34;] &#34;, B2)
 </span></span></code></pre></div><p>Copy the resulting values and paste them straight into SankeyMATIC&rsquo;s Inputs field.</p>
 <h2 id="advanced-syntax">Advanced Syntax<a hidden class="anchor" aria-hidden="true" href="#advanced-syntax">#</a></h2>
 <h3 id="amount-formats">Amount Formats<a hidden class="anchor" aria-hidden="true" href="#amount-formats">#</a></h3>
@@ -282,7 +282,7 @@ for you:</p>
 <p>These work just like regular flows and can have colors and opacity too.</p>
 <h3 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h3>
 <p>Start any line with <code>//</code> to make it a comment:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>// Revenue sources
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>// Revenue sources
 </span></span><span style="display:flex;"><span>Income [5000] Checking
 </span></span><span style="display:flex;"><span>Bonus [1000] Checking
 </span></span><span style="display:flex;"><span>
@@ -292,31 +292,31 @@ for you:</p>
 </span></span></code></pre></div><h2 id="working-with-colors">Working with Colors<a hidden class="anchor" aria-hidden="true" href="#working-with-colors">#</a></h2>
 <h3 id="node-colors">Node Colors<a hidden class="anchor" aria-hidden="true" href="#node-colors">#</a></h3>
 <p>You can assign colors to individual nodes using node declarations that start with a colon:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:NodeName #ColorCode
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:NodeName #ColorCode
 </span></span></code></pre></div><p>For example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:Revenue #006600
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:Revenue #006600
 </span></span><span style="display:flex;"><span>:Expenses #CC0000
 </span></span></code></pre></div><p>Colors use standard hex format: <code>#rgb</code> or <code>#rrggbb</code> (like <code>#3cf</code> or <code>#009A00</code>).
 Case doesn&rsquo;t matter.</p>
 <h3 id="flow-colors">Flow Colors<a hidden class="anchor" aria-hidden="true" href="#flow-colors">#</a></h3>
 <p>Add a color right to the end of any flow line:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Source [Amount] Target #ColorCode
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Source [Amount] Target #ColorCode
 </span></span></code></pre></div><p>Real example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [5000] Checking #00CC00
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [5000] Checking #00CC00
 </span></span></code></pre></div><h3 id="color-inheritance">Color Inheritance<a hidden class="anchor" aria-hidden="true" href="#color-inheritance">#</a></h3>
 <p>Here&rsquo;s where it gets interesting. You can tell nodes to pass their color along to
 their flows:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:NodeName #ColorCode &gt;&gt;     // flows FROM this node inherit its color
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:NodeName #ColorCode &gt;&gt;     // flows FROM this node inherit its color
 </span></span><span style="display:flex;"><span>:NodeName #ColorCode &lt;&lt;     // flows TO this node inherit its color
 </span></span><span style="display:flex;"><span>:NodeName #ColorCode &lt;&lt; &gt;&gt;  // flows both ways inherit its color
 </span></span></code></pre></div><p>Example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:Revenue #00AA00 &gt;&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>:Revenue #00AA00 &gt;&gt;
 </span></span><span style="display:flex;"><span>Revenue [5000] Checking
 </span></span><span style="display:flex;"><span>Revenue [1000] Savings
 </span></span></code></pre></div><p>Both flows from Revenue will be green.</p>
 <h3 id="opacity-control">Opacity Control<a hidden class="anchor" aria-hidden="true" href="#opacity-control">#</a></h3>
 <p>Make flows more or less transparent by adding a decimal after the color (0.0 to 0.9999):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [5000] Checking #00CC00.8
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Income [5000] Checking #00CC00.8
 </span></span></code></pre></div><p>Higher numbers = more opaque (brighter), lower numbers = more transparent. Default
 flow opacity is 0.45, which is why flows look lighter than nodes.</p>
 <h3 id="color-themes">Color Themes<a hidden class="anchor" aria-hidden="true" href="#color-themes">#</a></h3>
