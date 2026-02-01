@@ -340,7 +340,7 @@ import? &#39;.just/utility.just&#39;
 </code></pre><p>The <code>?</code> makes imports optional—useful if you&rsquo;re sharing justfiles across projects where some modules might not exist.</p>
 <h3 id="module-structure">Module Structure<a hidden class="anchor" aria-hidden="true" href="#module-structure">#</a></h3>
 <p>I keep specialized functionality in <code>.just/</code> directory:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>justfile                    # main orchestration
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>justfile                    # main orchestration
 </span></span><span style="display:flex;"><span>.just/
 </span></span><span style="display:flex;"><span>  hugo.just                 # Hugo-specific commands
 </span></span><span style="display:flex;"><span>  gh-process.just          # Git/GitHub workflow
@@ -415,7 +415,7 @@ server:
     # now you can use bash arrays, etc.
 </code></pre><h3 id="error-handling">Error Handling<a hidden class="anchor" aria-hidden="true" href="#error-handling">#</a></h3>
 <p>In bash recipes, use strict mode:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
 </span></span></span><span style="display:flex;"><span>set -euo pipefail
 </span></span></code></pre></div><p>This catches errors early instead of letting commands fail silently.</p>
 <h3 id="quote-arguments">Quote Arguments<a hidden class="anchor" aria-hidden="true" href="#quote-arguments">#</a></h3>
@@ -471,17 +471,17 @@ build-path:
 </code></pre><h2 id="testing-and-debugging">Testing and Debugging<a hidden class="anchor" aria-hidden="true" href="#testing-and-debugging">#</a></h2>
 <h3 id="dry-run">Dry Run<a hidden class="anchor" aria-hidden="true" href="#dry-run">#</a></h3>
 <p>See what would execute without running it:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --dry-run recipe-name
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --dry-run recipe-name
 </span></span></code></pre></div><h3 id="list-recipes">List Recipes<a hidden class="anchor" aria-hidden="true" href="#list-recipes">#</a></h3>
 <p>Show all available recipes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --list
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --list
 </span></span></code></pre></div><p>Group them for better organization with <code>[group('name')]</code> attributes.</p>
 <h3 id="evaluate-variables">Evaluate Variables<a hidden class="anchor" aria-hidden="true" href="#evaluate-variables">#</a></h3>
 <p>Check variable values:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --evaluate
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --evaluate
 </span></span></code></pre></div><h3 id="verbose-output">Verbose Output<a hidden class="anchor" aria-hidden="true" href="#verbose-output">#</a></h3>
 <p>See every command before it runs:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --verbose recipe-name
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>just --verbose recipe-name
 </span></span></code></pre></div><h2 id="version-management">Version Management<a hidden class="anchor" aria-hidden="true" href="#version-management">#</a></h2>
 <p>If you&rsquo;re using just across multiple projects or in a team, consider pinning the version. I&rsquo;ve found that just&rsquo;s backwards compatibility is solid, but explicit versions prevent surprises.</p>
 <p>Options:</p>
