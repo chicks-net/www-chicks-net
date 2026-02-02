@@ -88,7 +88,7 @@ OR, stop being lazy and start backing in when you park.
 
 - Github issue [www-chicks-net#208](https://github.com/chicks-net/www-chicks-net/issues/208)
   has my research and links to a bunch of stuff I left out of this article.
-- I will cross-post this on linked-in.
+- I [cross-posted this](https://www.linkedin.com/posts/chicks2fini_backing-into-parking-spaces-activity-7424111073823281153-PP6_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAANM42UBeRnJ7AwUnM22SEnxPP-5lvVGyBE) on linked-in.
 
 <!-- markdownlint-disable MD053 -->
 
