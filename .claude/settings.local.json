@@ -26,7 +26,8 @@
       "Bash(just gps_check:*)",
       "Bash(just hugo)",
       "Bash(brew search:*)",
-      "Bash(just finder_dupes:*)"
+      "Bash(just finder_dupes:*)",
+      "Bash(pbcopy:*)"
     ],
     "deny": [],
     "ask": []
