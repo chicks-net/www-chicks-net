@@ -94,7 +94,7 @@ Do not include meta-commentary about your process unless specifically asked. You
 
 ## Example Structure
 
-```
+```text
 [Compelling hook that grabs attention]
 
 [2-3 paragraphs of key insights with line breaks for readability]
