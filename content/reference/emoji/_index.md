@@ -8,7 +8,7 @@ cover.hidden = false
 
 A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub, Slack, and other platforms that support emoji codes.
 
-**Tip:** Click any shortcode in the tables below to copy it to your clipboard!
+**Tip:** Click any emoji or shortcode in the tables below to copy it to your clipboard!
 
 ## Quick Demo
 

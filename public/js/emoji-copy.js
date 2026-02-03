@@ -1,5 +1,5 @@
-// Emoji Shortcode Copy to Clipboard
-// Makes emoji shortcodes clickable and copies them to clipboard
+// Emoji and Shortcode Copy to Clipboard
+// Makes emoji characters and shortcodes clickable and copies them to clipboard
 
 document.addEventListener('DOMContentLoaded', function() {
     // Only run on the emoji reference page
@@ -7,7 +7,118 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
-    // Find all table cells that contain emoji shortcodes
+    // Helper function to create a copy-to-clipboard handler
+    function createCopyHandler(cell, textToCopy, itemDescription) {
+        return function() {
+            // Copy to clipboard
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                // Visual and screen reader feedback
+                const originalText = this.textContent;
+                const originalBg = this.style.backgroundColor;
+                const originalAriaLabel = this.getAttribute('aria-label');
+
+                this.textContent = '✓ Copied!';
+                this.style.backgroundColor = '#90EE90';
+                this.setAttribute('aria-label', `${textToCopy} copied to clipboard`);
+
+                // Announce to screen readers
+                const liveRegion = this.querySelector('.sr-only');
+                if (liveRegion) {
+                    liveRegion.textContent = `${textToCopy} copied to clipboard`;
+                }
+
+                // Reset after 1.5 seconds
+                setTimeout(() => {
+                    this.textContent = originalText;
+                    this.style.backgroundColor = originalBg;
+                    this.setAttribute('aria-label', originalAriaLabel);
+                    if (liveRegion) {
+                        liveRegion.textContent = '';
+                    }
+                }, 1500);
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+                // Fallback for older browsers
+                const textarea = document.createElement('textarea');
+                textarea.value = textToCopy;
+                textarea.style.position = 'fixed';
+                textarea.style.opacity = '0';
+                document.body.appendChild(textarea);
+                textarea.select();
+                try {
+                    document.execCommand('copy');
+                    const originalText = this.textContent;
+                    const originalBg = this.style.backgroundColor;
+                    const originalAriaLabel = this.getAttribute('aria-label');
+
+                    this.textContent = '✓ Copied!';
+                    this.style.backgroundColor = '#90EE90';
+                    this.setAttribute('aria-label', `${textToCopy} copied to clipboard`);
+
+                    const liveRegion = this.querySelector('.sr-only');
+                    if (liveRegion) {
+                        liveRegion.textContent = `${textToCopy} copied to clipboard`;
+                    }
+
+                    setTimeout(() => {
+                        this.textContent = originalText;
+                        this.style.backgroundColor = originalBg;
+                        this.setAttribute('aria-label', originalAriaLabel);
+                        if (liveRegion) {
+                            liveRegion.textContent = '';
+                        }
+                    }, 1500);
+                } catch (err) {
+                    console.error('Fallback copy failed:', err);
+                    const liveRegion = this.querySelector('.sr-only');
+                    if (liveRegion) {
+                        liveRegion.textContent = 'Failed to copy to clipboard';
+                    }
+                }
+                document.body.removeChild(textarea);
+            });
+        };
+    }
+
+    // Helper function to make a cell clickable
+    function makeClickable(cell, textToCopy, className, ariaLabel, tooltip) {
+        // Store the text to copy in a data attribute
+        cell.dataset.copyText = textToCopy;
+
+        // Make the cell clickable with proper accessibility
+        cell.style.cursor = 'pointer';
+        cell.style.userSelect = 'none';
+        cell.title = tooltip;
+        cell.classList.add(className);
+
+        // Add ARIA attributes for screen readers
+        cell.setAttribute('role', 'button');
+        cell.setAttribute('tabindex', '0');
+        cell.setAttribute('aria-label', ariaLabel);
+
+        // Add live region for status announcements
+        const liveRegion = document.createElement('span');
+        liveRegion.setAttribute('aria-live', 'polite');
+        liveRegion.setAttribute('aria-atomic', 'true');
+        liveRegion.className = 'sr-only';
+        cell.appendChild(liveRegion);
+
+        // Create copy handler
+        const copyToClipboard = createCopyHandler(cell, textToCopy);
+
+        // Add click handler
+        cell.addEventListener('click', copyToClipboard);
+
+        // Add keyboard support (Enter and Space)
+        cell.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                copyToClipboard.call(this);
+            }
+        });
+    }
+
+    // Find all table cells that contain emoji characters or shortcodes
     const tables = document.querySelectorAll('table');
 
     tables.forEach(table => {
@@ -17,7 +128,26 @@ document.addEventListener('DOMContentLoaded', function() {
         rows.forEach(row => {
             const cells = row.querySelectorAll('td');
 
-            // Look for cells containing shortcode patterns (`:something:`)
+            // Process emoji cell (first column, index 0)
+            if (cells.length > 0) {
+                const emojiCell = cells[0];
+                const emojiText = emojiCell.textContent.trim();
+
+                // Check if cell contains an emoji (Unicode emoji ranges)
+                // This regex covers most common emoji ranges
+                const emojiRegex = /[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F000}-\u{1F02F}\u{1F0A0}-\u{1F0FF}\u{1F100}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}]/u;
+                if (emojiText && emojiRegex.test(emojiText)) {
+                    makeClickable(
+                        emojiCell,
+                        emojiText,
+                        'emoji-character',
+                        `Copy emoji ${emojiText} to clipboard`,
+                        'Click to copy emoji'
+                    );
+                }
+            }
+
+            // Process shortcode cells (look through all cells for shortcode pattern)
             cells.forEach(cell => {
                 const text = cell.textContent.trim();
 
@@ -25,111 +155,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 const shortcodeMatch = text.match(/^:[a-zA-Z0-9_+-]+:$/);
 
                 if (shortcodeMatch) {
-                    // Store the original shortcode in a data attribute for reliable access
-                    cell.dataset.shortcode = text;
-
-                    // Make the cell clickable with proper accessibility
-                    cell.style.cursor = 'pointer';
-                    cell.style.userSelect = 'none';
-                    cell.title = 'Click to copy';
-                    cell.classList.add('emoji-shortcode');
-
-                    // Add ARIA attributes for screen readers
-                    cell.setAttribute('role', 'button');
-                    cell.setAttribute('tabindex', '0');
-                    cell.setAttribute('aria-label', `Copy emoji shortcode ${text} to clipboard`);
-
-                    // Add live region for status announcements
-                    const liveRegion = document.createElement('span');
-                    liveRegion.setAttribute('aria-live', 'polite');
-                    liveRegion.setAttribute('aria-atomic', 'true');
-                    liveRegion.className = 'sr-only';
-                    cell.appendChild(liveRegion);
-
-                    // Copy function
-                    const copyToClipboard = function() {
-                        // Use the stored shortcode from data attribute for reliable access
-                        const shortcode = this.dataset.shortcode;
-
-                        // Copy to clipboard
-                        navigator.clipboard.writeText(shortcode).then(() => {
-                            // Visual and screen reader feedback
-                            const originalText = this.textContent;
-                            const originalBg = this.style.backgroundColor;
-                            const originalAriaLabel = this.getAttribute('aria-label');
-
-                            this.textContent = '✓ Copied!';
-                            this.style.backgroundColor = '#90EE90';
-                            this.setAttribute('aria-label', `${shortcode} copied to clipboard`);
-
-                            // Announce to screen readers
-                            const liveRegion = this.querySelector('.sr-only');
-                            if (liveRegion) {
-                                liveRegion.textContent = `${shortcode} copied to clipboard`;
-                            }
-
-                            // Reset after 1.5 seconds
-                            setTimeout(() => {
-                                this.textContent = originalText;
-                                this.style.backgroundColor = originalBg;
-                                this.setAttribute('aria-label', originalAriaLabel);
-                                if (liveRegion) {
-                                    liveRegion.textContent = '';
-                                }
-                            }, 1500);
-                        }).catch(err => {
-                            console.error('Failed to copy:', err);
-                            // Fallback for older browsers
-                            const textarea = document.createElement('textarea');
-                            textarea.value = shortcode;
-                            textarea.style.position = 'fixed';
-                            textarea.style.opacity = '0';
-                            document.body.appendChild(textarea);
-                            textarea.select();
-                            try {
-                                document.execCommand('copy');
-                                const originalText = this.textContent;
-                                const originalBg = this.style.backgroundColor;
-                                const originalAriaLabel = this.getAttribute('aria-label');
-
-                                this.textContent = '✓ Copied!';
-                                this.style.backgroundColor = '#90EE90';
-                                this.setAttribute('aria-label', `${shortcode} copied to clipboard`);
-
-                                const liveRegion = this.querySelector('.sr-only');
-                                if (liveRegion) {
-                                    liveRegion.textContent = `${shortcode} copied to clipboard`;
-                                }
-
-                                setTimeout(() => {
-                                    this.textContent = originalText;
-                                    this.style.backgroundColor = originalBg;
-                                    this.setAttribute('aria-label', originalAriaLabel);
-                                    if (liveRegion) {
-                                        liveRegion.textContent = '';
-                                    }
-                                }, 1500);
-                            } catch (err) {
-                                console.error('Fallback copy failed:', err);
-                                const liveRegion = this.querySelector('.sr-only');
-                                if (liveRegion) {
-                                    liveRegion.textContent = 'Failed to copy to clipboard';
-                                }
-                            }
-                            document.body.removeChild(textarea);
-                        });
-                    };
-
-                    // Add click handler
-                    cell.addEventListener('click', copyToClipboard);
-
-                    // Add keyboard support (Enter and Space)
-                    cell.addEventListener('keydown', function(e) {
-                        if (e.key === 'Enter' || e.key === ' ') {
-                            e.preventDefault();
-                            copyToClipboard.call(this);
-                        }
-                    });
+                    makeClickable(
+                        cell,
+                        text,
+                        'emoji-shortcode',
+                        `Copy emoji shortcode ${text} to clipboard`,
+                        'Click to copy shortcode'
+                    );
                 }
             });
         });
@@ -138,17 +170,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add CSS for hover effect and accessibility
     const style = document.createElement('style');
     style.textContent = `
+        .emoji-character:hover,
         .emoji-shortcode:hover {
             background-color: #f0f0f0;
             transition: background-color 0.2s;
         }
 
+        .emoji-character:focus,
         .emoji-shortcode:focus {
             outline: 2px solid #0066cc;
             outline-offset: 2px;
             background-color: #f0f0f0;
         }
 
+        .emoji-character,
         .emoji-shortcode {
             border-radius: 3px;
             padding: 2px 4px;
