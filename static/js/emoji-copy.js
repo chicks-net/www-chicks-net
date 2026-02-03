@@ -137,10 +137,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         );
                     }
                 } else {
-                    // Check if cell contains a Unicode emoji (consolidated ranges)
-                    // This regex covers common emoji ranges without overlaps
-                    const emojiRegex = /[\u{1F000}-\u{1F9FF}\u{2600}-\u{27BF}]/u;
-                    if (emojiText && emojiRegex.test(emojiText)) {
+                    // Since emojis are structurally in the first column of the table,
+                    // we can rely on table structure rather than regex validation.
+                    // This approach handles all Unicode emoji sequences including:
+                    // - Emoji components (skin tone modifiers, ZWJ sequences)
+                    // - Emoji presentation selectors (U+FE0F)
+                    // - Regional indicators for flags
+                    // - All other emoji ranges
+                    if (emojiText) {
                         makeClickable(
                             emojiCell,
                             emojiText,
