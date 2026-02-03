@@ -2,9 +2,44 @@
 // Makes emoji characters and shortcodes clickable and copies them to clipboard
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Constants
+    const FEEDBACK_TIMEOUT_MS = 1500;
+    const SUCCESS_COLOR = '#90EE90';
+
     // Only run on the emoji reference page
     if (!window.location.pathname.includes('/reference/emoji')) {
         return;
+    }
+
+    // Helper function to show copy feedback (success or error)
+    function showCopyFeedback(element, textToCopy, isSuccess = true) {
+        const originalText = element.textContent;
+        const originalBg = element.style.backgroundColor;
+        const originalAriaLabel = element.getAttribute('aria-label');
+
+        if (isSuccess) {
+            element.textContent = '✓ Copied!';
+            element.style.backgroundColor = SUCCESS_COLOR;
+            element.setAttribute('aria-label', `${textToCopy} copied to clipboard`);
+        }
+
+        const liveRegion = element.querySelector('.sr-only');
+        if (liveRegion) {
+            liveRegion.textContent = isSuccess
+                ? `${textToCopy} copied to clipboard`
+                : 'Failed to copy to clipboard';
+        }
+
+        if (isSuccess) {
+            setTimeout(() => {
+                element.textContent = originalText;
+                element.style.backgroundColor = originalBg;
+                element.setAttribute('aria-label', originalAriaLabel);
+                if (liveRegion) {
+                    liveRegion.textContent = '';
+                }
+            }, FEEDBACK_TIMEOUT_MS);
+        }
     }
 
     // Helper function to create a copy-to-clipboard handler
@@ -12,30 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return function() {
             // Copy to clipboard
             navigator.clipboard.writeText(textToCopy).then(() => {
-                // Visual and screen reader feedback
-                const originalText = this.textContent;
-                const originalBg = this.style.backgroundColor;
-                const originalAriaLabel = this.getAttribute('aria-label');
-
-                this.textContent = '✓ Copied!';
-                this.style.backgroundColor = '#90EE90';
-                this.setAttribute('aria-label', `${textToCopy} copied to clipboard`);
-
-                // Announce to screen readers
-                const liveRegion = this.querySelector('.sr-only');
-                if (liveRegion) {
-                    liveRegion.textContent = `${textToCopy} copied to clipboard`;
-                }
-
-                // Reset after 1.5 seconds
-                setTimeout(() => {
-                    this.textContent = originalText;
-                    this.style.backgroundColor = originalBg;
-                    this.setAttribute('aria-label', originalAriaLabel);
-                    if (liveRegion) {
-                        liveRegion.textContent = '';
-                    }
-                }, 1500);
+                showCopyFeedback(this, textToCopy, true);
             }).catch(err => {
                 console.error('Failed to copy:', err);
                 // Fallback for older browsers
@@ -47,33 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 textarea.select();
                 try {
                     document.execCommand('copy');
-                    const originalText = this.textContent;
-                    const originalBg = this.style.backgroundColor;
-                    const originalAriaLabel = this.getAttribute('aria-label');
-
-                    this.textContent = '✓ Copied!';
-                    this.style.backgroundColor = '#90EE90';
-                    this.setAttribute('aria-label', `${textToCopy} copied to clipboard`);
-
-                    const liveRegion = this.querySelector('.sr-only');
-                    if (liveRegion) {
-                        liveRegion.textContent = `${textToCopy} copied to clipboard`;
-                    }
-
-                    setTimeout(() => {
-                        this.textContent = originalText;
-                        this.style.backgroundColor = originalBg;
-                        this.setAttribute('aria-label', originalAriaLabel);
-                        if (liveRegion) {
-                            liveRegion.textContent = '';
-                        }
-                    }, 1500);
+                    showCopyFeedback(this, textToCopy, true);
                 } catch (err) {
                     console.error('Fallback copy failed:', err);
-                    const liveRegion = this.querySelector('.sr-only');
-                    if (liveRegion) {
-                        liveRegion.textContent = 'Failed to copy to clipboard';
-                    }
+                    showCopyFeedback(this, textToCopy, false);
                 }
                 document.body.removeChild(textarea);
             });
