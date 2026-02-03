@@ -10,18 +10,6 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 **Tip:** Click any emoji or shortcode in the tables below to copy it to your clipboard!
 
-## Quick Demo
-
-Here are some emoji rendered by Hugo:
-
-- Wave: :wave: (`:wave:`)
-- Heart: :heart: (`:heart:`)
-- Rocket: :rocket: (`:rocket:`)
-- Thumbs up: :+1: (`:+1:`)
-- Fire: :fire: (`:fire:`)
-- Smile: :smile: (`:smile:`)
-- Check mark: :white_check_mark: (`:white_check_mark:`)
-
 ## Smileys & Emotion
 
 ### Face Smiling
@@ -1862,7 +1850,10 @@ Note: Country flags are represented by regional indicator symbols. Here are some
 
 ## GitHub Custom Emoji
 
-GitHub has additional custom emoji that work on their platform. **Note:** These custom emoji are GitHub-specific and are **not supported** by Hugo's `enableEmoji` feature. However, we can display them using direct image references from GitHub's CDN.
+GitHub has additional custom emoji that work on their platform. **Note:** These
+custom emoji are GitHub-specific and are **not supported** by Hugo's
+`enableEmoji` feature. However, we can display them using direct image
+references from GitHub's CDN.
 
 | Image | Shortcode | Description |
 | ----- | --------- | ----------- |
@@ -1880,7 +1871,9 @@ GitHub has additional custom emoji that work on their platform. **Note:** These 
 | ![goberserk](https://github.githubassets.com/images/icons/emoji/goberserk.png?v8) | `:goberserk:` | Go berserk |
 | ![hurtrealbad](https://github.githubassets.com/images/icons/emoji/hurtrealbad.png?v8) | `:hurtrealbad:` | Hurt real bad |
 
-These images are loaded from GitHub's CDN at `github.githubassets.com`. While the shortcodes won't work in Hugo content, you can use the markdown image syntax shown above to display them.
+These images are loaded from GitHub's CDN at `github.githubassets.com`. While
+the shortcodes won't work in Hugo content, you can use the markdown image
+syntax shown above to display them.
 
 ## Hugo Configuration
 
