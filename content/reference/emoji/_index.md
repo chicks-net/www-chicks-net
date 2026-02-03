@@ -2,6 +2,8 @@
 title = 'Emoji Reference Material'
 date = 2025-12-04
 draft = false
+cover.image = '/reference/emoji/emoji-keyboard.jpg'
+cover.hidden = false
 +++
 
 A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub, Slack, and other platforms that support emoji codes.
