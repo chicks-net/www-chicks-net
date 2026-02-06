@@ -16,7 +16,7 @@ draft = false
 
 [![Github contributions for all of history](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-alltime.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
 
-[![Github conttributions for all time with monthly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+[![Github contributions for all time with monthly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chicks-net/megamap,chicks-net/fbdata-forensics,chicks-net/smokeping-config,chicks-net/chicks-home&type=Date)](https://www.star-history.com/#chicks-net/megamap&chicks-net/fbdata-forensics&chicks-net/smokeping-config&chicks-net/chicks-home&Date)
 
