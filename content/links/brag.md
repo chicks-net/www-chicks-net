@@ -12,6 +12,12 @@ draft = false
 
 ![contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=chicks-net&theme=github-compact)
 
+[![Github contributions over the last two years](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+
+[![Github contributions for all of history](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-alltime.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+
+[![Github conttributions for all time with monthly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+
 [![Star History Chart](https://api.star-history.com/svg?repos=chicks-net/megamap,chicks-net/fbdata-forensics,chicks-net/smokeping-config,chicks-net/chicks-home&type=Date)](https://www.star-history.com/#chicks-net/megamap&chicks-net/fbdata-forensics&chicks-net/smokeping-config&chicks-net/chicks-home&Date)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
