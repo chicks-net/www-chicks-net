@@ -14,7 +14,7 @@ draft = false
 
 [![Github contributions over the last two years](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
 
-[![Github contributions for all of history](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-alltime.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+[![Github contributions for all of history](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-alltime.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
 
 [![Github conttributions for all time with monthly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
 
