@@ -16,8 +16,6 @@ ShowToc = true
 
 Heading to the San Francisco Flower Market for a family wedding.
 
-#weddingflowers #flowermarket #sanfrancisco
-
 ## The video on YouTube
 
 {{< youtube ywN2qgHyoXk >}}
