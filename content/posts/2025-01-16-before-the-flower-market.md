@@ -8,7 +8,7 @@ ShowCanonicalLink = true
 cover.image = '/posts/2025-01-16-before-the-flower-market.jpg'
 cover.hidden = false
 keywords = ["weddingflowers", "flowermarket", "sanfrancisco", "roses", "ferns", "carnations", "wedding"]
-tags = ["youtube", "art", "ca-san-francisco"]
+tags = ["art", "ca-san-francisco", "family", "travel", "youtube"]
 ShowToc = true
 +++
 
