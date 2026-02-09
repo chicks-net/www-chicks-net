@@ -2,7 +2,7 @@
 title = 'Before the flower market'
 date = 2025-01-16
 draft = false
-description = 'A video about before the flower market'
+description = 'Heading to the San Francisco Flower Market for a family wedding.'
 canonicalURL = 'https://www.youtube.com/watch?v=ywN2qgHyoXk'
 ShowCanonicalLink = true
 cover.image = '/posts/2025-01-16-before-the-flower-market.jpg'
