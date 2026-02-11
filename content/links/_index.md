@@ -50,8 +50,7 @@ draft = false
   - 📘 [Take my books on BookMooch](http://bookmooch.com/bio/chicks) please.
   - 🎼 [Spotify](https://open.spotify.com/user/chicks_net) is my music source.
 - 💵 refer:
-  - 🚙 [Lyft](https://lyft.com/ie/CHRISTOPHE985315) will give you \$20
-      in ride credits
+  - 🚙 [Lyft](https://www.lyft.com/i/CHRISTOPHE985315) will give you some deal on your ride.
   - 🏛 [Empower Personal Capital](https://empowerreferral.link/chicks)
       provides an excellent personal financial dashboard.
   - 🎼 [Spotify](https://www.spotify.com/referral/0039888df8f37d028eaf247ddef53c5c2a066d7e03fb05cdb89e5a)
