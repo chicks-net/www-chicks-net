@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Helper function to show copy feedback (success or error)
     function showCopyFeedback(element, textToCopy, isSuccess = true) {
-        const originalText = element.textContent;
-        const originalBg = element.style.backgroundColor;
+        const originalHTML = element.innerHTML;
+        const originalCSS = element.style.cssText;
         const originalAriaLabel = element.getAttribute('aria-label');
 
         if (isSuccess) {
@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             element.setAttribute('aria-label', `${textToCopy} copied to clipboard`);
         }
 
+        // querySelector must run after textContent change; span is gone on success path
         const liveRegion = element.querySelector('.sr-only');
         if (liveRegion) {
             liveRegion.textContent = isSuccess
@@ -32,12 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (isSuccess) {
             setTimeout(() => {
-                element.textContent = originalText;
-                element.style.backgroundColor = originalBg;
+                element.innerHTML = originalHTML;
+                element.style.cssText = originalCSS;
                 element.setAttribute('aria-label', originalAriaLabel);
-                if (liveRegion) {
-                    liveRegion.textContent = '';
-                }
             }, FEEDBACK_TIMEOUT_MS);
         }
     }
