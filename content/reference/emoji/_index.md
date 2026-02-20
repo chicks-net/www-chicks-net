@@ -10,12 +10,14 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 **Tip:** Click any emoji or shortcode in the tables below to copy it to your clipboard!
 
+The **Introduced** column shows the year and Emoji specification version when each emoji was added (e.g., `2018 (11.0)` means added in 2018 with Emoji 11.0).
+
 ## Smileys & Emotion
 
 ### Face Smiling
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😀 | `:grinning:` | | 2015 (1.0) |
 | 😃 | `:smiley:` | | 2010 (0.6) |
 | 😄 | `:smile:` | | 2010 (0.6) |
@@ -33,9 +35,9 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Face Affection
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
-| 🥰 | `:smiling_face_with_three_hearts:` | | 2010 (0.6) |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
+| 🥰 | `:smiling_face_with_three_hearts:` | | 2018 (11.0) |
 | 😍 | `:heart_eyes:` | | 2010 (0.6) |
 | 🤩 | `:star_struck:` | | 2017 (5.0) |
 | 😘 | `:kissing_heart:` | | 2010 (0.6) |
@@ -47,8 +49,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Face Tongue
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😋 | `:yum:` | | 2010 (0.6) |
 | 😛 | `:stuck_out_tongue:` | | 2015 (1.0) |
 | 😜 | `:stuck_out_tongue_winking_eye:` | | 2010 (0.6) |
@@ -58,20 +60,20 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Face Hand
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🤗 | `:hugs:` | `:hugging_face:` | 2015 (1.0) |
 | 🤭 | `:hand_over_mouth:` | | 2017 (5.0) |
 | 🤫 | `:shushing_face:` | | 2017 (5.0) |
-| 🤔 | `:thinking:` | `:thinking_face:` | 2010 (0.6) |
+| 🤔 | `:thinking:` | `:thinking_face:` | 2015 (1.0) |
 | 🫡 | `:saluting_face:` | | 2021 (14.0) |
 | 🫢 | `:face_with_open_eyes_hand_over_mouth:` | | 2021 (14.0) |
 | 🫣 | `:face_with_peeking_eye:` | | 2021 (14.0) |
 
 ### Face Neutral Skeptical
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🤐 | `:zipper_mouth_face:` | | 2015 (1.0) |
 | 🤨 | `:raised_eyebrow:` | `:face_with_raised_eyebrow:` | 2017 (5.0) |
 | 😐 | `:neutral_face:` | | 2015 (0.7) |
@@ -79,15 +81,15 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 😶 | `:no_mouth:` | | 2015 (1.0) |
 | 😏 | `:smirk:` | | 2010 (0.6) |
 | 😒 | `:unamused:` | | 2010 (0.6) |
-| 🙄 | `:roll_eyes:` | `:face_with_rolling_eyes:` | 2010 (0.6) |
+| 🙄 | `:roll_eyes:` | `:face_with_rolling_eyes:` | 2015 (1.0) |
 | 😬 | `:grimacing:` | | 2015 (1.0) |
 | 🤥 | `:lying_face:` | | 2016 (3.0) |
 | 🫥 | `:dotted_line_face:` | | 2021 (14.0) |
 
 ### Face Sleepy
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😌 | `:relieved:` | | 2010 (0.6) |
 | 😔 | `:pensive:` | | 2010 (0.6) |
 | 😪 | `:sleepy:` | | 2010 (0.6) |
@@ -96,13 +98,13 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Face Unwell
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😷 | `:mask:` | | 2010 (0.6) |
 | 🤒 | `:face_with_thermometer:` | | 2015 (1.0) |
 | 🤕 | `:face_with_head_bandage:` | | 2015 (1.0) |
 | 🤢 | `:nauseated_face:` | | 2016 (3.0) |
-| 🤮 | `:vomiting_face:` | `:face_vomiting:` | 2010 (0.6) |
+| 🤮 | `:vomiting_face:` | `:face_vomiting:` | 2017 (5.0) |
 | 🤧 | `:sneezing_face:` | | 2016 (3.0) |
 | 🥵 | `:hot_face:` | | 2018 (11.0) |
 | 🥶 | `:cold_face:` | | 2018 (11.0) |
@@ -112,24 +114,24 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Face Hat
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🤠 | `:cowboy_hat_face:` | | 2016 (3.0) |
 | 🥳 | `:partying_face:` | | 2018 (11.0) |
 | 🥸 | `:disguised_face:` | | 2020 (13.0) |
 
 ### Face Glasses
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😎 | `:sunglasses:` | | 2015 (1.0) |
 | 🤓 | `:nerd_face:` | | 2015 (1.0) |
 | 🧐 | `:monocle_face:` | | 2017 (5.0) |
 
 ### Face Concerned
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😕 | `:confused:` | | 2015 (1.0) |
 | 😟 | `:worried:` | | 2015 (1.0) |
 | 🙁 | `:slightly_frowning_face:` | | 2015 (1.0) |
@@ -157,8 +159,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Face Negative
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😤 | `:triumph:` | | 2010 (0.6) |
 | 😡 | `:rage:` | `:pout:` | 2010 (0.6) |
 | 😠 | `:angry:` | | 2010 (0.6) |
@@ -170,8 +172,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Face Costume
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💩 | `:poop:` | `:hankey:`, `:shit:` | 2010 (0.6) |
 | 🤡 | `:clown_face:` | | 2016 (3.0) |
 | 👹 | `:japanese_ogre:` | | 2010 (0.6) |
@@ -183,8 +185,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Cat Face
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 😺 | `:smiley_cat:` | | 2010 (0.6) |
 | 😸 | `:smile_cat:` | | 2010 (0.6) |
 | 😹 | `:joy_cat:` | | 2010 (0.6) |
@@ -197,16 +199,16 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Monkey Face
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🙈 | `:see_no_evil:` | | 2010 (0.6) |
 | 🙉 | `:hear_no_evil:` | | 2010 (0.6) |
 | 🙊 | `:speak_no_evil:` | | 2010 (0.6) |
 
 ### Heart
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💋 | `:kiss:` | | 2010 (0.6) |
 | 💌 | `:love_letter:` | | 2010 (0.6) |
 | 💘 | `:cupid:` | | 2010 (0.6) |
@@ -236,8 +238,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Emotion
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💯 | `:100:` | `:hundred:` | 2010 (0.6) |
 | 💢 | `:anger:` | | 2010 (0.6) |
 | 💥 | `:boom:` | `:collision:` | 2010 (0.6) |
@@ -257,8 +259,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Hand Fingers Open
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👋 | `:wave:` | | 2010 (0.6) |
 | 🤚 | `:raised_back_of_hand:` | | 2015 (0.7) |
 | 🖐️ | `:raised_hand_with_fingers_splayed:` | | 2015 (0.7) |
@@ -267,8 +269,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Hand Fingers Partial
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👌 | `:ok_hand:` | | 2010 (0.6) |
 | 🤌 | `:pinched_fingers:` | | 2020 (13.0) |
 | 🤏 | `:pinching_hand:` | | 2019 (12.0) |
@@ -280,8 +282,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Hand Single Finger
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👈 | `:point_left:` | | 2010 (0.6) |
 | 👉 | `:point_right:` | | 2010 (0.6) |
 | 👆 | `:point_up_2:` | | 2010 (0.6) |
@@ -291,8 +293,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Hand Fingers Closed
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👍 | `:+1:` | `:thumbsup:` | 2010 (0.6) |
 | 👎 | `:-1:` | `:thumbsdown:` | 2010 (0.6) |
 | ✊ | `:fist:` | `:fist_raised:` | 2010 (0.6) |
@@ -302,8 +304,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Hands
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👏 | `:clap:` | | 2010 (0.6) |
 | 🙌 | `:raised_hands:` | | 2010 (0.6) |
 | 👐 | `:open_hands:` | | 2010 (0.6) |
@@ -313,16 +315,16 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Hand Prop
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ✍️ | `:writing_hand:` | | 2015 (0.7) |
 | 💅 | `:nail_care:` | | 2010 (0.6) |
 | 🤳 | `:selfie:` | | 2016 (3.0) |
 
 ### Body Parts
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💪 | `:muscle:` | | 2010 (0.6) |
 | 🦾 | `:mechanical_arm:` | | 2019 (12.0) |
 | 🦿 | `:mechanical_leg:` | | 2019 (12.0) |
@@ -346,8 +348,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Person
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👶 | `:baby:` | | 2010 (0.6) |
 | 🧒 | `:child:` | | 2017 (5.0) |
 | 👦 | `:boy:` | | 2010 (0.6) |
@@ -363,8 +365,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Person Gesture
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🙍 | `:frowning_person:` | `:person_frowning:` | 2010 (0.6) |
 | 🙎 | `:pouting_face:` | `:person_with_pouting_face:` | 2010 (0.6) |
 | 🙅 | `:no_good:` | `:ng_woman:` | 2010 (0.6) |
@@ -378,8 +380,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Person Role
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👮 | `:cop:` | `:police_officer:` | 2010 (0.6) |
 | 🕵️ | `:detective:` | | 2015 (0.7) |
 | 💂 | `:guardsman:` | | 2010 (0.6) |
@@ -397,8 +399,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Person Fantasy
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👼 | `:angel:` | | 2010 (0.6) |
 | 🎅 | `:santa:` | | 2010 (0.6) |
 | 🤶 | `:mrs_claus:` | | 2016 (3.0) |
@@ -414,8 +416,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Person Activity
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💆 | `:massage:` | `:person_getting_massage:` | 2010 (0.6) |
 | 💇 | `:haircut:` | `:person_getting_haircut:` | 2010 (0.6) |
 | 🚶 | `:walking:` | | 2010 (0.6) |
@@ -431,8 +433,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Person Sport
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🤺 | `:person_fencing:` | | 2015 (1.0) |
 | 🏇 | `:horse_racing:` | | 2015 (1.0) |
 | ⛷️ | `:skier:` | | 2015 (0.7) |
@@ -453,16 +455,16 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Person Resting
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🧘 | `:lotus_position:` | | 2017 (5.0) |
 | 🛀 | `:bath:` | | 2010 (0.6) |
 | 🛌 | `:sleeping_bed:` | | 2015 (1.0) |
 
 ### Family
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👭 | `:two_women_holding_hands:` | | 2015 (1.0) |
 | 👫 | `:couple:` | `:woman_and_man_holding_hands:` | 2010 (0.6) |
 | 👬 | `:two_men_holding_hands:` | | 2015 (1.0) |
@@ -477,8 +479,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Animal Mammal
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🐵 | `:monkey_face:` | | 2010 (0.6) |
 | 🐒 | `:monkey:` | | 2010 (0.6) |
 | 🦍 | `:gorilla:` | | 2016 (3.0) |
@@ -545,8 +547,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Animal Bird
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🦃 | `:turkey:` | | 2015 (1.0) |
 | 🐔 | `:chicken:` | | 2010 (0.6) |
 | 🐓 | `:rooster:` | | 2015 (1.0) |
@@ -571,14 +573,14 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Animal Amphibian
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🐸 | `:frog:` | | 2010 (0.6) |
 
 ### Animal Reptile
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🐊 | `:crocodile:` | | 2015 (1.0) |
 | 🐢 | `:turtle:` | | 2010 (0.6) |
 | 🦎 | `:lizard:` | | 2016 (3.0) |
@@ -590,8 +592,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Animal Marine
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🐳 | `:whale:` | | 2010 (0.6) |
 | 🐋 | `:whale2:` | | 2015 (1.0) |
 | 🐬 | `:dolphin:` | `:flipper:` | 2010 (0.6) |
@@ -607,8 +609,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Animal Bug
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🐌 | `:snail:` | | 2010 (0.6) |
 | 🦋 | `:butterfly:` | | 2016 (3.0) |
 | 🐛 | `:bug:` | | 2010 (0.6) |
@@ -628,8 +630,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Plant Flower
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💐 | `:bouquet:` | | 2010 (0.6) |
 | 🌸 | `:cherry_blossom:` | | 2010 (0.6) |
 | 💮 | `:white_flower:` | | 2010 (0.6) |
@@ -645,8 +647,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Plant Other
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🌱 | `:seedling:` | | 2010 (0.6) |
 | 🪴 | `:potted_plant:` | | 2020 (13.0) |
 | 🌲 | `:evergreen_tree:` | | 2015 (1.0) |
@@ -665,8 +667,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Food Fruit
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🍇 | `:grapes:` | | 2010 (0.6) |
 | 🍈 | `:melon:` | | 2010 (0.6) |
 | 🍉 | `:watermelon:` | | 2010 (0.6) |
@@ -690,8 +692,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Food Vegetable
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🥑 | `:avocado:` | | 2016 (3.0) |
 | 🍆 | `:eggplant:` | | 2010 (0.6) |
 | 🥔 | `:potato:` | | 2016 (3.0) |
@@ -712,8 +714,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Food Prepared
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🍞 | `:bread:` | | 2010 (0.6) |
 | 🥐 | `:croissant:` | | 2016 (3.0) |
 | 🥖 | `:baguette_bread:` | | 2016 (3.0) |
@@ -752,8 +754,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Food Asian
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🍱 | `:bento:` | | 2010 (0.6) |
 | 🍘 | `:rice_cracker:` | | 2010 (0.6) |
 | 🍙 | `:rice_ball:` | | 2010 (0.6) |
@@ -774,8 +776,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Food Sweet
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🍦 | `:icecream:` | | 2010 (0.6) |
 | 🍧 | `:shaved_ice:` | | 2010 (0.6) |
 | 🍨 | `:ice_cream:` | | 2010 (0.6) |
@@ -793,8 +795,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Drink
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🍼 | `:baby_bottle:` | | 2015 (1.0) |
 | 🥛 | `:milk_glass:` | | 2010 (0.6) |
 | ☕ | `:coffee:` | | 2010 (0.6) |
@@ -817,8 +819,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Dishware
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🍽️ | `:plate_with_cutlery:` | | 2010 (0.6) |
 | 🍴 | `:fork_and_knife:` | | 2010 (0.6) |
 | 🥄 | `:spoon:` | | 2016 (3.0) |
@@ -829,8 +831,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Place Map
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🌍 | `:earth_africa:` | | 2015 (0.7) |
 | 🌎 | `:earth_americas:` | | 2015 (0.7) |
 | 🌏 | `:earth_asia:` | | 2010 (0.6) |
@@ -841,8 +843,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Place Geographic
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🏔️ | `:mountain_snow:` | | 2010 (0.6) |
 | ⛰️ | `:mountain:` | | 2015 (0.7) |
 | 🌋 | `:volcano:` | | 2010 (0.6) |
@@ -855,8 +857,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Place Building
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🏟️ | `:stadium:` | | 2015 (0.7) |
 | 🏛️ | `:classical_building:` | | 2015 (0.7) |
 | 🏗️ | `:building_construction:` | | 2015 (0.7) |
@@ -887,8 +889,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Place Religious
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⛪ | `:church:` | | 2010 (0.6) |
 | 🕌 | `:mosque:` | | 2015 (1.0) |
 | 🛕 | `:hindu_temple:` | | 2019 (12.0) |
@@ -898,8 +900,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Place Other
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⛲ | `:fountain:` | | 2010 (0.6) |
 | ⛺ | `:tent:` | | 2010 (0.6) |
 | 🌁 | `:foggy:` | | 2010 (0.6) |
@@ -919,8 +921,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Transport Ground
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🚂 | `:steam_locomotive:` | | 2015 (1.0) |
 | 🚃 | `:railway_car:` | | 2010 (0.6) |
 | 🚄 | `:bullettrain_side:` | | 2010 (0.6) |
@@ -973,8 +975,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Transport Water
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⚓ | `:anchor:` | | 2010 (0.6) |
 | ⛵ | `:boat:` | `:sailboat:` | 2010 (0.6) |
 | 🛶 | `:canoe:` | | 2016 (3.0) |
@@ -986,8 +988,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Transport Air
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ✈️ | `:airplane:` | | 2010 (0.6) |
 | 🛩️ | `:small_airplane:` | | 2015 (0.7) |
 | 🛫 | `:flight_departure:` | | 2010 (0.6) |
@@ -1004,15 +1006,15 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Hotel
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🛎️ | `:bellhop_bell:` | | 2015 (0.7) |
 | 🧳 | `:luggage:` | | 2018 (11.0) |
 
 ### Time
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⌛ | `:hourglass:` | | 2010 (0.6) |
 | ⏳ | `:hourglass_flowing_sand:` | | 2010 (0.6) |
 | ⌚ | `:watch:` | | 2010 (0.6) |
@@ -1047,8 +1049,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Sky & Weather
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🌑 | `:new_moon:` | | 2010 (0.6) |
 | 🌒 | `:waxing_crescent_moon:` | | 2015 (1.0) |
 | 🌓 | `:first_quarter_moon:` | | 2010 (0.6) |
@@ -1101,8 +1103,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Event
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🎃 | `:jack_o_lantern:` | | 2010 (0.6) |
 | 🎄 | `:christmas_tree:` | | 2010 (0.6) |
 | 🎆 | `:fireworks:` | | 2010 (0.6) |
@@ -1127,8 +1129,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Award Medal
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🎖️ | `:medal_military:` | | 2015 (0.7) |
 | 🏆 | `:trophy:` | | 2010 (0.6) |
 | 🏅 | `:medal_sports:` | | 2015 (1.0) |
@@ -1138,8 +1140,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Sport
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⚽ | `:soccer:` | | 2010 (0.6) |
 | ⚾ | `:baseball:` | | 2010 (0.6) |
 | 🥎 | `:softball:` | | 2018 (11.0) |
@@ -1170,8 +1172,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Game
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🎯 | `:dart:` | | 2010 (0.6) |
 | 🪀 | `:yo_yo:` | | 2019 (12.0) |
 | 🪁 | `:kite:` | | 2019 (12.0) |
@@ -1198,8 +1200,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Arts & Crafts
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🎭 | `:performing_arts:` | | 2010 (0.6) |
 | 🖼️ | `:framed_picture:` | | 2010 (0.6) |
 | 🎨 | `:art:` | | 2010 (0.6) |
@@ -1212,8 +1214,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Clothing
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 👓 | `:eyeglasses:` | | 2010 (0.6) |
 | 🕶️ | `:dark_sunglasses:` | | 2015 (0.7) |
 | 🥽 | `:goggles:` | | 2018 (11.0) |
@@ -1262,8 +1264,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Sound
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🔇 | `:mute:` | | 2015 (1.0) |
 | 🔈 | `:speaker:` | | 2015 (0.7) |
 | 🔉 | `:sound:` | | 2015 (1.0) |
@@ -1276,8 +1278,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Music
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🎼 | `:musical_score:` | | 2010 (0.6) |
 | 🎵 | `:musical_note:` | | 2010 (0.6) |
 | 🎶 | `:notes:` | | 2010 (0.6) |
@@ -1290,8 +1292,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Musical Instrument
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🎷 | `:saxophone:` | | 2010 (0.6) |
 | 🪗 | `:accordion:` | | 2020 (13.0) |
 | 🎸 | `:guitar:` | | 2010 (0.6) |
@@ -1307,8 +1309,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Phone
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 📱 | `:iphone:` | | 2010 (0.6) |
 | 📲 | `:calling:` | | 2010 (0.6) |
 | ☎️ | `:phone:` | `:telephone:` | 2010 (0.6) |
@@ -1318,8 +1320,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Computer
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🔋 | `:battery:` | | 2010 (0.6) |
 | 🔌 | `:electric_plug:` | | 2010 (0.6) |
 | 💻 | `:computer:` | | 2010 (0.6) |
@@ -1336,8 +1338,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Light & Video
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🎥 | `:movie_camera:` | | 2010 (0.6) |
 | 🎞️ | `:film_strip:` | | 2015 (0.7) |
 | 📽️ | `:film_projector:` | | 2015 (0.7) |
@@ -1357,8 +1359,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Book Paper
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 📔 | `:notebook_with_decorative_cover:` | | 2010 (0.6) |
 | 📕 | `:closed_book:` | | 2010 (0.6) |
 | 📖 | `:book:` | `:open_book:` | 2010 (0.6) |
@@ -1379,8 +1381,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Money
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💰 | `:moneybag:` | | 2010 (0.6) |
 | 🪙 | `:coin:` | | 2020 (13.0) |
 | 💴 | `:yen:` | | 2010 (0.6) |
@@ -1394,8 +1396,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Mail
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ✉️ | `:email:` | `:envelope:` | 2010 (0.6) |
 | 📧 | `:e-mail:` | | 2010 (0.6) |
 | 📨 | `:incoming_envelope:` | | 2010 (0.6) |
@@ -1412,8 +1414,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Writing
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ✏️ | `:pencil2:` | | 2010 (0.6) |
 | ✒️ | `:black_nib:` | | 2010 (0.6) |
 | 🖋️ | `:fountain_pen:` | | 2015 (0.7) |
@@ -1424,8 +1426,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Office
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💼 | `:briefcase:` | | 2010 (0.6) |
 | 📁 | `:file_folder:` | | 2010 (0.6) |
 | 📂 | `:open_file_folder:` | | 2010 (0.6) |
@@ -1452,8 +1454,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Lock
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🔒 | `:lock:` | | 2010 (0.6) |
 | 🔓 | `:unlock:` | | 2010 (0.6) |
 | 🔏 | `:lock_with_ink_pen:` | | 2010 (0.6) |
@@ -1463,8 +1465,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Tool
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🔨 | `:hammer:` | | 2010 (0.6) |
 | 🪓 | `:axe:` | | 2019 (12.0) |
 | ⛏️ | `:pick:` | | 2015 (0.7) |
@@ -1493,8 +1495,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Science
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⚗️ | `:alembic:` | | 2015 (1.0) |
 | 🧪 | `:test_tube:` | | 2018 (11.0) |
 | 🧫 | `:petri_dish:` | | 2018 (11.0) |
@@ -1505,8 +1507,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Medical
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💉 | `:syringe:` | | 2010 (0.6) |
 | 🩸 | `:drop_of_blood:` | | 2019 (12.0) |
 | 💊 | `:pill:` | | 2010 (0.6) |
@@ -1515,8 +1517,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Household
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🚪 | `:door:` | | 2010 (0.6) |
 | 🛗 | `:elevator:` | | 2020 (13.0) |
 | 🪞 | `:mirror:` | | 2020 (13.0) |
@@ -1544,8 +1546,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Other Object
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🚬 | `:smoking:` | | 2010 (0.6) |
 | ⚰️ | `:coffin:` | | 2015 (1.0) |
 | 🪦 | `:headstone:` | | 2020 (13.0) |
@@ -1561,8 +1563,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Transport Sign
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🏧 | `:atm:` | | 2010 (0.6) |
 | 🚮 | `:put_litter_in_its_place:` | | 2015 (1.0) |
 | 🚰 | `:potable_water:` | | 2015 (1.0) |
@@ -1579,8 +1581,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Warning
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⚠️ | `:warning:` | | 2010 (0.6) |
 | 🚸 | `:children_crossing:` | | 2015 (1.0) |
 | ⛔ | `:no_entry:` | | 2010 (0.6) |
@@ -1597,8 +1599,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Arrow
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⬆️ | `:arrow_up:` | | 2010 (0.6) |
 | ↗️ | `:arrow_upper_right:` | | 2010 (0.6) |
 | ➡️ | `:arrow_right:` | | 2010 (0.6) |
@@ -1623,8 +1625,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Religion
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🛐 | `:place_of_worship:` | | 2015 (1.0) |
 | ⚛️ | `:atom_symbol:` | | 2015 (1.0) |
 | 🕉️ | `:om:` | | 2015 (0.7) |
@@ -1640,8 +1642,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Zodiac
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ♈ | `:aries:` | | 2010 (0.6) |
 | ♉ | `:taurus:` | | 2010 (0.6) |
 | ♊ | `:gemini:` | | 2010 (0.6) |
@@ -1658,8 +1660,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### AV Symbol
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🔀 | `:twisted_rightwards_arrows:` | | 2015 (1.0) |
 | 🔁 | `:repeat:` | | 2015 (1.0) |
 | 🔂 | `:repeat_one:` | | 2015 (1.0) |
@@ -1687,16 +1689,16 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Gender
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ♀️ | `:female_sign:` | | 2016 (4.0) |
 | ♂️ | `:male_sign:` | | 2016 (4.0) |
 | ⚧️ | `:transgender_symbol:` | | 2020 (13.0) |
 
 ### Math
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ✖️ | `:heavy_multiplication_x:` | | 2010 (0.6) |
 | ➕ | `:heavy_plus_sign:` | | 2010 (0.6) |
 | ➖ | `:heavy_minus_sign:` | | 2010 (0.6) |
@@ -1705,8 +1707,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Punctuation
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ‼️ | `:bangbang:` | | 2010 (0.6) |
 | ⁉️ | `:interrobang:` | | 2010 (0.6) |
 | ❓ | `:question:` | | 2010 (0.6) |
@@ -1717,15 +1719,15 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Currency
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 💱 | `:currency_exchange:` | | 2010 (0.6) |
 | 💲 | `:heavy_dollar_sign:` | | 2010 (0.6) |
 
 ### Other Symbol
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | ⚕️ | `:medical_symbol:` | | 2016 (4.0) |
 | ♻️ | `:recycle:` | | 2010 (0.6) |
 | ⚜️ | `:fleur_de_lis:` | | 2015 (1.0) |
@@ -1750,8 +1752,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Keycap
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | #️⃣ | `:hash:` | | 2010 (0.6) |
 | *️⃣ | `:asterisk:` | `:keycap_star:` | 2015 (2.0) |
 | 0️⃣ | `:zero:` | | 2010 (0.6) |
@@ -1768,8 +1770,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Alphanum
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🔠 | `:capital_abcd:` | | 2010 (0.6) |
 | 🔡 | `:abcd:` | | 2010 (0.6) |
 | 🔢 | `:1234:` | | 2010 (0.6) |
@@ -1812,8 +1814,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Geometric
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🔴 | `:red_circle:` | | 2010 (0.6) |
 | 🟠 | `:orange_circle:` | | 2019 (12.0) |
 | 🟡 | `:yellow_circle:` | | 2019 (12.0) |
@@ -1853,8 +1855,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Flag
 
-| Emoji | Shortcode | Alternatives | Unicode |
-| ----- | --------- | ------------ | ------- |
+| Emoji | Shortcode | Alternatives | Introduced |
+| ----- | --------- | ------------ | ---------- |
 | 🏁 | `:checkered_flag:` | | 2010 (0.6) |
 | 🚩 | `:triangular_flag_on_post:` | | 2010 (0.6) |
 | 🎌 | `:crossed_flags:` | | 2010 (0.6) |
@@ -1871,7 +1873,7 @@ Country flags are represented by regional indicator symbols. Here are all countr
 #### A
 
 | Emoji | Shortcode | Country |
-| ----- | --------- | ------------ | ------- |
+| ----- | --------- | ------------ | ---------- |
 | 🇦🇫 | `:afghanistan:` | Afghanistan |
 | 🇦🇽 | `:aland_islands:` | Åland Islands |
 | 🇦🇱 | `:albania:` | Albania |
