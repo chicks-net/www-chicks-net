@@ -29,6 +29,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 😉 | `:wink:` | |
 | 😊 | `:blush:` | |
 | 😇 | `:innocent:` | |
+| 🫠 | `:melting_face:` | |
 
 ### Face Affection
 
@@ -42,6 +43,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 😚 | `:kissing_closed_eyes:` | |
 | 😙 | `:kissing_smiling_eyes:` | |
 | 🥲 | `:smiling_face_with_tear:` | |
+| 🫦 | `:biting_lip:` | |
 
 ### Face Tongue
 
@@ -62,6 +64,9 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🤭 | `:hand_over_mouth:` | |
 | 🤫 | `:shushing_face:` | |
 | 🤔 | `:thinking:` | `:thinking_face:` |
+| 🫡 | `:saluting_face:` | |
+| 🫢 | `:face_with_open_eyes_hand_over_mouth:` | |
+| 🫣 | `:face_with_peeking_eye:` | |
 
 ### Face Neutral Skeptical
 
@@ -77,6 +82,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🙄 | `:roll_eyes:` | `:face_with_rolling_eyes:` |
 | 😬 | `:grimacing:` | |
 | 🤥 | `:lying_face:` | |
+| 🫥 | `:dotted_line_face:` | |
 
 ### Face Sleepy
 
@@ -222,6 +228,11 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🤎 | `:brown_heart:` | |
 | 🖤 | `:black_heart:` | |
 | 🤍 | `:white_heart:` | |
+| 🩷 | `:pink_heart:` | |
+| 🩵 | `:light_blue_heart:` | |
+| 🩶 | `:grey_heart:` | |
+| ❤️‍🔥 | `:heart_on_fire:` | |
+| ❤️‍🩹 | `:mending_heart:` | |
 
 ### Emotion
 
@@ -321,12 +332,17 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🦻 | `:ear_with_hearing_aid:` | |
 | 👃 | `:nose:` | |
 | 🧠 | `:brain:` | |
+| 🫀 | `:anatomical_heart:` | |
+| 🫁 | `:lungs:` | |
 | 🦷 | `:tooth:` | |
 | 🦴 | `:bone:` | |
 | 👀 | `:eyes:` | |
 | 👁️ | `:eye:` | |
 | 👅 | `:tongue:` | |
 | 👄 | `:lips:` | |
+| 🩸 | `:drop_of_blood:` | |
+| 🩼 | `:crutch:` | |
+| 🩻 | `:x_ray:` | |
 
 ### Person
 
@@ -476,6 +492,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🦝 | `:raccoon:` | |
 | 🐱 | `:cat:` | |
 | 🐈 | `:cat2:` | |
+| 🐈‍⬛ | `:black_cat:` | |
 | 🦁 | `:lion:` | |
 | 🐯 | `:tiger:` | |
 | 🐅 | `:tiger2:` | |
@@ -523,6 +540,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🦨 | `:skunk:` | |
 | 🦘 | `:kangaroo:` | |
 | 🦡 | `:badger:` | |
+| 🫎 | `:moose:` | |
+| 🫏 | `:donkey:` | |
 
 ### Animal Bird
 
@@ -535,6 +554,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🐤 | `:baby_chick:` | |
 | 🐥 | `:hatched_chick:` | |
 | 🐦 | `:bird:` | |
+| 🐦‍⬛ | `:black_bird:` | |
 | 🐧 | `:penguin:` | |
 | 🕊️ | `:dove:` | |
 | 🦅 | `:eagle:` | |
@@ -542,9 +562,12 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🦢 | `:swan:` | |
 | 🦉 | `:owl:` | |
 | 🦤 | `:dodo:` | |
+| 🪶 | `:feather:` | |
 | 🦩 | `:flamingo:` | |
 | 🦚 | `:peacock:` | |
 | 🦜 | `:parrot:` | |
+| 🪽 | `:wing:` | |
+| 🪿 | `:goose:` | |
 
 ### Animal Amphibian
 
@@ -579,6 +602,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🦈 | `:shark:` | |
 | 🐙 | `:octopus:` | |
 | 🐚 | `:shell:` | |
+| 🪸 | `:coral:` | |
+| 🪼 | `:jellyfish:` | |
 
 ### Animal Bug
 
@@ -615,6 +640,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🌻 | `:sunflower:` | |
 | 🌼 | `:blossom:` | |
 | 🌷 | `:tulip:` | |
+| 🪷 | `:lotus:` | |
+| 🪻 | `:hyacinth:` | |
 
 ### Plant Other
 
@@ -659,6 +686,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🍅 | `:tomato:` | |
 | 🫒 | `:olive:` | |
 | 🥥 | `:coconut:` | |
+| 🫚 | `:ginger:` | |
 
 ### Food Vegetable
 
@@ -679,6 +707,8 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🍄 | `:mushroom:` | |
 | 🥜 | `:peanuts:` | |
 | 🌰 | `:chestnut:` | |
+| 🫘 | `:beans:` | |
+| 🫛 | `:pea_pod:` | |
 
 ### Food Prepared
 
@@ -718,6 +748,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🧈 | `:butter:` | |
 | 🧂 | `:salt:` | |
 | 🥫 | `:canned_food:` | |
+| 🫙 | `:jar:` | |
 
 ### Food Asian
 
@@ -1270,6 +1301,9 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | 🪕 | `:banjo:` | |
 | 🥁 | `:drum:` | |
 | 🪘 | `:long_drum:` | |
+| 🪈 | `:flute:` | |
+| 🪇 | `:maracas:` | |
+| 🪉 | `:harp:` | |
 
 ### Phone
 
@@ -1518,6 +1552,10 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 | ⚱️ | `:funeral_urn:` | |
 | 🗿 | `:moyai:` | |
 | 🪧 | `:placard:` | |
+| 🪬 | `:hamsa:` | |
+| 🪭 | `:hand_fan:` | |
+| 🪮 | `:hair_pick:` | |
+| 🪩 | `:mirror_ball:` | |
 
 ## Symbols
 
@@ -1828,25 +1866,400 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 ### Country Flag
 
-Note: Country flags are represented by regional indicator symbols. Here are some common ones:
+Country flags are represented by regional indicator symbols. Here are all countries and territories with ISO 3166-1 alpha-2 codes:
+
+#### A
 
 | Emoji | Shortcode | Country |
 | ----- | --------- | ------- |
-| 🇺🇸 | `:us:` | United States |
-| 🇬🇧 | `:gb:` | United Kingdom |
-| 🇨🇦 | `:ca:` | Canada |
-| 🇦🇺 | `:au:` | Australia |
-| 🇩🇪 | `:de:` | Germany |
-| 🇫🇷 | `:fr:` | France |
-| 🇮🇹 | `:it:` | Italy |
-| 🇪🇸 | `:es:` | Spain |
-| 🇯🇵 | `:jp:` | Japan |
-| 🇰🇷 | `:kr:` | South Korea |
+| 🇦🇫 | `:afghanistan:` | Afghanistan |
+| 🇦🇽 | `:aland_islands:` | Åland Islands |
+| 🇦🇱 | `:albania:` | Albania |
+| 🇩🇿 | `:algeria:` | Algeria |
+| 🇦🇸 | `:american_samoa:` | American Samoa |
+| 🇦🇩 | `:andorra:` | Andorra |
+| 🇦🇴 | `:angola:` | Angola |
+| 🇦🇮 | `:anguilla:` | Anguilla |
+| 🇦🇶 | `:antarctica:` | Antarctica |
+| 🇦🇬 | `:antigua_barbuda:` | Antigua & Barbuda |
+| 🇦🇷 | `:argentina:` | Argentina |
+| 🇦🇲 | `:armenia:` | Armenia |
+| 🇦🇼 | `:aruba:` | Aruba |
+| 🇦🇺 | `:australia:` | Australia |
+| 🇦🇹 | `:austria:` | Austria |
+| 🇦🇿 | `:azerbaijan:` | Azerbaijan |
+
+#### B
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇧🇸 | `:bahamas:` | Bahamas |
+| 🇧🇭 | `:bahrain:` | Bahrain |
+| 🇧🇩 | `:bangladesh:` | Bangladesh |
+| 🇧🇧 | `:barbados:` | Barbados |
+| 🇧🇾 | `:belarus:` | Belarus |
+| 🇧🇪 | `:belgium:` | Belgium |
+| 🇧🇿 | `:belize:` | Belize |
+| 🇧🇯 | `:benin:` | Benin |
+| 🇧🇲 | `:bermuda:` | Bermuda |
+| 🇧🇹 | `:bhutan:` | Bhutan |
+| 🇧🇴 | `:bolivia:` | Bolivia |
+| 🇧🇶 | `:caribbean_netherlands:` | Caribbean Netherlands |
+| 🇧🇦 | `:bosnia_herzegovina:` | Bosnia & Herzegovina |
+| 🇧🇼 | `:botswana:` | Botswana |
+| 🇧🇻 | `:bouvet_island:` | Bouvet Island |
+| 🇧🇷 | `:brazil:` | Brazil |
+| 🇮🇴 | `:british_indian_ocean_territory:` | British Indian Ocean Territory |
+| 🇻🇬 | `:british_virgin_islands:` | British Virgin Islands |
+| 🇧🇳 | `:brunei:` | Brunei |
+| 🇧🇬 | `:bulgaria:` | Bulgaria |
+| 🇧🇫 | `:burkina_faso:` | Burkina Faso |
+| 🇧🇮 | `:burundi:` | Burundi |
+
+#### C
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇨🇻 | `:cape_verde:` | Cape Verde |
+| 🇰🇭 | `:cambodia:` | Cambodia |
+| 🇨🇲 | `:cameroon:` | Cameroon |
+| 🇨🇦 | `:canada:` | Canada |
+| 🇮🇨 | `:canary_islands:` | Canary Islands |
+| 🇰🇾 | `:cayman_islands:` | Cayman Islands |
+| 🇨🇫 | `:central_african_republic:` | Central African Republic |
+| 🇹🇩 | `:chad:` | Chad |
+| 🇨🇱 | `:clipperton_island:` | Clipperton Island |
 | 🇨🇳 | `:cn:` | China |
+| 🇨🇽 | `:christmas_island:` | Christmas Island |
+| 🇨🇨 | `:cocos_islands:` | Cocos (Keeling) Islands |
+| 🇨🇴 | `:colombia:` | Colombia |
+| 🇰🇲 | `:comoros:` | Comoros |
+| 🇨🇬 | `:congo_brazzaville:` | Congo - Brazzaville |
+| 🇨🇩 | `:congo_kinshasa:` | Congo - Kinshasa |
+| 🇨🇰 | `:cook_islands:` | Cook Islands |
+| 🇨🇷 | `:costa_rica:` | Costa Rica |
+| 🇨🇮 | `:cote_divoire:` | Côte d'Ivoire |
+| 🇭🇷 | `:croatia:` | Croatia |
+| 🇨🇺 | `:cuba:` | Cuba |
+| 🇨🇼 | `:curacao:` | Curaçao |
+| 🇨🇾 | `:cyprus:` | Cyprus |
+| 🇨🇿 | `:czech_republic:` | Czechia |
+
+#### D
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇩🇰 | `:denmark:` | Denmark |
+| 🇩🇯 | `:djibouti:` | Djibouti |
+| 🇩🇲 | `:dominica:` | Dominica |
+| 🇩🇴 | `:dominican_republic:` | Dominican Republic |
+
+#### E
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇪🇨 | `:ecuador:` | Ecuador |
+| 🇪🇬 | `:egypt:` | Egypt |
+| 🇸🇻 | `:el_salvador:` | El Salvador |
+| 🇬🇶 | `:equatorial_guinea:` | Equatorial Guinea |
+| 🇪🇷 | `:eritrea:` | Eritrea |
+| 🇪🇪 | `:estonia:` | Estonia |
+| 🇪🇹 | `:ethiopia:` | Ethiopia |
+| 🇪🇺 | `:eu:` | European Union |
+
+#### F
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇫🇰 | `:falkland_islands:` | Falkland Islands |
+| 🇫🇴 | `:faroe_islands:` | Faroe Islands |
+| 🇫🇯 | `:fiji:` | Fiji |
+| 🇫🇮 | `:finland:` | Finland |
+| 🇫🇷 | `:fr:` | France |
+| 🇬🇫 | `:french_guiana:` | French Guiana |
+| 🇵🇫 | `:french_polynesia:` | French Polynesia |
+| 🇹🇫 | `:french_southern_territories:` | French Southern Territories |
+
+#### G
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇬🇦 | `:gabon:` | Gabon |
+| 🇬🇲 | `:gambia:` | Gambia |
+| 🇬🇪 | `:georgia:` | Georgia |
+| 🇩🇪 | `:de:` | Germany |
+| 🇬🇭 | `:ghana:` | Ghana |
+| 🇬🇮 | `:gibraltar:` | Gibraltar |
+| 🇬🇷 | `:greece:` | Greece |
+| 🇬🇱 | `:greenland:` | Greenland |
+| 🇬🇩 | `:grenada:` | Grenada |
+| 🇬🇵 | `:guadeloupe:` | Guadeloupe |
+| 🇬🇺 | `:guam:` | Guam |
+| 🇬🇹 | `:guatemala:` | Guatemala |
+| 🇬🇬 | `:guernsey:` | Guernsey |
+| 🇬🇳 | `:guinea:` | Guinea |
+| 🇬🇼 | `:guinea_bissau:` | Guinea-Bissau |
+| 🇬🇾 | `:guyana:` | Guyana |
+
+#### H
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇭🇹 | `:haiti:` | Haiti |
+| 🇭🇲 | `:heard_mcdonald_islands:` | Heard & McDonald Islands |
+| 🇭🇳 | `:honduras:` | Honduras |
+| 🇭🇰 | `:hong_kong:` | Hong Kong |
+| 🇭🇺 | `:hungary:` | Hungary |
+
+#### I
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇮🇸 | `:iceland:` | Iceland |
 | 🇮🇳 | `:in:` | India |
-| 🇧🇷 | `:br:` | Brazil |
+| 🇮🇩 | `:indonesia:` | Indonesia |
+| 🇮🇷 | `:iran:` | Iran |
+| 🇮🇶 | `:iraq:` | Iraq |
+| 🇮🇪 | `:ireland:` | Ireland |
+| 🇮🇲 | `:isle_of_man:` | Isle of Man |
+| 🇮🇱 | `:israel:` | Israel |
+| 🇮🇹 | `:it:` | Italy |
+
+#### J
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇯🇲 | `:jamaica:` | Jamaica |
+| 🇯🇵 | `:jp:` | Japan |
+| 🇯🇪 | `:jersey:` | Jersey |
+| 🇯🇴 | `:jordan:` | Jordan |
+
+#### K
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇰🇿 | `:kazakhstan:` | Kazakhstan |
+| 🇰🇪 | `:kenya:` | Kenya |
+| 🇰🇮 | `:kiribati:` | Kiribati |
+| 🇽🇰 | `:kosovo:` | Kosovo |
+| 🇰🇼 | `:kuwait:` | Kuwait |
+| 🇰🇬 | `:kyrgyzstan:` | Kyrgyzstan |
+
+#### L
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇱🇦 | `:laos:` | Laos |
+| 🇱🇻 | `:latvia:` | Latvia |
+| 🇱🇧 | `:lebanon:` | Lebanon |
+| 🇱🇸 | `:lesotho:` | Lesotho |
+| 🇱🇷 | `:liberia:` | Liberia |
+| 🇱🇾 | `:libya:` | Libya |
+| 🇱🇮 | `:liechtenstein:` | Liechtenstein |
+| 🇱🇹 | `:lithuania:` | Lithuania |
+| 🇱🇺 | `:luxembourg:` | Luxembourg |
+
+#### M
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇲🇴 | `:macau:` | Macau |
+| 🇲🇰 | `:macedonia:` | North Macedonia |
+| 🇲🇬 | `:madagascar:` | Madagascar |
+| 🇲🇼 | `:malawi:` | Malawi |
+| 🇲🇾 | `:malaysia:` | Malaysia |
+| 🇲🇻 | `:maldives:` | Maldives |
+| 🇲🇱 | `:mali:` | Mali |
+| 🇲🇹 | `:malta:` | Malta |
+| 🇲🇭 | `:marshall_islands:` | Marshall Islands |
+| 🇲🇶 | `:martinique:` | Martinique |
+| 🇲🇷 | `:mauritania:` | Mauritania |
+| 🇲🇺 | `:mauritius:` | Mauritius |
+| 🇾🇹 | `:mayotte:` | Mayotte |
 | 🇲🇽 | `:mx:` | Mexico |
+| 🇫🇲 | `:micronesia:` | Micronesia |
+| 🇲🇩 | `:moldova:` | Moldova |
+| 🇲🇨 | `:monaco:` | Monaco |
+| 🇲🇳 | `:mongolia:` | Mongolia |
+| 🇲🇪 | `:montenegro:` | Montenegro |
+| 🇲🇸 | `:montserrat:` | Montserrat |
+| 🇲🇦 | `:morocco:` | Morocco |
+| 🇲🇿 | `:mozambique:` | Mozambique |
+| 🇲🇲 | `:myanmar:` | Myanmar |
+
+#### N
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇳🇦 | `:namibia:` | Namibia |
+| 🇳🇷 | `:nauru:` | Nauru |
+| 🇳🇵 | `:nepal:` | Nepal |
+| 🇳🇱 | `:netherlands:` | Netherlands |
+| 🇳🇨 | `:new_caledonia:` | New Caledonia |
+| 🇳🇿 | `:new_zealand:` | New Zealand |
+| 🇳🇮 | `:nicaragua:` | Nicaragua |
+| 🇳🇪 | `:niger:` | Niger |
+| 🇳🇬 | `:nigeria:` | Nigeria |
+| 🇳🇺 | `:niue:` | Niue |
+| 🇳🇫 | `:norfolk_island:` | Norfolk Island |
+| 🇰🇵 | `:north_korea:` | North Korea |
+| 🇲🇵 | `:northern_mariana_islands:` | Northern Mariana Islands |
+| 🇳🇴 | `:norway:` | Norway |
+
+#### O
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇴🇲 | `:oman:` | Oman |
+
+#### P
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇵🇰 | `:pakistan:` | Pakistan |
+| 🇵🇼 | `:palau:` | Palau |
+| 🇵🇸 | `:palestinian_territories:` | Palestinian Territories |
+| 🇵🇦 | `:panama:` | Panama |
+| 🇵🇬 | `:papua_new_guinea:` | Papua New Guinea |
+| 🇵🇾 | `:paraguay:` | Paraguay |
+| 🇵🇪 | `:peru:` | Peru |
+| 🇵🇭 | `:philippines:` | Philippines |
+| 🇵🇳 | `:pitcairn_islands:` | Pitcairn Islands |
+| 🇵🇱 | `:poland:` | Poland |
+| 🇵🇹 | `:portugal:` | Portugal |
+| 🇵🇷 | `:puerto_rico:` | Puerto Rico |
+
+#### Q
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇶🇦 | `:qatar:` | Qatar |
+
+#### R
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇷🇪 | `:reunion:` | Réunion |
+| 🇷🇴 | `:romania:` | Romania |
 | 🇷🇺 | `:ru:` | Russia |
+| 🇷🇼 | `:rwanda:` | Rwanda |
+
+#### S
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇧🇱 | `:saint_barthelemy:` | St. Barthélemy |
+| 🇸🇭 | `:saint_helena:` | St. Helena |
+| 🇰🇳 | `:saint_kitts_nevis:` | St. Kitts & Nevis |
+| 🇱🇨 | `:saint_lucia:` | St. Lucia |
+| 🇲🇫 | `:saint_martin:` | St. Martin |
+| 🇵🇲 | `:saint_pierre_miquelon:` | St. Pierre & Miquelon |
+| 🇻🇨 | `:saint_vincent_grenadines:` | St. Vincent & Grenadines |
+| 🇼🇸 | `:samoa:` | Samoa |
+| 🇸🇲 | `:san_marino:` | San Marino |
+| 🇸🇹 | `:sao_tome_principe:` | São Tomé & Príncipe |
+| 🇸🇦 | `:saudi_arabia:` | Saudi Arabia |
+| 🇸🇳 | `:senegal:` | Senegal |
+| 🇷🇸 | `:serbia:` | Serbia |
+| 🇸🇨 | `:seychelles:` | Seychelles |
+| 🇸🇱 | `:sierra_leone:` | Sierra Leone |
+| 🇸🇬 | `:singapore:` | Singapore |
+| 🇸🇽 | `:sint_maarten:` | Sint Maarten |
+| 🇸🇰 | `:slovakia:` | Slovakia |
+| 🇸🇮 | `:slovenia:` | Slovenia |
+| 🇸🇧 | `:solomon_islands:` | Solomon Islands |
+| 🇸🇴 | `:somalia:` | Somalia |
+| 🇿🇦 | `:south_africa:` | South Africa |
+| 🇬🇸 | `:south_georgia_south_sandwich_islands:` | South Georgia & South Sandwich Islands |
+| 🇰🇷 | `:kr:` | South Korea |
+| 🇸🇸 | `:south_sudan:` | South Sudan |
+| 🇪🇸 | `:es:` | Spain |
+| 🇱🇰 | `:sri_lanka:` | Sri Lanka |
+| 🇸🇩 | `:sudan:` | Sudan |
+| 🇸🇷 | `:suriname:` | Suriname |
+| 🇸🇯 | `:svalbard_jan_mayen:` | Svalbard & Jan Mayen |
+| 🇸🇿 | `:swaziland:` | Eswatini |
+| 🇸🇪 | `:sweden:` | Sweden |
+| 🇨🇭 | `:switzerland:` | Switzerland |
+| 🇸🇾 | `:syria:` | Syria |
+
+#### T
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇹🇼 | `:taiwan:` | Taiwan |
+| 🇹🇯 | `:tajikistan:` | Tajikistan |
+| 🇹🇿 | `:tanzania:` | Tanzania |
+| 🇹🇭 | `:thailand:` | Thailand |
+| 🇹🇱 | `:timor_leste:` | Timor-Leste |
+| 🇹🇬 | `:togo:` | Togo |
+| 🇹🇰 | `:tokelau:` | Tokelau |
+| 🇹🇴 | `:tonga:` | Tonga |
+| 🇹🇹 | `:trinidad_tobago:` | Trinidad & Tobago |
+| 🇹🇳 | `:tunisia:` | Tunisia |
+| 🇹🇷 | `:tr:` | Turkey |
+| 🇹🇲 | `:turkmenistan:` | Turkmenistan |
+| 🇹🇨 | `:turks_caicos_islands:` | Turks & Caicos Islands |
+| 🇹🇻 | `:tuvalu:` | Tuvalu |
+
+#### U
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇺🇬 | `:uganda:` | Uganda |
+| 🇺🇦 | `:ukraine:` | Ukraine |
+| 🇦🇪 | `:united_arab_emirates:` | United Arab Emirates |
+| 🇬🇧 | `:gb:` | United Kingdom |
+| 🇺🇸 | `:us:` | United States |
+| 🇺🇾 | `:uruguay:` | Uruguay |
+| 🇺🇿 | `:uzbekistan:` | Uzbekistan |
+
+#### V
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇻🇺 | `:vanuatu:` | Vanuatu |
+| 🇻🇦 | `:vatican_city:` | Vatican City |
+| 🇻🇪 | `:venezuela:` | Venezuela |
+| 🇻🇳 | `:vietnam:` | Vietnam |
+| 🇻🇮 | `:virgin_islands:` | U.S. Virgin Islands |
+
+#### W
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇼🇫 | `:wallis_futuna:` | Wallis & Futuna |
+| 🇪🇭 | `:western_sahara:` | Western Sahara |
+
+#### Y
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇾🇪 | `:yemen:` | Yemen |
+
+#### Z
+
+| Emoji | Shortcode | Country |
+| ----- | --------- | ------- |
+| 🇿🇲 | `:zambia:` | Zambia |
+| 🇿🇼 | `:zimbabwe:` | Zimbabwe |
+
+### Subdivision Flags
+
+Subdivision flags represent states, provinces, and regions within countries. Unicode uses tag sequences that may not render consistently across all platforms.
+
+#### US State Flags
+
+| Emoji | Shortcode | State |
+| ----- | --------- | ----- |
+| 🏴󠁵󠁴󠁵󠁳�󠁿 | `:flag-us-vt:` | Vermont |
+| 🏴󠁶󠁡󠁵󠁳�󠁿 | `:flag-us-va:` | Virginia |
+| 🏴󠁷󠁡󠁵󠁳�󠁿 | `:flag-us-wa:` | Washington |
+| 🏴󠁷󠁶󠁵󠁳�󠁿 | `:flag-us-wv:` | West Virginia |
+| 🏴󠁷󠁩󠁵󠁳�󠁿 | `:flag-us-wi:` | Wisconsin |
+| 🏴󠁷󠁹󠁵󠁳�󠁿 | `:flag-us-wy:` | Wyoming |
+
+**Note:** Subdivision flag support varies by platform. Not all browsers and applications render these correctly.
 
 ## GitHub Custom Emoji
 
@@ -1904,3 +2317,5 @@ This cheat sheet is based on:
 - [GitHub Emoji API](https://api.github.com/emojis)
 - [Unicode Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html)
 - [ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+
+Coverage includes Unicode 13.0, 14.0, 15.0, and 15.1 emojis where supported by platforms. Some very recent Unicode 16.0 emojis may not render on all devices yet.
