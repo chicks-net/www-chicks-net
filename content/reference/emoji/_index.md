@@ -10,7 +10,7 @@ A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub,
 
 **Tip:** Click any emoji or shortcode in the tables below to copy it to your clipboard!
 
-The **Introduced** column shows the year and Emoji specification version when each emoji was added (e.g., `2018 (11.0)` means added in 2018 with Emoji 11.0).
+The **Introduced** column shows the year and Emoji specification version when each emoji was added (e.g., `2018 (11.0)` means added in 2018 with Emoji 11.0). Note: `(0.6)` and `(0.7)` refer to Emoji specification categories retroactively assigned to Unicode 6.0 (2010) and 7.0 emojis; the year shown reflects when those categories were formally defined.
 
 ## Smileys & Emotion
 
@@ -2310,7 +2310,7 @@ Once enabled, Hugo will convert emoji shortcodes to Unicode emoji. For example, 
 
 4. **Multiple Shortcodes**: Some emoji have multiple shortcode options (listed in the "Alternatives" column). Use whichever is most intuitive for your workflow.
 
-5. **Skin Tone Modifiers**: Many people emoji support skin tone modifiers by appending codes like `::skin-tone-2:` through `::skin-tone-6:`.
+5. **Skin Tone Modifiers**: Many people emoji support skin tone modifiers. Append `:skin-tone-2:` through `:skin-tone-6:` immediately after the base emoji shortcode, e.g., `:wave::skin-tone-2:` 👋🏽.
 
 ## References
 
@@ -2320,4 +2320,4 @@ This cheat sheet is based on:
 - [Unicode Full Emoji List](https://unicode.org/emoji/charts/full-emoji-list.html)
 - [ikatyang/emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
-Coverage includes Unicode 13.0, 14.0, 15.0, and 15.1 emojis where supported by platforms. Some very recent Unicode 16.0 emojis may not render on all devices yet.
+Coverage includes Unicode 13.0, 14.0, and 15.0 emojis where supported by platforms. Some very recent Unicode 16.0 emojis may not render on all devices yet.
