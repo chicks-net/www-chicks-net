@@ -8,7 +8,7 @@ cover.hidden = false
 
 A comprehensive reference guide to emoji shortcodes for use in Markdown, GitHub, Slack, and other platforms that support emoji codes.
 
-**Tip:** Click any emoji or shortcode in the tables below to copy it to your clipboard!
+‼️ **Tip:** Click any emoji or shortcode in the tables below to copy it to your clipboard! 💕🖱️
 
 The **Introduced** column shows the year and Emoji specification version when each emoji was added (e.g., `2018 (11.0)` means added in 2018 with Emoji 11.0). Note: `(0.6)` and `(0.7)` refer to Emoji specification categories retroactively assigned to Unicode 6.0 (2010) and 7.0 emojis; the year shown reflects when those categories were formally defined.
 
