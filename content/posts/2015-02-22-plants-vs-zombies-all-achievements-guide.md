@@ -18,7 +18,7 @@ guide I could find was in French. So here is a translation with some minor
 improvements I hope to make the life easier for the English speakers that want
 to keep the zombies out of the house.
 
-### Introduction
+## Introduction
 
 [![Image](https://images.steamusercontent.com/ugc/34112262283072675/799221D0FDA6A41AA8CD8B0B0A30C96C5950EB6D/)](<https://images.steamusercontent.com/ugc/34112262283072675/799221D0FDA6A41AA8CD8B0B0A30C96C5950EB6D/>)I
 wanted to get all of the Steam Achievements myself and the only convenient
