@@ -8,7 +8,7 @@ draft: false
 This table shows the relationships between Linux kernel versions included in Debian releases and their corresponding Ubuntu and Linux Mint versions. When Ubuntu or Mint skipped a release, the Debian version is still included.
 
 | Linux Kernel | Debian Release | Debian Codename | Ubuntu Release | Ubuntu Codename | Mint Release | Mint Codename |
-|--------------|----------------|-----------------|----------------|-----------------|--------------|---------------|
+| ------------ | -------------- | --------------- | -------------- | --------------- | ------------ | ------------- |
 | 2.0.36 | 2.1 | Slink | - | - | - | - |
 | 2.2.19 | 2.2 | Potato | - | - | - | - |
 | 2.4.18 | 3.0 | Woody | - | - | - | - |
