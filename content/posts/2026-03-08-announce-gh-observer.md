@@ -1,6 +1,6 @@
 +++
 title = 'Announcing gh-observer: Waiting for CI Should Not Be Misery'
-date = 2026-03-08T02:00:00-00:00
+date = 2026-03-08T02:00:00+00:00
 draft = false
 description = 'I got tired of watching `gh pr checks --watch` fail me, so I built something better'
 cover.image = '/posts/2026-03-08-announce-gh-observer.jpg'
@@ -29,7 +29,7 @@ The standard `gh pr checks --watch` has had some real gaps for a while now:
 - **It doesn't handle startup delay.** GitHub Actions typically takes 30-90
   seconds to queue jobs after a PR is created or pushed to. The built-in
   watcher just... gives up during that window.
-- **No queue latency.** You can see a job is "in progress," but you have no
+- **No queue latency visibility.** You can see a job is "in progress," but you have no
   idea if it's been sitting in a queue for 2 seconds or 45 seconds before it
   started.
 - **No runtime metrics.** Is that job that's been "running" for a while
@@ -140,7 +140,7 @@ gh observer 123
 
 It's built in Go using [Bubbletea](https://github.com/charmbracelet/bubbletea)
 for the TUI, which follows the Elm Architecture pattern — if you've done any
-Elm or Redux, the Model/Update/View pattern will feel familiar. Lipgloss
+Elm or Redux, the Model/Update/View pattern will feel familiar. [Lipgloss](https://github.com/charmbracelet/lipgloss)
 handles the terminal styling.
 
 The interesting bit technically is that it uses GitHub's GraphQL API to pull
@@ -161,15 +161,15 @@ source, and I'm genuinely interested in feedback and contributions. If you hit
 a weird edge case or have a feature idea, open an issue.
 
 And yes, before you ask — `gh observer` was partially built using `gh observer`
-to watch its own CI. It's turtles all the way down.  Or the dog food tastes
-great.  Pick your own adventure.
+to watch its own CI. It's turtles all the way down. Or the dog food tastes
+great. Pick your own adventure.
 
 ---
 
 *If you find it useful, a star on the repo goes a long way. And if you find a
 bug, please do tell me so we can fix it rather than quietly suffering.*
 
-## Embedded metadata
+## Embedded Metadata
 
 These are times where it seems good to be explicit about our choices about and
 usage of AI (Artificial Intelligence). Plus any links to cross-posts I do.
@@ -179,4 +179,4 @@ usage of AI (Artificial Intelligence). Plus any links to cross-posts I do.
   corrected elsewhere in the docs.  You can see the drafts I started from at
   <https://github.com/fini-net/gh-observer/tree/main/docs/drafts> .
 - The banner image was generated with the Nano Banana Pro model on Galaxy.AI.
-- This will get cross-posted on linked-in.  I will link it here once posted.
+- This will get cross-posted on LinkedIn.  I will link it here once posted.
