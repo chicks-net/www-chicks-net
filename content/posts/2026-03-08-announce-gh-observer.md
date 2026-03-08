@@ -5,7 +5,7 @@ draft = false
 description = 'I got tired of watching `gh pr checks --watch` fail me, so I built something better'
 cover.image = '/posts/2026-03-08-announce-gh-observer.jpg'
 cover.hidden = false
-keywords = ["github-actions", "github-cli-extension"]
+keywords = ["github-actions", "github-cli-extension", "gh-observer"]
 tags = ["free-software", "github", "programming"]
 ShowToc = true
 +++
@@ -171,8 +171,12 @@ bug, please do tell me so we can fix it rather than quietly suffering.*
 
 ## Embedded metadata
 
+These are times where it seems good to be explicit about our choices about and
+usage of AI (Artificial Intelligence). Plus any links to cross-posts I do.
+
 - I tried Claude and OpenCode for writing drafts for this.  Claude was much
   closer to what I wanted.  Most of my changes were things that needed to be
   corrected elsewhere in the docs.  You can see the drafts I started from at
   <https://github.com/fini-net/gh-observer/tree/main/docs/drafts> .
-- This will get cross-posted on linked-in.
+- The banner image was generated with the Nano Banana Pro model on Galaxy.AI.
+- This will get cross-posted on linked-in.  I will link it here once posted.
