@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 02:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing gh-observer: Waiting for CI Should Not Be Misery</title>
+      <link>https://www.chicks.net/posts/2026-03-08-announce-gh-observer/</link>
+      <pubDate>Sun, 08 Mar 2026 02:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-03-08-announce-gh-observer/</guid>
+      <description>I got tired of watching `gh pr checks --watch` fail me, so I built something better</description>
+    </item>
     <item>
       <title>Backing Into Parking Spaces</title>
       <link>https://www.chicks.net/posts/2026-02-01-backing-into-parking-spaces/</link>
