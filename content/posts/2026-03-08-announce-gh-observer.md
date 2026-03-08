@@ -1,5 +1,5 @@
 +++
-title = 'Announcing gh-observer: Waiting for CI Should Not Be Mysery'
+title = 'Announcing gh-observer: Waiting for CI Should Not Be Misery'
 date = 2026-03-08T02:00:00-00:00
 draft = false
 description = 'I got tired of watching `gh pr checks --watch` fail me, so I built something better'
