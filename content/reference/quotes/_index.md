@@ -21,7 +21,7 @@ it as my email signature for several years.
 > The great thing about standards is there are so many to choose from.
 
 I say this every week it seems.  It applies to so many areas of technology.
-Thankfully the same idea has now been immortalized by [xkdc](http://xkcd.com/927/).
+Thankfully the same idea has now been immortalized by [xkdc](https://xkcd.com/927/).
 
 ## Good quotes
 
@@ -31,7 +31,7 @@ Thankfully the same idea has now been immortalized by [xkdc](http://xkcd.com/927
 
 > Some­times a concept is baffling not because it is profound but because it’s wrong.
 
-- [Prof. E.O. Wilson](http://en.wikipedia.org/wiki/E._O._Wilson)
+- [Prof. E.O. Wilson](https://en.wikipedia.org/wiki/E._O._Wilson)
 
 > I think it’s intoxicating when somebody is so unapologetically who they are.
 
@@ -68,14 +68,14 @@ The answer used to be a "slide projector", but nobody knows what that is anymore
 
 > Awfluence
 
-Christine H's name for [Confluence]("http://en.wikipedia.org/wiki/Confluence_(software)")
+Christine H's name for [Confluence]("https://en.wikipedia.org/wiki/Confluence_(software)")
 
 ## Funny quotes
 
 > If trees could scream, would we be so cavalier about cutting them down? We
 > might, if they screamed all the time, for no good reason.
 
-- [Jack Handey](http://en.wikipedia.org/wiki/Jack_Handey)
+- [Jack Handey](https://en.wikipedia.org/wiki/Jack_Handey)
 
 > The time you enjoy wasting is not wasted time.
 
