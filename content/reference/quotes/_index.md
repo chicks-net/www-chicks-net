@@ -21,7 +21,7 @@ it as my email signature for several years.
 > The great thing about standards is there are so many to choose from.
 
 I say this every week it seems.  It applies to so many areas of technology.
-Thankfully the same idea has now been immortalized by [xkdc](https://xkcd.com/927/).
+Thankfully the same idea has now been immortalized by [xkcd](https://xkcd.com/927/).
 
 ## Good quotes
 
@@ -68,7 +68,7 @@ The answer used to be a "slide projector", but nobody knows what that is anymore
 
 > Awfluence
 
-Christine H's name for [Confluence]("https://en.wikipedia.org/wiki/Confluence_(software)")
+Christine H's name for [Confluence](https://en.wikipedia.org/wiki/Confluence_(software))
 
 ## Funny quotes
 
