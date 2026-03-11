@@ -23,33 +23,27 @@ it as my email signature for several years.
 I say this every week it seems.  It applies to so many areas of technology.
 Thankfully the same idea has now been immortalized by [xkdc](http://xkcd.com/927/).
 
-
 ## Good quotes
 
 > Genius is one percent inspiration and ninety-nine percent perspiration.
 
 - Thomas A. Edison
 
-
 > Some­times a concept is baffling not because it is profound but because it’s wrong.
 
 - [Prof. E.O. Wilson](http://en.wikipedia.org/wiki/E._O._Wilson)
-
 
 > I think it’s intoxicating when somebody is so unapologetically who they are.
 
 - Don Cheadle
 
-
 > You are so brave and quiet I forget you are suffering.
 
 - Ernest Hemingway
 
-
 > Art washes from the soul the dust of everyday life.
 
 - Pablo Picasso
-
 
 > Seven blunders of the world that lead to violence: wealth without work, pleasure without conscience, knowledge without character, commerce without morality, science without humanity, worship without sacrifice, politics without principle.
 
@@ -111,4 +105,3 @@ My cousin Rhonda is full of amusing quotes, often with a rustic ring.
 > Great minds think alot.
 
 :rainbow: :rainbow:
-
