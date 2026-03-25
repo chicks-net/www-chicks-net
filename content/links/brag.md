@@ -18,7 +18,7 @@ draft = false
 
 [![Github contributions for all time with weekly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-weekly.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
 
-[![Star History Chart for chicks-net](https://api.star-history.com/svg?repos=chicks-net/megamap,chicks-net/fbdata-forensics,chicks-net/smokeping-config,chicks-net/chicks-home,chicks-net/google-plus-posts-dumper&type=date&legend=top-left)](https://www.star-history.com/#chicks-net/megamap&chicks-net/fbdata-forensics&chicks-net/smokeping-config&chicks-net/chicks-home&chicks-net/google-plus-posts-dumper&type=date&legend=top-left)
+[![Star History Chart for chicks-net](https://api.star-history.com/image?repos=chicks-net/megamap%2Cchicks-net/fbdata-forensics%2Cchicks-net/smokeping-config%2Cchicks-net/chicks-home%2Cchicks-net/google-plus-posts-dumper%2Cchicks-net/data-curated&type=date&legend=top-left)](https://www.star-history.com/?repos=chicks-net%2Fmegamap%2Cchicks-net%2Ffbdata-forensics%2Cchicks-net%2Fsmokeping-config%2Cchicks-net%2Fchicks-home%2Cchicks-net%2Fgoogle-plus-posts-dumper%2Cchicks-net%2Fdata-curated&type=date&legend=top-left)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 
