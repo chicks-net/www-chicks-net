@@ -50,7 +50,7 @@ check_images:
             echo "{{RED}}Missing image:{{NORMAL}} $FILE references $IMAGE"
             # Extract filename after last dash
             BASENAME=$(basename "$IMAGE")
-            SHORTNAME=$(echo "$BASENAME" | sed 's/.*-//')
+            SHORTNAME="${BASENAME##*-}"
             # Look for the file in ~/Downloads/Takeout/
             TAKEOUT_SEARCH=$(find ~/Downloads/Takeout/ -type f -name "$SHORTNAME" 2>/dev/null | head -1)
             if [[ -n "$TAKEOUT_SEARCH" ]]; then
@@ -63,7 +63,7 @@ check_images:
             fi
             MISSING=$((MISSING + 1))
         fi
-    done < <(grep '^!\[.*/posts/' *.md 2>/dev/null || true)
+    done < <(grep '^!\[.*/posts/' ./*.md 2>/dev/null || true)
     if [[ $MISSING -eq 0 ]]; then
         echo "{{GREEN}}All image references verified{{NORMAL}}"
     else

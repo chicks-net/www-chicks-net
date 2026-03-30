@@ -1,0 +1,15 @@
+# .repo.toml
+
+[about]
+description = "https://www.chicks.net/ web site built with Hugo and PaperMod 📃"
+topics = ["blog", "business", "freesoftware", "hugo-site", "justfile", "trains", "website"]
+
+[urls]
+git_ssh = "git@github.com:chicks-net/www-chicks-net.git"
+web_url = "https://github.com/chicks-net/www-chicks-net"
+
+[flags]
+claude = false
+claude-review = false
+copilot-review = false
+standard-release = true
