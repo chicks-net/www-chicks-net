@@ -34,6 +34,7 @@ gps_check image="":
     set -euo pipefail # strict mode
 
     # if image parameter is provided, check just that file
+    # shellcheck disable=SC2157
     if [[ -n "{{ image }}" ]]; then
         if [[ ! -f "{{ image }}" ]]; then
             echo "{{RED}}Error: File '{{ image }}' not found{{NORMAL}}"
@@ -134,6 +135,7 @@ finder_dupes remove="":
                 echo "{{GREEN}}  (original: $original_file){{NORMAL}}"
                 ((found++))
 
+                # shellcheck disable=SC2050
                 if [[ "{{ remove }}" == "yes" ]] || [[ "{{ remove }}" == "true" ]]; then
                     echo "{{RED}}  Removing...{{NORMAL}}"
                     rm "$file"
@@ -148,6 +150,7 @@ finder_dupes remove="":
         echo ""
         echo "{{MAGENTA}}Found $found Finder duplicate file(s){{NORMAL}}"
 
+        # shellcheck disable=SC2050
         if [[ "{{ remove }}" != "yes" ]] && [[ "{{ remove }}" != "true" ]]; then
             echo "{{BLUE}}Run 'just finder_dupes yes' to remove them{{NORMAL}}"
         else
