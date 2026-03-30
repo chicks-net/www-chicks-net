@@ -9,7 +9,7 @@ git_ssh = "git@github.com:chicks-net/www-chicks-net.git"
 web_url = "https://github.com/chicks-net/www-chicks-net"
 
 [flags]
-claude = false
-claude-review = false
-copilot-review = false
+claude = true
+claude-review = true
+copilot-review = true
 standard-release = true
