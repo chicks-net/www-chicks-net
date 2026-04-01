@@ -107,3 +107,7 @@ Conditions. They're still processing complaints from last June.
 ---
 
 *No refunds will be processed.*
+
+## Cross-posts
+
+- I posted this in [LinkedIn](https://www.linkedin.com/posts/chicks2fini_humor-ca-ca-share-7445161493874262016-XUfd)
