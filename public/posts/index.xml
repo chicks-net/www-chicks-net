@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.158.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2026 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 09:32:59 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing the California Weather Refund Form</title>
+      <link>https://www.chicks.net/posts/2026-04-01-weather-refund-form/</link>
+      <pubDate>Wed, 01 Apr 2026 09:32:59 -0700</pubDate>
+      <guid>https://www.chicks.net/posts/2026-04-01-weather-refund-form/</guid>
+      <description>A Programmer&amp;#39;s Approach to Atmospheric Disappointment</description>
+    </item>
     <item>
       <title>Announcing gh-observer: Waiting for CI Should Not Be Misery</title>
       <link>https://www.chicks.net/posts/2026-03-08-announce-gh-observer/</link>
