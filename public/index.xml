@@ -9,7 +9,7 @@
       <url>https://www.chicks.net/chicks/chicks_wedding01.jpg</url>
       <link>https://www.chicks.net/chicks/chicks_wedding01.jpg</link>
     </image>
-    <generator>Hugo -- 0.158.0</generator>
+    <generator>Hugo -- 0.159.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Apr 2026 09:32:59 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/index.xml" rel="self" type="application/rss+xml" />
@@ -46,10 +46,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis&#34;&gt;&lt;img alt=&#34;Github contributions over the last two years&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis&#34;&gt;&lt;img alt=&#34;Github contributions for all time with monthly totals&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis&#34;&gt;&lt;img alt=&#34;Github contributions for all time with weekly totals&#34; loading=&#34;lazy&#34; src=&#34;https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-weekly.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.star-history.com/?repos=chicks-net%2Fmegamap%2Cchicks-net%2Ffbdata-forensics%2Cchicks-net%2Fsmokeping-config%2Cchicks-net%2Fchicks-home%2Cchicks-net%2Fgoogle-plus-posts-dumper%2Cchicks-net%2Fdata-curated&amp;amp;type=date&amp;amp;legend=top-left&#34;&gt;&lt;img alt=&#34;Star History Chart for chicks-net&#34; loading=&#34;lazy&#34; src=&#34;https://api.star-history.com/image?repos=chicks-net/megamap%2Cchicks-net/fbdata-forensics%2Cchicks-net/smokeping-config%2Cchicks-net/chicks-home%2Cchicks-net/google-plus-posts-dumper%2Cchicks-net/data-curated&amp;type=date&amp;legend=top-left&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.star-history.com/?repos=chicks-net%2Fmegamap%2Cchicks-net%2Ffbdata-forensics%2Cchicks-net%2Fsmokeping-config%2Cchicks-net%2Fchicks-home%2Cchicks-net%2Fgoogle-plus-posts-dumper%2Cchicks-net%2Fdata-curated&amp;amp;amp;type=date&amp;amp;amp;legend=top-left&#34;&gt;&lt;img alt=&#34;Star History Chart for chicks-net&#34; loading=&#34;lazy&#34; src=&#34;https://api.star-history.com/image?repos=chicks-net/megamap%2Cchicks-net/fbdata-forensics%2Cchicks-net/smokeping-config%2Cchicks-net/chicks-home%2Cchicks-net/google-plus-posts-dumper%2Cchicks-net/data-curated&amp;type=date&amp;legend=top-left&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://git.io/streak-stats&#34;&gt;&lt;img alt=&#34;GitHub Streak&#34; loading=&#34;lazy&#34; src=&#34;https://streak-stats.demolab.com?user=chicks-net&amp;date_format=j%20M%5B%20Y%5D&amp;mode=weekly&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;github-fini-net&#34;&gt;Github fini-net&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.star-history.com/#fini-net/fini-coredns-example&amp;amp;fini-net/template-repo&amp;amp;fini-net/fini-infra&amp;amp;fini-net/gh-observer&amp;amp;type=date&amp;amp;legend=top-left&#34;&gt;&lt;img alt=&#34;Star History Chart for fini-net&#34; loading=&#34;lazy&#34; src=&#34;https://api.star-history.com/svg?repos=fini-net/fini-coredns-example,fini-net/template-repo,fini-net/fini-infra,fini-net/gh-observer&amp;type=date&amp;legend=top-left&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.star-history.com/#fini-net/fini-coredns-example&amp;amp;amp;fini-net/template-repo&amp;amp;amp;fini-net/fini-infra&amp;amp;amp;fini-net/gh-observer&amp;amp;amp;type=date&amp;amp;amp;legend=top-left&#34;&gt;&lt;img alt=&#34;Star History Chart for fini-net&#34; loading=&#34;lazy&#34; src=&#34;https://api.star-history.com/svg?repos=fini-net/fini-coredns-example,fini-net/template-repo,fini-net/fini-infra,fini-net/gh-observer&amp;type=date&amp;legend=top-left&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;fini-net overview from metrics.lecoq.io&#34; loading=&#34;lazy&#34; src=&#34;https://metrics.lecoq.io/fini-net?template=classic&amp;languages=1&amp;followup=1&amp;base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&amp;base.indepth=false&amp;base.hireable=false&amp;base.skip=false&amp;languages=false&amp;languages.limit=8&amp;languages.threshold=0%25&amp;languages.other=false&amp;languages.colors=github&amp;languages.sections=most-used&amp;languages.indepth=false&amp;languages.analysis.timeout=15&amp;languages.analysis.timeout.repositories=7.5&amp;languages.categories=markup%2C%20programming&amp;languages.recent.categories=markup%2C%20programming&amp;languages.recent.load=300&amp;languages.recent.days=14&amp;followup=false&amp;followup.sections=repositories&amp;followup.indepth=false&amp;followup.archived=true&amp;config.timezone=America%2FLos_Angeles&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -396,7 +396,7 @@ released.  Thanks to everyone who advocated for this.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://bleedingedgedoc.com/&#34;&gt;http://bleedingedgedoc.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://wapo.st/2mtZzzw?tid=ss_gp&amp;amp;utm_term=.464d23d342e3&#34;&gt;Washington Post article&lt;/a&gt; Sales of Essure birth control implant to be halted by Bayer; U.S. last to sell controversial device&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wapo.st/2mtZzzw?tid=ss_gp&amp;amp;amp;utm_term=.464d23d342e3&#34;&gt;Washington Post article&lt;/a&gt; Sales of Essure birth control implant to be halted by Bayer; U.S. last to sell controversial device&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
@@ -595,7 +595,7 @@ of a lot more significant than what t-shirts anybody is wearing to the mall.&lt;
 people who had real problems&amp;hellip;. this will not make America great.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.npr.org/2016/12/08/504815928/trump-takes-aim-at-union-official-over-carrier-job-count?utm_campaign=storyshare&amp;amp;utm_source=plus.google.com&amp;amp;utm_medium=social&#34;&gt;Trump Takes Aim At Union Official Over Carrier Job Count&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.npr.org/2016/12/08/504815928/trump-takes-aim-at-union-official-over-carrier-job-count?utm_campaign=storyshare&amp;amp;amp;utm_source=plus.google.com&amp;amp;amp;utm_medium=social&#34;&gt;Trump Takes Aim At Union Official Over Carrier Job Count&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Wing Wong&lt;/p&gt;</description>
@@ -647,7 +647,7 @@ conferences and tech lofts is the way to make big bucks.&lt;/p&gt;
       <description>&lt;p&gt;We&amp;rsquo;ve needed to learn to present data better for a long time.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.brighttalk.com/webcast/11375/191075?utm_campaign=Google&amp;amp;utm_source=brighttalk-sharing&amp;amp;utm_medium=web&#34;&gt;BrightTALK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.brighttalk.com/webcast/11375/191075?utm_campaign=Google&amp;amp;amp;utm_source=brighttalk-sharing&amp;amp;amp;utm_medium=web&#34;&gt;BrightTALK&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
@@ -945,7 +945,7 @@ our divine Princess of Amazing Cookies.&lt;/p&gt;
 at least we can agree that Dick Feynman was mega-awesome.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/best-teacher-i-never-had-bill-gates?trk=eml-b2_content_ecosystem_digest-hero-14-null&amp;amp;midToken=AQHm2xass5jq6w&amp;amp;fromEmail=fromEmail&amp;amp;ut=0_8Y0KQIQzVT41&#34;&gt;&amp;ldquo;The Best Teacher I Never Had&amp;rdquo; by Bill Gates on LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/best-teacher-i-never-had-bill-gates?trk=eml-b2_content_ecosystem_digest-hero-14-null&amp;amp;amp;midToken=AQHm2xass5jq6w&amp;amp;amp;fromEmail=fromEmail&amp;amp;amp;ut=0_8Y0KQIQzVT41&#34;&gt;&amp;ldquo;The Best Teacher I Never Had&amp;rdquo; by Bill Gates on LinkedIn&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
@@ -1068,7 +1068,7 @@ other major scripting languages.  Can we ban them from the civilized Internet?&
       <description>&lt;p&gt;&amp;ldquo;Why Smart People Act So Stupid&amp;rdquo; is the story of my life.  :)&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/why-smart-people-act-so-stupid-dr-travis-bradberry?trk=eml-b2_content_ecosystem_digest-recommended_articles-85-null&amp;amp;midToken=AQHm2xass5jq6w&amp;amp;fromEmail=fromEmail&amp;amp;ut=0r2jtffO5lnD01&#34;&gt;&amp;ldquo;8 Ways Smart People Act Stupid&amp;rdquo; by Travis Bradberry on LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/why-smart-people-act-so-stupid-dr-travis-bradberry?trk=eml-b2_content_ecosystem_digest-recommended_articles-85-null&amp;amp;amp;midToken=AQHm2xass5jq6w&amp;amp;amp;fromEmail=fromEmail&amp;amp;amp;ut=0r2jtffO5lnD01&#34;&gt;&amp;ldquo;8 Ways Smart People Act Stupid&amp;rdquo; by Travis Bradberry on LinkedIn&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
@@ -1117,7 +1117,7 @@ time as Uber&amp;rsquo;s platform evolves.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://distributed.net&#34;&gt;distributed.net&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://blogs.distributed.net/2015/07/10/04/28/bovine/?utm_campaign=shareaholic&amp;amp;utm_medium=google_plus&amp;amp;utm_source=socialnetwork&#34;&gt;: staff blogs – 2015 – July – 10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blogs.distributed.net/2015/07/10/04/28/bovine/?utm_campaign=shareaholic&amp;amp;amp;utm_medium=google_plus&amp;amp;amp;utm_source=socialnetwork&#34;&gt;: staff blogs – 2015 – July – 10&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
@@ -1128,7 +1128,7 @@ time as Uber&amp;rsquo;s platform evolves.&lt;/p&gt;
       <guid>https://www.chicks.net/posts/2015-05-12-the_muppets_plus_lindsey_stirling_is_mo/</guid>
       <description>&lt;p&gt;The Muppets plus Lindsey Stirling is more awesome than I can possibly find words worthy to describe.&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/attribution_link?a=y67c50Nr_Ik&amp;amp;u=/watch?v%3Dcv8msHbqaFE%26feature%3Dshare&#34;&gt;Watch Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/attribution_link?a=y67c50Nr_Ik&amp;amp;amp;u=/watch?v%3Dcv8msHbqaFE%26feature%3Dshare&#34;&gt;Watch Video&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
     <item>
@@ -2141,7 +2141,7 @@ Mouse from corporate tyrany!&lt;/p&gt;
       <guid>https://www.chicks.net/posts/2014-03-12-penn_and_teller_rock/</guid>
       <description>&lt;p&gt;Penn &amp;amp; Teller rock!&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/attribution_link?a=MQfJmoweOIw&amp;amp;u=/watch?v%3DrExEVZlQia4%26feature%3Dshare&#34;&gt;Watch Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/attribution_link?a=MQfJmoweOIw&amp;amp;amp;u=/watch?v%3DrExEVZlQia4%26feature%3Dshare&#34;&gt;Watch Video&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Oily Salad, Todd Stein&lt;/p&gt;</description>
     </item>
@@ -2415,7 +2415,7 @@ stunning that the sun came out so quickly.&lt;/p&gt;
       <guid>https://www.chicks.net/posts/2013-11-13-education_that_keeps_you_on_the_edge_of/</guid>
       <description>&lt;p&gt;Education that keeps you on the edge of your seat.  I love Mehdi.&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/attribution_link?a=SkONkkL9vW0DggmHN0A_VA&amp;amp;u=/watch?v%3DdcrY59nGxBg%26feature%3Dshare&#34;&gt;Watch Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/attribution_link?a=SkONkkL9vW0DggmHN0A_VA&amp;amp;amp;u=/watch?v%3DdcrY59nGxBg%26feature%3Dshare&#34;&gt;Watch Video&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
     <item>
@@ -2749,7 +2749,7 @@ backyard nuclear reactor for your own amusement.&amp;rdquo;  rofl  &lt;/p&gt;
 &lt;p&gt;I found this from fark.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gawker.com/ban-lawns-1107358428?utm_campaign=socialflow_gawker_facebook&amp;amp;utm_source=gawker_facebook&amp;amp;utm_medium=socialflow&#34;&gt;Ban Lawns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gawker.com/ban-lawns-1107358428?utm_campaign=socialflow_gawker_facebook&amp;amp;amp;utm_source=gawker_facebook&amp;amp;amp;utm_medium=socialflow&#34;&gt;Ban Lawns&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez, John McWade&lt;/p&gt;
@@ -3411,7 +3411,7 @@ Address: 1540 2nd St # 3&lt;/p&gt;
       <guid>https://www.chicks.net/posts/2013-05-04-pretty_good_top_10_movie_list/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Marmion Way, Los Angeles, California&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Pretty good top 10 movie list &lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;query=34.113989,%20-118.18402999999998&#34;&gt;Marmion Way, Los Angeles, California&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pretty good top 10 movie list &lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;amp;query=34.113989,%20-118.18402999999998&#34;&gt;Marmion Way, Los Angeles, California&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2013-05-04-18mn4aoflc8le&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
@@ -3444,7 +3444,7 @@ from Festool yet, but they come highly recommended as well.&lt;/p&gt;
       <pubDate>Sat, 27 Apr 2013 23:30:34 +0000</pubDate>
       <guid>https://www.chicks.net/posts/2013-04-27-and_so_it_begins/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; E Bastanchury Rd, Fullerton, California&lt;/p&gt;
-&lt;p&gt;And so it begins &lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;query=33.894071,%20-117.88374&#34;&gt;E Bastanchury Rd, Fullerton,
+&lt;p&gt;And so it begins &lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;amp;query=33.894071,%20-117.88374&#34;&gt;E Bastanchury Rd, Fullerton,
 California&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2013-04-27-18lyuetvhhg9e.jpg&#34;&gt;&lt;/p&gt;
@@ -3687,7 +3687,7 @@ Address: 12312 West Olympic Boulevard, Los Angeles, CA, United States&lt;/p&gt;
 the Washington Post is now debunking viral videos.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.washingtonpost.com/blogs/early-lead/wp/2013/03/15/jeff-gordons-test-drive-viral-video-for-pepsi-is-fake/?ei=jRBDUbDnAoq6twefMA?&amp;amp;sig2=AIuzMteeEMLqzrNCZqKpaw?&amp;amp;rt=HOMEPAGE?&amp;amp;vm=STANDARD?&amp;amp;bvm=section?&amp;amp;did=-7017697400048411689?&amp;amp;sid=en_us-tc?&amp;amp;ssid=tc&#34;&gt;Jeff Gordon’s test-drive viral video for Pepsi is fake&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.washingtonpost.com/blogs/early-lead/wp/2013/03/15/jeff-gordons-test-drive-viral-video-for-pepsi-is-fake/?ei=jRBDUbDnAoq6twefMA?&amp;amp;amp;sig2=AIuzMteeEMLqzrNCZqKpaw?&amp;amp;amp;rt=HOMEPAGE?&amp;amp;amp;vm=STANDARD?&amp;amp;amp;bvm=section?&amp;amp;amp;did=-7017697400048411689?&amp;amp;amp;sid=en_us-tc?&amp;amp;amp;ssid=tc&#34;&gt;Jeff Gordon’s test-drive viral video for Pepsi is fake&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Paul Fernandez&lt;/p&gt;</description>
@@ -3991,7 +3991,7 @@ random people are coming up to me and saying, &amp;ldquo;hey, do you see the rai
       <guid>https://www.chicks.net/posts/2012-11-01-post_2/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Address: 8911-8917 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;query=34.0847931,%20-118.38446060000001&#34;&gt;Address: 8911-8917 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;amp;query=34.0847931,%20-118.38446060000001&#34;&gt;Address: 8911-8917 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2012-11-01-183zvksxawl6q.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
@@ -4010,7 +4010,7 @@ random people are coming up to me and saying, &amp;ldquo;hey, do you see the rai
       <guid>https://www.chicks.net/posts/2012-11-01-post_3/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Address: 8950-8954 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;query=34.0838053,%20-118.38555309999998&#34;&gt;Address: 8950-8954 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;amp;query=34.0838053,%20-118.38555309999998&#34;&gt;Address: 8950-8954 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2012-11-01-183zvksqymk02.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
@@ -4029,7 +4029,7 @@ random people are coming up to me and saying, &amp;ldquo;hey, do you see the rai
       <guid>https://www.chicks.net/posts/2012-11-01-post_1/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Address: 9000 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;query=34.0826717,%20-118.3873461&#34;&gt;Address: 9000 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;amp;query=34.0826717,%20-118.3873461&#34;&gt;Address: 9000 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2012-11-01-183zvkso0mimq.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
@@ -4048,7 +4048,7 @@ random people are coming up to me and saying, &amp;ldquo;hey, do you see the rai
       <guid>https://www.chicks.net/posts/2012-11-01-post/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Address: 8910 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;query=34.0844819,%20-118.38455139999999&#34;&gt;Address: 8910 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.google.com/maps/search/?api=1&amp;amp;amp;query=34.0844819,%20-118.38455139999999&#34;&gt;Address: 8910 Santa Monica Blvd, West Hollywood, CA 90069, USA&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
 &lt;p&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;https://www.chicks.net/posts/2012-11-01-183zvktigguaq.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
@@ -4277,7 +4277,7 @@ room they&amp;rsquo;d have more mojo for competing with Android.  Siri, why why
       <description>&lt;p&gt;I finally got an Ultimate Badge in Google News.  :)&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://news.google.com/news/section?pz=1&amp;amp;cf=all&amp;amp;ned=us&amp;amp;hl=en&amp;amp;q=topic:mobile_industry&amp;amp;ict=nsv&amp;amp;nsvid=3189208955&#34;&gt;Mobile Industry&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.google.com/news/section?pz=1&amp;amp;amp;cf=all&amp;amp;amp;ned=us&amp;amp;amp;hl=en&amp;amp;amp;q=topic:mobile_industry&amp;amp;amp;ict=nsv&amp;amp;amp;nsvid=3189208955&#34;&gt;Mobile Industry&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Todd Stein&lt;/p&gt;</description>
@@ -4572,7 +4572,7 @@ under Linux, but it works fine with Firefox?  Hmmm, lol.&lt;/p&gt;
 than closed. Who could have guessed?&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.businessinsider.com/the-one-chart-you-need-to-see-to-understand-mobile-2011-11?utm_source=%23frankguillen&amp;amp;utm_medium=twitter&amp;amp;utm_campaign=FrankGuillen+Buzz&#34;&gt;The One Chart You Need To See To Understand Mobile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.businessinsider.com/the-one-chart-you-need-to-see-to-understand-mobile-2011-11?utm_source=%23frankguillen&amp;amp;amp;utm_medium=twitter&amp;amp;amp;utm_campaign=FrankGuillen+Buzz&#34;&gt;The One Chart You Need To See To Understand Mobile&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public,&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
@@ -4590,7 +4590,7 @@ wild, but I will keep a keener eye out for it now.&lt;/p&gt;
 the Santa out of his own pocket without making it into an ethics issue.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.reuters.com/article/2011/11/07/us-santa-odd-idUSTRE7A63CJ20111107?feedType=RSS&amp;amp;feedName=oddlyEnoughNews&amp;amp;rpc=69&#34;&gt;Strapped county sacks Santa to save $660&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.reuters.com/article/2011/11/07/us-santa-odd-idUSTRE7A63CJ20111107?feedType=RSS&amp;amp;amp;feedName=oddlyEnoughNews&amp;amp;amp;rpc=69&#34;&gt;Strapped county sacks Santa to save $660&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;+1&amp;rsquo;d by:&lt;/strong&gt; Liz Quilty&lt;/p&gt;</description>
@@ -4738,7 +4738,7 @@ learn everything this way.&lt;/p&gt;
       <description>&lt;p&gt;A beautifully executed article on equations.  Seriously.&lt;/p&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.wired.com/wiredscience/2011/11/equations-for-geeks/?pid=2364&amp;amp;pageid=83817&amp;amp;viewall=true&#34;&gt;» 9 Equations True Geeks Should (at Least Pretend to) Know&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/wiredscience/2011/11/equations-for-geeks/?pid=2364&amp;amp;amp;pageid=83817&amp;amp;amp;viewall=true&#34;&gt;» 9 Equations True Geeks Should (at Least Pretend to) Know&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Shared with:&lt;/strong&gt; Public&lt;/p&gt;</description>
     </item>
