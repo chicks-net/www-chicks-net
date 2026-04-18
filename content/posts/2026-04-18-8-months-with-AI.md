@@ -24,7 +24,7 @@ Since I'm expected to be on the hype side of this equation I felt I should frame
 without too much emphasis on The Good.  There's plenty of content out there
 talking about how great AI is for coding and various art forms.  That is not my
 goal here.  Looking at where I've gone wrong and where other's have run into
-diffiiculties seems much more valuable.  If I've run into these problems in my
+difficulties seems much more valuable.  If I've run into these problems in my
 first 8 months of earnestly using AI, then I'm sure many other folks have
 bounced off of these same issues.
 
@@ -93,7 +93,7 @@ and see how they work for them.
 - [datadog-service-analyzer](https://github.com/fini-net/datadog-service-analyzer)
   will help you find services in datadog that are not in your service catalog.
 - There's a ton of AI art sprinkled through these projects thanks to
-  [Galaxy.AI](try.galaxy.ai/christopher-hicks) (affiliate link).  I've mostly
+  [Galaxy.AI](https://try.galaxy.ai/christopher-hicks) (affiliate link).  I've mostly
   been using the Nano Banana models for image generation, but I've also had fun
   generating [videos that nobody watches](https://youtu.be/MCl1Jf_WoyQ) and
   making fake head shots.  I'll try to post the collection of heads shots
@@ -115,7 +115,7 @@ enough to stop
 from generating heaps of garbage code and being absurdly proud of themselves.
 `[sigh]`.
 
-But what about me?  I've been in the computer business for almost fourty years.
+But what about me?  I've been in the computer business for almost forty years.
 Four decades of seeing what works and doesn't work should make me a bit wiser.
 I've got war stories from SunOS to AWS.  I can smell sand traps in other
 peoples projects from 100 yards away.  Hopefully you can smell the
@@ -181,13 +181,13 @@ But this going off of the rails was my first huge disappointment with AI.
 
 Writing "Infrastructure as Code" is a very comfortable space for me.
 After doing shell, puppet, chef, ansible, terraform, and opentofu I feel
-pretty confidant in being able to do almost anything I set out to do.
+pretty confident in being able to do almost anything I set out to do.
 I've also spent most of the last 15 years operating in AWS at all sorts
 of different scales.  So I feel pretty good about my cloud skills even
 though it has predominantly been with AWS.  A lot of folks build their
 clouds to be compatible with AWS, so many tools and concepts are truly
 portable across the major cloud providers.  So there's another dose of
-Overconfidance Soup for you.
+Overconfidence Soup for you.
 
 I dabble in DigitalOcean for my consulting company (FINI).  We have
 been running our DNS servers in a geographically diverse way for many
@@ -282,7 +282,7 @@ Ironically gitLAB does provide this out-of-the-box in their CLI tool.
 (Competition does not matter once you are the dominant player it seems.)
 
 In this case the bulk of the blame falls on GitHub and their willfully
-incomplete API.  I do not expect AI's to accompilsh something that is effectively
+incomplete API.  I do not expect AI's to accomplish something that is effectively
 impossible because of the available APIs.  Being able to try things that
 seem impossible to us is one of the good things about AI.  The thing
 to keep an eye out for is that the AI is unlikely to warn you that you
@@ -301,13 +301,13 @@ path by AI.  I'm also not the only person to warn about the risks of AI.  The
 CEO of Anthropic is certainly the most visible person in the warning camp,
 but it is also a good idea to question the motives of someone who has already
 gotten obscenely rich on this technology.  For the long tail of economically
-diverse folks without clear conflicts of interest, we should take their risk
-assessments without considering their general validity and relevance to our
+diverse folks without clear conflicts of interest, we should review their risk
+assessments while considering their general validity and relevance to our
 situation.  I will try to cover a few of these topics.
 
 ### Data centers suck
 
-I'm sure that is the write title for this section, but it does not convey
+I'm sure that is the right title for this section, but it does not convey
 my personal feelings about data centers.  I love data centers.  I've tried
 to get people tours of data centers to show off how amazing they are.  I
 spent 40 nights in one year at the Aloft in Ashburn, VA while doing data
@@ -346,7 +346,7 @@ latency goes down.  You don't have to pay more or upgrade anything to
 experience the benefits of this.  Your slow speeds probably had nothing
 to do with the pipe into your house and everything to do with how well
 your provider is connected to the backbone.  Once there's more
-bandwitch and competition in your area, it becomes cheaper for your
+bandwidth and competition in your area, it becomes cheaper for your
 provider to take advantage of that and your service gets better, like
 "magic".
 
@@ -450,7 +450,7 @@ short-term economics, there's even less chance of them considering how these
 factors are likely to change in the future.
 
 There is also a good open question of whether the AI bubble will burst and how
-this will effect the numerous AI companies, data center vendors, and the
+this will affect the numerous AI companies, data center vendors, and the
 broader economy that has been propped up by this AI bubble in recent years.
 
 ## Conclusion
@@ -461,7 +461,7 @@ will inspire folks to take a keener interest in ensuring quality.  I also
 hoped that the Internet would bring on a new Age of Letters.  I'm sorry
 that didn't work out for us.
 
-There are a lot of rough edges to the technolgy as it exists.  We will need
+There are a lot of rough edges to the technology as it exists.  We will need
 millions of skilled practitioners for years to herd this technology into
 healthy directions.  Ultimately this will help the hordes of unskilled
 practitioners to build things that don't turn out as badly.
@@ -477,8 +477,9 @@ capitalism to operate.
 
 - I wrote the first draft of this in `vim` without AI assistance.
   I will let copilot and Claude review this and probably accept a lot of their suggestions.
-  You can see the PR for this if you care about those gory details.
+  You can check [the PR for this](https://github.com/chicks-net/www-chicks-net/pull/318)
+  if you care about those gory details.
 - I will cross-post this on linked-in on Monday.
 - The banner was generated in
-  [Galaxy.AI](try.galaxy.ai/christopher-hicks) (affiliate link)
+  [Galaxy.AI](https://try.galaxy.ai/christopher-hicks) (affiliate link)
   with the Nano Banana Pro model.
