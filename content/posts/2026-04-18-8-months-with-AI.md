@@ -23,7 +23,7 @@ Since I'm expected to be on the hype side of this equation I felt I should frame
 [The Good, the Bad and the Ugly](https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly)
 without too much emphasis on The Good.  There's plenty of content out there
 talking about how great AI is for coding and various art forms.  That is not my
-goal here.  Looking at where I've gone wrong and where other's have run into
+goal here.  Looking at where I've gone wrong and where others have run into
 difficulties seems much more valuable.  If I've run into these problems in my
 first 8 months of earnestly using AI, then I'm sure many other folks have
 bounced off of these same issues.
@@ -109,7 +109,7 @@ that it witnessed in its training data.  AI can seem sentient, even though it
 is just an echo of the sentient beings that used their brains to write something
 in the good old days.  AI can generate huge amounts of code, but if you're not
 asking for the right things in the right way at the right time, you end up with
-a pile of embarassing and useless slop.  We've seen that those problems are not
+a pile of embarrassing and useless slop.  We've seen that those problems are not
 enough to stop
 [people that should have known better](https://youtu.be/mJ2GZRV63TE?si=moMctyHOM5pTY8Xk)
 from generating heaps of garbage code and being absurdly proud of themselves.
@@ -119,7 +119,7 @@ But what about me?  I've been in the computer business for almost forty years.
 Four decades of seeing what works and doesn't work should make me a bit wiser.
 I've got war stories from SunOS to AWS.  I can smell sand traps in other
 peoples projects from 100 yards away.  Hopefully you can smell the
-Overconfidance Soup I'm brewing over here.  Even my younger colleagues were
+Overconfidence Soup I'm brewing over here.  Even my younger colleagues were
 telling me that they were super-interested in seeing what I'd do with this AI
 stuff after watching them be braver at diving into this new world than I could
 bring myself to be or do.  Honestly, if it weren't for seeing their success
@@ -173,7 +173,7 @@ cannot count how many times the AI has thought of something and it didn't
 make it past the first try.  Writing projects don't have those implicit
 guardrails and I'm not sure how they could even be built.
 
-I do have a few ideas for how to save and complete this projects.  I have
+I do have a few ideas for how to save and complete this project.  I have
 the two editions of the physical book sitting right here on my bookshelf.
 But this going off of the rails was my first huge disappointment with AI.
 
@@ -204,11 +204,11 @@ I was sure that what I wanted was a bucket (like S3) with the static
 content and then stick a CDN in front of it.
 For PRs from [#27](https://github.com/fini-net/fini-infra/pull/27)
 up to [#52](https://github.com/fini-net/fini-infra/pull/52)
-over ~6 weeks I was trecking towards that goal.  It felt like I was
+over ~6 weeks I was trekking towards that goal.  It felt like I was
 going to keep getting closer and closer.  Milestones were getting
 accomplished.
 
-But ultimately it didn't really work.  That flavor of Digital Ocean
+But ultimately it didn't really work.  That flavor of DigitalOcean
 CDN didn't handle URL rewriting so you couldn't get `index.html` types of
 things to work.  There could have been some other problems I'm
 forgetting.  It felt so close, but it was so far.  Then at some point
@@ -229,13 +229,13 @@ My lesson here was that AI can take me very far in the wrong direction
 and you still need to be prepared to abandon a lot of time and work
 and just chalk it up to being an educational experience.
 
-### Streamng logs from github actions
+### Streaming logs from GitHub Actions
 
 As the commit logs will testify, both of those diversions were in 2025.
 I had only been actively using AI for a few months.  Now in 2026 I've
 gotten a variety of projects done.  I've learned a lot.  I've finished
 some projects that had been languishing for years or longer. Life is good.
-What could possibly go wrong now?  The Overconfidance Soup is tastiest
+What could possibly go wrong now?  The Overconfidence Soup is tastiest
 after a long string of successes.
 
 So I decided to remove an irritation my writing some code.  I was tired
@@ -250,7 +250,7 @@ My experience with this project has been really good overall.  It solved
 the problem I had.  It has been used by some of my colleagues and at least
 one random person who found it on github.  The repo got a few stars.
 Happy me.  Happy customers.  Life is good.  But that wouldn't be a very
-intersting story, so let's highlight where it went off of the rails.
+interesting story, so let's highlight where it went off of the rails.
 
 My random user from github asked very nicely for a feature I had also been
 wanting.  Let's stream the logs while a job is running so you can see
@@ -329,7 +329,7 @@ growing, even if the square footage remains constant.  The data center
 should not get a huge discount for their use case.  It should be charged
 at rates that are similar to commercial or industrial users.  As with
 other industrial and commercial power consumers, if grid capacity is
-lacking they should help fund the improvments to the grid.  These grid
+lacking they should help fund the improvements to the grid.  These grid
 improvements help the reliability and available capacity for their
 region.
 
@@ -354,9 +354,9 @@ provider to take advantage of that and your service gets better, like
 to get consumed at a steady rate for the life of the data center.
 There are parts of the country with plenty of water that can build
 data centers with reckless abandon.  There are parts of the country
-that are don't have enough water already and so adding data centers
-is going to mean that people need to move someplace else.  I'm not
-a fan of this, but it looks like how it will go.
+that don't have enough water already and so adding data centers
+is going to mean that people or farms need to move someplace else.
+I'm not a fan of this, but it looks like how it will go.
 
 **Noise** is another valid concern with data centers.  I've been
 outside some very large data centers and you couldn't hear them
@@ -364,7 +364,7 @@ when you were 100 yards away.  That seems like it should be adequate
 for most places.  I don't want to see data centers right next to someone's
 house.  Zoning regulations generally take care of this in the US.  The reports
 that folks can hear them a mile away are sad.  I hope these are isolated
-occurences and that we regulate data centers enough so that we minimize these
+occurrences and that we regulate data centers enough so that we minimize these
 problems.
 
 So, I recognize that there are valid concerns around data centers.
