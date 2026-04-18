@@ -51,7 +51,7 @@ and see how they work for them.
   happening with your github actions after you do a `git push`.
 - [www-chicks-net](https://github.com/chicks-net/www-chicks-net) is the source repo
   for this website.  I had converted things over to [Hugo](https://gohugo.io/) well
-  before adopting AI, but I've been able to more consistantly post every month with
+  before adopting AI, but I've been able to more consistently post every month with
   AI helping me with first drafts and adding features.  The
   [emoji page](https://www.chicks.net/reference/emoji/) is something I use many
   times per day to get emojis onto my clipboard after getting annoyed with the ads
@@ -96,7 +96,7 @@ and see how they work for them.
   [Galaxy.AI](https://try.galaxy.ai/christopher-hicks) (affiliate link).  I've mostly
   been using the Nano Banana models for image generation, but I've also had fun
   generating [videos that nobody watches](https://youtu.be/MCl1Jf_WoyQ) and
-  making fake head shots.  I'll try to post the collection of heads shots
+  making fake headshots.  I'll try to post the collection of heads shots
   some day.
 
 Wow, that's a lot.  Let's see if I can balance this out with the negative
@@ -238,7 +238,7 @@ some projects that had been languishing for years or longer. Life is good.
 What could possibly go wrong now?  The Overconfidence Soup is tastiest
 after a long string of successes.
 
-So I decided to remove an irritation my writing some code.  I was tired
+So I decided to remove an irritation by writing some code.  I was tired
 of the github CLI's mediocre effort at showing you what's going on with
 your github actions.  I had shell/just scripts that would handle the
 delay where the command bombs because the github actions aren't running
@@ -269,7 +269,7 @@ great as Claude, so pull out the Claude Code and try a new PR.  Same
 shit, different day!  Oh no, what is going on here?
 
 I made at least five different attempts at accomplishing this.  I
-severely question my own abilities.  Luckily blaming myself was just
+began to question my own abilities.  Luckily blaming myself was just
 keeping me from seeing the real problem.  I was trying to do the
 impossible.  There was no way for any LLM to succeed at this, because
 I was asking for them to do the impossible.
@@ -292,7 +292,7 @@ do it.
 I'm not sure how much longer it would have taken me to figure out that
 I was trying to do the impossible if I wasn't watching the internal
 thinking process of the LLM that you can see in much more detail with
-`opencode` than recent version of Claude Code.
+`opencode` than recent versions of Claude Code.
 
 ## The Ugly
 
