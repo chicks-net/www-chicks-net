@@ -205,7 +205,7 @@ content and then stick a CDN in front of it.
 For PRs from [#27](https://github.com/fini-net/fini-infra/pull/27)
 up to [#52](https://github.com/fini-net/fini-infra/pull/52)
 over ~6 weeks I was trecking towards that goal.  It felt like I was
-going to keep getting closer and closer.  Milestones were getting 
+going to keep getting closer and closer.  Milestones were getting
 accomplished.
 
 But ultimately it didn't really work.  That flavor of Digital Ocean
@@ -330,7 +330,7 @@ should not get a huge discount for their use case.  It should be charged
 at rates that are similar to commercial or industrial users.  As with
 other industrial and commercial power consumers, if grid capacity is
 lacking they should help fund the improvments to the grid.  These grid
-improvements help the reliability and available capacity for their 
+improvements help the reliability and available capacity for their
 region.
 
 **Connectivity** is the bandwidth we all use to get to The Internet.
@@ -440,7 +440,7 @@ I'm planning on trying [promptfoo](https://github.com/promptfoo/promptfoo).)
 ### Economics are confusing
 
 Does it makes sense to pay for AI when it would be cheaper to have a human do
-the same task?  Our AI prices are currently lower than the real cost to 
+the same task?  Our AI prices are currently lower than the real cost to
 provide these services.  This is being funded by private equity and venture
 capital funds that will expect to see a return on their investment someday.
 There could be breakthroughs that make it scale more economically than we
@@ -450,7 +450,7 @@ short-term economics, there's even less chance of them considering how these
 factors are likely to change in the future.
 
 There is also a good open question of whether the AI bubble will burst and how
-this will effect the numerous AI companies, data center vendors, and the 
+this will effect the numerous AI companies, data center vendors, and the
 broader economy that has been propped up by this AI bubble in recent years.
 
 ## Conclusion
@@ -479,7 +479,6 @@ capitalism to operate.
   I will let copilot and Claude review this and probably accept a lot of their suggestions.
   You can see the PR for this if you care about those gory details.
 - I will cross-post this on linked-in on Monday.
-- The banner was generated in 
+- The banner was generated in
   [Galaxy.AI](try.galaxy.ai/christopher-hicks) (affiliate link)
   with the Nano Banana Pro model.
-
