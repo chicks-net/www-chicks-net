@@ -5,8 +5,8 @@ draft = false
 description = 'The Good, the Bad, and the Ugly from the trenches with AI'
 cover.image = '/posts/2026-04-18-8-months-with-AI.png'
 cover.hidden = false
-# keywords = ["", "", ""]
-# tags = ["", "", "", ""]
+keywords = ["ai", "claude", "copilot", "opencode", "hallucinations", "infrastructure-as-code", "productivity"]
+tags = ["business", "cloud", "free-software", "github", "habits", "programming"]
 ShowToc = true
 +++
 
