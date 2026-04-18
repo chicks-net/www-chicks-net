@@ -96,7 +96,7 @@ and see how they work for them.
   [Galaxy.AI](https://try.galaxy.ai/christopher-hicks) (affiliate link).  I've mostly
   been using the Nano Banana models for image generation, but I've also had fun
   generating [videos that nobody watches](https://youtu.be/MCl1Jf_WoyQ) and
-  making fake headshots.  I'll try to post the collection of heads shots
+  making fake headshots.  I'll try to post the collection of headshots
   some day.
 
 Wow, that's a lot.  Let's see if I can balance this out with the negative
@@ -282,7 +282,7 @@ Ironically gitLAB does provide this out-of-the-box in their CLI tool.
 (Competition does not matter once you are the dominant player it seems.)
 
 In this case the bulk of the blame falls on GitHub and their willfully
-incomplete API.  I do not expect AI's to accomplish something that is effectively
+incomplete API.  I do not expect AIs to accomplish something that is effectively
 impossible because of the available APIs.  Being able to try things that
 seem impossible to us is one of the good things about AI.  The thing
 to keep an eye out for is that the AI is unlikely to warn you that you
@@ -371,7 +371,7 @@ So, I recognize that there are valid concerns around data centers.
 I think we can and should regulate the downsides effectively so that
 most communities will get a chance to appreciate the upsides from
 improved infrastructure that are harder to recognize as being part of
-these questions
+these questions.
 
 ### Kiss your job goodbye
 
@@ -383,7 +383,7 @@ still have a job, they just might need to retrain.  And if we believe the
 economists, this has held true for the last two hundred years.
 
 With AI, we are told that no longer holds true.  The AI will replace you
-and there will nothing else to go do.  Is AI really going to turn out to
+and there will be nothing else to go do.  Is AI really going to turn out to
 be able to do all of that?  Maybe or maybe not.  Either way, the Silicon
 Valley Brain Trust believes it and they've started laying off tens of
 thousands of experienced, capable engineers while we see how this works
