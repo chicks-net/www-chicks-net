@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.159.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 13:17:25 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first 8 months with AI</title>
+      <link>https://www.chicks.net/posts/2026-04-18-8-months-with-ai/</link>
+      <pubDate>Sat, 18 Apr 2026 13:17:25 -0700</pubDate>
+      <guid>https://www.chicks.net/posts/2026-04-18-8-months-with-ai/</guid>
+      <description>The Good, the Bad, and the Ugly from the trenches with AI</description>
+    </item>
     <item>
       <title>Redis backslides into open source community</title>
       <link>https://www.chicks.net/posts/2025-05-16-redis-backslides-into-open-source/</link>
