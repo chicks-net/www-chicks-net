@@ -479,7 +479,8 @@ capitalism to operate.
   I will let copilot and Claude review this and probably accept a lot of their suggestions.
   You can check [the PR for this](https://github.com/chicks-net/www-chicks-net/pull/318)
   if you care about those gory details.
-- I will cross-post this on linked-in on Monday.
+- I [cross-posted this on linked-in](https://www.linkedin.com/posts/chicks2fini_ai-llm-hallucinations-share-7452004554339954688-PoJi)
+  on Monday 20 April 2026.
 - The banner was generated in
   [Galaxy.AI](https://try.galaxy.ai/christopher-hicks) (affiliate link)
   with the Nano Banana Pro model.
