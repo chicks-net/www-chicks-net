@@ -4,7 +4,7 @@ baseURL = 'https://www.chicks.net/'
 # maybe, see https://discourse.gohugo.io/t/viewing-a-site-without-a-server/35825
 #uglyURLs = true
 #relativeURLs = true
-languageCode = 'en-us'
+locale = 'en-us'
 title = "Christopher Hicks"
 enableEmoji = true
 
