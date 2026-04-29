@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Christopher Hicks">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/posts/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/posts/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Posts">
@@ -65,10 +74,11 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 
 <script type="application/ld+json">
@@ -86,33 +96,21 @@
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -128,7 +126,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -158,7 +156,8 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a></nav>
   <h1>
     Posts
   </h1>
@@ -177,7 +176,7 @@ Comments Paul Fernandez - 2013-04-03T15:25:16Z
 That was the best time management guide I’ve ever seen. Full of meat yet short and sweet!
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-04-03 13:31:04 +0000 UTC'>April 3, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;47 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-04-03 13:31:04 +0000 UTC'>April 3, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>47 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Good time management tips, well put together." href="https://www.chicks.net/posts/2013-04-03-good_tips_well_put_together_/"></a>
 </article>
 
@@ -193,7 +192,7 @@ Comments Paul Fernandez - 2013-04-02T23:31:14Z
 I want the 3 minutes that it took me to read that back.
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-04-02 16:51:50 +0000 UTC'>April 2, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;39 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-04-02 16:51:50 +0000 UTC'>April 2, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>39 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Apparently the USC news crew is a tad sassy! I like it." href="https://www.chicks.net/posts/2013-04-02-apparently_the_usc_news_crew_is_a_tad_s/"></a>
 </article>
 
@@ -208,7 +207,7 @@ Amara Chocolate &amp; Coffee Address: 55 South Raymond Avenue
 Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-31 21:55:29 +0000 UTC'>March 31, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;22 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-31 21:55:29 +0000 UTC'>March 31, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>22 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Amara Chocolate & Coffee" href="https://www.chicks.net/posts/2013-03-31-amara_chocolate___coffee_-_post/"></a>
 </article>
 
@@ -224,7 +223,7 @@ Shared with: Public
 &#43;1’d by: Paul Fernandez
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-30 18:40:52 +0000 UTC'>March 30, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;37 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-30 18:40:52 +0000 UTC'>March 30, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>37 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Gathering for hike to Henninger and beyond!" href="https://www.chicks.net/posts/2013-03-30-gathering_for_hike_to_henninger_and_bey/"></a>
 </article>
 
@@ -237,7 +236,7 @@ Shared with: Public
     <p>Endorsements are a good feature. I’m always behind on writing recommendations and this gives me an easy out for people that I haven’t written a recommendation for yet. If you don’t like this showing up on your profile you can hide that section. Hopefully linked-in will hear our concerns and improve this feature further. A lot of you seem to want to selectively delete individual endorsements. I hope they don’t waste their time on that. All I want is a button that says “never ask me to endorse person X again”.
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-27 11:46:16 +0000 UTC'>March 27, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;91 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-27 11:46:16 +0000 UTC'>March 27, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>91 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Linked-in endorsements are a handy easy button." href="https://www.chicks.net/posts/2013-03-27_114616_linkedin/"></a>
 </article>
 
@@ -251,7 +250,7 @@ Shared with: Public
 Links ELC: SpaceX lessons learned [LWN.net] Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-25 11:59:37 +0000 UTC'>March 25, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;44 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-25 11:59:37 +0000 UTC'>March 25, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>44 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to &#34;Lessons Learned Developing Software for Space Vehicles&#34; should ben..." href="https://www.chicks.net/posts/2013-03-25-_lessons_learned_developing_software_fo/"></a>
 </article>
 
@@ -266,7 +265,7 @@ Images Shared with: Public
 &#43;1’d by: Paul Fernandez, Scott Francis
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-19 11:55:43 +0000 UTC'>March 19, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;26 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-19 11:55:43 +0000 UTC'>March 19, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>26 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to The audience at last night&#39;s MongoDB presentation at Q." href="https://www.chicks.net/posts/2013-03-19-the_audience_at_last_night_s_mongodb_pr/"></a>
 </article>
 
@@ -282,7 +281,7 @@ Shared with: Public
 &#43;1’d by: Paul Fernandez
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-18 19:21:32 +0000 UTC'>March 18, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;32 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-18 19:21:32 +0000 UTC'>March 18, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>32 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Hulu LLC 12312 West Olympic Boulevard" href="https://www.chicks.net/posts/2013-03-18-hulu_llc_-_post/"></a>
 </article>
 
@@ -297,7 +296,7 @@ Links Jeff Gordon’s test-drive viral video for Pepsi is fake Shared with: Publ
 &#43;1’d by: Paul Fernandez
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-15 12:20:57 +0000 UTC'>March 15, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;40 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-15 12:20:57 +0000 UTC'>March 15, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>40 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I am impressed that the Washington Post is now debunking viral videos." href="https://www.chicks.net/posts/2013-03-15-the_internet_is_not_surprised_that_this/"></a>
 </article>
 
@@ -312,7 +311,7 @@ Links The ultimate Linux starter kit for small business Shared with: Public
 &#43;1’d by: Paul Fernandez
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-03-14 03:42:57 +0000 UTC'>March 14, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;25 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-03-14 03:42:57 +0000 UTC'>March 14, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>25 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to A well written introduction to Linux for small business." href="https://www.chicks.net/posts/2013-03-13-a_well_written_introduction_to_linux_fo/"></a>
 </article>
 <footer class="page-footer">
@@ -335,16 +334,23 @@ Links The ultimate Linux starter kit for small business Shared with: Public
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -371,25 +377,25 @@ Links The ultimate Linux starter kit for small business Shared with: Public
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

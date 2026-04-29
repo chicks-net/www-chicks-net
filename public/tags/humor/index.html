@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/tags/humor/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/humor/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/humor/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/tags/humor/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/tags/humor/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/tags/humor/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Humor">
@@ -65,39 +74,28 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Humor">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Humor">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -113,7 +111,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -143,7 +141,13 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/tags/">Tags</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://www.chicks.net/tags/">Tags</a></nav>
   <h1>
     Humor
   </h1>
@@ -162,7 +166,7 @@
 So obviously, I built a bureaucratic form. Because nothing says “California” quite like filing paperwork to express dissatisfaction with the weather.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2026-04-01 09:32:59 -0700 PDT'>April 1, 2026</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;572 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2026-04-01 09:32:59 -0700 PDT'>April 1, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>572 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Announcing the California Weather Refund Form" href="https://www.chicks.net/posts/2026-04-01-weather-refund-form/"></a>
 </article>
 
@@ -177,7 +181,7 @@ The Ecoonomist and The Onion are probably in distinctly different categories in 
 The Onion covers news with humor and does not limit itself to the facts. Facts have become so much less fashionable in American politics lately, so their choice probably won’t prevent The Onion from continuing to grow like a bean or prevent random publications from reprinting their articles as real news. And then The Economist also covers the news. The Economist does maintain factuality quite earnestly, but it isn’t afraid to poke fun at silly leadership or appreciate the humor readily apparent in our crazy world.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-09-09 11:43:56 -0700 PDT'>September 9, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;269 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2024-09-09 11:43:56 -0700 PDT'>September 9, 2024</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>269 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to The Onion is back in print!" href="https://www.chicks.net/posts/2024-09-09-onion-back-in-print/"></a>
 </article>
 
@@ -190,7 +194,7 @@ The Onion covers news with humor and does not limit itself to the facts. Facts h
     <p>So, we drop in to Tous Les Jours in our beloved Pacheco and we see this sign on the window. I’m still a bit traumatied from this song showing up in the Viral 50 list on my Spotify. But those baby sharks are inescapable! Lol.
 Meta Shot on my Samsung Galaxy S24&#43; phone. Uploaded straight to youtube and google maps without any editing. Edited with good old vim although I did try Zettlr recently. </p>
   </div>
-  <footer class="entry-footer"><span title='2024-07-22 14:11:14 -0700 PDT'>July 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;74 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2024-07-22 14:11:14 -0700 PDT'>July 22, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>74 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Our First Youtube Short: Baby shark at bakery" href="https://www.chicks.net/posts/2024-07-22-first-youtube-short/"></a>
 </article>
 
@@ -207,7 +211,7 @@ Meta Shot on my Samsung Galaxy S24&#43; phone. Uploaded straight to youtube and 
 Right off the bat, the design intrigued me. I’ve honestly never seen a set of key caps that is this gorgeous! I would never have suspected that I would be encouraging you to ogle key caps with serif letters, but here we are. Then you can’t help but be amazed at the seaside scenes on the space bar, shift keys, and enter key. The feel of the keys is excellent. The lights are pretty. Finally, $140 was a great deal if it worked for me and luckily it has.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-06-13 17:01:26 +0000 UTC'>June 13, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;537 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2024-06-13 17:01:26 +0000 UTC'>June 13, 2024</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>537 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Tech Pro Grandpa Outwitted by Toddler" href="https://www.chicks.net/posts/2024-06-13_170126_linkedin/"></a>
 </article>
 
@@ -221,7 +225,7 @@ Right off the bat, the design intrigued me. I’ve honestly never seen a set of
 Links That time a customer reported an error in the map used by Flight Simulator Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2017-04-19 11:53:42 +0000 UTC'>April 19, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;36 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2017-04-19 11:53:42 +0000 UTC'>April 19, 2017</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>36 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I usually don&#39;t have much sympathy for Microsoft, but this is so classic ..." href="https://www.chicks.net/posts/2017-04-19-i_usually_don_t_have_much_sympathy_for_/"></a>
 </article>
 
@@ -238,7 +242,7 @@ Comments Anonymous Pro - 2017-04-09T12:55:32Z
 What is this nonsense? I use amavisd-new and CSF LFD on Ubuntu, like the guy asking, so I answer what worked for me. And then you trigger-happy rate it with a minus? Now that’s motivational! NOT. This reminds me why wikipedia and stackexchange will never get any donations from me.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2017-03-31 16:17:06 +0000 UTC'>March 31, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;179 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2017-03-31 16:17:06 +0000 UTC'>March 31, 2017</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>179 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to This is the future of computer security. I hope you&#39;ve got flexibility a..." href="https://www.chicks.net/posts/2017-03-31-this_is_the_future_of_computer_security/"></a>
 </article>
 
@@ -251,7 +255,7 @@ What is this nonsense? I use amavisd-new and CSF LFD on Ubuntu, like the guy ask
     <p>Amazon today announced a new product called simply Product that will provide a consistent API for them to create new products at the whim of product managers without requiring any technical assistance or consistency with the laws of physics. With just a few clicks the dollars start pouring in. The fees for this can only be discussed under nondisclosure after you give them copies of recent banks statements, but don’t let that bother you. It didn’t concern the computer press which faithfully reprinted their press release for Product as a real article lauding Amazon as the geniuses behind the cloud. [click]
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2016-11-30 02:06:06 +0000 UTC'>November 30, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;113 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-11-30 02:06:06 +0000 UTC'>November 30, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>113 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Amazon today announced a new product called simply Product" href="https://www.chicks.net/posts/2016-11-29-amazon_today_announced_a_new_product_ca/"></a>
 </article>
 
@@ -265,7 +269,7 @@ What is this nonsense? I use amavisd-new and CSF LFD on Ubuntu, like the guy ask
 Links Limbaugh: Lack of major hurricanes disproves climate change Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-10-09 13:01:14 +0000 UTC'>October 9, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;24 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-10-09 13:01:14 +0000 UTC'>October 9, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>24 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to The problem here is that Limbaugh enjoys having his pants on fire." href="https://www.chicks.net/posts/2016-10-09-the_problem_here_is_that_limbaugh_enjoy/"></a>
 </article>
 
@@ -279,7 +283,7 @@ Links Limbaugh: Lack of major hurricanes disproves climate change Shared with: P
 Links A Complete Catalog Of Every Time Someone Cursed Or Bled Out In A Quentin Tarantino Movie Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-12-10 00:13:23 +0000 UTC'>December 10, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;31 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-12-10 00:13:23 +0000 UTC'>December 10, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>31 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Glory in the science while you download the data from github." href="https://www.chicks.net/posts/2015-12-09-glory_in_the_science_while_you_download/"></a>
 </article>
 
@@ -294,7 +298,7 @@ Links xkcd: Regular Expressions Shared with: Public
 &#43;1’d by: Jerry Landry
 </p>
   </div>
-  <footer class="entry-footer"><span title='2014-09-02 15:40:50 +0000 UTC'>September 2, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;21 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2014-09-02 15:40:50 +0000 UTC'>September 2, 2014</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>21 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to When you need to save the world, Perl is there." href="https://www.chicks.net/posts/2014-09-02-when_you_need_to_save_the_world_perl_i/"></a>
 </article>
 <footer class="page-footer">
@@ -314,16 +318,23 @@ Links xkcd: Regular Expressions Shared with: Public
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -350,25 +361,25 @@ Links xkcd: Regular Expressions Shared with: Public
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

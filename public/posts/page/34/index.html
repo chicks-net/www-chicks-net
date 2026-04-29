@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Christopher Hicks">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/posts/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/posts/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Posts">
@@ -65,10 +74,11 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 
 <script type="application/ld+json">
@@ -86,33 +96,21 @@
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -128,7 +126,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -158,7 +156,8 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a></nav>
   <h1>
     Posts
   </h1>
@@ -174,7 +173,7 @@
 Originally shared by Michelle Marie Star Wars Imperial March on Dual Floppy Drives With #Arduino driven head stepper motors.Here’s what polish AGH University of Science and Technology do in their free time. My another useless device - Imperial March played by two floppy disk drives. Homepage: http://silent.org.pl/home/ Post in English: http://silent.org.pl/home/2011/09/29/evil-floppy-drives-english-translation/ Po polsku: http://silent.org.pl/home/2011/09/25/muzykalna-stacja-dyskow/ Read the note about the next video: http://silent.org.pl/home/2011/10/03/dyskietli-podbijaja-internet-english-polish/
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2011-11-06 04:59:56 +0000 UTC'>November 6, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;93 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-11-06 04:59:56 +0000 UTC'>November 6, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>93 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Funny and awesome and Arduino. You thought those 3.5&#34; drives and floppi..." href="https://www.chicks.net/posts/2011-11-05-funny_and_awesome_and_arduino.__you_tho/"></a>
 </article>
 
@@ -189,7 +188,7 @@ Video Watch Video “RSA ANIMATE: Drive: The surprising truth about what motivat
 Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2011-11-05 12:22:30 +0000 UTC'>November 5, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;44 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-11-05 12:22:30 +0000 UTC'>November 5, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>44 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to This is amazing. The animation is good and entertaining." href="https://www.chicks.net/posts/2011-11-05-this_is_amazing.__the_animation_is_good/"></a>
 </article>
 
@@ -203,7 +202,7 @@ Shared with: Public
 Images Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2011-11-04 17:25:50 +0000 UTC'>November 4, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;7 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-11-04 17:25:50 +0000 UTC'>November 4, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>7 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Behind Jo&#39;s house" href="https://www.chicks.net/posts/2011-11-04-behind_jo_s_house/"></a>
 </article>
 
@@ -217,7 +216,7 @@ Images Shared with: Public
 Links » 9 Equations True Geeks Should (at Least Pretend to) Know Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2011-11-04 16:48:17 +0000 UTC'>November 4, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;22 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-11-04 16:48:17 +0000 UTC'>November 4, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>22 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to A beautifully executed article on equations. Seriously." href="https://www.chicks.net/posts/2011-11-04-a_beautifully_executed_article_on_equat/"></a>
 </article>
 
@@ -230,7 +229,7 @@ Links » 9 Equations True Geeks Should (at Least Pretend to) Know Shared with: P
     <p>I got to play a small but fun part in OpenX opening up a new data center in less than 60 days. From not knowing the people to serving production traffic including structured network wiring, cage buildout, rack construction and shipping, and all of the other “little things”. Apparently it takes most people 3 times this long. What are they spending their time doing? :)
 </p>
   </div>
-  <footer class="entry-footer"><span title='2011-10-15 12:19:40 +0000 UTC'>October 15, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;65 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-10-15 12:19:40 +0000 UTC'>October 15, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>65 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to OpenX opened new data center in &lt;60 days" href="https://www.chicks.net/posts/2011-10-15_121940_linkedin/"></a>
 </article>
 
@@ -247,7 +246,7 @@ Update 2025-12-16 I feel I have given a few dollars since then and I have a few 
 It is strange and neat to be looking back on this after 14 years, during a year where I have ramped up my rate and quality of contributions to the free software and open source communities.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2011-10-04 21:26:23 +0000 UTC'>October 4, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;98 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-10-04 21:26:23 +0000 UTC'>October 4, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>98 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to So open source world, regarding that $2B value I&#39;ve received" href="https://www.chicks.net/posts/2011-10-04-so_open_source_world_regarding_that_2/"></a>
 </article>
 
@@ -262,7 +261,7 @@ Links GameStop to bring Android-based gaming tablet to market Shared with: Publi
 &#43;1’d by: Nathan Weinberg
 </p>
   </div>
-  <footer class="entry-footer"><span title='2011-09-12 19:33:17 +0000 UTC'>September 12, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;34 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-09-12 19:33:17 +0000 UTC'>September 12, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>34 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to This could be pretty cool. I always wanted a PSP with a screen bigger than a postage stamp." href="https://www.chicks.net/posts/2011-09-12-this_could_be_pretty_cool.__i_always_wa/"></a>
 </article>
 
@@ -277,7 +276,7 @@ Originally shared by Sulamita Garcia http://www.go-gulf.com/blog/60-seconds
 Links http://www.go-gulf.com/blog/60-seconds 60 Seconds - Things That Happen On Internet Every Sixty Seconds [Infographic] Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2011-09-11 16:44:23 +0000 UTC'>September 11, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;24 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-09-11 16:44:23 +0000 UTC'>September 11, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>24 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Interesting." href="https://www.chicks.net/posts/2011-09-11-interesting_/"></a>
 </article>
 
@@ -293,7 +292,7 @@ Links http://www.genuinemodels.com/ Lego Construction Site - Original Technic Mo
 &#43;1’d by: John McWade
 </p>
   </div>
-  <footer class="entry-footer"><span title='2011-09-10 21:59:45 +0000 UTC'>September 10, 2011</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;36 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-09-10 21:59:45 +0000 UTC'>September 10, 2011</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>36 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to With lots of pictures!" href="https://www.chicks.net/posts/2011-09-10-with_lots_of_pictures/"></a>
 </article>
 
@@ -308,7 +307,7 @@ Originally shared by Alan Liddell [CoW Information Post] Things you might not ha
 TL;DR Ask for things or send things once a day. Refresh your notifications by muting and refreshing your screen. Ask for goods once a day. Reset timers by not asking for two days. See #1. (UPDATED) We can accept only one building OR one legend, and one workshop good per ally per day. See #1. Mess halls are valuable. Sell them. See #1. Certain bonuses can only be clicked once. Don’t spam embassy bonuses or expedition bonuses. Hate “Too many goods” pop-ups? Put away your workshop! (UPDATE) Gift timers appear to be based on the time the gift is sent, not when it is received! Details NOTIFICATIONS WINDOW: The notifications window is (sort-of) fixed! Before they fixed the problem, you could not go back beyond one page of requests because the “More” button did not show any results. (it still doesn’t! lol) Well, now you can mute any post that you have fulfilled, and once you have muted your entire page, you can refresh your tab and another page of requests pops up! This means that you don’t have to spam notifications or requests, hoping that they stay on the first page long enough to get clicks! You can send out a request once and know that people will be able to get to it! Spamming requests only (a) frustrates you for not getting the things you want, and (b) causes more unnecessary clicking for your allies.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2011-09-10 21:06:27 +0000 UTC'>September 10, 2011</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;944 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2011-09-10 21:06:27 +0000 UTC'>September 10, 2011</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>944 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to City of Wonder Information Post" href="https://www.chicks.net/posts/2011-09-10-lots_of_good_information_in_one_place_/"></a>
 </article>
 <footer class="page-footer">
@@ -331,16 +330,23 @@ TL;DR Ask for things or send things once a day. Refresh your notifications by mu
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -367,25 +373,25 @@ TL;DR Ask for things or send things once a day. Refresh your notifications by mu
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

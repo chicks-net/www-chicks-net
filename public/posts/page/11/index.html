@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Christopher Hicks">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/posts/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/posts/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Posts">
@@ -65,10 +74,11 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 
 <script type="application/ld+json">
@@ -86,33 +96,21 @@
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -128,7 +126,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -158,7 +156,8 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a></nav>
   <h1>
     Posts
   </h1>
@@ -174,7 +173,7 @@
 Links Steam Community :: Guide :: Plants vs Zombies: All Achievements Guide Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-03-04 14:48:33 +0000 UTC'>March 4, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;23 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-03-04 14:48:33 +0000 UTC'>March 4, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>23 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Here is my first game guide on Steam." href="https://www.chicks.net/posts/2015-03-04-here_is_my_first_game_guide_on_steam_/"></a>
 </article>
 
@@ -193,7 +192,7 @@ Christopher Hicks - 2015-03-04T12:59:05Z
 Sure it is. People worry that I don’t have enough Rails experience when I had ZERO erlang experience before managing hundreds of erlang boxen. And I’m still years from reading or writing erlang. RECRUITER: “Can you work with Ruby?” ME: “I’m an ops guy! Your product could be written in COBOL and it barely changes my job.” RECRUITER: “We really want someone with more experience in Ruby.” ME: “But I won’t be reading or writing Ruby as part of my job according to your job description..” RECRUITER: “The programmers won’t be able to talk to you unless you speak their language.” ME: “Alrighty then, good luck with that.“But then later it gets better.HiIRING MANAGER: “We’ve been through thousands of resumes and dozens of interviews without finding a candidate. What can we do better?” RECRUITER: “It is a tough market out there. You just have to keep at it.“HM: “Should we change our job description requirements to bring in more candidates? RECRUITER: “If we relax our expectations we will be flooded with so many applicants we can’t handle it.“HM: “But how can somebody have 5 years experience with a product that has only been out 1 year?” RECRUITER: “For the best candidates that should not be a problem.“HM: “OK then, where’s the next stack of resumes?” In my screenplay version of this the recruiter doesn’t respond logically at the end. She shoots the Hiring Manager so he doesn’t spread the word that unicorn hunts are boring and not fun. Then she calls the HR mafia who come sweeping in to disappear the body. But I kept it closer to the analogy for this discussion.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2015-03-04 06:18:38 +0000 UTC'>March 4, 2015</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;310 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-03-04 06:18:38 +0000 UTC'>March 4, 2015</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>310 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to This is a riot and so true ." href="https://www.chicks.net/posts/2015-03-03-this_is_a_riot_and_so_true_/"></a>
 </article>
 
@@ -208,7 +207,7 @@ Somehow the Italians realize they are not the least arrogant, plus in a fit of f
 Kudos to the fabulous writers and table makers at &#43;The Economist. They are the /New Yorker/ of news IMHO.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2015-03-02 13:45:56 +0000 UTC'>March 2, 2015</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;271 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-03-02 13:45:56 +0000 UTC'>March 2, 2015</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>271 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to The best part of this is that almost every country thinks they are the least ..." href="https://www.chicks.net/posts/2015-03-02-the_best_part_of_this_is_that_almost_ev/"></a>
 </article>
 
@@ -222,7 +221,7 @@ Kudos to the fabulous writers and table makers at &#43;The Economist. They are t
 Links : staff blogs – 2015 – February – 27 Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-03-01 05:30:11 +0000 UTC'>March 1, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;17 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-03-01 05:30:11 +0000 UTC'>March 1, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>17 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to OGR-28 is plugging along." href="https://www.chicks.net/posts/2015-02-28-ogr-28_is_plugging_along_/"></a>
 </article>
 
@@ -236,7 +235,7 @@ Links : staff blogs – 2015 – February – 27 Shared with: Public
 Introduction I wanted to get all of the Steam Achievements myself and the only convenient guide I could find was in French. So here is a translation with some minor improvements I hope to make the life easier for the English speakers that want to keep the zombies out of the house.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-22 00:00:00 +0000 UTC'>February 22, 2015</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1593 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-22 00:00:00 +0000 UTC'>February 22, 2015</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>1593 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Plants vs Zombies: All Achievements Guide" href="https://www.chicks.net/posts/2015-02-22-plants-vs-zombies-all-achievements-guide/"></a>
 </article>
 
@@ -250,7 +249,7 @@ Introduction I wanted to get all of the Steam Achievements myself and the only c
 Links #t-mobile Un-truthful Carrier: Ten Lies T-Mobile Told Me About My Data Plan - Jeff Reifman Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-21 17:44:21 +0000 UTC'>February 21, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;41 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-21 17:44:21 +0000 UTC'>February 21, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>41 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I&#39;ve had mostly positive experiences with t-mobile." href="https://www.chicks.net/posts/2015-02-21-i_ve_had_mostly_positive_experiences_wi/"></a>
 </article>
 
@@ -265,7 +264,7 @@ Originally shared by Diego Porqueras (Deezmaker) Our friends got a kickstarter l
 Links ISS Above HD&#43; with Wearable Bluetooth Low Energy LEDs by Liam Kennedy — Kickstarter Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-20 16:20:21 +0000 UTC'>February 20, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;63 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-20 16:20:21 +0000 UTC'>February 20, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>63 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Every home should have an ISS detector. How about one for your car?" href="https://www.chicks.net/posts/2015-02-20-every_home_should_have_an_iss_detector_/"></a>
 </article>
 
@@ -279,7 +278,7 @@ Links ISS Above HD&#43; with Wearable Bluetooth Low Energy LEDs by Liam Kennedy 
 Links Throwback Thursday: The science of bottomless pits Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-20 16:17:12 +0000 UTC'>February 20, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;16 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-20 16:17:12 +0000 UTC'>February 20, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>16 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to What are we waiting for?" href="https://www.chicks.net/posts/2015-02-20-what_are_we_waiting_for_/"></a>
 </article>
 
@@ -294,7 +293,7 @@ Links RawGit Shared with: Public, GitHub
 &#43;1’d by: Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-19 02:05:14 +0000 UTC'>February 19, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;33 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-19 02:05:14 +0000 UTC'>February 19, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>33 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Have you ever been annoyed that GitHub doesn&#39;t put the right Content-type on raw files?" href="https://www.chicks.net/posts/2015-02-18-have_you_ever_been_annoyed_that_&#43;github/"></a>
 </article>
 
@@ -309,7 +308,7 @@ This is fabulous evidence for the impact of humans and clearly shows how empty t
 Links New map shows America’s quietest places Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-17 21:37:29 +0000 UTC'>February 17, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;55 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-17 21:37:29 +0000 UTC'>February 17, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>55 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to New map shows America&#39;s quietest places" href="https://www.chicks.net/posts/2015-02-17-what_d_you_say_again_this_is_fabulous/"></a>
 </article>
 <footer class="page-footer">
@@ -332,16 +331,23 @@ Links New map shows America’s quietest places Shared with: Public
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -368,25 +374,25 @@ Links New map shows America’s quietest places Shared with: Public
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

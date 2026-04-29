@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Christopher Hicks">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/posts/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/posts/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Posts">
@@ -65,10 +74,11 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 
 <script type="application/ld+json">
@@ -86,33 +96,21 @@
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -128,7 +126,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -158,7 +156,8 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a></nav>
   <h1>
     Posts
   </h1>
@@ -176,7 +175,7 @@ Links Over-Extended Metaphor for the day - Charlie’s Diary Shared with: Public
 &#43;1’d by: Joe Burby
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-12-30 14:30:02 +0000 UTC'>December 30, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;50 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-12-30 14:30:02 +0000 UTC'>December 30, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>50 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I find this analogy of religion to UNIX history much more revealing than the ..." href="https://www.chicks.net/posts/2013-12-30-i_find_this_analogy_of_religion_to_unix/"></a>
 </article>
 
@@ -190,7 +189,7 @@ Links Over-Extended Metaphor for the day - Charlie’s Diary Shared with: Public
 Links Crowdfunded Full-Size Lego Hot Rod Runs On Air: Video Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-12-20 21:19:28 +0000 UTC'>December 20, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;24 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-12-20 21:19:28 +0000 UTC'>December 20, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>24 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to A full sized LEGO car with a LEGO engine. Merry Christmas!" href="https://www.chicks.net/posts/2013-12-20-a_full_sized_lego_car_with_a_lego_engin/"></a>
 </article>
 
@@ -204,7 +203,7 @@ Links Crowdfunded Full-Size Lego Hot Rod Runs On Air: Video Shared with: Public
 Links The Sun on Sunday lied about me last week. Have they learned nothing? Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-30 19:57:17 +0000 UTC'>November 30, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;27 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-30 19:57:17 +0000 UTC'>November 30, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>27 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Thanks Russell, but I&#39;ve been avoiding Murdoch&#39;s lies for years!" href="https://www.chicks.net/posts/2013-11-30-thanks_russell_but_i_ve_been_avoiding_/"></a>
 </article>
 
@@ -218,7 +217,7 @@ Links The Sun on Sunday lied about me last week. Have they learned nothing? Shar
 Links Bizarre concept car has an anti-collision goldfish tank Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-30 16:33:55 +0000 UTC'>November 30, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;13 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-30 16:33:55 +0000 UTC'>November 30, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>13 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Bizarre concept car" href="https://www.chicks.net/posts/2013-11-30-wow_/"></a>
 </article>
 
@@ -232,7 +231,7 @@ Links Bizarre concept car has an anti-collision goldfish tank Shared with: Publi
 Links Dear Internet advertising industry: It’s over between us Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-30 15:23:06 +0000 UTC'>November 30, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;17 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-30 15:23:06 +0000 UTC'>November 30, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>17 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Writing software is hard sometimes." href="https://www.chicks.net/posts/2013-11-30-writing_software_is_hard_sometimes_/"></a>
 </article>
 
@@ -249,7 +248,7 @@ Comments Jacqueline Alvarez - 2013-11-28T13:40:16Z
 OMG I haven’t seen you in so long Uncle Paul! You’ve gone mountain man!
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-27 01:36:51 +0000 UTC'>November 27, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;38 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-27 01:36:51 +0000 UTC'>November 27, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>38 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Paul at BrightRoll helped me find my secret card!" href="https://www.chicks.net/posts/2013-11-26-paul_at_brightroll_helped_me_find_my_se/"></a>
 </article>
 
@@ -262,7 +261,7 @@ OMG I haven’t seen you in so long Uncle Paul! You’ve gone mountain man!
     <p>So, do you want to cry about phantom floppy drives messages or fight viruses and malware? I’m not going to pretend that the Linux desktop is free of bugs or that every Windows app has an great equivalent in Linux. But installing Linux is often easier than installing Windows on the same hardware. Linux includes nearly all of the device drivers you will ever need. And I don’t have to fear the inevitable Windows spiral of death from malware, viruses, and bloat. So, do you want to cry about phantom floppy drives messages or fight viruses and malware for the rest of your life? Hmmmm.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-24 15:31:33 +0000 UTC'>November 24, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;120 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-24 15:31:33 +0000 UTC'>November 24, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>120 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to So, do you want to cry about phantom floppy drives messages or fight viruses ..." href="https://www.chicks.net/posts/2013-11-24-so_do_you_want_to_cry_about_phantom_fl/"></a>
 </article>
 
@@ -282,7 +281,7 @@ thank you! :-)
 Paul Fernandez - 2013-11-21T23:34:33Z
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-21 13:33:13 +0000 UTC'>November 21, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;168 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-21 13:33:13 +0000 UTC'>November 21, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>168 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to San Francisco from the Fairmont Hotel. The view of the Coit Tower was also e..." href="https://www.chicks.net/posts/2013-11-21-san_francisco_from_the_fairmont_hotel/"></a>
 </article>
 
@@ -297,7 +296,7 @@ Links A little meter that shows the big differences in charging plugs and cables
 &#43;1’d by: Paul Fernandez
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-20 12:36:10 +0000 UTC'>November 20, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;39 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-20 12:36:10 +0000 UTC'>November 20, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>39 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Another awesome product idea that got off the ground thanks to a Kickstarter" href="https://www.chicks.net/posts/2013-11-20-another_awesome_product_idea_that_got_o/"></a>
 </article>
 
@@ -311,7 +310,7 @@ Links A little meter that shows the big differences in charging plugs and cables
 Links Christopher Hicks’s Mo Space Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2013-11-13 21:40:07 +0000 UTC'>November 13, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;13 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-11-13 21:40:07 +0000 UTC'>November 13, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>13 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Please sponsor me in Movember." href="https://www.chicks.net/posts/2013-11-13-please_sponsor_me_in_movember_/"></a>
 </article>
 <footer class="page-footer">
@@ -334,16 +333,23 @@ Links Christopher Hicks’s Mo Space Shared with: Public
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -370,25 +376,25 @@ Links Christopher Hicks’s Mo Space Shared with: Public
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

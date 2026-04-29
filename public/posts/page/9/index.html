@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Christopher Hicks">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/posts/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/posts/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Posts">
@@ -65,10 +74,11 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 
 <script type="application/ld+json">
@@ -86,33 +96,21 @@
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -128,7 +126,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -158,7 +156,8 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a></nav>
   <h1>
     Posts
   </h1>
@@ -174,7 +173,7 @@
 Links What’s in a tool? A case for Made in USA. Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-01-19 00:04:17 +0000 UTC'>January 19, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;76 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-01-19 00:04:17 +0000 UTC'>January 19, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>76 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Colocating your engineers and production facilities results in better products" href="https://www.chicks.net/posts/2016-01-18-the_title_of_this_makes_it_sound_like_a/"></a>
 </article>
 
@@ -191,7 +190,7 @@ Comments Christopher Hicks - 2016-03-19T01:31:39Z
 http://venturebeat.com/2016/03/18/twitter-ceo-jack-dorsey-the-140-character-limit-is-staying/ apparently it was all a lie, oh my!
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-01-05 21:21:13 +0000 UTC'>January 5, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;38 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-01-05 21:21:13 +0000 UTC'>January 5, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>38 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I&#39;m still not getting a twitter account!" href="https://www.chicks.net/posts/2016-01-05-i_m_still_not_getting_a_twitter_account/"></a>
 </article>
 
@@ -205,7 +204,7 @@ http://venturebeat.com/2016/03/18/twitter-ceo-jack-dorsey-the-140-character-limi
 Links A Complete Catalog Of Every Time Someone Cursed Or Bled Out In A Quentin Tarantino Movie Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-12-10 00:13:23 +0000 UTC'>December 10, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;31 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-12-10 00:13:23 +0000 UTC'>December 10, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>31 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Glory in the science while you download the data from github." href="https://www.chicks.net/posts/2015-12-09-glory_in_the_science_while_you_download/"></a>
 </article>
 
@@ -220,7 +219,7 @@ Links #security Top Programming Languages That Generate Software Vulnerabilities
 &#43;1’d by: Melissa McDowell, Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-12-04 20:38:08 +0000 UTC'>December 4, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;44 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-12-04 20:38:08 +0000 UTC'>December 4, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>44 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to PHP, Java, and .NET are more prone to security problems." href="https://www.chicks.net/posts/2015-12-04-php_java_and_.net_are_more_prone_to/"></a>
 </article>
 
@@ -234,7 +233,7 @@ Links #security Top Programming Languages That Generate Software Vulnerabilities
 Links “8 Ways Smart People Act Stupid” by Travis Bradberry on LinkedIn Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-11-25 20:42:17 +0000 UTC'>November 25, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;28 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-11-25 20:42:17 +0000 UTC'>November 25, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>28 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to &#34;Why Smart People Act So Stupid&#34; is the story of my life. :)" href="https://www.chicks.net/posts/2015-11-25-_why_smart_people_act_so_stupid__is_the/"></a>
 </article>
 
@@ -247,7 +246,7 @@ Links “8 Ways Smart People Act Stupid” by Travis Bradberry on LinkedIn Share
     <p>Links An open letter from an Israeli to her Muslim Uber driver Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-10-19 17:17:05 +0000 UTC'>October 19, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;15 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-10-19 17:17:05 +0000 UTC'>October 19, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>15 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to An open letter from an Israeli to her Muslim Uber driver" href="https://www.chicks.net/posts/2015-10-19-post/"></a>
 </article>
 
@@ -261,7 +260,7 @@ Links “8 Ways Smart People Act Stupid” by Travis Bradberry on LinkedIn Share
 Links 4 Septembers of uberX in NYC Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-10-12 20:13:34 +0000 UTC'>October 12, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;27 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-10-12 20:13:34 +0000 UTC'>October 12, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>27 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Some interesting metrics for what drivers are earning on Uber&#39;s platform." href="https://www.chicks.net/posts/2015-10-12-shows_some_interesting_metrics_for_how_/"></a>
 </article>
 
@@ -275,7 +274,7 @@ Links 4 Septembers of uberX in NYC Shared with: Public
 Links open source DNS management Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-09-14 19:27:53 +0000 UTC'>September 14, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;17 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-09-14 19:27:53 +0000 UTC'>September 14, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>17 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Do you have any suggestions for user-friendly DNS management?" href="https://www.chicks.net/posts/2015-09-14-do_you_have_any_suggestions_for_user-fr/"></a>
 </article>
 
@@ -289,7 +288,7 @@ Links open source DNS management Shared with: Public
 Links distributed.net : staff blogs – 2015 – July – 10 Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-07-16 20:22:11 +0000 UTC'>July 16, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;32 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-07-16 20:22:11 +0000 UTC'>July 16, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>32 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to distributed.net has been down for a week." href="https://www.chicks.net/posts/2015-07-16-http_distributed.net_has_been_down_fo/"></a>
 </article>
 
@@ -304,7 +303,7 @@ Video Watch Video
 Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-05-12 15:15:52 +0000 UTC'>May 12, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;23 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-05-12 15:15:52 +0000 UTC'>May 12, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>23 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to The Muppets plus Lindsey Stirling is more awesome than I can possibly find words worthy." href="https://www.chicks.net/posts/2015-05-12-the_muppets_plus_lindsey_stirling_is_mo/"></a>
 </article>
 <footer class="page-footer">
@@ -327,16 +326,23 @@ Shared with: Public
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -363,25 +369,25 @@ Shared with: Public
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

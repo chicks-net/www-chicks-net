@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Christopher Hicks">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/posts/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/posts/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/posts/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Posts">
@@ -65,10 +74,11 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 
 <script type="application/ld+json">
@@ -86,33 +96,21 @@
 }
 </script>
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -128,7 +126,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -158,7 +156,8 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a></nav>
   <h1>
     Posts
   </h1>
@@ -175,7 +174,7 @@ Links http://www.huffingtonpost.com/2015/02/09/neil-armstrong-bag-apollo-11_n_66
 &#43;1’d by: Melissa McDowell, Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-09 19:36:26 +0000 UTC'>February 9, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;71 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-09 19:36:26 +0000 UTC'>February 9, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>71 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Some guy brings home a bag of debris from another day at work and forgets it ..." href="https://www.chicks.net/posts/2015-02-09-some_guy_brings_home_a_bag_of_debris_fr/"></a>
 </article>
 
@@ -190,7 +189,7 @@ Links #theprincessbride Cary Elwes on The Princess Bride: ‘I know what my epit
 &#43;1’d by: Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-09 17:15:32 +0000 UTC'>February 9, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;48 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-09 17:15:32 +0000 UTC'>February 9, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>48 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to It is great to see The Princess Bride enchanting new generations and that the..." href="https://www.chicks.net/posts/2015-02-09-it_is_great_to_see_the_princess_bride_e/"></a>
 </article>
 
@@ -205,7 +204,7 @@ Links #google on google&#43; Video: Check out Google’s best TV commercial yet 
 &#43;1’d by: Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-07 07:10:45 +0000 UTC'>February 7, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;36 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-07 07:10:45 +0000 UTC'>February 7, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>36 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to SO many cute animals that you would expect to eat each other! good job" href="https://www.chicks.net/posts/2015-02-06-so_many_cute_animals_that_you_would_exp/"></a>
 </article>
 
@@ -223,7 +222,7 @@ Comments Wing Wong - 2015-02-07T21:00:04Z
 I dunno… looking at the graphs on the page, PHP has more commits than Perl and significantly less anger. :) Just saying.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-06 23:56:04 +0000 UTC'>February 6, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;173 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-06 23:56:04 +0000 UTC'>February 6, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>173 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Perl is the least frustrating language in the universe. Here&#39;s the scien..." href="https://www.chicks.net/posts/2015-02-06-perl_is_the_least_frustrating_language_/"></a>
 </article>
 
@@ -237,7 +236,7 @@ I dunno… looking at the graphs on the page, PHP has more commits than Perl and
 Links http://outspeaking.com/words-of-technology/why-perl-didnt-win.html Perl Already Won ~ Perl Is My Cocaine Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-01-22 20:49:28 +0000 UTC'>January 22, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;35 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-01-22 20:49:28 +0000 UTC'>January 22, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>35 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to The Perl hate is getting old, but at least some folks are talking sense." href="https://www.chicks.net/posts/2015-01-22-the_perl_hate_is_getting_old_but_at_le/"></a>
 </article>
 
@@ -252,7 +251,7 @@ Links Antibiotics resistance: Drug firms ’to blame’ Shared with: Public
 &#43;1’d by: Betty Hicks, Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-01-19 20:31:23 +0000 UTC'>January 19, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;39 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-01-19 20:31:23 +0000 UTC'>January 19, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>39 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to We cannot accept that rivers in India show higher concentrations of active antibiotic than the blood of someone undergoing treatment." href="https://www.chicks.net/posts/2015-01-19-_we_cannot_accept_that_rivers_in_india_/"></a>
 </article>
 
@@ -267,7 +266,7 @@ Images Shared with: Public
 &#43;1’d by: Paul Fernandez, Half Moon Bay Meetings
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-01-18 09:12:06 +0000 UTC'>January 18, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;18 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-01-18 09:12:06 +0000 UTC'>January 18, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>18 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Casual day in the Bay Area." href="https://www.chicks.net/posts/2015-01-18-casual_day_in_the_bay_area_/"></a>
 </article>
 
@@ -281,7 +280,7 @@ Images Shared with: Public
 Links AWS Tips I Wish I’d Known Before I Started - W(e)blinks Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-01-14 01:14:18 +0000 UTC'>January 14, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;21 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-01-14 01:14:18 +0000 UTC'>January 14, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>21 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Or just run the other way." href="https://www.chicks.net/posts/2015-01-13-or_just_run_the_other_way_/"></a>
 </article>
 
@@ -296,7 +295,7 @@ Links The Mystery Of Glenn Seaborg’s Missing Plutonium: Solved! Shared with: P
 &#43;1’d by: Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-01-11 03:46:56 +0000 UTC'>January 11, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;23 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-01-11 03:46:56 +0000 UTC'>January 11, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>23 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Please stop losing the important historical objects." href="https://www.chicks.net/posts/2015-01-10-please_stop_losing_the_important_histor/"></a>
 </article>
 
@@ -313,7 +312,7 @@ Comments Paul Fernandez - 2015-01-04T22:43:38Z
 Not sure if you noticed, but this is written by a Geoff Wozniak, not The Woz. Nonetheless, this article was spot on with my feelings on the matter.But OSX for games…I tried to sell myself on that fiction once. Windows is a necessary evil for the time being.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2015-01-04 21:43:24 +0000 UTC'>January 4, 2015</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;249 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-01-04 21:43:24 +0000 UTC'>January 4, 2015</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>249 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I&#39;m avoiding Yosemite for now but I may end up relegating" href="https://www.chicks.net/posts/2015-01-04-i_m_avoiding_yosemite_for_now_but_i_may/"></a>
 </article>
 <footer class="page-footer">
@@ -336,16 +335,23 @@ Not sure if you noticed, but this is written by a Geoff Wozniak, not The Woz. No
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -372,25 +378,25 @@ Not sure if you noticed, but this is written by a Geoff Wozniak, not The Woz. No
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
