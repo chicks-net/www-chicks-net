@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/tags/gaming/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/gaming/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/gaming/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/tags/gaming/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/tags/gaming/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/tags/gaming/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Gaming">
@@ -65,39 +74,28 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Gaming">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Gaming">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -113,7 +111,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -143,7 +141,13 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/tags/">Tags</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://www.chicks.net/tags/">Tags</a></nav>
   <h1>
     Gaming
   </h1>
@@ -159,7 +163,7 @@
 While discussing language evolution is not completely unheard of, it is rather atypical of the discussion we usually have around programming languages. Most often you’re only concerned about the syntax or features of a particular language version, usually the latest one. Sometimes you might look at release notes to see when a feature was introduced or a bug was fixed. Our day to day needs don’t often benefit from a longer term perspective.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-10-22 20:44:52 -0700 PDT'>October 22, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;765 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2025-10-22 20:44:52 -0700 PDT'>October 22, 2025</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>765 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Glowing review of &#34;Evolution of Lua, continued&#34;" href="https://www.chicks.net/posts/2025-10-23-review-evolution-of-lua/"></a>
 </article>
 
@@ -174,7 +178,7 @@ This seems very reasonable and I hope this idea catches on in other places. Othe
 Additional beneficial side effects of this will be for all network games to be more fault tolerant to network problems and for EOL considerations to get more thought and testing during development.
 </p>
   </div>
-  <footer class="entry-footer"><span title='2024-05-10 20:30:19 +0000 UTC'>May 10, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;69 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2024-05-10 20:30:19 +0000 UTC'>May 10, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>69 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Canadian Petition That Games Must Remain Functional At EOL" href="https://www.chicks.net/posts/2024-05-10_203019_linkedin/"></a>
 </article>
 
@@ -189,7 +193,7 @@ Links https://gaming.stackexchange.com/a/311702/100715 Steam now lets developers
 &#43;1’d by: John Sharpe
 </p>
   </div>
-  <footer class="entry-footer"><span title='2017-12-09 03:09:06 +0000 UTC'>December 9, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;69 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2017-12-09 03:09:06 +0000 UTC'>December 9, 2017</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>69 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Steam preferences set to Linux" href="https://www.chicks.net/posts/2017-12-08-i_wish_i_had_known_this_earlier_but_i_/"></a>
 </article>
 
@@ -203,7 +207,7 @@ Links https://gaming.stackexchange.com/a/311702/100715 Steam now lets developers
 Links That time a customer reported an error in the map used by Flight Simulator Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2017-04-19 11:53:42 +0000 UTC'>April 19, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;36 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2017-04-19 11:53:42 +0000 UTC'>April 19, 2017</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>36 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I usually don&#39;t have much sympathy for Microsoft, but this is so classic ..." href="https://www.chicks.net/posts/2017-04-19-i_usually_don_t_have_much_sympathy_for_/"></a>
 </article>
 
@@ -217,7 +221,7 @@ Links That time a customer reported an error in the map used by Flight Simulator
 Links Here’s How Valve Got Microsoft to Take PC Gaming Seriously Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2017-01-04 19:40:49 +0000 UTC'>January 4, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;36 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2017-01-04 19:40:49 +0000 UTC'>January 4, 2017</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>36 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Now your Windows gaming experience sucks less, thanks to Linux." href="https://www.chicks.net/posts/2017-01-04-now_your_windows_gaming_experience_suck/"></a>
 </article>
 
@@ -232,7 +236,7 @@ Links Here’s How Valve Got Microsoft to Take PC Gaming Seriously Shared with: 
 Links #Steam Phil Spencer Says Microsoft Returning to Steam - LaptopNinja Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-06-18 22:34:46 +0000 UTC'>June 18, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;42 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-06-18 22:34:46 +0000 UTC'>June 18, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>42 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Microsoft keeps acting more reasonable. How about having the" href="https://www.chicks.net/posts/2016-06-18-microsoft_keeps_acting_more_reasonable_/"></a>
 </article>
 
@@ -246,7 +250,7 @@ Links #Steam Phil Spencer Says Microsoft Returning to Steam - LaptopNinja Shared
 Links Private MMO servers – A grey area with potential Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-04-08 16:12:40 +0000 UTC'>April 8, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;54 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-04-08 16:12:40 +0000 UTC'>April 8, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>54 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Blizzard doesn&#39;t deal well with open source community." href="https://www.chicks.net/posts/2016-04-08-blizzard_is_not_the_known_for_the_fores/"></a>
 </article>
 
@@ -263,7 +267,7 @@ Comments Wing Wong - 2016-01-29T21:07:38Z
 … I’m mixed on this. On one hand, I can see his point: had he known it was going to be so much more work, he wouldnt’ have done it in the first place. But on the other hand, if you’re going to choose to support an additional platform… then support it all the way.I played Rust and it’s one of the few games where I thought, “nice open ended game!” but seriously, Linux does get the short end of things when it comes to GPU support, game engine support, and testing coverage.I would counter the whole 1% platform argument with this: you are trying to break into segments of the market. Just because you flipped the sign to “open” for Linux, doesn’t mean people will suddenly jump on board… especially since it costs real money and it’s a gamble. (Anyone remember Loki Games?) It’s the job of the platform/engine/developer to strike out and market to the people to pull in more users.This “well, they didn’t all come and jump on the band wagon, so why bother spending resources to test it” line of thinking is why it isn’t successful. arg Sorry, SO much frustration when it comes to Linux and gaming that goes back to the ’90s. Yeah, I bought Rust as well. It was seriously the only reason why I joined Steam. (Thank goodness for those Kickstarters that released their games on multiple platforms through Steam, otherwise, it would have been a complete waste).
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2016-01-29 16:03:40 +0000 UTC'>January 29, 2016</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;615 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-01-29 16:03:40 +0000 UTC'>January 29, 2016</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>615 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to The only reason I bought these games is that they were available for Linux." href="https://www.chicks.net/posts/2016-01-29-the_only_reason_i_bought_these_games_it/"></a>
 </article>
 
@@ -277,7 +281,7 @@ Comments Wing Wong - 2016-01-29T21:07:38Z
 Links Steam Community :: Guide :: Plants vs Zombies: All Achievements Guide Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-03-04 14:48:33 +0000 UTC'>March 4, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;23 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-03-04 14:48:33 +0000 UTC'>March 4, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>23 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Here is my first game guide on Steam." href="https://www.chicks.net/posts/2015-03-04-here_is_my_first_game_guide_on_steam_/"></a>
 </article>
 
@@ -291,7 +295,7 @@ Links Steam Community :: Guide :: Plants vs Zombies: All Achievements Guide Shar
 Introduction I wanted to get all of the Steam Achievements myself and the only convenient guide I could find was in French. So here is a translation with some minor improvements I hope to make the life easier for the English speakers that want to keep the zombies out of the house.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2015-02-22 00:00:00 +0000 UTC'>February 22, 2015</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;1593 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-02-22 00:00:00 +0000 UTC'>February 22, 2015</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>1593 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Plants vs Zombies: All Achievements Guide" href="https://www.chicks.net/posts/2015-02-22-plants-vs-zombies-all-achievements-guide/"></a>
 </article>
 <footer class="page-footer">
@@ -311,16 +315,23 @@ Introduction I wanted to get all of the Steam Achievements myself and the only c
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -347,25 +358,25 @@ Introduction I wanted to get all of the Steam Achievements myself and the only c
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

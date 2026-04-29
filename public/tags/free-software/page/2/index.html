@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/tags/free-software/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/free-software/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/free-software/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/tags/free-software/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/tags/free-software/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/tags/free-software/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Free-Software">
@@ -65,39 +74,28 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Free-Software">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Free-Software">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -113,7 +111,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -143,7 +141,13 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/tags/">Tags</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://www.chicks.net/tags/">Tags</a></nav>
   <h1>
     Free-Software
   </h1>
@@ -160,7 +164,7 @@ Links 6 open source architecture projects to check out Shared with: Public
 &#43;1’d by: Paul Fernandez
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-05-31 12:42:03 +0000 UTC'>May 31, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;32 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-05-31 12:42:03 +0000 UTC'>May 31, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>32 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Open source architecture is apparently all about building real buildings" href="https://www.chicks.net/posts/2016-05-31-open_source_architecture_is_apparently_/"></a>
 </article>
 
@@ -174,7 +178,7 @@ Links 6 open source architecture projects to check out Shared with: Public
 Links Private MMO servers – A grey area with potential Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-04-08 16:12:40 +0000 UTC'>April 8, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;54 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-04-08 16:12:40 +0000 UTC'>April 8, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>54 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Blizzard doesn&#39;t deal well with open source community." href="https://www.chicks.net/posts/2016-04-08-blizzard_is_not_the_known_for_the_fores/"></a>
 </article>
 
@@ -188,7 +192,7 @@ Links Private MMO servers – A grey area with potential Shared with: Public
 Links A Complete Catalog Of Every Time Someone Cursed Or Bled Out In A Quentin Tarantino Movie Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-12-10 00:13:23 +0000 UTC'>December 10, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;31 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-12-10 00:13:23 +0000 UTC'>December 10, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>31 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Glory in the science while you download the data from github." href="https://www.chicks.net/posts/2015-12-09-glory_in_the_science_while_you_download/"></a>
 </article>
 
@@ -202,7 +206,7 @@ Links A Complete Catalog Of Every Time Someone Cursed Or Bled Out In A Quentin T
 Links open source DNS management Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2015-09-14 19:27:53 +0000 UTC'>September 14, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;17 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2015-09-14 19:27:53 +0000 UTC'>September 14, 2015</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>17 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Do you have any suggestions for user-friendly DNS management?" href="https://www.chicks.net/posts/2015-09-14-do_you_have_any_suggestions_for_user-fr/"></a>
 </article>
 
@@ -217,7 +221,7 @@ Links Open hardware in 2014 on Opensource.com | Opensource.com Shared with: Publ
 &#43;1’d by: Patrick Buckley, Drew Fustini (pdp7), Caskey Dickson, Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2014-12-24 05:09:55 +0000 UTC'>December 24, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;29 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2014-12-24 05:09:55 +0000 UTC'>December 24, 2014</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>29 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to A great year for open hardware." href="https://www.chicks.net/posts/2014-12-23-a_great_year_for_open_hardware_/"></a>
 </article>
 
@@ -236,7 +240,7 @@ Christopher Hicks - 2014-11-20T04:42:29Z
 $2000 &#43;- $200 is their MSRP and if you get in on the campaign you can have it for $1550 &#43;- $150. It definitely looks like a MacBook but without proprietary bits inside. :-) And it might even be cheaper than a MacBook Pro.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2014-11-19 21:21:15 +0000 UTC'>November 19, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;204 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2014-11-19 21:21:15 +0000 UTC'>November 19, 2014</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>204 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Sexy laptop with no proprietary drivers or software, if it gets funded..." href="https://www.chicks.net/posts/2014-11-19-sexy_laptop_with_no_proprietary_drivers/"></a>
 </article>
 
@@ -249,7 +253,7 @@ $2000 &#43;- $200 is their MSRP and if you get in on the campaign you can have i
     <p>We have another chance to validate the GPL in court.
 While the author reiterates and dismisses the analogy of the GPL to a virus, I want to build on it. Imagine for a minute that the current case succeeds in confirming the gist of the GPL in that you must release your code if you build on top of GPL technologies. That’s a step up from the settlement in FSF vs. Cisco. This solid legal ground inspires an intrepid geek in the Dakotas to reverse engineer Microsoft C&#43;&#43; libraries to discover serious GPL violations. This leads to every major software vendor being sued and forced to release their source code under the GPL. ...</p>
   </div>
-  <footer class="entry-footer"><span title='2014-08-02 18:00:02 +0000 UTC'>August 2, 2014</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;326 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2014-08-02 18:00:02 +0000 UTC'>August 2, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>326 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to We have another chance to validate the GPL in court." href="https://www.chicks.net/posts/2014-08-02-we_have_another_chance_to_validate_the_/"></a>
 </article>
 
@@ -263,7 +267,7 @@ While the author reiterates and dismisses the analogy of the GPL to a virus, I w
 BUT: the expense of change is highly variable depending on where you are in the release cycle. If you want to change software just before a release it is much more expensive and traumatic than making a change during the development part of the cycle. This is also true in hardware development. Changing a connector during the design would be just as cheap and painless as in the software world. Changing it close to release or while the part is ramping up production would and should be expensive, just like with code. Code will require retesting and repackaging which could push the release date and future development cycles back. Nothing is free, the analogy is working.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2014-02-04 15:51:02 +0000 UTC'>February 4, 2014</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;301 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2014-02-04 15:51:02 +0000 UTC'>February 4, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>301 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to I understand that hardware and software are different, but I think the making..." href="https://www.chicks.net/posts/2014-02-04-i_understand_that_hardware_and_software/"></a>
 </article>
 
@@ -278,7 +282,7 @@ Links Linux: The clear choice for security Shared with: Public
 &#43;1’d by: Paul Fernandez, K. Travis Walsh
 </p>
   </div>
-  <footer class="entry-footer"><span title='2014-01-17 16:39:17 +0000 UTC'>January 17, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;40 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2014-01-17 16:39:17 +0000 UTC'>January 17, 2014</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>40 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Thank goodness we have the open source community to keep Apple and Microsoft on their toes." href="https://www.chicks.net/posts/2014-01-17-thank_goodness_we_have_the_open_source_/"></a>
 </article>
 
@@ -295,7 +299,7 @@ Can anyone find the slides for this talk?
 Christopher Hicks - 2013-08-11T15:32:57Z
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2013-08-10 21:26:40 +0000 UTC'>August 10, 2013</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;104 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2013-08-10 21:26:40 +0000 UTC'>August 10, 2013</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>104 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to A balanced view of free software helps effectively separate the hype from the facts." href="https://www.chicks.net/posts/2013-08-10-a_balanced_view_of_free_software_and_op/"></a>
 </article>
 <footer class="page-footer">
@@ -318,16 +322,23 @@ Christopher Hicks - 2013-08-11T15:32:57Z
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -354,25 +365,25 @@ Christopher Hicks - 2013-08-11T15:32:57Z
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

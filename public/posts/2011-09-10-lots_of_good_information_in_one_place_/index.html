@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,7 +43,7 @@ the things you want, and (b) causes more unnecessary clicking for your
 allies.">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://plus.google.com/&#43;ChristopherHicksFINI/posts/79HBV6BZgpE">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -72,23 +72,32 @@ allies.">
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/posts/2011-09-10-lots_of_good_information_in_one_place_/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/2011-09-10-lots_of_good_information_in_one_place_/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="City of Wonder Information Post">
@@ -103,43 +112,13 @@ TL;DR Ask for things or send things once a day. Refresh your notifications by mu
     <meta property="article:tag" content="Google-Plus">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="City of Wonder Information Post">
-<meta name="twitter:description" content="Lots of good information in one place.
-Originally shared by Alan Liddell
 
-[CoW Information Post]
-Things you might not have known about City of Wonder! (Please share this with
-others, there seems to be many people who do not know this information. This
-post has been made Public, so shares should work now.)
-TL;DR
-
-Ask for things or send things once a day. Refresh your notifications by
-muting and refreshing your screen.
-Ask for goods once a day. Reset timers by not asking for two days. See #1.
-(UPDATED) We can accept only one building OR one legend, and one workshop
-good per ally per day. See #1.
-Mess halls are valuable. Sell them. See #1.
-Certain bonuses can only be clicked once. Don&rsquo;t spam embassy bonuses or
-expedition bonuses.
-Hate &ldquo;Too many goods&rdquo; pop-ups? Put away your workshop!
-(UPDATE) Gift timers appear to be based on the time the gift is sent, not when it is received!
-
-Details
-
-
-NOTIFICATIONS WINDOW: The notifications window is (sort-of) fixed! Before
-they fixed the problem, you could not go back beyond one page of requests
-because the &ldquo;More&rdquo; button did not show any results. (it still doesn&rsquo;t!
-lol) Well, now you can mute any post that you have fulfilled, and once you
-have muted your entire page, you can refresh your tab and another page of
-requests pops up! This means that you don&rsquo;t have to spam notifications or
-requests, hoping that they stay on the first page long enough to get
-clicks! You can send out a request once and know that people will be able
-to get to it! Spamming requests only (a) frustrates you for not getting
-the things you want, and (b) causes more unnecessary clicking for your
-allies.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="City of Wonder Information Post">
+  <meta name="twitter:description" content="Lots of good information in one place.
+Originally shared by Alan Liddell [CoW Information Post] Things you might not have known about City of Wonder! (Please share this with others, there seems to be many people who do not know this information. This post has been made Public, so shares should work now.)
+TL;DR Ask for things or send things once a day. Refresh your notifications by muting and refreshing your screen. Ask for goods once a day. Reset timers by not asking for two days. See #1. (UPDATED) We can accept only one building OR one legend, and one workshop good per ally per day. See #1. Mess halls are valuable. Sell them. See #1. Certain bonuses can only be clicked once. Don’t spam embassy bonuses or expedition bonuses. Hate “Too many goods” pop-ups? Put away your workshop! (UPDATE) Gift timers appear to be based on the time the gift is sent, not when it is received! Details NOTIFICATIONS WINDOW: The notifications window is (sort-of) fixed! Before they fixed the problem, you could not go back beyond one page of requests because the “More” button did not show any results. (it still doesn’t! lol) Well, now you can mute any post that you have fulfilled, and once you have muted your entire page, you can refresh your tab and another page of requests pops up! This means that you don’t have to spam notifications or requests, hoping that they stay on the first page long enough to get clicks! You can send out a request once and know that people will be able to get to it! Spamming requests only (a) frustrates you for not getting the things you want, and (b) causes more unnecessary clicking for your allies.">
 
 
 <script type="application/ld+json">
@@ -196,33 +175,21 @@ allies.">
 }
 </script>
 </head>
-
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -238,7 +205,7 @@ allies.">
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -271,16 +238,24 @@ allies.">
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/posts/">Posts</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://www.chicks.net/posts/">Posts</a></nav>
     <h1 class="post-title entry-hint-parent">
       City of Wonder Information Post
     </h1>
-    <div class="post-meta"><span title='2011-09-10 21:06:27 +0000 UTC'>September 10, 2011</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;944 words&nbsp;·&nbsp;Christopher Hicks&nbsp;|&nbsp;<a href="https://github.com/chicks-net/www-chicks-net/tree/main/content/posts/2011-09-10-Lots_of_good_information_in_one_place_.md" rel="noopener noreferrer edit" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2011-09-10 21:06:27 +0000 UTC'>September 10, 2011</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>944 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span>&nbsp;|&nbsp;<span>
+    <a href="https://github.com/chicks-net/www-chicks-net/tree/main/content/posts/2011-09-10-Lots_of_good_information_in_one_place_.md" rel="noopener noreferrer edit" target="_blank">Suggest Changes</a>
+</span>
 &nbsp;|&nbsp;<span>Originally published at&nbsp;<a href="https://plus.google.com/&#43;ChristopherHicksFINI/posts/79HBV6BZgpE" title="https://plus.google.com/&#43;ChristopherHicksFINI/posts/79HBV6BZgpE" target="_blank" rel="noopener noreferrer">plus.google.com</a>
 </span>
 </div>
   </header> 
-  <div class="post-content"><p>Lots of good information in one place.</p>
+  <div class="post-content md-content"><p>Lots of good information in one place.</p>
 <h2 id="originally-shared-by-alan-liddell">Originally shared by Alan Liddell<a hidden class="anchor" aria-hidden="true" href="#originally-shared-by-alan-liddell">#</a></h2>
 <blockquote>
 <h3 id="cow-information-post">[CoW Information Post]<a hidden class="anchor" aria-hidden="true" href="#cow-information-post">#</a></h3>
@@ -469,16 +444,23 @@ rule applies to Workshop goods, but this has not been confirmed.</p>
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -505,25 +487,25 @@ rule applies to Workshop goods, but this has not been confirmed.</p>
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

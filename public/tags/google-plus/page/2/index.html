@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/tags/google-plus/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/google-plus/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/google-plus/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/tags/google-plus/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/tags/google-plus/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/tags/google-plus/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Google-Plus">
@@ -65,39 +74,28 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Google-Plus">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Google-Plus">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -113,7 +111,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -143,7 +141,13 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://www.chicks.net/">Home</a>&nbsp;»&nbsp;<a href="https://www.chicks.net/tags/">Tags</a></div>
+<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://www.chicks.net/tags/">Tags</a></nav>
   <h1>
     Google-Plus
   </h1>
@@ -159,7 +163,7 @@
 Links Norway’s new passport – already a design classic? | Travel | The Guardian Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2017-01-08 01:33:32 +0000 UTC'>January 8, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;18 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2017-01-08 01:33:32 +0000 UTC'>January 8, 2017</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>18 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Norway&#39;s new passport is beautiful." href="https://www.chicks.net/posts/2017-01-07-beautiful_/"></a>
 </article>
 
@@ -173,7 +177,7 @@ Links Norway’s new passport – already a design classic? | Travel | The Guard
 Links Here’s How Valve Got Microsoft to Take PC Gaming Seriously Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2017-01-04 19:40:49 +0000 UTC'>January 4, 2017</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;36 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2017-01-04 19:40:49 +0000 UTC'>January 4, 2017</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>36 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Now your Windows gaming experience sucks less, thanks to Linux." href="https://www.chicks.net/posts/2017-01-04-now_your_windows_gaming_experience_suck/"></a>
 </article>
 
@@ -186,7 +190,7 @@ Links Here’s How Valve Got Microsoft to Take PC Gaming Seriously Shared with: 
     <p>Somebody should tell the cops that they were hired to protect our freedoms like Freedom of Speech and that trying to suppress those freedoms creates more distrust. Actively trying to thwart Freedom of Speech by pushing an agenda of sensitivity is really funny from folks who seem to use intimidation as their default for interaction with The People. Maybe the FOP should push for better accountability around police shootings so that everybody can have the facts. But, no, they’re writing passionate letters that people wearing t-shirts they don’t agree with is making it hard for them to come to work. Maybe if they got some therapy they could realize that dead black kids in the streets is a hell of a lot more significant than what t-shirts anybody is wearing to the mall.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2016-12-26 15:50:51 +0000 UTC'>December 26, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;136 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-12-26 15:50:51 +0000 UTC'>December 26, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>136 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Somebody should tell the cops that they were hired to protect our freedoms" href="https://www.chicks.net/posts/2016-12-26-somebody_should_tell_the_cops_that_they/"></a>
 </article>
 
@@ -201,7 +205,7 @@ Links Trump Takes Aim At Union Official Over Carrier Job Count Shared with: Publ
 &#43;1’d by: Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-12-08 18:30:42 +0000 UTC'>December 8, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;41 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-12-08 18:30:42 +0000 UTC'>December 8, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>41 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Bozos (Trump) attacking union leaders" href="https://www.chicks.net/posts/2016-12-08-bozos_attacking_union_leaders_who_have_/"></a>
 </article>
 
@@ -214,7 +218,7 @@ Links Trump Takes Aim At Union Official Over Carrier Job Count Shared with: Publ
     <p>Amazon today announced a new product called simply Product that will provide a consistent API for them to create new products at the whim of product managers without requiring any technical assistance or consistency with the laws of physics. With just a few clicks the dollars start pouring in. The fees for this can only be discussed under nondisclosure after you give them copies of recent banks statements, but don’t let that bother you. It didn’t concern the computer press which faithfully reprinted their press release for Product as a real article lauding Amazon as the geniuses behind the cloud. [click]
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2016-11-30 02:06:06 +0000 UTC'>November 30, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;113 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-11-30 02:06:06 +0000 UTC'>November 30, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>113 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Amazon today announced a new product called simply Product" href="https://www.chicks.net/posts/2016-11-29-amazon_today_announced_a_new_product_ca/"></a>
 </article>
 
@@ -228,7 +232,7 @@ Links Trump Takes Aim At Union Official Over Carrier Job Count Shared with: Publ
 Links Linux-y things I am thankful for Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-11-22 15:23:55 +0000 UTC'>November 22, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;20 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-11-22 15:23:55 +0000 UTC'>November 22, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>20 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to All of that and Perl and Larry Wall. Thank you!" href="https://www.chicks.net/posts/2016-11-22-all_of_that_and_perl_and_larry_wall.__t/"></a>
 </article>
 
@@ -242,7 +246,7 @@ Links Linux-y things I am thankful for Shared with: Public
 Links Google Cloud is 50% cheaper than AWS Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-11-20 00:39:21 +0000 UTC'>November 20, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;35 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-11-20 00:39:21 +0000 UTC'>November 20, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>35 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to AWS continues to lead the industry in selling snake oil" href="https://www.chicks.net/posts/2016-11-19-aws_continues_to_lead_the_industry_in_d/"></a>
 </article>
 
@@ -256,7 +260,7 @@ Links Google Cloud is 50% cheaper than AWS Shared with: Public
 Links BrightTALK Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-11-18 19:49:52 +0000 UTC'>November 18, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;17 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-11-18 19:49:52 +0000 UTC'>November 18, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>17 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to We&#39;ve needed to learn to present data better for a long time." href="https://www.chicks.net/posts/2016-11-18-we_ve_needed_to_learn_to_present_data_b/"></a>
 </article>
 
@@ -270,7 +274,7 @@ Links BrightTALK Shared with: Public
 Links Almost all the world’s fastest supercomputers run Linux | ZDNet Shared with: Public
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-11-15 22:36:25 +0000 UTC'>November 15, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;34 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-11-15 22:36:25 +0000 UTC'>November 15, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>34 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Where are the Windows Supercomputers?" href="https://www.chicks.net/posts/2016-11-15-where_are_the_windows_supercomputers___/"></a>
 </article>
 
@@ -285,7 +289,7 @@ Links #stopfundinghate on google&#43; Lego Stops Advertising in UK’s Daily Mai
 &#43;1’d by: Michael Amadio, Wing Wong
 </p>
   </div>
-  <footer class="entry-footer"><span title='2016-11-13 05:49:26 +0000 UTC'>November 13, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;34 words&nbsp;·&nbsp;Christopher Hicks</footer>
+  <footer class="entry-footer"><span title='2016-11-13 05:49:26 +0000 UTC'>November 13, 2016</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>34 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span></footer>
   <a class="entry-link" aria-label="post link to Bravo LEGO Group. This is this the way to lead." href="https://www.chicks.net/posts/2016-11-12-bravo_lego_group.__this_is_this_the_way/"></a>
 </article>
 <footer class="page-footer">
@@ -308,16 +312,23 @@ Links #stopfundinghate on google&#43; Lego Stops Advertising in UK’s Daily Mai
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -344,25 +355,25 @@ Links #stopfundinghate on google&#43; Lego Stops Advertising in UK’s Daily Mai
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })

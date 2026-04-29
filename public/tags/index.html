@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 <meta name="author" content="Christopher Hicks">
 <link rel="canonical" href="https://www.chicks.net/tags/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.34d91883bcea6e759c2d3a842c5975efd544bfec7ea2927692a4497df4c731c0.css" integrity="sha256-NNkYg7zqbnWcLTqELFl179VEv&#43;x&#43;opJ2kqRJffTHMcA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://www.chicks.net/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
 <meta name="theme-color" content="#a903fc">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://www.chicks.net/tags/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://www.chicks.net/tags/">
 <noscript>
     <style>
@@ -40,23 +40,32 @@
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
-</noscript><meta property="og:url" content="https://www.chicks.net/tags/">
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/tags/">
 <meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
   <meta property="og:site_name" content="Christopher Hicks">
   <meta property="og:title" content="Tags">
@@ -65,39 +74,28 @@
   <meta property="og:type" content="website">
       <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
       <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
-<meta name="twitter:title" content="Tags">
-<meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Tags">
+  <meta name="twitter:description" content="Christopher Hicks - home on the web. Blog posts, links, and personal content about technology, life, and community.">
 
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
                 <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
                     height="32">Chicks.Net</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -113,7 +111,7 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://www.chicks.net/intro" title="Intro">
                     <span>Intro</span>
@@ -149,184 +147,184 @@
 
 <ul class="terms-tags">
     <li>
-        <a href="https://www.chicks.net/tags/amazon/">amazon <sup><strong><sup>5</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/amazon/">Amazon <sup><strong><sup>5</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/arduino/">arduino <sup><strong><sup>7</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/arduino/">Arduino <sup><strong><sup>7</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/art/">art <sup><strong><sup>8</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/art/">Art <sup><strong><sup>8</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/billiards/">billiards <sup><strong><sup>2</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/billiards/">Billiards <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/book/">book <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/book/">Book <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/branding/">branding <sup><strong><sup>2</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/branding/">Branding <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/business/">business <sup><strong><sup>19</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/business/">Business <sup><strong><sup>19</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/ca-central-coast/">ca-central-coast <sup><strong><sup>2</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/ca-central-coast/">Ca-Central-Coast <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/ca-los-angeles/">ca-los-angeles <sup><strong><sup>17</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/ca-los-angeles/">Ca-Los-Angeles <sup><strong><sup>17</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/ca-pasadena/">ca-pasadena <sup><strong><sup>5</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/ca-pasadena/">Ca-Pasadena <sup><strong><sup>5</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/ca-san-francisco/">ca-san-francisco <sup><strong><sup>12</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/ca-san-francisco/">Ca-San-Francisco <sup><strong><sup>12</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/cloud/">cloud <sup><strong><sup>13</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/cloud/">Cloud <sup><strong><sup>13</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/community/">community <sup><strong><sup>7</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/community/">Community <sup><strong><sup>7</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/creativity/">creativity <sup><strong><sup>12</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/creativity/">Creativity <sup><strong><sup>12</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/data-center/">data-center <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/data-center/">Data-Center <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/database/">database <sup><strong><sup>5</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/database/">Database <sup><strong><sup>5</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/dead-link/">dead-link <sup><strong><sup>11</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/dead-link/">Dead-Link <sup><strong><sup>11</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/eating/">eating <sup><strong><sup>11</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/eating/">Eating <sup><strong><sup>11</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/education/">education <sup><strong><sup>4</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/education/">Education <sup><strong><sup>4</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/family/">family <sup><strong><sup>3</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/family/">Family <sup><strong><sup>3</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/finance/">finance <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/finance/">Finance <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/fini-edge-reports/">fini-edge-reports <sup><strong><sup>3</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/fini-edge-reports/">Fini-Edge-Reports <sup><strong><sup>3</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/free-software/">free-software <sup><strong><sup>30</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/free-software/">Free-Software <sup><strong><sup>30</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/gaming/">gaming <sup><strong><sup>19</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/gaming/">Gaming <sup><strong><sup>19</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/github/">github <sup><strong><sup>3</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/github/">Github <sup><strong><sup>3</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/google-plus/">google-plus <sup><strong><sup>278</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/google-plus/">Google-Plus <sup><strong><sup>278</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/government/">government <sup><strong><sup>23</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/government/">Government <sup><strong><sup>23</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/habits/">habits <sup><strong><sup>4</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/habits/">Habits <sup><strong><sup>4</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/history/">history <sup><strong><sup>7</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/history/">History <sup><strong><sup>7</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/hugo/">hugo <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/hugo/">Hugo <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/humor/">humor <sup><strong><sup>16</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/humor/">Humor <sup><strong><sup>16</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/keyboard/">keyboard <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/keyboard/">Keyboard <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/lego/">lego <sup><strong><sup>11</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/lego/">Lego <sup><strong><sup>11</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/linked-in/">linked-in <sup><strong><sup>4</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/linked-in/">Linked-In <sup><strong><sup>4</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/linux/">linux <sup><strong><sup>33</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/linux/">Linux <sup><strong><sup>33</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/mcdtechlab/">mcdtechlab <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/mcdtechlab/">Mcdtechlab <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/microsoft/">microsoft <sup><strong><sup>6</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/microsoft/">Microsoft <sup><strong><sup>6</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/mobile/">mobile <sup><strong><sup>8</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/mobile/">Mobile <sup><strong><sup>8</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/news/">news <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/news/">News <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/openx/">openx <sup><strong><sup>4</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/openx/">Openx <sup><strong><sup>4</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/organization/">organization <sup><strong><sup>8</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/organization/">Organization <sup><strong><sup>8</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/perl/">perl <sup><strong><sup>7</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/perl/">Perl <sup><strong><sup>7</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/programming/">programming <sup><strong><sup>24</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/programming/">Programming <sup><strong><sup>24</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/recruitment/">recruitment <sup><strong><sup>6</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/recruitment/">Recruitment <sup><strong><sup>6</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/redhat/">redhat <sup><strong><sup>2</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/redhat/">Redhat <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/refer/">refer <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/refer/">Refer <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/release-engineering/">release-engineering <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/release-engineering/">Release-Engineering <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/review/">review <sup><strong><sup>4</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/review/">Review <sup><strong><sup>4</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/rust/">rust <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/rust/">Rust <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/slack/">slack <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/slack/">Slack <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/the-economist/">the-economist <sup><strong><sup>3</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/the-economist/">The-Economist <sup><strong><sup>3</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/training/">training <sup><strong><sup>2</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/training/">Training <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/trains/">trains <sup><strong><sup>2</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/trains/">Trains <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/travel/">travel <sup><strong><sup>8</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/travel/">Travel <sup><strong><sup>8</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/tubi/">tubi <sup><strong><sup>5</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/tubi/">Tubi <sup><strong><sup>5</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/va-lee-hall/">va-lee-hall <sup><strong><sup>2</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/va-lee-hall/">Va-Lee-Hall <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/va-williamsburg/">va-williamsburg <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/va-williamsburg/">Va-Williamsburg <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/virtu/">virtu <sup><strong><sup>4</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/virtu/">Virtu <sup><strong><sup>4</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/wired/">wired <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/wired/">Wired <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="https://www.chicks.net/tags/youtube/">youtube <sup><strong><sup>9</sup></strong></sup> </a>
+        <a href="https://www.chicks.net/tags/youtube/">Youtube <sup><strong><sup>9</sup></strong></sup> </a>
     </li>
 </ul>
     </main>
@@ -340,16 +338,23 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -376,25 +381,25 @@
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
