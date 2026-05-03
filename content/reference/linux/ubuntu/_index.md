@@ -23,6 +23,7 @@ This table shows the relationships between Linux kernel versions included in Deb
 | 5.10 | 11 | Bullseye | 20.04 LTS | Focal Fossa | 20 | Ulyana |
 | 6.1 | 12 | Bookworm | 22.04 LTS | Jammy Jellyfish | 21 | Vanessa |
 | 6.10 | 13 | Trixie | 24.04 LTS | Noble Numbat | 22 | Wilma |
+| 7.0 | 14 | Forky | 26.04 LTS | Resolute Raccoon | - | - |
 
 ## Notes
 
