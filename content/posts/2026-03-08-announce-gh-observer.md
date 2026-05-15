@@ -180,4 +180,4 @@ usage of AI (Artificial Intelligence). Plus any links to cross-posts I do.
   <https://github.com/fini-net/gh-observer/tree/main/docs/drafts> .
 - The banner image was generated with the Nano Banana Pro model on Galaxy.AI.
 - This was [cross-posted on LinkedIn](https://www.linkedin.com/posts/chicks2fini_if-you-ever-wanted-to-know-what-was-going-activity-7436787898881941505-yTAg).
-- This was [cross-posted on DevTo](https://dev.to/chicks/announcing-gh-observer-waiting-for-ci-should-not-be-misery-4me0).
+- This was [cross-posted on Dev.to](https://dev.to/chicks/announcing-gh-observer-waiting-for-ci-should-not-be-misery-4me0).
