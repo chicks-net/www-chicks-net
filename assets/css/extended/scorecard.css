@@ -3,3 +3,13 @@
   align-items: center;
   gap: 0.5em;
 }
+
+.md-content .scorecard img {
+  display: inline;
+  vertical-align: middle;
+  margin: 0;
+}
+
+li > .scorecard {
+  display: inline-flex;
+}
