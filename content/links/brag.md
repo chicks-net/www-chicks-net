@@ -28,6 +28,31 @@ draft = false
 
 ![fini-net overview from metrics.lecoq.io](https://metrics.lecoq.io/fini-net?template=classic&languages=1&followup=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&config.timezone=America%2FLos_Angeles)
 
+## OpenSSF Scorecards
+
+### chicks-net
+
+[![OpenSSF Scorecard for chicks-net/data-curated](https://api.scorecard.dev/projects/github.com/chicks-net/data-curated/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/data-curated)
+[![OpenSSF Scorecard for chicks-net/homebrew-chicks](https://api.scorecard.dev/projects/github.com/chicks-net/homebrew-chicks/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/homebrew-chicks)
+[![OpenSSF Scorecard for chicks-net/chicks-home](https://api.scorecard.dev/projects/github.com/chicks-net/chicks-home/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/chicks-home)
+[![OpenSSF Scorecard for chicks-net/google-plus-posts-dumper](https://api.scorecard.dev/projects/github.com/chicks-net/google-plus-posts-dumper/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/google-plus-posts-dumper)
+[![OpenSSF Scorecard for chicks-net/check-s3-file-age](https://api.scorecard.dev/projects/github.com/chicks-net/check-s3-file-age/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/check-s3-file-age)
+[![OpenSSF Scorecard for chicks-net/megamap](https://api.scorecard.dev/projects/github.com/chicks-net/megamap/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/megamap)
+[![OpenSSF Scorecard for chicks-net/homebrew-freelawproject](https://api.scorecard.dev/projects/github.com/chicks-net/homebrew-freelawproject/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/homebrew-freelawproject)
+[![OpenSSF Scorecard for chicks-net/aws-iam-rotate](https://api.scorecard.dev/projects/github.com/chicks-net/aws-iam-rotate/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/aws-iam-rotate)
+
+### fini-net
+
+[![OpenSSF Scorecard for fini-net/datadog-service-analyzer](https://api.scorecard.dev/projects/github.com/fini-net/datadog-service-analyzer/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/datadog-service-analyzer)
+[![OpenSSF Scorecard for fini-net/template-repo](https://api.scorecard.dev/projects/github.com/fini-net/template-repo/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/template-repo)
+[![OpenSSF Scorecard for fini-net/gh-observer](https://api.scorecard.dev/projects/github.com/fini-net/gh-observer/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/gh-observer)
+[![OpenSSF Scorecard for fini-net/fini-coredns-example](https://api.scorecard.dev/projects/github.com/fini-net/fini-coredns-example/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/fini-coredns-example)
+[![OpenSSF Scorecard for fini-net/fini-infra](https://api.scorecard.dev/projects/github.com/fini-net/fini-infra/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/fini-infra)
+[![OpenSSF Scorecard for fini-net/gh-amp](https://api.scorecard.dev/projects/github.com/fini-net/gh-amp/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/gh-amp)
+[![OpenSSF Scorecard for fini-net/quilt-shop-proximity](https://api.scorecard.dev/projects/github.com/fini-net/quilt-shop-proximity/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/quilt-shop-proximity)
+[![OpenSSF Scorecard for fini-net/macaw](https://api.scorecard.dev/projects/github.com/fini-net/macaw/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/macaw)
+[![OpenSSF Scorecard for fini-net/fini-clock](https://api.scorecard.dev/projects/github.com/fini-net/fini-clock/badge)](https://scorecard.dev/viewer/?uri=github.com/fini-net/fini-clock)
+
 ## Holopin
 
 [![An image of @chicksnet's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/chicksnet)](https://holopin.io/@chicksnet)
