@@ -89,6 +89,19 @@ gps_check image="":
         exit 1
     fi
 
+# unwrap markdown paragraphs to single lines and copy to clipboard
+[group('Utility')]
+[no-cd]
+unwrap_md filename:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    if [[ ! -f "{{ filename }}" ]]; then
+        echo "{{RED}}Error: File '{{ filename }}' not found{{NORMAL}}"
+        exit 1
+    fi
+    awk -v RS='' -v ORS='\n\n' '{gsub(/\n/, " "); print}' "{{ filename }}" | pbcopy
+    echo "{{GREEN}}✓ Unwrapped markdown copied to clipboard{{NORMAL}}"
+
 # TODO: convert into just, but we didn't need it for the last favicon generated
 # from ancient html/Makefile
 #favicon.ico: img/favicon.pnm
