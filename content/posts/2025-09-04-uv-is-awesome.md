@@ -97,7 +97,9 @@ The best part? My colleagues independently discovered `uv` around the same
 time I did - that's how you know a tool is genuinely solving real problems
 when multiple people stumble across it organically.
 
-## My post on linked-in
+## Meta
+
+### My post on linked-in
 
 My [post on linked-in](https://www.linkedin.com/posts/chicks2fini_python-rust-devtools-activity-7370788051171786752-eSnK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAANM42UBeRnJ7AwUnM22SEnxPP-5lvVGyBE)
 has gotten the most views of anything I posted in the last year on the
@@ -105,3 +107,7 @@ platform.  It has led to several new friend requests and interesting
 conversations.
 
 10 days later the post has 146 likes.  😮  Thank you all.  I'm honored.
+
+### Other crossposts
+
+- [Dev.to](https://dev.to/chicks/how-rust-had-to-save-python-from-itself-the-uv-revolution-3fcb)
