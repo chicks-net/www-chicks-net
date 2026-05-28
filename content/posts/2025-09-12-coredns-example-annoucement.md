@@ -82,3 +82,8 @@ Feedback and contributions are very welcome!
 
 Best regards,
 Christopher Hicks
+
+## Meta
+
+- Cross-posted on [DevTo](https://dev.to/chicks/dnscontrol-coredns-container-example-announcement-2e85)
+- Cross-posted on [LinkedIn](https://www.linkedin.com/posts/chicks2fini_github-fini-netfini-coredns-example-coredns-activity-7375846327404048384-jzv3)
