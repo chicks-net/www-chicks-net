@@ -485,4 +485,4 @@ capitalism to operate.
   [Galaxy.AI](https://try.galaxy.ai/christopher-hicks) (affiliate link)
   with the Nano Banana Pro model.
 - I [cross-posted this on DevTo](https://dev.to/chicks/my-first-8-months-with-ai-390i)
-  on Wednesday 26 May 2026.
+  on Tuesday 26 May 2026.
