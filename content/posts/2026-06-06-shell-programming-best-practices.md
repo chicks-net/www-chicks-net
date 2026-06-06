@@ -5,8 +5,8 @@ draft = false
 # description = ''
 # cover.image = '/posts/'
 cover.hidden = true
-# keywords = ["", "", ""]
-# tags = ["", "", "", ""]
+keywords = ["bash", "shell-scripting"]
+tags = ["free-software", "habits", "linux", "programming"]
 ShowToc = true
 +++
 
