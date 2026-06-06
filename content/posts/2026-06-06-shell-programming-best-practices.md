@@ -2,7 +2,7 @@
 title = 'Shell Programming Best Practices'
 date = 2026-06-05T21:05:12-04:00
 draft = false
-# description = ''
+description = 'Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.'
 # cover.image = '/posts/'
 cover.hidden = true
 keywords = ["bash", "shell-scripting"]

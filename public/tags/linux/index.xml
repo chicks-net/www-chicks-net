@@ -18,26 +18,7 @@
       <link>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</link>
       <pubDate>Fri, 05 Jun 2026 21:05:12 -0400</pubDate>
       <guid>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</guid>
-      <description>&lt;h2 id=&#34;my-qualifications&#34;&gt;My Qualifications&lt;/h2&gt;
-&lt;p&gt;Since this is my own blog I&amp;rsquo;m usually happy to avoid reminding you of how
-qualified I am.  In this case it is easy to note that:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I spent a dozen years teaching shell scripting on UNIX and Linux with
-materials that I wrote the majority of.  The students were surprised and
-happy to have a teacher that had real industry experience.&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;ve done &lt;a href=&#34;https://codereview.stackexchange.com/users/89257/chicks&#34;&gt;46+ code reviews for
-bash&lt;/a&gt; on Code Review
-StackExchange over the last decade.&lt;/li&gt;
-&lt;li&gt;I&amp;rsquo;ve been a fan of &lt;code&gt;bash&lt;/code&gt; and a detractor for &lt;code&gt;csh&lt;/code&gt; and &lt;code&gt;ksh&lt;/code&gt; for 30+ years.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;terminology-note&#34;&gt;Terminology note&lt;/h2&gt;
-&lt;p&gt;For purposes of this article I&amp;rsquo;m going to talk about the &amp;ldquo;shell&amp;rdquo; referring to
-various shell implementations which traditionally end in &amp;ldquo;sh&amp;rdquo;.  This excludes
-scripting languages such as Perl and Python.  I&amp;rsquo;m not trying to say anything
-bad about Python here.  There&amp;rsquo;s plenty of that already on the Internet.  The
-most popular shells these days are &lt;code&gt;bash&lt;/code&gt;, &lt;code&gt;zsh&lt;/code&gt;, and &lt;code&gt;fish&lt;/code&gt;. Most of what I&amp;rsquo;m
-going to say could apply to any of them, but some things will be specific to
-the Bourne Shell (&lt;code&gt;/bin/sh&lt;/code&gt;) and compatible shells such as &lt;code&gt;bash&lt;/code&gt; and &lt;code&gt;ksh&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.</description>
     </item>
     <item>
       <title>DNSControl &#43; CoreDNS Container Example - Announcement</title>
