@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.chicks.net/posts/</loc>
+    <lastmod>2026-06-05T21:05:12-04:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</loc>
+    <lastmod>2026-06-05T21:05:12-04:00</lastmod>
+  </url><url>
     <loc>https://www.chicks.net/tags/business/</loc>
     <lastmod>2026-04-18T13:17:25-07:00</lastmod>
   </url><url>
@@ -18,9 +24,6 @@
     <lastmod>2026-04-18T13:17:25-07:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/posts/2026-04-18-8-months-with-ai/</loc>
-    <lastmod>2026-04-18T13:17:25-07:00</lastmod>
-  </url><url>
-    <loc>https://www.chicks.net/posts/</loc>
     <lastmod>2026-04-18T13:17:25-07:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/tags/programming/</loc>
