@@ -465,3 +465,8 @@ thought possible.
 And if you find yourself reaching for arrays of arrays or floating-point math,
 it's okay.  That's Python's job.  The shell will still be there when you need to
 pipe its output somewhere useful.
+
+## Meta
+
+- This article was [cross-posted on DevTo](https://dev.to/chicks/shell-programming-best-practices-2d8e).
+- This article was [mentioned on LinkedIn](https://www.linkedin.com/posts/chicks2fini_shellscripting-bash-devops-share-7469168299289944064-XArb/).
