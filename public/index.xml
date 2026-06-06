@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2026 13:17:25 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 21:05:12 -0400</lastBuildDate>
     <atom:link href="https://www.chicks.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shell Programming Best Practices</title>
+      <link>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</link>
+      <pubDate>Fri, 05 Jun 2026 21:05:12 -0400</pubDate>
+      <guid>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</guid>
+      <description>Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.</description>
+    </item>
     <item>
       <title>My first 8 months with AI</title>
       <link>https://www.chicks.net/posts/2026-04-18-8-months-with-ai/</link>

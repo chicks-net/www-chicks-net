@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Shell Programming Best Practices | Christopher Hicks</title>
+<meta name="keywords" content="bash, shell-scripting">
+<meta name="description" content="Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.">
+<meta name="author" content="Christopher Hicks">
+<link rel="canonical" href="https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.ea61092fad52c415be9ff1e0e1a11d4b6d4fd50729f29ab2b97d4ead6f9c7960.css" integrity="sha256-6mEJL61SxBW&#43;n/Hg4aEdS21P1Qcp8pqyuX1OrW&#43;ceWA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.chicks.net/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.chicks.net/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.chicks.net/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.chicks.net/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.chicks.net/safari-pinned-tab.svg">
+<meta name="theme-color" content="#a903fc">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/">
+<meta property="og:logo" content="https://www.chicks.net/favicon-32x32.png">
+  <meta property="og:site_name" content="Christopher Hicks">
+  <meta property="og:title" content="Shell Programming Best Practices">
+  <meta property="og:description" content="Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-06-05T21:05:12-04:00">
+    <meta property="article:modified_time" content="2026-06-05T21:05:12-04:00">
+    <meta property="article:tag" content="Free-Software">
+    <meta property="article:tag" content="Habits">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Programming">
+      <meta property="og:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+      <meta property="og:image:secure_url" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.chicks.net/chicks/chicks_wedding01.jpg">
+  <meta name="twitter:title" content="Shell Programming Best Practices">
+  <meta name="twitter:description" content="Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://www.chicks.net/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Shell Programming Best Practices",
+      "item": "https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Shell Programming Best Practices",
+  "name": "Shell Programming Best Practices",
+  "description": "Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.",
+  "keywords": [
+    "bash", "shell-scripting"
+  ],
+  "articleBody": "My Qualifications Since this is my own blog I’m usually happy to avoid reminding you of how qualified I am. In this case it is easy to note that:\nI spent a dozen years teaching shell scripting on UNIX and Linux with materials that I wrote the majority of. The students were surprised and happy to have a teacher that had real industry experience. I’ve done 46+ code reviews for bash on Code Review StackExchange over the last decade. I’ve been a fan of bash and a detractor for csh and ksh for 30+ years. Terminology note For purposes of this article I’m going to talk about the “shell” referring to various shell implementations which traditionally end in “sh”. This excludes scripting languages such as Perl and Python. I’m not trying to say anything bad about Python here. There’s plenty of that already on the Internet. The most popular shells these days are bash, zsh, and fish. Most of what I’m going to say could apply to any of them, but some things will be specific to the Bourne Shell (/bin/sh) and compatible shells such as bash and ksh.\nWhy shell scripting endures Shell programming has been growing in a variety of strange ways since it was introduced in the 1970’s. UNIX revolutionized computing by providing this interactive environment with an amazing set of tools. The shell was where all of these tools were brought together. And so many shells have been developed to ease programming and expand the possibilities.\nWith all of the other tools available today for handling these same tasks it is amazing that the UNIX data processing model lives on in Linux and bash and the vast number of command line tools that are still being actively developed. This leads to some of the motivations that are still relevant today:\nIf you need a simple wrapper around an existing command, a shell script is the easiest place to start. No programming language makes it as easy to invoke and redirect existing commands. You probably already have a command in Linux that does 90% of what you want to do. Write a little shell script to do the rest. The shell provides a nice neutral ground between different programming languages. As long as your program can handle text input or output, it can be integrated with other tools written in different languages. The shell provides the place for integration and debugging. The classic UNIX toolkit is quite performant and can scale to deal with an incredible amount of data in a modern laptop. Why fight with the latest framework for massive parallel processing when you can write a shell script to take care of it in less time? And now in the age of GenAI, shell scripting has gotten another boost. AI coding agents are surprisingly good at writing shell scripts, and they tend to follow best practices like strict mode without being prompted. I’ve been pleasantly surprised to see that. But you still need to know enough to review what the AI generates, which is where the rest of this article comes in.\nCommon pitfalls It is easy to look at a well written shell script and get lured into the idea that shell scripting is just like programming in compiled languages. Some of the design choices that were made in the 1970’s still affect the design of the shell and fixes were glommed on so that it can be bewildering how to choose when There Is More Than One Way To Do It.\nLine orientation Imagine a world where you’re interacting with the remote computer via a teletype. Each time you press Enter the command that you’ve been typing gets processed by the computer and you get some output. This is how the original shells were written. Accumulate a command and wait for the Enter key to process it. So, to this day to get a command to go across multiple lines you need to escape the end of the line with a backslash that is immediately followed by the newline.\nWhitespace matters After you get in your head that everything is a line to be processed, the next thing to add to your mental model is that the shell is going to split things up based on whitespace. This includes the space, tab and a few other characters. The shell uses the whitespace to split your command up into multiple arguments. These arguments are passed into the command that is being run. If you’ve ever tried to run a command with a filename argument that had a space in it, you’ve seen a “file not found” error or two, because the two parts of your filename were separate arguments to the command. Most of the time neither half of your filename exists as a file and so you get an error message.\nQuoting To overcome the shell splitting your filename, you have a variety of choices:\nPut it in single quotes (') and the shell will leave it alone Put it in double quotes (\") and the shell will probably leave it alone Put a backslash (\\) in front of the space to escape it. Single quotes are simple: they escape everything inside of them. No shell magic works inside of single quotes. What you put in them should get passed to the command without alteration. Double quotes are more interesting and complex. Double quotes allow some shell magic to occur. The most important thing that you can do inside of double quotes is variable substitution, which I will cover in the next section.\nVariable substitution Substitution is shell terminology for putting the value of a variable somewhere in your command. The dollar sign ($) is how a substitution starts in the shell. If a dollar sign is followed by a word like foo, you are substituting the value of foo in that spot. So ls $foo will change depending on the variable foo. The variable foo is probably a directory or file name in the context of running ls. But it could also contain options. If foo contains options and a file name they would be separated by spaces in the variable. Then the shell will substitute that variable, see the spaces and split it up into multiple arguments for the ls command. That sounds great in this example, but typically that is not a desirable behavior. The best practice for variable substitution is to encapsulate it in double quotes so that the substitution can work, but the whitespace does not cause it to be split into multiple arguments. Prefer \"$foo\" over $foo.\nCommand substitution Beyond variable substitution, the shell can substitute the output of an entire command. This is called command substitution and it comes in two flavors:\nBackticks: `command` Dollar-paren: $(command) Both do the same thing: run the command and substitute its output in place. But the dollar-paren form is strongly preferred for several reasons:\nNesting works naturally. `echo \\`echo hello\\ `` is a mess of escaping, while $(echo $(echo hello)) reads clearly. It’s visually distinct from single quotes, which backticks resemble in many fonts. It composes with variable substitution naturally: \"/data/$(date +%Y)\". If you see backticks in a script, it works, but it’s a habit worth upgrading.\nBest practices Now that we’ve covered the pitfalls that trip people up, let’s talk about habits that make shell scripts significantly more reliable and maintainable.\nShebang lines Every shell script should start with a shebang line that tells the system which interpreter to use. This is so fundamental that shellcheck will warn you when it’s missing.\nThe two common approaches are:\n#!/bin/bash and:\n#!/usr/bin/env bash The first is explicit and unambiguous about which bash binary to run. The second uses env to find bash on the PATH, which is more portable across different systems. The env approach is what I prefer because it handles the case where bash lives in different places on different operating systems. Either way, pick one and use it consistently.\nFor scripts that only use POSIX features, you can even use:\n#!/bin/sh which ensures maximum portability but limits you to Bourne shell features.\nShell strict mode As Aaron Maxwell explains so well so many years ago, it is a good habit to start your shell scripts with:\nset -euo pipefail IFS=$'\\n\\t' This is akin to Perl and JavaScript’s strict modes. It makes shell scripting less surprising. Breaking it down, here is what it changes:\nset -e — Exits immediately on any command failure, making errors explicit and loud instead of silently continuing (where a failed mid-script command could be masked by a successful final command). set -u — Catches undefined variable references (e.g., typos like $firstname vs $firstName), immediately failing instead of silently evaluating to an empty string. set -o pipefail — Prevents pipeline errors from being masked. Without it, a failing command in a pipeline (like grep on a nonexistent file piped to sort) returns the exit code of the last command (0), hiding the error. With pipefail, the pipeline returns the failing command’s exit code. IFS=$'\\n\\t' — Removes space from the field separator, so word splitting only happens on newlines and tabs. This prevents filenames and strings with spaces from being split unexpectedly—essential for correctly iterating over arrays or handling arguments with spaces. This has been such a widely recognized paradigm that it is now baked into Claude Code and other coding agents. Seeing the AIs generating code with strict mode was a very pleasant surprise for me.\nThe only part that I’ve found to occasionally be inconvenient is the set -o pipefail but that is pretty rare and not hard to work around. Worst case is to wrap a challenging pipeline with set +o pipefail around the problematic line then set -o pipefail.\nOne important caveat about set -e: it does not trigger inside if conditions, while loops, or commands connected with \u0026\u0026 or ||. This is by design—the shell assumes you’re already handling the error in those contexts. But it means that set -e is not a complete substitute for explicit error checking. It catches the obvious failures and makes your scripts safer, but you still need to think about error handling for the cases where it silently steps aside.\nConditionals One of my pet pieces in shell script is single bracket conditionals. For instance, I just plucked this from my own code:\nif [ -f /etc/bashrc ]; then Luckily that is code from 2013, but I’m still sad that I wasn’t in the good habit of writing it like this:\nif [[ -f /etc/bashrc ]]; then Not that much difference! Just double brackets instead of single brackets. Would it make any difference? In the case of this conditional, no, either one should work fine for this conditional. But what about:\nif [[ -f \"$filename\" ]]; then Where we have a variable that should contain a filename. But what if we accidentally end up with nothing in $filename? Since we’re following best practices, nothing weird happens.\nOur double quotes don’t care that $filename is empty. Empty double quotes still count as an argument in the UNIX command line sense, so -f still gets an argument and something to look for. And the double brackets also protect us. If we left out the quotes, the double square brackets make an exception to the normal command line parsing rules and preserve the part that became empty as an argument. Parameter expansion Shell variables have a built-in superpower that most people never fully explore: parameter expansion. Beyond simple substitution, the shell gives you concise ways to handle default values, assign fallbacks, and manipulate strings.\nSome of the most useful forms:\n${var:-default} — Use default if var is unset or empty ${var:=default} — Assign default to var if it’s unset or empty ${var:+alternate} — Use alternate if var is set (the opposite of :-) ${var#pattern} — Remove shortest match of pattern from the start ${var##pattern} — Remove longest match of pattern from the start ${var%pattern} — Remove shortest match of pattern from the end ${var%%pattern} — Remove longest match of pattern from the end The :- forms are invaluable for script robustness. Instead of writing:\nif [ -z \"$OUTPUT_DIR\" ]; then OUTPUT_DIR=/tmp fi You can write:\nOUTPUT_DIR=\"${OUTPUT_DIR:-/tmp}\" The # and % forms are handy for filename manipulation. Need the file extension? ${filename##*.} gives you everything after the last dot. Need the name without the extension? ${filename%.*} strips the shortest match from the end. If you’re reaching for sed or awk to do simple string extraction, check whether parameter expansion can handle it first.\nChecking return values Sometimes you will see code which runs a command and then looks at $? to see if it was successful. But there is a much simpler way to code this in the shell:\nif cmd; then # it succeeded else # it failed fi Just drop the brackets and put your command after the if. Unless you care about particular return values, this will be much cleaner to write and be less fragile to maintain.\nFunctions Shell scripts beyond a few lines benefit from functions. They make your code more readable, more testable, and avoid the dreaded “spaghetti script” that grows by accretion.\nA few key points about shell functions:\nThe function keyword is optional in bash. my_func() { ... } and function my_func() { ... } both work. Pick one style and stick with it. Shell functions don’t declare parameters explicitly. Inside a function, $1, $2, etc. refer to the arguments passed to the function, not the script. Always use local for variables that shouldn’t escape the function. Without it, you’re polluting the global namespace and creating bugs that are surprisingly hard to track down. count_files() { local dir=\"${1:-.}\" local count count=$(find \"$dir\" -maxdepth 1 -type f | wc -l) echo \"$count\" } We’ll see a concrete example of this in the Shellcheck section below, where shellcheck flags an alias trying to use positional parameters. The fix is exactly what shellcheck suggested: use a function instead.\nCleanup with trap One of the most underused features in shell scripting is trap. It lets you register code that runs when the script exits, whether normally or from a signal like Ctrl-C. This is essential for cleaning up temporary files, releasing locks, and restoring terminal settings.\nA common pattern:\ncleanup() { rm -f \"$tmpfile\" } trap cleanup EXIT tmpfile=\"$(mktemp)\" No matter how your script exits—successfully, with an error, or from an interrupt signal—the cleanup function will run and remove the temporary file. This pairs naturally with set -e: since strict mode causes your script to exit on the first error, you need trap to ensure cleanup happens even on unexpected exits.\nYou can also trap specific signals separately if you need different behavior for Ctrl-C versus normal exit:\ntrap 'echo aborted; exit 1' INT trap cleanup EXIT When not to use shell I’ve been advocating for shell scripting throughout this article, but it’s important to know its limits. Shell scripting is the wrong tool when:\nYou need complex data structures beyond simple arrays and associative arrays. If you’re simulating a hash map of lists, it’s time for Python. You’re doing math beyond simple integer arithmetic. Shell math is limited and awkward. $((1 + 2)) works for integers, but anything involving floating point means you’re shelling out to bc or awk and you’ve lost the simplicity advantage. You need proper error handling with exceptions. Shell error handling is pragmatic but crude compared to try/catch in most languages. Your script is growing past a few hundred lines. At that point the lack of modules, proper scoping, and a type system makes maintenance harder than it needs to be. You’re handling passwords or other secrets on the command line. Arguments to shell commands are visible in ps output, which is a security nightmare. The rule of thumb I’ve always used: if you’re writing more functions than pipelines, you’ve probably crossed the threshold where a full programming language would serve you better.\nUseful resources Here are a few resources that you will find handy while shell scripting.\nShellcheck Shellcheck is the premier linter for shell scripts. It is embedded in a variety of other tools like the Super-Linter and ActionLint GitHub actions. This should be one of the first things you download in your shell scripting journey. It might initially be a bit intimidating to see the results on your code, but over time your habits will get used to shellcheck’s complaints and you won’t hear from it quite as often. Another brief example from my old code:\n❯ shellcheck .aliases In .aliases line 1: alias grep='grep --colour=auto' ^-- SC2148 (error): Tips depend on target shell and yours is unknown. Add a shebang or a 'shell' directive. In .aliases line 4: alias greattail='goodtail $1 | /home/chicks/colorlog2' ^-- SC2142 (error): Aliases can't use positional parameters. Use a function. For more information: https://www.shellcheck.net/wiki/SC2142 -- Aliases can't use positional para... https://www.shellcheck.net/wiki/SC2148 -- Tips depend on target shell and y... Shellcheck makes two useful points:\nThere’s no shebang line so it doesn’t know which shell to target. I’m definitely a fan of good shebang lines, but I have skipped it for this file. Line 4 tries to do something with an alias that will probably fail. Doh. Shellcheck is packed with useful hints. It will teach you or your AI a lot about writing good shell scripts.\nGoogle’s Shell Style Guide Another great influence on shell best practices is Google’s Shell Style Guide. If you like the advice in this blog post, then you’ll want to make this your next reading assignment. I don’t even see anything to quibble over in it. It is a lot of sound advice on shell best practices.\nConclusion Shell scripting occupies a unique niche: it’s been around for over fifty years, it’s available on every UNIX-like system, and it’s still the most natural way to glue commands together. The pitfalls are real—whitespace sensitivity, quoting rules, and silent error handling have frustrated generations of programmers—but the best practices to avoid those pitfalls are well-established and straightforward.\nStart with strict mode. Quote your variables. Use double brackets. Write functions with local variables. Clean up with trap. Run shellcheck. Follow these habits and your shell scripts will be more reliable than you might have thought possible.\nAnd if you find yourself reaching for arrays of arrays or floating-point math, it’s okay. That’s Python’s job. The shell will still be there when you need to pipe its output somewhere useful.\n",
+  "wordCount" : "3079",
+  "inLanguage": "en",
+  "image": "https://www.chicks.net/chicks/chicks_wedding01.jpg","datePublished": "2026-06-05T21:05:12-04:00",
+  "dateModified": "2026-06-05T21:05:12-04:00",
+  "author":{
+    "@type": "Person",
+    "name": "Christopher Hicks"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Christopher Hicks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.chicks.net/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="https://www.chicks.net/" accesskey="h" title="Chicks.Net (Alt + H)">
+                <img src="https://www.chicks.net/favicon-32x32.png" alt="" aria-label="logo"
+                    height="32">Chicks.Net</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="https://www.chicks.net/intro" title="Intro">
+                    <span>Intro</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/posts" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/links" title="Links">
+                    <span>Links</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/reference" title="Reference">
+                    <span>Reference</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.chicks.net/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://www.chicks.net/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="https://www.chicks.net/posts/">Posts</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      Shell Programming Best Practices
+    </h1>
+    <div class="post-description">
+      Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.
+    </div>
+    <div class="post-meta"><span title='2026-06-05 21:05:12 -0400 -0400'>June 5, 2026</span>&nbsp;·&nbsp;<span>15 min</span>&nbsp;·&nbsp;<span>3079 words</span>&nbsp;·&nbsp;<span>Christopher Hicks</span>&nbsp;|&nbsp;<span>
+    <a href="https://github.com/chicks-net/www-chicks-net/tree/main/content/posts/2026-06-06-shell-programming-best-practices.md" rel="noopener noreferrer edit" target="_blank">Suggest Changes</a>
+</span>
+
+</div>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#my-qualifications">My Qualifications</a></li>
+    <li><a href="#terminology-note">Terminology note</a></li>
+    <li><a href="#why-shell-scripting-endures">Why shell scripting endures</a></li>
+    <li><a href="#common-pitfalls">Common pitfalls</a>
+      <ul>
+        <li><a href="#line-orientation">Line orientation</a></li>
+        <li><a href="#whitespace-matters">Whitespace matters</a></li>
+        <li><a href="#quoting">Quoting</a></li>
+        <li><a href="#variable-substitution">Variable substitution</a></li>
+        <li><a href="#command-substitution">Command substitution</a></li>
+      </ul>
+    </li>
+    <li><a href="#best-practices">Best practices</a>
+      <ul>
+        <li><a href="#shebang-lines">Shebang lines</a></li>
+        <li><a href="#shell-strict-mode">Shell strict mode</a></li>
+        <li><a href="#conditionals">Conditionals</a></li>
+        <li><a href="#parameter-expansion">Parameter expansion</a></li>
+        <li><a href="#checking-return-values">Checking return values</a></li>
+        <li><a href="#functions">Functions</a></li>
+        <li><a href="#cleanup-with-trap">Cleanup with trap</a></li>
+        <li><a href="#when-not-to-use-shell">When not to use shell</a></li>
+      </ul>
+    </li>
+    <li><a href="#useful-resources">Useful resources</a>
+      <ul>
+        <li><a href="#shellcheck">Shellcheck</a></li>
+        <li><a href="#googles-shell-style-guide">Google&rsquo;s Shell Style Guide</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="my-qualifications">My Qualifications<a hidden class="anchor" aria-hidden="true" href="#my-qualifications">#</a></h2>
+<p>Since this is my own blog I&rsquo;m usually happy to avoid reminding you of how
+qualified I am.  In this case it is easy to note that:</p>
+<ul>
+<li>I spent a dozen years teaching shell scripting on UNIX and Linux with
+materials that I wrote the majority of.  The students were surprised and
+happy to have a teacher that had real industry experience.</li>
+<li>I&rsquo;ve done <a href="https://codereview.stackexchange.com/users/89257/chicks">46+ code reviews for
+bash</a> on Code Review
+StackExchange over the last decade.</li>
+<li>I&rsquo;ve been a fan of <code>bash</code> and a detractor for <code>csh</code> and <code>ksh</code> for 30+ years.</li>
+</ul>
+<h2 id="terminology-note">Terminology note<a hidden class="anchor" aria-hidden="true" href="#terminology-note">#</a></h2>
+<p>For purposes of this article I&rsquo;m going to talk about the &ldquo;shell&rdquo; referring to
+various shell implementations which traditionally end in &ldquo;sh&rdquo;.  This excludes
+scripting languages such as Perl and Python.  I&rsquo;m not trying to say anything
+bad about Python here.  There&rsquo;s plenty of that already on the Internet.  The
+most popular shells these days are <code>bash</code>, <code>zsh</code>, and <code>fish</code>. Most of what I&rsquo;m
+going to say could apply to any of them, but some things will be specific to
+the Bourne Shell (<code>/bin/sh</code>) and compatible shells such as <code>bash</code> and <code>ksh</code>.</p>
+<h2 id="why-shell-scripting-endures">Why shell scripting endures<a hidden class="anchor" aria-hidden="true" href="#why-shell-scripting-endures">#</a></h2>
+<p>Shell programming has been growing in a variety of
+<a href="https://github.com/edorig/dtksh">strange</a> ways since it was introduced in the
+1970&rsquo;s.  UNIX revolutionized computing by providing this interactive
+environment with an amazing set of tools. The shell was where all of these
+tools were brought together.  And so many shells have been developed to ease
+programming and expand the possibilities.</p>
+<p>With all of the other tools available today for handling these same tasks it is
+amazing that the UNIX data processing model lives on in Linux and bash and the
+vast number of command line tools that are still being actively developed.
+This leads to some of the motivations that are still relevant today:</p>
+<ul>
+<li>If you need a simple wrapper around an existing command, a shell script is
+the easiest place to start.  No programming language makes it as easy to
+invoke and redirect existing commands.  You probably already have a command in
+Linux that does 90% of what you want to do.  Write a little shell script to do
+the rest.</li>
+<li>The shell provides a nice neutral ground between different programming
+languages.  As long as your program can handle text input or output, it can
+be integrated with other tools written in different languages.  The shell
+provides the place for integration and debugging.</li>
+<li>The classic UNIX toolkit is quite performant and can scale to deal with an
+incredible amount of data in a modern laptop.  Why fight with the latest
+framework for massive parallel processing when you can write a shell script to
+take care of it in less time?</li>
+</ul>
+<p>And now in the age of GenAI, shell scripting has gotten another boost.  AI
+coding agents are surprisingly good at writing shell scripts, and they tend to
+follow best practices like strict mode without being prompted.  I&rsquo;ve been
+pleasantly surprised to see that.  But you still need to know enough to review
+what the AI generates, which is where the rest of this article comes in.</p>
+<h2 id="common-pitfalls">Common pitfalls<a hidden class="anchor" aria-hidden="true" href="#common-pitfalls">#</a></h2>
+<p>It is easy to look at a well written shell script and get lured into the idea
+that shell scripting is just like programming in compiled languages.  Some of
+the design choices that were made in the 1970&rsquo;s still affect the design of the
+shell and fixes were glommed on so that it can be bewildering how to choose
+when <a href="https://wiki.c2.com/?ThereIsMoreThanOneWayToDoIt">There Is More Than One Way To Do
+It</a>.</p>
+<h3 id="line-orientation">Line orientation<a hidden class="anchor" aria-hidden="true" href="#line-orientation">#</a></h3>
+<p>Imagine a world where you&rsquo;re interacting with the remote computer via a
+teletype.  Each time you press <em>Enter</em> the command that you&rsquo;ve been typing gets
+processed by the computer and you get some output.  This is how the original
+shells were written.  Accumulate a command and wait for the <em>Enter</em> key to
+process it.  So, to this day to get a command to go across multiple lines you
+need to escape the end of the line with a backslash that is immediately
+followed by the newline.</p>
+<h3 id="whitespace-matters">Whitespace matters<a hidden class="anchor" aria-hidden="true" href="#whitespace-matters">#</a></h3>
+<p>After you get in your head that everything is a line to be processed, the next
+thing to add to your mental model is that the shell is going to split things up
+based on whitespace.  This includes the space, tab and a few other characters.
+The shell uses the whitespace to split your command up into multiple
+arguments.  These arguments are passed into the command that is being run.  If
+you&rsquo;ve ever tried to run a command with a filename argument that had a space in
+it, you&rsquo;ve seen a &ldquo;file not found&rdquo; error or two, because the two parts of your
+filename were separate arguments to the command.  Most of the time neither half
+of your filename exists as a file and so you get an error message.</p>
+<h3 id="quoting">Quoting<a hidden class="anchor" aria-hidden="true" href="#quoting">#</a></h3>
+<p>To overcome the shell splitting your filename, you have a variety of choices:</p>
+<ul>
+<li>Put it in single quotes (<code>'</code>) and the shell will leave it alone</li>
+<li>Put it in double quotes (<code>&quot;</code>) and the shell will probably leave it alone</li>
+<li>Put a backslash (<code>\</code>) in front of the space to escape it.</li>
+</ul>
+<p>Single quotes are simple: they escape everything inside of them.  No shell
+magic works inside of single quotes.  What you put in them should get passed to
+the command without alteration.  Double quotes are more interesting and
+complex.  Double quotes allow some shell magic to occur.  The most important
+thing that you can do inside of double quotes is variable substitution, which I
+will cover in the next section.</p>
+<h3 id="variable-substitution">Variable substitution<a hidden class="anchor" aria-hidden="true" href="#variable-substitution">#</a></h3>
+<p>Substitution is shell terminology for putting the value of a variable somewhere
+in your command.  The dollar sign (<code>$</code>) is how a substitution starts in the
+shell.  If a dollar sign is followed by a word like <code>foo</code>, you are substituting
+the value of <code>foo</code> in that spot.  So <code>ls $foo</code> will change depending on the
+variable <code>foo</code>.  The variable <code>foo</code> is probably a directory or file name in the
+context of running <code>ls</code>.  But it could also contain options.  If <code>foo</code> contains
+options and a file name they would be separated by spaces in the variable. Then
+the shell will substitute that variable, see the spaces and split it up into
+multiple arguments for the <code>ls</code> command.  That sounds great in this example,
+but typically that is not a desirable behavior.  The best practice for variable
+substitution is to encapsulate it in double quotes so that the substitution can
+work, but the whitespace does not cause it to be split into multiple
+arguments.  Prefer <code>&quot;$foo&quot;</code> over <code>$foo</code>.</p>
+<h3 id="command-substitution">Command substitution<a hidden class="anchor" aria-hidden="true" href="#command-substitution">#</a></h3>
+<p>Beyond variable substitution, the shell can substitute the output of an entire
+command.  This is called command substitution and it comes in two flavors:</p>
+<ul>
+<li>Backticks: <code>`command`</code></li>
+<li>Dollar-paren: <code>$(command)</code></li>
+</ul>
+<p>Both do the same thing: run the command and substitute its output in place.  But
+the dollar-paren form is strongly preferred for several reasons:</p>
+<ol>
+<li>Nesting works naturally.  <code> `echo \`echo hello\</code> `` is a mess of escaping,
+while <code>$(echo $(echo hello))</code> reads clearly.</li>
+<li>It&rsquo;s visually distinct from single quotes, which backticks resemble
+in many fonts.</li>
+<li>It composes with variable substitution naturally: <code>&quot;/data/$(date +%Y)&quot;</code>.</li>
+</ol>
+<p>If you see backticks in a script, it works, but it&rsquo;s a habit worth upgrading.</p>
+<h2 id="best-practices">Best practices<a hidden class="anchor" aria-hidden="true" href="#best-practices">#</a></h2>
+<p>Now that we&rsquo;ve covered the pitfalls that trip people up, let&rsquo;s talk about
+habits that make shell scripts significantly more reliable and maintainable.</p>
+<h3 id="shebang-lines">Shebang lines<a hidden class="anchor" aria-hidden="true" href="#shebang-lines">#</a></h3>
+<p>Every shell script should start with a shebang line that tells the system which
+interpreter to use.  This is so fundamental that shellcheck will warn you when
+it&rsquo;s missing.</p>
+<p>The two common approaches are:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span></code></pre></div><p>and:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+</span></span></span></code></pre></div><p>The first is explicit and unambiguous about which bash binary to run.  The
+second uses <code>env</code> to find bash on the <code>PATH</code>, which is more portable across
+different systems.  The <code>env</code> approach is what I prefer because it handles the
+case where bash lives in different places on different operating systems.  Either
+way, pick one and use it consistently.</p>
+<p>For scripts that only use POSIX features, you can even use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/sh
+</span></span></span></code></pre></div><p>which ensures maximum portability but limits you to Bourne shell features.</p>
+<h3 id="shell-strict-mode">Shell strict mode<a hidden class="anchor" aria-hidden="true" href="#shell-strict-mode">#</a></h3>
+<p>As <a href="http://redsymbol.net/articles/unofficial-bash-strict-mode/">Aaron Maxwell explains so
+well</a> so many years
+ago, it is a good habit to start your shell scripts with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>set -euo pipefail
+</span></span><span style="display:flex;"><span>IFS<span style="color:#f92672">=</span><span style="color:#e6db74">$&#39;\n\t&#39;</span>
+</span></span></code></pre></div><p>This is akin to Perl and JavaScript&rsquo;s strict modes.  It makes shell scripting
+less surprising.  Breaking it down, here is what it changes:</p>
+<ol>
+<li><code>set -e</code> — Exits immediately on any command failure, making errors explicit
+and loud instead of silently continuing (where a failed mid-script command
+could be masked by a successful final command).</li>
+<li><code>set -u</code> — Catches undefined variable references (e.g., typos like $firstname
+vs $firstName), immediately failing instead of silently evaluating to an
+empty string.</li>
+<li><code>set -o pipefail</code> — Prevents pipeline errors from being masked. Without it, a
+failing command in a pipeline (like grep on a nonexistent file piped to
+sort) returns the exit code of the last command (0), hiding the error. With
+pipefail, the pipeline returns the failing command&rsquo;s exit code.</li>
+<li><code>IFS=$'\n\t'</code> — Removes space from the field separator, so word splitting
+only happens on newlines and tabs. This prevents filenames and strings with
+spaces from being split unexpectedly—essential for correctly iterating over
+arrays or handling arguments with spaces.</li>
+</ol>
+<p>This has been such a widely recognized paradigm that it is now baked into
+Claude Code and other coding agents.  Seeing the AIs generating code with
+strict mode was a very pleasant surprise for me.</p>
+<p>The only part that I&rsquo;ve found to occasionally be inconvenient is the <code>set -o pipefail</code> but that is pretty rare and not hard to work around.  Worst case is to
+wrap a challenging pipeline with <code>set +o pipefail</code> around the problematic line
+then <code>set -o pipefail</code>.</p>
+<p>One important caveat about <code>set -e</code>: it does not trigger inside <code>if</code> conditions,
+<code>while</code> loops, or commands connected with <code>&amp;&amp;</code> or <code>||</code>.  This is by design—the
+shell assumes you&rsquo;re already handling the error in those contexts.  But it means
+that <code>set -e</code> is not a complete substitute for explicit error checking.  It
+catches the obvious failures and makes your scripts safer, but you still need to
+think about error handling for the cases where it silently steps aside.</p>
+<h3 id="conditionals">Conditionals<a hidden class="anchor" aria-hidden="true" href="#conditionals">#</a></h3>
+<p>One of my pet pieces in shell script is single bracket conditionals.  For
+instance, I just plucked this from my own code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -f /etc/bashrc <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span></code></pre></div><p>Luckily that is code from 2013, but I&rsquo;m still sad that I wasn&rsquo;t in the good habit of writing it like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> -f /etc/bashrc <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span></code></pre></div><p>Not that much difference!  Just double brackets instead of single brackets.
+Would it make any difference?  In the case of this conditional, no, either one
+should work fine for this conditional.  But what about:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> -f <span style="color:#e6db74">&#34;</span>$filename<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span></code></pre></div><p>Where we have a variable that should contain a filename.  But what if we
+accidentally end up with nothing in $filename?  Since we&rsquo;re following best
+practices, nothing weird happens.</p>
+<ol>
+<li>Our double quotes don&rsquo;t care that $filename is empty.  Empty double quotes
+still count as an argument in the UNIX command line sense, so <code>-f</code> still gets
+an argument and something to look for.  And the double brackets also protect
+us.</li>
+<li>If we left out the quotes, the double square brackets make an exception to
+the normal command line parsing rules and preserve the part that became
+empty as an argument.</li>
+</ol>
+<h3 id="parameter-expansion">Parameter expansion<a hidden class="anchor" aria-hidden="true" href="#parameter-expansion">#</a></h3>
+<p>Shell variables have a built-in superpower that most people never fully
+explore: parameter expansion.  Beyond simple substitution, the shell gives you
+concise ways to handle default values, assign fallbacks, and manipulate strings.</p>
+<p>Some of the most useful forms:</p>
+<ul>
+<li><code>${var:-default}</code> — Use <code>default</code> if <code>var</code> is unset or empty</li>
+<li><code>${var:=default}</code> — Assign <code>default</code> to <code>var</code> if it&rsquo;s unset or empty</li>
+<li><code>${var:+alternate}</code> — Use <code>alternate</code> if <code>var</code> is set (the opposite of <code>:-</code>)</li>
+<li><code>${var#pattern}</code> — Remove shortest match of <code>pattern</code> from the start</li>
+<li><code>${var##pattern}</code> — Remove longest match of <code>pattern</code> from the start</li>
+<li><code>${var%pattern}</code> — Remove shortest match of <code>pattern</code> from the end</li>
+<li><code>${var%%pattern}</code> — Remove longest match of <code>pattern</code> from the end</li>
+</ul>
+<p>The <code>:-</code> forms are invaluable for script robustness.  Instead of writing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -z <span style="color:#e6db74">&#34;</span>$OUTPUT_DIR<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    OUTPUT_DIR<span style="color:#f92672">=</span>/tmp
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>You can write:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>OUTPUT_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>OUTPUT_DIR<span style="color:#66d9ef">:-</span>/tmp<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>The <code>#</code> and <code>%</code> forms are handy for filename manipulation.  Need the file
+extension?  <code>${filename##*.}</code> gives you everything after the last dot.  Need the
+name without the extension?  <code>${filename%.*}</code> strips the shortest match from the
+end.  If you&rsquo;re reaching for <code>sed</code> or <code>awk</code> to do simple string extraction,
+check whether parameter expansion can handle it first.</p>
+<h3 id="checking-return-values">Checking return values<a hidden class="anchor" aria-hidden="true" href="#checking-return-values">#</a></h3>
+<p>Sometimes you will see code which runs a command and then looks at <code>$?</code> to see if
+it was successful.  But there is a much simpler way to code this in the shell:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> cmd; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># it succeeded</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># it failed</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>Just drop the brackets and put your command after the if.  Unless you care
+about particular return values, this will be much cleaner to write and be less
+fragile to maintain.</p>
+<h3 id="functions">Functions<a hidden class="anchor" aria-hidden="true" href="#functions">#</a></h3>
+<p>Shell scripts beyond a few lines benefit from functions.  They make your code
+more readable, more testable, and avoid the dreaded &ldquo;spaghetti script&rdquo; that
+grows by accretion.</p>
+<p>A few key points about shell functions:</p>
+<ul>
+<li>The <code>function</code> keyword is optional in bash.  <code>my_func() { ... }</code> and
+<code>function my_func() { ... }</code> both work.  Pick one style and stick with it.</li>
+<li>Shell functions don&rsquo;t declare parameters explicitly.  Inside a function,
+<code>$1</code>, <code>$2</code>, etc. refer to the arguments passed to the function, not the
+script.</li>
+<li>Always use <code>local</code> for variables that shouldn&rsquo;t escape the function.  Without
+it, you&rsquo;re polluting the global namespace and creating bugs that are
+surprisingly hard to track down.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>count_files<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    local dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>1<span style="color:#66d9ef">:-</span>.<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    local count
+</span></span><span style="display:flex;"><span>    count<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>find <span style="color:#e6db74">&#34;</span>$dir<span style="color:#e6db74">&#34;</span> -maxdepth <span style="color:#ae81ff">1</span> -type f | wc -l<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>    echo <span style="color:#e6db74">&#34;</span>$count<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>We&rsquo;ll see a concrete example of this in the Shellcheck section below,
+where shellcheck flags an alias trying to use positional parameters.  The fix is exactly
+what shellcheck suggested: use a function instead.</p>
+<h3 id="cleanup-with-trap">Cleanup with trap<a hidden class="anchor" aria-hidden="true" href="#cleanup-with-trap">#</a></h3>
+<p>One of the most underused features in shell scripting is <code>trap</code>.  It lets you
+register code that runs when the script exits, whether normally or from a
+signal like Ctrl-C.  This is essential for cleaning up temporary files,
+releasing locks, and restoring terminal settings.</p>
+<p>A common pattern:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cleanup<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    rm -f <span style="color:#e6db74">&#34;</span>$tmpfile<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>trap cleanup EXIT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>tmpfile<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>mktemp<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>No matter how your script exits—successfully, with an error, or from an
+interrupt signal—the <code>cleanup</code> function will run and remove the temporary file.
+This pairs naturally with <code>set -e</code>: since strict mode causes your script to exit
+on the first error, you need <code>trap</code> to ensure cleanup happens even on unexpected
+exits.</p>
+<p>You can also trap specific signals separately if you need different behavior
+for Ctrl-C versus normal exit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>trap <span style="color:#e6db74">&#39;echo aborted; exit 1&#39;</span> INT
+</span></span><span style="display:flex;"><span>trap cleanup EXIT
+</span></span></code></pre></div><h3 id="when-not-to-use-shell">When not to use shell<a hidden class="anchor" aria-hidden="true" href="#when-not-to-use-shell">#</a></h3>
+<p>I&rsquo;ve been advocating for shell scripting throughout this article, but it&rsquo;s
+important to know its limits.  Shell scripting is the wrong tool when:</p>
+<ul>
+<li>You need complex data structures beyond simple arrays and associative arrays.
+If you&rsquo;re simulating a hash map of lists, it&rsquo;s time for Python.</li>
+<li>You&rsquo;re doing math beyond simple integer arithmetic.  Shell math is limited and
+awkward.  <code>$((1 + 2))</code> works for integers, but anything involving floating
+point means you&rsquo;re shelling out to <code>bc</code> or <code>awk</code> and you&rsquo;ve lost the
+simplicity advantage.</li>
+<li>You need proper error handling with exceptions.  Shell error handling is
+pragmatic but crude compared to try/catch in most languages.</li>
+<li>Your script is growing past a few hundred lines.  At that point the lack of
+modules, proper scoping, and a type system makes maintenance harder than it
+needs to be.</li>
+<li>You&rsquo;re handling passwords or other secrets on the command line.  Arguments to
+shell commands are visible in <code>ps</code> output, which is a security nightmare.</li>
+</ul>
+<p>The rule of thumb I&rsquo;ve always used: if you&rsquo;re writing more functions than
+pipelines, you&rsquo;ve probably crossed the threshold where a full programming
+language would serve you better.</p>
+<h2 id="useful-resources">Useful resources<a hidden class="anchor" aria-hidden="true" href="#useful-resources">#</a></h2>
+<p>Here are a few resources that you will find handy while shell scripting.</p>
+<h3 id="shellcheck">Shellcheck<a hidden class="anchor" aria-hidden="true" href="#shellcheck">#</a></h3>
+<p>Shellcheck is the premier linter for shell scripts.  It is embedded in a
+variety of other tools like the Super-Linter and ActionLint GitHub actions.
+This should be one of the first things you download in your shell scripting
+journey.  It might initially be a bit intimidating to see the results on your
+code, but over time your habits will get used to shellcheck&rsquo;s complaints and
+you won&rsquo;t hear from it quite as often.  Another brief example from my old code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>❯ shellcheck .aliases
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>In .aliases line 1:
+</span></span><span style="display:flex;"><span>alias grep=&#39;grep --colour=auto&#39;
+</span></span><span style="display:flex;"><span>^-- SC2148 (error): Tips depend on target shell and yours is unknown. Add a shebang or a &#39;shell&#39; directive.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>In .aliases line 4:
+</span></span><span style="display:flex;"><span>alias greattail=&#39;goodtail $1 | /home/chicks/colorlog2&#39;
+</span></span><span style="display:flex;"><span>      ^-- SC2142 (error): Aliases can&#39;t use positional parameters. Use a function.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>For more information:
+</span></span><span style="display:flex;"><span>  https://www.shellcheck.net/wiki/SC2142 -- Aliases can&#39;t use positional para...
+</span></span><span style="display:flex;"><span>  https://www.shellcheck.net/wiki/SC2148 -- Tips depend on target shell and y...
+</span></span></code></pre></div><p>Shellcheck makes two useful points:</p>
+<ol>
+<li>There&rsquo;s no shebang line so it doesn&rsquo;t know which shell to target.  I&rsquo;m
+definitely a fan of good shebang lines, but I have skipped it for this file.</li>
+<li>Line 4 tries to do something with an alias that will probably fail.  Doh.</li>
+</ol>
+<p>Shellcheck is packed with useful hints.  It will teach you or your AI a lot
+about writing good shell scripts.</p>
+<h3 id="googles-shell-style-guide">Google&rsquo;s Shell Style Guide<a hidden class="anchor" aria-hidden="true" href="#googles-shell-style-guide">#</a></h3>
+<p>Another great influence on shell best practices is Google&rsquo;s <a href="https://google.github.io/styleguide/shellguide.html">Shell Style
+Guide</a>. If you like the
+advice in this blog post, then you&rsquo;ll want to make this your next reading
+assignment.  I don&rsquo;t even see anything to quibble over in it.  It is a lot of
+sound advice on shell best practices.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Shell scripting occupies a unique niche: it&rsquo;s been around for over fifty years,
+it&rsquo;s available on every UNIX-like system, and it&rsquo;s still the most natural way to
+glue commands together.  The pitfalls are real—whitespace sensitivity, quoting
+rules, and silent error handling have frustrated generations of programmers—but
+the best practices to avoid those pitfalls are well-established and straightforward.</p>
+<p>Start with strict mode.  Quote your variables.  Use double brackets.  Write
+functions with <code>local</code> variables.  Clean up with <code>trap</code>.  Run shellcheck.  Follow
+these habits and your shell scripts will be more reliable than you might have
+thought possible.</p>
+<p>And if you find yourself reaching for arrays of arrays or floating-point math,
+it&rsquo;s okay.  That&rsquo;s Python&rsquo;s job.  The shell will still be there when you need to
+pipe its output somewhere useful.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://www.chicks.net/tags/free-software/">Free-Software</a></li>
+      <li><a href="https://www.chicks.net/tags/habits/">Habits</a></li>
+      <li><a href="https://www.chicks.net/tags/linux/">Linux</a></li>
+      <li><a href="https://www.chicks.net/tags/programming/">Programming</a></li>
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Shell Programming Best Practices on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.chicks.net%2fposts%2f2026-06-06-shell-programming-best-practices%2f&amp;title=Shell%20Programming%20Best%20Practices&amp;summary=Shell%20Programming%20Best%20Practices&amp;source=https%3a%2f%2fwww.chicks.net%2fposts%2f2026-06-06-shell-programming-best-practices%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Shell Programming Best Practices on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fwww.chicks.net%2fposts%2f2026-06-06-shell-programming-best-practices%2f&title=Shell%20Programming%20Best%20Practices">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Shell Programming Best Practices on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.chicks.net%2fposts%2f2026-06-06-shell-programming-best-practices%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Shell Programming Best Practices on whatsapp"
+            href="https://api.whatsapp.com/send?text=Shell%20Programming%20Best%20Practices%20-%20https%3a%2f%2fwww.chicks.net%2fposts%2f2026-06-06-shell-programming-best-practices%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Shell Programming Best Practices on telegram"
+            href="https://telegram.me/share/url?text=Shell%20Programming%20Best%20Practices&amp;url=https%3a%2f%2fwww.chicks.net%2fposts%2f2026-06-06-shell-programming-best-practices%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Shell Programming Best Practices on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Shell%20Programming%20Best%20Practices&u=https%3a%2f%2fwww.chicks.net%2fposts%2f2026-06-06-shell-programming-best-practices%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://www.chicks.net/">Christopher Hicks</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
