@@ -93,7 +93,7 @@ and see how they work for them.
 - [datadog-service-analyzer](https://github.com/fini-net/datadog-service-analyzer)
   will help you find services in datadog that are not in your service catalog.
 - There's a ton of AI art sprinkled through these projects thanks to
-  [Magica](try.magica.com/christopher-hicks) (affiliate link).  I've mostly
+  [Magica](https://try.magica.com/christopher-hicks) (affiliate link).  I've mostly
   been using the Nano Banana models for image generation, but I've also had fun
   generating [videos that nobody watches](https://youtu.be/MCl1Jf_WoyQ) and
   making fake headshots.  I'll try to post the collection of headshots
@@ -482,7 +482,7 @@ capitalism to operate.
 - I [cross-posted this on linked-in](https://www.linkedin.com/posts/chicks2fini_ai-llm-hallucinations-share-7452004554339954688-PoJi)
   on Monday 20 April 2026.
 - The banner was generated in
-  [Magica](try.magica.com/christopher-hicks) (affiliate link)
+  [Magica](https://try.magica.com/christopher-hicks) (affiliate link)
   with the Nano Banana Pro model.
 - I [cross-posted this on DevTo](https://dev.to/chicks/my-first-8-months-with-ai-390i)
   on Tuesday 26 May 2026.

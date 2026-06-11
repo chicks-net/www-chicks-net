@@ -179,5 +179,5 @@ sure should be filled.
 ## Meta
 
 - Cover image was generated with the Nano Banana Pro model using
-  [Magica](try.magica.com/christopher-hicks) (affiliate link).
+  [Magica](https://try.magica.com/christopher-hicks) (affiliate link).
 - Cross-posted on [linked-in](https://www.linkedin.com/feed/update/urn:li:activity:7416531954935836672/).

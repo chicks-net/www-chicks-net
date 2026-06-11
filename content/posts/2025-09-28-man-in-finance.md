@@ -21,7 +21,7 @@ with.
 ### Magica
 
 One of the reasons I went into so much detail about
-[Magica](try.magica.com/christopher-hicks) (affiliate link) in my
+[Magica](https://try.magica.com/christopher-hicks) (affiliate link) in my
 [linked-in post about this](#linked-in-post) is that they were offering
 a months worth of credits for writing a review.  I didn't have to pull
 any punches, so I was happy to share how's it been working for me.
