@@ -14,12 +14,14 @@ ShowToc = true
 
 ## Artificial Intelligence
 
-I had fun putting this together with Galaxy.AI.  It is amazing to me how easy
-it was to get a result that I'm very satisfied with.
+I had fun putting this together with Magica (previously known as Galaxy.AI).
+It is amazing to me how easy it was to get a result that I'm very satisfied
+with.
 
-### Galaxy.AI
+### Magica
 
-One of the reasons I went into so much detail about Galaxy.AI in my
+One of the reasons I went into so much detail about
+[Magica](try.magica.com/christopher-hicks) (affiliate link) in my
 [linked-in post about this](#linked-in-post) is that they were offering
 a months worth of credits for writing a review.  I didn't have to pull
 any punches, so I was happy to share how's it been working for me.
@@ -49,14 +51,14 @@ doing something like this for years, but it is amazing how good it ends up
 being without the toil of learning new tools or other common hurdles.  It only
 took a few iterations to go from idea to good result.
 
-This was all done with Galaxy.AI, `ffmpeg`, `yt-dlp` and iMovie.
+This was all done with Magica, `ffmpeg`, `yt-dlp` and iMovie.
 
-I've really enjoyed working with Galaxy.AI for various creative tasks.  It has
+I've really enjoyed working with Magica for various creative tasks.  It has
 helped me write lyrics for a screenwriting project.  I've also had great fun
 with their AI headshot tool.   I was able to take 7 random selfies and churned
 out 130 interesting headshots in a huge variety of settings.
 
-For this video project the biggest limitation with Galaxy.AI that I ran into
+For this video project the biggest limitation with Magica that I ran into
 was only being able to process 90 seconds of audio into a music video at once.
 One version ended up with realistic men in front of LEGO backgrounds, but I was
 able to fix that with the part of the prompt that I have control over.
