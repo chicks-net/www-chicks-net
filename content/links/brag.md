@@ -12,11 +12,11 @@ draft = false
 
 ![contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=chicks-net&theme=github-compact)
 
-[![Github contributions over the last two years](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+[![Github contributions over the last two years](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)
 
-[![Github contributions for all time with monthly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+[![Github contributions for all time with monthly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-monthly.png)
 
-[![Github contributions for all time with weekly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-weekly.png)](https://github.com/chicks-net/data-curated/tree/main/individuals/chicks/github/contributions-analysis)
+[![Github contributions for all time with weekly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-weekly.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-weekly.png)
 
 [![Star History Chart for chicks-net](https://api.star-history.com/image?repos=chicks-net/megamap%2Cchicks-net/fbdata-forensics%2Cchicks-net/smokeping-config%2Cchicks-net/chicks-home%2Cchicks-net/google-plus-posts-dumper%2Cchicks-net/data-curated&type=date&legend=top-left)](https://www.star-history.com/?repos=chicks-net%2Fmegamap%2Cchicks-net%2Ffbdata-forensics%2Cchicks-net%2Fsmokeping-config%2Cchicks-net%2Fchicks-home%2Cchicks-net%2Fgoogle-plus-posts-dumper%2Cchicks-net%2Fdata-curated&type=date&legend=top-left)
 
