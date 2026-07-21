@@ -29,7 +29,7 @@ Thankfully the same idea has now been immortalized by [xkcd](https://xkcd.com/92
 
 - Thomas A. Edison
 
-> Some­times a concept is baffling not because it is profound but because it’s wrong.
+> Sometimes a concept is baffling not because it is profound but because it’s wrong.
 
 - [Prof. E.O. Wilson](https://en.wikipedia.org/wiki/E._O._Wilson)
 
