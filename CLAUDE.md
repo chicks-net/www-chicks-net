@@ -75,6 +75,15 @@ The project uses a streamlined git workflow with just commands:
 - `docs/cue/meta.cue` - CUE schema for metadata validation
 - `.fini/meta.toml` - Project metadata (validated by CUE)
 
+## Image Files
+
+Original high-resolution image files should be kept in the repo even when they
+aren't directly referenced by a page. These originals are the best source for
+regenerating derived versions (resized, compressed, format-converted) in the
+future, so don't delete or overwrite them when creating optimized variants.
+Lower-resolution or generated copies may be cleaned up, but preserve the
+highest-resolution original.
+
 ## Branch Naming
 
 All branches follow the pattern `chicks/<timestamp>-<description>` or
