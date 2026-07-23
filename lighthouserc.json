@@ -1,7 +1,15 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "./public"
+      "staticDistDir": "./public",
+      "urls": [
+        "http://localhost/",
+        "http://localhost/posts/",
+        "http://localhost/posts/2026-06-06-shell-programming-best-practices/",
+        "http://localhost/intro/",
+        "http://localhost/links/"
+      ],
+      "numberOfRuns": 1
     },
     "assert": {
       "assertions": {

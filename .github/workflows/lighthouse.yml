@@ -4,7 +4,24 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'public/**'
+      - 'content/**'
+      - 'static/**'
+      - 'lighthouserc.json'
+      - 'budget.json'
+      - '.github/workflows/lighthouse.yml'
   pull_request:
+    branches:
+      - main
+    paths:
+      - 'public/**'
+      - 'content/**'
+      - 'static/**'
+      - 'lighthouserc.json'
+      - 'budget.json'
+      - '.github/workflows/lighthouse.yml'
+  workflow_dispatch:
 
 # Cancel superseded runs on the same branch/PR so repeated pushes
 # don't queue up redundant Lighthouse audits.
@@ -31,8 +48,11 @@ jobs:
       - name: Audit static site with Lighthouse
         uses: treosh/lighthouse-ci-action@v12
         with:
-          # no urls needed, lighthouserc points LHCI at ./public
+          # lighthouserc.json declares the curated URL list and ./public
+          # as the static distribution directory to audit.
           configPath: ./lighthouserc.json
+          # budgetPath enforces budget.json — the action fails the build
+          # if any audited URL exceeds the resource sizes/counts it declares.
           budgetPath: ./budget.json
           uploadArtifacts: true
           # Uploads the HTML report to treosh's third-party temporary
