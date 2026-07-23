@@ -6,6 +6,12 @@ on:
       - main
   pull_request:
 
+# Cancel superseded runs on the same branch/PR so repeated pushes
+# don't queue up redundant Lighthouse audits.
+concurrency:
+  group: lighthouse-${{ github.ref }}
+  cancel-in-progress: true
+
 # global permissions
 permissions: {}
 
@@ -16,6 +22,12 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v6
+      # We intentionally audit the committed ./public directory rather than
+      # running a fresh `hugo` build here. The deployment serves whatever
+      # is checked into ./public, so if a change isn't reflected there it
+      # won't reach the server anyway — auditing stale HTML would just
+      # mask that mismatch. See link-check.yml for a workflow that does
+      # build on the fly.
       - name: Audit static site with Lighthouse
         uses: treosh/lighthouse-ci-action@v12
         with:
@@ -23,4 +35,7 @@ jobs:
           configPath: ./lighthouserc.json
           budgetPath: ./budget.json
           uploadArtifacts: true
+          # Uploads the HTML report to treosh's third-party temporary
+          # public storage (unauthenticated, expires in a few days).
+          # The site itself is public, so this is low risk.
           temporaryPublicStorage: true
