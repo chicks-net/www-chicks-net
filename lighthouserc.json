@@ -2,6 +2,7 @@
   "ci": {
     "collect": {
       "staticDistDir": "./public",
+      "_comment": "The shell-programming-best-practices URL is a deliberate representative single-post audit; if that post is renamed or removed, update this entry to another content-rich post so the audit doesn't silently 404.",
       "url": [
         "http://localhost/",
         "http://localhost/posts/",
