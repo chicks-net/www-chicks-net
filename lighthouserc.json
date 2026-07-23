@@ -2,7 +2,7 @@
   "ci": {
     "collect": {
       "staticDistDir": "./public",
-      "urls": [
+      "url": [
         "http://localhost/",
         "http://localhost/posts/",
         "http://localhost/posts/2026-06-06-shell-programming-best-practices/",

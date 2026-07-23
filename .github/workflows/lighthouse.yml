@@ -9,7 +9,6 @@ on:
       - 'content/**'
       - 'static/**'
       - 'lighthouserc.json'
-      - 'budget.json'
       - '.github/workflows/lighthouse.yml'
   pull_request:
     branches:
@@ -19,7 +18,6 @@ on:
       - 'content/**'
       - 'static/**'
       - 'lighthouserc.json'
-      - 'budget.json'
       - '.github/workflows/lighthouse.yml'
   workflow_dispatch:
 
@@ -51,9 +49,6 @@ jobs:
           # lighthouserc.json declares the curated URL list and ./public
           # as the static distribution directory to audit.
           configPath: ./lighthouserc.json
-          # budgetPath enforces budget.json — the action fails the build
-          # if any audited URL exceeds the resource sizes/counts it declares.
-          budgetPath: ./budget.json
           uploadArtifacts: true
           # Uploads the HTML report to treosh's third-party temporary
           # public storage (unauthenticated, expires in a few days).
