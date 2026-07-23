@@ -36,7 +36,7 @@ theme_color = "#a903fc"
 
 [params.label]
 text = "Chicks.Net"
-icon = "/favicon-32x32.png"
+icon = "/favicon-48x48.png"
 iconHeight = 32
 
 [params.profileMode]
