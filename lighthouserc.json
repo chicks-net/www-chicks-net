@@ -10,7 +10,7 @@
         "http://localhost/intro/",
         "http://localhost/links/"
       ],
-      "numberOfRuns": 1
+      "numberOfRuns": 3
     },
     "assert": {
       "assertions": {
