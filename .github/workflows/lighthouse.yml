@@ -86,8 +86,12 @@ jobs:
           key: linux-lhci-3e7e23fb74242897f95c0ba9cabad3d0227b9b18
           restore-keys: linux-lhci-
 
-      # Skip cleanly if a path-filter change (e.g. docs-only) somehow
-      # left public/ absent, rather than 404ing every audit.
+      # Fail loud if ./public is absent. The workflow is path-filtered on
+      # public/** so this should never happen on a legit trigger, but a
+      # silent skip would mask a real checkout/build regression as a green
+      # "Lighthouse CI" run. The public_dir output is still set so the
+      # downstream `if:` guards remain valid (and reachable only when
+      # present).
       - name: Guard public/ exists
         id: guard
         run: |
@@ -95,7 +99,8 @@ jobs:
             echo "public_dir=present" >> "$GITHUB_OUTPUT"
           else
             echo "public_dir=missing" >> "$GITHUB_OUTPUT"
-            echo "::warning::./public not found; skipping Lighthouse audit."
+            echo "::error::./public not found; cannot run Lighthouse audit." >&2
+            exit 1
           fi
 
       - name: Start static server
