@@ -1,15 +1,7 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": "./public",
-      "_comment": "The shell-programming-best-practices URL is a deliberate representative single-post audit; if that post is renamed or removed, update this entry to another content-rich post so the audit doesn't silently 404.",
-      "url": [
-        "http://localhost/",
-        "http://localhost/posts/",
-        "http://localhost/posts/2026-06-06-shell-programming-best-practices/",
-        "http://localhost/intro/",
-        "http://localhost/links/"
-      ],
+      "_comment": "CI-only config. staticDistDir is intentionally omitted so the GitHub Action passes --url per matrix job against a static server started in the workflow (see .github/workflows/lighthouse.yml). For local use, run: lhci collect --static-dist-dir=./public --numberOfRuns=3",
       "numberOfRuns": 3
     },
     "assert": {
