@@ -84,6 +84,14 @@ future, so don't delete or overwrite them when creating optimized variants.
 Lower-resolution or generated copies may be cleaned up, but preserve the
 highest-resolution original.
 
+Keep originals somewhere Hugo does **not** publish. Files placed alongside a
+post in `content/posts/` are copied into `public/` and served publicly, which
+publishes multi-megabyte originals to the live site and bloats the repo. Store
+high-res originals outside `content/` (for example under `assets/` or a separate
+`originals/` directory), or exclude them from the build via `hugo.toml`. Only
+the derived, optimized image referenced by the page should live next to the
+post.
+
 ## Branch Naming
 
 All branches follow the pattern `chicks/<timestamp>-<description>` or

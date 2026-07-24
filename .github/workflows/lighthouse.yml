@@ -33,6 +33,9 @@ permissions: {}
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
+    # numberOfRuns: 3 across 5 URLs = 15 Lighthouse audits; bound a hang
+    # well below GitHub's 360-minute default to fail fast.
+    timeout-minutes: 15
     permissions:
       contents: read
     steps:
@@ -44,7 +47,9 @@ jobs:
       # mask that mismatch. See link-check.yml for a workflow that does
       # build on the fly.
       - name: Audit static site with Lighthouse
-        uses: treosh/lighthouse-ci-action@v12
+        # Pinned to the commit the v12 tag points at; third-party actions
+        # should not be trusted on a mutable floating tag.
+        uses: treosh/lighthouse-ci-action@3e7e23fb74242897f95c0ba9cabad3d0227b9b18 # v12
         with:
           # lighthouserc.json declares the curated URL list and ./public
           # as the static distribution directory to audit.
