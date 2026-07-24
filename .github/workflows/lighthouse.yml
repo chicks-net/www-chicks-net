@@ -74,20 +74,6 @@ jobs:
       # mask that mismatch. See link-check.yml for a workflow that does
       # build on the fly.
 
-      # Cache the treosh action's node_modules so we skip its runtime
-      # `npm install` on cache hits. The action depends on puppeteer-core
-      # (not puppeteer), which never downloads Chrome — it uses the
-      # Chrome pre-installed on the ubuntu-24.04 runner image, so there
-      # is no Puppeteer download cache to preserve. Keyed on the pinned
-      # action SHA; bumping the SHA invalidates automatically. The
-      # restore-keys fallback lets a new SHA partially restore.
-      - name: Cache action node_modules
-        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
-        with:
-          path: ~/work/_actions/treosh/lighthouse-ci-action/3e7e23fb74242897f95c0ba9cabad3d0227b9b18/node_modules
-          key: linux-lhci-3e7e23fb74242897f95c0ba9cabad3d0227b9b18
-          restore-keys: linux-lhci-
-
       # Fail loud if ./public is absent. The workflow is path-filtered on
       # public/** so this should never happen on a legit trigger, but a
       # silent skip would mask a real checkout/build regression as a green
