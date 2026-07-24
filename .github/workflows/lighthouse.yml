@@ -86,6 +86,21 @@ jobs:
           key: linux-lhci-3e7e23fb74242897f95c0ba9cabad3d0227b9b18
           restore-keys: linux-lhci-
 
+      # Temporary diagnostic: confirm whether the treosh action's
+      # node_modules path is actually populated by the cache above
+      # (concern #2 from the review). The treosh action ships a prebuilt
+      # dist/ and installs @lhci/cli at runtime, so this half of the
+      # cache may be a harmless no-op. Remove this step once confirmed.
+      - name: Debug cached paths
+        if: github.event_name == 'pull_request'
+        run: |
+          echo "::group::~/.cache/puppeteer"
+          ls -la ~/.cache/puppeteer || true
+          echo "::endgroup::"
+          echo "::group::treosh action node_modules"
+          ls -la ~/work/_actions/treosh/lighthouse-ci-action/3e7e23fb74242897f95c0ba9cabad3d0227b9b18/node_modules || true
+          echo "::endgroup::"
+
       # Fail loud if ./public is absent. The workflow is path-filtered on
       # public/** so this should never happen on a legit trigger, but a
       # silent skip would mask a real checkout/build regression as a green
