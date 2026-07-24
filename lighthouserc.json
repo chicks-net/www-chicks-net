@@ -1,0 +1,24 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./public",
+      "_comment": "The shell-programming-best-practices URL is a deliberate representative single-post audit; if that post is renamed or removed, update this entry to another content-rich post so the audit doesn't silently 404.",
+      "url": [
+        "http://localhost/",
+        "http://localhost/posts/",
+        "http://localhost/posts/2026-06-06-shell-programming-best-practices/",
+        "http://localhost/intro/",
+        "http://localhost/links/"
+      ],
+      "numberOfRuns": 3
+    },
+    "assert": {
+      "assertions": {
+        "categories:performance": ["error", { "minScore": 0.9 }],
+        "categories:accessibility": ["error", { "minScore": 0.9 }],
+        "categories:best-practices": ["error", { "minScore": 0.7 }],
+        "categories:seo": ["warn", { "minScore": 0.9 }]
+      }
+    }
+  }
+}

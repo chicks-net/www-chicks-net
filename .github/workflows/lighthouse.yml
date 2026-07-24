@@ -1,0 +1,61 @@
+---
+name: Lighthouse CI
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'public/**'
+      - 'content/**'
+      - 'static/**'
+      - 'lighthouserc.json'
+      - '.github/workflows/lighthouse.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'public/**'
+      - 'content/**'
+      - 'static/**'
+      - 'lighthouserc.json'
+      - '.github/workflows/lighthouse.yml'
+  workflow_dispatch:
+
+# Cancel superseded runs on the same branch/PR so repeated pushes
+# don't queue up redundant Lighthouse audits.
+concurrency:
+  group: lighthouse-${{ github.ref }}
+  cancel-in-progress: true
+
+# global permissions
+permissions: {}
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    # numberOfRuns: 3 across 5 URLs = 15 Lighthouse audits; bound a hang
+    # well below GitHub's 360-minute default to fail fast.
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      # We intentionally audit the committed ./public directory rather than
+      # running a fresh `hugo` build here. The deployment serves whatever
+      # is checked into ./public, so if a change isn't reflected there it
+      # won't reach the server anyway — auditing stale HTML would just
+      # mask that mismatch. See link-check.yml for a workflow that does
+      # build on the fly.
+      - name: Audit static site with Lighthouse
+        # Pinned to the commit the v12 tag points at; third-party actions
+        # should not be trusted on a mutable floating tag.
+        uses: treosh/lighthouse-ci-action@3e7e23fb74242897f95c0ba9cabad3d0227b9b18 # v12
+        with:
+          # lighthouserc.json declares the curated URL list and ./public
+          # as the static distribution directory to audit.
+          configPath: ./lighthouserc.json
+          uploadArtifacts: true
+          # Uploads the HTML report to treosh's third-party temporary
+          # public storage (unauthenticated, expires in a few days).
+          # The site itself is public, so this is low risk.
+          temporaryPublicStorage: true

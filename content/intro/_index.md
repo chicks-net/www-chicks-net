@@ -32,6 +32,6 @@ include you in the zone files. Those were the days! :smile:
 ## bragging
 
 I've done a lot on StackExchange sites over the years:
-[![profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites](https://stackexchange.com/users/flair/2276315.png "profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites")](https://stackexchange.com/users/2276315/chicks)
+{{< stackexchange_flair id="2276315" name="chicks" >}}
 
 There is [more bragging and github graphs](../links/brag/) on another page.

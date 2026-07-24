@@ -6,7 +6,7 @@ draft = false
 
 ## StackExchange
 
-[![profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites](https://stackexchange.com/users/flair/2276315.png "profile for chicks on Stack Exchange, a network of free, community-driven Q&A sites")](https://stackexchange.com/users/2276315/chicks)
+{{< stackexchange_flair id="2276315" name="chicks" >}}
 
 ## Github chicks-net
 
