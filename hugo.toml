@@ -37,6 +37,7 @@ theme_color = "#a903fc"
 [params.label]
 text = "Chicks.Net"
 icon = "/favicon-48x48.png"
+# Render the 48px favicon source at 32px for crisp HiDPI/retina display.
 iconHeight = 32
 
 [params.profileMode]
