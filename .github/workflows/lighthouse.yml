@@ -33,11 +33,27 @@ permissions: {}
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
-    # numberOfRuns: 3 across 5 URLs = 15 Lighthouse audits; bound a hang
-    # well below GitHub's 360-minute default to fail fast.
-    timeout-minutes: 15
+    # Each matrix job runs numberOfRuns (3) Lighthouse audits against a
+    # single URL; bound a hang well below GitHub's 360-minute default.
+    timeout-minutes: 6
     permissions:
       contents: read
+    strategy:
+      # Let every URL finish so we see all failures at once rather than
+      # aborting siblings on the first regression.
+      fail-fast: false
+      matrix:
+        # Canonical URL list for Lighthouse audits. If a post is renamed
+        # or removed, update its entry here (and only here).
+        url:
+          - http://localhost/
+          - http://localhost/posts/
+          # Deliberate representative single-post audit; if this post is
+          # renamed or removed, swap in another content-rich post so the
+          # audit doesn't silently 404.
+          - http://localhost/posts/2026-06-06-shell-programming-best-practices/
+          - http://localhost/intro/
+          - http://localhost/links/
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       # We intentionally audit the committed ./public directory rather than
@@ -46,13 +62,14 @@ jobs:
       # won't reach the server anyway — auditing stale HTML would just
       # mask that mismatch. See link-check.yml for a workflow that does
       # build on the fly.
-      - name: Audit static site with Lighthouse
+      - name: Audit ${{ matrix.url }} with Lighthouse
         # Pinned to the commit the v12 tag points at; third-party actions
         # should not be trusted on a mutable floating tag.
         uses: treosh/lighthouse-ci-action@3e7e23fb74242897f95c0ba9cabad3d0227b9b18 # v12
         with:
-          # lighthouserc.json declares the curated URL list and ./public
-          # as the static distribution directory to audit.
+          # The URL to audit comes from the matrix; lighthouserc.json
+          # supplies staticDistDir, numberOfRuns, and assertions.
+          urls: ${{ matrix.url }}
           configPath: ./lighthouserc.json
           uploadArtifacts: true
           # Uploads the HTML report to treosh's third-party temporary
