@@ -78,7 +78,7 @@ jobs:
       # new SHA partially restore (Chrome is reused if the version
       # matches; otherwise puppeteer re-downloads harmlessly).
       - name: Cache Chrome and action node_modules
-        uses: actions/cache@5a3a84c0d7af23f35252957c5e1c141c7e3c9c7c # v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: |
             ~/.cache/puppeteer
