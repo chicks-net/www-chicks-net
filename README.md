@@ -1,5 +1,6 @@
 # www-chicks-net
 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/chicks-net/www-chicks-net/badge)](https://scorecard.dev/viewer/?uri=github.com/chicks-net/www-chicks-net)
 [![GitHub commits](https://badgen.net/github/commits/chicks-net/www-chicks-net)](https://GitHub.com/chicks-net/www-chicks-net/commit/)
 [![GitHub latest commit](https://badgen.net/github/last-commit/chicks-net/www-chicks-net)](https://GitHub.com/chicks-net/www-chicks-net/commit/)
 [![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/chicks-net/www-chicks-net.svg)](https://github.com/chicks-net/www-chicks-net)
