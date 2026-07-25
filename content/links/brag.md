@@ -36,6 +36,7 @@ draft = false
 - {{< scorecard owner="chicks-net" repo="homebrew-chicks" >}}
 - {{< scorecard owner="chicks-net" repo="homebrew-freelawproject" >}}
 - {{< scorecard owner="chicks-net" repo="data-curated" >}}
+- {{< scorecard owner="chicks-net" repo="www-chicks-net" >}}
 - {{< scorecard owner="chicks-net" repo="megamap" >}}
 - {{< scorecard owner="chicks-net" repo="google-plus-posts-dumper" >}}
 - {{< scorecard owner="chicks-net" repo="aws-iam-rotate" >}}
