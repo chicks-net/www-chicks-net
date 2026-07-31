@@ -7,11 +7,11 @@ description = 'Greeting strangers is actually good for you.'
 cover.hidden = true
 tags = ["community", "habits", "ca-central-coast"]
 keywords = ["society","philosophy","manners","respect"]
-# ShowToc = true
+ShowToc = true
 +++
 
 
-## My journey of Greeting Strangers
+## My journey of greeting strangers
 
 I’ve held onto a garbled memory of a passage in the first few pages of Robert
 M. Pirsig’s [*Zen and the Art of Motorcycle
@@ -128,3 +128,7 @@ be the next one to be surprised.
 
 - The first draft of this article was written without AI assistance.  I utilized
   AI and human reviews for polishing it.
+- I wrote this a few days ago, but I'm publishing it today so that I won't be
+  skipping July for getting something added to my blog.
+- I completely ignored my [backlog of content ideas](https://github.com/chicks-net/www-chicks-net/issues)
+  to share something that has been on my mind.
