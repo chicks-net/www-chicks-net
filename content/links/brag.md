@@ -18,13 +18,13 @@ draft = false
 
 [![Github contributions for all time with weekly totals](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-weekly.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-weekly.png)
 
-[![Star History Chart for chicks-net](https://api.star-history.com/image?repos=chicks-net/megamap%2Cchicks-net/fbdata-forensics%2Cchicks-net/smokeping-config%2Cchicks-net/chicks-home%2Cchicks-net/google-plus-posts-dumper%2Cchicks-net/data-curated&type=date&legend=top-left)](https://www.star-history.com/?repos=chicks-net%2Fmegamap%2Cchicks-net%2Ffbdata-forensics%2Cchicks-net%2Fsmokeping-config%2Cchicks-net%2Fchicks-home%2Cchicks-net%2Fgoogle-plus-posts-dumper%2Cchicks-net%2Fdata-curated&type=date&legend=top-left)
+[![Star History Chart for chicks-net](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/star-history-analysis/star-history-chicks-net.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/star-history-analysis/star-history-chicks-net.png)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 
 ## Github fini-net
 
-[![Star History Chart for fini-net](https://api.star-history.com/svg?repos=fini-net/fini-coredns-example,fini-net/template-repo,fini-net/fini-infra,fini-net/gh-observer&type=date&legend=top-left)](https://www.star-history.com/#fini-net/fini-coredns-example&fini-net/template-repo&fini-net/fini-infra&fini-net/gh-observer&type=date&legend=top-left)
+[![Star History Chart for fini-net](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/star-history-analysis/star-history-fini-net.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/star-history-analysis/star-history-fini-net.png)
 
 ![fini-net overview from metrics.lecoq.io](https://metrics.lecoq.io/fini-net?template=classic&languages=1&followup=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&config.timezone=America%2FLos_Angeles)
 
@@ -32,8 +32,8 @@ draft = false
 
 ### chicks-net
 
-- {{< scorecard owner="chicks-net" repo="chicks-home" >}}
 - {{< scorecard owner="chicks-net" repo="homebrew-chicks" >}}
+- {{< scorecard owner="chicks-net" repo="chicks-home" >}}
 - {{< scorecard owner="chicks-net" repo="homebrew-freelawproject" >}}
 - {{< scorecard owner="chicks-net" repo="data-curated" >}}
 - {{< scorecard owner="chicks-net" repo="www-chicks-net" >}}
