@@ -39,7 +39,7 @@ The project uses a streamlined git workflow with just commands:
 
 - **Markdown linting**: Run `markdownlint-cli2` (configured in `.markdownlint.yml`)
 - **Shellcheck**: `just shellcheck` - Lints bash scripts embedded in justfiles
-- **CUE verification**: `just cue_verify` - Validates metadata files against CUE schema (docs/cue/meta.cue)
+- **CUE verification**: `just cue-verify` - Validates `.repo.toml` against CUE schema (docs/repo-toml.cue)
 - **Git workflow**: All branches are timestamped and prefixed with `chicks/` or `chicks/post/`
 - **Content structure**: Posts go in `content/posts/`, use ISO date prefixes (YYYY-MM-DD format)
 
@@ -72,8 +72,8 @@ The project uses a streamlined git workflow with just commands:
 - `go.mod` - Hugo module dependencies (primarily PaperMod theme)
 - `.markdownlint.yml` - Markdown linting rules
 - `.claude/agents/post-tagger.md` - Custom agent for tag optimization
-- `docs/cue/meta.cue` - CUE schema for metadata validation
-- `.fini/meta.toml` - Project metadata (validated by CUE)
+- `docs/repo-toml.cue` - CUE schema for `.repo.toml` validation
+- `.repo.toml` - Project metadata (validated by CUE via `just cue-verify`)
 
 ## Image Files
 

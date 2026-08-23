@@ -19,13 +19,13 @@ brew install cue
 
 ## Validating the Repository Metadata
 
-The `meta.cue` schema validates `.fini/meta.toml` to ensure repository URLs are correct and consistent.
+The `repo-toml.cue` schema (in `docs/`) validates `.repo.toml` to ensure repository URLs and flags are correct and consistent.
 
 ### Basic Validation
 
 ```bash
-# Convert TOML to CUE format and validate against schema
-cue vet meta.cue ../../.fini/meta.toml
+# Validate .repo.toml against the schema
+cue vet .repo.toml docs/repo-toml.cue
 ```
 
 If everything's good, you'll get no output (silence is golden). If there's a problem, CUE will tell you exactly what's wrong.
@@ -34,17 +34,16 @@ If everything's good, you'll get no output (silence is golden). If there's a pro
 
 ```bash
 # See what CUE parsed from the TOML file
-cue eval ../../.fini/meta.toml
+cue eval .repo.toml
 
 # See the complete unified schema and data
-cue eval meta.cue ../../.fini/meta.toml
+cue eval docs/repo-toml.cue .repo.toml
 ```
 
 ## The Example Files
 
 - `example1.cue` - Basic CUE syntax examples (numbers, lists, quoted fields)
 - `example2.cue` - Shows constraint composition with the `&` operator
-- `meta.cue` - Validates `.fini/meta.toml` repository metadata
 
 ## Writing Your Own Schemas
 
