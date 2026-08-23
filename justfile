@@ -1,16 +1,17 @@
 # www-chicks-net justfile
 
-import? '.just/template-sync.just'
-import? '.just/repo-toml.just'
-import? '.just/cue-verify.just'
+import? '.just/claude.just'
+import? '.just/compliance.just'
 import? '.just/copilot.just'
-import? '.just/utility.just'
+import? '.just/cue-verify.just'
 import? '.just/example.just'
 import? '.just/hugo.just'
 import? '.just/gh-process.just'
 import? '.just/pr-hook.just'
+import? '.just/repo-toml.just'
 import? '.just/shellcheck.just'
-import? '.just/claude.just'
+import? '.just/template-sync.just'
+import? '.just/utility.just'
 
 # list recipes (default works without naming it)
 [group('example')]
@@ -24,12 +25,6 @@ post branchname: _main_branch
     NOW=$(just utcdate)
     git co -b "chicks/post/$NOW-{{ branchname }}"
     hugo new content "content/posts/$NOW-{{ branchname }}.md"
-
-# verify metadata with CUE
-[group('Compliance')]
-cue_verify:
-    cue vet docs/cue/meta.cue .fini/meta.toml
-    @echo "{{GREEN}}cue verify passed{{NORMAL}}"
 
 [working-directory: 'content/posts']
 [group('Compliance')]
