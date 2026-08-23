@@ -15,6 +15,20 @@ Vulnerabilities in Hugo itself, the PaperMod theme, GitHub infrastructure, or
 third-party CDN assets should be reported to their respective upstream projects,
 not here.
 
+## Automated Checks
+
+Every pull request runs automated security scans via GitHub Actions:
+
+- [gitleaks](https://github.com/gitleaks/gitleaks-action) scans commits for
+  accidentally committed secrets or tokens (see
+  [`.github/workflows/gitleaks.yml`](./workflows/gitleaks.yml)).
+- [checkov](https://www.checkov.io/) scans configuration and infrastructure-as-code
+  files for misconfigurations (see
+  [`.github/workflows/checkov.yml`](./workflows/checkov.yml)).
+
+Findings from either should be addressed substantively where possible
+and otherwise add an ingore comment to the check results are clean.
+
 ## Reporting a Vulnerability
 
 Please do **not** open a public issue for security concerns. Instead, email me
