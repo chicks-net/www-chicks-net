@@ -1,5 +1,0 @@
-# .fini/meta.toml
-
-[repo]
-repo-url = "https://github.com/chicks-net/www-chicks-net"
-repo-ssh = "git@github.com:chicks-net/www-chicks-net.git"

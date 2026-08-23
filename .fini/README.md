@@ -4,7 +4,6 @@ A directory for our config files.
 
 - `redir.toml` for redirects
 - `hosting.toml` for other web-related config, list hostnames
-- `meta.toml` for repo info
 
 ## Status
 
