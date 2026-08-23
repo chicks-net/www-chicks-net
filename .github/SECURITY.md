@@ -26,8 +26,9 @@ Every pull request runs automated security scans via GitHub Actions:
   files for misconfigurations (see
   [`.github/workflows/checkov.yml`](./workflows/checkov.yml)).
 
-Findings from either should be addressed substantively where possible
-and otherwise add an ingore comment to the check results are clean.
+Findings from either should be addressed substantively where possible.
+Otherwise, add an ignore/suppression comment explaining why, so check results
+stay clean.
 
 ## Reporting a Vulnerability
 
