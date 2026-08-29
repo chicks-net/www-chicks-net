@@ -10,7 +10,7 @@ draft = false
 
 ## Github chicks-net
 
-![contribution graph](https://github-readme-activity-graph.vercel.app/graph?username=chicks-net&theme=github-compact)
+![contribution graph](https://activity-graph-hftzl.ondigitalocean.app/graph?username=chicks-net&theme=github-compact)
 
 [![Github contributions over the last two years](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)
 
