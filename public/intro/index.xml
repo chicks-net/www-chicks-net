@@ -11,7 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 00:00:00 -0700</lastBuildDate>
     <atom:link href="https://www.chicks.net/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book a Meeting</title>
+      <link>https://www.chicks.net/intro/booking/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 -0700</pubDate>
+      <guid>https://www.chicks.net/intro/booking/</guid>
+      <description>&lt;p&gt;Want to chat? Book a time on my calendar below.&lt;/p&gt;
+&lt;iframe src=&#34;https://calendar.google.com/calendar/appointments/schedules/AcZssZ3kcoOvlU2Xr7N1A3G0kiiruZzrl1nsxM6RZBG9-HcFERI8Hhq1OjDKN6Nk-2UUHj1L1ZP2zo_A?gv=true&#34; style=&#34;border: 0&#34; width=&#34;100%&#34; height=&#34;600&#34; frameborder=&#34;0&#34; loading=&#34;lazy&#34;&gt;&lt;/iframe&gt;</description>
+    </item>
   </channel>
 </rss>
