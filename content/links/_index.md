@@ -7,6 +7,7 @@ draft = false
 - 🖥 coding:
   - 🛞 [Github](https://github.com/chicks-net) has been my primary focus.
   - 🥼 [GitLab](https://gitlab.com/chicks-net) for a few repos.
+  - 🧊 [Codeberg](https://codeberg.org/chicks) for something someday.
   - ⭐ [StackOverflow](https://stackoverflow.com/users/2002471/chicks).
   - 🐪 [Perl Monks](https://perlmonks.org/index.pl?node_id=160784).
   - 🔍 [Black Duck Open Hub](https://openhub.net/accounts/chicks) - not sure about the value here yet.  (It used to be [called ohloh.net](https://www.reddit.com/r/opensource/comments/2aqq0v/ohlohs_name_changing_to_black_duck_open_hub/).)
