@@ -2,7 +2,7 @@
 name: Link Check
 on:
   schedule:
-    - cron: '0 0 * * 0'  # weekly on Sundays
+    - cron: '42 0 * * 0'  # weekly on Sundays
   workflow_dispatch:
 
 # global permissions
