@@ -32,12 +32,12 @@ draft = false
 
 ### chicks-net
 
+- {{< scorecard owner="chicks-net" repo="ctm" >}}
 - {{< scorecard owner="chicks-net" repo="homebrew-chicks" >}}
 - {{< scorecard owner="chicks-net" repo="chicks-home" >}}
 - {{< scorecard owner="chicks-net" repo="data-curated" >}}
 - {{< scorecard owner="chicks-net" repo="homebrew-freelawproject" >}}
 - {{< scorecard owner="chicks-net" repo="www-chicks-net" >}}
-- {{< scorecard owner="chicks-net" repo="ctm" >}}
 - {{< scorecard owner="chicks-net" repo="megamap" >}}
 - {{< scorecard owner="chicks-net" repo="aws-iam-rotate" >}}
 - {{< scorecard owner="chicks-net" repo="google-plus-posts-dumper" >}}
