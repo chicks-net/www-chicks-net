@@ -11,8 +11,24 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cable wrangling</title>
+      <link>https://www.chicks.net/reference/radio/cable_wrangling/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/reference/radio/cable_wrangling/</guid>
+      <description>&lt;p&gt;Velcro or wire ties are acceptable for cable management.&lt;/p&gt;
+&lt;p&gt;⚠️ Twist ties, rubber bands, and tape are not acceptable for keeping cables or
+much else together.&lt;/p&gt;
+&lt;h2 id=&#34;velcro&#34;&gt;Velcro&lt;/h2&gt;
+&lt;p&gt;Velcro is preferred when cables will need to be lengthened or shortened often.
+If expense is not an issue Velcro is preferred for long-term cable storage to
+avoid issues with drying out and maximize reuse.&lt;/p&gt;
+&lt;h2 id=&#34;wire-ties&#34;&gt;Wire ties&lt;/h2&gt;
+&lt;p&gt;Wire ties are preferred where expense is a large concern.  Tails must be
+clipped cleanly to avoid snags or cuts.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Book a Meeting</title>
       <link>https://www.chicks.net/intro/booking/</link>
