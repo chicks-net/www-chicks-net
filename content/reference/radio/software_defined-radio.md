@@ -17,3 +17,4 @@ flexibility.
 - [flightaware's fork of dump1090](https://github.com/flightaware/dump1090)
 - [Decoding AIS with dongles](https://ham.stackexchange.com/q/173/5222)
 - [50 things you can do with SDR](https://blinry.org/50-things-with-sdr/) is a great article.
+- [WebSDR](http://websdr.org/) - Listen to receivers around the world
