@@ -10,7 +10,7 @@ draft = false
 
 ## Github chicks-net
 
-![contribution graph](https://activity-graph-hftzl.ondigitalocean.app/graph?username=chicks-net&theme=github-compact)
+![contribution graph](https://activity-graph-hftzl.ondigitalocean.app/graph?username=chicks-net&theme=github-compact&ghosts=2)
 
 [![Github contributions over the last two years](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/contributions-analysis/contributions-last2years.png)
 
@@ -26,7 +26,7 @@ draft = false
 
 [![Star History Chart for fini-net](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/star-history-analysis/star-history-fini-net.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/star-history-analysis/star-history-fini-net.png)
 
-![fini-net overview from metrics.lecoq.io](https://metrics.lecoq.io/fini-net?template=classic&languages=1&followup=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&config.timezone=America%2FLos_Angeles)
+<!-- ![fini-net overview from metrics.lecoq.io](https://metrics.lecoq.io/fini-net?template=classic&languages=1&followup=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&config.timezone=America%2FLos_Angeles) -->
 
 ## OpenSSF Scorecards
 
@@ -37,23 +37,27 @@ draft = false
 - {{< scorecard owner="chicks-net" repo="chicks-home" >}}
 - {{< scorecard owner="chicks-net" repo="data-curated" >}}
 - {{< scorecard owner="chicks-net" repo="homebrew-freelawproject" >}}
-- {{< scorecard owner="chicks-net" repo="www-chicks-net" >}}
 - {{< scorecard owner="chicks-net" repo="megamap" >}}
+- {{< scorecard owner="chicks-net" repo="www-chicks-net" >}}
+- {{< scorecard owner="chicks-net" repo="check-s3-file-age" >}}
 - {{< scorecard owner="chicks-net" repo="aws-iam-rotate" >}}
 - {{< scorecard owner="chicks-net" repo="google-plus-posts-dumper" >}}
-- {{< scorecard owner="chicks-net" repo="check-s3-file-age" >}}
 
 ### fini-net
 
 - {{< scorecard owner="fini-net" repo="gh-observer" >}}
+- {{< scorecard owner="fini-net" repo="fini-infra" >}}
 - {{< scorecard owner="fini-net" repo="template-repo" >}}
 - {{< scorecard owner="fini-net" repo="gh-amp" >}}
-- {{< scorecard owner="fini-net" repo="fini-coredns-example" >}}
-- {{< scorecard owner="fini-net" repo="fini-infra" >}}
 - {{< scorecard owner="fini-net" repo="datadog-service-analyzer" >}}
-- {{< scorecard owner="fini-net" repo="macaw" >}}
+- {{< scorecard owner="fini-net" repo="fini-coredns-example" >}}
 - {{< scorecard owner="fini-net" repo="fini-clock" >}}
+- {{< scorecard owner="fini-net" repo="macaw" >}}
 - {{< scorecard owner="fini-net" repo="quilt-shop-proximity" >}}
+
+### dnscontrol
+
+- {{< scorecard owner="dnscontrol" repo="dnscontrol" >}}
 
 ## Holopin
 
