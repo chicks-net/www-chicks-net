@@ -55,9 +55,9 @@ draft = false
 - {{< scorecard owner="fini-net" repo="macaw" >}}
 - {{< scorecard owner="fini-net" repo="quilt-shop-proximity" >}}
 
-### dnscontrol
+### DNSControl
 
-- {{< scorecard owner="dnscontrol" repo="dnscontrol" >}}
+- {{< scorecard owner="DNSControl" repo="dnscontrol" >}}
 
 ## Holopin
 
