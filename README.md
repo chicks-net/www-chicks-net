@@ -24,6 +24,10 @@ this repo are so small as to be unmeasurable, but this is a trivial compliance
 thing to check off and I'm trying to get all of my repos closer to best
 practices.
 
+## License
+
+This repo is licensed under the [MIT license](LICENSE).
+
 ## Thanks
 
 - Hosted by [Flamingo Internet Navigators](https://www.fini.net/).
