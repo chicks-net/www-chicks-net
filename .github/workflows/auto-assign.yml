@@ -17,8 +17,13 @@ jobs:
       pull-requests: write
       contents: read
     steps:
+    - name: Harden the runner (Audit all outbound calls)
+      uses: step-security/harden-runner@ccd8616d44fd3846e67624a50d5aad6d37bf2d25 # v2.22.1
+      with:
+        egress-policy: audit
+
     - name: 'Auto-assign issue'
-      uses: pozil/auto-assign-issue@v4.0.1
+      uses: pozil/auto-assign-issue@af6beea6bdf1e8eb373f061c5bc168681fc6d011 # v4.0.1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: chicks-net
