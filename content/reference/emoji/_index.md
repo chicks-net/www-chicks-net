@@ -2,7 +2,8 @@
 title = 'Emoji Reference Material'
 date = 2025-12-04
 draft = false
-cover.image = '/reference/emoji/emoji-keyboard.jpg'
+cover.image = 'emoji-keyboard.jpg'
+cover.relative = true
 cover.hidden = false
 +++
 

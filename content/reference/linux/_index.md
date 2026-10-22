@@ -2,7 +2,8 @@
 title = 'Linux Reference Material'
 date = 2025-10-06
 draft = false
-cover.image = '/reference/linux/linux-cover.jpeg'
+cover.image = 'linux-cover.jpeg'
+cover.relative = true
 cover.hidden = false
 +++
 
