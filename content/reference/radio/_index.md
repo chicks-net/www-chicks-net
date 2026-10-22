@@ -2,7 +2,8 @@
 title = 'Radio Reference Material'
 date = 2026-09-26
 draft = false
-cover.image = '/reference/radio/radio-cover.png'
+cover.image = 'radio-cover.jpg'
+cover.relative = true
 cover.hidden = false
 +++
 

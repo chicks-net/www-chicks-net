@@ -46,6 +46,14 @@ The project uses a streamlined git workflow with just commands:
 ## Architecture
 
 - **Hugo static site generator** with PaperMod theme imported as Go module
+- **Theme partial overrides**: `layouts/partials/templates/opengraph.html` and
+  `layouts/partials/cover.html` are local copies of PaperMod theme partials
+  (the theme ships them under `layouts/_partials/`; the repo's old-style
+  `layouts/partials/` path overrides them in the current Hugo setup). They do
+  not receive theme updates automatically — manually diff them against the
+  theme partials on PaperMod upgrades. `cover.html` deliberately differs
+  from upstream by emitting relative URLs (`.RelPermalink`) so the Lighthouse
+  CI audit serves the repo's own files; keep that substitution when syncing.
 - **Content organization**:
   - `content/posts/` - Blog posts (many imported from LinkedIn)
   - `content/links/` - Links and bragging page

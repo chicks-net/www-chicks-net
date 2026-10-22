@@ -1,0 +1,85 @@
+{{/* Override of PaperMod's theme partial `layouts/_partials/cover.html`.
+     This copy lives at `layouts/partials/cover.html` — the repo's old-style
+     layout path, which overrides the theme partial in the current Hugo setup
+     the same way `layouts/partials/templates/opengraph.html` does. If a future
+     Hugo stops mapping old-style paths, move this to `layouts/_partials/`.
+
+     Local change: page-bundle covers and their resized srcset variants are
+     emitted with relative URLs (.RelPermalink) instead of absolute
+     (.Permalink). The Lighthouse CI workflow audits a local static server
+     over ./public, so absolute URLs would pull images from the live
+     www.chicks.net instead of the files in the PR, and hashed variant
+     filenames would not exist on production until after deploy.
+
+     Caveat: covers that do not match a page-bundle or global resource still
+     fall back to absURL (upstream behavior, kept to minimize drift), so put
+     cover images next to the page as a bundle and reference them by filename
+     to get responsive processing and relative URLs.
+
+     Keep this file in sync with the theme partial when the theme is
+     updated, except for the RelPermalink substitutions and the `gt` (not
+     `ge`) width guard below, which skips a redundant resize when the
+     source image is exactly one of the srcset widths (e.g. our 1500px
+     covers) — upstream emits a duplicate-width candidate for those. */}}
+{{- with .cxt}} {{/* Apply proper context from dict */}}
+{{- if (and .Params.cover.image (not $.isHidden)) }}
+<figure class="entry-cover">
+    {{- $loading := cond $.IsSingle "eager" "lazy" }}
+    {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
+    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+    {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+    {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
+
+    {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
+    {{- /* We are not using the .Param.cover.relative to decide the location of image */}}
+    {{- /* If we have the image in pageBundle or globalResources we can process the image */}}
+
+    {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
+    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif" "webp") -}}
+
+    {{- $imgdl := (.Params.cover.image) | absURL }}
+    {{- if $cover -}}
+        {{- $imgdl = $cover.RelPermalink }}
+    {{- end -}}
+
+    {{- if $addLink }}
+        <a href="{{ $imgdl }}" target="_blank" rel="noopener noreferrer">
+    {{- end }}
+
+    {{- if $cover -}}
+        {{/* i.e it is present in page bundle */}}
+        {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
+            <img loading="{{$loading}}"
+                srcset='{{- range $size := $sizes -}}
+                            {{- if (gt $cover.Width $size) }}
+                                {{- printf "%s %s" (($cover.Resize (printf "%sx" $size)).RelPermalink) (printf "%sw," $size) }}
+                            {{- end }}
+                        {{- end }}
+                        {{- printf "%s %dw" ($cover.RelPermalink) ($cover.Width) }}'
+                src="{{ $cover.RelPermalink }}"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="{{ $cover.Width }}" height="{{ $cover.Height }}"
+                alt="{{ $alt }}">
+        {{- else }}{{/* Unprocessable image or responsive images disabled */}}
+            <img loading="{{ $loading }}" src="{{ $imgdl }}" alt="{{ $alt }}">
+        {{- end }}
+    {{- else }}
+        {{- /* For absolute urls and external links, no img processing here */}}
+        <img loading="{{ $loading }}" src="{{ $imgdl }}" alt="{{ $alt }}">
+    {{- end }}
+
+    {{- if $addLink }}
+        </a>
+    {{- end -}}
+
+    {{- /*  Display Caption  */}}
+    {{- if $.IsSingle }}
+        {{ with .Params.cover.caption -}}
+            <figcaption>{{ . | markdownify }}</figcaption>
+        {{- end }}
+    {{- end }}
+</figure>
+{{- end }}{{/* End image */}}
+{{- end -}}{{/* End context */ -}}
