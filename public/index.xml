@@ -2990,7 +2990,8 @@ on a 36-core SoC design. 16 of the cores are 6510&amp;rsquo;s, 10 ten are Z80&am
 are Hercules Graphics Adapters, two are FM synthesizers I pulled off of old
 SoundBlaster Pro or Adlib cards (whatever I could find at Goodwill), three
 are 8088s, and the remaining three are actually people doing jobs it offloads
-to Amazon&amp;rsquo;s Mechanical Turk.&amp;rdquo;&lt;/p&gt;</description>
+to Amazon&amp;rsquo;s Mechanical Turk.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Can I get some place like this in Santa Monica?</title>
@@ -4770,7 +4771,8 @@ Imperial March played by two floppy disk drives. Homepage:
 &lt;a href=&#34;http://silent.org.pl/home/2011/09/29/evil-floppy-drives-english-translation/&#34;&gt;http://silent.org.pl/home/2011/09/29/evil-floppy-drives-english-translation/&lt;/a&gt;
 Po polsku: &lt;a href=&#34;http://silent.org.pl/home/2011/09/25/muzykalna-stacja-dyskow/&#34;&gt;http://silent.org.pl/home/2011/09/25/muzykalna-stacja-dyskow/&lt;/a&gt; Read
 the note about the next video:
-&lt;a href=&#34;http://silent.org.pl/home/2011/10/03/dyskietli-podbijaja-internet-english-polish/&#34;&gt;http://silent.org.pl/home/2011/10/03/dyskietli-podbijaja-internet-english-polish/&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;http://silent.org.pl/home/2011/10/03/dyskietli-podbijaja-internet-english-polish/&#34;&gt;http://silent.org.pl/home/2011/10/03/dyskietli-podbijaja-internet-english-polish/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>This is amazing. The animation is good and entertaining.</title>
@@ -4932,7 +4934,80 @@ requests, hoping that they stay on the first page long enough to get
 clicks! You can send out a request once and know that people will be able
 to get to it! Spamming requests only (a) frustrates you for not getting
 the things you want, and (b) causes more unnecessary clicking for your
-allies.&lt;/p&gt;</description>
+allies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GOODS REQUESTS: After a lot of testing and discussion, we have come up
+with a pretty good reasoning/solution to the workshop goods problem. We
+believe that there is an internal City of Wonder timer that is started
+when you receive an item from an ally that lasts 24 hours. Each ally has
+their own timer, and there is no way of synchronizing them because people
+click requests on their own time. Each ally can successfully gift you one
+workshop item in a rolling 24-hour period. Sending out more than one
+request per day is not beneficial and will actually hurt your workshop
+numbers (see #1). It is even recommended that if you are having problems
+getting items, you can reset everyone&amp;rsquo;s timer by not requesting anything
+for two days.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GIFTS (UPDATED!): Each ally is allowed to receive ONLY one building OR one
+legend, and in addition one workshop request in a rolling 24-hour period!
+The first gift that you send is the one that registers in the system. The
+second gift returns an error screen. (Thanks +Rob Barnes!) Sending out
+multiple gifts results in the same errors we are all used to seeing:
+&amp;ldquo;Oops! Unfortunately, you cannot accept gifts at this time!&amp;rdquo; This also
+ties in with #1 above.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GIFTS CAN BE SOLD: Each item in the game has a purchase price and a
+selling price that is a fraction of the purchase price. Some items are
+worth more than others. The Mess Halls that are currently in our options
+to gift SELL for 20,000 coins each! This means that those who need an
+economic boost can request Mess Halls and make hundreds of thousands of
+coins very quickly! Great for starter cities and established cities!
+Remember to build it before you sell it, each build grants you 200 XP!
+Also remember to follow rule #1 for this as well.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BONUS REPETITION: Many people post every exploration bonus, thinking that
+more bonuses equals more coins for our allies. Certain bonuses cannot be
+collected more than once, and it seems that Playdom has tightened the grip
+on this quite a bit. Here is a short list of what can be collected
+repeatedly and what cannot:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Embassy Expansion Bonus: Can only be collected once (post only one)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(EDIT: There seems to be a bug and certain bonuses can be recollected while
+other times they can not. Further testing will be done to validate this
+behavior.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trade/Culture/War: Each can be collected once (post one of each)&lt;/li&gt;
+&lt;li&gt;Assisting with Goods: One click per person (post the one you need the most)&lt;/li&gt;
+&lt;li&gt;Assisting with Wonders: 30 per day regardless of who asks for it (post them all)&lt;/li&gt;
+&lt;li&gt;(Note: unless is a multi-part wonder, in which case you can help in every phase, even if you have already helped 30 people!)&lt;/li&gt;
+&lt;li&gt;Collecting Gifts: Unlimited, but repeat gifts will not be collected (post them all)&lt;/li&gt;
+&lt;li&gt;Achievement Bonuses: Unlimited (post them all)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NO MORE GOODS POP-UPS!: (This one courtesy of +Chris Nichols ! Thanks!) I
+know some of you have experienced this already. You go to collect your
+5-minute goods, and get the annoying pop-up, &amp;ldquo;Too many goods!&amp;rdquo; Well, Chris
+found out a really slick way of getting rid of those popups! Simply put
+away your workshop prior to harvesting! You will not lose any goods
+previously earned, you will not gain any more, and you can put your
+workshop back down when you are done harvesting! Brilliant!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GOODS TIMER UPDATE!: It has been discovered that gifts can be repeatedly
+collected from the same ally over and over as long as the time stamp for
+each gift is past a rolling 24 hours! This was discovered when collecting
+gifts sent to a temporarily inactive player. We were able to collect 30
+Mess Halls from the same 5-6 people sending gifts! We believe the same
+rule applies to Workshop goods, but this has not been confirmed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Credit Cards can be hacked by Mobile phones</title>
@@ -4947,7 +5022,33 @@ allies.&lt;/p&gt;</description>
 &lt;p&gt;Square Mobile Payments Square&lt;/p&gt;
 &lt;p&gt;A simple tool that can turn any iPhone into a credit card machine can also be
 a simple way for crooks to steal cash, hackers demonstrated this week. Square
-can eliminate the hassle of money laundering.&lt;/p&gt;</description>
+can eliminate the hassle of money laundering.&lt;/p&gt;
+&lt;p&gt;Instead of stealing credit card numbers, buying items and then selling those
+items for cash, Square can deposit money directly into a user’s account.
+Computer security experts from a firm called Aperture Labs described the
+process at the Black Hat security conference in Las Vegas.&lt;/p&gt;
+&lt;p&gt;Square enables mobile credit card payments by inserting a small dongle into
+the headphone jack of an iPhone or iPad. A user swipes the credit card’s
+magnetic stripe through a slit on the dongle, and credit card information is
+sent to the seller’s Square account.&lt;/p&gt;
+&lt;p&gt;Hacker Adam Laurie realized using the headphone jack meant the device was
+converting the magnetic strip information into sound waves that were
+interpreted by the app, according to a writeup by AFP. He realized he could
+trick the system into falsely reading audio data, so it would enter a
+transaction using a stolen credit card number.&lt;/p&gt;
+&lt;p&gt;He inserted a different wire into the iPad’s headphone jack, so the software
+thought a dongle was plugged in. Then he modified some software he had
+already written for translating magnetic stripe data (we mentioned he’s a
+hacker, right?) and then typed in a credit card number. The data was
+converted to sound, and the app read the information as if a real card had
+been swiped. Then he could deposit funds into his Square account, which are
+delivered within a day.&lt;/p&gt;
+&lt;p&gt;Laurie and co-hacker Zac Franken said they notified Square of the threat, but
+were told credit card traffic analysis would spot such malfeasance.
+Meanwhile, they have since learned the company is planning to release new
+dongles that encrypt data — which they currently do not. Looks like further
+motivation to keep your personal data secure.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Californians have a year left of tax free Amazon. Enjoy.</title>
