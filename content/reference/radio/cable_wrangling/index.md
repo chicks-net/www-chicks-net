@@ -2,7 +2,7 @@
 title = 'Cable wrangling'
 date = 2026-09-26
 draft = false
-cover.image = 'radio-cover.jpg'
+cover.image = 'cable_wrangling.jpg'
 cover.relative = true
 cover.hidden = false
 +++

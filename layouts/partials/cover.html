@@ -1,10 +1,21 @@
-{{/* Override of PaperMod's layouts/_partials/cover.html.
+{{/* Override of PaperMod's theme partial `layouts/_partials/cover.html`.
+     This copy lives at `layouts/partials/cover.html` — the repo's old-style
+     layout path, which overrides the theme partial in the current Hugo setup
+     the same way `layouts/partials/templates/opengraph.html` does. If a future
+     Hugo stops mapping old-style paths, move this to `layouts/_partials/`.
+
      Local change: page-bundle covers and their resized srcset variants are
      emitted with relative URLs (.RelPermalink) instead of absolute
      (.Permalink). The Lighthouse CI workflow audits a local static server
      over ./public, so absolute URLs would pull images from the live
      www.chicks.net instead of the files in the PR, and hashed variant
      filenames would not exist on production until after deploy.
+
+     Caveat: covers that do not match a page-bundle or global resource still
+     fall back to absURL (upstream behavior, kept to minimize drift), so put
+     cover images next to the page as a bundle and reference them by filename
+     to get responsive processing and relative URLs.
+
      Keep this file in sync with the theme partial when the theme is
      updated, except for the RelPermalink substitutions. */}}
 {{- with .cxt}} {{/* Apply proper context from dict */}}
