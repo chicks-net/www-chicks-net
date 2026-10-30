@@ -21,6 +21,7 @@ This is a Hugo-based static site for <https://www.chicks.net> built with the Pap
 - **Create new branch**: `just branch <branchname>` - Creates timestamped feature branch
 - **Extract hashtags**: `just hashtags <filename>` - Extracts tags/keywords as hashtags from post frontmatter
 - **Tag optimization**: Use the `post-tagger` Claude agent (in `.claude/agents/`) to review and optimize tags across posts for consistency and discoverability
+- **Monthly GitHub recap**: Use the `gh-recap` skill (in `.claude/skills/`) to draft a post summarizing a month of public GitHub activity — stats, releases, and notable PRs
 - **Remove GPS data**: `just gps_rm <image>` - Strips GPS metadata from images before publishing
 
 ### Development Workflow
@@ -69,6 +70,7 @@ The project uses a streamlined git workflow with just commands:
 - **Git-centric workflow** with GitHub CLI integration for PRs
 - **Generated HTML** is in the `public/` directory and kept in sync with content changes (needed for current deployment strategy)
 - **Custom Claude agent**: `post-tagger` agent for optimizing tags across posts (`.claude/agents/post-tagger.md`)
+- **Custom Claude skill**: `gh-recap` skill for monthly GitHub recap posts (`.claude/skills/gh-recap/`), also readable by OpenCode
 - **Timezone handling**: Hugo builds use Pacific timezone (`TZ=America/Los_Angeles`) for consistent date rendering
 
 ## Key Files
@@ -80,6 +82,7 @@ The project uses a streamlined git workflow with just commands:
 - `go.mod` - Hugo module dependencies (primarily PaperMod theme)
 - `.markdownlint.yml` - Markdown linting rules
 - `.claude/agents/post-tagger.md` - Custom agent for tag optimization
+- `.claude/skills/gh-recap/` - Skill for monthly GitHub recap posts (SKILL.md + scripts + references)
 - `docs/repo-toml.cue` - CUE schema for `.repo.toml` validation
 - `.repo.toml` - Project metadata (validated by CUE via `just cue-verify`)
 

@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.chicks.net/tags/free-software/</loc>
+    <lastmod>2026-09-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/tags/github/</loc>
+    <lastmod>2026-09-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/</loc>
+    <lastmod>2026-09-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/tags/programming/</loc>
+    <lastmod>2026-09-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/tags/release-engineering/</loc>
+    <lastmod>2026-09-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2026-09-30-github-recap-2026-09/</loc>
+    <lastmod>2026-09-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/tags/</loc>
+    <lastmod>2026-09-30T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.chicks.net/reference/radio/cable_wrangling/</loc>
     <lastmod>2026-09-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -10,6 +31,9 @@
   </url><url>
     <loc>https://www.chicks.net/intro/booking/</loc>
     <lastmod>2026-09-03T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2026-08-31-github-recap-2026-08/</loc>
+    <lastmod>2026-08-31T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/tags/ca-central-coast/</loc>
     <lastmod>2026-07-31T16:04:15-04:00</lastmod>
@@ -20,34 +44,31 @@
     <loc>https://www.chicks.net/tags/habits/</loc>
     <lastmod>2026-07-31T16:04:15-04:00</lastmod>
   </url><url>
-    <loc>https://www.chicks.net/posts/</loc>
-    <lastmod>2026-07-31T16:04:15-04:00</lastmod>
-  </url><url>
-    <loc>https://www.chicks.net/tags/</loc>
-    <lastmod>2026-07-31T16:04:15-04:00</lastmod>
-  </url><url>
     <loc>https://www.chicks.net/posts/2026-07-31-the-importance-of-greeting-strangers/</loc>
     <lastmod>2026-07-31T16:04:15-04:00</lastmod>
   </url><url>
-    <loc>https://www.chicks.net/tags/free-software/</loc>
-    <lastmod>2026-06-05T21:05:12-04:00</lastmod>
+    <loc>https://www.chicks.net/posts/2026-07-31-github-recap-2026-07/</loc>
+    <lastmod>2026-07-31T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2026-06-30-github-recap-2026-06/</loc>
+    <lastmod>2026-06-30T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/tags/linux/</loc>
-    <lastmod>2026-06-05T21:05:12-04:00</lastmod>
-  </url><url>
-    <loc>https://www.chicks.net/tags/programming/</loc>
     <lastmod>2026-06-05T21:05:12-04:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</loc>
     <lastmod>2026-06-05T21:05:12-04:00</lastmod>
   </url><url>
+    <loc>https://www.chicks.net/posts/2026-05-31-github-recap-2026-05/</loc>
+    <lastmod>2026-05-31T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2026-04-30-github-recap-2026-04/</loc>
+    <lastmod>2026-04-30T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.chicks.net/tags/business/</loc>
     <lastmod>2026-04-18T13:17:25-07:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/tags/cloud/</loc>
-    <lastmod>2026-04-18T13:17:25-07:00</lastmod>
-  </url><url>
-    <loc>https://www.chicks.net/tags/github/</loc>
     <lastmod>2026-04-18T13:17:25-07:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/posts/2026-04-18-8-months-with-ai/</loc>
@@ -65,17 +86,26 @@
     <loc>https://www.chicks.net/tags/humor/</loc>
     <lastmod>2026-04-01T09:32:59-07:00</lastmod>
   </url><url>
+    <loc>https://www.chicks.net/posts/2026-03-31-github-recap-2026-03/</loc>
+    <lastmod>2026-03-31T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.chicks.net/reference/quotes/</loc>
     <lastmod>2026-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/posts/2026-03-08-announce-gh-observer/</loc>
     <lastmod>2026-03-08T02:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.chicks.net/posts/2026-02-28-github-recap-2026-02/</loc>
+    <lastmod>2026-02-28T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.chicks.net/posts/2026-02-01-backing-into-parking-spaces/</loc>
     <lastmod>2026-02-01T02:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/tags/creativity/</loc>
     <lastmod>2026-02-01T02:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2026-01-31-github-recap-2026-01/</loc>
+    <lastmod>2026-01-31T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/links/brag/</loc>
     <lastmod>2026-01-11T00:00:00+00:00</lastmod>
@@ -86,11 +116,20 @@
     <loc>https://www.chicks.net/posts/2026-01-09-zip-is-the-king-of-stealth/</loc>
     <lastmod>2026-01-08T22:25:35-08:00</lastmod>
   </url><url>
+    <loc>https://www.chicks.net/posts/2025-12-31-github-recap-2025-12/</loc>
+    <lastmod>2025-12-31T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/tags/google-plus/</loc>
+    <lastmod>2025-12-31T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.chicks.net/reference/lego/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/reference/emoji/</loc>
     <lastmod>2025-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2025-11-30-github-recap-2025-11/</loc>
+    <lastmod>2025-11-30T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/reference/file_formats/just/</loc>
     <lastmod>2025-11-30T00:00:00+00:00</lastmod>
@@ -116,6 +155,9 @@
     <loc>https://www.chicks.net/tags/news/</loc>
     <lastmod>2025-11-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://www.chicks.net/posts/2025-10-31-github-recap-2025-10/</loc>
+    <lastmod>2025-10-31T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.chicks.net/tags/gaming/</loc>
     <lastmod>2025-10-22T20:44:52-07:00</lastmod>
   </url><url>
@@ -139,6 +181,12 @@
   </url><url>
     <loc>https://www.chicks.net/reference/linux/</loc>
     <lastmod>2025-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/tags/rust/</loc>
+    <lastmod>2025-09-30T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.chicks.net/posts/2025-09-30-github-recap-2025-09/</loc>
+    <lastmod>2025-09-30T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/tags/art/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
@@ -180,12 +228,6 @@
     <lastmod>2025-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/posts/2025-09-04-uv-is-awesome/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.chicks.net/tags/release-engineering/</loc>
-    <lastmod>2025-09-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.chicks.net/tags/rust/</loc>
     <lastmod>2025-09-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/tags/family/</loc>
@@ -346,9 +388,6 @@
   </url><url>
     <loc>https://www.chicks.net/posts/2018-10-24_151530_linkedin/</loc>
     <lastmod>2018-10-24T15:15:30+00:00</lastmod>
-  </url><url>
-    <loc>https://www.chicks.net/tags/google-plus/</loc>
-    <lastmod>2018-07-20T16:54:58+00:00</lastmod>
   </url><url>
     <loc>https://www.chicks.net/posts/2018-07-20-it_is_funny_that_this_happens_a_week_be/</loc>
     <lastmod>2018-07-20T16:54:58+00:00</lastmod>

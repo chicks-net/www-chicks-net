@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 16:04:15 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free-Software</title>
+      <link>https://www.chicks.net/tags/free-software/</link>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/free-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://www.chicks.net/tags/github/</link>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://www.chicks.net/tags/programming/</link>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release-Engineering</title>
+      <link>https://www.chicks.net/tags/release-engineering/</link>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/release-engineering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ca-Central-Coast</title>
       <link>https://www.chicks.net/tags/ca-central-coast/</link>
@@ -35,24 +63,10 @@
       <description></description>
     </item>
     <item>
-      <title>Free-Software</title>
-      <link>https://www.chicks.net/tags/free-software/</link>
-      <pubDate>Fri, 05 Jun 2026 21:05:12 -0400</pubDate>
-      <guid>https://www.chicks.net/tags/free-software/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Linux</title>
       <link>https://www.chicks.net/tags/linux/</link>
       <pubDate>Fri, 05 Jun 2026 21:05:12 -0400</pubDate>
       <guid>https://www.chicks.net/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://www.chicks.net/tags/programming/</link>
-      <pubDate>Fri, 05 Jun 2026 21:05:12 -0400</pubDate>
-      <guid>https://www.chicks.net/tags/programming/</guid>
       <description></description>
     </item>
     <item>
@@ -67,13 +81,6 @@
       <link>https://www.chicks.net/tags/cloud/</link>
       <pubDate>Sat, 18 Apr 2026 13:17:25 -0700</pubDate>
       <guid>https://www.chicks.net/tags/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Github</title>
-      <link>https://www.chicks.net/tags/github/</link>
-      <pubDate>Sat, 18 Apr 2026 13:17:25 -0700</pubDate>
-      <guid>https://www.chicks.net/tags/github/</guid>
       <description></description>
     </item>
     <item>
@@ -109,6 +116,13 @@
       <link>https://www.chicks.net/tags/database/</link>
       <pubDate>Thu, 08 Jan 2026 22:25:35 -0800</pubDate>
       <guid>https://www.chicks.net/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google-Plus</title>
+      <link>https://www.chicks.net/tags/google-plus/</link>
+      <pubDate>Wed, 31 Dec 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/google-plus/</guid>
       <description></description>
     </item>
     <item>
@@ -168,6 +182,13 @@
       <description></description>
     </item>
     <item>
+      <title>Rust</title>
+      <link>https://www.chicks.net/tags/rust/</link>
+      <pubDate>Tue, 30 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Art</title>
       <link>https://www.chicks.net/tags/art/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
@@ -186,20 +207,6 @@
       <link>https://www.chicks.net/tags/youtube/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/tags/youtube/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Release-Engineering</title>
-      <link>https://www.chicks.net/tags/release-engineering/</link>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/release-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://www.chicks.net/tags/rust/</link>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/rust/</guid>
       <description></description>
     </item>
     <item>
@@ -361,13 +368,6 @@
       <link>https://www.chicks.net/tags/refer/</link>
       <pubDate>Wed, 24 Oct 2018 15:15:30 +0000</pubDate>
       <guid>https://www.chicks.net/tags/refer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Google-Plus</title>
-      <link>https://www.chicks.net/tags/google-plus/</link>
-      <pubDate>Fri, 20 Jul 2018 16:54:58 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/google-plus/</guid>
       <description></description>
     </item>
     <item>

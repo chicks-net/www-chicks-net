@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 16:04:15 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.chicks.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>September 2026 on GitHub: The Month ctm Was Born</title>
+      <link>https://www.chicks.net/posts/2026-09-30-github-recap-2026-09/</link>
+      <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-09-30-github-recap-2026-09/</guid>
+      <description>Two hundred pull requests, ten releases, and a brand-new Go CLI for bossing around LED clocks — September was a busy month on GitHub.</description>
+    </item>
+    <item>
+      <title>August 2026 on GitHub: The Month I Documented Every Script</title>
+      <link>https://www.chicks.net/posts/2026-08-31-github-recap-2026-08/</link>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-08-31-github-recap-2026-08/</guid>
+      <description>One hundred thirteen pull requests, a 2,339-line documentation monster, and the ongoing project of teaching my tools to render Copilot reviews like first-class citizens.</description>
+    </item>
     <item>
       <title>The Importance of Greeting Strangers</title>
       <link>https://www.chicks.net/posts/2026-07-31-the-importance-of-greeting-strangers/</link>
@@ -21,11 +35,39 @@
       <description>Greeting strangers is actually good for you.</description>
     </item>
     <item>
+      <title>July 2026 on GitHub: 175 Reviews and a Lighthouse</title>
+      <link>https://www.chicks.net/posts/2026-07-31-github-recap-2026-07/</link>
+      <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-07-31-github-recap-2026-07/</guid>
+      <description>Seventy-seven pull requests, seven releases, and the month I officially became management for a fleet of code-review robots.</description>
+    </item>
+    <item>
+      <title>June 2026 on GitHub: Twenty-Six Releases and a 33-Comment Saga</title>
+      <link>https://www.chicks.net/posts/2026-06-30-github-recap-2026-06/</link>
+      <pubDate>Tue, 30 Jun 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-06-30-github-recap-2026-06/</guid>
+      <description>One hundred thirty-two perfect merges, twenty-six releases, a 1,421-line Packer image that took thirty-three comments to land, and the biggest blog post of the year.</description>
+    </item>
+    <item>
       <title>Shell Programming Best Practices</title>
       <link>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</link>
       <pubDate>Fri, 05 Jun 2026 21:05:12 -0400</pubDate>
       <guid>https://www.chicks.net/posts/2026-06-06-shell-programming-best-practices/</guid>
       <description>Practical advice for writing reliable shell scripts, covering strict mode, quoting, conditionals, parameter expansion, functions, traps, shellcheck, and when to reach for a different language instead.</description>
+    </item>
+    <item>
+      <title>May 2026 on GitHub: The Quietest Month Built a Kubernetes Cluster</title>
+      <link>https://www.chicks.net/posts/2026-05-31-github-recap-2026-05/</link>
+      <pubDate>Sun, 31 May 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-05-31-github-recap-2026-05/</guid>
+      <description>Sixty-three pull requests — the calmest month of the year — and yet the first Kubernetes cluster went live, four gh-observer releases shipped, and one previously rejected PR got its redemption.</description>
+    </item>
+    <item>
+      <title>April 2026 on GitHub: A Perfect Month and a PR to Hugo</title>
+      <link>https://www.chicks.net/posts/2026-04-30-github-recap-2026-04/</link>
+      <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-04-30-github-recap-2026-04/</guid>
+      <description>One hundred twenty-three pull requests, one hundred twenty-three merges, the biggest blog post of the year so far, and a small fix that landed inside the tool that builds this very site.</description>
     </item>
     <item>
       <title>My first 8 months with AI</title>
@@ -42,11 +84,25 @@
       <description>A Programmer&amp;#39;s Approach to Atmospheric Disappointment</description>
     </item>
     <item>
+      <title>March 2026 on GitHub: gh-observer Enters the Room</title>
+      <link>https://www.chicks.net/posts/2026-03-31-github-recap-2026-03/</link>
+      <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-03-31-github-recap-2026-03/</guid>
+      <description>One hundred twenty-four PRs, two v1.0 releases, a 1,400-line launch post — and the month I taught my data repo to analyze code reviews.</description>
+    </item>
+    <item>
       <title>Announcing gh-observer: Waiting for CI Should Not Be Misery</title>
       <link>https://www.chicks.net/posts/2026-03-08-announce-gh-observer/</link>
       <pubDate>Sun, 08 Mar 2026 02:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/posts/2026-03-08-announce-gh-observer/</guid>
       <description>I got tired of watching `gh pr checks --watch` fail me, so I built something better</description>
+    </item>
+    <item>
+      <title>February 2026 on GitHub: data-curated Grows Up and Gets a Robot</title>
+      <link>https://www.chicks.net/posts/2026-02-28-github-recap-2026-02/</link>
+      <pubDate>Sat, 28 Feb 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-02-28-github-recap-2026-02/</guid>
+      <description>Ninety pull requests into one data repo, three releases in eight days on the way to v1.0, and the February afternoon I taught a cron job to file its own PRs.</description>
     </item>
     <item>
       <title>Backing Into Parking Spaces</title>
@@ -56,6 +112,13 @@
       <description>There’s more to parking than we learned to get our licenses.</description>
     </item>
     <item>
+      <title>January 2026 on GitHub: Zip Is King and dnscontrol Says Yes</title>
+      <link>https://www.chicks.net/posts/2026-01-31-github-recap-2026-01/</link>
+      <pubDate>Sat, 31 Jan 2026 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2026-01-31-github-recap-2026-01/</guid>
+      <description>A perfect 130-for-130 merge month, the biggest blog post I have ever shipped, and my first real upstream month — dnscontrol merged all five of my PRs.</description>
+    </item>
+    <item>
       <title>Zip is the King of Stealth File Formats</title>
       <link>https://www.chicks.net/posts/2026-01-09-zip-is-the-king-of-stealth/</link>
       <pubDate>Thu, 08 Jan 2026 22:25:35 -0800</pubDate>
@@ -63,11 +126,32 @@
       <description>You are using it everyday without realizing it.</description>
     </item>
     <item>
+      <title>December 2025 on GitHub: 167,920 Lines of Nostalgia</title>
+      <link>https://www.chicks.net/posts/2025-12-31-github-recap-2025-12/</link>
+      <pubDate>Wed, 31 Dec 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2025-12-31-github-recap-2025-12/</guid>
+      <description>One hundred twenty-seven perfect merges, nine releases, a lottery-tracker side quest, a quilt-shop app, and the PR that imported an entire dead social network into this blog.</description>
+    </item>
+    <item>
+      <title>November 2025 on GitHub: The CDN That Wasn&#39;t</title>
+      <link>https://www.chicks.net/posts/2025-11-30-github-recap-2025-11/</link>
+      <pubDate>Sun, 30 Nov 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2025-11-30-github-recap-2025-11/</guid>
+      <description>One hundred forty-four PRs, a six-line confession that October&amp;amp;rsquo;s CDN was not awesome, the DEI post, and the book project learning to draw.</description>
+    </item>
+    <item>
       <title>DEI equals American Values</title>
       <link>https://www.chicks.net/posts/2025-11-20-dei-equals-american-values/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/posts/2025-11-20-dei-equals-american-values/</guid>
       <description>DEI Initiatives and American Values: A Foundation Built on Founding Principles</description>
+    </item>
+    <item>
+      <title>October 2025 on GitHub: A Perfect Month and a Fifty-Year-Old Book</title>
+      <link>https://www.chicks.net/posts/2025-10-31-github-recap-2025-10/</link>
+      <pubDate>Fri, 31 Oct 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2025-10-31-github-recap-2025-10/</guid>
+      <description>One hundred eight pull requests, one hundred eight merges, a CDN that took twenty-five comments to tame, and a month spent carrying a 1975 classic through my PR workflow one chapter at a time.</description>
     </item>
     <item>
       <title>Glowing review of &#34;Evolution of Lua, continued&#34;</title>
@@ -90,6 +174,13 @@ from the job description. So you don&amp;rsquo;t have to worry about me competin
 you.&lt;/p&gt;
 &lt;p&gt;Feel free to comment on this post or DM me if you&amp;rsquo;re actively looking for
 something now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>September 2025 on GitHub: The uv Post and a Demo That Grew Up Fast</title>
+      <link>https://www.chicks.net/posts/2025-09-30-github-recap-2025-09/</link>
+      <pubDate>Tue, 30 Sep 2025 12:00:00 +0000</pubDate>
+      <guid>https://www.chicks.net/posts/2025-09-30-github-recap-2025-09/</guid>
+      <description>One hundred forty-four pull requests, two releases, and one uv post that took on a life of its own — September 2025 on GitHub.</description>
     </item>
     <item>
       <title>Man in Finance in LEGO</title>
