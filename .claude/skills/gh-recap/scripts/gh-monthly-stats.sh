@@ -162,6 +162,9 @@ jq --argjson repeated "$(cat "$WORK/repeated_keys.json")" '
 ' "$WORK/prs_public.json" > "$WORK/automation.json"
 
 echo "Automation-bucketed $(jq 'length' "$WORK/automation.json") PRs" >&2
+# Show what was bucketed, so a suspicious swallow can be spotted by eye.
+jq -r '.[] | .repository.nameWithOwner + "|" + (.title | gsub("\\s*\\([^)]*\\)\\s*$"; ""))' \
+  "$WORK/automation.json" | sort | uniq -c | sed 's/^/  automation: /' >&2
 
 # --- releases ------------------------------------------------------------------
 # Only own repos: a release from someone else's repo is theirs, not ours,

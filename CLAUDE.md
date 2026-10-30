@@ -70,6 +70,7 @@ The project uses a streamlined git workflow with just commands:
 - **Git-centric workflow** with GitHub CLI integration for PRs
 - **Generated HTML** is in the `public/` directory and kept in sync with content changes (needed for current deployment strategy)
 - **Custom Claude agent**: `post-tagger` agent for optimizing tags across posts (`.claude/agents/post-tagger.md`)
+- **Custom Claude skill**: `gh-recap` skill for monthly GitHub recap posts (`.claude/skills/gh-recap/`), also readable by OpenCode
 - **Timezone handling**: Hugo builds use Pacific timezone (`TZ=America/Los_Angeles`) for consistent date rendering
 
 ## Key Files

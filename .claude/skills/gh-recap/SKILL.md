@@ -1,5 +1,5 @@
 ---
-name: GitHub Monthly Recap
+name: gh-recap
 description: Create a blog post for www.chicks.net recapping one month of public GitHub activity (default: the previous calendar month). Use this whenever the user asks for a GitHub recap, monthly recap, monthly wrap-up or wrapup, "what did I do last month", a summary of their GitHub activity or PRs, release stats for a month, or a blog post about their recent coding activity — even if they never say the word "recap" or "blog". Gathers real data with the gh CLI (PRs, comments, releases) and writes a ready-to-publish post with overall statistics, release summaries, and notable pull requests.
 ---
 
@@ -65,6 +65,18 @@ bundle:
 - `releases` — releases published that month from the active repos, with
   tag, date, author, URL, and changelog body
 
+Known boundaries in the data, so the post doesn't overclaim:
+
+- `releases` is **not a census** — only repos with a PR opened that month
+  are checked, so a release cut from a direct push can be missed. Frame
+  "Releases Shipped" as the highlights.
+- The month window is **UTC** while the site renders dates in Pacific
+  time, so a PR opened on the last evening of a month (Pacific) counts
+  toward the next month. Don't claim month-boundary precision.
+- `totals` are GitHub profile counters — quote them as "per my GitHub
+  profile", and note `totals.restrictedContributionsCount` means some are
+  private contributions.
+
 The `automation` bucket is daily-bot noise like the data-curated
 "Update GitHub data" PRs. Report it in the stats as a one-liner ("the robots
 filed 46 of those on their own") but never treat it as notable work.
@@ -125,8 +137,15 @@ ls content/posts | grep github-recap | sort | tail -2
 
 - **Voice**: Christopher's — casual, conversational, contractions,
   self-deprecating humor, direct and practical, a tech-history or nostalgia
-  nod when it fits. Write for smart friends, not a committee. The global
-  writing-style rules live in `~/.claude/CLAUDE.md`.
+  nod when it fits. Write for smart friends, not a committee. If the global
+  writing-style rules in `~/.claude/CLAUDE.md` are present on this machine,
+  read them for the full version; the summary here carries the essentials.
+
+This skill lives under `.claude/skills/` so both Claude Code and OpenCode
+can drive it. Whichever harness runs it, the Embedded Metadata section
+must name that harness and model as the drafter — see
+`references/post-structure.md`.
+
 - **Balance**: stats-forward with light narrative. Get the numbers up top in
   a table, then tell the stories behind the interesting bits. Link every PR
   and release mentioned.
