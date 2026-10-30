@@ -10,7 +10,7 @@ narrative: numbers first, stories second.
 +++
 title = '<Month Year> on GitHub: <light flavor phrase>'
 date = <YYYY-MM-DD>T12:00:00+00:00
-draft = true
+draft = false
 description = '<one casual sentence about the month>'
 cover.hidden = true
 keywords = ["github", "monthly-recap", "<topic>", "<topic>"]
@@ -23,7 +23,8 @@ ShowToc = true
   is dated `2026-09-30T12:00:00+00:00`), even though you usually write the
   post days later. 12:00 UTC keeps the date on that day in the Pacific
   timezone Hugo builds with.
-- `draft = true` always — the user flips it when they are happy.
+- `draft = false` by default — the post goes live when its PR merges. Set
+  `draft = true` only when the user explicitly wants to preview unpublished.
 - Title format follows posts like "Announcing gh-observer: Waiting for CI
   Should Not Be Misery" — a statement, then a colon, then the hook. Good
   hooks name the biggest thing that happened ("The Month ctm Shipped Twice").

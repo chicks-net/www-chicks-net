@@ -1,21 +1,22 @@
 ---
 name: GitHub Monthly Recap
-description: Create a blog post for www.chicks.net recapping one month of public GitHub activity (default: the previous calendar month). Use this whenever the user asks for a GitHub recap, monthly recap, monthly wrap-up or wrapup, "what did I do last month", a summary of their GitHub activity or PRs, release stats for a month, or a blog post about their recent coding activity — even if they never say the word "recap" or "blog". Gathers real data with the gh CLI (PRs, comments, releases) and writes a draft post with overall statistics, release summaries, and notable pull requests.
+description: Create a blog post for www.chicks.net recapping one month of public GitHub activity (default: the previous calendar month). Use this whenever the user asks for a GitHub recap, monthly recap, monthly wrap-up or wrapup, "what did I do last month", a summary of their GitHub activity or PRs, release stats for a month, or a blog post about their recent coding activity — even if they never say the word "recap" or "blog". Gathers real data with the gh CLI (PRs, comments, releases) and writes a ready-to-publish post with overall statistics, release summaries, and notable pull requests.
 ---
 
 # GitHub Monthly Recap
 
-Produce a Hugo draft post summarizing Christopher Hicks' public GitHub
-activity for one month, in his voice, following this repo's conventions.
+Produce a Hugo post (published on merge) summarizing Christopher Hicks'
+public GitHub activity for one month, in his voice, following this repo's
+conventions.
 
 ## Ground rules
 
 - Work happens in this repo (www-chicks-net). Posts go in `content/posts/`.
 - Every number in the post must come from the data bundle — never invent
   stats. If the month was quiet, write a short, honest post.
-- The post is a **draft** (`draft = true`). The user reviews it, flips the
-  draft flag, and merges through their normal `just pr` flow. Do not publish
-  for them, and do not run `just pr` unless asked.
+- The post publishes on merge (`draft = false` is the default). The user
+  still reviews before merging; if they want to sit on a post, they set
+  `draft = true` themselves. Do not run `just pr` unless asked.
 - Use TOML front matter (`+++`), never YAML. See `references/post-structure.md`
   for the exact template and section skeleton.
 
@@ -79,6 +80,7 @@ interesting-looking in `prs.feature`, then fetch details for each:
 ```bash
 gh pr view NUMBER --repo OWNER/REPO --json additions,deletions,commits,reviews,comments,body
 ```
+
 A PR is notable when it meets either of the user's criteria:
 
 - **Many review cycles.** In this workflow reviews usually happen in the
@@ -139,17 +141,24 @@ grep -rhoE 'tags = \[[^]]*\]' content/posts --include='*.md' | sort | uniq -c | 
 ## 6. Lint, then report
 
 ```bash
-markdownlint-cli2 "content/posts/<file>.md"
+markdownlint-cli2 '**/*.md' '!.github/**/*.md' '!public/**/*.md' '!static/**/*.md'
 ```
 
-Fix any complaints. Known traps in this repo: files must end with a single
-trailing newline (MD047 is enabled), line length MD013 is disabled, and
-lists use dashes. Verify the build accepts the post without touching the
+That is the exact invocation the CI `markdown-lint` job runs, over the
+whole repo — use it rather than linting only the new post, so the skill's
+own files (and anything else touched) get checked too. Fix any
+complaints. Known traps in this repo: files must end with a single
+trailing newline (MD047 is enabled), fenced code blocks need blank lines
+around them (MD031), line length MD013 is disabled, and lists use
+dashes. Verify the build accepts the post without touching the
 committed `public/` directory:
 
 ```bash
 hugo --renderToMemory --quiet
-``` Then report to the user: the file path, the headline stats, which
-PRs you picked as notable and why, and a reminder that the post is a draft —
-when it looks good they flip `draft = false` and run `just pr`. Offering a
-`just server` preview link is a nice touch.
+```
+
+Then report to the user: the file path, the headline stats, which
+PRs you picked as notable and why, and a reminder that the post publishes
+when its PR merges — if they want to hold it back, they set
+`draft = true` before merging. Offering a `just server` preview link is a
+nice touch.

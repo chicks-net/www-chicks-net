@@ -107,24 +107,29 @@ gh search prs --author="$GH_USER" --created="$CREATED_RANGE" --limit 1000 \
   --json number,title,url,state,createdAt,closedAt,commentsCount,isDraft,repository \
   > "$WORK/prs_raw.json"
 
+RAW_COUNT="$(jq 'length' "$WORK/prs_raw.json")"
+if [[ "$RAW_COUNT" -ge 1000 ]]; then
+  echo "WARNING: search returned ${RAW_COUNT} PRs; the search API caps at" \
+    "1000 results — this month may be truncated" >&2
+fi
+
 # Keep only PRs in public repos.  The search API surfaces everything the
-# token can see, including private repos, and this is a *public* activity recap.
+# token can see, including private repos, and this is a *public* activity
+# recap — so a repo we cannot inspect fails CLOSED (excluded), because
+# silence must not leak private PR titles into a public post.
 REPOS="$(jq -r '[.[].repository.nameWithOwner] | unique | .[]' "$WORK/prs_raw.json")"
-: > "$WORK/private_repos.json"
-echo "[" > "$WORK/private_repos.json"
-FIRST=true
+: > "$WORK/private_repos.txt"
 while IFS= read -r repo; do
   [[ -n "$repo" ]] || continue
-  if gh api "repos/${repo}" --jq '.private' > "$WORK/vis" 2>/dev/null; then
-    if [[ "$(cat "$WORK/vis")" == "true" ]]; then
-      if $FIRST; then FIRST=false; else echo "," >> "$WORK/private_repos.json"; fi
-      printf '"%s"' "$repo" >> "$WORK/private_repos.json"
-    fi
-  else
-    echo "WARNING: could not inspect ${repo}; treating as public" >&2
+  VIS="$(gh api "repos/${repo}" --jq '.private' 2>/dev/null || true)"
+  if [[ -z "$VIS" ]]; then
+    echo "WARNING: could not inspect ${repo}; treating it as private" >&2
+    echo "$repo" >> "$WORK/private_repos.txt"
+  elif [[ "$VIS" == "true" ]]; then
+    echo "$repo" >> "$WORK/private_repos.txt"
   fi
 done <<< "$REPOS"
-echo "]" >> "$WORK/private_repos.json"
+jq -R . "$WORK/private_repos.txt" | jq -s . > "$WORK/private_repos.json"
 
 jq --slurpfile private "$WORK/private_repos.json" \
   '[.[] | select(.repository.nameWithOwner as $r | ($private[0] | index($r)) == null)]' \
@@ -156,6 +161,8 @@ echo "Automation-bucketed $(jq 'length' "$WORK/automation.json") PRs" >&2
 # --- releases ------------------------------------------------------------------
 # Only own repos: a release from someone else's repo is theirs, not ours,
 # even when we contributed a PR there that month.
+# per_page=30 covers any realistic single month; a repo shipping more than
+# 30 releases in a month would need paging here.
 
 mkdir -p "$WORK/parts"
 echo "[]" > "$WORK/parts/0.json"
