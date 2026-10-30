@@ -98,8 +98,9 @@ one story). If the month had zero releases, skip the section.
 
 3-5 picks, each as a short paragraph (or bolded lead-in plus paragraph):
 what it did, the size, how many review cycles it survived, why it mattered,
-and the PR link. Exclude bot reviewers when counting review cycles — Copilot
-and Claude comment on everything in this workflow. If nothing qualifies,
+and the PR link. Review cycles here are rounds of AI review, author fixes,
+and re-review — a single drive-by bot review is noise (every PR in this
+workflow gets one); alternating rounds are the signal. If nothing qualifies,
 a sentence saying so is fine.
 
 ### `## Embedded Metadata`
@@ -113,12 +114,24 @@ convention at the bottom of posts like the gh-observer announcement:
 These are times where it seems good to be explicit about our choices about and
 usage of AI (Artificial Intelligence). Plus any links to cross-posts I do.
 
-- This post was drafted by Claude in OpenCode using the `gh-recap` skill;
+- This post was drafted by <model> in <harness> using the `gh-recap` skill;
   the numbers came straight from GitHub's API via the `gh` CLI on <date>.
-- The draft was reviewed and edited by me before publishing.
+- The PR carrying this series was code-reviewed in CI by Claude Code —
+  robots reviewing robots, which felt thematically correct.
+- The draft was reviewed and edited by me before publishing. The opinions,
+  jokes, and any errors are mine.
 ```
 
-Adjust the wording honestly for whatever actually happened. Add cross-post
+**Name the actual model and harness that drafted the post** — whatever
+you are running as at that moment ("GLM-5.3 in OpenCode", "Claude in
+Claude Code", and so on). Never assume Claude did the drafting just
+because the skill lives under `.claude/skills/`; misattributing the
+drafter is exactly what this disclosure section exists to prevent.
+Credit the CI reviewers for what they actually did — reviewing, not
+drafting — and name only the ones that really reviewed the PR (check
+`gh pr view --json comments --jq '.[].author.login'` if unsure). For
+retroactive backfills, say so: "looking back at `Month Year`". Adjust
+the wording honestly for whatever actually happened. Add cross-post
 links if the user mentions any.
 
 ## Voice reminders

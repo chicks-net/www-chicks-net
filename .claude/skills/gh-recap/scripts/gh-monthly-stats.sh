@@ -19,14 +19,19 @@
 # collapse to one key — or whose title matches known automation patterns.
 # Human-shaped work stays in the feature bucket.
 #
+# The 5+ rule is a heuristic, not a law: a quiet month with a legitimately
+# repetitive batch (five "Bump X" dependency PRs, say) would get bucketed
+# as automation and vanish from the narrative.  Check prs.automation before
+# believing a suspicious zero.
+#
 # Releases are only collected from repos with PR activity in the month;
 # in this workflow releases always ride on merged PRs, so that set is
 # reliable and keeps the API call count sane.
 
 set -euo pipefail
 
-GH_USER="chicks-net"
-GH_ORG="fini-net"
+GH_USER="${GH_RECAP_USER:-chicks-net}"
+GH_ORG="${GH_RECAP_ORG:-fini-net}"
 
 die() {
   echo "ERROR: $*" >&2
@@ -80,6 +85,10 @@ echo "Gathering ${GH_USER} activity for ${TARGET} (${FROM} .. ${TO})" >&2
 # --- profile-level totals (GraphQL) -----------------------------------------
 
 # SC2016: the $ variables in the query are GraphQL parameters, not shell.
+# pullRequestContributionsByRepository is deliberately NOT requested: with
+# the owner's token it can include private repo names, and this bundle
+# feeds a public blog post.  restrictedContributionsCount below is the
+# public/private caveat that actually matters.
 # shellcheck disable=SC2016
 gh api graphql \
   -f query='query($login: String!, $from: DateTime!, $to: DateTime!) {
@@ -91,10 +100,6 @@ gh api graphql \
         totalPullRequestReviewContributions
         totalRepositoriesWithContributedCommits
         restrictedContributionsCount
-        pullRequestContributionsByRepository(maxRepositories: 50) {
-          repository { nameWithOwner }
-          contributions { totalCount }
-        }
       }
     }
   }' \
