@@ -145,3 +145,7 @@ links if the user mentions any.
 - markdownlint: line length is unchecked (MD013 off), lists use `-`,
   bare URLs are fine in this repo's posts but prefer proper Markdown links
   for PRs and releases.
+- Every @mention links to the GitHub user's profile, written as
+  `[@octocat](https://github.com/octocat)`. Bot accounts have no profile,
+  so link their app page instead, e.g.
+  `[@renovate[bot]](https://github.com/apps/renovate)`.
