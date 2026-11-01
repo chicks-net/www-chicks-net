@@ -148,7 +148,8 @@ must name that harness and model as the drafter — see
 
 - **Balance**: stats-forward with light narrative. Get the numbers up top in
   a table, then tell the stories behind the interesting bits. Link every PR
-  and release mentioned.
+  and release mentioned, and make every @mention a link to the GitHub
+  user's profile.
 - **Tags**: lowercase, alphabetical, prefer tags already in use on the site
   (`github`, `programming`, and `free-software` are established). Check the
   vocabulary first:
