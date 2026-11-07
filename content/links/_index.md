@@ -8,14 +8,16 @@ draft = false
   - 🛞 [Github](https://github.com/chicks-net) has been my primary focus.
   - 🥼 [GitLab](https://gitlab.com/chicks-net) for a few repos.
   - 🧊 [Codeberg](https://codeberg.org/chicks) for something someday.
-  - ⭐ [StackOverflow](https://stackoverflow.com/users/2002471/chicks).
+  - ⭐ [StackOverflow](https://stackoverflow.com/users/chicks).
   - 🐪 [Perl Monks](https://perlmonks.org/index.pl?node_id=160784).
   - 🔍 [Black Duck Open Hub](https://openhub.net/accounts/chicks) - not sure about the value here yet.  (It used to be [called ohloh.net](https://www.reddit.com/r/opensource/comments/2aqq0v/ohlohs_name_changing_to_black_duck_open_hub/).)
 - 💻 tech best practices:
   - 🛡️ [OpenSSF Best Practices](https://www.bestpractices.dev/en/users/35911).
-  - 📊 [Code Review Stack Exchange](https://codereview.stackexchange.com/users/89257/chicks).
-  - 🗄 [ServerFault](https://serverfault.com/users/205542/chicks).
-  - 🐉 [DevOps StackExchange](https://devops.stackexchange.com/users/739/chicks).
+  - 📊 [Code Review StackExchange](https://codereview.stackexchange.com/users/chicks).
+  - 🗄 [ServerFault](https://serverfault.com/users/chicks).
+  - 🐉 [DevOps StackExchange](https://devops.stackexchange.com/users/chicks).
+  - ⌨️ [UNIX & Linux StackExchange](https://unix.stackexchange.com/users/chicks).
+  - 📟 [Superuser StackExchange](https://superuser.com/users/chicks).
 - ☎ other tech:
   - ⚡ [Hackaday](https://hackaday.io/chicks).
   - 💡 [CrowdSupply](https://www.crowdsupply.com/people/chicks).
@@ -24,7 +26,7 @@ draft = false
 - 🧱 LEGO:
   - 🧩 [Rebrickable](https://rebrickable.com/users/chicks/) for sets you can build..
   - 📹 [Chicks Bricks on Youtube](https://www.youtube.com/@ChicksBricks123).
-  - 🧱 [Bricks StackExchange](https://bricks.stackexchange.com/users/6174/chicks).
+  - 🧱 [Bricks StackExchange](https://bricks.stackexchange.com/users/chicks).
   - 📦 [Brickset](https://brickset.com/profile/chicks) for tracking your sets.
 - 🗨 socia/review:
   - 💼 [Linked-In](https://www.linkedin.com/in/chicks2fini) is my latest resume.
@@ -44,7 +46,7 @@ draft = false
 - 🎲 games:
   - 🎮 [Steam](https://steamcommunity.com/profiles/76561198037662755/).
   - 📱 [Google Play Games](https://play.google.com/profile/chicksnet).
-  - 🎮 [Arqade](https://gaming.stackexchange.com/users/100715/chicks).
+  - 🎮 [Arqade](https://gaming.stackexchange.com/users/chicks).
   - 🎲 [Board Games Arena](https://boardgamearena.com/player?id=89400494).
 - 😄 fun:
   - 📚 [LibraryThing](https://www.librarything.com/profile/christopher.hicks) is my card catalog for books.
