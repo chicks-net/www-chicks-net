@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 11:36:40 -0800</lastBuildDate>
     <atom:link href="https://www.chicks.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community</title>
+      <link>https://www.chicks.net/tags/community/</link>
+      <pubDate>Sat, 07 Nov 2026 11:36:40 -0800</pubDate>
+      <guid>https://www.chicks.net/tags/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaming</title>
+      <link>https://www.chicks.net/tags/gaming/</link>
+      <pubDate>Sat, 07 Nov 2026 11:36:40 -0800</pubDate>
+      <guid>https://www.chicks.net/tags/gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://www.chicks.net/tags/programming/</link>
+      <pubDate>Sat, 07 Nov 2026 11:36:40 -0800</pubDate>
+      <guid>https://www.chicks.net/tags/programming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Free-Software</title>
       <link>https://www.chicks.net/tags/free-software/</link>
@@ -28,13 +49,6 @@
       <description></description>
     </item>
     <item>
-      <title>Programming</title>
-      <link>https://www.chicks.net/tags/programming/</link>
-      <pubDate>Sat, 31 Oct 2026 12:00:00 +0000</pubDate>
-      <guid>https://www.chicks.net/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Release-Engineering</title>
       <link>https://www.chicks.net/tags/release-engineering/</link>
       <pubDate>Sat, 31 Oct 2026 12:00:00 +0000</pubDate>
@@ -46,13 +60,6 @@
       <link>https://www.chicks.net/tags/ca-central-coast/</link>
       <pubDate>Fri, 31 Jul 2026 16:04:15 -0400</pubDate>
       <guid>https://www.chicks.net/tags/ca-central-coast/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Community</title>
-      <link>https://www.chicks.net/tags/community/</link>
-      <pubDate>Fri, 31 Jul 2026 16:04:15 -0400</pubDate>
-      <guid>https://www.chicks.net/tags/community/</guid>
       <description></description>
     </item>
     <item>
@@ -158,13 +165,6 @@
       <link>https://www.chicks.net/tags/news/</link>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://www.chicks.net/tags/news/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gaming</title>
-      <link>https://www.chicks.net/tags/gaming/</link>
-      <pubDate>Wed, 22 Oct 2025 20:44:52 -0700</pubDate>
-      <guid>https://www.chicks.net/tags/gaming/</guid>
       <description></description>
     </item>
     <item>
