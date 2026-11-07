@@ -4,6 +4,7 @@ date = 2026-11-07T11:36:40-08:00
 draft = false
 description = 'What fourteen years of American mah jongg cards say about dragons, flowers, and jokers.'
 cover.image = '/posts/2026-11-07-the-joker-economy.webp'
+cover.alt = 'Mahjong tiles on a teal table with a white-and-gold joker tile front and center, backed by faint bar charts.'
 cover.hidden = false
 keywords = ["mahjong", "joker", "statistics", "csv"]
 tags = ["data-analysis", "mahjong", "programming"]
@@ -25,8 +26,10 @@ plays. The National Mah Jongg League (NMJL) has been publishing an annual
 card of winning hands since the 1930s, and the card is the game — when the
 new one arrives each spring, the whole landscape of valid hands changes
 and every player re-learns it. The card is copyrighted, and selling it is
-the league's business, so this post reproduces no hands and no tile
-patterns — aggregate statistics only. If you play, buy the real card from
+the league's business, so this post reproduces no complete hands —
+aggregate statistics only, apart from a few tiny notation fragments down
+in the transcription-quirks section where the digitization itself has
+typos. If you play, buy the real card from
 [nationalmahjonggleague.org](https://www.nationalmahjonggleague.org/).
 Consider that my good deed for the day.
 
@@ -69,9 +72,10 @@ enumerated patterns — pattern-level percentages are in the CSV.
 ### Dragons, Winds, and Flowers
 
 - **Dragons (29-38%)** never dip low because the year-hand section uses
-  soap — the white dragon — as its zeros. That section is 100% dragons
-  every year before the Winds & Dragons section and the scattered dragon
-  kongs elsewhere even show up. The 2025 peak (38.2%) checks out against
+  soap — the white dragon — as its zeros, which makes that section 100%
+  dragons every single year. Add the Winds & Dragons section and the
+  scattered dragon kongs elsewhere, and dragons are guaranteed a healthy
+  share of any year's card. The 2025 peak (38.2%) checks out against
   independent analysis of the printed card:
   [iLoveMahj](https://ilovemahj.com/2025-card-analysis) noted dragons were
   better represented in 2025 than 2024 (38.2% vs 30.9% here).
@@ -169,7 +173,8 @@ happens when the source is a fan transcription of a copyrighted card:
   data.
 - **Cross-validation.** Against
   [iLoveMahj's 2025 card analysis](https://ilovemahj.com/2025-card-analysis):
-  dragons up in 2025 vs 2024 (38.2% vs 30.9% here, matching their note);
+  dragons up in 2025 vs 2024 (38.2% vs 30.9% here, directionally
+  matching their note);
   no flower/dragon/wind quints on the 2025 card (matching); flowers in
   52.2% of playable hands there vs 49.1% of hand families here
   (different units, same ballpark).
@@ -182,7 +187,8 @@ config file or two in his life, I present them with sympathy:
 
 - 2013 — a `33ea` typo in 13579 #4 (likely `333a`); Winds & Dragons
   #3/#4 ask for six of one suit (`111a 111a`, presumably two suits; the
-  same hand family persists in 2015).
+  same hand family recurs in 2015 — those two extra flags are part of
+  the fifteen).
 - 2014 — year hand #1 wants five Souths (wind-letter typo); 369 #3/#5
   put two kongs or pungs of the same tile in one suit (eight or six
   copies).
