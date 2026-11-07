@@ -7,7 +7,7 @@ cover.image = '/posts/2026-11-07-the-joker-economy.webp'
 cover.alt = 'Mahjong tiles on a teal table with a white-and-gold joker tile front and center, backed by faint bar charts.'
 cover.hidden = false
 keywords = ["mahjong", "joker", "statistics", "csv"]
-tags = ["data-analysis", "mahjong", "programming"]
+tags = ["community", "gaming", "programming"]
 ShowToc = true
 +++
 
