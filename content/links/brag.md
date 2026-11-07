@@ -22,6 +22,9 @@ draft = false
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=chicks-net&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
 
+<!-- markdownlint-disable-next-line MD034 -->
+{{< figure src="https://gitfut.com/chicks-net.png?country=us" link="https://gitfut.com/chicks-net?country=us" alt="GitFut player card for chicks-net" width="405" height="615" >}}
+
 ## Github fini-net
 
 [![Star History Chart for fini-net](https://github.com/chicks-net/data-curated/raw/main/individuals/chicks/github/star-history-analysis/star-history-fini-net.png)](https://github.com/chicks-net/data-curated/blob/main/individuals/chicks/github/star-history-analysis/star-history-fini-net.png)
