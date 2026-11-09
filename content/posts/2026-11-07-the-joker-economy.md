@@ -227,3 +227,8 @@ buy yours, and whatever you do, don't pass your flowers in the
 Charleston.
 
 If a recruiter asks, this was professional development in data analysis.
+
+## Embedded Meta
+
+- This blog was also [posted on Facebook](https://www.facebook.com/theresa.sawyer.shine/posts/pfbid02LTEz3mmmsLo4CSxrB18pC8SdEgqAcmcFLENus3SA6W9dZ9hy2Q1e4z3WKHx1zMrLl).
+- This blog was also [posted on LinkedIn](https://lnkd.in/p/giQRRuW2).
