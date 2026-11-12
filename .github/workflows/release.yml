@@ -13,6 +13,12 @@ on:
 # Empty global permissions - each job declares what it needs.
 permissions: {}
 
+# Serialize runs per tag: a re-pushed or re-run tag would race the
+# release-create fallback (--clobber covers uploads, not the create).
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -31,6 +37,10 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          # Full history: the main-reachability check below walks from the
+          # tagged commit back to main, which a depth-1 clone cannot do
+          # reliably (Claude review of #445, round 4 item 1).
+          fetch-depth: 0
 
       - name: Verify the tagged commit is on main
         run: |
@@ -40,9 +50,8 @@ jobs:
           # so a stray feature-branch tag cannot release unmerged content
           # (Claude review of #445, round 3 item 2). Tags cut by
           # `just release` always point at main, so legitimate flows pass.
-          # The repo is public, so the unauthenticated refspec fetch needs
-          # no credentials (checkout ran with persist-credentials: false).
-          git fetch --quiet origin +refs/heads/main:refs/remotes/origin/main
+          # The repo is public, so no checkout credentials are needed
+          # (persist-credentials: false above).
           if ! git merge-base --is-ancestor "$GITHUB_SHA" refs/remotes/origin/main; then
             echo "::error::tag ${GITHUB_REF#refs/tags/} points at a commit not reachable from main - refusing to release unmerged content"
             exit 1

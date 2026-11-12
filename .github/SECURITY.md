@@ -39,7 +39,9 @@ a cosign keyless signature (`.bundle`), an SBOM (`.sbom.json`), and an SLSA
 provenance attestation (`multiple.intoto.jsonl`). The SBOM is an unsigned
 inventory of the bundle's contents; the cosign signature and `checksums.txt`
 cover the bundle; the SLSA provenance covers both the bundle and
-`checksums.txt`.
+`checksums.txt`. Releases published before the signing workflow landed
+(before `v2026.11`) have no signed assets; `just verify-release` against them
+fails with a download error, which is expected.
 
 ### Quick verify with just
 
