@@ -32,6 +32,22 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Verify the tagged commit is on main
+        run: |
+          set -euo pipefail
+          # A `v*` tag fires this workflow from whatever branch or commit it
+          # points at; require the tagged commit to be reachable from main
+          # so a stray feature-branch tag cannot release unmerged content
+          # (Claude review of #445, round 3 item 2). Tags cut by
+          # `just release` always point at main, so legitimate flows pass.
+          # The repo is public, so the unauthenticated refspec fetch needs
+          # no credentials (checkout ran with persist-credentials: false).
+          git fetch --quiet origin +refs/heads/main:refs/remotes/origin/main
+          if ! git merge-base --is-ancestor "$GITHUB_SHA" refs/remotes/origin/main; then
+            echo "::error::tag ${GITHUB_REF#refs/tags/} points at a commit not reachable from main - refusing to release unmerged content"
+            exit 1
+          fi
+
       - name: Build asset bundle
         id: bundle
         run: |

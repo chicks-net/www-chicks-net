@@ -135,8 +135,10 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
 
     echo "{{GREEN}}Verifying bundle hash against checksums.txt...{{NORMAL}}"
     # With checksums.txt itself attested, regenerate the bundle hash
-    # and compare against the (now trusted) file.
-    EXPECTED="$(grep -E " ${BUNDLE}\$" checksums.txt | awk '{print $1}')"
+    # and compare against the (now trusted) file. awk matches the exact
+    # filename - grep -E would treat the dots in the bundle name as
+    # wildcards (Claude review of #445, round 3 item 3).
+    EXPECTED="$(awk -v f="${BUNDLE}" '$2==f {print $1}' checksums.txt)"
     # sha256sum is GNU coreutils (absent on macOS); fall back to shasum -a 256
     if command -v sha256sum >/dev/null 2>&1; then
         ACTUAL="$(sha256sum "${BUNDLE}" | awk '{print $1}')"
