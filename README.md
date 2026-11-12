@@ -9,6 +9,8 @@
 
 [![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fwww.chicks.net%2F)
+[![Lighthouse CI](https://github.com/chicks-net/www-chicks-net/actions/workflows/lighthouse.yml/badge.svg?branch=main)](https://github.com/chicks-net/www-chicks-net/actions/workflows/lighthouse.yml)
+[![Lighthouse CI](https://img.shields.io/github/actions/workflow/status/chicks-net/www-chicks-net/lighthouse.yml?branch=main&label=Lighthouse%20CI&logo=lighthouse&logoColor=white)](https://github.com/chicks-net/www-chicks-net/actions/workflows/lighthouse.yml)
 
 The [https://www.chicks.net/](https://www.chicks.net) web site is built and
 maintained with [Hugo](https://gohugo.io/)!
