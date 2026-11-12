@@ -54,30 +54,31 @@ just verify-release v2026.10
 ### Verify the asset signature with cosign
 
 ```bash
-# Replace v2026.10 with the tag you want to verify.
+# Replace v2026.10 with the tag you want to verify. -f: fail on HTTP
+# errors instead of saving a 404 page as the asset.
 TAG="v2026.10"
-curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
-curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz.bundle"
+curl -fLO "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
+curl -fLO "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz.bundle"
 
 cosign verify-blob \
-  --bundle www-chicks-net-${TAG}.tar.gz.bundle \
+  --bundle "www-chicks-net-${TAG}.tar.gz.bundle" \
   --certificate-identity "https://github.com/chicks-net/www-chicks-net/.github/workflows/release.yml@refs/tags/${TAG}" \
   --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
-  www-chicks-net-${TAG}.tar.gz
+  "www-chicks-net-${TAG}.tar.gz"
 ```
 
 ### Verify SLSA build provenance
 
 ```bash
 TAG="v2026.10"
-curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
-curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/multiple.intoto.jsonl"
+curl -fLO "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
+curl -fLO "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/multiple.intoto.jsonl"
 
 slsa-verifier verify-artifact \
   --provenance-path multiple.intoto.jsonl \
   --source-uri github.com/chicks-net/www-chicks-net \
   --source-tag "${TAG}" \
-  www-chicks-net-${TAG}.tar.gz
+  "www-chicks-net-${TAG}.tar.gz"
 ```
 
 The signature is produced via keyless signing using GitHub Actions OIDC

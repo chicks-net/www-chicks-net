@@ -68,6 +68,9 @@ check_images:
 
 # Verify a release's cosign signature and SLSA provenance (defaults to latest)
 # Usage: just verify-release [v2026.10]
+# The default resolves the latest non-prerelease release (gh release view
+# skips prereleases), so verifying a throwaway -rc tag requires passing it
+# explicitly.
 [group('Release')]
 verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagName -q .tagName`:
     #!/usr/bin/env bash
@@ -107,8 +110,8 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
 
     echo "{{GREEN}}Verifying cosign keyless signature...{{NORMAL}}"
     # Exact-match identity (not regexp): the workflow ref is always a tag
-    # here, so the identity is fully known - no wildcarded dots or unanchored
-    # matching (Claude review of #445, item 2).
+    # here, so the identity is fully known - no wildcarded dots or
+    # unanchored matching.
     cosign verify-blob \
         --bundle "${BUNDLE}.bundle" \
         --certificate-identity "https://github.com/${REPO}/.github/workflows/release.yml@refs/tags/${TAG}" \
@@ -126,7 +129,7 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
     # checksums.txt is a SLSA subject alongside the bundle, so the
     # provenance attests it too - verifying it against the provenance
     # gives it trust beyond a same-release comparison, which only
-    # catches corruption (Claude review of #445, round 2 item 1).
+    # catches corruption.
     slsa-verifier verify-artifact \
         --provenance-path multiple.intoto.jsonl \
         --source-uri "github.com/${REPO}" \
@@ -137,7 +140,7 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
     # With checksums.txt itself attested, regenerate the bundle hash
     # and compare against the (now trusted) file. awk matches the exact
     # filename - grep -E would treat the dots in the bundle name as
-    # wildcards (Claude review of #445, round 3 item 3).
+    # wildcards.
     EXPECTED="$(awk -v f="${BUNDLE}" '$2==f {print $1}' checksums.txt)"
     # sha256sum is GNU coreutils (absent on macOS); fall back to shasum -a 256
     if command -v sha256sum >/dev/null 2>&1; then

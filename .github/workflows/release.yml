@@ -39,7 +39,7 @@ jobs:
           persist-credentials: false
           # Full history: the main-reachability check below walks from the
           # tagged commit back to main, which a depth-1 clone cannot do
-          # reliably (Claude review of #445, round 4 item 1).
+          # reliably.
           fetch-depth: 0
 
       - name: Verify the tagged commit is on main
@@ -47,11 +47,10 @@ jobs:
           set -euo pipefail
           # A `v*` tag fires this workflow from whatever branch or commit it
           # points at; require the tagged commit to be reachable from main
-          # so a stray feature-branch tag cannot release unmerged content
-          # (Claude review of #445, round 3 item 2). Tags cut by
-          # `just release` always point at main, so legitimate flows pass.
-          # The repo is public, so no checkout credentials are needed
-          # (persist-credentials: false above).
+          # so a stray feature-branch tag cannot release unmerged content.
+          # Tags cut by `just release` always point at main, so
+          # legitimate flows pass. The repo is public, so no checkout
+          # credentials are needed (persist-credentials: false above).
           if ! git merge-base --is-ancestor "$GITHUB_SHA" refs/remotes/origin/main; then
             echo "::error::tag ${GITHUB_REF#refs/tags/} points at a commit not reachable from main - refusing to release unmerged content"
             exit 1
