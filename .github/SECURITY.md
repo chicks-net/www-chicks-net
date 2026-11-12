@@ -30,6 +30,56 @@ Findings from either should be addressed substantively where possible.
 Otherwise, add an ignore/suppression comment explaining why, so check results
 stay clean.
 
+## Verifying Releases
+
+Each tagged release (e.g. `v2026.10`) ships an asset bundle
+(`www-chicks-net-<tag>.tar.gz` containing the rendered site from `public/` -
+the exact files deployed to <https://www.chicks.net>), a `checksums.txt` file,
+a cosign keyless signature (`.bundle`), an SBOM (`.sbom.json`), and an SLSA
+provenance attestation (`multiple.intoto.jsonl`).
+
+### Quick verify with just
+
+```bash
+# Defaults to the latest release; pass a tag to verify a specific one.
+just verify-release
+just verify-release v2026.10
+```
+
+### Verify the asset signature with cosign
+
+```bash
+# Replace v2026.10 with the tag you want to verify.
+TAG="v2026.10"
+curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
+curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz.bundle"
+
+cosign verify-blob \
+  --bundle www-chicks-net-${TAG}.tar.gz.bundle \
+  --certificate-identity-regexp "https://github.com/chicks-net/www-chicks-net/.github/workflows/release.yml@refs/tags/${TAG}" \
+  --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
+  www-chicks-net-${TAG}.tar.gz
+```
+
+### Verify SLSA build provenance
+
+```bash
+TAG="v2026.10"
+curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
+curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/multiple.intoto.jsonl"
+
+slsa-verifier verify-artifact \
+  --provenance-path multiple.intoto.jsonl \
+  --source-uri github.com/chicks-net/www-chicks-net \
+  --source-tag "${TAG}" \
+  www-chicks-net-${TAG}.tar.gz
+```
+
+The signature is produced via keyless signing using GitHub Actions OIDC
+identities, so there are no long-lived signing keys to trust or rotate - you
+only trust the Sigstore Fulcio certificate chain and the workflow identity
+printed above.
+
 ## Reporting a Vulnerability
 
 Please do **not** open a public issue for security concerns. Instead, email me

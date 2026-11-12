@@ -1,0 +1,124 @@
+name: Release
+
+# Triggered by tag pushes from `just release` (gh release create pushes the tag,
+# which fires this workflow). The workflow attaches signed assets to the
+# already-created release via `gh release upload`, so `just release` itself
+# requires no changes. There is a brief ~60-90s window where the release exists
+# with no assets while signing runs - acceptable for a website repo.
+on:
+  push:
+    tags:
+      - 'v*'
+
+# Empty global permissions - each job declares what it needs.
+permissions: {}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # gh release upload
+      id-token: write    # cosign keyless OIDC
+      attestations: write # GitHub artifact attestations
+    outputs:
+      hashes: ${{ steps.hash.outputs.hashes }}
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@1d88384fd173af6ecb012dfd0264a306b711241a # v2.22.4
+        with:
+          egress-policy: audit
+
+      - name: Checkout code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Build asset bundle
+        id: bundle
+        run: |
+          set -euo pipefail
+          TAG="${GITHUB_REF#refs/tags/}"
+          BUNDLE="www-chicks-net-${TAG}.tar.gz"
+          # Distributable artifact: the rendered site in public/ - the exact
+          # files deployed to https://www.chicks.net/. public/ is committed
+          # by the pre-PR `just hugo` hook, so the tagged checkout needs no
+          # Hugo build in CI. macOS cruft is excluded defensively.
+          tar -czf "${BUNDLE}" \
+            --exclude='.DS_Store' \
+            public
+          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
+          echo "bundle=${BUNDLE}" >> "$GITHUB_OUTPUT"
+
+      - name: Generate checksums
+        env:
+          BUNDLE: ${{ steps.bundle.outputs.bundle }}
+        run: |
+          set -euo pipefail
+          sha256sum "${BUNDLE}" > checksums.txt
+          cat checksums.txt
+
+      - name: Generate subject hashes for SLSA provenance
+        id: hash
+        env:
+          BUNDLE: ${{ steps.bundle.outputs.bundle }}
+        run: |
+          set -euo pipefail
+          # SLSA generator expects base64-encoded sha256sum lines.
+          hashes=$(sha256sum "${BUNDLE}" checksums.txt | base64 -w0)
+          echo "hashes=$hashes" >> "$GITHUB_OUTPUT"
+
+      - name: Generate SBOM
+        uses: anchore/sbom-action@66cbf4bc1f1c0d2edc94016e65bc221b6bb0ad6c # v0.24.3
+        with:
+          file: ${{ steps.bundle.outputs.bundle }}
+          format: json
+          output-file: ${{ steps.bundle.outputs.bundle }}.sbom.json
+
+      - name: Install cosign
+        uses: sigstore/cosign-installer@756fe2d284c7292c4e9b62c8a28f1e5629c59532 # v4.1.3
+
+      - name: Sign asset bundle with cosign (keyless)
+        env:
+          BUNDLE: ${{ steps.bundle.outputs.bundle }}
+        run: |
+          set -euo pipefail
+          # Keyless signing via GitHub OIDC - no long-lived secrets to rotate.
+          # The --bundle file embeds the signature, certificate, and Rekor
+          # entry; verify downstream with the identity/issuer flags, e.g.:
+          #   cosign verify-blob \
+          #     --bundle www-chicks-net-${TAG}.tar.gz.bundle \
+          #     --certificate-identity-regexp \
+          #       "https://github.com/chicks-net/www-chicks-net/.github/workflows/release.yml@refs/tags/${TAG}" \
+          #     --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
+          #     www-chicks-net-${TAG}.tar.gz
+          cosign sign-blob --yes "${BUNDLE}" \
+            --bundle "${BUNDLE}.bundle"
+
+      - name: Upload signed assets to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.bundle.outputs.tag }}
+          BUNDLE: ${{ steps.bundle.outputs.bundle }}
+        run: |
+          set -euo pipefail
+          gh release upload "${TAG}" \
+            "${BUNDLE}" \
+            checksums.txt \
+            "${BUNDLE}.bundle" \
+            "${BUNDLE}.sbom.json" \
+            --clobber
+
+  provenance:
+    needs: release
+    permissions:
+      actions: read
+      id-token: write
+      contents: write
+    # SLSA generator requires a tag ref (refs/tags/vX.Y.Z) for its internal
+    # builder checkout; pinning to a git SHA causes "Invalid ref" errors and
+    # provenance generation failure.
+    # See: https://github.com/fini-net/gh-observer/actions/runs/27281001944
+    uses: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v2.1.0 # zizmor: ignore[unpinned-uses]
+    with:
+      base64-subjects: "${{ needs.release.outputs.hashes }}"
+      upload-assets: true

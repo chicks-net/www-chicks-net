@@ -36,6 +36,18 @@ The project uses a streamlined git workflow with just commands:
 6. **Merge**: `just merge` - Merges PR, deletes branch, returns to main
 7. **Sync**: `just sync` - Returns to main branch and pulls latest
 
+### Releases
+
+- **Create release**: `just release v2026.10` - Creates a GitHub release with
+  auto-generated notes; the tag push triggers
+  [`.github/workflows/release.yml`](.github/workflows/release.yml), which
+  bundles the rendered site (`public/`), signs it with cosign (keyless, via
+  GitHub OIDC), and attaches the bundle, checksums, SBOM, and SLSA provenance
+  to the release
+- **Verify release**: `just verify-release [v2026.10]` - Verifies a release's
+  cosign signature, SLSA provenance, and checksums (defaults to latest tag;
+  see [SECURITY.md](.github/SECURITY.md) for manual verification steps)
+
 ### Code Quality
 
 - **Markdown linting**: Run `markdownlint-cli2` (configured in `.markdownlint.yml`)
