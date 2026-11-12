@@ -69,7 +69,7 @@ check_images:
 # Verify a release's cosign signature and SLSA provenance (defaults to latest)
 # Usage: just verify-release [v2026.10]
 [group('Release')]
-verify-release TAG=`gh release view --json tagName -q .tagName`:
+verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagName -q .tagName`:
     #!/usr/bin/env bash
     set -euo pipefail
 
@@ -100,15 +100,18 @@ verify-release TAG=`gh release view --json tagName -q .tagName`:
         if ! curl --fail --location --output "${ASSET}" "${BASE}/${ASSET}"; then
             echo "{{RED}}Error: failed to download ${BASE}/${ASSET} (HTTP error)."
             echo "       Release ${TAG} may have no signed assets attached."
-            echo "       Check: gh release view ${TAG} --json assets -q '.assets[].name'{{NORMAL}}"
+            echo "       Check: gh release view ${TAG} --repo ${REPO} --json assets -q '.assets[].name'{{NORMAL}}"
             exit 1
         fi
     done
 
     echo "{{GREEN}}Verifying cosign keyless signature...{{NORMAL}}"
+    # Exact-match identity (not regexp): the workflow ref is always a tag
+    # here, so the identity is fully known - no wildcarded dots or unanchored
+    # matching (Claude review of #445, item 2).
     cosign verify-blob \
         --bundle "${BUNDLE}.bundle" \
-        --certificate-identity-regexp "https://github.com/${REPO}/.github/workflows/release.yml@refs/tags/${TAG}" \
+        --certificate-identity "https://github.com/${REPO}/.github/workflows/release.yml@refs/tags/${TAG}" \
         --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
         "${BUNDLE}"
 

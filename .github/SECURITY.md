@@ -36,7 +36,9 @@ Each tagged release (e.g. `v2026.10`) ships an asset bundle
 (`www-chicks-net-<tag>.tar.gz` containing the rendered site from `public/` -
 the exact files deployed to <https://www.chicks.net>), a `checksums.txt` file,
 a cosign keyless signature (`.bundle`), an SBOM (`.sbom.json`), and an SLSA
-provenance attestation (`multiple.intoto.jsonl`).
+provenance attestation (`multiple.intoto.jsonl`). The cosign signature and
+`checksums.txt` cover the bundle; the SLSA provenance covers both the bundle
+and `checksums.txt`.
 
 ### Quick verify with just
 
@@ -56,7 +58,7 @@ curl -L -O "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG
 
 cosign verify-blob \
   --bundle www-chicks-net-${TAG}.tar.gz.bundle \
-  --certificate-identity-regexp "https://github.com/chicks-net/www-chicks-net/.github/workflows/release.yml@refs/tags/${TAG}" \
+  --certificate-identity "https://github.com/chicks-net/www-chicks-net/.github/workflows/release.yml@refs/tags/${TAG}" \
   --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
   www-chicks-net-${TAG}.tar.gz
 ```
@@ -77,8 +79,8 @@ slsa-verifier verify-artifact \
 
 The signature is produced via keyless signing using GitHub Actions OIDC
 identities, so there are no long-lived signing keys to trust or rotate - you
-only trust the Sigstore Fulcio certificate chain and the workflow identity
-printed above.
+only trust the Sigstore Fulcio certificate chain and the exact workflow
+identity shown in the command above.
 
 ## Reporting a Vulnerability
 

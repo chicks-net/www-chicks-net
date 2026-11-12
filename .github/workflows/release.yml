@@ -17,9 +17,8 @@ jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
-      contents: write    # gh release upload
+      contents: write    # gh release upload / gh release create fallback
       id-token: write    # cosign keyless OIDC
-      attestations: write # GitHub artifact attestations
     outputs:
       hashes: ${{ steps.hash.outputs.hashes }}
     steps:
@@ -42,10 +41,16 @@ jobs:
           # Distributable artifact: the rendered site in public/ - the exact
           # files deployed to https://www.chicks.net/. public/ is committed
           # by the pre-PR `just hugo` hook, so the tagged checkout needs no
-          # Hugo build in CI. macOS cruft is excluded defensively.
-          tar -czf "${BUNDLE}" \
+          # Hugo build in CI. macOS cruft is excluded defensively (none is
+          # committed today). The tar is built reproducibly - sorted entry
+          # names, mtime pinned to the tagged commit's epoch, root uid/gid,
+          # and timestamp-free gzip - so the bundle can be rebuilt from the
+          # tag and hash-compared byte for byte.
+          COMMIT_EPOCH="$(git log -1 --pretty=%ct)"
+          tar --sort=name --mtime="@${COMMIT_EPOCH}" \
+            --owner=0 --group=0 --numeric-owner \
             --exclude='.DS_Store' \
-            public
+            -cf - public | gzip -n > "${BUNDLE}"
           echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
           echo "bundle=${BUNDLE}" >> "$GITHUB_OUTPUT"
 
@@ -87,7 +92,7 @@ jobs:
           # entry; verify downstream with the identity/issuer flags, e.g.:
           #   cosign verify-blob \
           #     --bundle www-chicks-net-${TAG}.tar.gz.bundle \
-          #     --certificate-identity-regexp \
+          #     --certificate-identity \
           #       "https://github.com/chicks-net/www-chicks-net/.github/workflows/release.yml@refs/tags/${TAG}" \
           #     --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
           #     www-chicks-net-${TAG}.tar.gz
@@ -101,6 +106,19 @@ jobs:
           BUNDLE: ${{ steps.bundle.outputs.bundle }}
         run: |
           set -euo pipefail
+          # `just release` creates the release before the tag push fires
+          # this workflow; a manually pushed bare tag has none, so create
+          # a notes-only one for the upload below to target. The hyphen
+          # test mirrors `just release`: pre-release-looking tags do not
+          # get the Latest badge.
+          if ! gh release view "${TAG}" >/dev/null 2>&1; then
+            echo "No release for ${TAG} - creating one (manual tag push?)"
+            if [[ "${TAG%%+*}" == *-* ]]; then
+              gh release create "${TAG}" --prerelease --generate-notes
+            else
+              gh release create "${TAG}" --generate-notes
+            fi
+          fi
           gh release upload "${TAG}" \
             "${BUNDLE}" \
             checksums.txt \
