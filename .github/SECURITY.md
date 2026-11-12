@@ -36,9 +36,10 @@ Each tagged release (e.g. `v2026.10`) ships an asset bundle
 (`www-chicks-net-<tag>.tar.gz` containing the rendered site from `public/` -
 the exact files deployed to <https://www.chicks.net>), a `checksums.txt` file,
 a cosign keyless signature (`.bundle`), an SBOM (`.sbom.json`), and an SLSA
-provenance attestation (`multiple.intoto.jsonl`). The cosign signature and
-`checksums.txt` cover the bundle; the SLSA provenance covers both the bundle
-and `checksums.txt`.
+provenance attestation (`multiple.intoto.jsonl`). The SBOM is an unsigned
+inventory of the bundle's contents; the cosign signature and `checksums.txt`
+cover the bundle; the SLSA provenance covers both the bundle and
+`checksums.txt`.
 
 ### Quick verify with just
 

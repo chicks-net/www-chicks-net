@@ -98,9 +98,9 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
     # cosign choke with "invalid character 'N' looking for beginning of value".
     for ASSET in "${BUNDLE}" "${BUNDLE}.bundle" "multiple.intoto.jsonl" "checksums.txt"; do
         if ! curl --fail --location --output "${ASSET}" "${BASE}/${ASSET}"; then
-            echo "{{RED}}Error: failed to download ${BASE}/${ASSET} (HTTP error)."
-            echo "       Release ${TAG} may have no signed assets attached."
-            echo "       Check: gh release view ${TAG} --repo ${REPO} --json assets -q '.assets[].name'{{NORMAL}}"
+            echo "{{RED}}Error: failed to download ${BASE}/${ASSET} (HTTP error).{{NORMAL}}"
+            echo "{{RED}}       Release ${TAG} may have no signed assets attached.{{NORMAL}}"
+            echo "{{RED}}       Check: gh release view ${TAG} --repo ${REPO} --json assets -q '.assets[].name'{{NORMAL}}"
             exit 1
         fi
     done
@@ -123,7 +123,19 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
         "${BUNDLE}"
 
     echo "{{GREEN}}Verifying checksums.txt...{{NORMAL}}"
-    # checksums.txt only covers the bundle; regenerate and compare.
+    # checksums.txt is a SLSA subject alongside the bundle, so the
+    # provenance attests it too - verifying it against the provenance
+    # gives it trust beyond a same-release comparison, which only
+    # catches corruption (Claude review of #445, round 2 item 1).
+    slsa-verifier verify-artifact \
+        --provenance-path multiple.intoto.jsonl \
+        --source-uri "github.com/${REPO}" \
+        --source-tag "${TAG}" \
+        checksums.txt
+
+    echo "{{GREEN}}Verifying bundle hash against checksums.txt...{{NORMAL}}"
+    # With checksums.txt itself attested, regenerate the bundle hash
+    # and compare against the (now trusted) file.
     EXPECTED="$(grep -E " ${BUNDLE}\$" checksums.txt | awk '{print $1}')"
     # sha256sum is GNU coreutils (absent on macOS); fall back to shasum -a 256
     if command -v sha256sum >/dev/null 2>&1; then
