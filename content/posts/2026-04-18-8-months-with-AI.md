@@ -476,8 +476,8 @@ capitalism to operate.
 ## Meta
 
 - I wrote the first draft of this in `vim` without AI assistance.
-  I will let copilot and Claude review this and probably accept a lot of their suggestions.
-  You can check [the PR for this](https://github.com/chicks-net/www-chicks-net/pull/318)
+  I did let Copilot and Claude review this and accepted most of their suggestions.
+  You can check [the PR for this blog post](https://github.com/chicks-net/www-chicks-net/pull/318)
   if you care about those gory details.
 - I [cross-posted this on linked-in](https://www.linkedin.com/posts/chicks2fini_ai-llm-hallucinations-share-7452004554339954688-PoJi)
   on Monday 20 April 2026.
