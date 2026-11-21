@@ -45,8 +45,9 @@ The project uses a streamlined git workflow with just commands:
   GitHub OIDC), and attaches the bundle, checksums, SBOM, and SLSA provenance
   to the release
 - **Verify release**: `just verify-release [v2026.10]` - Verifies a release's
-  cosign signature, SLSA provenance, and checksums (defaults to latest tag;
-  see [SECURITY.md](.github/SECURITY.md) for manual verification steps)
+  cosign signature, SLSA provenance, GitHub attestations, and checksums
+  (defaults to latest tag; see [SECURITY.md](.github/SECURITY.md) for manual
+  verification steps)
 
 ### Code Quality
 
