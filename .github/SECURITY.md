@@ -38,7 +38,7 @@ the exact files deployed to <https://www.chicks.net>), a `checksums.txt` file,
 a cosign keyless signature (`.bundle`), an SBOM (`.sbom.json`), and an SLSA
 provenance attestation (`multiple.intoto.jsonl`). The release workflow also
 registers GitHub-native artifact attestations, so `gh attestation verify`
-works on the signed assets. The SBOM is an unsigned
+works on the bundle, SBOM, and checksums. The SBOM is an unsigned
 inventory of the bundle's contents; the cosign signature and `checksums.txt`
 cover the bundle; the SLSA provenance covers both the bundle and
 `checksums.txt`. Releases published before the signing workflow landed
