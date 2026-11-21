@@ -36,7 +36,9 @@ Each tagged release (e.g. `v2026.10`) ships an asset bundle
 (`www-chicks-net-<tag>.tar.gz` containing the rendered site from `public/` -
 the exact files deployed to <https://www.chicks.net>), a `checksums.txt` file,
 a cosign keyless signature (`.bundle`), an SBOM (`.sbom.json`), and an SLSA
-provenance attestation (`multiple.intoto.jsonl`). The SBOM is an unsigned
+provenance attestation (`multiple.intoto.jsonl`). The release workflow also
+registers GitHub-native artifact attestations, so `gh attestation verify`
+works on the bundle, SBOM, and checksums. The SBOM is an unsigned
 inventory of the bundle's contents; the cosign signature and `checksums.txt`
 cover the bundle; the SLSA provenance covers both the bundle and
 `checksums.txt`. Releases published before the signing workflow landed
@@ -79,6 +81,17 @@ slsa-verifier verify-artifact \
   --source-uri github.com/chicks-net/www-chicks-net \
   --source-tag "${TAG}" \
   "www-chicks-net-${TAG}.tar.gz"
+```
+
+### Verify the GitHub-native attestation
+
+```bash
+# Replace v2026.10 with the tag you want to verify. -f: fail on HTTP
+# errors instead of saving a 404 page as the asset.
+TAG="v2026.10"
+curl -fLO "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
+
+gh attestation verify "www-chicks-net-${TAG}.tar.gz" --repo chicks-net/www-chicks-net
 ```
 
 The signature is produced via keyless signing using GitHub Actions OIDC

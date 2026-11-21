@@ -66,7 +66,7 @@ check_images:
         exit 1
     fi
 
-# Verify a release's cosign signature and SLSA provenance (defaults to latest)
+# Verify a release's cosign signature, SLSA provenance, and GitHub attestations (defaults to latest)
 # Usage: just verify-release [v2026.10]
 # The default resolves the latest non-prerelease release (gh release view
 # skips prereleases), so verifying a throwaway -rc tag requires passing it
@@ -124,6 +124,11 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
         --source-uri "github.com/${REPO}" \
         --source-tag "${TAG}" \
         "${BUNDLE}"
+
+    echo "{{GREEN}}Verifying GitHub-native attestation...{{NORMAL}}"
+    # gh attestation verify prints nothing when not attached to a TTY but
+    # still exits 0 on success - GH_FORCE_TTY keeps the output visible.
+    GH_FORCE_TTY=1 gh attestation verify "${BUNDLE}" --repo "${REPO}"
 
     echo "{{GREEN}}Verifying checksums.txt...{{NORMAL}}"
     # checksums.txt is a SLSA subject alongside the bundle, so the
