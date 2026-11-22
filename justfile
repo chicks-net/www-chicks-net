@@ -128,18 +128,22 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
     echo "{{GREEN}}Verifying GitHub-native attestations...{{NORMAL}}"
     # gh attestation verify prints nothing when not attached to a TTY but
     # still exits 0 on success - GH_FORCE_TTY keeps the output visible.
-    # --signer-workflow pins the trust boundary to this release workflow,
-    # matching the exact-identity cosign check above; without it, any
-    # workflow in the repo could have produced the attestation.
+    # --signer-workflow pins the trust boundary to this release workflow
+    # and --source-ref pins it to this tag, together matching the
+    # exact-identity cosign check above; without them, any workflow in
+    # the repo (or any ref of this one) could have produced the
+    # attestation.
     GH_FORCE_TTY=1 gh attestation verify "${BUNDLE}" \
         --repo "${REPO}" \
-        --signer-workflow "${REPO}/.github/workflows/release.yml"
+        --signer-workflow "${REPO}/.github/workflows/release.yml" \
+        --source-ref "refs/tags/${TAG}"
     # checksums.txt is itself an attestation subject; verifying it directly
     # means the file that pins the bundle and SBOM digests is independently
-    # attested (the SLSA step below checks the same subject pair).
+    # attested (the SLSA steps verify the same subjects separately).
     GH_FORCE_TTY=1 gh attestation verify checksums.txt \
         --repo "${REPO}" \
-        --signer-workflow "${REPO}/.github/workflows/release.yml"
+        --signer-workflow "${REPO}/.github/workflows/release.yml" \
+        --source-ref "refs/tags/${TAG}"
 
     echo "{{GREEN}}Verifying checksums.txt...{{NORMAL}}"
     # checksums.txt is a SLSA subject alongside the bundle, so the
