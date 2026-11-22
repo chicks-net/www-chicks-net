@@ -90,8 +90,18 @@ slsa-verifier verify-artifact \
 # errors instead of saving a 404 page as the asset.
 TAG="v2026.10"
 curl -fLO "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/www-chicks-net-${TAG}.tar.gz"
+curl -fLO "https://github.com/chicks-net/www-chicks-net/releases/download/${TAG}/checksums.txt"
 
-gh attestation verify "www-chicks-net-${TAG}.tar.gz" --repo chicks-net/www-chicks-net
+# --signer-workflow pins the attestation to the release workflow, so
+# attestations produced by any other repo workflow won't verify.
+gh attestation verify "www-chicks-net-${TAG}.tar.gz" \
+  --repo chicks-net/www-chicks-net \
+  --signer-workflow chicks-net/www-chicks-net/.github/workflows/release.yml
+
+# checksums.txt is itself an attestation subject, so it verifies too.
+gh attestation verify checksums.txt \
+  --repo chicks-net/www-chicks-net \
+  --signer-workflow chicks-net/www-chicks-net/.github/workflows/release.yml
 ```
 
 The signature is produced via keyless signing using GitHub Actions OIDC
