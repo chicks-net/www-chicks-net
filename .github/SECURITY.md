@@ -121,11 +121,13 @@ releases compared these exact flags loosely - `--signer-workflow` as an
 unescaped regex (CVE-2026-64655, fixed in 2.97.0) and as an unchecked
 prefix, and `--source-ref` case-insensitively (GHSA-wjmr-j3rp-mh2g,
 GHSA-4mq3-hpgx-9cx8, fixed in 2.102.0) - so the pinning above is only as
-strong as the `gh` running it.
+strong as the `gh` running it. `just verify-release` enforces the same
+floors, so update the two together.
 
 The SBOM is an attestation subject too but is deliberately not verified
-directly here: its digest is pinned by the attested `checksums.txt`,
-which is verified above.
+directly here: its digest is pinned by the attested `checksums.txt`. To
+check it against that file, run `shasum -a 256 --check checksums.txt`
+(macOS) or `sha256sum -c checksums.txt` (Linux).
 
 ## Reporting a Vulnerability
 

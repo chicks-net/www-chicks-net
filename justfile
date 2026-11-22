@@ -96,7 +96,8 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
     # with an unknown-flag error). Versions before 2.102.0 also compare
     # these exact flags loosely (regex/prefix matching, case-insensitive
     # refs - see SECURITY.md), which silently weakens the pinning, so
-    # warn instead of fail there.
+    # warn instead of fail there. Keep these floors in sync with
+    # SECURITY.md's "Verify the GitHub-native attestation" section.
     read -r GH_MAJOR GH_MINOR <<<"$(gh --version | sed -n 's/^gh version \([0-9][0-9]*\)\.\([0-9][0-9]*\)\..*/\1 \2/p')"
     if [[ -z "${GH_MAJOR:-}" ]]; then
         echo "{{RED}}Error: could not parse gh version from: $(gh --version | head -1){{NORMAL}}"
