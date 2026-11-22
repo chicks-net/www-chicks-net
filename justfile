@@ -91,6 +91,26 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
         fi
     done
 
+    # The attestation flags need a recent gh: --signer-workflow arrived
+    # in 2.51.0, --source-ref in 2.68.0 (the hard floor - older gh exits
+    # with an unknown-flag error). Versions before 2.102.0 also compare
+    # these exact flags loosely (regex/prefix matching, case-insensitive
+    # refs - see SECURITY.md), which silently weakens the pinning, so
+    # warn instead of fail there. Keep these floors in sync with
+    # SECURITY.md's "Verify the GitHub-native attestation" section.
+    read -r GH_MAJOR GH_MINOR <<<"$(gh --version | sed -n 's/^gh version \([0-9][0-9]*\)\.\([0-9][0-9]*\)\..*/\1 \2/p')"
+    if [[ -z "${GH_MAJOR:-}" ]]; then
+        echo "{{RED}}Error: could not parse gh version from: $(gh --version | head -1){{NORMAL}}"
+        exit 1
+    fi
+    if (( GH_MAJOR < 2 || (GH_MAJOR == 2 && GH_MINOR < 68) )); then
+        echo "{{RED}}Error: gh 2.68.0+ required for the attestation flags (found $(gh --version | head -1)){{NORMAL}}"
+        exit 1
+    fi
+    if (( GH_MAJOR == 2 && GH_MINOR < 102 )); then
+        echo "{{YELLOW}}Warning: gh 2.102.0+ recommended - older versions compare the signer/source flags loosely (see SECURITY.md){{NORMAL}}"
+    fi
+
     WORKDIR="$(mktemp -d)"
     trap 'rm -rf "$WORKDIR"' EXIT
     cd "$WORKDIR"
@@ -125,10 +145,31 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
         --source-tag "${TAG}" \
         "${BUNDLE}"
 
-    echo "{{GREEN}}Verifying GitHub-native attestation...{{NORMAL}}"
+    echo "{{GREEN}}Verifying GitHub-native attestations...{{NORMAL}}"
     # gh attestation verify prints nothing when not attached to a TTY but
     # still exits 0 on success - GH_FORCE_TTY keeps the output visible.
-    GH_FORCE_TTY=1 gh attestation verify "${BUNDLE}" --repo "${REPO}"
+    # --signer-workflow pins the trust boundary to this release workflow,
+    # --source-ref pins it to this tag, and --deny-self-hosted-runners
+    # rejects attestations from runner environments outside GitHub's;
+    # together they match the exact-identity cosign check above. Without
+    # them, any workflow in the repo (or any ref of this one, or a
+    # self-hosted run of it) could have produced the attestation.
+    GH_FORCE_TTY=1 gh attestation verify "${BUNDLE}" \
+        --repo "${REPO}" \
+        --signer-workflow "${REPO}/.github/workflows/release.yml" \
+        --source-ref "refs/tags/${TAG}" \
+        --deny-self-hosted-runners
+    # checksums.txt is itself an attestation subject; verifying it directly
+    # means the file that pins the bundle and SBOM digests is independently
+    # attested (the SLSA steps verify the same subjects separately). The
+    # SBOM is a subject too but is deliberately not verified here - its
+    # digest is pinned by the attested checksums.txt and the recipe never
+    # downloads it.
+    GH_FORCE_TTY=1 gh attestation verify checksums.txt \
+        --repo "${REPO}" \
+        --signer-workflow "${REPO}/.github/workflows/release.yml" \
+        --source-ref "refs/tags/${TAG}" \
+        --deny-self-hosted-runners
 
     echo "{{GREEN}}Verifying checksums.txt...{{NORMAL}}"
     # checksums.txt is a SLSA subject alongside the bundle, so the
