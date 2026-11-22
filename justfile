@@ -91,6 +91,25 @@ verify-release TAG=`gh release view --repo chicks-net/www-chicks-net --json tagN
         fi
     done
 
+    # The attestation flags need a recent gh: --signer-workflow arrived
+    # in 2.51.0, --source-ref in 2.68.0 (the hard floor - older gh exits
+    # with an unknown-flag error). Versions before 2.102.0 also compare
+    # these exact flags loosely (regex/prefix matching, case-insensitive
+    # refs - see SECURITY.md), which silently weakens the pinning, so
+    # warn instead of fail there.
+    read -r GH_MAJOR GH_MINOR <<<"$(gh --version | sed -n 's/^gh version \([0-9][0-9]*\)\.\([0-9][0-9]*\)\..*/\1 \2/p')"
+    if [[ -z "${GH_MAJOR:-}" ]]; then
+        echo "{{RED}}Error: could not parse gh version from: $(gh --version | head -1){{NORMAL}}"
+        exit 1
+    fi
+    if (( GH_MAJOR < 2 || (GH_MAJOR == 2 && GH_MINOR < 68) )); then
+        echo "{{RED}}Error: gh 2.68.0+ required for the attestation flags (found $(gh --version | head -1)){{NORMAL}}"
+        exit 1
+    fi
+    if (( GH_MAJOR == 2 && GH_MINOR < 102 )); then
+        echo "{{YELLOW}}Warning: gh 2.102.0+ recommended - older versions compare the signer/source flags loosely (see SECURITY.md){{NORMAL}}"
+    fi
+
     WORKDIR="$(mktemp -d)"
     trap 'rm -rf "$WORKDIR"' EXIT
     cd "$WORKDIR"

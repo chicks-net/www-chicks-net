@@ -123,6 +123,10 @@ prefix, and `--source-ref` case-insensitively (GHSA-wjmr-j3rp-mh2g,
 GHSA-4mq3-hpgx-9cx8, fixed in 2.102.0) - so the pinning above is only as
 strong as the `gh` running it.
 
+The SBOM is an attestation subject too but is deliberately not verified
+directly here: its digest is pinned by the attested `checksums.txt`,
+which is verified above.
+
 ## Reporting a Vulnerability
 
 Please do **not** open a public issue for security concerns. Instead, email me
