@@ -35,7 +35,7 @@ draft = false
 
 ### chicks-net
 
-- {{< scorecard owner="chicks-net" repo="ctm" >}}
+- {{< scorecard owner="chicks-net" repo="ctm" codecov="true" >}}
 - {{< scorecard owner="chicks-net" repo="data-curated" >}}
 - {{< scorecard owner="chicks-net" repo="homebrew-chicks" >}}
 - {{< scorecard owner="chicks-net" repo="chicks-home" >}}
@@ -48,14 +48,14 @@ draft = false
 
 ### fini-net
 
-- {{< scorecard owner="fini-net" repo="gh-observer" >}}
+- {{< scorecard owner="fini-net" repo="gh-observer" codecov="true" >}}
 - {{< scorecard owner="fini-net" repo="fini-infra" >}}
 - {{< scorecard owner="fini-net" repo="template-repo" >}}
 - {{< scorecard owner="fini-net" repo="gh-amp" >}}
 - {{< scorecard owner="fini-net" repo="datadog-service-analyzer" >}}
 - {{< scorecard owner="fini-net" repo="fini-clock" >}}
 - {{< scorecard owner="fini-net" repo="fini-coredns-example" >}}
-- {{< scorecard owner="fini-net" repo="chicks-bricks" >}}
+- {{< scorecard owner="fini-net" repo="chicks-bricks" codecov="true" >}}
 - {{< scorecard owner="fini-net" repo="quilt-shop-proximity" >}}
 - {{< scorecard owner="fini-net" repo="macaw" >}}
 
